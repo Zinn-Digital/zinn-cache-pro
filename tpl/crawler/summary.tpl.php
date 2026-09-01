@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Crawler Summary
+ * Zinn® Cache Engine Crawler Summary
  *
  * @package ZinnCachePro
  * @since 1.0.0

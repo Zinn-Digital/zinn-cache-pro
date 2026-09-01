@@ -2,7 +2,7 @@
 /**
  * The Third Party integration with the WP-Polls plugin.
  *
- * Ensures WP-Polls pages are marked as non-cacheable in Zinn® Cache Pro.
+ * Ensures WP-Polls pages are marked as non-cacheable in Zinn® Cache Engine.
  *
  * @since 1.0.7
  * @package ZinnCachePro

@@ -13,7 +13,7 @@ defined( 'WPINC' ) || exit();
 /**
  * Class Str
  *
- * Provides string manipulation utilities for Zinn® Cache Pro.
+ * Provides string manipulation utilities for Zinn® Cache Engine.
  *
  * @since 1.3
  */

@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro ESI Block Loader
+ * Zinn® Cache Engine ESI Block Loader
  *
- * Loads the ESI block for Zinn® Cache Pro.
+ * Loads the ESI block for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

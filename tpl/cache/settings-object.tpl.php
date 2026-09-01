@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Object Cache Settings
+ * Zinn® Cache Engine Object Cache Settings
  *
  * @package ZinnCachePro
  * @since 1.0.0

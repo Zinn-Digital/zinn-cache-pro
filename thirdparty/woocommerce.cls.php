@@ -17,7 +17,7 @@ use ZinnCachePro\Base;
 use ZinnCachePro\ESI;
 
 /**
- * WooCommerce third-party integration for Zinn® Cache Pro.
+ * WooCommerce third-party integration for Zinn® Cache Engine.
  *
  * Handles ESI blocks, cache tags, purging behaviors, and settings integration
  * specific to WooCommerce.

@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Image Optimization Network Settings
+ * Zinn® Cache Engine Image Optimization Network Settings
  *
- * Manages network-wide image optimization settings for Zinn® Cache Pro.
+ * Manages network-wide image optimization settings for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

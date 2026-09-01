@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Purge Settings
+ * Zinn® Cache Engine Purge Settings
  *
  * @package ZinnCachePro
  * @since 1.0.0

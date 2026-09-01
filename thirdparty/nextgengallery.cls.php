@@ -12,7 +12,7 @@ namespace ZinnCachePro\Thirdparty;
 defined('WPINC') || exit();
 
 /**
- * Provides Zinn® Cache Pro compatibility for NextGen Gallery.
+ * Provides Zinn® Cache Engine compatibility for NextGen Gallery.
  */
 class NextGenGallery {
 

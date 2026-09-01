@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Settings
+ * Zinn® Cache Engine Settings
  *
- * Displays the cache settings page with tabbed navigation for Zinn® Cache Pro.
+ * Displays the cache settings page with tabbed navigation for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -25,7 +25,7 @@ if ( $this->_is_network_admin ) {
 
 <div class="wrap">
 	<h1 class="litespeed-h1">
-		<?php esc_html_e( 'Zinn® Cache Pro Network Cache Settings', 'zinn-cache-pro' ); ?>
+		<?php esc_html_e( 'Zinn® Cache Engine Network Cache Settings', 'zinn-cache-pro' ); ?>
 	</h1>
 	<span class="litespeed-desc">
 		<?php echo esc_html( 'v' . Core::VER ); ?>
@@ -97,7 +97,7 @@ ksort( $roles );
 
 <div class="wrap">
 	<h1 class="litespeed-h1">
-		<?php esc_html_e( 'Zinn® Cache Pro Settings', 'zinn-cache-pro' ); ?>
+		<?php esc_html_e( 'Zinn® Cache Engine Settings', 'zinn-cache-pro' ); ?>
 	</h1>
 	<span class="litespeed-desc">
 		<?php echo esc_html( 'v' . Core::VER ); ?>

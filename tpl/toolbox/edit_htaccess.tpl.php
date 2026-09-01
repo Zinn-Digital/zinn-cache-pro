@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro View .htaccess
+ * Zinn® Cache Engine View .htaccess
  *
- * Renders the .htaccess view interface for Zinn® Cache Pro, displaying the contents and paths of frontend and backend .htaccess files.
+ * Renders the .htaccess view interface for Zinn® Cache Engine, displaying the contents and paths of frontend and backend .htaccess files.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -38,7 +38,7 @@ if ( defined( 'ZINN_CACHE_PRO_ON' ) && $content && stripos( $content, "\nExpires
 ?>
 
 <h3 class="litespeed-title">
-	<?php esc_html_e( 'Zinn® Cache Pro View .htaccess', 'zinn-cache-pro' ); ?>
+	<?php esc_html_e( 'Zinn® Cache Engine View .htaccess', 'zinn-cache-pro' ); ?>
 	<?php Doc::learn_more( 'https://docs.litespeedtech.com/lscache/lscwp/toolbox/#view-htaccess-tab' ); ?>
 </h3>
 

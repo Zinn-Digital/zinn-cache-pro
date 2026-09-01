@@ -1,6 +1,6 @@
 # Changes from upstream
 
-**Zinn Cache Pro** is a modified version of **LiteSpeed Cache 7.8.1**
+**Zinn Cache Engine** is a modified version of **LiteSpeed Cache 7.8.1**
 (Copyright © 2015–2026 LiteSpeed Technologies, Inc., GPL-3.0-or-later).
 
 Modified by **Zinn Digital® Ltd** (Neil Lock, CEO). First modified release: **2026-07-24**.
@@ -23,7 +23,7 @@ upstream. Every upstream copyright, authorship and licence notice is preserved v
 
 So the fork is a genuinely distinct plugin that can never collide with an upstream install:
 
-| Upstream | Zinn® Cache Pro |
+| Upstream | Zinn® Cache Engine |
 |---|---|
 | `litespeed-cache` (slug, text domain) | `zinn-cache-pro` |
 | `LiteSpeed` (PHP namespace) | `ZinnCachePro` |
@@ -118,7 +118,7 @@ and the Cloudflare and generic static-CDN integrations.
 
 The enforced floors now match the declared header, and both are non-EOL runtimes:
 
-| | Upstream | Zinn® Cache Pro |
+| | Upstream | Zinn® Cache Engine |
 |---|---|---|
 | PHP | 7.2 | **8.2** |
 | WordPress | 5.3 | **6.6** |

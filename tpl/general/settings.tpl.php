@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro General Settings
+ * Zinn® Cache Engine General Settings
  *
- * Manages general settings for Zinn® Cache Pro, including Guest Mode optimization, server IP, and news settings.
+ * Manages general settings for Zinn® Cache Engine, including Guest Mode optimization, server IP, and news settings.
  *
  * @package ZinnCachePro
  * @since 1.0.0

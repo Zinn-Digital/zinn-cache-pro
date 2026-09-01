@@ -73,7 +73,7 @@ class Metabox extends Root {
 			self::debug( 'post type public=false, bypass add_meta_boxes' );
 			return;
 		}
-		add_meta_box( 'zinn_cache_pro_meta_boxes', 'Zinn® Cache Pro', [ $this, 'meta_box_options' ], $post_type, 'side', 'core' );
+		add_meta_box( 'zinn_cache_pro_meta_boxes', 'Zinn® Cache Engine', [ $this, 'meta_box_options' ], $post_type, 'side', 'core' );
 	}
 
 	/**

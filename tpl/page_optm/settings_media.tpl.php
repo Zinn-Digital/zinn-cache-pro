@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Media Settings
+ * Zinn® Cache Engine Media Settings
  *
- * Renders the media settings interface for Zinn® Cache Pro, including lazy loading, placeholders, and image optimization options.
+ * Renders the media settings interface for Zinn® Cache Engine, including lazy loading, placeholders, and image optimization options.
  *
  * @package ZinnCachePro
  * @since 1.0.0

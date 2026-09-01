@@ -15,7 +15,7 @@ defined( 'WPINC' ) || exit();
 /**
  * Class Admin_Settings
  *
- * Saves, sanitizes, and validates Zinn® Cache Pro settings.
+ * Saves, sanitizes, and validates Zinn® Cache Engine settings.
  */
 class Admin_Settings extends Base {
 	const LOG_TAG = '[Settings]';
@@ -347,7 +347,7 @@ class Admin_Settings extends Base {
 	}
 
 	/**
-	 * Validate the Zinn® Cache Pro settings on widget save.
+	 * Validate the Zinn® Cache Engine settings on widget save.
 	 *
 	 * @since 1.1.3
 	 *

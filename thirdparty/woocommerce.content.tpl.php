@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro – WooCommerce settings template.
+ * Zinn® Cache Engine – WooCommerce settings template.
  *
- * Renders the WooCommerce integration settings within the Zinn® Cache Pro admin.
+ * Renders the WooCommerce integration settings within the Zinn® Cache Engine admin.
  *
  * @package ZinnCachePro\Thirdparty
  */

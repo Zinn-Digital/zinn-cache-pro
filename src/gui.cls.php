@@ -2,7 +2,7 @@
 /**
  * The frontend GUI class.
  *
- * Provides front-end and admin-bar UI helpers for Zinn® Cache Pro.
+ * Provides front-end and admin-bar UI helpers for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.3
@@ -13,7 +13,7 @@ namespace ZinnCachePro;
 defined( 'WPINC' ) || exit();
 
 /**
- * GUI helpers for Zinn® Cache Pro.
+ * GUI helpers for Zinn® Cache Engine.
  */
 class GUI extends Base {
 	const LOG_TAG = '[GUI]';
@@ -831,7 +831,7 @@ class GUI extends Base {
 			$wp_admin_bar->add_menu(
 				[
 					'id'    => 'litespeed-menu',
-					'title' => '<span class="ab-icon icon_disabled" title="Zinn® Cache Pro"></span>',
+					'title' => '<span class="ab-icon icon_disabled" title="Zinn® Cache Engine"></span>',
 					'href'  => 'admin.php?page=zinn-cache-pro-toolbox#settings-debug',
 					'meta'  => [
 						'tabindex' => 0,
@@ -854,7 +854,7 @@ class GUI extends Base {
 		$wp_admin_bar->add_menu(
 			[
 				'id'    => 'litespeed-menu',
-				'title' => '<span class="ab-icon" title="' . esc_attr__( 'Zinn® Cache Pro Purge All', 'zinn-cache-pro' ) . ' - ' . esc_attr__( 'LSCache', 'zinn-cache-pro' ) . '"></span>',
+				'title' => '<span class="ab-icon" title="' . esc_attr__( 'Zinn® Cache Engine Purge All', 'zinn-cache-pro' ) . ' - ' . esc_attr__( 'LSCache', 'zinn-cache-pro' ) . '"></span>',
 				'href'  => Utility::build_url( Router::ACTION_PURGE, Purge::TYPE_PURGE_ALL_LSCACHE ),
 				'meta'  => [
 					'tabindex' => 0,

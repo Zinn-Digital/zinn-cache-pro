@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Developer Version Banner
+ * Zinn® Cache Engine Developer Version Banner
  *
- * Displays a promotional banner for a new developer version of Zinn® Cache Pro.
+ * Displays a promotional banner for a new developer version of Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -18,7 +18,7 @@ defined( 'WPINC' ) || exit;
 
 	<div class="litespeed-banner-promo-content">
 		<h3 class="litespeed-banner-title litespeed-top15">
-			<?php esc_html_e( 'Zinn® Cache Pro', 'zinn-cache-pro' ); ?>:
+			<?php esc_html_e( 'Zinn® Cache Engine', 'zinn-cache-pro' ); ?>:
 			<?php esc_html_e( 'New Developer Version Available!', 'zinn-cache-pro' ); ?>
 		</h3>
 		<div class="litespeed-banner-description">

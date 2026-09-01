@@ -13,7 +13,7 @@ namespace ZinnCachePro;
 defined( 'WPINC' ) || exit();
 
 /**
- * Data layer for Zinn® Cache Pro.
+ * Data layer for Zinn® Cache Engine.
  */
 class Data extends Root {
 

@@ -2,14 +2,14 @@
 // phpcs:ignoreFile
 
 /**
- * Plugin Name:       Zinn® Cache Pro - Object Cache (Drop-in)
+ * Plugin Name:       Zinn® Cache Engine - Object Cache (Drop-in)
  * Plugin URI:        https://zinndigital.com
  * Description:       Persistent object caching (Redis/Memcached) for the Zinn Digital® hosting platform.
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
  * Author URI:        https://zinndigital.com
  * License:           GPL-3.0-or-later
  *
- * Part of Zinn Cache Pro, a modified version of Zinn® Cache Pro 7.8.1.
+ * Part of Zinn Cache Engine, a modified version of Zinn® Cache Engine 7.8.1.
  * Copyright (C) 2015-2026 LiteSpeed Technologies, Inc.
  * Modified by Zinn Digital® Ltd (Neil Lock, CEO); first modified release 2026-07-24.
  */

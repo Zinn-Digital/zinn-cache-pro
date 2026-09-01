@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro TTL Settings
+ * Zinn® Cache Engine TTL Settings
  *
  * @package ZinnCachePro
  * @since 1.0.0

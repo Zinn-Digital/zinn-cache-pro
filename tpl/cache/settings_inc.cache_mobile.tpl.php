@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Mobile View Settings
+ * Zinn® Cache Engine Mobile View Settings
  *
- * Displays the mobile view cache settings for Zinn® Cache Pro.
+ * Displays the mobile view cache settings for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

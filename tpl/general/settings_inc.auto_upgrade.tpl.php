@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Auto Upgrade Setting
+ * Zinn® Cache Engine Auto Upgrade Setting
  *
- * Manages the auto-upgrade setting for Zinn® Cache Pro.
+ * Manages the auto-upgrade setting for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -22,7 +22,7 @@ defined( 'WPINC' ) || exit;
 		<td>
 			<?php $this->build_switch( $option_id ); ?>
 			<div class="litespeed-desc">
-				<?php esc_html_e( 'Turn this option ON to have Zinn® Cache Pro updated automatically, whenever a new version is released. If OFF, update manually as usual.', 'zinn-cache-pro' ); ?>
+				<?php esc_html_e( 'Turn this option ON to have Zinn® Cache Engine updated automatically, whenever a new version is released. If OFF, update manually as usual.', 'zinn-cache-pro' ); ?>
 			</div>
 		</td>
 	</tr>

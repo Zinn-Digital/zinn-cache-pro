@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Browser Settings
+ * Zinn® Cache Engine Browser Settings
  *
- * Includes the browser cache settings template for Zinn® Cache Pro.
+ * Includes the browser cache settings template for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

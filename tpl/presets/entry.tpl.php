@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Configuration Presets
+ * Zinn® Cache Engine Configuration Presets
  *
- * Renders the configuration presets interface for Zinn® Cache Pro, including standard presets and import/export functionality.
+ * Renders the configuration presets interface for Zinn® Cache Engine, including standard presets and import/export functionality.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -20,7 +20,7 @@ $menu_list = array(
 
 <div class="wrap">
 	<h1 class="litespeed-h1">
-		<?php esc_html_e( 'Zinn® Cache Pro Configuration Presets', 'zinn-cache-pro' ); ?>
+		<?php esc_html_e( 'Zinn® Cache Engine Configuration Presets', 'zinn-cache-pro' ); ?>
 	</h1>
 	<span class="litespeed-desc">
 		v<?php echo esc_html( Core::VER ); ?>

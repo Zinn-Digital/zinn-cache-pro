@@ -14,7 +14,7 @@ defined( 'WPINC' ) || exit();
 use ZinnCachePro\API;
 
 /**
- * Wpdiscuz integration for Zinn® Cache Pro.
+ * Wpdiscuz integration for Zinn® Cache Engine.
  *
  * Appends commenter vary and disables pending-check when a commenter is detected.
  */

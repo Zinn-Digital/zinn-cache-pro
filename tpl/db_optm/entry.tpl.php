@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Database Optimization
+ * Zinn® Cache Engine Database Optimization
  *
  * @package ZinnCachePro
  */
@@ -21,7 +21,7 @@ if ( ! is_network_admin() ) {
 
 <div class="wrap">
     <h1 class="litespeed-h1">
-        <?php esc_html_e( 'Zinn® Cache Pro Database Optimization', 'zinn-cache-pro' ); ?>
+        <?php esc_html_e( 'Zinn® Cache Engine Database Optimization', 'zinn-cache-pro' ); ?>
     </h1>
     <span class="litespeed-desc">
         <?php echo esc_html( 'v' . Core::VER ); ?>

@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Setting Tip
+ * Zinn® Cache Engine Setting Tip
  *
- * Displays a notice to inform users about additional Zinn® Cache Pro settings.
+ * Displays a notice to inform users about additional Zinn® Cache Engine settings.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -23,9 +23,9 @@ if ( 'options-general.php' !== $pagenow ) {
 	<p>
 		<?php
 		printf(
-			/* translators: %s: Zinn® Cache Pro menu label */
+			/* translators: %s: Zinn® Cache Engine menu label */
 			esc_html__( 'More settings available under %s menu', 'zinn-cache-pro' ),
-			'<code>' . esc_html__( 'Zinn® Cache Pro', 'zinn-cache-pro' ) . '</code>'
+			'<code>' . esc_html__( 'Zinn® Cache Engine', 'zinn-cache-pro' ) . '</code>'
 		);
 		?>
 	</p>

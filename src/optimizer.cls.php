@@ -62,7 +62,7 @@ class Optimizer extends Root {
 				return $content;
 			}
 			if (!defined('LSCACHE_ESI_SILENCE')) {
-				$content_final .= "\n" . '<!-- Page optimized by Zinn® Cache Pro @' . date('Y-m-d H:i:s', time() + ZINN_CACHE_PRO_TIME_OFFSET) . ' -->';
+				$content_final .= "\n" . '<!-- Page optimized by Zinn® Cache Engine @' . date('Y-m-d H:i:s', time() + ZINN_CACHE_PRO_TIME_OFFSET) . ' -->';
 			}
 			return $content_final;
 		} catch (\Exception $e) {

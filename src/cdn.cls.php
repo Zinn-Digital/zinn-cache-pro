@@ -1,6 +1,6 @@
 <?php
 /**
- * CDN handling for Zinn® Cache Pro.
+ * CDN handling for Zinn® Cache Engine.
  *
  * Rewrites eligible asset URLs to configured CDN endpoints and integrates with WordPress filters.
  *

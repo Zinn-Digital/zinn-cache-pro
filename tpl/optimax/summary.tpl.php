@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro OptimaX Summary
+ * Zinn® Cache Engine OptimaX Summary
  *
- * Manages the OX summary interface for Zinn® Cache Pro.
+ * Manages the OX summary interface for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 8.0

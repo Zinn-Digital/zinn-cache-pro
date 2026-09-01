@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Unexpected Cache Rule Notice
+ * Zinn® Cache Engine Unexpected Cache Rule Notice
  *
  * Displays a warning notice about conflicting cache rules in .htaccess that may cause stale content.
  *

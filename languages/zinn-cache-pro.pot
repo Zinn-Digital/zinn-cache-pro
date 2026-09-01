@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-3.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Cache Pro 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-cache-pro\n"
+"Project-Id-Version: Zinn® Cache Engine 1.0.0\n"
+"Report-Msgid-Bugs-To: https://zinndigital.com/support\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-22T20:32:35+00:00\n"
+"POT-Creation-Date: 2026-09-01T11:27:34+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-cache-pro\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
 #: tpl/inc/admin_footer.php:17
-msgid "Zinn® Cache Pro"
+msgid "Zinn® Cache Engine"
 msgstr ""
 
 #. Plugin URI of the plugin
@@ -31,7 +31,7 @@ msgstr ""
 
 #. Description of the plugin
 #: zinn-cache-pro.php
-msgid "High-performance server-side caching for the Zinn Digital® hosting platform: full-page cache, object cache, database optimisation and CSS/JS optimisation. A GPLv3 fork of the LiteSpeed Cache plugin; requires a LiteSpeed or OpenLiteSpeed server with the LSCache module for full-page caching."
+msgid "A complete caching and optimisation engine for WordPress: full-page cache, object cache, database cleanup and CSS/JS optimisation. Install this when your host does not provide a cache layer of its own — on Zinn Digital® hosting install Zinn® Cache instead. Full-page caching requires a LiteSpeed or OpenLiteSpeed server with the LSCache module. A GPLv3 fork of the LiteSpeed Cache plugin."
 msgstr ""
 
 #. Author of the plugin
@@ -1066,7 +1066,7 @@ msgid "Enable All Features"
 msgstr ""
 
 #: src/gui.cls.php:857
-msgid "Zinn® Cache Pro Purge All"
+msgid "Zinn® Cache Engine Purge All"
 msgstr ""
 
 #: src/gui.cls.php:870
@@ -2222,7 +2222,7 @@ msgstr ""
 
 #: thirdparty/litespeed-check.cls.php:100
 #: thirdparty/litespeed-check.cls.php:165
-msgid "Please consider disabling the following detected plugins, as they may conflict with Zinn® Cache Pro:"
+msgid "Please consider disabling the following detected plugins, as they may conflict with Zinn® Cache Engine:"
 msgstr ""
 
 #: thirdparty/woocommerce.content.tpl.php:19
@@ -2336,7 +2336,7 @@ msgid "Advanced"
 msgstr ""
 
 #: tpl/cache/entry.tpl.php:28
-msgid "Zinn® Cache Pro Network Cache Settings"
+msgid "Zinn® Cache Engine Network Cache Settings"
 msgstr ""
 
 #: tpl/cache/entry.tpl.php:67
@@ -2349,7 +2349,7 @@ msgid "ESI"
 msgstr ""
 
 #: tpl/cache/entry.tpl.php:100
-msgid "Zinn® Cache Pro Settings"
+msgid "Zinn® Cache Engine Settings"
 msgstr ""
 
 #: tpl/cache/more_settings_tip.tpl.php:22
@@ -2361,7 +2361,7 @@ msgstr ""
 msgid "NOTE"
 msgstr ""
 
-#. translators: %s: Zinn® Cache Pro menu label
+#. translators: %s: Zinn® Cache Engine menu label
 #: tpl/cache/more_settings_tip.tpl.php:27
 #, php-format
 msgid "More settings available under %s menu"
@@ -2382,7 +2382,7 @@ msgid "Network Enable Cache"
 msgstr ""
 
 #: tpl/cache/network_settings-cache.tpl.php:28
-msgid "Enabling Zinn® Cache Pro for WordPress here enables the cache for the network."
+msgid "Enabling Zinn® Cache Engine for WordPress here enables the cache for the network."
 msgstr ""
 
 #: tpl/cache/network_settings-cache.tpl.php:29
@@ -3148,7 +3148,7 @@ msgid "Other Static CDN"
 msgstr ""
 
 #: tpl/cdn/entry.tpl.php:21
-msgid "Zinn® Cache Pro CDN"
+msgid "Zinn® Cache Engine CDN"
 msgstr ""
 
 #: tpl/cdn/other.tpl.php:28
@@ -3293,7 +3293,7 @@ msgid "Map"
 msgstr ""
 
 #: tpl/crawler/entry.tpl.php:23
-msgid "Zinn® Cache Pro Crawler"
+msgid "Zinn® Cache Engine Crawler"
 msgstr ""
 
 #: tpl/crawler/map.tpl.php:29
@@ -3894,7 +3894,7 @@ msgid "Network Dashboard"
 msgstr ""
 
 #: tpl/dash/entry.tpl.php:29
-msgid "Zinn® Cache Pro Dashboard"
+msgid "Zinn® Cache Engine Dashboard"
 msgstr ""
 
 #: tpl/dash/network_dash.tpl.php:28
@@ -3917,7 +3917,7 @@ msgid "DB Optimization Settings"
 msgstr ""
 
 #: tpl/db_optm/entry.tpl.php:24
-msgid "Zinn® Cache Pro Database Optimization"
+msgid "Zinn® Cache Engine Database Optimization"
 msgstr ""
 
 #: tpl/db_optm/manage.tpl.php:17
@@ -4109,7 +4109,7 @@ msgid "General Settings"
 msgstr ""
 
 #: tpl/general/entry.tpl.php:29
-msgid "Zinn® Cache Pro General Settings"
+msgid "Zinn® Cache Engine General Settings"
 msgstr ""
 
 #: tpl/general/network_settings.tpl.php:31
@@ -4188,7 +4188,7 @@ msgid "Turn this option ON to show latest news automatically, including hotfixes
 msgstr ""
 
 #: tpl/general/settings_inc.auto_upgrade.tpl.php:25
-msgid "Turn this option ON to have Zinn® Cache Pro updated automatically, whenever a new version is released. If OFF, update manually as usual."
+msgid "Turn this option ON to have Zinn® Cache Engine updated automatically, whenever a new version is released. If OFF, update manually as usual."
 msgstr ""
 
 #: tpl/general/settings_inc.guest.tpl.php:26
@@ -4241,7 +4241,7 @@ msgid "Image Optimization Settings"
 msgstr ""
 
 #: tpl/img_optm/entry.tpl.php:30
-msgid "Zinn® Cache Pro Image Optimization"
+msgid "Zinn® Cache Engine Image Optimization"
 msgstr ""
 
 #: tpl/img_optm/settings.media_webp.tpl.php:25
@@ -4547,7 +4547,7 @@ msgid "Please enable the LSCache Module at the server level, or ask your hosting
 msgstr ""
 
 #: tpl/inc/check_cache_disabled.php:31
-msgid "Please enable Zinn® Cache Pro in the plugin settings."
+msgid "Please enable Zinn® Cache Engine in the plugin settings."
 msgstr ""
 
 #: tpl/inc/check_cache_disabled.php:40
@@ -4567,7 +4567,7 @@ msgid "LiteSpeed cache plugin upgraded. Please refresh the page to complete the 
 msgstr ""
 
 #: tpl/inc/modal.deactivation.php:16
-msgid "Deactivate Zinn® Cache Pro"
+msgid "Deactivate Zinn® Cache Engine"
 msgstr ""
 
 #: tpl/inc/modal.deactivation.php:22
@@ -4612,7 +4612,7 @@ msgid "Close popup"
 msgstr ""
 
 #: tpl/inc/show_display_installed.php:26
-msgid "Zinn® Cache Pro plugin is installed!"
+msgid "Zinn® Cache Engine plugin is installed!"
 msgstr ""
 
 #: tpl/inc/show_display_installed.php:27
@@ -4620,7 +4620,7 @@ msgid "This message indicates that the plugin was installed by the server admin.
 msgstr ""
 
 #: tpl/inc/show_display_installed.php:28
-msgid "The Zinn® Cache Pro plugin is used to cache pages - a simple way to improve the performance of the site."
+msgid "The Zinn® Cache Engine plugin is used to cache pages - a simple way to improve the performance of the site."
 msgstr ""
 
 #: tpl/inc/show_display_installed.php:29
@@ -4686,7 +4686,7 @@ msgid "OptimaX Settings"
 msgstr ""
 
 #: tpl/optimax/entry.tpl.php:30
-msgid "Zinn® Cache Pro OptimaX"
+msgid "Zinn® Cache Engine OptimaX"
 msgstr ""
 
 #: tpl/optimax/settings.tpl.php:34
@@ -4732,7 +4732,7 @@ msgid "Tuning"
 msgstr ""
 
 #: tpl/page_optm/entry.tpl.php:31
-msgid "Zinn® Cache Pro Page Optimization"
+msgid "Zinn® Cache Engine Page Optimization"
 msgstr ""
 
 #: tpl/page_optm/entry.tpl.php:43
@@ -5373,7 +5373,7 @@ msgid "Import / Export"
 msgstr ""
 
 #: tpl/presets/entry.tpl.php:23
-msgid "Zinn® Cache Pro Configuration Presets"
+msgid "Zinn® Cache Engine Configuration Presets"
 msgstr ""
 
 #: tpl/presets/standard.tpl.php:17
@@ -5519,7 +5519,7 @@ msgid "A QUIC.cloud connection is required to use this preset. Enables the maxim
 msgstr ""
 
 #: tpl/presets/standard.tpl.php:92
-msgid "Zinn® Cache Pro Standard Presets"
+msgid "Zinn® Cache Engine Standard Presets"
 msgstr ""
 
 #: tpl/presets/standard.tpl.php:96
@@ -5577,7 +5577,7 @@ msgid "Restore Settings"
 msgstr ""
 
 #: tpl/toolbox/edit_htaccess.tpl.php:41
-msgid "Zinn® Cache Pro View .htaccess"
+msgid "Zinn® Cache Engine View .htaccess"
 msgstr ""
 
 #: tpl/toolbox/edit_htaccess.tpl.php:46
@@ -5632,7 +5632,7 @@ msgid "Log View"
 msgstr ""
 
 #: tpl/toolbox/entry.tpl.php:39
-msgid "Zinn® Cache Pro Toolbox"
+msgid "Zinn® Cache Engine Toolbox"
 msgstr ""
 
 #: tpl/toolbox/heartbeat.tpl.php:19
@@ -5693,7 +5693,7 @@ msgid "Last exported"
 msgstr ""
 
 #: tpl/toolbox/import_export.tpl.php:36
-msgid "This will export all current Zinn® Cache Pro settings and save them as a file."
+msgid "This will export all current Zinn® Cache Engine settings and save them as a file."
 msgstr ""
 
 #: tpl/toolbox/import_export.tpl.php:40
@@ -5709,7 +5709,7 @@ msgid "Last imported"
 msgstr ""
 
 #: tpl/toolbox/import_export.tpl.php:59
-msgid "This will import settings from a file and override all current Zinn® Cache Pro settings."
+msgid "This will import settings from a file and override all current Zinn® Cache Engine settings."
 msgstr ""
 
 #: tpl/toolbox/import_export.tpl.php:63
@@ -5924,7 +5924,7 @@ msgstr ""
 
 #: tpl/toolbox/settings-debug.tpl.php:48
 #, php-format
-msgid "Zinn® Cache Pro is temporarily disabled until: %s."
+msgid "Zinn® Cache Engine is temporarily disabled until: %s."
 msgstr ""
 
 #: tpl/toolbox/settings-debug.tpl.php:69
@@ -5986,4 +5986,12 @@ msgstr ""
 
 #: tpl/toolbox/settings-debug.tpl.php:188
 msgid "Prevent writing log entries that include listed strings."
+msgstr ""
+
+#: zinn/class-updater.php:230
+msgid "See the Zinn Digital® release notes."
+msgstr ""
+
+#: zinn/class-updater.php:285
+msgid "The downloaded update failed its integrity check and was not installed."
 msgstr ""

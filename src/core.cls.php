@@ -2,7 +2,7 @@
 /**
  * The core plugin class.
  *
- * This is the main class for the Zinn® Cache Pro plugin, responsible for initializing
+ * This is the main class for the Zinn® Cache Engine plugin, responsible for initializing
  * the plugin's core functionality, registering hooks, and handling cache-related operations.
  *
  * Note: Core doesn't allow $this->cls( 'Core' )
@@ -22,7 +22,7 @@ defined( 'WPINC' ) || exit();
  */
 class Core extends Root {
 
-	const NAME        = 'Zinn® Cache Pro';
+	const NAME        = 'Zinn® Cache Engine';
 	const PLUGIN_NAME = 'zinn-cache-pro';
 	const PLUGIN_FILE = 'zinn-cache-pro/zinn-cache-pro.php';
 	const VER         = ZINN_CACHE_PRO_V;
@@ -537,7 +537,7 @@ class Core extends Root {
 	/**
 	 * Sends the headers out at the end of processing the request.
 	 *
-	 * This will send out all Zinn® Cache Pro related response headers needed for the post.
+	 * This will send out all Zinn® Cache Engine related response headers needed for the post.
 	 *
 	 * @since 1.0.5
 	 * @param bool $is_forced If the header is sent following our normal finalizing logic.
@@ -586,7 +586,7 @@ class Core extends Root {
 
 		$this->comment(
 			sprintf(
-				'%1$s %2$s by Zinn® Cache Pro %4$s on %3$s',
+				'%1$s %2$s by Zinn® Cache Engine %4$s on %3$s',
 				defined( 'LSCACHE_IS_ESI' ) ? 'Block' : 'Page',
 				$cache_support,
 				gmdate( 'Y-m-d H:i:s', time() + ZINN_CACHE_PRO_TIME_OFFSET ),

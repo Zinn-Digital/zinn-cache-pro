@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Post Meta Settings
+ * Zinn® Cache Engine Post Meta Settings
  *
- * Renders the post meta settings interface for Zinn® Cache Pro, allowing configuration of post-specific options.
+ * Renders the post meta settings interface for Zinn® Cache Engine, allowing configuration of post-specific options.
  *
  * @package ZinnCachePro
  * @since 1.0.0

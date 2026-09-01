@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Network Exclude Settings
+ * Zinn® Cache Engine Network Exclude Settings
  *
- * Displays the network exclude settings section for Zinn® Cache Pro.
+ * Displays the network exclude settings section for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

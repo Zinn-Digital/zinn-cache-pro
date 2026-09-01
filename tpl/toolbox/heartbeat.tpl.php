@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Heartbeat Control
+ * Zinn® Cache Engine Heartbeat Control
  *
- * Renders the heartbeat control settings interface for Zinn® Cache Pro, allowing configuration of WordPress heartbeat intervals.
+ * Renders the heartbeat control settings interface for Zinn® Cache Engine, allowing configuration of WordPress heartbeat intervals.
  *
  * @package ZinnCachePro
  * @since 1.0.0

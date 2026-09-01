@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Purge Interface
+ * Zinn® Cache Engine Purge Interface
  *
- * Renders the purge interface for Zinn® Cache Pro, allowing users to clear various cache types and purge specific content.
+ * Renders the purge interface for Zinn® Cache Engine, allowing users to clear various cache types and purge specific content.
  *
  * @package ZinnCachePro
  * @since 1.0.0

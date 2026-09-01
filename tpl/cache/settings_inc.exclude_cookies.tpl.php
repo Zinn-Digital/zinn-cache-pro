@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Exclude Cookies Setting
+ * Zinn® Cache Engine Exclude Cookies Setting
  *
- * Displays the exclude cookies setting for Zinn® Cache Pro.
+ * Displays the exclude cookies setting for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

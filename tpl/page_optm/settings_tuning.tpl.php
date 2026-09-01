@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Tuning Settings
+ * Zinn® Cache Engine Tuning Settings
  *
- * Renders the tuning settings interface for Zinn® Cache Pro, allowing configuration of optimization exclusions and role-based settings.
+ * Renders the tuning settings interface for Zinn® Cache Engine, allowing configuration of optimization exclusions and role-based settings.
  *
  * @package ZinnCachePro
  * @since 1.0.0

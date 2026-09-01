@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Purge on Upgrade Setting
+ * Zinn® Cache Engine Purge on Upgrade Setting
  *
- * Displays the purge on upgrade setting for Zinn® Cache Pro.
+ * Displays the purge on upgrade setting for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

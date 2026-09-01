@@ -1,6 +1,6 @@
-# Zinn® Cache Pro
+# Zinn® Cache Engine
 
-High-performance server-side caching for the Zinn Digital® hosting platform: full-page cache, object cache, database optimisation, and CSS/JS optimisation.
+A complete caching and optimisation engine for WordPress — install this when your host provides no cache layer of its own. On Zinn Digital® hosting, install Zinn® Cache instead.
 
 Built and maintained by **Neil Lock — CEO, Zinn Digital® Ltd** — https://zinndigital.com
 
@@ -33,9 +33,11 @@ On a site we host this plugin keeps itself up to date. On your own WordPress it 
 
 ## Our other WordPress plugins
 
-- **[zinn-cache](https://github.com/Zinn-Digital/zinn-cache)** — Server-side LiteSpeed (LSCache) cache control for WordPress, with smart auto-purge and a Redis object-cache toggle.
+- **[zinn-cache](https://github.com/Zinn-Digital/zinn-cache)** — For sites hosted with Zinn Digital® — controls the page cache your Zinn® server already runs, with smart auto-purge, remote purge from your dashboard and a Redis object cache. Hosting elsewhere? Install Zinn® Cache Engine instead.
 - **[zinn-connector](https://github.com/Zinn-Digital/zinn-connector)** — Connect any WordPress site to Zinn Digital® so scheduled articles publish to it. Pair with a code from your dashboard.
+- **[zinn-offload](https://github.com/Zinn-Digital/zinn-offload)** — Move a WordPress media library to Zinn® object storage and serve it from a CDN. Configured from the Zinn® dashboard — no access key is ever typed into WordPress.
 - **[zinn-reseller](https://github.com/Zinn-Digital/zinn-reseller-toolkit)** — Sell Zinn Digital® hosting from your own WordPress site — domain search, one-click client sign-in, and WooCommerce provisioning.
+- **[zinn-translate](https://github.com/Zinn-Digital/zinn-translate)** — Serve a Zinn Digital®-translated site in every language, each on its own web address, with correct hreflang tags. Renders finished translations; generates none.
 
 All of them are free to download from https://zinndigital.com/wordpress-plugins.
 

@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Standard Presets
+ * Zinn® Cache Engine Standard Presets
  *
- * Renders the standard presets interface for Zinn® Cache Pro, allowing users to apply predefined configuration presets.
+ * Renders the standard presets interface for Zinn® Cache Engine, allowing users to apply predefined configuration presets.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -89,7 +89,7 @@ $presets = array(
 ?>
 
 <h3 class="litespeed-title-short">
-	<?php esc_html_e( 'Zinn® Cache Pro Standard Presets', 'zinn-cache-pro' ); ?>
+	<?php esc_html_e( 'Zinn® Cache Engine Standard Presets', 'zinn-cache-pro' ); ?>
 	<?php Doc::learn_more( 'https://docs.litespeedtech.com/lscache/lscwp/presets/#standard-tab' ); ?>
 </h3>
 

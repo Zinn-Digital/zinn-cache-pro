@@ -1,9 +1,9 @@
-# Third-Party Notices — Zinn® Cache Pro
+# Third-Party Notices — Zinn® Cache Engine
 
-Zinn® Cache Pro is a fork of **LiteSpeed Cache 7.8.1** (Copyright © 2015–2026 LiteSpeed
+Zinn® Cache Engine is a fork of **LiteSpeed Cache 7.8.1** (Copyright © 2015–2026 LiteSpeed
 Technologies, Inc.). The plugin as a whole is distributed under the **GNU General Public
 License, version 3 or later (GPL-3.0-or-later)** — see the plugin's `LICENSE` file.
-Zinn® Cache Pro is published by **Neil Lock — CEO, Zinn Digital® Ltd**, https://zinndigital.com.
+Zinn® Cache Engine is published by **Neil Lock — CEO, Zinn Digital® Ltd**, https://zinndigital.com.
 
 The plugin bundles the third-party components listed below. Each is used under **its own
 licence**, which is compatible with GPL-3.0-or-later. Nothing in this file changes the

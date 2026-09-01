@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Upgrade Notice
+ * Zinn® Cache Engine Upgrade Notice
  *
- * Displays a notice informing the user that the Zinn® Cache Pro plugin has been upgraded and a page refresh is needed to complete the configuration data upgrade.
+ * Displays a notice informing the user that the Zinn® Cache Engine plugin has been upgraded and a page refresh is needed to complete the configuration data upgrade.
  *
  * @package ZinnCachePro
  * @since 1.0.0

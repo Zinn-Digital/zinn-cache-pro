@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Network Object Settings
+ * Zinn® Cache Engine Network Object Settings
  *
- * Includes the network object cache settings template for Zinn® Cache Pro.
+ * Includes the network object cache settings template for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

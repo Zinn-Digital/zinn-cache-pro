@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Warning Notice
+ * Zinn® Cache Engine Warning Notice
  *
- * Displays warnings if Zinn® Cache Pro functionality is unavailable due to server or plugin configuration issues.
+ * Displays warnings if Zinn® Cache Engine functionality is unavailable due to server or plugin configuration issues.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -28,7 +28,7 @@ if ( ! defined( 'ZINN_CACHE_PRO_ALLOWED' ) ) {
     }
 } elseif ( ! defined( 'ZINN_CACHE_PRO_ON' ) ) {
     $reasons[] = array(
-        'title' => esc_html__( 'Please enable Zinn® Cache Pro in the plugin settings.', 'zinn-cache-pro' ),
+        'title' => esc_html__( 'Please enable Zinn® Cache Engine in the plugin settings.', 'zinn-cache-pro' ),
         'link'  => 'https://docs.litespeedtech.com/lscache/lscwp/cache/#enable-cache',
     );
 }

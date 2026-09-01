@@ -2,7 +2,7 @@
 /**
  * The Third Party integration with DIVI Theme.
  *
- * Ensures Divi Builder edit/preview modes don't conflict with Zinn® Cache Pro features,
+ * Ensures Divi Builder edit/preview modes don't conflict with Zinn® Cache Engine features,
  * and registers required nonces for Divi modules.
  *
  * @since      2.9.0

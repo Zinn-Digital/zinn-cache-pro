@@ -13,7 +13,7 @@ namespace ZinnCachePro\Thirdparty;
 defined( 'WPINC' ) || exit();
 
 /**
- * WP-PostRatings integration for Zinn® Cache Pro.
+ * WP-PostRatings integration for Zinn® Cache Engine.
  */
 class WP_PostRatings {
 

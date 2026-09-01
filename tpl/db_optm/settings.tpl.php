@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Database Optimization Settings
+ * Zinn® Cache Engine Database Optimization Settings
  *
- * Manages settings for database optimization in Zinn® Cache Pro.
+ * Manages settings for database optimization in Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

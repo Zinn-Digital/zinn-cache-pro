@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Tuning CSS Settings
+ * Zinn® Cache Engine Tuning CSS Settings
  *
- * Renders the Tuning CSS settings interface for Zinn® Cache Pro, allowing configuration of CSS exclusions and optimizations.
+ * Renders the Tuning CSS settings interface for Zinn® Cache Engine, allowing configuration of CSS exclusions and optimizations.
  *
  * @package ZinnCachePro
  * @since 1.0.0

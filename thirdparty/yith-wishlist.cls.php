@@ -17,7 +17,7 @@ use ZinnCachePro\Conf;
 use ZinnCachePro\Base;
 
 /**
- * YITH WooCommerce Wishlist integration for Zinn® Cache Pro.
+ * YITH WooCommerce Wishlist integration for Zinn® Cache Engine.
  */
 class Yith_Wishlist {
 

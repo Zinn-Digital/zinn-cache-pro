@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Crawler Blocklist
+ * Zinn® Cache Engine Crawler Blocklist
  *
  * @package ZinnCachePro
  * @since 1.0.0

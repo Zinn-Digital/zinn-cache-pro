@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Network Primary Site Configuration Warning
+ * Zinn® Cache Engine Network Primary Site Configuration Warning
  *
  * Displays a warning notice on subsite admin pages when the network admin has enforced primary site configurations.
  *

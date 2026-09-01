@@ -1,6 +1,6 @@
 <?php
 /**
- * Guest vary handler for Zinn® Cache Pro.
+ * Guest vary handler for Zinn® Cache Engine.
  *
  * NOTE: This file is loaded directly without WordPress, so WP functions are NOT available.
  *
@@ -81,7 +81,7 @@ class Guest {
 	 */
 	public function update_guest_vary() {
 		// This process must not be cached
-		// @reference https://wordpress.org/support/topic/soft-404-from-google-search-on-zinn-cache-pro-guest-vary-php/#post-16838583
+		// @reference https://zinndigital.com/support
 		header( 'X-Robots-Tag: noindex' );
 		header( 'X-LiteSpeed-Cache-Control: no-cache' );
 		header( 'Cache-Control: no-store, no-cache, must-revalidate, max-age=0' );

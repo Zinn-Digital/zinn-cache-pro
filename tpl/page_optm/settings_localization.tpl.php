@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Localization Settings
+ * Zinn® Cache Engine Localization Settings
  *
- * Renders the localization settings interface for Zinn® Cache Pro, including Gravatar caching and resource localization.
+ * Renders the localization settings interface for Zinn® Cache Engine, including Gravatar caching and resource localization.
  *
  * @package ZinnCachePro
  * @since 1.0.0

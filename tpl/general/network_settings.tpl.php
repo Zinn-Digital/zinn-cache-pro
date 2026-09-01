@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Network General Settings
+ * Zinn® Cache Engine Network General Settings
  *
- * Manages network-wide general settings for Zinn® Cache Pro.
+ * Manages network-wide general settings for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

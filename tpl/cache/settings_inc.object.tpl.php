@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Object Cache Settings
+ * Zinn® Cache Engine Object Cache Settings
  *
- * Displays the object cache settings section for Zinn® Cache Pro.
+ * Displays the object cache settings section for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

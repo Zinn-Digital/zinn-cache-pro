@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Exclude Settings
+ * Zinn® Cache Engine Exclude Settings
  *
  * @package ZinnCachePro
  * @since 1.0.0

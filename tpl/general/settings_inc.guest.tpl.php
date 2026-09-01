@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Guest Mode Setting
+ * Zinn® Cache Engine Guest Mode Setting
  *
- * Manages the Guest Mode setting for Zinn® Cache Pro.
+ * Manages the Guest Mode setting for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

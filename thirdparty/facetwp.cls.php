@@ -12,7 +12,7 @@ namespace ZinnCachePro\Thirdparty;
 defined('WPINC') || exit();
 
 /**
- * FacetWP compatibility hooks for Zinn® Cache Pro.
+ * FacetWP compatibility hooks for Zinn® Cache Engine.
  */
 class Facetwp {
 

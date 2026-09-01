@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Debug Settings Interface
+ * Zinn® Cache Engine Debug Settings Interface
  *
- * Renders the debug settings interface for Zinn® Cache Pro, allowing users to configure debugging options and view the site with specific settings bypassed.
+ * Renders the debug settings interface for Zinn® Cache Engine, allowing users to configure debugging options and view the site with specific settings bypassed.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -45,7 +45,7 @@ if ( !$temp_disabled ) {
 	</a>
 	<div class="litespeed-callout notice notice-warning inline">
 		<h4><?php esc_html_e( 'NOTICE', 'zinn-cache-pro' ); ?></h4>
-		<p><?php echo wp_kses_post( sprintf ( __( 'Zinn® Cache Pro is temporarily disabled until: %s.', 'zinn-cache-pro' ), '<strong>' . $date . '</strong>' ) ); ?></p>
+		<p><?php echo wp_kses_post( sprintf ( __( 'Zinn® Cache Engine is temporarily disabled until: %s.', 'zinn-cache-pro' ), '<strong>' . $date . '</strong>' ) ); ?></p>
 	</div>
 <?php
 }

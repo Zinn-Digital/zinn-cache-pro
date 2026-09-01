@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro JS Settings
+ * Zinn® Cache Engine JS Settings
  *
- * Renders the JS optimization settings interface for Zinn® Cache Pro.
+ * Renders the JS optimization settings interface for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

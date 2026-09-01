@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Dashboard
+ * Zinn® Cache Engine Dashboard
  *
- * Displays the dashboard for Zinn® Cache Pro plugin, including cache status,
+ * Displays the dashboard for Zinn® Cache Engine plugin, including cache status,
  * crawler status, QUIC.cloud service usage, and optimization statistics.
  *
  * @package ZinnCachePro
@@ -808,7 +808,7 @@ $can_page_load_time      = defined( 'ZINN_CACHE_PRO_SERVER_TYPE' ) && 'NONE' !==
 							<h3 class="litespeed-title litespeed-dashboard-title--w-btn">
 								<span class="litespeed-quic-icon"></span><?php esc_html_e( 'QUIC.cloud CDN', 'zinn-cache-pro' ); ?>
 								<?php if ( empty( $cloud_summary['qc_activated'] ) || 'cdn' !== $cloud_summary['qc_activated'] ) : ?>
-									<a href="https://www.quic.cloud/quic-cloud-services-and-features/zinn-cache-pro-service/" class="litespeed-title-right-icon" target="_blank"><?php esc_html_e( 'Learn More', 'zinn-cache-pro' ); ?></a>
+									<a href="https://quic.cloud/" class="litespeed-title-right-icon" target="_blank"><?php esc_html_e( 'Learn More', 'zinn-cache-pro' ); ?></a>
 								<?php else : ?>
 									<a href="<?php echo esc_url( admin_url( 'admin.php?page=zinn-cache-pro-cdn' ) ); ?>" class="litespeed-title-right-icon"><?php esc_html_e( 'More', 'zinn-cache-pro' ); ?></a>
 								<?php endif; ?>
@@ -832,7 +832,7 @@ $can_page_load_time      = defined( 'ZINN_CACHE_PRO_SERVER_TYPE' ) && 'NONE' !==
 										<?php
 										printf(
 											esc_html__( 'Globally fast TTFB, easy setup, and %s!', 'zinn-cache-pro' ),
-											'<a href="https://www.quic.cloud/quic-cloud-services-and-features/zinn-cache-pro-service/" target="_blank">' . esc_html__( 'more', 'zinn-cache-pro' ) . '</a>'
+											'<a href="https://quic.cloud/" target="_blank">' . esc_html__( 'more', 'zinn-cache-pro' ) . '</a>'
 										);
 										?>
 									</p>

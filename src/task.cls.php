@@ -11,7 +11,7 @@ namespace ZinnCachePro;
 defined( 'WPINC' ) || exit();
 
 /**
- * Schedules and runs Zinn® Cache Pro background tasks.
+ * Schedules and runs Zinn® Cache Engine background tasks.
  */
 class Task extends Root {
 

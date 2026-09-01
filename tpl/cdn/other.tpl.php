@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro CDN Settings
+ * Zinn® Cache Engine CDN Settings
  *
  * @package ZinnCachePro
  * @since 1.0.0

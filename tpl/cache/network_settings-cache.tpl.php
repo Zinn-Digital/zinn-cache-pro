@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Network Cache Settings
+ * Zinn® Cache Engine Network Cache Settings
  *
- * Displays the network cache control settings section for Zinn® Cache Pro.
+ * Displays the network cache control settings section for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -25,7 +25,7 @@ defined( 'WPINC' ) || exit;
 			<td>
 				<?php $this->build_switch( Base::O_CACHE ); ?>
 				<div class="litespeed-desc">
-					<?php esc_html_e( 'Enabling Zinn® Cache Pro for WordPress here enables the cache for the network.', 'zinn-cache-pro' ); ?><br />
+					<?php esc_html_e( 'Enabling Zinn® Cache Engine for WordPress here enables the cache for the network.', 'zinn-cache-pro' ); ?><br />
 					<?php esc_html_e( 'It is STRONGLY recommended that the compatibility with other plugins on a single/few sites is tested first.', 'zinn-cache-pro' ); ?><br />
 					<?php esc_html_e( 'This is to ensure compatibility prior to enabling the cache for all sites.', 'zinn-cache-pro' ); ?>
 				</div>

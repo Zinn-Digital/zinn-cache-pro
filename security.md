@@ -1,19 +1,19 @@
-# Security policy — Zinn Cache Pro
+# Security policy — Zinn Cache Engine
 
 ## Reporting a vulnerability
 
-Report security issues in **Zinn® Cache Pro** to **security@zinndigital.com**.
+Report security issues in **Zinn® Cache Engine** to **security@zinndigital.com**.
 
 Please include the plugin version, the WordPress and PHP versions, and enough detail to
 reproduce. We aim to acknowledge within two working days.
 
 Please do **not** open a public issue for a security report, and please do **not** report issues
-with this plugin to LiteSpeed Technologies — Zinn® Cache Pro is an independent fork and they do
+with this plugin to LiteSpeed Technologies — Zinn® Cache Engine is an independent fork and they do
 not support it.
 
 ## If the issue is inherited from upstream
 
-Zinn® Cache Pro is a fork of LiteSpeed Cache (see `CHANGES-FROM-UPSTREAM.md`). If a report turns
+Zinn® Cache Engine is a fork of LiteSpeed Cache (see `CHANGES-FROM-UPSTREAM.md`). If a report turns
 out to affect upstream too, we will coordinate disclosure with LiteSpeed Technologies at
 <https://www.litespeedtech.com/report-security-bugs> so the fix reaches their users as well as
 ours. Tell us if you would prefer to report to them directly first; either order is fine, we

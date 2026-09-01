@@ -13,7 +13,7 @@ defined( 'WPINC' ) || exit();
 /**
  * Class Error
  *
- * Handles error message translation and throwing for Zinn® Cache Pro.
+ * Handles error message translation and throwing for Zinn® Cache Engine.
  *
  * @since 3.0
  */

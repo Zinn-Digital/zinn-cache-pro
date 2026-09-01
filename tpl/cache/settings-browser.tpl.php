@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Browser Cache Setting
+ * Zinn® Cache Engine Browser Cache Setting
  *
  * @package ZinnCachePro
  * @since 1.0.0

@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Drop Query Strings Setting
+ * Zinn® Cache Engine Drop Query Strings Setting
  *
- * Displays the drop query strings setting for Zinn® Cache Pro.
+ * Displays the drop query strings setting for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

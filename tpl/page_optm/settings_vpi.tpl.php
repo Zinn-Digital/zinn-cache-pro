@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Viewport Images Settings
+ * Zinn® Cache Engine Viewport Images Settings
  *
- * Renders the Viewport Images settings interface for Zinn® Cache Pro, allowing configuration of viewport image detection and exclusions.
+ * Renders the Viewport Images settings interface for Zinn® Cache Engine, allowing configuration of viewport image detection and exclusions.
  *
  * @package ZinnCachePro
  * @since 1.0.0

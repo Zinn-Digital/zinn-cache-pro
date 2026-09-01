@@ -89,7 +89,7 @@ class Activation extends Base {
 	/**
 	 * Uninstall plugin
 	 *
-	 * Removes all Zinn® Cache Pro settings and data.
+	 * Removes all Zinn® Cache Engine settings and data.
 	 *
 	 * @since 1.1.0
 	 * @since 7.3 Updated to remove all settings.
@@ -141,7 +141,7 @@ class Activation extends Base {
 	/**
 	 * Remove all litespeed settings.
 	 *
-	 * Deletes all Zinn® Cache Pro options from the database.
+	 * Deletes all Zinn® Cache Engine options from the database.
 	 *
 	 * @since 7.3
 	 * @access private
@@ -563,7 +563,7 @@ class Activation extends Base {
 	/**
 	 * Upgrade LSCWP
 	 *
-	 * Upgrades the Zinn® Cache Pro plugin.
+	 * Upgrades the Zinn® Cache Engine plugin.
 	 *
 	 * @since 2.9
 	 * @access public

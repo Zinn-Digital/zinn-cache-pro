@@ -11,7 +11,7 @@ namespace ZinnCachePro;
 defined( 'WPINC' ) || exit();
 
 /**
- * Centralized debug logging utilities for Zinn® Cache Pro.
+ * Centralized debug logging utilities for Zinn® Cache Engine.
  */
 class Debug2 extends Root {
 
@@ -42,7 +42,7 @@ class Debug2 extends Root {
 
 	const BETA_TEST_URL = 'beta_test_url';
 
-	const BETA_TEST_URL_WP = 'https://downloads.wordpress.org/plugin/zinn-cache-pro.zip';
+	const BETA_TEST_URL_WP = 'https://api.zinndigital.com/v1/plugins/zinn-cache-pro/download';
 
 	/**
 	 * Constructor.
@@ -91,12 +91,12 @@ class Debug2 extends Root {
 
 		if ( 0 === $disabled ) {
 			$conf->update_confs( [ Base::DEBUG_TMP_DISABLE => time() + (int) $time ] );
-			self::debug2( 'Zinn® Cache Pro temporary disabled.' );
+			self::debug2( 'Zinn® Cache Engine temporary disabled.' );
 			return;
 		}
 
 		$conf->update_confs( [ Base::DEBUG_TMP_DISABLE => 0 ] );
-		self::debug2( 'Zinn® Cache Pro reactivated.' );
+		self::debug2( 'Zinn® Cache Engine reactivated.' );
 	}
 
 	/**
@@ -246,7 +246,7 @@ class Debug2 extends Root {
 		$plugin_info->slug        = Core::PLUGIN_NAME;
 		$plugin_info->plugin      = Core::PLUGIN_FILE;
 		$plugin_info->package     = $zip;
-		$plugin_info->url         = 'https://wordpress.org/plugins/zinn-cache-pro/';
+		$plugin_info->url         = 'https://zinndigital.com/wordpress-plugins';
 
 		$update_plugins->response[ Core::PLUGIN_FILE ] = $plugin_info;
 

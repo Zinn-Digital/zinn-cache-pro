@@ -1,6 +1,6 @@
 <?php
 /**
- * Utility helpers for Zinn® Cache Pro.
+ * Utility helpers for Zinn® Cache Engine.
  *
  * @since   1.1.5
  * @package ZinnCachePro

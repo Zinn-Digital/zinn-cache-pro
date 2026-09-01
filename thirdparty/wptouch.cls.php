@@ -2,7 +2,7 @@
 /**
  * The Third Party integration with the WPTouch Mobile plugin.
  *
- * Marks requests from mobile devices via WPTouch as mobile in Zinn® Cache Pro.
+ * Marks requests from mobile devices via WPTouch as mobile in Zinn® Cache Engine.
  *
  * @since 1.0.7
  * @package ZinnCachePro
@@ -13,7 +13,7 @@ namespace ZinnCachePro\Thirdparty;
 defined( 'WPINC' ) || exit();
 
 /**
- * WPTouch integration for Zinn® Cache Pro.
+ * WPTouch integration for Zinn® Cache Engine.
  */
 class WpTouch {
 

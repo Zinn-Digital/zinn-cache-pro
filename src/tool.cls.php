@@ -13,7 +13,7 @@ defined( 'WPINC' ) || exit();
 /**
  * Class Tool
  *
- * Provides utility functions for Zinn® Cache Pro, including IP detection and heartbeat control.
+ * Provides utility functions for Zinn® Cache Engine, including IP detection and heartbeat control.
  *
  * @since 3.0
  */

@@ -13,7 +13,7 @@ namespace ZinnCachePro\Thirdparty;
 defined( 'WPINC' ) || exit();
 
 /**
- * WPLister integration for Zinn® Cache Pro.
+ * WPLister integration for Zinn® Cache Engine.
  */
 class WPLister {
 

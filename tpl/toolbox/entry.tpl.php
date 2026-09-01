@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Toolbox
+ * Zinn® Cache Engine Toolbox
  *
- * Renders the toolbox interface for Zinn® Cache Pro, providing access to various administrative tools and settings.
+ * Renders the toolbox interface for Zinn® Cache Engine, providing access to various administrative tools and settings.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -36,7 +36,7 @@ if ( ! $this->_is_multisite || $this->_is_network_admin ) {
 
 <div class="wrap">
 	<h1 class="litespeed-h1">
-		<?php esc_html_e( 'Zinn® Cache Pro Toolbox', 'zinn-cache-pro' ); ?>
+		<?php esc_html_e( 'Zinn® Cache Engine Toolbox', 'zinn-cache-pro' ); ?>
 	</h1>
 	<span class="litespeed-desc">
 		v<?php echo esc_html( Core::VER ); ?>

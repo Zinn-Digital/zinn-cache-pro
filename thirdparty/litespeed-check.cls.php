@@ -1,6 +1,6 @@
 <?php
 /**
- * Check if any plugins that could conflict with Zinn® Cache Pro are active.
+ * Check if any plugins that could conflict with Zinn® Cache Engine are active.
  *
  * @since 4.7
  * @package ZinnCachePro
@@ -97,7 +97,7 @@ class LiteSpeed_Check {
 				'<div ' .
 					self::$_msg_id .
 					'>' .
-					__('Please consider disabling the following detected plugins, as they may conflict with Zinn® Cache Pro:', 'zinn-cache-pro') .
+					__('Please consider disabling the following detected plugins, as they may conflict with Zinn® Cache Engine:', 'zinn-cache-pro') .
 					'<p style="color: red; font-weight: 700;">' .
 					'PageSpeed Ninja' .
 					'</p>' .
@@ -162,7 +162,7 @@ class LiteSpeed_Check {
 			'<div ' .
 				self::$_msg_id .
 				'>' .
-				__('Please consider disabling the following detected plugins, as they may conflict with Zinn® Cache Pro:', 'zinn-cache-pro') .
+				__('Please consider disabling the following detected plugins, as they may conflict with Zinn® Cache Engine:', 'zinn-cache-pro') .
 				'<p style="color: red; font-weight: 700;">' .
 				implode(', ', $active_incompatible_plugins) .
 				'</p>' .

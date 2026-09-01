@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Exclude User Agents Setting
+ * Zinn® Cache Engine Exclude User Agents Setting
  *
- * Displays the exclude user agents setting for Zinn® Cache Pro.
+ * Displays the exclude user agents setting for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

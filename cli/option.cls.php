@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro option Interface CLI.
+ * Zinn® Cache Engine option Interface CLI.
  *
  * @package ZinnCachePro\CLI
  */
@@ -16,12 +16,12 @@ use WP_CLI;
 use WP_Filesystem;
 
 /**
- * Zinn® Cache Pro option Interface
+ * Zinn® Cache Engine option Interface
  */
 class Option extends Base {
 
 	/**
-	 * Set an individual Zinn® Cache Pro option.
+	 * Set an individual Zinn® Cache Engine option.
 	 *
 	 * ## OPTIONS
 	 *

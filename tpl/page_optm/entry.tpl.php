@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Page Optimization Interface
+ * Zinn® Cache Engine Page Optimization Interface
  *
- * Renders the page optimization settings interface for Zinn® Cache Pro with tabbed navigation.
+ * Renders the page optimization settings interface for Zinn® Cache Engine with tabbed navigation.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -28,7 +28,7 @@ $menu_list = array(
 
 <div class="wrap">
 	<h1 class="litespeed-h1">
-		<?php esc_html_e( 'Zinn® Cache Pro Page Optimization', 'zinn-cache-pro' ); ?>
+		<?php esc_html_e( 'Zinn® Cache Engine Page Optimization', 'zinn-cache-pro' ); ?>
 	</h1>
 	<span class="litespeed-desc">
 		v<?php echo esc_html( Core::VER ); ?>

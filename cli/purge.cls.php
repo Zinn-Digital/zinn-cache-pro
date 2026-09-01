@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Purge Interface CLI.
+ * Zinn® Cache Engine Purge Interface CLI.
  *
  * @package ZinnCachePro\CLI
  */
@@ -15,7 +15,7 @@ use ZinnCachePro\Admin_Display;
 use WP_CLI;
 
 /**
- * Zinn® Cache Pro Purge Interface
+ * Zinn® Cache Engine Purge Interface
  */
 class Purge {
 

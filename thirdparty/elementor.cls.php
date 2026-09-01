@@ -2,7 +2,7 @@
 /**
  * The Third Party integration with the Elementor plugin.
  *
- * Detects Elementor editor/preview actions and safely disables Zinn® Cache Pro features
+ * Detects Elementor editor/preview actions and safely disables Zinn® Cache Engine features
  * that could interfere with live editing. Also hooks cache purge when Elementor regenerates
  * its CSS & data.
  *
@@ -83,7 +83,7 @@ class Elementor {
 	}
 
 	/**
-	 * Purge Zinn® Cache Pro when Elementor regenerates its CSS & Data.
+	 * Purge Zinn® Cache Engine when Elementor regenerates its CSS & Data.
 	 *
 	 * @since 2.9.8.8
 	 * @return void

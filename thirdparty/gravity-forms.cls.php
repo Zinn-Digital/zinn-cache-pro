@@ -12,7 +12,7 @@ namespace ZinnCachePro\Thirdparty;
 defined('WPINC') || exit();
 
 /**
- * Gravity Forms compatibility hooks for Zinn® Cache Pro.
+ * Gravity Forms compatibility hooks for Zinn® Cache Engine.
  */
 class Gravity_Forms {
 

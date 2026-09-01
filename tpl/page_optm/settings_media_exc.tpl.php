@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Media Excludes Settings
+ * Zinn® Cache Engine Media Excludes Settings
  *
- * Renders the media excludes settings interface for Zinn® Cache Pro, allowing configuration of exclusions for lazy loading and LQIP.
+ * Renders the media excludes settings interface for Zinn® Cache Engine, allowing configuration of exclusions for lazy loading and LQIP.
  *
  * @package ZinnCachePro
  * @since 1.0.0

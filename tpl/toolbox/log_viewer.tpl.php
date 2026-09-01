@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Log Viewer
+ * Zinn® Cache Engine Log Viewer
  *
- * Renders the log viewer interface for Zinn® Cache Pro, displaying debug, purge, and crawler logs with options to copy or clear logs.
+ * Renders the log viewer interface for Zinn® Cache Engine, displaying debug, purge, and crawler logs with options to copy or clear logs.
  *
  * @package ZinnCachePro
  * @since 4.7

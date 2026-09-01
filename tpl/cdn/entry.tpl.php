@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro CDN Settings
+ * Zinn® Cache Engine CDN Settings
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -18,7 +18,7 @@ $menu_list = array(
 
 <div class="wrap">
 	<h1 class="litespeed-h1">
-		<?php esc_html_e( 'Zinn® Cache Pro CDN', 'zinn-cache-pro' ); ?>
+		<?php esc_html_e( 'Zinn® Cache Engine CDN', 'zinn-cache-pro' ); ?>
 	</h1>
 	<span class="litespeed-desc">
 		<?php echo esc_html( 'v' . Core::VER ); ?>

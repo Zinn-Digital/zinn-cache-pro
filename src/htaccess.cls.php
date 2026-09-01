@@ -2,7 +2,7 @@
 /**
  * The htaccess rewrite rule operation class.
  *
- * Responsible for reading, writing, and generating .htaccess rules used by Zinn® Cache Pro.
+ * Responsible for reading, writing, and generating .htaccess rules used by Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since      1.0.0

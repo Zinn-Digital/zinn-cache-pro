@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Image Optimization WebP/AVIF Setting
+ * Zinn® Cache Engine Image Optimization WebP/AVIF Setting
  *
- * Manages the WebP and AVIF optimization settings for Zinn® Cache Pro.
+ * Manages the WebP and AVIF optimization settings for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

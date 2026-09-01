@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Network Purge Settings
+ * Zinn® Cache Engine Network Purge Settings
  *
- * Displays the network purge settings section for Zinn® Cache Pro.
+ * Displays the network purge settings section for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Cloudflare Settings
+ * Zinn® Cache Engine Cloudflare Settings
  *
  * @package ZinnCachePro
  * @since 1.0.0

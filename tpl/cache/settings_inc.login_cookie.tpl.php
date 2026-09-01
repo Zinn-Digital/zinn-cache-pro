@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Login Cookie and Vary Cookies Settings
+ * Zinn® Cache Engine Login Cookie and Vary Cookies Settings
  *
- * Displays the login cookie and vary cookies settings for Zinn® Cache Pro.
+ * Displays the login cookie and vary cookies settings for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

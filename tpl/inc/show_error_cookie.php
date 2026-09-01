@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Database Login Cookie Notice
+ * Zinn® Cache Engine Database Login Cookie Notice
  *
- * Displays a notice about mismatched login cookies for Zinn® Cache Pro.
+ * Displays a notice about mismatched login cookies for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

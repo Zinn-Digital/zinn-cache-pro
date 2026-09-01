@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro General Settings
+ * Zinn® Cache Engine General Settings
  *
- * Manages general settings interface for Zinn® Cache Pro.
+ * Manages general settings interface for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -26,7 +26,7 @@ if ( is_network_admin() ) {
 
 <div class="wrap">
     <h1 class="litespeed-h1">
-        <?php esc_html_e( 'Zinn® Cache Pro General Settings', 'zinn-cache-pro' ); ?>
+        <?php esc_html_e( 'Zinn® Cache Engine General Settings', 'zinn-cache-pro' ); ?>
     </h1>
     <span class="litespeed-desc">
         v<?php echo esc_html( Core::VER ); ?>

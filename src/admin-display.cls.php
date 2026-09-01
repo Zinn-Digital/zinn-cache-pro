@@ -18,7 +18,7 @@ defined( 'WPINC' ) || exit();
 /**
  * Class Admin_Display
  *
- * Handles WP-Admin UI for Zinn® Cache Pro.
+ * Handles WP-Admin UI for Zinn® Cache Engine.
  */
 class Admin_Display extends Base {
 
@@ -363,8 +363,8 @@ class Admin_Display extends Base {
 		$scope      = $this->_is_network_admin ? 'network' : 'site';
 
 		add_menu_page(
-			'Zinn® Cache Pro',
-			'Zinn® Cache Pro',
+			'Zinn® Cache Engine',
+			'Zinn® Cache Engine',
 			$capability,
 			'zinn-cache-pro'
 		);
@@ -391,8 +391,8 @@ class Admin_Display extends Base {
 
 		// sub menus under options.
 		$hook = add_options_page(
-			'Zinn® Cache Pro',
-			'Zinn® Cache Pro',
+			'Zinn® Cache Engine',
+			'Zinn® Cache Engine',
 			$capability,
 			'zinn-cache-pro-options',
 			function () {
@@ -537,12 +537,12 @@ class Admin_Display extends Base {
 	}
 
 	/**
-	 * Callback that adds Zinn® Cache Pro's action links.
+	 * Callback that adds Zinn® Cache Engine's action links.
 	 *
 	 * @since 1.0.0
 	 *
 	 * @param array<string> $links Previously added links from other plugins.
-	 * @return array<string> Links with the Zinn® Cache Pro one appended.
+	 * @return array<string> Links with the Zinn® Cache Engine one appended.
 	 */
 	public function add_plugin_links( $links ) {
 		$links[] = '<a href="' . esc_url( admin_url( 'admin.php?page=zinn-cache-pro-cache' ) ) . '">' . esc_html__( 'Settings', 'zinn-cache-pro' ) . '</a>';
@@ -896,7 +896,7 @@ class Admin_Display extends Base {
 
 	/**
 	 * Hooked to the in_widget_form action.
-	 * Appends Zinn® Cache Pro settings to the widget edit settings screen.
+	 * Appends Zinn® Cache Engine settings to the widget edit settings screen.
 	 * This will append the esi on/off selector and ttl text.
 	 *
 	 * @since 1.1.0

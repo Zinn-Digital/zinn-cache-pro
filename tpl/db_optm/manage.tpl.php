@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Database Optimization
+ * Zinn® Cache Engine Database Optimization
  *
  * Manages database optimization options and displays table engine conversion tools.
  *

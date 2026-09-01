@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro CLI Crawler Commands
+ * Zinn® Cache Engine CLI Crawler Commands
  *
- * Provides WP-CLI commands for managing Zinn® Cache Pro crawlers.
+ * Provides WP-CLI commands for managing Zinn® Cache Engine crawlers.
  *
  * @package ZinnCachePro
  * @since 1.1.0

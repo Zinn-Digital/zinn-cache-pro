@@ -1,6 +1,6 @@
 <?php
 /**
- * Presets CLI for Zinn® Cache Pro.
+ * Presets CLI for Zinn® Cache Engine.
  *
  * @package ZinnCachePro\CLI
  */

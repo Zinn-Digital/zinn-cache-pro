@@ -1,6 +1,6 @@
 <?php
 /**
- * WooCommerce tab template for Zinn® Cache Pro plugin.
+ * WooCommerce tab template for Zinn® Cache Engine plugin.
  *
  * @package ZinnCachePro
  */

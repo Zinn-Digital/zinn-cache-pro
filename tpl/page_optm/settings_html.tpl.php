@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro HTML Settings
+ * Zinn® Cache Engine HTML Settings
  *
- * Renders the HTML optimization settings interface for Zinn® Cache Pro.
+ * Renders the HTML optimization settings interface for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

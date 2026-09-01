@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Widget Settings
+ * Zinn® Cache Engine Widget Settings
  *
- * Configures ESI settings for widgets in Zinn® Cache Pro.
+ * Configures ESI settings for widgets in Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -38,7 +38,7 @@ $display = Admin_Display::cls();
 ?>
 <div class="litespeed-widget-setting">
 
-	<h4><?php esc_html_e( 'Zinn® Cache Pro', 'zinn-cache-pro' ); ?>:</h4>
+	<h4><?php esc_html_e( 'Zinn® Cache Engine', 'zinn-cache-pro' ); ?>:</h4>
 
 	<b><?php esc_html_e( 'Enable ESI', 'zinn-cache-pro' ); ?>:</b>
 	&nbsp;

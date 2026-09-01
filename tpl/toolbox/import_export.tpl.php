@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Import/Export Settings
+ * Zinn® Cache Engine Import/Export Settings
  *
- * Renders the import/export settings interface for Zinn® Cache Pro, allowing users to export, import, or reset plugin settings.
+ * Renders the import/export settings interface for Zinn® Cache Engine, allowing users to export, import, or reset plugin settings.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -33,7 +33,7 @@ $summary = Import::get_summary();
 <?php endif; ?>
 
 <div class="litespeed-desc">
-	<?php esc_html_e( 'This will export all current Zinn® Cache Pro settings and save them as a file.', 'zinn-cache-pro' ); ?>
+	<?php esc_html_e( 'This will export all current Zinn® Cache Engine settings and save them as a file.', 'zinn-cache-pro' ); ?>
 </div>
 
 <h3 class="litespeed-title">
@@ -56,7 +56,7 @@ $summary = Import::get_summary();
 <?php endif; ?>
 
 <div class="litespeed-desc">
-	<?php esc_html_e( 'This will import settings from a file and override all current Zinn® Cache Pro settings.', 'zinn-cache-pro' ); ?>
+	<?php esc_html_e( 'This will import settings from a file and override all current Zinn® Cache Engine settings.', 'zinn-cache-pro' ); ?>
 </div>
 
 <h3 class="litespeed-title">

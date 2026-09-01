@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Deactivation Modal
+ * Zinn® Cache Engine Deactivation Modal
  *
- * Renders the deactivation modal interface for Zinn® Cache Pro, allowing users to send reason of deactivation.
+ * Renders the deactivation modal interface for Zinn® Cache Engine, allowing users to send reason of deactivation.
  *
  * @package ZinnCachePro
  * @since 7.3
@@ -13,7 +13,7 @@ namespace ZinnCachePro;
 defined( 'WPINC' ) || exit;
 
 // Modal data
-$_title = esc_html__('Deactivate Zinn® Cache Pro', 'zinn-cache-pro');
+$_title = esc_html__('Deactivate Zinn® Cache Engine', 'zinn-cache-pro');
 $_id    = 'litespeed-modal-deactivate';
 
 $reasons = array(

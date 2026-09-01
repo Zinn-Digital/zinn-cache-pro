@@ -1,6 +1,6 @@
 <?php
 /**
- * The base constants and defaults for Zinn® Cache Pro.
+ * The base constants and defaults for Zinn® Cache Engine.
  *
  * Defines all option keys, default values, and helper methods shared across the plugin.
  *
@@ -15,7 +15,7 @@ defined('WPINC') || exit();
 /**
  * Class Base
  *
- * Core definitions and helpers shared across Zinn® Cache Pro.
+ * Core definitions and helpers shared across Zinn® Cache Engine.
  */
 class Base extends Root {
 

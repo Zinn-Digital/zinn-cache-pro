@@ -3,7 +3,7 @@
  * The plugin cache-control class for X-LiteSpeed-Cache-Control.
  *
  * Provides helpers for determining cacheability, emitting cache-control headers,
- * and honoring various Zinn® Cache Pro configuration options.
+ * and honoring various Zinn® Cache Engine configuration options.
  *
  * @package ZinnCachePro
  * @since       1.1.3

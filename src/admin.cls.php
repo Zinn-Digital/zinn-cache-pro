@@ -53,7 +53,7 @@ class Admin extends Root {
 	}
 
 	/**
-	 * Callback that initializes the admin options for Zinn® Cache Pro.
+	 * Callback that initializes the admin options for Zinn® Cache Engine.
 	 *
 	 * @since 1.0.0
 	 * @return void

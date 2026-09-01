@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro ESI Settings
+ * Zinn® Cache Engine ESI Settings
  *
  * @package ZinnCachePro
  * @since 1.0.0

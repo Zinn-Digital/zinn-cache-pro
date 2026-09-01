@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Control Settings
+ * Zinn® Cache Engine Control Settings
  *
  * @package ZinnCachePro
  * @since 1.0.0

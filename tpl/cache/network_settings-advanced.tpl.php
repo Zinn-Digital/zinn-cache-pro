@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Advanced Settings
+ * Zinn® Cache Engine Advanced Settings
  *
- * Displays the advanced settings section for Zinn® Cache Pro.
+ * Displays the advanced settings section for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

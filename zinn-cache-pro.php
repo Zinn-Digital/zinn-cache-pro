@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name:       Zinn® Cache Pro
+ * Plugin Name:       Zinn® Cache Engine
  * Plugin URI:        https://zinndigital.com
- * Description:       High-performance server-side caching for the Zinn Digital® hosting platform: full-page cache, object cache, database optimisation and CSS/JS optimisation. A GPLv3 fork of the LiteSpeed Cache plugin; requires a LiteSpeed or OpenLiteSpeed server with the LSCache module for full-page caching.
+ * Description:       A complete caching and optimisation engine for WordPress: full-page cache, object cache, database cleanup and CSS/JS optimisation. Install this when your host does not provide a cache layer of its own — on Zinn Digital® hosting install Zinn® Cache instead. Full-page caching requires a LiteSpeed or OpenLiteSpeed server with the LSCache module. A GPLv3 fork of the LiteSpeed Cache plugin.
  * Version:           1.0.0
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
  * Author URI:        https://zinndigital.com
@@ -31,13 +31,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * Zinn Cache Pro is a modified version of LiteSpeed Cache 7.8.1 by LiteSpeed Technologies, Inc.
+ * Zinn Cache Engine is a modified version of LiteSpeed Cache 7.8.1 by LiteSpeed Technologies, Inc.
  * Modified by Zinn Digital® Ltd (Neil Lock, CEO). First modified release: 2026-07-24.
  * The modifications are itemised in CHANGES-FROM-UPSTREAM.md; third-party components and their
  * licences are listed in THIRD-PARTY-NOTICES.md.
  *
  * LiteSpeed, LSCache, OpenLiteSpeed and QUIC.cloud are trademarks of LiteSpeed Technologies, Inc.
- * Zinn Cache Pro is an independent fork and is not affiliated with, endorsed by, or supported by
+ * Zinn Cache Engine is an independent fork and is not affiliated with, endorsed by, or supported by
  * LiteSpeed Technologies, Inc.
  */
 

@@ -13,7 +13,7 @@ namespace ZinnCachePro\Thirdparty;
 defined( 'WPINC' ) || exit();
 
 /**
- * WPML integration for Zinn® Cache Pro.
+ * WPML integration for Zinn® Cache Engine.
  */
 class WPML {
 

@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Dashboard Wrapper
+ * Zinn® Cache Engine Dashboard Wrapper
  *
- * Renders the main dashboard page for the Zinn® Cache Pro plugin in the WordPress admin area.
+ * Renders the main dashboard page for the Zinn® Cache Engine plugin in the WordPress admin area.
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -26,7 +26,7 @@ if ( $this->_is_network_admin ) {
 
 <div class="wrap">
 	<h1 class="litespeed-h1">
-		<?php echo esc_html__( 'Zinn® Cache Pro Dashboard', 'zinn-cache-pro' ); ?>
+		<?php echo esc_html__( 'Zinn® Cache Engine Dashboard', 'zinn-cache-pro' ); ?>
 	</h1>
 	<span class="litespeed-desc">
 		<?php echo esc_html( 'v' . Core::VER ); ?>

@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro Image Optimization Summary
+ * Zinn® Cache Engine Image Optimization Summary
  *
- * Manages the image optimization summary interface for Zinn® Cache Pro.
+ * Manages the image optimization summary interface for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 1.0.0

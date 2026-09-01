@@ -1,6 +1,6 @@
 <?php
 /**
- * WP Object Cache wrapper for Zinn® Cache Pro.
+ * WP Object Cache wrapper for Zinn® Cache Engine.
  *
  * Provides a drop-in-compatible object cache implementation that proxies to
  * LiteSpeed's persistent cache while keeping a local runtime cache.
@@ -12,7 +12,7 @@
 /**
  * Class WP_Object_Cache
  *
- * Implements the WordPress object cache for Zinn® Cache Pro.
+ * Implements the WordPress object cache for Zinn® Cache Engine.
  *
  * @since 1.8
  * @package ZinnCachePro

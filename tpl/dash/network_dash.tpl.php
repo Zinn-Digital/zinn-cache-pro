@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Network Dashboard
+ * Zinn® Cache Engine Network Dashboard
  *
  * @package ZinnCachePro
  * @since 1.0.0

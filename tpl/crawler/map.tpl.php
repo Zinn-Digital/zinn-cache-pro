@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Crawler Sitemap List
+ * Zinn® Cache Engine Crawler Sitemap List
  *
  * @package ZinnCachePro
  * @since 1.0.0

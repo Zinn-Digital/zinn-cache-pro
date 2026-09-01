@@ -13,7 +13,7 @@ defined( 'WPINC' ) || exit();
 /**
  * Class API
  *
- * Provides API hooks and methods for Zinn® Cache Pro integration.
+ * Provides API hooks and methods for Zinn® Cache Engine integration.
  *
  * @since 1.1.3
  */
@@ -191,7 +191,7 @@ class API extends Base {
 	/**
 	 * Disable All
 	 *
-	 * Disables all Zinn® Cache Pro features with a given reason.
+	 * Disables all Zinn® Cache Engine features with a given reason.
 	 *
 	 * @since 2.9.7.2
 	 * @access public

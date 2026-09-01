@@ -17,7 +17,7 @@ use ZinnCachePro\DB_Optm;
 use WP_CLI;
 
 /**
- * Zinn® Cache Pro Database CLI
+ * Zinn® Cache Engine Database CLI
  */
 class Database {
 	/**

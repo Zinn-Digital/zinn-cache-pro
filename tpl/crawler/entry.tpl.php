@@ -1,6 +1,6 @@
 <?php
 /**
- * Zinn® Cache Pro Crawler Settings
+ * Zinn® Cache Engine Crawler Settings
  *
  * @package ZinnCachePro
  * @since 1.0.0
@@ -20,7 +20,7 @@ $menu_list = [
 
 <div class="wrap">
 	<h1 class="litespeed-h1">
-		<?php esc_html_e( 'Zinn® Cache Pro Crawler', 'zinn-cache-pro' ); ?>
+		<?php esc_html_e( 'Zinn® Cache Engine Crawler', 'zinn-cache-pro' ); ?>
 	</h1>
 	<span class="litespeed-desc">
 		<?php echo esc_html( 'v' . Core::VER ); ?>

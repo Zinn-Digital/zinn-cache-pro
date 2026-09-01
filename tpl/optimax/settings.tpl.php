@@ -1,8 +1,8 @@
 <?php
 /**
- * Zinn® Cache Pro OptimaX Settings
+ * Zinn® Cache Engine OptimaX Settings
  *
- * Manages OptimaX settings for Zinn® Cache Pro.
+ * Manages OptimaX settings for Zinn® Cache Engine.
  *
  * @package ZinnCachePro
  * @since 8.0
