@@ -169,4 +169,33 @@ require_once __DIR__ . '/class-updater.php';
 
 add_action( 'init', __NAMESPACE__ . '\\load_translations' );
 add_filter( 'site_transient_update_plugins', __NAMESPACE__ . '\\block_dotorg_updates' );
+
+/**
+ * Load the Zinn® panel — hosting, the marketplace, Zinn Hub® and this plugin's user guide.
+ *
+ * ⚖️ Owner, 2026-09-01: *"each plugin should promote our hosting and marketplace as well as
+ * Zinn Hub global marketplace inside people's site in the admin dashboard"*, and *"user guides
+ * for them … linked to in the plugins dashboard"*.
+ *
+ * ⛔ `class-zinn-promo.php` is Zinn-authored and lives in `rebrand/overlay/zinn/`, beside this
+ * file, for the reason the header above gives: anything written straight into the generated
+ * tree is destroyed by the next `composer run rebrand`.
+ *
+ * ⛔ The class is deliberately GLOBAL while this file is namespaced, so it is required by path
+ * and called by a string callable — `Zinn_Cache_Pro_Promo::class` here would resolve to
+ * `ZinnCachePro\Zinn\Zinn_Cache_Pro_Promo`, which does not exist. `php -l` cannot see that.
+ *
+ * ⭐ The settings-screen panel attaches by SCREEN, not by a template patch: this plugin's admin
+ * is upstream's and a `file_patches` entry into it would rot on the next version bump.
+ *
+ * @return void
+ */
+function load_promo(): void {
+	require_once __DIR__ . '/class-zinn-cache-pro-promo.php';
+	call_user_func( array( 'Zinn_Cache_Pro_Promo', 'register' ) );
+	call_user_func( array( 'Zinn_Cache_Pro_Promo', 'attach_footer_panel' ), 'zinn-cache-pro' );
+}
+
+add_action( 'plugins_loaded', __NAMESPACE__ . '\\load_promo' );
+
 register_updater();

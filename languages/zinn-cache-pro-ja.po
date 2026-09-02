@@ -1,18 +1,13 @@
-# Copyright (C) 2026 Neil Lock — CEO, Zinn Digital® Ltd
-# This file is distributed under the GPL-3.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Cache Engine 1.0.0\n"
-"Report-Msgid-Bugs-To: https://zinndigital.com/support\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: zinn-cache-pro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-02T07:25:52+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.12.0\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Domain: zinn-cache-pro\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
 #: zinn-cache-pro.php
@@ -21,104 +16,104 @@ msgstr ""
 #: tpl/esi_widget_edit.php:41
 #: tpl/inc/admin_footer.php:17
 msgid "Zinn® Cache Engine"
-msgstr ""
+msgstr "Zinn® Cache Engine"
 
 #. Plugin URI of the plugin
 #: zinn-cache-pro.php
 msgid "https://zinndigital.com/wordpress-plugins/zinn-cache-pro"
-msgstr ""
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-cache-pro"
 
 #. Description of the plugin
 #: zinn-cache-pro.php
 msgid "A complete caching and optimisation engine for WordPress: full-page cache, object cache, database cleanup and CSS/JS optimisation. Install this when your host does not provide a cache layer of its own — on Zinn Digital® hosting install Zinn® Cache instead. Full-page caching requires a LiteSpeed or OpenLiteSpeed server with the LSCache module. A GPLv3 fork of the LiteSpeed Cache plugin."
-msgstr ""
+msgstr "WordPress向けの完全なキャッシュおよび最適化エンジン：フルページキャッシュ、オブジェクトキャッシュ、データベースクリーンアップ、CSS/JS最適化。ホストが独自のキャッシュレイヤーを提供していない場合にインストールしてください。Zinn Digital®ホスティングでは、代わりにZinn® Cacheをインストールしてください。フルページキャッシュには、LSCacheモジュールを搭載したLiteSpeedまたはOpenLiteSpeedサーバーが必要です。LiteSpeed CacheプラグインのGPLv3フォークです。"
 
 #. Author of the plugin
 #: zinn-cache-pro.php
 msgid "Neil Lock — CEO, Zinn Digital® Ltd"
-msgstr ""
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 
 #. Author URI of the plugin
 #: zinn-cache-pro.php
 msgid "https://zinndigital.com"
-msgstr ""
+msgstr "https://zinndigital.com"
 
 #: cli/crawler.cls.php:89
 #: tpl/crawler/summary.tpl.php:39
 #, php-format
 msgid "%d hours"
-msgstr ""
+msgstr "%d時間"
 
 #: cli/crawler.cls.php:91
 #: tpl/crawler/summary.tpl.php:39
 #, php-format
 msgid "%d hour"
-msgstr ""
+msgstr "%d時間"
 
 #: cli/crawler.cls.php:98
 #: tpl/crawler/summary.tpl.php:47
 #, php-format
 msgid "%d minutes"
-msgstr ""
+msgstr "%d分"
 
 #: cli/crawler.cls.php:100
 #: tpl/crawler/summary.tpl.php:47
 #, php-format
 msgid "%d minute"
-msgstr ""
+msgstr "%d分"
 
 #: cli/purge.cls.php:86
 msgid "Purged All!"
-msgstr ""
+msgstr "すべて削除しました！"
 
 #: cli/purge.cls.php:133
 msgid "Purged the blog!"
-msgstr ""
+msgstr "ブログを消去しました！"
 
 #: cli/purge.cls.php:182
 msgid "Purged the URL!"
-msgstr ""
+msgstr "URLを削除しました！"
 
 #: cli/purge.cls.php:234
 msgid "Purged!"
-msgstr ""
+msgstr "削除されました！"
 
 #: src/activation.cls.php:594
 #: src/activation.cls.php:599
 msgid "Failed to upgrade."
-msgstr ""
+msgstr "アップグレードに失敗しました。"
 
 #: src/activation.cls.php:603
 msgid "Upgraded successfully."
-msgstr ""
+msgstr "アップグレードが完了しました。"
 
 #: src/admin-display.cls.php:251
 #: tpl/dash/entry.tpl.php:16
 msgid "Dashboard"
-msgstr ""
+msgstr "ダッシュボード"
 
 #: src/admin-display.cls.php:252
 #: src/lang.cls.php:286
 msgid "OptimaX"
-msgstr ""
+msgstr "OptimaX"
 
 #: src/admin-display.cls.php:253
 msgid "Presets"
-msgstr ""
+msgstr "プリセット"
 
 #: src/admin-display.cls.php:254
 msgid "General"
-msgstr ""
+msgstr "一般設定"
 
 #: src/admin-display.cls.php:255
 #: tpl/cache/entry.tpl.php:17
 #: tpl/cache/entry.tpl.php:66
 msgid "Cache"
-msgstr ""
+msgstr "キャッシュ"
 
 #: src/admin-display.cls.php:256
 msgid "CDN"
-msgstr ""
+msgstr "CDN"
 
 #: src/admin-display.cls.php:257
 #: src/gui.cls.php:891
@@ -126,56 +121,56 @@ msgstr ""
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
-msgstr ""
+msgstr "画像最適化"
 
 #: src/admin-display.cls.php:258
 #: tpl/dash/dashboard.tpl.php:170
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
-msgstr ""
+msgstr "ページ最適化"
 
 #: src/admin-display.cls.php:259
 msgid "Database"
-msgstr ""
+msgstr "データベース"
 
 #: src/admin-display.cls.php:260
 #: src/lang.cls.php:266
 msgid "Crawler"
-msgstr ""
+msgstr "クローラー"
 
 #: src/admin-display.cls.php:261
 msgid "Toolbox"
-msgstr ""
+msgstr "ツールボックス"
 
 #: src/admin-display.cls.php:455
 msgid "Cookie Name"
-msgstr ""
+msgstr "クッキー名"
 
 #: src/admin-display.cls.php:456
 #: tpl/crawler/settings.tpl.php:179
 msgid "Cookie Values"
-msgstr ""
+msgstr "クッキー値"
 
 #: src/admin-display.cls.php:458
 msgid "Remove cookie simulation"
-msgstr ""
+msgstr "クッキーシミュレーションを削除する"
 
 #: src/admin-display.cls.php:459
 msgid "Add new cookie to simulate"
-msgstr ""
+msgstr "シミュレートする新しいクッキーを追加する"
 
 #: src/admin-display.cls.php:482
 #, php-format
 msgid "CDN URL to be used. For example, %s"
-msgstr ""
+msgstr "使用する CDN の URL。例: %s"
 
 #: src/admin-display.cls.php:484
 msgid "Remove CDN URL"
-msgstr ""
+msgstr "CDN URLを削除"
 
 #: src/admin-display.cls.php:485
 msgid "Add new CDN URL"
-msgstr ""
+msgstr "新しいCDN URLを追加"
 
 #: src/admin-display.cls.php:486
 #: src/admin-display.cls.php:1167
@@ -194,7 +189,7 @@ msgstr ""
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/toolbox/settings-debug.tpl.php:80
 msgid "ON"
-msgstr ""
+msgstr "オン"
 
 #: src/admin-display.cls.php:487
 #: src/admin-display.cls.php:1168
@@ -212,104 +207,104 @@ msgstr ""
 #: tpl/page_optm/settings_media.tpl.php:180
 #: tpl/toolbox/settings-debug.tpl.php:80
 msgid "OFF"
-msgstr ""
+msgstr "オフ"
 
 #: src/admin-display.cls.php:548
 #: src/gui.cls.php:880
 #: tpl/crawler/entry.tpl.php:17
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: src/admin-display.cls.php:805
 msgid "Dismiss"
-msgstr ""
+msgstr "閉じる"
 
 #: src/admin-display.cls.php:998
 #: src/admin-display.cls.php:1003
 msgid "Save Changes"
-msgstr ""
+msgstr "変更を保存"
 
 #: src/admin-display.cls.php:1298
 #, php-format
 msgid "This value is overwritten by the %s variable."
-msgstr ""
+msgstr "この値は %s 変数によって上書きされます。"
 
 #: src/admin-display.cls.php:1302
 #: src/admin-display.cls.php:1315
 msgid "This value is overwritten by the filter."
-msgstr ""
+msgstr "この値はフィルターによって上書きされます。"
 
 #: src/admin-display.cls.php:1305
 #, php-format
 msgid "This value is overwritten by the PHP constant %s."
-msgstr ""
+msgstr "この値はPHP定数 %s によって上書きされます。"
 
 #: src/admin-display.cls.php:1309
 msgid "This value is overwritten by the primary site setting."
-msgstr ""
+msgstr "この値はプライマリサイトの設定によって上書きされます。"
 
 #: src/admin-display.cls.php:1311
 msgid "This value is overwritten by the Network setting."
-msgstr ""
+msgstr "この値はネットワーク設定によって上書きされます。"
 
 #: src/admin-display.cls.php:1318
 #, php-format
 msgid "Currently set to %s"
-msgstr ""
+msgstr "現在の設定: %s"
 
 #: src/admin-display.cls.php:1331
 msgid "Value from filter applied"
-msgstr ""
+msgstr "フィルターから適用された値"
 
 #: src/admin-display.cls.php:1345
 #: tpl/cache/settings_inc.object.tpl.php:162
 #: tpl/crawler/settings.tpl.php:43
 #: tpl/esi_widget_edit.php:78
 msgid "seconds"
-msgstr ""
+msgstr "秒"
 
 #: src/admin-display.cls.php:1371
 #: src/admin-display.cls.php:1390
 #: tpl/cdn/other.tpl.php:108
 msgid "Default value"
-msgstr ""
+msgstr "デフォルト値"
 
 #: src/admin-display.cls.php:1418
 msgid "Invalid rewrite rule"
-msgstr ""
+msgstr "無効な書き換えルール"
 
 #: src/admin-display.cls.php:1438
 #, php-format
 msgid "Path must end with %s"
-msgstr ""
+msgstr "パスは %s で終わる必要があります"
 
 #: src/admin-display.cls.php:1458
 msgid "Minimum value"
-msgstr ""
+msgstr "最小値"
 
 #: src/admin-display.cls.php:1461
 msgid "Maximum value"
-msgstr ""
+msgstr "最大値"
 
 #: src/admin-display.cls.php:1473
 msgid "Zero, or"
-msgstr ""
+msgstr "0、または"
 
 #: src/admin-display.cls.php:1479
 msgid "Larger than"
-msgstr ""
+msgstr "より大きい"
 
 #: src/admin-display.cls.php:1481
 msgid "Smaller than"
-msgstr ""
+msgstr "より小さい"
 
 #: src/admin-display.cls.php:1484
 msgid "Value range"
-msgstr ""
+msgstr "値の範囲"
 
 #: src/admin-display.cls.php:1512
 msgid "Invalid IP"
-msgstr ""
+msgstr "無効なIP"
 
 #: src/admin-display.cls.php:1532
 #: tpl/cache/settings-esi.tpl.php:103
@@ -330,163 +325,163 @@ msgstr ""
 #: tpl/toolbox/edit_htaccess.tpl.php:61
 #: tpl/toolbox/edit_htaccess.tpl.php:79
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #. translators: %s: list of server variables in <code> tags
 #: src/admin-display.cls.php:1535
 #, php-format
 msgid "Server variable(s) %s available to override this setting."
-msgstr ""
+msgstr "この設定を上書きするために利用可能なサーバー変数: %s"
 
 #: src/admin-display.cls.php:1551
 msgid "The URLs will be compared to the REQUEST_URI server variable."
-msgstr ""
+msgstr "URL は REQUEST_URI サーバー変数と比較されます。"
 
 #. translators: 1: example URL, 2: pattern example
 #: src/admin-display.cls.php:1553
 #, php-format
 msgid "For example, for %1$s, %2$s can be used here."
-msgstr ""
+msgstr "例えば %1$s の場合、ここでは %2$s を使用できます。"
 
 #. translators: %s: caret symbol
 #: src/admin-display.cls.php:1556
 #, php-format
 msgid "To match the beginning, add %s to the beginning of the item."
-msgstr ""
+msgstr "先頭に一致させるには、アイテムの先頭に %s を追加してください。"
 
 #. translators: %s: dollar symbol
 #: src/admin-display.cls.php:1558
 #, php-format
 msgid "To do an exact match, add %s to the end of the URL."
-msgstr ""
+msgstr "完全一致させるには、URLの末尾に %s を追加してください。"
 
 #: src/admin-display.cls.php:1559
 #: src/doc.cls.php:128
 msgid "One per line."
-msgstr ""
+msgstr "1行に1つ。"
 
 #: src/admin-display.cls.php:1576
 #, php-format
 msgid "%s groups"
-msgstr ""
+msgstr "%sグループ"
 
 #: src/admin-display.cls.php:1579
 #, php-format
 msgid "%s images"
-msgstr ""
+msgstr "%s 枚の画像"
 
 #: src/admin-display.cls.php:1588
 #, php-format
 msgid "%s group"
-msgstr ""
+msgstr "%s グループ"
 
 #: src/admin-display.cls.php:1591
 #, php-format
 msgid "%s image"
-msgstr ""
+msgstr "%s 画像"
 
 #: src/admin-settings.cls.php:40
 #: src/admin-settings.cls.php:313
 msgid "No fields"
-msgstr ""
+msgstr "フィールドなし"
 
 #: src/admin-settings.cls.php:104
 #, php-format
 msgid "The user with id %s has editor access, which is not allowed for the role simulator."
-msgstr ""
+msgstr "ID が %s のユーザーには編集者アクセス権が付与されていますが、ロールシミュレーターではこれは許可されていません。"
 
 #: src/admin-settings.cls.php:297
 #: src/admin-settings.cls.php:333
 msgid "Options saved."
-msgstr ""
+msgstr "オプションが保存されました。"
 
 #: src/cdn/cloudflare.cls.php:121
 #, php-format
 msgid "Notified Cloudflare to set development mode to %s successfully."
-msgstr ""
+msgstr "Cloudflareの開発モードを %s に設定する通知が正常に送信されました。"
 
 #: src/cdn/cloudflare.cls.php:151
 msgid "Cloudflare API is set to off."
-msgstr ""
+msgstr "Cloudflare API はオフに設定されています。"
 
 #: src/cdn/cloudflare.cls.php:167
 msgid "Notified Cloudflare to purge all successfully."
-msgstr ""
+msgstr "Cloudflare のすべてのキャッシュのパージに成功しました。"
 
 #: src/cdn/cloudflare.cls.php:181
 msgid "No available Cloudflare zone"
-msgstr ""
+msgstr "利用可能なCloudflareゾーンがありません"
 
 #: src/cdn/cloudflare.cls.php:285
 #: src/cdn/cloudflare.cls.php:307
 msgid "Failed to communicate with Cloudflare"
-msgstr ""
+msgstr "Cloudflare との通信に失敗しました"
 
 #: src/cdn/cloudflare.cls.php:298
 msgid "Communicated with Cloudflare successfully."
-msgstr ""
+msgstr "Cloudflare との通信に成功しました。"
 
 #: src/cloud-auth-callback.trait.php:184
 #, php-format
 msgid "Failed to validate %s activation data."
-msgstr ""
+msgstr "%s のアクティベーションデータの検証に失敗しました。"
 
 #: src/cloud-auth-callback.trait.php:191
 #, php-format
 msgid "Failed to parse %s activation status."
-msgstr ""
+msgstr "%s のアクティベーションステータスの解析に失敗しました。"
 
 #: src/cloud-auth-callback.trait.php:198
 #, php-format
 msgid "%s activation data expired."
-msgstr ""
+msgstr "%sのアクティベーションデータの有効期限が切れています。"
 
 #: src/cloud-auth-callback.trait.php:226
 #, php-format
 msgid "Congratulations, %s successfully set this domain up for the anonymous online services."
-msgstr ""
+msgstr "おめでとうございます。%s はこのドメインの匿名オンラインサービスの設定に成功しました。"
 
 #: src/cloud-auth-callback.trait.php:228
 #, php-format
 msgid "Congratulations, %s successfully set this domain up for the online services."
-msgstr ""
+msgstr "おめでとうございます。%s はこのドメインのオンラインサービスの設定を正常に完了しました。"
 
 #: src/cloud-auth-callback.trait.php:233
 #: src/cloud-auth-callback.trait.php:269
 #: src/cloud-misc.trait.php:62
 #, php-format
 msgid "Congratulations, %s successfully set this domain up for the online services with CDN service."
-msgstr ""
+msgstr "おめでとうございます。%s はCDNサービスを使用したオンラインサービス向けにこのドメインを正常に設定しました。"
 
 #: src/cloud-auth-callback.trait.php:303
 msgid "Site not recognized. QUIC.cloud deactivated automatically. Please reactivate your QUIC.cloud account."
-msgstr ""
+msgstr "サイトが認識されませんでした。QUIC.cloudは自動的に無効化されました。QUIC.cloudアカウントを再度有効にしてください。"
 
 #: src/cloud-auth-callback.trait.php:304
 msgid "Click here to proceed."
-msgstr ""
+msgstr "続行するにはここをクリックしてください。"
 
 #: src/cloud-auth.trait.php:56
 #: src/cloud-auth.trait.php:141
 msgid "QUIC.cloud's access to your WP REST API seems to be blocked."
-msgstr ""
+msgstr "QUIC.cloud による WP REST API へのアクセスがブロックされているようです。"
 
 #: src/cloud-auth.trait.php:66
 #: src/cloud-auth.trait.php:151
 msgid "Failed to get echo data from WPAPI"
-msgstr ""
+msgstr "WPAPIからエコーデータの取得に失敗しました"
 
 #: src/cloud-auth.trait.php:129
 #: src/cloud-auth.trait.php:186
 #, php-format
 msgid "You need to set the %1$s first. Please use the command %2$s to set."
-msgstr ""
+msgstr "最初に対象の %1$s を設定する必要があります。設定には %2$s コマンドを使用してください。"
 
 #: src/cloud-auth.trait.php:130
 #: src/cloud-auth.trait.php:187
 #: src/lang.cls.php:106
 msgid "Server IP"
-msgstr ""
+msgstr "サーバーIP"
 
 #: src/cloud-auth.trait.php:178
 #: src/cloud-auth.trait.php:224
@@ -495,20 +490,20 @@ msgstr ""
 #: src/cloud-auth.trait.php:291
 #: src/cloud-auth.trait.php:309
 msgid "You need to activate QC first."
-msgstr ""
+msgstr "先にQCを有効化する必要があります。"
 
 #: src/cloud-auth.trait.php:196
 msgid "Cert or key file does not exist."
-msgstr ""
+msgstr "証明書またはキーファイルが存在しません。"
 
 #: src/cloud-auth.trait.php:346
 #, php-format
 msgid "Reset %s activation successfully."
-msgstr ""
+msgstr "%s のアクティベーションが正常にリセットされました。"
 
 #: src/cloud-misc.trait.php:418
 msgid "Linked to QUIC.cloud preview environment, for testing purpose only."
-msgstr ""
+msgstr "QUIC.cloudプレビュー環境にリンクされています（テスト目的のみ）。"
 
 #: src/cloud-node.trait.php:84
 #: src/cloud-node.trait.php:97
@@ -516,206 +511,206 @@ msgstr ""
 #: src/cloud-node.trait.php:203
 #: src/cloud-request.trait.php:162
 msgid "Cloud Error"
-msgstr ""
+msgstr "クラウドエラー"
 
 #: src/cloud-node.trait.php:135
 msgid "No available Cloud Node after checked server load."
-msgstr ""
+msgstr "サーバー負荷の確認後、利用可能なクラウドノードがありません。"
 
 #: src/cloud-node.trait.php:203
 msgid "No available Cloud Node."
-msgstr ""
+msgstr "利用可能なクラウドノードがありません。"
 
 #: src/cloud-request.trait.php:116
 msgid "In order to use QC services, need a real domain name, cannot use an IP."
-msgstr ""
+msgstr "QCサービスを利用するには、IPアドレスではなく実際のドメイン名が必要です。"
 
 #: src/cloud-request.trait.php:165
 #, php-format
 msgid "Please try after %1$s for service %2$s."
-msgstr ""
+msgstr "%2$s サービスの利用は %1$s 後にお試しください。"
 
 #: src/cloud-request.trait.php:363
 #: src/cloud-request.trait.php:386
 msgid "Failed to request via WordPress"
-msgstr ""
+msgstr "WordPress 経由のリクエストに失敗しました"
 
 #: src/cloud-request.trait.php:418
 msgid "Cloud server refused the current request due to unpulled images. Please pull the images first."
-msgstr ""
+msgstr "クラウドサーバーが、未プルのイメージがあるため現在のリクエストを拒否しました。先にイメージをプルしてください。"
 
 #: src/cloud-request.trait.php:423
 msgid "Your domain_key has been temporarily blocklisted to prevent abuse. You may contact support at QUIC.cloud to learn more."
-msgstr ""
+msgstr "悪用を防ぐため、お客様の domain_key は一時的にブロックリストに登録されました。詳細については、QUIC.cloud のサポートにお問い合わせください。"
 
 #: src/cloud-request.trait.php:430
 msgid "Cloud server refused the current request due to rate limiting. Please try again later."
-msgstr ""
+msgstr "クラウドサーバーがレート制限により現在のリクエストを拒否しました。後ほど再度お試しください。"
 
 #: src/cloud-request.trait.php:438
 msgid "Redetected node"
-msgstr ""
+msgstr "再検出されたノード"
 
 #: src/cloud-request.trait.php:446
 msgid "We are working hard to improve your online service experience. The service will be unavailable while we work. We apologize for any inconvenience."
-msgstr ""
+msgstr "オンラインサービス品質向上のため、ただいまメンテナンスを実施しております。作業中はサービスをご利用いただけません。ご不便をおかけいたしますことを深くお詫び申し上げます。"
 
 #: src/cloud-request.trait.php:497
 #: src/cloud-request.trait.php:505
 msgid "Message from QUIC.cloud server"
-msgstr ""
+msgstr "QUIC.cloudサーバーからのメッセージ"
 
 #: src/cloud-request.trait.php:513
 msgid "Good news from QUIC.cloud server"
-msgstr ""
+msgstr "QUIC.cloudサーバーからの朗報です"
 
 #: src/cloud-request.trait.php:522
 #, php-format
 msgid "%1$s plugin version %2$s required for this action."
-msgstr ""
+msgstr "この操作には %1$s プラグインのバージョン %2$s が必要です。"
 
 #: src/cloud-request.trait.php:589
 msgid "Failed to communicate with QUIC.cloud server"
-msgstr ""
+msgstr "QUIC.cloudサーバーとの通信に失敗しました"
 
 #: src/cloud.cls.php:299
 msgid "Sync QUIC.cloud status successfully."
-msgstr ""
+msgstr "QUIC.cloudのステータスが正常に同期されました。"
 
 #: src/cloud.cls.php:306
 msgid "Sync credit allowance with Cloud Server successfully."
-msgstr ""
+msgstr "クラウドサーバーとのクレジット付与枠の同期に成功しました。"
 
 #: src/conf.cls.php:551
 #, php-format
 msgid "Saving option failed. IPv4 only for %s."
-msgstr ""
+msgstr "保存オプションの適用に失敗しました。%s は IPv4 のみです。"
 
 #: src/conf.cls.php:742
 msgid "Changed setting successfully."
-msgstr ""
+msgstr "設定を正常に変更しました。"
 
 #: src/core.cls.php:333
 msgid "Notified LiteSpeed Web Server to purge everything."
-msgstr ""
+msgstr "LiteSpeed Web Serverにすべてのキャッシュの削除を通知しました。"
 
 #: src/core.cls.php:338
 msgid "Notified LiteSpeed Web Server to purge the list."
-msgstr ""
+msgstr "LiteSpeed Web Serverにリストのパージを通知しました。"
 
 #: src/crawler-map.cls.php:347
 msgid "Sitemap cleaned successfully"
-msgstr ""
+msgstr "サイトマップのクリーンアップが正常に完了しました"
 
 #: src/crawler-map.cls.php:451
 msgid "No valid sitemap parsed for crawler."
-msgstr ""
+msgstr "クローラー用に有効なサイトマップが解析されませんでした。"
 
 #: src/crawler-map.cls.php:456
 #, php-format
 msgid "Sitemap created successfully: %d items"
-msgstr ""
+msgstr "サイトマップが正常に作成されました: %d 項目"
 
 #: src/crawler.cls.php:229
 msgid "Crawler disabled list is cleared! All crawlers are set to active! "
-msgstr ""
+msgstr "クローラー無効リストがクリアされました！すべてのクローラーがアクティブに設定されました！"
 
 #: src/crawler.cls.php:324
 msgid "Started async crawling"
-msgstr ""
+msgstr "非同期クローリングを開始しました"
 
 #: src/crawler.cls.php:1310
 msgid "Guest"
-msgstr ""
+msgstr "ゲスト"
 
 #: src/crawler.cls.php:1487
 msgid "Manually added to blocklist"
-msgstr ""
+msgstr "ブロックリストに手動で追加済み"
 
 #: src/crawler.cls.php:1490
 msgid "Previously existed in blocklist"
-msgstr ""
+msgstr "以前ブラックリストに登録されていた"
 
 #. translators: %s: time string
 #: src/data.cls.php:239
 #, php-format
 msgid "The database has been upgrading in the background since %s. This message will disappear once upgrade is complete."
-msgstr ""
+msgstr "データベースは %s からバックグラウンドでアップグレードされています。このメッセージはアップグレードが完了すると消えます。"
 
 #: src/db-optm.cls.php:190
 msgid "Clean all successfully."
-msgstr ""
+msgstr "すべて正常にクリーンアップしました。"
 
 #: src/db-optm.cls.php:252
 msgid "Clean post revisions successfully."
-msgstr ""
+msgstr "投稿のリビジョンを正常にクリーンアップしました。"
 
 #: src/db-optm.cls.php:257
 msgid "Clean orphaned post meta successfully."
-msgstr ""
+msgstr "孤立した投稿メタデータのクリーンアップに成功しました。"
 
 #: src/db-optm.cls.php:262
 msgid "Clean auto drafts successfully."
-msgstr ""
+msgstr "自動下書きを正常に削除しました。"
 
 #: src/db-optm.cls.php:267
 msgid "Clean trashed posts and pages successfully."
-msgstr ""
+msgstr "ゴミ箱内の投稿と固定ページの削除に成功しました。"
 
 #: src/db-optm.cls.php:272
 msgid "Clean spam comments successfully."
-msgstr ""
+msgstr "スパムコメントのクリーンアップに成功しました。"
 
 #: src/db-optm.cls.php:277
 msgid "Clean trashed comments successfully."
-msgstr ""
+msgstr "ゴミ箱内のコメントのクリーンアップに成功しました。"
 
 #: src/db-optm.cls.php:282
 msgid "Clean trackbacks and pingbacks successfully."
-msgstr ""
+msgstr "トラックバックとピンバックのクリーンアップに成功しました。"
 
 #: src/db-optm.cls.php:310
 msgid "Clean expired transients successfully."
-msgstr ""
+msgstr "期限切れの一時データのクリーンアップに成功しました。"
 
 #: src/db-optm.cls.php:320
 msgid "Clean all transients successfully."
-msgstr ""
+msgstr "すべてのトランジェントを正常に削除しました。"
 
 #: src/db-optm.cls.php:336
 msgid "Optimized all tables."
-msgstr ""
+msgstr "すべてのテーブルを最適化しました。"
 
 #: src/db-optm.cls.php:399
 msgid "Converted to InnoDB successfully."
-msgstr ""
+msgstr "InnoDBへの変換に成功しました。"
 
 #: src/debug2.cls.php:673
 msgid "Invalid log type."
-msgstr ""
+msgstr "ログの種類が無効です。"
 
 #: src/debug2.cls.php:678
 msgid "Log file not found."
-msgstr ""
+msgstr "ログファイルが見つかりません。"
 
 #: src/doc.cls.php:40
 #, php-format
 msgid "This setting is %1$s for certain qualifying requests due to %2$s!"
-msgstr ""
+msgstr "この設定は、%2$sにより特定の条件を満たすリクエストに対して%1$sになっています。"
 
 #: src/doc.cls.php:57
 msgid "This setting will regenerate crawler list and clear the disabled list!"
-msgstr ""
+msgstr "この設定を行うと、クローラーリストが再生成され、無効化リストがクリアされます。"
 
 #: src/doc.cls.php:69
 msgid "This site utilizes caching in order to facilitate a faster response time and better user experience. Caching potentially stores a duplicate copy of every web page that is on display on this site. All cache files are temporary, and are never accessed by any third party, except as necessary to obtain technical support from the cache plugin vendor. Cache files expire on a schedule set by the site administrator, but may easily be purged by the admin before their natural expiration, if necessary. We may use QUIC.cloud services to process & cache your data temporarily."
-msgstr ""
+msgstr "当サイトでは、応答速度の向上と優れたユーザー体験の提供を目的として、キャッシュ機能を利用しています。キャッシュにより、当サイトに表示されているすべてのウェブページの複製が一時的に保存される場合があります。すべてのキャッシュファイルは一時的なものであり、キャッシュプラグインのベンダーから技術サポートを受けるために必要な場合を除き、第三者がアクセスすることはありません。キャッシュファイルの有効期限はサイト管理者が設定したスケジュールに従いますが、必要に応じて自然消滅する前に管理者が簡単に削除することもできます。当社は、お客様のデータを一時的に処理およびキャッシュするために、QUIC.cloudサービスを使用する場合があります。"
 
 #. translators: %s: QUIC.cloud privacy policy URL
 #: src/doc.cls.php:76
 #, php-format
 msgid "Please see %s for more details."
-msgstr ""
+msgstr "詳細については %s をご参照ください。"
 
 #: src/doc.cls.php:101
 #: tpl/dash/dashboard.tpl.php:152
@@ -724,252 +719,252 @@ msgstr ""
 #: tpl/inc/check_cache_disabled.php:46
 #: tpl/page_optm/settings_media.tpl.php:301
 msgid "Learn More"
-msgstr ""
+msgstr "詳細を見る"
 
 #: src/doc.cls.php:145
 msgid "Both full and partial strings can be used."
-msgstr ""
+msgstr "完全な文字列と部分的な文字列の両方を使用できます。"
 
 #: src/doc.cls.php:147
 msgid "Both full URLs and partial strings can be used."
-msgstr ""
+msgstr "完全なURLと部分的な文字列の両方を使用できます。"
 
 #: src/doc.cls.php:159
 msgid "This setting will edit the .htaccess file."
-msgstr ""
+msgstr "この設定を行うと .htaccess ファイルが編集されます。"
 
 #: src/doc.cls.php:177
 msgid "The queue is processed asynchronously. It may take time."
-msgstr ""
+msgstr "キューは非同期で処理されます。時間がかかる場合があります。"
 
 #: src/error.cls.php:68
 #, php-format
 msgid "You will need to finish %s setup to use the online services."
-msgstr ""
+msgstr "オンラインサービスを利用するには、%s の設定を完了する必要があります。"
 
 #: src/error.cls.php:73
 #: tpl/crawler/settings.tpl.php:123
 #: tpl/crawler/settings.tpl.php:144
 #: tpl/crawler/summary.tpl.php:218
 msgid "Click here to set."
-msgstr ""
+msgstr "設定するにはここをクリックしてください。"
 
 #: src/error.cls.php:81
 msgid "You have used all of your daily quota for today."
-msgstr ""
+msgstr "本日の利用制限枠を使い切りました。"
 
 #: src/error.cls.php:86
 #: src/error.cls.php:99
 msgid "Learn more or purchase additional quota."
-msgstr ""
+msgstr "詳細を確認するか、追加のクォータを購入してください。"
 
 #: src/error.cls.php:94
 msgid "You have used all of your quota left for current service this month."
-msgstr ""
+msgstr "今月の現行サービスの割当量をすべて使用しました。"
 
 #: src/error.cls.php:107
 msgid "You have too many requested images, please try again in a few minutes."
-msgstr ""
+msgstr "リクエストされた画像が多すぎます。数分後にもう一度お試しください。"
 
 #: src/error.cls.php:111
 msgid "You have images waiting to be pulled. Please wait for the automatic pull to complete, or pull them down manually now."
-msgstr ""
+msgstr "取得待ちの画像があります。自動取得が完了するまでお待ちいただくか、今すぐ手動で取得してください。"
 
 #: src/error.cls.php:115
 msgid "The image list is empty."
-msgstr ""
+msgstr "画像リストが空です。"
 
 #: src/error.cls.php:119
 msgid "Not enough parameters. Please check if the QUIC.cloud connection is set correctly"
-msgstr ""
+msgstr "パラメータが不足しています。QUIC.cloud接続が正しく設定されているか確認してください。"
 
 #: src/error.cls.php:123
 msgid "There is proceeding queue not pulled yet."
-msgstr ""
+msgstr "未処理の実行待ちキューがあります。"
 
 #: src/error.cls.php:128
 #, php-format
 msgid "There is proceeding queue not pulled yet. Queue info: %s."
-msgstr ""
+msgstr "未処理の処理待ちキューがあります。キューの情報: %s。"
 
 #: src/error.cls.php:134
 msgid "The site is not a valid alias on QUIC.cloud."
-msgstr ""
+msgstr "サイトは QUIC.cloud 上の有効なエイリアスではありません。"
 
 #: src/error.cls.php:138
 msgid "The site is not registered on QUIC.cloud."
-msgstr ""
+msgstr "サイトがQUIC.cloudに登録されていません。"
 
 #: src/error.cls.php:142
 msgid "The QUIC.cloud connection is not correct. Please try to sync your QUIC.cloud connection again."
-msgstr ""
+msgstr "QUIC.cloudの接続が正しくありません。QUIC.cloudの接続をもう一度同期してください。"
 
 #: src/error.cls.php:146
 msgid "The current server is under heavy load."
-msgstr ""
+msgstr "現在のサーバーは高負荷状態です。"
 
 #: src/error.cls.php:150
 msgid "Online node needs to be redetected."
-msgstr ""
+msgstr "オンラインノードを再検知する必要があります。"
 
 #: src/error.cls.php:154
 msgid "Credits are not enough to proceed the current request."
-msgstr ""
+msgstr "クレジットが不足しているため、現在のリクエストを続行できません。"
 
 #: src/error.cls.php:158
 #: src/error.cls.php:182
 #, php-format
 msgid "%s file not writable."
-msgstr ""
+msgstr "%s ファイルに書き込み権限がありません。"
 
 #: src/error.cls.php:166
 #, php-format
 msgid "Could not find %1$s in %2$s."
-msgstr ""
+msgstr "%2$s の中に %1$s が見つかりませんでした。"
 
 #: src/error.cls.php:170
 #, php-format
 msgid "Invalid login cookie. Please check the %s file."
-msgstr ""
+msgstr "無効なログインクッキーです。%s ファイルを確認してください。"
 
 #: src/error.cls.php:174
 #, php-format
 msgid "Failed to back up %s file, aborted changes."
-msgstr ""
+msgstr "%s ファイルのバックアップに失敗しました。変更を中止しました。"
 
 #: src/error.cls.php:178
 #, php-format
 msgid "%s file not readable."
-msgstr ""
+msgstr "%sファイルが読み込めません。"
 
 #: src/error.cls.php:186
 #, php-format
 msgid "Failed to get %s file contents."
-msgstr ""
+msgstr "%s ファイルのコンテンツを取得できませんでした。"
 
 #: src/error.cls.php:190
 #, php-format
 msgid "Failed to create table %1$s! SQL: %2$s."
-msgstr ""
+msgstr "テーブル %1$s の作成に失敗しました！SQL: %2$s。"
 
 #: src/error.cls.php:194
 msgid "Crawler disabled by the server admin."
-msgstr ""
+msgstr "サーバー管理者によりクローラーが無効化されています。"
 
 #: src/error.cls.php:198
 msgid "Previous request too recent. Please try again later."
-msgstr ""
+msgstr "前回のリクエストから時間が経過していません。しばらくしてからもう一度お試しください。"
 
 #: src/error.cls.php:203
 #, php-format
 msgid "Previous request too recent. Please try again after %s."
-msgstr ""
+msgstr "前回のリクエストから時間が経過していません。%s後にお試しください。"
 
 #: src/error.cls.php:209
 msgid "Your application is waiting for approval."
-msgstr ""
+msgstr "お客様の申請は承認待ちです。"
 
 #: src/error.cls.php:213
 msgid "The callback validation to your domain failed due to hash mismatch."
-msgstr ""
+msgstr "ハッシュの不一致により、ドメインへのコールバック検証が失敗しました。"
 
 #: src/error.cls.php:217
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
-msgstr ""
+msgstr "ドメインへのコールバック検証に失敗しました。当社のサーバーをブロックしているファイアウォールがないかご確認ください。"
 
 #: src/error.cls.php:222
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
-msgstr ""
+msgstr "ドメインへのコールバック検証に失敗しました。弊社のサーバーをブロックしているファイアウォールがないことをご確認ください。レスポンスコード:"
 
 #: src/error.cls.php:227
 msgid "Your domain has been forbidden from using our services due to a previous policy violation."
-msgstr ""
+msgstr "以前のポリシー違反のため、お客様のドメインでの弊社サービスの利用が禁止されました。"
 
 #: src/error.cls.php:231
 msgid "You cannot remove this DNS zone, because it is still in use. Please update the domain's nameservers, then try to delete this zone again, otherwise your site will become inaccessible."
-msgstr ""
+msgstr "このDNSゾーンはまだ使用中のため削除できません。ドメインのネームサーバーを更新してから再度このゾーンを削除してください。そうしないと、サイトにアクセスできなくなります。"
 
 #: src/error.cls.php:238
 msgid "Unknown error"
-msgstr ""
+msgstr "不明なエラー"
 
 #: src/file.cls.php:133
 msgid "Filename is empty!"
-msgstr ""
+msgstr "ファイル名が入力されていません！"
 
 #: src/file.cls.php:142
 #, php-format
 msgid "Folder does not exist: %s"
-msgstr ""
+msgstr "フォルダが存在しません: %s"
 
 #: src/file.cls.php:154
 #, php-format
 msgid "Can not create folder: %1$s. Error: %2$s"
-msgstr ""
+msgstr "フォルダーを作成できません: %1$s。エラー: %2$s"
 
 #: src/file.cls.php:162
 #, php-format
 msgid "Folder is not writable: %s."
-msgstr ""
+msgstr "フォルダーに書き込み権限がありません: %s。"
 
 #: src/file.cls.php:168
 #: src/file.cls.php:172
 #, php-format
 msgid "File %s is not writable."
-msgstr ""
+msgstr "ファイル %s に書き込みできません。"
 
 #: src/file.cls.php:179
 #, php-format
 msgid "Failed to write to %s."
-msgstr ""
+msgstr "%sへの書き込みに失敗しました。"
 
 #: src/guest.cls.php:65
 msgid "Guest Mode lists synced successfully."
-msgstr ""
+msgstr "ゲストモードのリストが正常に同期されました。"
 
 #: src/guest.cls.php:66
 msgid "Failed to sync Guest Mode lists."
-msgstr ""
+msgstr "ゲストモードリストの同期に失敗しました。"
 
 #. translators: 1: number, 2: text
 #: src/gui.cls.php:125
 #, php-format
 msgid "%1$s %2$s files left in queue"
-msgstr ""
+msgstr "キューに残っているファイル: %1$s %2$s"
 
 #: src/gui.cls.php:129
 #: tpl/inc/modal.deactivation.php:77
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: src/gui.cls.php:580
 #: src/gui.cls.php:597
 msgid "Purge this page"
-msgstr ""
+msgstr "このページをパージする"
 
 #: src/gui.cls.php:608
 msgid "Mark this page as "
-msgstr ""
+msgstr "このページを次のようにマークする："
 
 #: src/gui.cls.php:624
 msgid "Forced cacheable"
-msgstr ""
+msgstr "キャッシュ強制可能"
 
 #: src/gui.cls.php:637
 msgid "Non cacheable"
-msgstr ""
+msgstr "キャッシュ不可"
 
 #: src/gui.cls.php:650
 msgid "Private cache"
-msgstr ""
+msgstr "プライベートキャッシュ"
 
 #: src/gui.cls.php:663
 msgid "No optimization"
-msgstr ""
+msgstr "最適化なし"
 
 #: src/gui.cls.php:673
 msgid "More settings"
-msgstr ""
+msgstr "詳細設定"
 
 #: src/gui.cls.php:682
 #: src/gui.cls.php:692
@@ -1008,26 +1003,26 @@ msgstr ""
 #: tpl/toolbox/purge.tpl.php:118
 #: tpl/toolbox/purge.tpl.php:126
 msgid "Purge All"
-msgstr ""
+msgstr "すべてを消去する"
 
 #: src/gui.cls.php:692
 #: src/gui.cls.php:857
 #: src/gui.cls.php:912
 msgid "LSCache"
-msgstr ""
+msgstr "LSCache"
 
 #: src/gui.cls.php:702
 #: src/gui.cls.php:922
 #: tpl/toolbox/purge.tpl.php:47
 msgid "CSS/JS Cache"
-msgstr ""
+msgstr "CSS/JSキャッシュ"
 
 #: src/gui.cls.php:713
 #: src/gui.cls.php:933
 #: tpl/cdn/cf.tpl.php:96
 #: tpl/cdn/entry.tpl.php:14
 msgid "Cloudflare"
-msgstr ""
+msgstr "Cloudflare"
 
 #: src/gui.cls.php:725
 #: src/gui.cls.php:945
@@ -1036,26 +1031,26 @@ msgstr ""
 #: tpl/dash/dashboard.tpl.php:569
 #: tpl/toolbox/purge.tpl.php:55
 msgid "Object Cache"
-msgstr ""
+msgstr "オブジェクトキャッシュ"
 
 #: src/gui.cls.php:737
 #: src/gui.cls.php:957
 #: tpl/toolbox/purge.tpl.php:64
 msgid "Opcode Cache"
-msgstr ""
+msgstr "オペコードキャッシュ"
 
 #: src/gui.cls.php:772
 #: src/gui.cls.php:992
 #: tpl/toolbox/purge.tpl.php:91
 msgid "Localized Resources"
-msgstr ""
+msgstr "ローカライズされたリソース"
 
 #: src/gui.cls.php:784
 #: src/gui.cls.php:1004
 #: tpl/page_optm/settings_media.tpl.php:141
 #: tpl/toolbox/purge.tpl.php:100
 msgid "LQIP Cache"
-msgstr ""
+msgstr "LQIPキャッシュ"
 
 #: src/gui.cls.php:808
 #: src/gui.cls.php:1028
@@ -1063,1298 +1058,1298 @@ msgstr ""
 #: tpl/presets/standard.tpl.php:49
 #: tpl/toolbox/purge.tpl.php:118
 msgid "Gravatar Cache"
-msgstr ""
+msgstr "Gravatar キャッシュ"
 
 #: src/gui.cls.php:846
 msgid "Enable All Features"
-msgstr ""
+msgstr "すべての機能を有効にする"
 
 #: src/gui.cls.php:857
 msgid "Zinn® Cache Engine Purge All"
-msgstr ""
+msgstr "Zinn® キャッシュエンジンすべて削除"
 
 #: src/gui.cls.php:870
 #: tpl/db_optm/entry.tpl.php:13
 msgid "Manage"
-msgstr ""
+msgstr "管理"
 
 #: src/gui.cls.php:1051
 #: tpl/img_optm/summary.tpl.php:176
 msgid "Remove all previous unfinished image optimization requests."
-msgstr ""
+msgstr "以前の未完了の画像最適化リクエストをすべて削除します。"
 
 #: src/gui.cls.php:1052
 #: tpl/img_optm/summary.tpl.php:178
 msgid "Clean Up Unfinished Data"
-msgstr ""
+msgstr "未完了データのクリーンアップ"
 
 #: src/gui.cls.php:1075
 #, php-format
 msgid "Install %s"
-msgstr ""
+msgstr "%sをインストール"
 
 #: src/gui.cls.php:1076
 msgid "Install Now"
-msgstr ""
+msgstr "今すぐインストール"
 
 #. translators: 1: details URL, 2: class/aria, 3: version, 4: update URL, 5: class/aria
 #: src/gui.cls.php:1099
 #, php-format
 msgid "<a href=\"%1$s\" %2$s>View version %3$s details</a> or <a href=\"%4$s\" %5$s target=\"_blank\">update now</a>."
-msgstr ""
+msgstr "<a href=\"%1$s\" %2$s>バージョン %3$s の詳細を表示</a>するか、<a href=\"%4$s\" %5$s target=\"_blank\">今すぐアップデート</a>してください。"
 
 #. translators: 1: plugin title, 2: version
 #: src/gui.cls.php:1106
 #, php-format
 msgid "View %1$s version %2$s details"
-msgstr ""
+msgstr "%1$s のバージョン %2$s の詳細を表示する"
 
 #. translators: %s: plugin title
 #: src/gui.cls.php:1119
 #, php-format
 msgid "Update %s now"
-msgstr ""
+msgstr "%sを今すぐアップデート"
 
 #: src/htaccess.cls.php:425
 msgid "Mobile Agent Rules"
-msgstr ""
+msgstr "モバイルエージェントルール"
 
 #. translators: 1: file path, 2: code block
 #: src/htaccess.cls.php:923
 #, php-format
 msgid "<p>Please add/replace the following codes into the beginning of %1$s:</p> %2$s"
-msgstr ""
+msgstr "<p>%1$sの先頭に次のコードを追加または置き換えてください。</p> %2$s"
 
 #: src/img-optm-manage.trait.php:101
 msgid "Cleaned up unfinished data successfully."
-msgstr ""
+msgstr "未完了のデータを正常にクリーンアップしました。"
 
 #: src/img-optm-manage.trait.php:118
 msgid "Reset image optimization counter successfully."
-msgstr ""
+msgstr "画像の最適化カウンターを正常にリセットしました。"
 
 #: src/img-optm-manage.trait.php:208
 msgid "Destroy all optimization data successfully."
-msgstr ""
+msgstr "すべての最適化データの削除に成功しました。"
 
 #: src/img-optm-manage.trait.php:283
 #: src/img-optm-manage.trait.php:348
 msgid "Rescanned successfully."
-msgstr ""
+msgstr "スキャンが正常に完了しました。"
 
 #: src/img-optm-manage.trait.php:348
 #, php-format
 msgid "Rescanned %d images successfully."
-msgstr ""
+msgstr "%d枚の画像を正常に再スキャンしました。"
 
 #: src/img-optm-manage.trait.php:419
 msgid "Calculated backups successfully."
-msgstr ""
+msgstr "バックアップの計算が正常に完了しました。"
 
 #: src/img-optm-manage.trait.php:520
 msgid "Removed backups successfully."
-msgstr ""
+msgstr "バックアップの削除に成功しました。"
 
 #: src/img-optm-manage.trait.php:682
 msgid "Switched images successfully."
-msgstr ""
+msgstr "画像の切り替えに成功しました。"
 
 #: src/img-optm-manage.trait.php:793
 #: src/img-optm-manage.trait.php:854
 msgid "Switched to optimized file successfully."
-msgstr ""
+msgstr "最適化されたファイルに正常に切り替わりました。"
 
 #: src/img-optm-manage.trait.php:815
 msgid "Disabled WebP file successfully."
-msgstr ""
+msgstr "WebPファイルを無効化しました。"
 
 #: src/img-optm-manage.trait.php:820
 msgid "Enabled WebP file successfully."
-msgstr ""
+msgstr "WebP ファイルの有効化に成功しました。"
 
 #: src/img-optm-manage.trait.php:828
 msgid "Disabled AVIF file successfully."
-msgstr ""
+msgstr "AVIFファイルを正常に無効化しました。"
 
 #: src/img-optm-manage.trait.php:833
 msgid "Enabled AVIF file successfully."
-msgstr ""
+msgstr "AVIF ファイルを正常に有効化しました。"
 
 #: src/img-optm-manage.trait.php:848
 msgid "Restored original file successfully."
-msgstr ""
+msgstr "元のファイルを正常に復元しました。"
 
 #: src/img-optm-manage.trait.php:913
 msgid "Reset the optimized data successfully."
-msgstr ""
+msgstr "最適化されたデータの再設定に成功しました。"
 
 #: src/img-optm-pull.trait.php:203
 msgid "Started async image optimization request"
-msgstr ""
+msgstr "非同期画像最適化リクエストを開始しました"
 
 #: src/img-optm-pull.trait.php:302
 msgid "Pull Cron is running"
-msgstr ""
+msgstr "プルクロンが実行中です"
 
 #: src/img-optm-pull.trait.php:415
 msgid "Some optimized image file(s) has expired and was cleared."
-msgstr ""
+msgstr "最適化された画像ファイルの一部が有効期限切れとなり、削除されました。"
 
 #: src/img-optm-pull.trait.php:432
 msgid "Pulled WebP image md5 does not match the notified WebP image md5."
-msgstr ""
+msgstr "取得した WebP 画像の md5 が、通知された WebP 画像の md5 と一致しません。"
 
 #: src/img-optm-pull.trait.php:463
 msgid "Pulled AVIF image md5 does not match the notified AVIF image md5."
-msgstr ""
+msgstr "取得したAVIF画像のmd5が、通知されたAVIF画像のmd5と一致しません。"
 
 #: src/img-optm-pull.trait.php:500
 msgid "One or more pulled images does not match with the notified image md5"
-msgstr ""
+msgstr "プルされた1つ以上のイメージが、通知されたイメージのmd5と一致しません"
 
 #: src/img-optm-send.trait.php:279
 #, php-format
 msgid "Pushed %1$s to Cloud server, accepted %2$s."
-msgstr ""
+msgstr "%1$s をクラウドサーバーにプッシュし、%2$s を受け付けました。"
 
 #: src/img-optm-send.trait.php:564
 #, php-format
 msgid "Cleared %1$s invalid images."
-msgstr ""
+msgstr "%1$s件の無効な画像を削除しました。"
 
 #: src/img-optm-send.trait.php:626
 msgid "No valid image found in the current request."
-msgstr ""
+msgstr "現在のリクエストに有効な画像が見つかりません。"
 
 #: src/img-optm-send.trait.php:651
 msgid "No valid image found by Cloud server in the current request."
-msgstr ""
+msgstr "クラウドサーバーは現在のリクエストで有効な画像を見つけられませんでした。"
 
 #: src/import.cls.php:81
 msgid "Import failed due to file error."
-msgstr ""
+msgstr "ファイルの読み込みエラーのため、インポートに失敗しました。"
 
 #: src/import.cls.php:134
 #, php-format
 msgid "Imported setting file %s successfully."
-msgstr ""
+msgstr "設定ファイル %s のインポートに成功しました。"
 
 #: src/import.cls.php:156
 msgid "Reset successfully."
-msgstr ""
+msgstr "正常にリセットされました。"
 
 #: src/lang.cls.php:30
 msgid "Images not requested"
-msgstr ""
+msgstr "画像がリクエストされていません"
 
 #: src/lang.cls.php:31
 msgid "Images ready to request"
-msgstr ""
+msgstr "リクエスト準備完了画像"
 
 #: src/lang.cls.php:32
 #: tpl/dash/dashboard.tpl.php:517
 msgid "Images requested"
-msgstr ""
+msgstr "画像がリクエストされました"
 
 #: src/lang.cls.php:33
 #: tpl/dash/dashboard.tpl.php:526
 msgid "Images notified to pull"
-msgstr ""
+msgstr "プル通知済みイメージ"
 
 #: src/lang.cls.php:34
 msgid "Images optimized and pulled"
-msgstr ""
+msgstr "最適化および取得された画像"
 
 #: src/lang.cls.php:58
 #, php-format
 msgid "Unable to automatically add %1$s as a Domain Alias for main %2$s domain, due to potential CDN conflict."
-msgstr ""
+msgstr "潜在的なCDN競合のため、%1$sをメインの%2$sドメインのドメインエイリアスとして自動的に追加できません。"
 
 #: src/lang.cls.php:66
 #, php-format
 msgid "Unable to automatically add %1$s as a Domain Alias for main %2$s domain."
-msgstr ""
+msgstr "メインの %2$s ドメインのドメインエイリアスとして %1$s を自動的に追加できませんでした。"
 
 #: src/lang.cls.php:71
 msgid "Alias is in use by another QUIC.cloud account."
-msgstr ""
+msgstr "エイリアスは別の QUIC.cloud アカウントで使用されています。"
 
 #: src/lang.cls.php:108
 msgid "Enable Cache"
-msgstr ""
+msgstr "キャッシュを有効にする"
 
 #: src/lang.cls.php:109
 #: tpl/dash/dashboard.tpl.php:61
 #: tpl/dash/dashboard.tpl.php:570
 #: tpl/presets/standard.tpl.php:21
 msgid "Browser Cache"
-msgstr ""
+msgstr "ブラウザーキャッシュ"
 
 #: src/lang.cls.php:110
 msgid "Default Public Cache TTL"
-msgstr ""
+msgstr "デフォルトのパブリックキャッシュ TTL"
 
 #: src/lang.cls.php:111
 msgid "Default Private Cache TTL"
-msgstr ""
+msgstr "デフォルトのプライベートキャッシュTTL"
 
 #: src/lang.cls.php:112
 msgid "Default Front Page TTL"
-msgstr ""
+msgstr "デフォルトのフロントページTTL"
 
 #: src/lang.cls.php:113
 msgid "Default Feed TTL"
-msgstr ""
+msgstr "デフォルトのフィードTTL"
 
 #: src/lang.cls.php:114
 msgid "Default REST TTL"
-msgstr ""
+msgstr "デフォルトのREST TTL"
 
 #: src/lang.cls.php:115
 msgid "Default HTTP Status Code Page TTL"
-msgstr ""
+msgstr "デフォルトのHTTPステータスコードページTTL"
 
 #: src/lang.cls.php:116
 msgid "Browser Cache TTL"
-msgstr ""
+msgstr "ブラウザーキャッシュ TTL"
 
 #: src/lang.cls.php:117
 msgid "AJAX Cache TTL"
-msgstr ""
+msgstr "AJAXキャッシュTTL"
 
 #: src/lang.cls.php:118
 msgid "Automatically Upgrade"
-msgstr ""
+msgstr "自動アップグレード"
 
 #: src/lang.cls.php:119
 msgid "Guest Mode"
-msgstr ""
+msgstr "ゲストモード"
 
 #: src/lang.cls.php:120
 msgid "Guest Optimization"
-msgstr ""
+msgstr "ゲスト最適化"
 
 #: src/lang.cls.php:121
 msgid "Notifications"
-msgstr ""
+msgstr "通知"
 
 #: src/lang.cls.php:122
 msgid "Cache Logged-in Users"
-msgstr ""
+msgstr "ログインユーザーをキャッシュ"
 
 #: src/lang.cls.php:123
 msgid "Cache Commenters"
-msgstr ""
+msgstr "コメントしたユーザーのキャッシュ"
 
 #: src/lang.cls.php:124
 msgid "Cache REST API"
-msgstr ""
+msgstr "キャッシュ REST API"
 
 #: src/lang.cls.php:125
 msgid "Cache Login Page"
-msgstr ""
+msgstr "ログインページのキャッシュ"
 
 #: src/lang.cls.php:126
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:90
 msgid "Cache Mobile"
-msgstr ""
+msgstr "モバイルキャッシュ"
 
 #: src/lang.cls.php:127
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:92
 msgid "List of Mobile User Agents"
-msgstr ""
+msgstr "モバイルユーザーエージェント一覧"
 
 #: src/lang.cls.php:128
 msgid "Private Cached URIs"
-msgstr ""
+msgstr "プライベートキャッシュ済みURI"
 
 #: src/lang.cls.php:129
 msgid "Drop Query String"
-msgstr ""
+msgstr "クエリ文字列の削除"
 
 #: src/lang.cls.php:132
 msgid "Method"
-msgstr ""
+msgstr "方式"
 
 #: src/lang.cls.php:133
 msgid "Host"
-msgstr ""
+msgstr "ホスト"
 
 #: src/lang.cls.php:134
 msgid "Port"
-msgstr ""
+msgstr "ポート"
 
 #: src/lang.cls.php:135
 msgid "Default Object Lifetime"
-msgstr ""
+msgstr "デフォルトオブジェクトライフタイム"
 
 #: src/lang.cls.php:136
 msgid "Username"
-msgstr ""
+msgstr "ユーザー名"
 
 #: src/lang.cls.php:137
 msgid "Password"
-msgstr ""
+msgstr "パスワード"
 
 #: src/lang.cls.php:138
 msgid "Redis Database ID"
-msgstr ""
+msgstr "Redis データベース ID"
 
 #: src/lang.cls.php:139
 msgid "Global Groups"
-msgstr ""
+msgstr "グローバルグループ"
 
 #: src/lang.cls.php:140
 msgid "Do Not Cache Groups"
-msgstr ""
+msgstr "グループをキャッシュしない"
 
 #: src/lang.cls.php:141
 msgid "Persistent Connection"
-msgstr ""
+msgstr "持続的接続"
 
 #: src/lang.cls.php:142
 msgid "Cache WP-Admin"
-msgstr ""
+msgstr "WP-Admin キャッシュ"
 
 #: src/lang.cls.php:144
 msgid "Purge All On Upgrade"
-msgstr ""
+msgstr "アップグレード時にすべて消去"
 
 #: src/lang.cls.php:145
 msgid "Serve Stale"
-msgstr ""
+msgstr "古いキャッシュを配信"
 
 #: src/lang.cls.php:146
 #: tpl/cache/settings-purge.tpl.php:131
 msgid "Scheduled Purge URLs"
-msgstr ""
+msgstr "URLの自動削除予約"
 
 #: src/lang.cls.php:147
 #: tpl/cache/settings-purge.tpl.php:106
 msgid "Scheduled Purge Time"
-msgstr ""
+msgstr "定期削除時刻"
 
 #: src/lang.cls.php:148
 msgid "Force Cache URIs"
-msgstr ""
+msgstr "キャッシュURIを強制する"
 
 #: src/lang.cls.php:149
 msgid "Force Public Cache URIs"
-msgstr ""
+msgstr "パブリックキャッシュURIを強制する"
 
 #: src/lang.cls.php:150
 msgid "Do Not Cache URIs"
-msgstr ""
+msgstr "URIをキャッシュしない"
 
 #: src/lang.cls.php:151
 msgid "Do Not Cache Query Strings"
-msgstr ""
+msgstr "クエリ文字列をキャッシュしない"
 
 #: src/lang.cls.php:152
 msgid "Do Not Cache Categories"
-msgstr ""
+msgstr "カテゴリーをキャッシュしない"
 
 #: src/lang.cls.php:153
 msgid "Do Not Cache Tags"
-msgstr ""
+msgstr "キャッシュしないタグ"
 
 #: src/lang.cls.php:154
 msgid "Do Not Cache Roles"
-msgstr ""
+msgstr "ロールをキャッシュしない"
 
 #: src/lang.cls.php:155
 msgid "CSS Minify"
-msgstr ""
+msgstr "CSSの最小化"
 
 #: src/lang.cls.php:156
 msgid "CSS Combine"
-msgstr ""
+msgstr "CSS結合"
 
 #: src/lang.cls.php:157
 msgid "CSS Combine External and Inline"
-msgstr ""
+msgstr "外部およびインラインCSSの結合"
 
 #: src/lang.cls.php:158
 msgid "Generate UCSS"
-msgstr ""
+msgstr "UCSSを生成"
 
 #: src/lang.cls.php:159
 msgid "UCSS Inline"
-msgstr ""
+msgstr "UCSS インライン"
 
 #: src/lang.cls.php:160
 msgid "UCSS Selector Allowlist"
-msgstr ""
+msgstr "UCSSセレクター許可リスト"
 
 #: src/lang.cls.php:161
 msgid "UCSS Inline Excluded Files"
-msgstr ""
+msgstr "UCSSインライン除外ファイル"
 
 #: src/lang.cls.php:162
 msgid "UCSS URI Excludes"
-msgstr ""
+msgstr "UCSS URI 除外リスト"
 
 #: src/lang.cls.php:163
 msgid "JS Minify"
-msgstr ""
+msgstr "JS最小化"
 
 #: src/lang.cls.php:164
 msgid "JS Combine"
-msgstr ""
+msgstr "JS結合"
 
 #: src/lang.cls.php:165
 msgid "JS Combine External and Inline"
-msgstr ""
+msgstr "外部およびインラインJSの結合"
 
 #: src/lang.cls.php:166
 msgid "HTML Minify"
-msgstr ""
+msgstr "HTMLの最小化"
 
 #: src/lang.cls.php:167
 msgid "HTML Lazy Load Selectors"
-msgstr ""
+msgstr "HTML遅延読み込みセレクター"
 
 #: src/lang.cls.php:168
 msgid "HTML Keep Comments"
-msgstr ""
+msgstr "HTMLコメントを残す"
 
 #: src/lang.cls.php:169
 #: tpl/page_optm/settings_tuning_css.tpl.php:167
 msgid "Load CSS Asynchronously"
-msgstr ""
+msgstr "CSS を非同期で読み込む"
 
 #: src/lang.cls.php:170
 msgid "CCSS Per URL"
-msgstr ""
+msgstr "URLごとのCCSS"
 
 #: src/lang.cls.php:171
 msgid "Inline CSS Async Lib"
-msgstr ""
+msgstr "インラインCSS非同期ライブラリ"
 
 #: src/lang.cls.php:172
 #: tpl/presets/standard.tpl.php:46
 msgid "Font Display Optimization"
-msgstr ""
+msgstr "フォント表示の最適化"
 
 #: src/lang.cls.php:173
 msgid "Load JS Deferred"
-msgstr ""
+msgstr "JS の読み込みを遅延する"
 
 #: src/lang.cls.php:174
 msgid "Localize Resources"
-msgstr ""
+msgstr "リソースをローカライズ"
 
 #: src/lang.cls.php:175
 msgid "Localization Files"
-msgstr ""
+msgstr "ローカライゼーションファイル"
 
 #: src/lang.cls.php:176
 msgid "DNS Prefetch"
-msgstr ""
+msgstr "DNSプリフェッチ"
 
 #: src/lang.cls.php:177
 msgid "DNS Prefetch Control"
-msgstr ""
+msgstr "DNSプリフェッチ制御"
 
 #: src/lang.cls.php:178
 msgid "DNS Preconnect"
-msgstr ""
+msgstr "DNS プリコネクト"
 
 #: src/lang.cls.php:179
 msgid "CSS Excludes"
-msgstr ""
+msgstr "CSS 除外"
 
 #: src/lang.cls.php:180
 msgid "JS Delayed Includes"
-msgstr ""
+msgstr "JS遅延インクルード"
 
 #: src/lang.cls.php:181
 msgid "JS Excludes"
-msgstr ""
+msgstr "JS 除外"
 
 #: src/lang.cls.php:182
 msgid "Remove Query Strings"
-msgstr ""
+msgstr "クエリ文字列を削除"
 
 #: src/lang.cls.php:183
 msgid "Load Google Fonts Asynchronously"
-msgstr ""
+msgstr "Google フォントを非同期で読み込む"
 
 #: src/lang.cls.php:184
 msgid "Remove Google Fonts"
-msgstr ""
+msgstr "Google Fontsを削除"
 
 #: src/lang.cls.php:185
 msgid "Critical CSS Rules"
-msgstr ""
+msgstr "クリティカルCSSルール"
 
 #: src/lang.cls.php:186
 msgid "Separate CCSS Cache Post Types"
-msgstr ""
+msgstr "CCSSキャッシュの投稿タイプを分離する"
 
 #: src/lang.cls.php:187
 msgid "Separate CCSS Cache URIs"
-msgstr ""
+msgstr "CSSキャッシュのURIを分離する"
 
 #: src/lang.cls.php:188
 msgid "CCSS Selector Allowlist"
-msgstr ""
+msgstr "CSSセレクター許可リスト"
 
 #: src/lang.cls.php:189
 msgid "JS Deferred / Delayed Excludes"
-msgstr ""
+msgstr "JSの遅延読み込み/遅延除外"
 
 #: src/lang.cls.php:190
 msgid "Guest Mode JS Excludes"
-msgstr ""
+msgstr "ゲストモードJSの除外事項"
 
 #: src/lang.cls.php:191
 #: tpl/presets/standard.tpl.php:51
 msgid "Remove WordPress Emoji"
-msgstr ""
+msgstr "WordPress の絵文字を削除"
 
 #: src/lang.cls.php:192
 #: tpl/presets/standard.tpl.php:52
 msgid "Remove Noscript Tags"
-msgstr ""
+msgstr "Noscriptタグを削除"
 
 #: src/lang.cls.php:193
 msgid "URI Excludes"
-msgstr ""
+msgstr "URI 除外項目"
 
 #: src/lang.cls.php:194
 msgid "Optimize for Guests Only"
-msgstr ""
+msgstr "ゲストのみ最適化"
 
 #: src/lang.cls.php:195
 msgid "Role Excludes"
-msgstr ""
+msgstr "ロールの除外"
 
 #: src/lang.cls.php:198
 msgid "Gravatar Cache Cron"
-msgstr ""
+msgstr "GravatarキャッシュCron"
 
 #: src/lang.cls.php:199
 msgid "Gravatar Cache TTL"
-msgstr ""
+msgstr "Gravatar キャッシュ TTL"
 
 #: src/lang.cls.php:201
 msgid "Lazy Load Images"
-msgstr ""
+msgstr "遅延読み込み画像"
 
 #: src/lang.cls.php:202
 msgid "Lazy Load Image Excludes"
-msgstr ""
+msgstr "遅延読み込み画像除外"
 
 #: src/lang.cls.php:203
 msgid "Lazy Load Image Class Name Excludes"
-msgstr ""
+msgstr "遅延読み込み画像クラス名の除外"
 
 #: src/lang.cls.php:204
 msgid "Lazy Load Image Parent Class Name Excludes"
-msgstr ""
+msgstr "遅延読み込み画像親クラス名の除外"
 
 #: src/lang.cls.php:205
 msgid "Lazy Load Iframe Class Name Excludes"
-msgstr ""
+msgstr "遅延読み込みiframeのクラス名除外設定"
 
 #: src/lang.cls.php:206
 msgid "Lazy Load Iframe Parent Class Name Excludes"
-msgstr ""
+msgstr "遅延読み込みiframe親クラス名の除外"
 
 #: src/lang.cls.php:207
 msgid "Lazy Load URI Excludes"
-msgstr ""
+msgstr "遅延読み込みURI除外"
 
 #: src/lang.cls.php:208
 msgid "LQIP Excludes"
-msgstr ""
+msgstr "LQIP 除外項目"
 
 #: src/lang.cls.php:209
 msgid "Basic Image Placeholder"
-msgstr ""
+msgstr "基本画像プレースホルダー"
 
 #: src/lang.cls.php:210
 msgid "Responsive Placeholder"
-msgstr ""
+msgstr "レスポンシブ プレースホルダー"
 
 #: src/lang.cls.php:211
 msgid "Responsive Placeholder Color"
-msgstr ""
+msgstr "レスポンシブプレースホルダーの色"
 
 #: src/lang.cls.php:212
 msgid "Responsive Placeholder SVG"
-msgstr ""
+msgstr "レスポンシブプレースホルダーSVG"
 
 #: src/lang.cls.php:213
 msgid "LQIP Cloud Generator"
-msgstr ""
+msgstr "LQIP クラウドジェネレーター"
 
 #: src/lang.cls.php:214
 msgid "LQIP Quality"
-msgstr ""
+msgstr "LQIP品質"
 
 #: src/lang.cls.php:215
 msgid "LQIP Minimum Dimensions"
-msgstr ""
+msgstr "LQIP 最小寸法"
 
 #: src/lang.cls.php:216
 msgid "Generate LQIP In Background"
-msgstr ""
+msgstr "バックグラウンドでLQIPを生成する"
 
 #: src/lang.cls.php:217
 msgid "Lazy Load Iframes"
-msgstr ""
+msgstr "iframeの遅延読み込み"
 
 #: src/lang.cls.php:218
 msgid "Add Missing Sizes"
-msgstr ""
+msgstr "不足しているサイズを追加"
 
 #: src/lang.cls.php:219
 #: src/metabox.cls.php:42
 #: src/metabox.cls.php:43
 #: tpl/page_optm/settings_vpi.tpl.php:23
 msgid "Viewport Images"
-msgstr ""
+msgstr "ビューポート画像"
 
 #: src/lang.cls.php:220
 msgid "Viewport Images Cron"
-msgstr ""
+msgstr "ビューポートイメージのCron"
 
 #: src/lang.cls.php:221
 msgid "Auto Rescale Original Images"
-msgstr ""
+msgstr "元の画像を自動リサイズ"
 
 #: src/lang.cls.php:223
 msgid "Auto Request Cron"
-msgstr ""
+msgstr "自動リクエストCron"
 
 #: src/lang.cls.php:224
 msgid "Optimize Original Images"
-msgstr ""
+msgstr "元の画像を最適化"
 
 #: src/lang.cls.php:225
 msgid "Remove Original Backups"
-msgstr ""
+msgstr "元のバックアップを削除"
 
 #: src/lang.cls.php:226
 msgid "Next-Gen Image Format"
-msgstr ""
+msgstr "次世代画像形式"
 
 #: src/lang.cls.php:227
 msgid "Optimize Losslessly"
-msgstr ""
+msgstr "ロスレス最適化"
 
 #: src/lang.cls.php:228
 msgid "Optimize Image Sizes"
-msgstr ""
+msgstr "画像のサイズを最適化"
 
 #: src/lang.cls.php:229
 msgid "Preserve EXIF/XMP data"
-msgstr ""
+msgstr "EXIF/XMPデータを保持する"
 
 #: src/lang.cls.php:230
 msgid "WebP/AVIF Attribute To Replace"
-msgstr ""
+msgstr "置換するWebP/AVIF属性"
 
 #: src/lang.cls.php:231
 msgid "WebP/AVIF For Extra srcset"
-msgstr ""
+msgstr "追加のsrcset向けWebP/AVIF"
 
 #: src/lang.cls.php:232
 msgid "WordPress Image Quality Control"
-msgstr ""
+msgstr "WordPress 画像品質コントロール"
 
 #: src/lang.cls.php:233
 #: tpl/esi_widget_edit.php:43
 msgid "Enable ESI"
-msgstr ""
+msgstr "ESIを有効にする"
 
 #: src/lang.cls.php:234
 msgid "Cache Admin Bar"
-msgstr ""
+msgstr "キャッシュ管理バー"
 
 #: src/lang.cls.php:235
 msgid "Cache Comment Form"
-msgstr ""
+msgstr "コメントフォームのキャッシュ"
 
 #: src/lang.cls.php:236
 msgid "ESI Nonces"
-msgstr ""
+msgstr "ESI ナンス"
 
 #: src/lang.cls.php:237
 #: tpl/page_optm/settings_css.tpl.php:140
 #: tpl/page_optm/settings_css.tpl.php:277
 #: tpl/page_optm/settings_vpi.tpl.php:88
 msgid "Vary Group"
-msgstr ""
+msgstr "Varyグループ"
 
 #: src/lang.cls.php:238
 msgid "Purge All Hooks"
-msgstr ""
+msgstr "すべてのフックを削除"
 
 #: src/lang.cls.php:239
 msgid "Improve HTTP/HTTPS Compatibility"
-msgstr ""
+msgstr "HTTP/HTTPS互換性を改善する"
 
 #: src/lang.cls.php:240
 msgid "Instant Click"
-msgstr ""
+msgstr "インスタントクリック"
 
 #: src/lang.cls.php:241
 msgid "Do Not Cache Cookies"
-msgstr ""
+msgstr "クッキーをキャッシュしない"
 
 #: src/lang.cls.php:242
 msgid "Do Not Cache User Agents"
-msgstr ""
+msgstr "ユーザーエージェントをキャッシュしない"
 
 #: src/lang.cls.php:243
 msgid "Login Cookie"
-msgstr ""
+msgstr "ログインクッキー"
 
 #: src/lang.cls.php:244
 msgid "Vary Cookies"
-msgstr ""
+msgstr "Cookieのバリエーション"
 
 #: src/lang.cls.php:246
 msgid "Frontend Heartbeat Control"
-msgstr ""
+msgstr "フロントエンドハートビート制御"
 
 #: src/lang.cls.php:247
 msgid "Frontend Heartbeat TTL"
-msgstr ""
+msgstr "フロントエンド ハートビート TTL"
 
 #: src/lang.cls.php:248
 msgid "Backend Heartbeat Control"
-msgstr ""
+msgstr "バックエンドハートビートコントロール"
 
 #: src/lang.cls.php:249
 msgid "Backend Heartbeat TTL"
-msgstr ""
+msgstr "バックエンドハートビートTTL"
 
 #: src/lang.cls.php:250
 msgid "Editor Heartbeat"
-msgstr ""
+msgstr "エディターハートビート"
 
 #: src/lang.cls.php:251
 msgid "Editor Heartbeat TTL"
-msgstr ""
+msgstr "エディターハートビート TTL"
 
 #: src/lang.cls.php:253
 msgid "Use CDN Mapping"
-msgstr ""
+msgstr "CDNマッピングを使用する"
 
 #: src/lang.cls.php:254
 msgid "CDN URL"
-msgstr ""
+msgstr "CDN URL"
 
 #: src/lang.cls.php:255
 msgid "Include Images"
-msgstr ""
+msgstr "画像を含める"
 
 #: src/lang.cls.php:256
 msgid "Include CSS"
-msgstr ""
+msgstr "CSSを含める"
 
 #: src/lang.cls.php:257
 msgid "Include JS"
-msgstr ""
+msgstr "JSを含める"
 
 #: src/lang.cls.php:258
 #: tpl/cdn/other.tpl.php:113
 msgid "Include File Types"
-msgstr ""
+msgstr "ファイル形式を含める"
 
 #: src/lang.cls.php:259
 msgid "HTML Attribute To Replace"
-msgstr ""
+msgstr "置換するHTML属性"
 
 #: src/lang.cls.php:260
 msgid "Original URLs"
-msgstr ""
+msgstr "元のURL"
 
 #: src/lang.cls.php:261
 msgid "Included Directories"
-msgstr ""
+msgstr "含まれているディレクトリ"
 
 #: src/lang.cls.php:262
 msgid "Exclude Path"
-msgstr ""
+msgstr "パスを除外"
 
 #: src/lang.cls.php:263
 msgid "Cloudflare API"
-msgstr ""
+msgstr "Cloudflare API"
 
 #: src/lang.cls.php:264
 msgid "Clear Cloudflare cache"
-msgstr ""
+msgstr "Cloudflare キャッシュをクリア"
 
 #: src/lang.cls.php:267
 msgid "Crawl Interval"
-msgstr ""
+msgstr "クロール間隔"
 
 #: src/lang.cls.php:268
 msgid "Server Load Limit"
-msgstr ""
+msgstr "サーバー負荷制限"
 
 #: src/lang.cls.php:269
 msgid "Role Simulation"
-msgstr ""
+msgstr "ロールシミュレーション"
 
 #: src/lang.cls.php:270
 msgid "Cookie Simulation"
-msgstr ""
+msgstr "クッキーシミュレーション"
 
 #: src/lang.cls.php:271
 msgid "Custom Sitemap"
-msgstr ""
+msgstr "カスタムサイトマップ"
 
 #: src/lang.cls.php:273
 msgid "Disable All Features"
-msgstr ""
+msgstr "すべての機能を無効化する"
 
 #: src/lang.cls.php:274
 #: tpl/toolbox/log_viewer.tpl.php:18
 msgid "Debug Log"
-msgstr ""
+msgstr "デバッグログ"
 
 #: src/lang.cls.php:275
 msgid "Admin IPs"
-msgstr ""
+msgstr "管理者 IP"
 
 #: src/lang.cls.php:276
 msgid "Debug Level"
-msgstr ""
+msgstr "デバッグレベル"
 
 #: src/lang.cls.php:277
 msgid "Log File Size Limit"
-msgstr ""
+msgstr "ログファイルのサイズ制限"
 
 #: src/lang.cls.php:278
 msgid "Collapse Query Strings"
-msgstr ""
+msgstr "クエリ文字列を折りたたむ"
 
 #: src/lang.cls.php:279
 msgid "Debug URI Includes"
-msgstr ""
+msgstr "デバッグ URI インクルード"
 
 #: src/lang.cls.php:280
 msgid "Debug URI Excludes"
-msgstr ""
+msgstr "デバッグURI除外"
 
 #: src/lang.cls.php:281
 msgid "Debug String Excludes"
-msgstr ""
+msgstr "デバッグ文字列の除外"
 
 #: src/lang.cls.php:283
 msgid "Revisions Max Number"
-msgstr ""
+msgstr "リビジョン最大数"
 
 #: src/lang.cls.php:284
 msgid "Revisions Max Age"
-msgstr ""
+msgstr "リビジョン最大保持期間"
 
 #: src/media.cls.php:297
 msgid "Batch rescale completed."
-msgstr ""
+msgstr "一括リサイズが完了しました。"
 
 #: src/media.cls.php:474
 msgid "LiteSpeed Optimization"
-msgstr ""
+msgstr "LiteSpeed オプティマイゼーション"
 
 #: src/media.cls.php:529
 #: src/media.cls.php:568
 #: src/media.cls.php:597
 #: src/media.cls.php:642
 msgid "(optm)"
-msgstr ""
+msgstr "(最適化)"
 
 #: src/media.cls.php:530
 msgid "Currently using optimized version of file."
-msgstr ""
+msgstr "現在、ファイルの最適化済みバージョンを使用しています。"
 
 #: src/media.cls.php:530
 #: src/media.cls.php:601
 msgid "Click to switch to original (unoptimized) version."
-msgstr ""
+msgstr "クリックしてオリジナル（最適化されていない）バージョンに切り替えます。"
 
 #: src/media.cls.php:533
 #: src/media.cls.php:604
 msgid "(non-optm)"
-msgstr ""
+msgstr "(最適化なし)"
 
 #: src/media.cls.php:534
 msgid "Currently using original (unoptimized) version of file."
-msgstr ""
+msgstr "現在、ファイルのオリジナル（最適化されていない）バージョンを使用しています。"
 
 #: src/media.cls.php:534
 #: src/media.cls.php:608
 msgid "Click to switch to optimized version."
-msgstr ""
+msgstr "最適化されたバージョンに切り替えるにはクリックしてください。"
 
 #: src/media.cls.php:542
 #, php-format
 msgid "Original file reduced by %1$s (%2$s)"
-msgstr ""
+msgstr "元のファイルは %1$s (%2$s) 削減されました"
 
 #: src/media.cls.php:552
 #, php-format
 msgid "Orig saved %s"
-msgstr ""
+msgstr "オリジナルを保存しました %s"
 
 #: src/media.cls.php:567
 #: src/media.cls.php:640
 msgid "Using optimized version of file. "
-msgstr ""
+msgstr "最適化されたバージョンのファイルを使用しています。"
 
 #: src/media.cls.php:567
 msgid "No backup of original file exists."
-msgstr ""
+msgstr "元のファイルのバックアップが存在しません。"
 
 #: src/media.cls.php:572
 msgid "Congratulation! Your file was already optimized"
-msgstr ""
+msgstr "おめでとうございます！ファイルはすでに最適化されています"
 
 #: src/media.cls.php:574
 #, php-format
 msgid "Orig %s"
-msgstr ""
+msgstr "元の %s"
 
 #: src/media.cls.php:575
 msgid "(no savings)"
-msgstr ""
+msgstr "（割引なし）"
 
 #: src/media.cls.php:578
 msgid "Orig"
-msgstr ""
+msgstr "オリジナル"
 
 #: src/media.cls.php:599
 msgid "Currently using optimized version of AVIF file."
-msgstr ""
+msgstr "現在、AVIFファイルの最適化されたバージョンを使用しています。"
 
 #: src/media.cls.php:600
 msgid "Currently using optimized version of WebP file."
-msgstr ""
+msgstr "現在、最適化されたバージョンのWebPファイルを使用しています。"
 
 #: src/media.cls.php:606
 msgid "Currently using original (unoptimized) version of AVIF file."
-msgstr ""
+msgstr "AVIFファイルのオリジナル（最適化されていない）バージョンを使用中です。"
 
 #: src/media.cls.php:607
 msgid "Currently using original (unoptimized) version of WebP file."
-msgstr ""
+msgstr "現在、WebPファイルのオリジナル（未最適化）バージョンを使用しています。"
 
 #: src/media.cls.php:616
 #, php-format
 msgid "AVIF file reduced by %1$s (%2$s)"
-msgstr ""
+msgstr "AVIF ファイルが %1$s (%2$s) 削減されました"
 
 #: src/media.cls.php:616
 #, php-format
 msgid "WebP file reduced by %1$s (%2$s)"
-msgstr ""
+msgstr "WebP ファイルのサイズが %1$s (%2$s) 削減されました"
 
 #: src/media.cls.php:625
 #, php-format
 msgid "AVIF saved %s"
-msgstr ""
+msgstr "AVIF の保存数: %s"
 
 #: src/media.cls.php:625
 #, php-format
 msgid "WebP saved %s"
-msgstr ""
+msgstr "WebP保存量：%s"
 
 #: src/media.cls.php:641
 msgid "No backup of unoptimized AVIF file exists."
-msgstr ""
+msgstr "最適化されていないAVIFファイルのバックアップが存在しません。"
 
 #: src/media.cls.php:641
 msgid "No backup of unoptimized WebP file exists."
-msgstr ""
+msgstr "最適化されていないWebPファイルのバックアップが存在しません。"
 
 #: src/media.cls.php:656
 msgid "Restore from backup"
-msgstr ""
+msgstr "バックアップから復元"
 
 #: src/metabox.cls.php:39
 msgid "Disable Cache"
-msgstr ""
+msgstr "キャッシュを無効化"
 
 #: src/metabox.cls.php:40
 msgid "Disable Image Lazyload"
-msgstr ""
+msgstr "画像遅延読み込みを無効にする"
 
 #: src/metabox.cls.php:41
 msgid "Disable VPI"
-msgstr ""
+msgstr "VPIを無効化する"
 
 #: src/metabox.cls.php:43
 msgid "Mobile"
-msgstr ""
+msgstr "モバイル"
 
 #: src/object-cache.cls.php:708
 #, php-format
 msgid "Redis encountered a fatal error: %1$s (code: %2$d)"
-msgstr ""
+msgstr "Redis で致命的なエラーが発生しました: %1$s (コード: %2$d)"
 
 #: src/placeholder.cls.php:169
 msgid "LQIP"
-msgstr ""
+msgstr "LQIP"
 
 #: src/placeholder.cls.php:234
 #, php-format
 msgid "LQIP image preview for size %s"
-msgstr ""
+msgstr "サイズ %s の LQIP 画像プレビュー"
 
 #: src/purge.cls.php:234
 msgid "Purged all caches successfully."
-msgstr ""
+msgstr "すべてのキャッシュが正常に削除されました。"
 
 #: src/purge.cls.php:270
 msgid "Notified LiteSpeed Web Server to purge all LSCache entries."
-msgstr ""
+msgstr "LiteSpeed Web Serverに通知し、すべての LSCache エントリをパージしました。"
 
 #: src/purge.cls.php:291
 msgid "Cleaned all Critical CSS files."
-msgstr ""
+msgstr "すべてのクリティカルCSSファイルをクリーンアップしました。"
 
 #: src/purge.cls.php:312
 msgid "Cleaned all Unique CSS files."
-msgstr ""
+msgstr "すべてのユニークなCSSファイルをクリーンアップしました。"
 
 #: src/purge.cls.php:359
 msgid "Cleaned all LQIP files."
-msgstr ""
+msgstr "すべてのLQIPファイルをクリーンアップしました。"
 
 #: src/purge.cls.php:393
 msgid "Cleaned all VPI data."
-msgstr ""
+msgstr "すべての VPI データをクリーンアップしました。"
 
 #: src/purge.cls.php:414
 msgid "Cleaned all Gravatar files."
-msgstr ""
+msgstr "すべてのGravatarファイルをクリーンアップしました。"
 
 #: src/purge.cls.php:434
 msgid "Cleaned all localized resource entries."
-msgstr ""
+msgstr "ローカライズされたリソースエントリをすべてクリーンアップしました。"
 
 #: src/purge.cls.php:471
 msgid "Notified LiteSpeed Web Server to purge CSS/JS entries."
-msgstr ""
+msgstr "CSS/JSエントリを削除するように LiteSpeed Web Server に通知しました。"
 
 #: src/purge.cls.php:491
 msgid "OPcache is not enabled."
-msgstr ""
+msgstr "OPcacheが有効になっていません。"
 
 #: src/purge.cls.php:504
 #, php-format
 msgid "OPcache is restricted by %s setting."
-msgstr ""
+msgstr "OPcacheは %s の設定によって制限されています。"
 
 #: src/purge.cls.php:517
 msgid "Reset the OPcache failed."
-msgstr ""
+msgstr "OPcacheのリセットに失敗しました。"
 
 #: src/purge.cls.php:531
 msgid "Reset the entire OPcache successfully."
-msgstr ""
+msgstr "OPcache全体を正常にリセットしました。"
 
 #: src/purge.cls.php:563
 msgid "Object cache is not enabled."
-msgstr ""
+msgstr "オブジェクトキャッシュが有効になっていません。"
 
 #: src/purge.cls.php:576
 msgid "Purge all object caches successfully."
-msgstr ""
+msgstr "すべてのオブジェクトキャッシュを正常にパージしました。"
 
 #: src/purge.cls.php:793
 msgid "Notified LiteSpeed Web Server to purge the front page."
-msgstr ""
+msgstr "LiteSpeed Web Serverに通知してトップページをパージしました。"
 
 #: src/purge.cls.php:809
 msgid "Notified LiteSpeed Web Server to purge all pages."
-msgstr ""
+msgstr "LiteSpeed Web Serverにすべてのページのパージを通知しました。"
 
 #: src/purge.cls.php:832
 msgid "Notified LiteSpeed Web Server to purge error pages."
-msgstr ""
+msgstr "LiteSpeed Web Serverにエラーページのキャッシュ削除を通知しました。"
 
 #: src/purge.cls.php:863
 #, php-format
 msgid "Purge category %s"
-msgstr ""
+msgstr "カテゴリ %s の削除"
 
 #: src/purge.cls.php:894
 #, php-format
 msgid "Purge tag %s"
-msgstr ""
+msgstr "タグ %s を削除する"
 
 #: src/purge.cls.php:931
 #, php-format
 msgid "Purge url %s"
-msgstr ""
+msgstr "URL %s をパージする"
 
 #: src/root.cls.php:198
 msgid "All QUIC.cloud service queues have been cleared."
-msgstr ""
+msgstr "すべての QUIC.cloud サービスキューがクリアされました。"
 
 #: src/task.cls.php:268
 msgid "Every 15 Minutes"
-msgstr ""
+msgstr "15分ごと"
 
 #: src/task.cls.php:289
 msgid "LiteSpeed Crawler Cron"
-msgstr ""
+msgstr "LiteSpeed クローラー Cron"
 
 #: src/tool.cls.php:46
 msgid "Failed to detect IP"
-msgstr ""
+msgstr "IPの検出に失敗しました"
 
 #: src/utility.cls.php:204
 msgid "right now"
-msgstr ""
+msgstr "ただいま"
 
 #: src/utility.cls.php:204
 msgid "just now"
-msgstr ""
+msgstr "たった今"
 
 #: src/utility.cls.php:207
 #, php-format
 msgid " %s ago"
-msgstr ""
+msgstr "%s前"
 
 #: thirdparty/litespeed-check.cls.php:100
 #: thirdparty/litespeed-check.cls.php:165
 msgid "Please consider disabling the following detected plugins, as they may conflict with Zinn® Cache Engine:"
-msgstr ""
+msgstr "検出された以下のプラグインはZinn® Cache Engineと競合する可能性があるため、無効化をご検討ください。"
 
 #: thirdparty/woocommerce.content.tpl.php:19
 msgid "WooCommerce Settings"
-msgstr ""
+msgstr "WooCommerce の設定"
 
 #: thirdparty/woocommerce.content.tpl.php:24
 #: tpl/cache/settings-advanced.tpl.php:21
 #: tpl/cache/settings_inc.browser.tpl.php:23
 #: tpl/toolbox/heartbeat.tpl.php:24
 msgid "NOTICE:"
-msgstr ""
+msgstr "通知:"
 
 #: thirdparty/woocommerce.content.tpl.php:25
 msgid "After verifying that the cache works in general, please test the cart."
-msgstr ""
+msgstr "キャッシュが正常に機能することを確認してから、カートのテストを行ってください。"
 
 #. translators: %s: link attributes
 #: thirdparty/woocommerce.content.tpl.php:30
 #, php-format
 msgid "To test the cart, visit the %sFAQ%s."
-msgstr ""
+msgstr "カートをテストするには、%sFAQ%sをご覧ください。"
 
 #: thirdparty/woocommerce.content.tpl.php:36
 msgid "By default, the My Account, Checkout, and Cart pages are automatically excluded from caching. Misconfiguration of page associations in WooCommerce settings may cause some pages to be erroneously excluded."
-msgstr ""
+msgstr "デフォルトでは、「マイアカウント」、「チェックアウト」、「カート」の各ページは自動的にキャッシュから除外されます。WooCommerceの設定でページの関連付けが誤って構成されていると、一部のページが誤って除外される可能性があります。"
 
 #: thirdparty/woocommerce.content.tpl.php:44
 msgid "Product Update Interval"
-msgstr ""
+msgstr "製品アップデートの間隔"
 
 #: thirdparty/woocommerce.content.tpl.php:49
 msgid "Purge product on changes to the quantity or stock status."
-msgstr ""
+msgstr "数量または在庫状況の変更時に商品をパージします。"
 
 #: thirdparty/woocommerce.content.tpl.php:49
 msgid "Purge categories only when stock status changes."
-msgstr ""
+msgstr "在庫ステータスが変更された場合のみカテゴリをパージします。"
 
 #: thirdparty/woocommerce.content.tpl.php:50
 msgid "Purge product and categories only when the stock status changes."
-msgstr ""
+msgstr "在庫ステータスが変更された場合のみ、商品とカテゴリをパージします。"
 
 #: thirdparty/woocommerce.content.tpl.php:51
 msgid "Purge product only when the stock status changes."
-msgstr ""
+msgstr "商品の在庫状況が変更された場合のみ削除します。"
 
 #: thirdparty/woocommerce.content.tpl.php:51
 msgid "Do not purge categories on changes to the quantity or stock status."
-msgstr ""
+msgstr "数量や在庫状況が変更されてもカテゴリを削除しないでください。"
 
 #: thirdparty/woocommerce.content.tpl.php:52
 msgid "Always purge both product and categories on changes to the quantity or stock status."
-msgstr ""
+msgstr "商品または在庫状況に変更があった場合は、常に商品とカテゴリの両方をパージしてください。"
 
 #: thirdparty/woocommerce.content.tpl.php:72
 msgid "Determines how changes in product quantity and product stock status affect product pages and their associated category pages."
-msgstr ""
+msgstr "製品の数量や在庫状況の変更が、商品ページおよびそれに関連するカテゴリページにどのように影響するかを決定します。"
 
 #: thirdparty/woocommerce.content.tpl.php:80
 msgid "Vary for Mini Cart"
-msgstr ""
+msgstr "ミニカートごとに変更"
 
 #: thirdparty/woocommerce.content.tpl.php:88
 msgid "Generate a separate vary cache copy for the mini cart when the cart is not empty."
-msgstr ""
+msgstr "カートが空でない場合、ミニカート用の個別の Vary キャッシュコピーを生成します。"
 
 #: thirdparty/woocommerce.content.tpl.php:89
 msgid "If your theme does not use JS to update the mini cart, you must enable this option to display the correct cart contents."
-msgstr ""
+msgstr "お使いのテーマがJSを使用してミニカートを更新しない場合、正しいカートの内容を表示するには、このオプションを有効にする必要があります。"
 
 #: tpl/banner/new_version_dev.tpl.php:22
 msgid "New Developer Version Available!"
-msgstr ""
+msgstr "新しい開発者バージョンが利用可能です"
 
 #: tpl/banner/new_version_dev.tpl.php:30
 #, php-format
 msgid "New developer version %s is available now."
-msgstr ""
+msgstr "新しい開発者バージョン %s が利用可能です。"
 
 #: tpl/banner/new_version_dev.tpl.php:41
 msgid "Upgrade"
-msgstr ""
+msgstr "アップグレード"
 
 #: tpl/cache/entry.tpl.php:18
 #: tpl/cache/entry.tpl.php:68
 #: tpl/toolbox/entry.tpl.php:16
 #: tpl/toolbox/purge.tpl.php:150
 msgid "Purge"
-msgstr ""
+msgstr "削除"
 
 #: tpl/cache/entry.tpl.php:19
 #: tpl/cache/entry.tpl.php:69
 msgid "Excludes"
-msgstr ""
+msgstr "除外する"
 
 #: tpl/cache/entry.tpl.php:20
 #: tpl/cache/entry.tpl.php:74
 msgid "Object"
-msgstr ""
+msgstr "オブジェクト"
 
 #: tpl/cache/entry.tpl.php:21
 #: tpl/cache/entry.tpl.php:75
 msgid "Browser"
-msgstr ""
+msgstr "ブラウザー"
 
 #: tpl/cache/entry.tpl.php:22
 #: tpl/cache/entry.tpl.php:78
 #: tpl/toolbox/settings-debug.tpl.php:117
 msgid "Advanced"
-msgstr ""
+msgstr "詳細設定"
 
 #: tpl/cache/entry.tpl.php:28
 msgid "Zinn® Cache Engine Network Cache Settings"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン ネットワークキャッシュ設定"
 
 #: tpl/cache/entry.tpl.php:67
 #: tpl/cache/settings-ttl.tpl.php:15
 msgid "TTL"
-msgstr ""
+msgstr "TTL"
 
 #: tpl/cache/entry.tpl.php:70
 msgid "ESI"
-msgstr ""
+msgstr "ESI"
 
 #: tpl/cache/entry.tpl.php:100
 msgid "Zinn® Cache Engine Settings"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン設定"
 
 #: tpl/cache/more_settings_tip.tpl.php:22
 #: tpl/cache/settings-excludes.tpl.php:71
@@ -2363,79 +2358,79 @@ msgstr ""
 #: tpl/crawler/settings.tpl.php:76
 #: tpl/crawler/settings.tpl.php:86
 msgid "NOTE"
-msgstr ""
+msgstr "ノート"
 
 #. translators: %s: Zinn® Cache Engine menu label
 #: tpl/cache/more_settings_tip.tpl.php:27
 #, php-format
 msgid "More settings available under %s menu"
-msgstr ""
+msgstr "%s メニューの下でさらに多くの設定を利用できます"
 
 #: tpl/cache/network_settings-advanced.tpl.php:17
 #: tpl/cache/settings-advanced.tpl.php:16
 msgid "Advanced Settings"
-msgstr ""
+msgstr "詳細設定"
 
 #: tpl/cache/network_settings-cache.tpl.php:17
 #: tpl/cache/settings-cache.tpl.php:15
 msgid "Cache Control Settings"
-msgstr ""
+msgstr "キャッシュコントロール設定"
 
 #: tpl/cache/network_settings-cache.tpl.php:24
 msgid "Network Enable Cache"
-msgstr ""
+msgstr "ネットワークキャッシュ有効化"
 
 #: tpl/cache/network_settings-cache.tpl.php:28
 msgid "Enabling Zinn® Cache Engine for WordPress here enables the cache for the network."
-msgstr ""
+msgstr "ここでWordPress向けZinn® Cache Engineを有効にすると、ネットワーク全体のキャッシュが有効になります。"
 
 #: tpl/cache/network_settings-cache.tpl.php:29
 msgid "It is STRONGLY recommended that the compatibility with other plugins on a single/few sites is tested first."
-msgstr ""
+msgstr "単一または少数のサイトで他のプラグインとの互換性を最初にテストすることを強くお勧めします。"
 
 #: tpl/cache/network_settings-cache.tpl.php:30
 msgid "This is to ensure compatibility prior to enabling the cache for all sites."
-msgstr ""
+msgstr "これは、すべてのサイトでキャッシュを有効にする前に互換性を確保するためのものです。"
 
 #: tpl/cache/network_settings-excludes.tpl.php:17
 #: tpl/cache/settings-excludes.tpl.php:15
 msgid "Exclude Settings"
-msgstr ""
+msgstr "設定を除外する"
 
 #: tpl/cache/network_settings-purge.tpl.php:17
 #: tpl/cache/settings-purge.tpl.php:15
 msgid "Purge Settings"
-msgstr ""
+msgstr "設定を消去"
 
 #: tpl/cache/settings-advanced.tpl.php:22
 msgid "These settings are meant for ADVANCED USERS ONLY."
-msgstr ""
+msgstr "これらの設定は上級者専用です。"
 
 #: tpl/cache/settings-advanced.tpl.php:39
 msgid "Specify an AJAX action in POST/GET and the number of seconds to cache that request, separated by a space."
-msgstr ""
+msgstr "POST/GETでのAJAXアクションと、そのリクエストをキャッシュする秒数をスペースで区切って指定してください。"
 
 #: tpl/cache/settings-advanced.tpl.php:57
 msgid "Enable this option if you are using both HTTP and HTTPS in the same domain and are noticing cache irregularities."
-msgstr ""
+msgstr "同じドメインでHTTPとHTTPSの両方を使用しており、キャッシュの不規則性に気づいた場合は、このオプションを有効にしてください。"
 
 #: tpl/cache/settings-advanced.tpl.php:71
 msgid "When a visitor hovers over a page link, preload that page. This will speed up the visit to that link."
-msgstr ""
+msgstr "訪問者がページリンクにマウスオーバーした際に、そのページを事前に読み込みます。これにより、そのリンクへのアクセスが高速化されます。"
 
 #: tpl/cache/settings-advanced.tpl.php:76
 msgid "This will generate extra requests to the server, which will increase server load."
-msgstr ""
+msgstr "これによりサーバーへのリクエストが追加され、サーバーの負荷が上昇します。"
 
 #: tpl/cache/settings-cache.tpl.php:28
 msgid "Use Network Admin Setting"
-msgstr ""
+msgstr "ネットワーク管理者の設定を使用する"
 
 #. translators: %s: Link tags
 #: tpl/cache/settings-cache.tpl.php:36
 #, php-format
 msgid "Please visit the %sInformation%s page on how to test the cache."
-msgstr ""
+msgstr "キャッシュのテスト方法については、%sInformation%s ページをご覧ください。"
 
 #: tpl/cache/settings-cache.tpl.php:42
 #: tpl/crawler/settings.tpl.php:113
@@ -2444,89 +2439,89 @@ msgstr ""
 #: tpl/page_optm/entry.tpl.php:42
 #: tpl/toolbox/settings-debug.tpl.php:47
 msgid "NOTICE"
-msgstr ""
+msgstr "通知"
 
 #: tpl/cache/settings-cache.tpl.php:42
 msgid "When disabling the cache, all cached entries for this site will be purged."
-msgstr ""
+msgstr "キャッシュを無効にすると、このサイトのキャッシュされたエントリはすべて削除されます。"
 
 #: tpl/cache/settings-cache.tpl.php:45
 msgid "The network admin setting can be overridden here."
-msgstr ""
+msgstr "ネットワーク管理者の設定はここで上書きできます。"
 
 #: tpl/cache/settings-cache.tpl.php:49
 msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
-msgstr ""
+msgstr "QUIC.cloud CDNを有効にしている場合でも、ローカルサーバーからのキャッシュヘッダーが表示されることがあります。"
 
 #: tpl/cache/settings-cache.tpl.php:63
 #, php-format
 msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
-msgstr ""
+msgstr "ログインユーザー向けにフロントエンドページをプライベートキャッシュします。（LSWS %s が必要です）"
 
 #: tpl/cache/settings-cache.tpl.php:76
 #, php-format
 msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
-msgstr ""
+msgstr "コメントが保留中のコメンテーターを非公開でキャッシュします。このオプションを無効にすると、コメンテーターにはキャッシュ不可能なページが配信されます（LSWS %s が必要です）"
 
 #: tpl/cache/settings-cache.tpl.php:89
 msgid "Cache requests made by WordPress REST API calls."
-msgstr ""
+msgstr "WordPress REST API 呼び出しによるリクエストをキャッシュします。"
 
 #: tpl/cache/settings-cache.tpl.php:102
 msgid "Disabling this option may negatively affect performance."
-msgstr ""
+msgstr "このオプションを無効にすると、パフォーマンスに悪影響を及ぼす可能性があります。"
 
 #: tpl/cache/settings-cache.tpl.php:119
 msgid "URI Paths containing these strings will NOT be cached as public."
-msgstr ""
+msgstr "これらの文字列を含むURIパスは、パブリックとしてキャッシュされません。"
 
 #: tpl/cache/settings-cache.tpl.php:133
 msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
-msgstr ""
+msgstr "これらの文字列を含むパスは、キャッシュ不可の設定に関わらずキャッシュされます。"
 
 #: tpl/cache/settings-cache.tpl.php:136
 #: tpl/cache/settings-cache.tpl.php:161
 msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
-msgstr ""
+msgstr "URI にカスタム TTL を定義するには、URI の末尾に半角スペースと TTL 値を追加します。"
 
 #: tpl/cache/settings-cache.tpl.php:139
 #: tpl/cache/settings-cache.tpl.php:164
 #, php-format
 msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
-msgstr ""
+msgstr "例えば、%1$s は %3$s に対して %2$s 秒の TTL を定義します。"
 
 #: tpl/cache/settings-cache.tpl.php:158
 msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
-msgstr ""
+msgstr "これらの文字列を含むパスは、キャッシュ不可の設定にかかわらず、強制的にパブリックキャッシュされます。"
 
 #: tpl/cache/settings-esi.tpl.php:15
 msgid "ESI Settings"
-msgstr ""
+msgstr "ESI設定"
 
 #: tpl/cache/settings-esi.tpl.php:20
 msgid "With ESI (Edge Side Includes), pages may be served from cache for logged-in users."
-msgstr ""
+msgstr "ESI（Edge Side Includes）を使用すると、ログインユーザーに対してもページをキャッシュから配信できるようになります。"
 
 #: tpl/cache/settings-esi.tpl.php:21
 msgid "ESI allows you to designate parts of your dynamic page as separate fragments that are then assembled together to make the whole page. In other words, ESI lets you “punch holes” in a page, and then fill those holes with content that may be cached privately, cached publicly with its own TTL, or not cached at all."
-msgstr ""
+msgstr "ESIでは、動的ページの一部を別々のフラグメントとして指定し、それらを組み合わせてページ全体を構成することができます。言い換えれば、ESIを使用すると、ページに「穴を開け」、プライベートキャッシュ、独自のTTLを持つパブリックキャッシュ、またはキャッシュしないコンテンツでその穴を埋めることができます。"
 
 #: tpl/cache/settings-esi.tpl.php:22
 msgid "WpW: Private Cache vs. Public Cache"
-msgstr ""
+msgstr "WpW: プライベートキャッシュ対パブリックキャッシュ"
 
 #: tpl/cache/settings-esi.tpl.php:26
 msgid "You can turn shortcodes into ESI blocks."
-msgstr ""
+msgstr "ショートコードをESIブロックに変換できます。"
 
 #: tpl/cache/settings-esi.tpl.php:29
 #, php-format
 msgid "Replace %1$s with %2$s."
-msgstr ""
+msgstr "%1$s を %2$s に置き換えます。"
 
 #: tpl/cache/settings-esi.tpl.php:37
 msgid "ESI sample for developers"
-msgstr ""
+msgstr "開発者向け ESI サンプル"
 
 #: tpl/cache/settings-esi.tpl.php:45
 #: tpl/cdn/cf.tpl.php:100
@@ -2537,31 +2532,31 @@ msgstr ""
 #: tpl/page_optm/settings_css.tpl.php:211
 #: tpl/page_optm/settings_localization.tpl.php:21
 msgid "WARNING"
-msgstr ""
+msgstr "警告"
 
 #: tpl/cache/settings-esi.tpl.php:46
 msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
-msgstr ""
+msgstr "これらのオプションは、LiteSpeed Enterprise Web ServerまたはQUIC.cloud CDNでのみ利用可能です。"
 
 #: tpl/cache/settings-esi.tpl.php:59
 msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
-msgstr ""
+msgstr "ログインユーザー向けの公開ページのキャッシュを有効にし、管理バーとコメントフォームをESIブロック経由で配信するには、これをオンにします。これら以下の設定で有効にしない限り、これら2つのブロックはキャッシュされません。"
 
 #: tpl/cache/settings-esi.tpl.php:72
 msgid "Cache the built-in Admin Bar ESI block."
-msgstr ""
+msgstr "組み込みのAdmin Bar ESIブロックをキャッシュします。"
 
 #: tpl/cache/settings-esi.tpl.php:85
 msgid "Cache the built-in Comment Form ESI block."
-msgstr ""
+msgstr "組み込みのコメントフォーム ESI ブロックをキャッシュします。"
 
 #: tpl/cache/settings-esi.tpl.php:100
 msgid "The list will be merged with the predefined nonces in your local data file."
-msgstr ""
+msgstr "リストは、ローカルデータファイル内の定義済みノンスとマージされます。"
 
 #: tpl/cache/settings-esi.tpl.php:101
 msgid "The latest data file is"
-msgstr ""
+msgstr "最新のデータファイルは"
 
 #: tpl/cache/settings-esi.tpl.php:104
 #: tpl/page_optm/settings_media_exc.tpl.php:37
@@ -2574,49 +2569,49 @@ msgstr ""
 #: tpl/page_optm/settings_tuning_css.tpl.php:97
 #, php-format
 msgid "Filter %s is supported."
-msgstr ""
+msgstr "フィルター %s はサポートされています。"
 
 #: tpl/cache/settings-esi.tpl.php:108
 msgid "The above nonces will be converted to ESI automatically."
-msgstr ""
+msgstr "上記のナンスは自動的にESIに変換されます。"
 
 #: tpl/cache/settings-esi.tpl.php:110
 msgid "An optional second parameter may be used to specify cache control. Use a space to separate"
-msgstr ""
+msgstr "キャッシュコントロールを指定するために、オプションで2番目のパラメータを使用できます。区切るにはスペースを使用してください"
 
 #: tpl/cache/settings-esi.tpl.php:113
 #: tpl/cache/settings-purge.tpl.php:111
 #: tpl/cdn/other.tpl.php:169
 #, php-format
 msgid "Wildcard %1$s supported (match zero or more characters). For example, to match %2$s and %3$s, use %4$s."
-msgstr ""
+msgstr "ワイルドカード %1$s がサポートされています（0文字以上の文字に一致）。たとえば、%2$s や %3$s に一致させるには、%4$s を使用します。"
 
 #: tpl/cache/settings-esi.tpl.php:141
 msgid "If your site contains public content that certain user roles can see but other roles cannot, you can specify a Vary Group for those user roles. For example, specifying an administrator vary group allows there to be a separate publicly-cached page tailored to administrators (with “edit” links, etc), while all other user roles see the default public page."
-msgstr ""
+msgstr "特定のユーザーロールが閲覧でき、他のロールが閲覧できない公開コンテンツがサイトに含まれている場合は、それらのユーザーロールに対してVaryグループを指定できます。たとえば、管理者用のVaryグループを指定すると、管理者向けに最適化された個別のキャッシュ済み公開ページ（「編集」リンクなどを含む）を表示させることができ、その他のすべてのユーザーロールにはデフォルトの公開ページが表示されます。"
 
 #: tpl/cache/settings-excludes.tpl.php:30
 msgid "Paths containing these strings will not be cached."
-msgstr ""
+msgstr "これらの文字列を含むパスはキャッシュされません。"
 
 #: tpl/cache/settings-excludes.tpl.php:32
 #: tpl/page_optm/settings_tuning_css.tpl.php:78
 #: tpl/page_optm/settings_tuning_css.tpl.php:153
 msgid "Predefined list will also be combined w/ the above settings"
-msgstr ""
+msgstr "定義済みのリストも上記の設定と結合されます"
 
 #: tpl/cache/settings-excludes.tpl.php:45
 msgid "Query strings containing these parameters will not be cached."
-msgstr ""
+msgstr "これらのパラメータを含むクエリ文字列はキャッシュされません。"
 
 #: tpl/cache/settings-excludes.tpl.php:46
 #, php-format
 msgid "For example, for %1$s, %2$s and %3$s can be used here."
-msgstr ""
+msgstr "例えば、%1$s、%2$s、%3$sをここで使用できます。"
 
 #: tpl/cache/settings-excludes.tpl.php:66
 msgid "All categories are cached by default."
-msgstr ""
+msgstr "すべてのカテゴリがデフォルトでキャッシュされます。"
 
 #. translators: %s: "cookies"
 #. translators: %s: "user agents"
@@ -2626,84 +2621,84 @@ msgstr ""
 #: tpl/cache/settings_inc.exclude_useragent.tpl.php:27
 #, php-format
 msgid "To prevent %s from being cached, enter them here."
-msgstr ""
+msgstr "%sがキャッシュされないようにするには、ここにそれらを入力してください。"
 
 #: tpl/cache/settings-excludes.tpl.php:67
 msgid "categories"
-msgstr ""
+msgstr "カテゴリー"
 
 #: tpl/cache/settings-excludes.tpl.php:73
 msgid "If the category name is not found, the category will be removed from the list on save."
-msgstr ""
+msgstr "カテゴリー名が見つからない場合、保存時にそのカテゴリーはリストから削除されます。"
 
 #: tpl/cache/settings-excludes.tpl.php:99
 msgid "All tags are cached by default."
-msgstr ""
+msgstr "すべてのタグはデフォルトでキャッシュされます。"
 
 #: tpl/cache/settings-excludes.tpl.php:100
 msgid "tags"
-msgstr ""
+msgstr "タグ"
 
 #: tpl/cache/settings-excludes.tpl.php:106
 msgid "If the tag slug is not found, the tag will be removed from the list on save."
-msgstr ""
+msgstr "タグスラッグが見つからない場合、保存時にタグがリストから削除されます。"
 
 #: tpl/cache/settings-excludes.tpl.php:110
 #, php-format
 msgid "To exclude %1$s, insert %2$s."
-msgstr ""
+msgstr "%1$s を除外するには、%2$s を挿入してください。"
 
 #: tpl/cache/settings-excludes.tpl.php:135
 msgid "Selected roles will be excluded from cache."
-msgstr ""
+msgstr "選択されたロールはキャッシュから除外されます。"
 
 #: tpl/cache/settings-purge.tpl.php:21
 msgid "All pages"
-msgstr ""
+msgstr "すべてのページ"
 
 #: tpl/cache/settings-purge.tpl.php:22
 msgid "Front page"
-msgstr ""
+msgstr "トップページ"
 
 #: tpl/cache/settings-purge.tpl.php:23
 msgid "Home page"
-msgstr ""
+msgstr "ホームぺージ"
 
 #: tpl/cache/settings-purge.tpl.php:24
 msgid "Pages"
-msgstr ""
+msgstr "ページ"
 
 #: tpl/cache/settings-purge.tpl.php:25
 msgid "All pages with Recent Posts Widget"
-msgstr ""
+msgstr "最近の投稿ウィジェットを含むすべてのページ"
 
 #: tpl/cache/settings-purge.tpl.php:26
 msgid "Author archive"
-msgstr ""
+msgstr "著者アーカイブ"
 
 #: tpl/cache/settings-purge.tpl.php:27
 msgid "Post type archive"
-msgstr ""
+msgstr "投稿タイプアーカイブ"
 
 #: tpl/cache/settings-purge.tpl.php:28
 msgid "Yearly archive"
-msgstr ""
+msgstr "年間アーカイブ"
 
 #: tpl/cache/settings-purge.tpl.php:29
 msgid "Monthly archive"
-msgstr ""
+msgstr "月別アーカイブ"
 
 #: tpl/cache/settings-purge.tpl.php:30
 msgid "Daily archive"
-msgstr ""
+msgstr "日次アーカイブ"
 
 #: tpl/cache/settings-purge.tpl.php:31
 msgid "Term archive (include category, tag, and tax)"
-msgstr ""
+msgstr "タームアーカイブ（カテゴリー、タグ、タクソノミーを含む）"
 
 #: tpl/cache/settings-purge.tpl.php:50
 msgid "Auto Purge Rules For Publish/Update"
-msgstr ""
+msgstr "公開/更新時の自動パージルール"
 
 #: tpl/cache/settings-purge.tpl.php:53
 #: tpl/cache/settings-purge.tpl.php:90
@@ -2711,271 +2706,271 @@ msgstr ""
 #: tpl/page_optm/settings_tuning_css.tpl.php:72
 #: tpl/page_optm/settings_tuning_css.tpl.php:147
 msgid "Note"
-msgstr ""
+msgstr "メモ"
 
 #: tpl/cache/settings-purge.tpl.php:55
 msgid "Select \"All\" if there are dynamic widgets linked to posts on pages other than the front or home pages."
-msgstr ""
+msgstr "トップページやホーム画面以外のページ上の投稿にリンクされている動的ウィジェットがある場合は、「すべて」を選択してください。"
 
 #: tpl/cache/settings-purge.tpl.php:56
 msgid "Other checkboxes will be ignored."
-msgstr ""
+msgstr "その他のチェックボックスは無視されます。"
 
 #: tpl/cache/settings-purge.tpl.php:57
 msgid "Select only the archive types that are currently used, the others can be left unchecked."
-msgstr ""
+msgstr "現在使用されているアーカイブ形式のみを選択してください。その他の形式はそのままでかまいません。"
 
 #: tpl/cache/settings-purge.tpl.php:73
 msgid "Select which pages will be automatically purged when posts are published/updated."
-msgstr ""
+msgstr "投稿の公開や更新時に自動的にパージするページを選択してください。"
 
 #: tpl/cache/settings-purge.tpl.php:86
 msgid "If ON, the stale copy of a cached page will be shown to visitors until a new cache copy is available. Reduces the server load for following visits. If OFF, the page will be dynamically generated while visitors wait."
-msgstr ""
+msgstr "ONに設定すると、キャッシュされたページの古いコピーが新しいキャッシュコピーの準備ができるまで訪問者に表示されます。後続の訪問に対するサーバーの負荷が軽減されます。OFFに設定すると、訪問者が待機している間にページが動的に生成されます。"
 
 #: tpl/cache/settings-purge.tpl.php:92
 msgid "By design, this option may serve stale content. Do not enable this option, if that is not OK with you."
-msgstr ""
+msgstr "仕様上、このオプションは古いコンテンツを提供する場合があります。これが許容されない場合は、このオプションを有効にしないでください。"
 
 #: tpl/cache/settings-purge.tpl.php:106
 #, php-format
 msgid "The URLs here (one per line) will be purged automatically at the time set in the option \"%s\"."
-msgstr ""
+msgstr "ここに記載されているURL（1行に1つ）は、オプション「%s」で設定された時刻に自動的にパージされます。"
 
 #: tpl/cache/settings-purge.tpl.php:107
 #, php-format
 msgid "Both %1$s and %2$s are acceptable."
-msgstr ""
+msgstr "%1$sと%2$sの両方が利用可能です。"
 
 #: tpl/cache/settings-purge.tpl.php:116
 msgid "For URLs with wildcards, there may be a delay in initiating scheduled purge."
-msgstr ""
+msgstr "ワイルドカードを含むURLの場合、スケジュールされたパージの開始に遅延が生じる場合があります。"
 
 #: tpl/cache/settings-purge.tpl.php:131
 #, php-format
 msgid "Specify the time to purge the \"%s\" list."
-msgstr ""
+msgstr "\"%s\"リストを削除する時間を指定してください。"
 
 #: tpl/cache/settings-purge.tpl.php:132
 #, php-format
 msgid "Current server time is %s."
-msgstr ""
+msgstr "現在のサーバー時刻は %s です。"
 
 #: tpl/cache/settings-purge.tpl.php:152
 msgid "A Purge All will be executed when WordPress runs these hooks."
-msgstr ""
+msgstr "WordPress がこれらのフックを実行すると、すべてのパージ（Purge All）が実行されます。"
 
 #: tpl/cache/settings-ttl.tpl.php:29
 msgid "Specify how long, in seconds, public pages are cached."
-msgstr ""
+msgstr "公開ページをキャッシュする期間を秒単位で指定してください。"
 
 #: tpl/cache/settings-ttl.tpl.php:44
 msgid "Specify how long, in seconds, private pages are cached."
-msgstr ""
+msgstr "プライベートページをキャッシュする時間を秒単位で指定してください。"
 
 #: tpl/cache/settings-ttl.tpl.php:59
 msgid "Specify how long, in seconds, the front page is cached."
-msgstr ""
+msgstr "フロントページがキャッシュされる時間を秒単位で指定してください。"
 
 #: tpl/cache/settings-ttl.tpl.php:74
 msgid "Specify how long, in seconds, feeds are cached."
-msgstr ""
+msgstr "フィードをキャッシュする時間を秒単位で指定してください。"
 
 #: tpl/cache/settings-ttl.tpl.php:75
 #: tpl/cache/settings-ttl.tpl.php:90
 msgid "If this is set to a number less than 30, feeds will not be cached."
-msgstr ""
+msgstr "30未満の数値を設定した場合、フィードはキャッシュされません。"
 
 #: tpl/cache/settings-ttl.tpl.php:89
 msgid "Specify how long, in seconds, REST calls are cached."
-msgstr ""
+msgstr "REST呼び出しがキャッシュされる時間を秒単位で指定します。"
 
 #: tpl/cache/settings-ttl.tpl.php:111
 msgid "Specify an HTTP status code and the number of seconds to cache that page, separated by a space."
-msgstr ""
+msgstr "HTTPステータスコードと、そのページをキャッシュする秒数をスペースで区切って指定してください。"
 
 #: tpl/cache/settings_inc.browser.tpl.php:17
 msgid "Browser Cache Settings"
-msgstr ""
+msgstr "ブラウザキャッシュ設定"
 
 #: tpl/cache/settings_inc.browser.tpl.php:25
 msgid "OpenLiteSpeed users please check this"
-msgstr ""
+msgstr "OpenLiteSpeed ユーザーの方はこちらをご確認ください"
 
 #: tpl/cache/settings_inc.browser.tpl.php:26
 msgid "Setting Up Custom Headers"
-msgstr ""
+msgstr "カスタムヘッダーを設定中"
 
 #: tpl/cache/settings_inc.browser.tpl.php:41
 msgid "Browser caching stores static files locally in the user's browser. Turn on this setting to reduce repeated requests for static files."
-msgstr ""
+msgstr "ブラウザキャッシュは、静的ファイルをユーザーのブラウザにローカル保存します。静的ファイルへの重複するリクエストを削減するには、この設定を有効にしてください。"
 
 #. translators: %s: Link tags
 #: tpl/cache/settings_inc.browser.tpl.php:46
 #, php-format
 msgid "You can turn on browser caching in server admin too. %sLearn more about LiteSpeed browser cache settings%s."
-msgstr ""
+msgstr "サーバー管理でもブラウザーキャッシングを有効にできます。%sLiteSpeedのブラウザーキャッシュ設定の詳細はこちら%s。"
 
 #: tpl/cache/settings_inc.browser.tpl.php:63
 msgid "The amount of time, in seconds, that files will be stored in browser cache before expiring."
-msgstr ""
+msgstr "ファイルが期限切れになる前にブラウザキャッシュに保存される時間（秒）。"
 
 #. translators: %s: LiteSpeed Web Server version
 #: tpl/cache/settings_inc.cache_dropquery.tpl.php:27
 #, php-format
 msgid "Ignore certain query strings when caching. (LSWS %s required)"
-msgstr ""
+msgstr "キャッシュ時に特定のクエリ文字列を無視します（LSWS %s が必要です）"
 
 #. translators: %1$s: Example query string, %2$s: Example wildcard
 #: tpl/cache/settings_inc.cache_dropquery.tpl.php:34
 #, php-format
 msgid "For example, to drop parameters beginning with %1$s, %2$s can be used here."
-msgstr ""
+msgstr "例えば、%1$s で始まるパラメータを削除するには、ここで %2$s を使用できます。"
 
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:24
 msgid "Serve a separate cache copy for mobile visitors."
-msgstr ""
+msgstr "モバイル訪問者には個別のキャッシュコピーを配信します。"
 
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:25
 msgid "Learn more about when this is needed"
-msgstr ""
+msgstr "これが必要な場合についての詳細はこちら"
 
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:47
 msgid "Htaccess did not match configuration option."
-msgstr ""
+msgstr ".htaccess が設定オプションと一致しませんでした。"
 
 #. translators: %s: Current mobile agents in htaccess
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:51
 #, php-format
 msgid "Htaccess rule is: %s"
-msgstr ""
+msgstr ".htaccessルール: %s"
 
 #. translators: %1$s: Cache Mobile label, %2$s: ON status, %3$s: List of Mobile User Agents label
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:89
 #, php-format
 msgid "If %1$s is %2$s, then %3$s must be populated!"
-msgstr ""
+msgstr "%1$s が %2$s の場合、%3$s は入力必須です。"
 
 #: tpl/cache/settings_inc.exclude_cookies.tpl.php:28
 msgid "cookies"
-msgstr ""
+msgstr "クッキー"
 
 #: tpl/cache/settings_inc.exclude_useragent.tpl.php:28
 msgid "user agents"
-msgstr ""
+msgstr "ユーザーエージェント"
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:26
 msgid "SYNTAX: alphanumeric and \"_\". No spaces and case sensitive. MUST BE UNIQUE FROM OTHER WEB APPLICATIONS."
-msgstr ""
+msgstr "構文: 英数字および「_」。スペースなし、大文字小文字を区別します。他のWebアプリケーションと重複しないようにしてください。"
 
 #. translators: %s: Default login cookie name
 #: tpl/cache/settings_inc.login_cookie.tpl.php:32
 #, php-format
 msgid "The default login cookie is %s."
-msgstr ""
+msgstr "デフォルトのログインCookieは %s です。"
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:36
 msgid "The server will determine if the user is logged in based on the existence of this cookie."
-msgstr ""
+msgstr "サーバーは、このクッキーの存在に基づいてユーザーがログインしているかどうかを判断します。"
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:37
 msgid "This setting is useful for those that have multiple web applications for the same domain."
-msgstr ""
+msgstr "この設定は、同一ドメインに対して複数のウェブアプリケーションをお持ちの場合に便利です。"
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:38
 msgid "If every web application uses the same cookie, the server may confuse whether a user is logged in or not."
-msgstr ""
+msgstr "すべてのウェブアプリケーションが同じクッキーを使用している場合、サーバーはユーザーがログインしているかどうかを混同する可能性があります。"
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:39
 msgid "The cookie set here will be used for this WordPress installation."
-msgstr ""
+msgstr "ここで設定されるクッキーは、この WordPress インストールで使用されます。"
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:41
 msgid "Example use case:"
-msgstr ""
+msgstr "使用例:"
 
 #. translators: %s: Example domain
 #: tpl/cache/settings_inc.login_cookie.tpl.php:45
 #, php-format
 msgid "There is a WordPress installed for %s."
-msgstr ""
+msgstr "%s に WordPress がインストールされています。"
 
 #. translators: %s: Example subdomain
 #: tpl/cache/settings_inc.login_cookie.tpl.php:53
 #, php-format
 msgid "Then another WordPress is installed (NOT MULTISITE) at %s"
-msgstr ""
+msgstr "続いて、別の WordPress（マルチサイトではありません）が %s にインストールされます"
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:57
 msgid "The cache needs to distinguish who is logged into which WordPress site in order to cache correctly."
-msgstr ""
+msgstr "キャッシュが正しく機能するためには、誰がどの WordPress サイトにログインしているかをキャッシュが判別する必要があります。"
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:63
 msgid "Invalid login cookie. Invalid characters found."
-msgstr ""
+msgstr "無効なログインCookieです。無効な文字が見つかりました。"
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:84
 msgid "WARNING: The .htaccess login cookie and Database login cookie do not match."
-msgstr ""
+msgstr "警告: .htaccessのログインCookieとデータベースのログインCookieが一致しません。"
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:102
 msgid "SYNTAX: alphanumeric and \"_\". No spaces and case sensitive."
-msgstr ""
+msgstr "構文: 英数字および「_」。スペースなし、大文字と小文字を区別します。"
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:104
 msgid "You can list the 3rd party vary cookies here."
-msgstr ""
+msgstr "サードパーティの様々なCookieをここにリスト表示できます。"
 
 #: tpl/cache/settings_inc.object.tpl.php:15
 msgid "Enabled"
-msgstr ""
+msgstr "有効"
 
 #: tpl/cache/settings_inc.object.tpl.php:16
 msgid "Disabled"
-msgstr ""
+msgstr "無効"
 
 #: tpl/cache/settings_inc.object.tpl.php:23
 msgid "Not Available"
-msgstr ""
+msgstr "利用不可"
 
 #: tpl/cache/settings_inc.object.tpl.php:25
 msgid "Passed"
-msgstr ""
+msgstr "合格"
 
 #: tpl/cache/settings_inc.object.tpl.php:28
 msgid "Failed"
-msgstr ""
+msgstr "失敗しました"
 
 #: tpl/cache/settings_inc.object.tpl.php:33
 msgid "Object Cache Settings"
-msgstr ""
+msgstr "オブジェクトキャッシュ設定"
 
 #: tpl/cache/settings_inc.object.tpl.php:47
 msgid "Use external object cache functionality."
-msgstr ""
+msgstr "外部オブジェクトキャッシュ機能を使用する。"
 
 #: tpl/cache/settings_inc.object.tpl.php:52
 #: tpl/crawler/blacklist.tpl.php:42
 #: tpl/crawler/summary.tpl.php:153
 msgid "Status"
-msgstr ""
+msgstr "ステータス"
 
 #. translators: %s: Object cache name
 #: tpl/cache/settings_inc.object.tpl.php:58
 #: tpl/cache/settings_inc.object.tpl.php:66
 #, php-format
 msgid "%s Extension"
-msgstr ""
+msgstr "%s 拡張機能"
 
 #: tpl/cache/settings_inc.object.tpl.php:71
 msgid "Connection Test"
-msgstr ""
+msgstr "接続テスト"
 
 #. translators: %s: Object cache name
 #: tpl/cache/settings_inc.object.tpl.php:99
 #, php-format
 msgid "Your %s Hostname or IP address."
-msgstr ""
+msgstr "お客様の %s のホスト名またはIPアドレス。"
 
 #. translators: %1$s: Socket name, %2$s: Host field title, %3$s: Example socket path
 #. translators: %1$s: Socket name, %2$s: Port field title, %3$s: Port value
@@ -2983,302 +2978,302 @@ msgstr ""
 #: tpl/cache/settings_inc.object.tpl.php:146
 #, php-format
 msgid "If you are using a %1$s socket, %2$s should be set to %3$s"
-msgstr ""
+msgstr "%1$s ソケットを使用している場合、%2$s は %3$s に設定する必要があります"
 
 #. translators: %1$s: Object cache name, %2$s: Port number
 #: tpl/cache/settings_inc.object.tpl.php:128
 #: tpl/cache/settings_inc.object.tpl.php:137
 #, php-format
 msgid "Default port for %1$s is %2$s."
-msgstr ""
+msgstr "%1$s のデフォルトポートは %2$s です。"
 
 #: tpl/cache/settings_inc.object.tpl.php:164
 msgid "Default TTL for cached objects."
-msgstr ""
+msgstr "キャッシュされたオブジェクトのデフォルトのTTL。"
 
 #. translators: %s: SASL
 #: tpl/cache/settings_inc.object.tpl.php:180
 #, php-format
 msgid "Only available when %s is installed."
-msgstr ""
+msgstr "%sがインストールされている場合のみ利用可能です。"
 
 #: tpl/cache/settings_inc.object.tpl.php:196
 msgid "Specify the password used when connecting."
-msgstr ""
+msgstr "接続時に使用するパスワードを指定してください。"
 
 #: tpl/cache/settings_inc.object.tpl.php:209
 msgid "Database to be used"
-msgstr ""
+msgstr "使用するデータベース"
 
 #: tpl/cache/settings_inc.object.tpl.php:222
 msgid "Groups cached at the network level."
-msgstr ""
+msgstr "ネットワークレベルでキャッシュされたグループ。"
 
 #: tpl/cache/settings_inc.object.tpl.php:249
 msgid "Use keep-alive connections to speed up cache operations."
-msgstr ""
+msgstr "キープアライブ接続を使用してキャッシュ操作を高速化します。"
 
 #: tpl/cache/settings_inc.object.tpl.php:262
 msgid "Improve wp-admin speed through caching. (May encounter expired data)"
-msgstr ""
+msgstr "キャッシュを使用して wp-admin の速度を向上させます。（期限切れのデータが表示される場合があります）"
 
 #: tpl/cache/settings_inc.purge_on_upgrade.tpl.php:25
 msgid "When enabled, the cache will automatically purge when any plugin, theme or the WordPress core is upgraded."
-msgstr ""
+msgstr "有効にすると、プラグイン、テーマ、または WordPress コアがアップグレードされたときにキャッシュが自動的にパージされます。"
 
 #: tpl/cdn/cf.tpl.php:17
 msgid "Cloudflare Settings"
-msgstr ""
+msgstr "Cloudflare 設定"
 
 #: tpl/cdn/cf.tpl.php:31
 #, php-format
 msgid "Use %s API functionality."
-msgstr ""
+msgstr "%s API機能を使用する。"
 
 #: tpl/cdn/cf.tpl.php:35
 msgid "Global API Key / API Token"
-msgstr ""
+msgstr "グローバルAPIキー / APIトークン"
 
 #: tpl/cdn/cf.tpl.php:38
 #, php-format
 msgid "Your API key / token is used to access %s APIs."
-msgstr ""
+msgstr "%s APIへのアクセスには、APIキー / トークンを使用します。"
 
 #: tpl/cdn/cf.tpl.php:39
 #, php-format
 msgid "Get it from %s."
-msgstr ""
+msgstr "%s から取得します。"
 
 #: tpl/cdn/cf.tpl.php:40
 msgid "Recommended to generate the token from Cloudflare API token template \"WordPress\"."
-msgstr ""
+msgstr "Cloudflare API トークン テンプレート「WordPress」からトークンを生成することを推奨します。"
 
 #: tpl/cdn/cf.tpl.php:44
 msgid "Email Address"
-msgstr ""
+msgstr "メールアドレス"
 
 #: tpl/cdn/cf.tpl.php:47
 #, php-format
 msgid "Your Email address on %s."
-msgstr ""
+msgstr "%s でお使いのメールアドレス。"
 
 #: tpl/cdn/cf.tpl.php:48
 msgid "Optional when API token used."
-msgstr ""
+msgstr "APIトークンを使用する場合はオプションです。"
 
 #: tpl/cdn/cf.tpl.php:52
 msgid "Domain"
-msgstr ""
+msgstr "ドメイン"
 
 #: tpl/cdn/cf.tpl.php:59
 msgid "You can just type part of the domain."
-msgstr ""
+msgstr "ドメインの一部を入力するだけで大丈夫です。"
 
 #: tpl/cdn/cf.tpl.php:60
 msgid "Once saved, it will be matched with the current list and completed automatically."
-msgstr ""
+msgstr "保存されると、現在のリストと照合され、自動的に完了します。"
 
 #: tpl/cdn/cf.tpl.php:74
 #, php-format
 msgid "Clear %s cache when \"Purge All\" is run."
-msgstr ""
+msgstr "「すべてをパージ」の実行時に %s のキャッシュをクリアします。"
 
 #: tpl/cdn/cf.tpl.php:102
 msgid "To enable the following functionality, turn ON Cloudflare API in CDN Settings."
-msgstr ""
+msgstr "以下の機能を有効にするには、CDN設定でCloudflare APIをONにしてください。"
 
 #: tpl/cdn/cf.tpl.php:107
 msgid "Cloudflare Domain"
-msgstr ""
+msgstr "Cloudflare ドメイン"
 
 #: tpl/cdn/cf.tpl.php:108
 msgid "Cloudflare Zone"
-msgstr ""
+msgstr "Cloudflare ゾーン"
 
 #: tpl/cdn/cf.tpl.php:111
 msgid "Development Mode"
-msgstr ""
+msgstr "開発モード"
 
 #: tpl/cdn/cf.tpl.php:113
 msgid "Turn ON"
-msgstr ""
+msgstr "オンにする"
 
 #: tpl/cdn/cf.tpl.php:116
 msgid "Turn OFF"
-msgstr ""
+msgstr "オフにする"
 
 #: tpl/cdn/cf.tpl.php:119
 msgid "Check Status"
-msgstr ""
+msgstr "ステータスを確認"
 
 #: tpl/cdn/cf.tpl.php:129
 #, php-format
 msgid "Current status is %1$s since %2$s."
-msgstr ""
+msgstr "現在のステータスは%2$sから%1$sです。"
 
 #: tpl/cdn/cf.tpl.php:137
 #, php-format
 msgid "Current status is %s."
-msgstr ""
+msgstr "現在のステータスは %s です。"
 
 #: tpl/cdn/cf.tpl.php:141
 #, php-format
 msgid "Development mode will be automatically turned off in %s."
-msgstr ""
+msgstr "%s後、開発モードは自動的にオフになります。"
 
 #: tpl/cdn/cf.tpl.php:149
 msgid "Temporarily bypass Cloudflare cache. This allows changes to the origin server to be seen in realtime."
-msgstr ""
+msgstr "Cloudflare キャッシュを一時的にバイパスします。これにより、オリジンサーバーへの変更をリアルタイムで確認できるようになります。"
 
 #: tpl/cdn/cf.tpl.php:151
 msgid "Development Mode will be turned off automatically after three hours."
-msgstr ""
+msgstr "開発モードは3時間後に自動的にオフになります。"
 
 #: tpl/cdn/cf.tpl.php:152
 #, php-format
 msgid "%1$sLearn More%2$s"
-msgstr ""
+msgstr "%1$s詳細を見る%2$s"
 
 #: tpl/cdn/cf.tpl.php:156
 msgid "Cloudflare Cache"
-msgstr ""
+msgstr "Cloudflare キャッシュ"
 
 #: tpl/cdn/cf.tpl.php:162
 msgid "Purge Everything"
-msgstr ""
+msgstr "すべてを消去する"
 
 #: tpl/cdn/entry.tpl.php:15
 msgid "Other Static CDN"
-msgstr ""
+msgstr "その他の静的 CDN"
 
 #: tpl/cdn/entry.tpl.php:21
 msgid "Zinn® Cache Engine CDN"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン CDN"
 
 #: tpl/cdn/other.tpl.php:28
 msgid "CDN Settings"
-msgstr ""
+msgstr "CDN設定"
 
 #: tpl/cdn/other.tpl.php:44
 #, php-format
 msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
-msgstr ""
+msgstr "QUIC.cloud CDN で従来のコンテンツ配信ネットワーク (CDN) または静的コンテンツ用のサブドメインを使用している場合は、この設定を %s にしてください。"
 
 #: tpl/cdn/other.tpl.php:52
 #, php-format
 msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are only using QUIC.cloud or Cloudflare, leave this setting %s."
-msgstr ""
+msgstr "NOTE: QUIC.cloud CDNおよびCloudflareでは、CDNマッピングを使用しません。QUIC.cloudまたはCloudflareのみを使用している場合は、この設定を%sのままにしてください。"
 
 #: tpl/cdn/other.tpl.php:80
 msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
-msgstr ""
+msgstr "CDNのホスト名をランダム化するには、同じリソースに対して複数のホスト名を定義します。"
 
 #: tpl/cdn/other.tpl.php:87
 #, php-format
 msgid "Serve all image files through the CDN. This will affect all attachments, HTML %1$s tags, and CSS %2$s attributes."
-msgstr ""
+msgstr "すべての画像ファイルをCDN経由で配信します。これにより、すべての添付ファイル、HTMLの%1$sタグ、およびCSSの%2$s属性に影響が及びます。"
 
 #: tpl/cdn/other.tpl.php:94
 msgid "Serve all CSS files through the CDN. This will affect all enqueued WP CSS files."
-msgstr ""
+msgstr "すべての CSS ファイルを CDN 経由で配信します。これにより、キューに追加されたすべての WP CSS ファイルが影響を受けます。"
 
 #: tpl/cdn/other.tpl.php:97
 msgid "Serve all JavaScript files through the CDN. This will affect all enqueued WP JavaScript files."
-msgstr ""
+msgstr "すべてのJavaScriptファイルをCDN経由で配信します。これにより、キューに追加されたすべてのWP JavaScriptファイルに影響が及びます。"
 
 #: tpl/cdn/other.tpl.php:100
 msgid "Static file type links to be replaced by CDN links."
-msgstr ""
+msgstr "CDNリンクに置き換える静的ファイルタイプのリンク。"
 
 #: tpl/cdn/other.tpl.php:104
 #, php-format
 msgid "This will affect all tags containing attributes: %s."
-msgstr ""
+msgstr "これは属性 %s を含むすべてのタグに影響します。"
 
 #: tpl/cdn/other.tpl.php:112
 #, php-format
 msgid "If you turn any of the above settings OFF, please remove the related file types from the %s box."
-msgstr ""
+msgstr "上記のいずれかの設定をオフにする場合は、関連するファイルタイプを %s のボックスから削除してください。"
 
 #: tpl/cdn/other.tpl.php:136
 msgid "Specify which HTML element attributes will be replaced with CDN Mapping."
-msgstr ""
+msgstr "CDN マッピングで置き換える HTML 要素の属性を指定してください。"
 
 #: tpl/cdn/other.tpl.php:137
 #: tpl/img_optm/settings.tpl.php:150
 msgid "Only attributes listed here will be replaced."
-msgstr ""
+msgstr "ここにリストされている属性のみが置換されます。"
 
 #: tpl/cdn/other.tpl.php:141
 #: tpl/img_optm/settings.tpl.php:151
 #, php-format
 msgid "Use the format %1$s or %2$s (element is optional)."
-msgstr ""
+msgstr "%1$s または %2$s の形式を使用してください（要素は省略可能です）。"
 
 #: tpl/cdn/other.tpl.php:161
 #, php-format
 msgid "Site URL to be served through the CDN. Beginning with %1$s. For example, %2$s."
-msgstr ""
+msgstr "CDN経由で配信されるサイトのURL。%1$sで始まります。例: %2$s。"
 
 #: tpl/cdn/other.tpl.php:196
 msgid "Only files within these directories will be pointed to the CDN."
-msgstr ""
+msgstr "これらのディレクトリ内にあるファイルのみがCDNを指すようになります。"
 
 #: tpl/cdn/other.tpl.php:210
 msgid "Paths containing these strings will not be served from the CDN."
-msgstr ""
+msgstr "これらの文字列を含むパスは、CDNから配信されません。"
 
 #: tpl/crawler/blacklist.tpl.php:22
 msgid "Are you sure to delete all existing blocklist items?"
-msgstr ""
+msgstr "既存のブロックリスト項目をすべて削除してもよろしいですか？"
 
 #: tpl/crawler/blacklist.tpl.php:23
 msgid "Empty blocklist"
-msgstr ""
+msgstr "ブロックリストを空にする"
 
 #: tpl/crawler/blacklist.tpl.php:28
 #: tpl/crawler/entry.tpl.php:16
 msgid "Blocklist"
-msgstr ""
+msgstr "ブロックリスト"
 
 #: tpl/crawler/blacklist.tpl.php:32
 #: tpl/img_optm/summary.tpl.php:201
 msgid "Total"
-msgstr ""
+msgstr "合計"
 
 #: tpl/crawler/blacklist.tpl.php:41
 #: tpl/crawler/map.tpl.php:76
 #: tpl/toolbox/purge.tpl.php:209
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: tpl/crawler/blacklist.tpl.php:43
 #: tpl/crawler/map.tpl.php:78
 msgid "Operation"
-msgstr ""
+msgstr "操作"
 
 #: tpl/crawler/blacklist.tpl.php:54
 msgid "Remove from Blocklist"
-msgstr ""
+msgstr "ブロックリストから削除"
 
 #: tpl/crawler/blacklist.tpl.php:69
 #, php-format
 msgid "API: PHP Constant %s available to disable blocklist."
-msgstr ""
+msgstr "API: ブロックリストを無効にするために利用可能な PHP 定数 %s。"
 
 #: tpl/crawler/blacklist.tpl.php:79
 #, php-format
 msgid "API: Filter %s available to disable blocklist."
-msgstr ""
+msgstr "API: ブロックリストを無効にするためのフィルター %s が利用可能です。"
 
 #: tpl/crawler/blacklist.tpl.php:87
 msgid "Not blocklisted"
-msgstr ""
+msgstr "ブロックリスト未登録"
 
 #: tpl/crawler/blacklist.tpl.php:88
 #: tpl/crawler/map.tpl.php:103
 msgid "Blocklisted due to not cacheable"
-msgstr ""
+msgstr "キャッシュ不可のためブロックリストに登録されました"
 
 #: tpl/crawler/blacklist.tpl.php:89
 #: tpl/crawler/map.tpl.php:64
@@ -3286,281 +3281,281 @@ msgstr ""
 #: tpl/crawler/summary.tpl.php:199
 #: tpl/crawler/summary.tpl.php:247
 msgid "Blocklisted"
-msgstr ""
+msgstr "ブロックリスト登録済み"
 
 #: tpl/crawler/entry.tpl.php:14
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: tpl/crawler/entry.tpl.php:15
 msgid "Map"
-msgstr ""
+msgstr "マッピング"
 
 #: tpl/crawler/entry.tpl.php:23
 msgid "Zinn® Cache Engine Crawler"
-msgstr ""
+msgstr "Zinn® キャッシュエンジンクローラー"
 
 #: tpl/crawler/map.tpl.php:29
 msgid "Clean Crawler Map"
-msgstr ""
+msgstr "クローラーマップをクリア"
 
 #: tpl/crawler/map.tpl.php:32
 msgid "Refresh Crawler Map"
-msgstr ""
+msgstr "クローラーマップを更新"
 
 #: tpl/crawler/map.tpl.php:40
 #, php-format
 msgid "Generated at %s"
-msgstr ""
+msgstr "%s に生成されました"
 
 #: tpl/crawler/map.tpl.php:48
 msgid "Sitemap List"
-msgstr ""
+msgstr "サイトマップ一覧"
 
 #: tpl/crawler/map.tpl.php:52
 msgid "Sitemap Total"
-msgstr ""
+msgstr "サイトマップ合計"
 
 #: tpl/crawler/map.tpl.php:58
 msgid "URL Search"
-msgstr ""
+msgstr "URL検索"
 
 #: tpl/crawler/map.tpl.php:62
 #: tpl/crawler/map.tpl.php:101
 msgid "Cache Hit"
-msgstr ""
+msgstr "キャッシュヒット"
 
 #: tpl/crawler/map.tpl.php:63
 #: tpl/crawler/map.tpl.php:102
 msgid "Cache Miss"
-msgstr ""
+msgstr "キャッシュミス"
 
 #: tpl/crawler/map.tpl.php:77
 #: tpl/dash/dashboard.tpl.php:80
 #: tpl/dash/dashboard.tpl.php:765
 msgid "Crawler Status"
-msgstr ""
+msgstr "クローラーのステータス"
 
 #: tpl/crawler/map.tpl.php:89
 msgid "Add to Blocklist"
-msgstr ""
+msgstr "ブロックリストに追加"
 
 #: tpl/crawler/settings.tpl.php:17
 msgid "Crawler General Settings"
-msgstr ""
+msgstr "クローラー一般設定"
 
 #: tpl/crawler/settings.tpl.php:31
 msgid "This will enable crawler cron."
-msgstr ""
+msgstr "クローラーのcronを有効にします。"
 
 #: tpl/crawler/settings.tpl.php:45
 msgid "Specify how long in seconds before the crawler should initiate crawling the entire sitemap again."
-msgstr ""
+msgstr "クローラーがサイトマップ全体のクロールを再度開始するまでの時間を秒単位で指定してください。"
 
 #: tpl/crawler/settings.tpl.php:59
 msgid "The crawler will use your XML sitemap or sitemap index. Enter the full URL to your sitemap here."
-msgstr ""
+msgstr "クローラーはXMLサイトマップまたはサイトマップインデックスを使用します。サイトマップの完全なURLをここに入力してください。"
 
 #: tpl/crawler/settings.tpl.php:73
 msgid "The maximum average server load allowed while crawling. The number of crawler threads in use will be actively reduced until average server load falls under this limit. If this cannot be achieved with a single thread, the current crawler run will be terminated."
-msgstr ""
+msgstr "クロール中に許容されるサーバー平均負荷の最大値です。平均負荷がこの制限を下回るまで、使用中のクローラー スレッド数が動的に削減されます。単一のスレッドでもこれに達しない場合、現在のクローラーの実行は中止されます。"
 
 #: tpl/crawler/settings.tpl.php:79
 #, php-format
 msgid "Server enforced value: %s"
-msgstr ""
+msgstr "サーバー強制値: %s"
 
 #: tpl/crawler/settings.tpl.php:89
 #, php-format
 msgid "Server allowed max value: %s"
-msgstr ""
+msgstr "サーバー許容最大値: %s"
 
 #: tpl/crawler/settings.tpl.php:109
 msgid "To crawl the site as a logged-in user, enter the user ids to be simulated."
-msgstr ""
+msgstr "ログインユーザーとしてサイトをクロールするには、シミュレートするユーザーIDを入力してください。"
 
 #: tpl/crawler/settings.tpl.php:116
 #: tpl/crawler/summary.tpl.php:211
 #, php-format
 msgid "You must set %s before using this feature."
-msgstr ""
+msgstr "この機能を使用する前に %s を設定する必要があります。"
 
 #: tpl/crawler/settings.tpl.php:136
 #, php-format
 msgid "You must set %1$s to %2$s before using this feature."
-msgstr ""
+msgstr "この機能を使用する前に、%1$s を %2$s に設定する必要があります。"
 
 #: tpl/crawler/settings.tpl.php:172
 msgid "To crawl for a particular cookie, enter the cookie name, and the values you wish to crawl for. Values should be one per line. There will be one crawler created per cookie value, per simulated role."
-msgstr ""
+msgstr "特定のクッキーをクロールするには、クッキー名とクロールしたい値を入力してください。値は1行に1つずつ入力してください。シミュレートされた役割ごとに、クッキーの値ごとに1つのクローラーが作成されます。"
 
 #: tpl/crawler/settings.tpl.php:177
 #, php-format
 msgid "Use %1$s in %2$s to indicate this cookie has not been set."
-msgstr ""
+msgstr "%1$sを%2$s内で使用して、このクッキーが設定されていないことを示します。"
 
 #: tpl/crawler/summary.tpl.php:28
 #, php-format
 msgid "You need to set the %s in Settings first before using the crawler"
-msgstr ""
+msgstr "クローラーを使用する前に、まず設定で %s を設定する必要があります"
 
 #: tpl/crawler/summary.tpl.php:54
 msgid "Crawler Cron"
-msgstr ""
+msgstr "クローラークロン"
 
 #: tpl/crawler/summary.tpl.php:61
 msgid "The crawler feature is not enabled on the LiteSpeed server. Please consult your server admin or hosting provider."
-msgstr ""
+msgstr "LiteSpeedサーバーでクローラー機能が有効になっていません。サーバー管理者またはホスティングプロバイダーにお問い合わせください。"
 
 #. translators: %s: Link tags
 #: tpl/crawler/summary.tpl.php:66
 #, php-format
 msgid "See %sIntroduction for Enabling the Crawler%s for detailed information."
-msgstr ""
+msgstr "詳細については、%sクローラーを有効にする方法のイントロダクション%sを参照してください。"
 
 #: tpl/crawler/summary.tpl.php:77
 msgid "Current sitemap crawl started at"
-msgstr ""
+msgstr "現在のサイトマップのクローラーの開始日時："
 
 #: tpl/crawler/summary.tpl.php:82
 msgid "The next complete sitemap crawl will start at"
-msgstr ""
+msgstr "次回の完全なサイトマップのクロール開始時刻："
 
 #: tpl/crawler/summary.tpl.php:90
 msgid "Last complete run time for all crawlers"
-msgstr ""
+msgstr "すべてのクローラーの最後の完全な実行時間"
 
 #: tpl/crawler/summary.tpl.php:91
 #: tpl/crawler/summary.tpl.php:98
 #, php-format
 msgid "%d seconds"
-msgstr ""
+msgstr "%d秒"
 
 #: tpl/crawler/summary.tpl.php:97
 msgid "Run time for previous crawler"
-msgstr ""
+msgstr "前回のクローラーの実行時間"
 
 #: tpl/crawler/summary.tpl.php:104
 #: tpl/dash/dashboard.tpl.php:91
 #: tpl/dash/dashboard.tpl.php:776
 msgid "Current crawler started at"
-msgstr ""
+msgstr "現在のクローラーの開始日時"
 
 #: tpl/crawler/summary.tpl.php:110
 msgid "Current server load"
-msgstr ""
+msgstr "現在のサーバー負荷"
 
 #: tpl/crawler/summary.tpl.php:116
 #: tpl/dash/dashboard.tpl.php:97
 #: tpl/dash/dashboard.tpl.php:782
 msgid "Last interval"
-msgstr ""
+msgstr "直前の間隔"
 
 #: tpl/crawler/summary.tpl.php:123
 #: tpl/dash/dashboard.tpl.php:103
 #: tpl/dash/dashboard.tpl.php:788
 msgid "Ended reason"
-msgstr ""
+msgstr "終了理由"
 
 #: tpl/crawler/summary.tpl.php:130
 msgid "Last crawled"
-msgstr ""
+msgstr "最終クロール日時"
 
 #: tpl/crawler/summary.tpl.php:133
 #, php-format
 msgid "%d item(s)"
-msgstr ""
+msgstr "%d件の項目"
 
 #: tpl/crawler/summary.tpl.php:141
 msgid "Reset position"
-msgstr ""
+msgstr "位置をリセット"
 
 #: tpl/crawler/summary.tpl.php:142
 msgid "Manually run"
-msgstr ""
+msgstr "手動実行"
 
 #: tpl/crawler/summary.tpl.php:151
 msgid "Cron Name"
-msgstr ""
+msgstr "クロン名"
 
 #: tpl/crawler/summary.tpl.php:152
 msgid "Run Frequency"
-msgstr ""
+msgstr "実行頻度"
 
 #: tpl/crawler/summary.tpl.php:154
 msgid "Activate"
-msgstr ""
+msgstr "有効化"
 
 #: tpl/crawler/summary.tpl.php:155
 msgid "Running"
-msgstr ""
+msgstr "実行中"
 
 #: tpl/crawler/summary.tpl.php:184
 msgid "Waiting"
-msgstr ""
+msgstr "待機中"
 
 #: tpl/crawler/summary.tpl.php:189
 msgid "Hit"
-msgstr ""
+msgstr "ヒット"
 
 #: tpl/crawler/summary.tpl.php:194
 msgid "Miss"
-msgstr ""
+msgstr "ミス"
 
 #: tpl/crawler/summary.tpl.php:230
 msgid "Position: "
-msgstr ""
+msgstr "位置:"
 
 #: tpl/crawler/summary.tpl.php:232
 msgid "running"
-msgstr ""
+msgstr "実行中"
 
 #: tpl/crawler/summary.tpl.php:244
 msgid "Waiting to be Crawled"
-msgstr ""
+msgstr "クロール待機中"
 
 #: tpl/crawler/summary.tpl.php:245
 msgid "Already Cached"
-msgstr ""
+msgstr "キャッシュ済み"
 
 #: tpl/crawler/summary.tpl.php:246
 msgid "Successfully Crawled"
-msgstr ""
+msgstr "クロール成功"
 
 #: tpl/crawler/summary.tpl.php:251
 msgid "Run frequency is set by the Interval Between Runs setting."
-msgstr ""
+msgstr "実行頻度は「実行間隔」の設定によって決まります。"
 
 #: tpl/crawler/summary.tpl.php:254
 msgid "Crawlers cannot run concurrently. If both the cron and a manual run start at similar times, the first to be started will take precedence."
-msgstr ""
+msgstr "クローラーを同時に実行することはできません。クロンと手動実行がほぼ同時に開始された場合は、先に開始された方が優先されます。"
 
 #. translators: %s: Link tags
 #: tpl/crawler/summary.tpl.php:261
 #, php-format
 msgid "Please see %sHooking WP-Cron Into the System Task Scheduler%s to learn how to create the system cron task."
-msgstr ""
+msgstr "システムcronタスクの作成方法については、%sWP-Cronをシステムタスクスケジューラに連携させる方法%sをご覧ください。"
 
 #: tpl/crawler/summary.tpl.php:272
 msgid "Watch Crawler Status"
-msgstr ""
+msgstr "クローラーのステータスを確認"
 
 #: tpl/crawler/summary.tpl.php:278
 msgid "Show crawler status"
-msgstr ""
+msgstr "クローラーのステータスを表示"
 
 #: tpl/crawler/summary.tpl.php:288
 msgid "Start watching..."
-msgstr ""
+msgstr "監視を開始..."
 
 #: tpl/crawler/summary.tpl.php:293
 msgid "No crawler meta file generated yet"
-msgstr ""
+msgstr "クローラーのメタファイルがまだ生成されていません"
 
 #: tpl/dash/dashboard.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:562
 msgid "Cache Status"
-msgstr ""
+msgstr "キャッシュステータス"
 
 #: tpl/dash/dashboard.tpl.php:54
 #: tpl/dash/dashboard.tpl.php:81
@@ -3573,130 +3568,130 @@ msgstr ""
 #: tpl/dash/dashboard.tpl.php:766
 #: tpl/dash/dashboard.tpl.php:813
 msgid "More"
-msgstr ""
+msgstr "もっと見る"
 
 #: tpl/dash/dashboard.tpl.php:58
 #: tpl/dash/dashboard.tpl.php:567
 msgid "Public Cache"
-msgstr ""
+msgstr "パブリックキャッシュ"
 
 #: tpl/dash/dashboard.tpl.php:59
 #: tpl/dash/dashboard.tpl.php:568
 msgid "Private Cache"
-msgstr ""
+msgstr "プライベートキャッシュ"
 
 #: tpl/dash/dashboard.tpl.php:84
 #: tpl/dash/dashboard.tpl.php:769
 msgid "Crawler(s)"
-msgstr ""
+msgstr "クローラー"
 
 #: tpl/dash/dashboard.tpl.php:87
 #: tpl/dash/dashboard.tpl.php:772
 msgid "Currently active crawler"
-msgstr ""
+msgstr "現在アクティブなクローラー"
 
 #: tpl/dash/dashboard.tpl.php:111
 #: tpl/dash/dashboard.tpl.php:796
 #, php-format
 msgid "%1$s %2$d item(s)"
-msgstr ""
+msgstr "%1$s %2$d 項目"
 
 #: tpl/dash/dashboard.tpl.php:112
 #: tpl/dash/dashboard.tpl.php:797
 msgid "Last crawled:"
-msgstr ""
+msgstr "最終クローラー実行日時:"
 
 #: tpl/dash/dashboard.tpl.php:128
 #: tpl/dash/dashboard.tpl.php:873
 msgid "News"
-msgstr ""
+msgstr "お知らせ"
 
 #: tpl/dash/dashboard.tpl.php:145
 msgid "QUIC.cloud Service Usage Statistics"
-msgstr ""
+msgstr "QUIC.cloud サービス利用統計"
 
 #: tpl/dash/dashboard.tpl.php:147
 msgid "Refresh Usage"
-msgstr ""
+msgstr "使用量を更新"
 
 #: tpl/dash/dashboard.tpl.php:148
 msgid "Sync data from Cloud"
-msgstr ""
+msgstr "クラウドからデータを同期"
 
 #: tpl/dash/dashboard.tpl.php:159
 #, php-format
 msgid "The features below are provided by %s"
-msgstr ""
+msgstr "以下の機能は %s によって提供されています"
 
 #: tpl/dash/dashboard.tpl.php:171
 #: tpl/dash/network_dash.tpl.php:38
 msgid "CDN Bandwidth"
-msgstr ""
+msgstr "CDN帯域幅"
 
 #: tpl/dash/dashboard.tpl.php:172
 #: tpl/dash/dashboard.tpl.php:677
 #: tpl/dash/network_dash.tpl.php:39
 msgid "Low Quality Image Placeholder"
-msgstr ""
+msgstr "低品質画像プレースホルダー"
 
 #: tpl/dash/dashboard.tpl.php:224
 #: tpl/dash/network_dash.tpl.php:95
 msgid "Fast Queue Usage"
-msgstr ""
+msgstr "高速キュー使用量"
 
 #: tpl/dash/dashboard.tpl.php:224
 #: tpl/dash/network_dash.tpl.php:95
 msgid "Usage"
-msgstr ""
+msgstr "使用量"
 
 #: tpl/dash/dashboard.tpl.php:236
 #: tpl/dash/network_dash.tpl.php:108
 msgid "PAYG Balance"
-msgstr ""
+msgstr "従量制残高"
 
 #: tpl/dash/dashboard.tpl.php:237
 #, php-format
 msgid "PAYG used this month: %s. PAYG balance and usage not included in above quota calculation."
-msgstr ""
+msgstr "今月の従量制（PAYG）利用分: %s。従量制の残高と利用状況は、上記の割り当て計算に含まれません。"
 
 #: tpl/dash/dashboard.tpl.php:239
 #: tpl/dash/network_dash.tpl.php:111
 msgid "Pay as You Go Usage Statistics"
-msgstr ""
+msgstr "従量課金制の利用統計"
 
 #: tpl/dash/dashboard.tpl.php:257
 #: tpl/dash/network_dash.tpl.php:118
 msgid "Total Usage"
-msgstr ""
+msgstr "合計使用量"
 
 #: tpl/dash/dashboard.tpl.php:258
 #: tpl/dash/network_dash.tpl.php:119
 msgid "Total images optimized in this month"
-msgstr ""
+msgstr "今月に最適化された画像の総数"
 
 #: tpl/dash/dashboard.tpl.php:266
 msgid "Remaining Daily Quota"
-msgstr ""
+msgstr "1日の残り割り当て量"
 
 #: tpl/dash/dashboard.tpl.php:276
 msgid "Partner Benefits Provided by"
-msgstr ""
+msgstr "パートナー提供特典："
 
 #: tpl/dash/dashboard.tpl.php:312
 msgid "Enable QUIC.cloud Services"
-msgstr ""
+msgstr "QUIC.cloudサービスを有効にする"
 
 #: tpl/dash/dashboard.tpl.php:319
 msgid "Go to QUIC.cloud dashboard"
-msgstr ""
+msgstr "QUIC.cloudダッシュボードへ移動"
 
 #: tpl/dash/dashboard.tpl.php:325
 msgid "Link to QUIC.cloud"
-msgstr ""
+msgstr "QUIC.cloudへリンク"
 
 #: tpl/dash/dashboard.tpl.php:340
 msgid "Page Load Time"
-msgstr ""
+msgstr "ページの読み込み時間"
 
 #: tpl/dash/dashboard.tpl.php:347
 #: tpl/img_optm/summary.tpl.php:54
@@ -3706,7 +3701,7 @@ msgstr ""
 #: tpl/page_optm/settings_vpi.tpl.php:59
 #, php-format
 msgid "Current closest Cloud server is %s. Click to redetect."
-msgstr ""
+msgstr "現在の最も近いクラウドサーバーは %s です。クリックして再検出してください。"
 
 #: tpl/dash/dashboard.tpl.php:348
 #: tpl/img_optm/summary.tpl.php:54
@@ -3715,7 +3710,7 @@ msgstr ""
 #: tpl/page_optm/settings_media.tpl.php:194
 #: tpl/page_optm/settings_vpi.tpl.php:59
 msgid "Are you sure you want to redetect the closest cloud server for this service?"
-msgstr ""
+msgstr "このサービスの最も近いクラウドサーバーを再検出してもよろしいですか？"
 
 #: tpl/dash/dashboard.tpl.php:350
 #: tpl/img_optm/summary.tpl.php:54
@@ -3725,101 +3720,101 @@ msgstr ""
 #: tpl/page_optm/settings_media.tpl.php:194
 #: tpl/page_optm/settings_vpi.tpl.php:59
 msgid "Redetect"
-msgstr ""
+msgstr "再検出"
 
 #: tpl/dash/dashboard.tpl.php:360
 #: tpl/dash/dashboard.tpl.php:436
 msgid "Before"
-msgstr ""
+msgstr "前へ"
 
 #: tpl/dash/dashboard.tpl.php:368
 #: tpl/dash/dashboard.tpl.php:444
 msgid "After"
-msgstr ""
+msgstr "以降"
 
 #: tpl/dash/dashboard.tpl.php:376
 #: tpl/dash/dashboard.tpl.php:452
 msgid "Improved by"
-msgstr ""
+msgstr "改善者"
 
 #: tpl/dash/dashboard.tpl.php:384
 msgid "You must be using one of the following products in order to measure Page Load Time:"
-msgstr ""
+msgstr "ページ読込み時間を計測するには、以下の製品のいずれかをご利用いただく必要があります："
 
 #: tpl/dash/dashboard.tpl.php:385
 msgid "LiteSpeed Web Server"
-msgstr ""
+msgstr "LiteSpeed Web Server"
 
 #: tpl/dash/dashboard.tpl.php:387
 msgid "OpenLiteSpeed Web Server"
-msgstr ""
+msgstr "OpenLiteSpeed ウェブサーバー"
 
 #: tpl/dash/dashboard.tpl.php:389
 msgid "LiteSpeed Web ADC"
-msgstr ""
+msgstr "LiteSpeed Web ADC"
 
 #: tpl/dash/dashboard.tpl.php:391
 #: tpl/dash/dashboard.tpl.php:809
 msgid "QUIC.cloud CDN"
-msgstr ""
+msgstr "QUIC.cloud CDN"
 
 #: tpl/dash/dashboard.tpl.php:403
 #: tpl/dash/dashboard.tpl.php:468
 #, php-format
 msgid "Requested: %s ago"
-msgstr ""
+msgstr "リクエスト日時: %s前"
 
 #: tpl/dash/dashboard.tpl.php:411
 #: tpl/dash/dashboard.tpl.php:476
 msgid "Refresh"
-msgstr ""
+msgstr "更新"
 
 #: tpl/dash/dashboard.tpl.php:412
 msgid "Refresh page load time"
-msgstr ""
+msgstr "ページ読み込み時間を更新"
 
 #: tpl/dash/dashboard.tpl.php:421
 msgid "PageSpeed Score"
-msgstr ""
+msgstr "PageSpeed スコア"
 
 #: tpl/dash/dashboard.tpl.php:477
 msgid "Refresh page score"
-msgstr ""
+msgstr "ページスコアを更新"
 
 #: tpl/dash/dashboard.tpl.php:485
 #: tpl/img_optm/entry.tpl.php:16
 msgid "Image Optimization Summary"
-msgstr ""
+msgstr "画像最適化の概要"
 
 #: tpl/dash/dashboard.tpl.php:502
 #: tpl/img_optm/summary.tpl.php:76
 #: tpl/img_optm/summary.tpl.php:89
 msgid "Send Optimization Request"
-msgstr ""
+msgstr "最適化リクエストを送信"
 
 #: tpl/dash/dashboard.tpl.php:508
 #: tpl/img_optm/summary.tpl.php:316
 msgid "Total Reduction"
-msgstr ""
+msgstr "総削減量"
 
 #: tpl/dash/dashboard.tpl.php:511
 #: tpl/img_optm/summary.tpl.php:319
 msgid "Images Pulled"
-msgstr ""
+msgstr "取得済み画像"
 
 #: tpl/dash/dashboard.tpl.php:534
 #: tpl/img_optm/summary.tpl.php:322
 msgid "Last Request"
-msgstr ""
+msgstr "最後の要求"
 
 #: tpl/dash/dashboard.tpl.php:537
 msgid "Last Pull"
-msgstr ""
+msgstr "最終プル"
 
 #: tpl/dash/dashboard.tpl.php:589
 #: tpl/toolbox/purge.tpl.php:73
 msgid "Critical CSS"
-msgstr ""
+msgstr "クリティカル CSS"
 
 #: tpl/dash/dashboard.tpl.php:596
 #: tpl/dash/dashboard.tpl.php:640
@@ -3827,7 +3822,7 @@ msgstr ""
 #: tpl/dash/dashboard.tpl.php:728
 #, php-format
 msgid "Last generated: %s"
-msgstr ""
+msgstr "最終生成日時: %s"
 
 #: tpl/dash/dashboard.tpl.php:604
 #: tpl/dash/dashboard.tpl.php:648
@@ -3835,21 +3830,21 @@ msgstr ""
 #: tpl/dash/dashboard.tpl.php:736
 #, php-format
 msgid "Time to execute previous request: %s"
-msgstr ""
+msgstr "前回の要求の実行時間：%s"
 
 #: tpl/dash/dashboard.tpl.php:611
 #: tpl/dash/dashboard.tpl.php:655
 #: tpl/dash/dashboard.tpl.php:699
 #: tpl/dash/dashboard.tpl.php:743
 msgid "Requests in queue"
-msgstr ""
+msgstr "キュー内のリクエスト"
 
 #: tpl/dash/dashboard.tpl.php:614
 #: tpl/dash/dashboard.tpl.php:658
 #: tpl/dash/dashboard.tpl.php:702
 #: tpl/dash/dashboard.tpl.php:746
 msgid "Force cron"
-msgstr ""
+msgstr "強制実行cron"
 
 #: tpl/dash/dashboard.tpl.php:622
 #: tpl/dash/dashboard.tpl.php:666
@@ -3857,289 +3852,289 @@ msgstr ""
 #: tpl/dash/dashboard.tpl.php:754
 #, php-format
 msgid "Last requested: %s"
-msgstr ""
+msgstr "最終リクエスト: %s"
 
 #: tpl/dash/dashboard.tpl.php:633
 #: tpl/toolbox/purge.tpl.php:82
 msgid "Unique CSS"
-msgstr ""
+msgstr "ユニークCSS"
 
 #: tpl/dash/dashboard.tpl.php:721
 msgid "Viewport Image"
-msgstr ""
+msgstr "ビューポート画像"
 
 #: tpl/dash/dashboard.tpl.php:822
 msgid "Enable QUIC.cloud CDN"
-msgstr ""
+msgstr "QUIC.cloud CDNを有効化"
 
 #: tpl/dash/dashboard.tpl.php:829
 msgid "Best available WordPress performance"
-msgstr ""
+msgstr "利用可能な最高の WordPress パフォーマンス"
 
 #: tpl/dash/dashboard.tpl.php:834
 #, php-format
 msgid "Globally fast TTFB, easy setup, and %s!"
-msgstr ""
+msgstr "世界的にも高速なTTFB、簡単なセットアップ、そして%s！"
 
 #: tpl/dash/dashboard.tpl.php:835
 msgid "more"
-msgstr ""
+msgstr "もっと見る"
 
 #: tpl/dash/dashboard.tpl.php:851
 msgid "Refresh Status"
-msgstr ""
+msgstr "ステータスを更新"
 
 #: tpl/dash/dashboard.tpl.php:852
 msgid "Refresh QUIC.cloud status"
-msgstr ""
+msgstr "QUIC.cloud のステータスを更新"
 
 #: tpl/dash/entry.tpl.php:21
 msgid "Network Dashboard"
-msgstr ""
+msgstr "ネットワーク ダッシュボード"
 
 #: tpl/dash/entry.tpl.php:29
 msgid "Zinn® Cache Engine Dashboard"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン ダッシュボード"
 
 #: tpl/dash/network_dash.tpl.php:28
 #, php-format
 msgid "Usage Statistics: %s"
-msgstr ""
+msgstr "利用統計: %s"
 
 #: tpl/dash/network_dash.tpl.php:107
 msgid "Pay as You Go"
-msgstr ""
+msgstr "従量課金制"
 
 #: tpl/dash/network_dash.tpl.php:109
 #, php-format
 msgid "This Month Usage: %s"
-msgstr ""
+msgstr "今月の利用量: %s"
 
 #: tpl/db_optm/entry.tpl.php:17
 #: tpl/db_optm/settings.tpl.php:19
 msgid "DB Optimization Settings"
-msgstr ""
+msgstr "データベース最適化設定"
 
 #: tpl/db_optm/entry.tpl.php:24
 msgid "Zinn® Cache Engine Database Optimization"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン データベース最適化"
 
 #: tpl/db_optm/manage.tpl.php:17
 msgid "Clean All"
-msgstr ""
+msgstr "すべてクリア"
 
 #: tpl/db_optm/manage.tpl.php:21
 msgid "Post Revisions"
-msgstr ""
+msgstr "投稿のリビジョン"
 
 #: tpl/db_optm/manage.tpl.php:22
 msgid "Clean all post revisions"
-msgstr ""
+msgstr "すべての投稿リビジョンを削除"
 
 #: tpl/db_optm/manage.tpl.php:25
 msgid "Orphaned Post Meta"
-msgstr ""
+msgstr "孤立した投稿メタデータ"
 
 #: tpl/db_optm/manage.tpl.php:26
 msgid "Clean all orphaned post meta records"
-msgstr ""
+msgstr "孤立した投稿メタデータをすべて削除する"
 
 #: tpl/db_optm/manage.tpl.php:29
 msgid "Auto Drafts"
-msgstr ""
+msgstr "自動下書き"
 
 #: tpl/db_optm/manage.tpl.php:30
 msgid "Clean all auto saved drafts"
-msgstr ""
+msgstr "自動保存された下書きをすべて削除する"
 
 #: tpl/db_optm/manage.tpl.php:33
 msgid "Trashed Posts"
-msgstr ""
+msgstr "ゴミ箱内の投稿"
 
 #: tpl/db_optm/manage.tpl.php:34
 msgid "Clean all trashed posts and pages"
-msgstr ""
+msgstr "ゴミ箱内のすべての投稿と固定ページを完全に削除する"
 
 #: tpl/db_optm/manage.tpl.php:37
 msgid "Spam Comments"
-msgstr ""
+msgstr "スパムコメント"
 
 #: tpl/db_optm/manage.tpl.php:38
 msgid "Clean all spam comments"
-msgstr ""
+msgstr "すべてのスパムコメントを削除"
 
 #: tpl/db_optm/manage.tpl.php:41
 msgid "Trashed Comments"
-msgstr ""
+msgstr "ゴミ箱内のコメント"
 
 #: tpl/db_optm/manage.tpl.php:42
 msgid "Clean all trashed comments"
-msgstr ""
+msgstr "ゴミ箱内のコメントをすべて削除"
 
 #: tpl/db_optm/manage.tpl.php:45
 msgid "Trackbacks/Pingbacks"
-msgstr ""
+msgstr "トラックバック / ピンバック"
 
 #: tpl/db_optm/manage.tpl.php:46
 msgid "Clean all trackbacks and pingbacks"
-msgstr ""
+msgstr "すべてのトラックバックとピンバックを削除する"
 
 #: tpl/db_optm/manage.tpl.php:49
 msgid "Expired Transients"
-msgstr ""
+msgstr "期限切れの一時データ"
 
 #: tpl/db_optm/manage.tpl.php:50
 msgid "Clean expired transient options"
-msgstr ""
+msgstr "期限切れの一時的なオプションを削除"
 
 #: tpl/db_optm/manage.tpl.php:53
 msgid "All Transients"
-msgstr ""
+msgstr "すべてのトランジェント"
 
 #: tpl/db_optm/manage.tpl.php:54
 msgid "Clean all transient options"
-msgstr ""
+msgstr "すべてのトランジェントオプションを削除"
 
 #: tpl/db_optm/manage.tpl.php:57
 msgid "Optimize Tables"
-msgstr ""
+msgstr "テーブルの最適化"
 
 #: tpl/db_optm/manage.tpl.php:58
 msgid "Optimize all tables in your database"
-msgstr ""
+msgstr "データベース内のすべてのテーブルを最適化する"
 
 #: tpl/db_optm/manage.tpl.php:66
 #, php-format
 msgid "Clean revisions older than %1$s day(s), excluding %2$s latest revisions"
-msgstr ""
+msgstr "%1$s日以上前のリビジョンを削除する（最新の %2$s 個を除く）"
 
 #: tpl/db_optm/manage.tpl.php:90
 msgid "Database Optimizer"
-msgstr ""
+msgstr "データベースオプティマイザー"
 
 #: tpl/db_optm/manage.tpl.php:116
 msgid "Database Table Engine Converter"
-msgstr ""
+msgstr "データベーステーブルエンジン変換ツール"
 
 #: tpl/db_optm/manage.tpl.php:124
 msgid "Table"
-msgstr ""
+msgstr "テーブル"
 
 #: tpl/db_optm/manage.tpl.php:125
 msgid "Engine"
-msgstr ""
+msgstr "エンジン"
 
 #: tpl/db_optm/manage.tpl.php:126
 msgid "Tool"
-msgstr ""
+msgstr "ツール"
 
 #: tpl/db_optm/manage.tpl.php:141
 msgid "Convert to InnoDB"
-msgstr ""
+msgstr "InnoDBに変換"
 
 #: tpl/db_optm/manage.tpl.php:149
 msgid "We are good. No table uses MyISAM engine."
-msgstr ""
+msgstr "問題ありません。どのテーブルもMyISAMエンジンを使用していません。"
 
 #: tpl/db_optm/manage.tpl.php:171
 msgid "Database Summary"
-msgstr ""
+msgstr "データベースの概要"
 
 #: tpl/db_optm/manage.tpl.php:175
 msgid "Autoload size"
-msgstr ""
+msgstr "自動ロードサイズ"
 
 #: tpl/db_optm/manage.tpl.php:176
 msgid "Autoload entries"
-msgstr ""
+msgstr "オートロードエントリ"
 
 #: tpl/db_optm/manage.tpl.php:180
 msgid "Autoload top list"
-msgstr ""
+msgstr "オートロード・トップリスト"
 
 #: tpl/db_optm/manage.tpl.php:185
 msgid "Option Name"
-msgstr ""
+msgstr "オプション名"
 
 #: tpl/db_optm/manage.tpl.php:186
 msgid "Autoload"
-msgstr ""
+msgstr "自動読み込み"
 
 #: tpl/db_optm/manage.tpl.php:187
 msgid "Size"
-msgstr ""
+msgstr "サイズ"
 
 #: tpl/db_optm/settings.tpl.php:32
 msgid "Specify the number of most recent revisions to keep when cleaning revisions."
-msgstr ""
+msgstr "リビジョンをクリーンアップする際に保持する最新のリビジョンの数を指定してください。"
 
 #: tpl/db_optm/settings.tpl.php:44
 msgid "Day(s)"
-msgstr ""
+msgstr "日"
 
 #: tpl/db_optm/settings.tpl.php:46
 msgid "Revisions newer than this many days will be kept when cleaning revisions."
-msgstr ""
+msgstr "リビジョンをクリーンアップする際、これより新しい日数のリビジョンは保持されます。"
 
 #: tpl/esi_widget_edit.php:52
 msgid "Public"
-msgstr ""
+msgstr "公開"
 
 #: tpl/esi_widget_edit.php:53
 msgid "Private"
-msgstr ""
+msgstr "プライベート"
 
 #: tpl/esi_widget_edit.php:54
 msgid "Disable"
-msgstr ""
+msgstr "無効にする"
 
 #: tpl/esi_widget_edit.php:71
 msgid "Widget Cache TTL"
-msgstr ""
+msgstr "ウィジェットキャッシュ TTL"
 
 #: tpl/esi_widget_edit.php:81
 msgid "Recommended value: 28800 seconds (8 hours)."
-msgstr ""
+msgstr "推奨値：28800秒（8時間）。"
 
 #: tpl/esi_widget_edit.php:82
 msgid "A TTL of 0 indicates do not cache."
-msgstr ""
+msgstr "TTL に 0 を設定すると、キャッシュしないことを示します。"
 
 #: tpl/general/entry.tpl.php:16
 #: tpl/general/entry.tpl.php:21
 #: tpl/general/network_settings.tpl.php:19
 #: tpl/general/settings.tpl.php:24
 msgid "General Settings"
-msgstr ""
+msgstr "一般設定"
 
 #: tpl/general/entry.tpl.php:29
 msgid "Zinn® Cache Engine General Settings"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン一般設定"
 
 #: tpl/general/network_settings.tpl.php:31
 msgid "Use Primary Site Configuration"
-msgstr ""
+msgstr "プライマリサイト構成を使用する"
 
 #: tpl/general/network_settings.tpl.php:35
 msgid "Check this option to use the primary site's configuration for all subsites."
-msgstr ""
+msgstr "すべてのサブサイトでプライマリサイトの設定を使用するには、このオプションをオンにしてください。"
 
 #: tpl/general/network_settings.tpl.php:36
 msgid "This will disable the settings page on all subsites."
-msgstr ""
+msgstr "これにより、すべてのサブサイトの設定ページが無効になります。"
 
 #: tpl/general/settings.tpl.php:48
 msgid "This option enables maximum optimization for Guest Mode visitors."
-msgstr ""
+msgstr "このオプションを有効にすると、ゲストモードの訪問者向けに最大の最適化が行われます。"
 
 #: tpl/general/settings.tpl.php:49
 msgid "Please read all warnings before enabling this option."
-msgstr ""
+msgstr "このオプションを有効にする前に、すべての警告をお読みください。"
 
 #: tpl/general/settings.tpl.php:64
 #, php-format
 msgid "Your %1$s quota on %2$s will still be in use."
-msgstr ""
+msgstr "%2$sにおける%1$sのクォータは引き続き使用されます。"
 
 #: tpl/general/settings.tpl.php:72
 #: tpl/general/settings.tpl.php:79
@@ -4148,207 +4143,207 @@ msgstr ""
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 msgid "Notice"
-msgstr ""
+msgstr "お知らせ"
 
 #: tpl/general/settings.tpl.php:72
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 #, php-format
 msgid "%s must be turned ON for this setting to work."
-msgstr ""
+msgstr "この設定を機能させるには、%sをオンにする必要があります。"
 
 #: tpl/general/settings.tpl.php:79
 #, php-format
 msgid "You need to turn %s on to get maximum result."
-msgstr ""
+msgstr "最大限の効果を得るには、%sを有効にする必要があります。"
 
 #: tpl/general/settings.tpl.php:86
 #, php-format
 msgid "You need to turn %s on and finish all WebP generation to get maximum result."
-msgstr ""
+msgstr "最大の効果を得るには、%sを有効にしてWebPの生成をすべて完了させる必要があります。"
 
 #: tpl/general/settings.tpl.php:101
 msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
-msgstr ""
+msgstr "このサイトのIPアドレスを入力すると、クラウドサービスがドメイン名の代わりにIPを直接呼び出せるようになります。これにより、DNSおよびCDNのルックアップによるオーバーヘッドがなくなります。"
 
 #: tpl/general/settings.tpl.php:102
 msgid "Your server IP"
-msgstr ""
+msgstr "サーバーIP"
 
 #: tpl/general/settings.tpl.php:102
 msgid "Check my public IP from"
-msgstr ""
+msgstr "公開IPアドレスを確認する場所："
 
 #: tpl/general/settings.tpl.php:103
 msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
-msgstr ""
+msgstr "追加の発信IPが設定されている場合や、サーバーに複数のIPが構成されている場合、自動検出し得たIPが正確ではない可能性があります。"
 
 #: tpl/general/settings.tpl.php:104
 msgid "Please make sure this IP is the correct one for visiting your site."
-msgstr ""
+msgstr "お客様のサイトへのアクセスに使用するIPアドレスが正しいことをご確認ください。"
 
 #: tpl/general/settings.tpl.php:119
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
-msgstr ""
+msgstr "このオプションを有効にすると、ホットフィックス、新しいリリース、利用可能なベータ版、プロモーションなどの最新ニュースが自動的に表示されます。"
 
 #: tpl/general/settings_inc.auto_upgrade.tpl.php:25
 msgid "Turn this option ON to have Zinn® Cache Engine updated automatically, whenever a new version is released. If OFF, update manually as usual."
-msgstr ""
+msgstr "新バージョンがリリースされるたびに Zinn® Cache Engine が自動的にアップデートされるようにするには、このオプションをONにしてください。OFFの場合は、通常どおり手動でアップデートしてください。"
 
 #: tpl/general/settings_inc.guest.tpl.php:26
 msgid "Guest Mode provides an always cacheable landing page for an automated guest's first time visit, and then attempts to update cache varies via AJAX."
-msgstr ""
+msgstr "ゲストモードは、自動ゲストの初回訪問時に常にキャッシュ可能なランディングページを提供し、その後AJAX経由でキャッシュのバリエーションを更新しようと試みます。"
 
 #: tpl/general/settings_inc.guest.tpl.php:27
 msgid "This option can help to correct the cache vary for certain advanced mobile or tablet visitors."
-msgstr ""
+msgstr "このオプションは、一部の高度なモバイルやタブレットからの訪問者に対するキャッシュ vary の修正に役立ちます。"
 
 #: tpl/general/settings_inc.guest.tpl.php:34
 msgid "Guest Mode testing result"
-msgstr ""
+msgstr "ゲストモードのテスト結果"
 
 #: tpl/general/settings_inc.guest.tpl.php:35
 msgid "Testing"
-msgstr ""
+msgstr "テスト中"
 
 #: tpl/general/settings_inc.guest.tpl.php:38
 msgid "Guest Mode IP/UA sync status"
-msgstr ""
+msgstr "ゲストモード IP/UA 同期ステータス"
 
 #: tpl/general/settings_inc.guest.tpl.php:39
 msgid "Syncing"
-msgstr ""
+msgstr "同期中"
 
 #: tpl/general/settings_inc.guest.tpl.php:46
 msgid "Guest Mode passed testing."
-msgstr ""
+msgstr "ゲストモードのテストに合格しました。"
 
 #: tpl/general/settings_inc.guest.tpl.php:49
 #: tpl/general/settings_inc.guest.tpl.php:52
 msgid "Guest Mode failed to test."
-msgstr ""
+msgstr "ゲストモードのテストに失敗しました。"
 
 #: tpl/general/settings_inc.guest.tpl.php:64
 msgid "Synced successfully."
-msgstr ""
+msgstr "同期に成功しました。"
 
 #: tpl/general/settings_inc.guest.tpl.php:66
 #: tpl/general/settings_inc.guest.tpl.php:70
 msgid "Sync failed."
-msgstr ""
+msgstr "同期に失敗しました。"
 
 #: tpl/img_optm/entry.tpl.php:17
 #: tpl/img_optm/entry.tpl.php:22
 #: tpl/img_optm/network_settings.tpl.php:19
 #: tpl/img_optm/settings.tpl.php:19
 msgid "Image Optimization Settings"
-msgstr ""
+msgstr "画像最適化設定"
 
 #: tpl/img_optm/entry.tpl.php:30
 msgid "Zinn® Cache Engine Image Optimization"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン画像最適化"
 
 #: tpl/img_optm/settings.media_webp.tpl.php:25
 msgid "Request WebP/AVIF versions of original images when doing optimization."
-msgstr ""
+msgstr "最適化の実行時に、オリジナル画像のWebP/AVIF版のリクエストを行う。"
 
 #: tpl/img_optm/settings.media_webp.tpl.php:26
 #, php-format
 msgid "Significantly improve load time by replacing images with their optimized %s versions."
-msgstr ""
+msgstr "画像を最適化された%sバージョンに置き換えることで、読み込み時間を大幅に短縮します。"
 
 #: tpl/img_optm/settings.media_webp.tpl.php:31
 #, php-format
 msgid "%1$s is a %2$s paid feature."
-msgstr ""
+msgstr "%1$sは有料機能（%2$s）です。"
 
 #: tpl/img_optm/settings.media_webp.tpl.php:34
 #, php-format
 msgid "When switching formats, please %1$s or %2$s to apply this new choice to previously optimized images."
-msgstr ""
+msgstr "フォーマットを切り替える際には、以前に最適化された画像にこの新しい設定を適用するため、%1$s か %2$s してください。"
 
 #: tpl/img_optm/settings.media_webp.tpl.php:34
 #: tpl/img_optm/summary.tpl.php:378
 msgid "Destroy All Optimization Data"
-msgstr ""
+msgstr "すべての最適化データを削除する"
 
 #: tpl/img_optm/settings.media_webp.tpl.php:34
 #: tpl/img_optm/summary.tpl.php:368
 msgid "Soft Reset Optimization Counter"
-msgstr ""
+msgstr "ソフトリセット最適化カウンター"
 
 #: tpl/img_optm/settings.tpl.php:34
 msgid "Automatically request optimization via cron job."
-msgstr ""
+msgstr "cronジョブを使用して自動的に最適化をリクエストします。"
 
 #: tpl/img_optm/settings.tpl.php:47
 msgid "Optimize images and save backups of the originals in the same folder."
-msgstr ""
+msgstr "画像を最適化し、オリジナル版のバックアップを同じフォルダーに保存します。"
 
 #: tpl/img_optm/settings.tpl.php:60
 msgid "Automatically remove the original image backups after fetching optimized images."
-msgstr ""
+msgstr "最適化された画像の取得後、元の画像バックアップを自動的に削除します。"
 
 #: tpl/img_optm/settings.tpl.php:65
 #: tpl/img_optm/summary.tpl.php:244
 #: tpl/page_optm/settings_media.tpl.php:308
 msgid "This is irreversible."
-msgstr ""
+msgstr "この操作は元に戻せません。"
 
 #: tpl/img_optm/settings.tpl.php:66
 #: tpl/img_optm/summary.tpl.php:245
 msgid "You will be unable to Revert Optimization once the backups are deleted!"
-msgstr ""
+msgstr "バックアップが削除されると、最適化を元に戻すことはできなくなります！"
 
 #: tpl/img_optm/settings.tpl.php:80
 msgid "Optimize images using lossless compression."
-msgstr ""
+msgstr "ロスレス圧縮を使用して画像を最適化します。"
 
 #: tpl/img_optm/settings.tpl.php:81
 msgid "This can improve quality but may result in larger images than lossy compression will."
-msgstr ""
+msgstr "これにより品質が向上しますが、非可逆圧縮よりも画像サイズが大きくなる場合があります。"
 
 #: tpl/img_optm/settings.tpl.php:104
 msgid "No sizes found."
-msgstr ""
+msgstr "サイズが見つかりません。"
 
 #: tpl/img_optm/settings.tpl.php:107
 msgid "Choose which image sizes to optimize."
-msgstr ""
+msgstr "最適化する画像サイズを選択してください。"
 
 #: tpl/img_optm/settings.tpl.php:120
 msgid "Preserve EXIF data (copyright, GPS, comments, keywords, etc) when optimizing."
-msgstr ""
+msgstr "最適化時にEXIFデータ（著作権、GPS、コメント、キーワードなど）を保持します。"
 
 #: tpl/img_optm/settings.tpl.php:121
 msgid "This will increase the size of optimized files."
-msgstr ""
+msgstr "これにより、最適化されたファイルのサイズが大きくなります。"
 
 #: tpl/img_optm/settings.tpl.php:149
 msgid "Specify which element attributes will be replaced with WebP/AVIF."
-msgstr ""
+msgstr "WebP/AVIFに置き換える要素属性を指定してください。"
 
 #: tpl/img_optm/settings.tpl.php:165
 #, php-format
 msgid "Enable replacement of WebP/AVIF in %s elements that were generated outside of WordPress logic."
-msgstr ""
+msgstr "WordPressのロジックの外部で生成された %s 要素内の WebP/AVIF の置き換えを有効にします。"
 
 #: tpl/img_optm/summary.tpl.php:58
 msgid "Optimize images with our QUIC.cloud server"
-msgstr ""
+msgstr "QUIC.cloudサーバーで画像を最適化する"
 
 #: tpl/img_optm/summary.tpl.php:63
 #, php-format
 msgid "You can request a maximum of %s images at once."
-msgstr ""
+msgstr "一度にリクエストできる画像は最大 %s 枚です。"
 
 #: tpl/img_optm/summary.tpl.php:68
 msgid "To make sure our server can communicate with your server without any issues and everything works fine, for the few first requests the number of image groups allowed in a single request is limited."
-msgstr ""
+msgstr "サーバー間で問題なく通信が行われ、すべてが正常に動作することを確認するため、最初のいくつかのリクエストでは、1つのリクエストで許可される画像グループの数が制限されます。"
 
 #: tpl/img_optm/summary.tpl.php:69
 msgid "Current limit is"
-msgstr ""
+msgstr "現在の制限は"
 
 #: tpl/img_optm/summary.tpl.php:77
 #: tpl/page_optm/settings_css.tpl.php:156
@@ -4356,453 +4351,453 @@ msgstr ""
 #: tpl/page_optm/settings_vpi.tpl.php:101
 #, php-format
 msgid "Available after %d second(s)"
-msgstr ""
+msgstr "%d 秒後に利用可能になります"
 
 #: tpl/img_optm/summary.tpl.php:93
 msgid "Only press the button if the pull cron job is disabled."
-msgstr ""
+msgstr "プルクロンジョブが無効になっている場合のみ、ボタンを押してください。"
 
 #: tpl/img_optm/summary.tpl.php:93
 msgid "Images will be pulled automatically if the cron job is running."
-msgstr ""
+msgstr "cronジョブが実行されている場合、画像は自動的に取得されます。"
 
 #: tpl/img_optm/summary.tpl.php:102
 msgid "Pull Images"
-msgstr ""
+msgstr "イメージをプル"
 
 #: tpl/img_optm/summary.tpl.php:108
 msgid "Optimization Status"
-msgstr ""
+msgstr "最適化ステータス"
 
 #: tpl/img_optm/summary.tpl.php:141
 msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
-msgstr ""
+msgstr "QUIC.cloud画像最適化サーバーの最適化処理が完了すると、最適化された画像を取得するようにサイトへ通知されます。"
 
 #: tpl/img_optm/summary.tpl.php:142
 msgid "This process is automatic."
-msgstr ""
+msgstr "このプロセスは自動です。"
 
 #: tpl/img_optm/summary.tpl.php:156
 #, php-format
 msgid "Last pull initiated by cron at %s."
-msgstr ""
+msgstr "cronによる最後のプルが %s に開始されました。"
 
 #: tpl/img_optm/summary.tpl.php:184
 msgid "Storage Optimization"
-msgstr ""
+msgstr "ストレージ最適化"
 
 #: tpl/img_optm/summary.tpl.php:188
 msgid "A backup of each image is saved before it is optimized."
-msgstr ""
+msgstr "各画像の最適化を行う前に、そのバックアップが保存されます。"
 
 #: tpl/img_optm/summary.tpl.php:194
 msgid "Last calculated"
-msgstr ""
+msgstr "最終計算日時"
 
 #: tpl/img_optm/summary.tpl.php:198
 #: tpl/img_optm/summary.tpl.php:256
 msgid "Files"
-msgstr ""
+msgstr "ファイル"
 
 #: tpl/img_optm/summary.tpl.php:208
 msgid "Calculate Original Image Storage"
-msgstr ""
+msgstr "オリジナル画像ストレージを計算"
 
 #: tpl/img_optm/summary.tpl.php:217
 msgid "Calculate Backups Disk Space"
-msgstr ""
+msgstr "バックアップのディスク容量を計算する"
 
 #: tpl/img_optm/summary.tpl.php:224
 msgid "Image Thumbnail Group Sizes"
-msgstr ""
+msgstr "画像サムネイルのグループサイズ"
 
 #: tpl/img_optm/summary.tpl.php:241
 msgid "Delete all backups of the original images"
-msgstr ""
+msgstr "元の画像のバックアップをすべて削除する"
 
 #: tpl/img_optm/summary.tpl.php:253
 #: tpl/page_optm/settings_localization.tpl.php:70
 msgid "Last ran"
-msgstr ""
+msgstr "最終実行日時"
 
 #: tpl/img_optm/summary.tpl.php:259
 msgid "Saved"
-msgstr ""
+msgstr "保存済み"
 
 #: tpl/img_optm/summary.tpl.php:264
 msgid "Are you sure you want to remove all image backups?"
-msgstr ""
+msgstr "すべての画像バックアップを削除してもよろしいですか？"
 
 #: tpl/img_optm/summary.tpl.php:265
 msgid "Remove Original Image Backups"
-msgstr ""
+msgstr "オリジナル画像のバックアップを削除"
 
 #: tpl/img_optm/summary.tpl.php:276
 msgid "Image Information"
-msgstr ""
+msgstr "画像情報"
 
 #: tpl/img_optm/summary.tpl.php:285
 msgid "Image groups total"
-msgstr ""
+msgstr "画像グループの合計"
 
 #: tpl/img_optm/summary.tpl.php:289
 msgid "Congratulations, all gathered!"
-msgstr ""
+msgstr "おめでとうございます、すべて集まりました！"
 
 #: tpl/img_optm/summary.tpl.php:291
 msgid "What is a group?"
-msgstr ""
+msgstr "グループとは何ですか？"
 
 #: tpl/img_optm/summary.tpl.php:293
 msgid "What is an image group?"
-msgstr ""
+msgstr "画像グループとは何ですか？"
 
 #: tpl/img_optm/summary.tpl.php:297
 #: tpl/img_optm/summary.tpl.php:372
 msgid "Current image post id position"
-msgstr ""
+msgstr "現在の画像投稿IDの位置"
 
 #: tpl/img_optm/summary.tpl.php:298
 msgid "Maximum image post id"
-msgstr ""
+msgstr "最大画像投稿ID"
 
 #: tpl/img_optm/summary.tpl.php:304
 msgid "Scan for any new unoptimized image thumbnail sizes and resend necessary image optimization requests."
-msgstr ""
+msgstr "新しく最適化されていない画像サムネイルのサイズをスキャンし、必要な画像最適化リクエストを再送信します。"
 
 #: tpl/img_optm/summary.tpl.php:305
 msgid "Rescan New Thumbnails"
-msgstr ""
+msgstr "新しいサムネイルを再スキャン"
 
 #: tpl/img_optm/summary.tpl.php:313
 msgid "Optimization Summary"
-msgstr ""
+msgstr "最適化サマリー"
 
 #: tpl/img_optm/summary.tpl.php:325
 msgid "Last Pulled"
-msgstr ""
+msgstr "最終取得日時"
 
 #. translators: %s: Link tags
 #: tpl/img_optm/summary.tpl.php:337
 #, php-format
 msgid "Results can be checked in %sMedia Library%s."
-msgstr ""
+msgstr "結果は %sメディア ライブラリ%s でご確認いただけます。"
 
 #: tpl/img_optm/summary.tpl.php:347
 msgid "Optimization Tools"
-msgstr ""
+msgstr "最適化ツール"
 
 #: tpl/img_optm/summary.tpl.php:350
 msgid "You can quickly switch between using original (unoptimized versions) and optimized image files. It will affect all images on your website, both regular and webp versions if available."
-msgstr ""
+msgstr "オリジナル（未最適化）の画像ファイルと最適化された画像ファイルは、すばやく切り替えることができます。これは、通常の画像および利用可能な場合はWebPバージョンを含む、ウェブサイト上のすべての画像に影響します。"
 
 #: tpl/img_optm/summary.tpl.php:355
 msgid "Use original images (unoptimized) on your site"
-msgstr ""
+msgstr "サイトで元の画像（最適化されていない画像）を使用する"
 
 #: tpl/img_optm/summary.tpl.php:356
 msgid "Use Original Files"
-msgstr ""
+msgstr "オリジナルファイルを使用する"
 
 #: tpl/img_optm/summary.tpl.php:359
 msgid "Switch back to using optimized images on your site"
-msgstr ""
+msgstr "サイトで最適化された画像の使用に戻す"
 
 #: tpl/img_optm/summary.tpl.php:360
 msgid "Use Optimized Files"
-msgstr ""
+msgstr "最適化されたファイルを使用する"
 
 #: tpl/img_optm/summary.tpl.php:372
 #, php-format
 msgid "This will reset the %1$s. If you changed WebP/AVIF settings and want to generate %2$s for the previously optimized images, use this action."
-msgstr ""
+msgstr "これは%1$sをリセットします。WebP/AVIFの設定を変更し、以前に最適化された画像の%2$sを生成したい場合は、このアクションを使用してください。"
 
 #: tpl/img_optm/summary.tpl.php:377
 msgid "Are you sure to destroy all optimized images?"
-msgstr ""
+msgstr "本当にすべての最適化済み画像を削除してもよろしいですか？"
 
 #: tpl/img_optm/summary.tpl.php:382
 msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
-msgstr ""
+msgstr "これまでの画像最適化のリクエストや結果をすべて削除し、完了した最適化を元に戻し、すべての最適化ファイルを削除します。"
 
 #: tpl/inc/admin_footer.php:17
 #, php-format
 msgid "Rate %1$s on %2$s"
-msgstr ""
+msgstr "%2$s で %1$s を評価"
 
 #: tpl/inc/admin_footer.php:19
 msgid "Read LiteSpeed Documentation"
-msgstr ""
+msgstr "LiteSpeed ドキュメントを読む"
 
 #: tpl/inc/admin_footer.php:21
 msgid "Visit LSCWP support forum"
-msgstr ""
+msgstr "LSCWP サポートフォーラムにアクセス"
 
 #: tpl/inc/admin_footer.php:23
 msgid "Join LiteSpeed Slack community"
-msgstr ""
+msgstr "LiteSpeed Slackコミュニティに参加する"
 
 #: tpl/inc/check_cache_disabled.php:20
 msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
-msgstr ""
+msgstr "キャッシング機能を使用するには、LiteSpeedウェブサーバーをご利用いただくか、QUIC.cloud CDNを使用している必要があります。"
 
 #: tpl/inc/check_cache_disabled.php:25
 msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
-msgstr ""
+msgstr "サーバーレベルでLSCacheモジュールを有効にするか、ホスティングプロバイダーにお問い合わせください。"
 
 #: tpl/inc/check_cache_disabled.php:31
 msgid "Please enable Zinn® Cache Engine in the plugin settings."
-msgstr ""
+msgstr "プラグインの設定でZinn®キャッシュエンジンを有効にしてください。"
 
 #: tpl/inc/check_cache_disabled.php:40
 msgid "LSCache caching functions on this page are currently unavailable!"
-msgstr ""
+msgstr "このページのLSCacheキャッシュ機能は現在ご利用いただけません！"
 
 #: tpl/inc/check_if_network_disable_all.php:30
 msgid "The network admin selected use primary site configs for all subsites."
-msgstr ""
+msgstr "ネットワーク管理者は、すべてのサブサイトに対してプライマリサイト設定を使用することを選択しました。"
 
 #: tpl/inc/check_if_network_disable_all.php:31
 msgid "The following options are selected, but are not editable in this settings page."
-msgstr ""
+msgstr "以下のオプションが選択されていますが、この設定ページでは編集できません。"
 
 #: tpl/inc/in_upgrading.php:15
 msgid "LiteSpeed cache plugin upgraded. Please refresh the page to complete the configuration data upgrade."
-msgstr ""
+msgstr "LiteSpeed キャッシュプラグインがアップグレードされました。構成データのアップグレードを完了するには、ページを更新してください。"
 
 #: tpl/inc/modal.deactivation.php:16
 msgid "Deactivate Zinn® Cache Engine"
-msgstr ""
+msgstr "Zinn® キャッシュエンジンを無効化する"
 
 #: tpl/inc/modal.deactivation.php:22
 msgid "The deactivation is temporary"
-msgstr ""
+msgstr "無効化は一時的なものです"
 
 #: tpl/inc/modal.deactivation.php:28
 msgid "Site performance is worse"
-msgstr ""
+msgstr "サイトのパフォーマンスが低下しています"
 
 #: tpl/inc/modal.deactivation.php:33
 msgid "Plugin is too complicated"
-msgstr ""
+msgstr "プラグインが複雑すぎます"
 
 #: tpl/inc/modal.deactivation.php:38
 msgid "Other"
-msgstr ""
+msgstr "その他"
 
 #: tpl/inc/modal.deactivation.php:47
 msgid "Why are you deactivating the plugin?"
-msgstr ""
+msgstr "プラグインを無効化する理由を教えてください。"
 
 #: tpl/inc/modal.deactivation.php:60
 msgid "On uninstall, all plugin settings will be deleted."
-msgstr ""
+msgstr "アンインストール時に、すべてのプラグイン設定が削除されます。"
 
 #: tpl/inc/modal.deactivation.php:68
 #, php-format
 msgid "If you have used Image Optimization, please %sDestroy All Optimization Data%s first. NOTE: this does not remove your optimized images."
-msgstr ""
+msgstr "画像最適化機能をご利用の場合は、まず %sすべての最適化データを削除%s してください。注意：これにより最適化済みの画像が削除されることはありません。"
 
 #: tpl/inc/modal.deactivation.php:76
 msgid "Deactivate"
-msgstr ""
+msgstr "無効化する"
 
 #: tpl/inc/modal.deactivation.php:76
 msgid "Deactivate plugin"
-msgstr ""
+msgstr "プラグインを無効化"
 
 #: tpl/inc/modal.deactivation.php:77
 msgid "Close popup"
-msgstr ""
+msgstr "ポップアップを閉じる"
 
 #: tpl/inc/show_display_installed.php:26
 msgid "Zinn® Cache Engine plugin is installed!"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン プラグインがインストールされました！"
 
 #: tpl/inc/show_display_installed.php:27
 msgid "This message indicates that the plugin was installed by the server admin."
-msgstr ""
+msgstr "このメッセージは、プラグインがサーバー管理者によってインストールされたことを示しています。"
 
 #: tpl/inc/show_display_installed.php:28
 msgid "The Zinn® Cache Engine plugin is used to cache pages - a simple way to improve the performance of the site."
-msgstr ""
+msgstr "Zinn® Cache Engine プラグインは、ページのキャッシュに使用され、サイトのパフォーマンスを向上させるための簡単な方法です。"
 
 #: tpl/inc/show_display_installed.php:29
 msgid "However, there is no way of knowing all the possible customizations that were implemented."
-msgstr ""
+msgstr "しかし、実装されたすべてのカスタム設定を把握する方法はありません。"
 
 #: tpl/inc/show_display_installed.php:30
 msgid "For that reason, please test the site to make sure everything still functions properly."
-msgstr ""
+msgstr "そのため、すべての機能が正常に動作していることを確認するために、サイトのテストを行ってください。"
 
 #: tpl/inc/show_display_installed.php:31
 msgid "Examples of test cases include:"
-msgstr ""
+msgstr "テストケースの例には以下のようなものがあります："
 
 #: tpl/inc/show_display_installed.php:32
 msgid "Visit the site while logged out."
-msgstr ""
+msgstr "ログアウトした状態でサイトにアクセスしてください。"
 
 #: tpl/inc/show_display_installed.php:33
 msgid "Create a post, make sure the front page is accurate."
-msgstr ""
+msgstr "投稿を作成し、トップページが正確であることを確認してください。"
 
 #. translators: %s: Link tags
 #: tpl/inc/show_display_installed.php:37
 #, php-format
 msgid "If there are any questions, the team is always happy to answer any questions on the %ssupport forum%s."
-msgstr ""
+msgstr "ご不明な点がございましたら、サポートフォーラム（%ssupport forum%s）にて弊社チームがいつでも喜んでお答えいたします。"
 
 #: tpl/inc/show_display_installed.php:41
 msgid "If you would rather not move at litespeed, you can deactivate this plugin."
-msgstr ""
+msgstr "LiteSpeedを使用しない場合は、このプラグインを無効化できます。"
 
 #: tpl/inc/show_error_cookie.php:16
 msgid "NOTICE: Database login cookie did not match your login cookie."
-msgstr ""
+msgstr "通知：データベースのログインクッキーがログインクッキーと一致しませんでした。"
 
 #: tpl/inc/show_error_cookie.php:18
 msgid "If the login cookie was recently changed in the settings, please log out and back in."
-msgstr ""
+msgstr "ログインクッキーが設定で最近変更された場合は、一度ログアウトしてから再度ログインしてください。"
 
 #: tpl/inc/show_error_cookie.php:21
 #, php-format
 msgid "If not, please verify the setting in the %sAdvanced tab%s."
-msgstr ""
+msgstr "そうでない場合は、%sAdvanced tab%s で設定をご確認ください。"
 
 #: tpl/inc/show_error_cookie.php:27
 msgid "If using OpenLiteSpeed, the server must be restarted once for the changes to take effect."
-msgstr ""
+msgstr "OpenLiteSpeedを使用している場合、変更を有効にするにはサーバーを一度再起動する必要があります。"
 
 #: tpl/inc/show_rule_conflict.php:16
 #, php-format
 msgid "Unexpected cache rule %2$s found in %1$s file. This rule may cause visitors to see old versions of pages due to the browser caching HTML pages. If you are sure that HTML pages are not being browser cached, this message can be dismissed. (%3$sLearn More%4$s)"
-msgstr ""
+msgstr "予期しないキャッシュルール %2$s が %1$s ファイルに見つかりました。このルールにより、ブラウザがHTMLページをキャッシュするため、訪問者に古いバージョンのページが表示される可能性があります。HTMLページがブラウザにキャッシュされていないことが確実な場合は、このメッセージを非表示にすることができます。(%3$s詳細はこちら%4$s)"
 
 #: tpl/optimax/entry.tpl.php:16
 msgid "OptimaX Summary"
-msgstr ""
+msgstr "OptimaX の概要"
 
 #: tpl/optimax/entry.tpl.php:17
 #: tpl/optimax/entry.tpl.php:22
 #: tpl/optimax/settings.tpl.php:19
 msgid "OptimaX Settings"
-msgstr ""
+msgstr "OptimaX 設定"
 
 #: tpl/optimax/entry.tpl.php:30
 msgid "Zinn® Cache Engine OptimaX"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン OptimaX"
 
 #: tpl/optimax/settings.tpl.php:34
 msgid "Turn on OptimaX. This will automatically request your pages OptimaX result via cron job."
-msgstr ""
+msgstr "OptimaXを有効にします。これにより、cronジョブを介してページのOptimaX結果が自動的にリクエストされます。"
 
 #: tpl/page_optm/entry.tpl.php:16
 #: tpl/page_optm/settings_css.tpl.php:31
 msgid "CSS Settings"
-msgstr ""
+msgstr "CSS設定"
 
 #: tpl/page_optm/entry.tpl.php:17
 #: tpl/page_optm/settings_js.tpl.php:17
 msgid "JS Settings"
-msgstr ""
+msgstr "JS 設定"
 
 #: tpl/page_optm/entry.tpl.php:18
 #: tpl/page_optm/settings_html.tpl.php:17
 msgid "HTML Settings"
-msgstr ""
+msgstr "HTML設定"
 
 #: tpl/page_optm/entry.tpl.php:19
 #: tpl/page_optm/settings_media.tpl.php:26
 msgid "Media Settings"
-msgstr ""
+msgstr "メディア設定"
 
 #: tpl/page_optm/entry.tpl.php:20
 msgid "VPI"
-msgstr ""
+msgstr "VPI"
 
 #: tpl/page_optm/entry.tpl.php:21
 #: tpl/page_optm/settings_media_exc.tpl.php:17
 msgid "Media Excludes"
-msgstr ""
+msgstr "メディアの除外"
 
 #: tpl/page_optm/entry.tpl.php:22
 msgid "Localization"
-msgstr ""
+msgstr "ローカライズ"
 
 #: tpl/page_optm/entry.tpl.php:23
 #: tpl/page_optm/entry.tpl.php:24
 msgid "Tuning"
-msgstr ""
+msgstr "チューニング"
 
 #: tpl/page_optm/entry.tpl.php:31
 msgid "Zinn® Cache Engine Page Optimization"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン ページ最適化"
 
 #: tpl/page_optm/entry.tpl.php:43
 msgid "Please test thoroughly when enabling any option in this list. After changing Minify/Combine settings, please do a Purge All action."
-msgstr ""
+msgstr "このリスト内のオプションを有効にする際は、十分にテストを行ってください。縮小／結合（Minify/Combine）の設定を変更した後は、必ず「すべてパージ（Purge All）」を実行してください。"
 
 #: tpl/page_optm/settings_css.tpl.php:46
 msgid "Minify CSS files and inline CSS code."
-msgstr ""
+msgstr "CSS ファイルを縮小し、CSS コードをインライン化します。"
 
 #: tpl/page_optm/settings_css.tpl.php:60
 msgid "Combine CSS files and inline CSS code."
-msgstr ""
+msgstr "CSSファイルとインラインCSSコードを結合する。"
 
 #: tpl/page_optm/settings_css.tpl.php:61
 #: tpl/page_optm/settings_js.tpl.php:48
 msgid "How to Fix Problems Caused by CSS/JS Optimization."
-msgstr ""
+msgstr "CSS/JS最適化に起因する問題の解決方法"
 
 #: tpl/page_optm/settings_css.tpl.php:82
 msgid "Use QUIC.cloud online service to generate unique CSS."
-msgstr ""
+msgstr "QUIC.cloud オンラインサービスを使用して、独自の CSS を生成します。"
 
 #: tpl/page_optm/settings_css.tpl.php:83
 msgid "This will drop the unused CSS on each page from the combined file."
-msgstr ""
+msgstr "これにより、結合されたファイルから各ページの未使用のCSSが削除されます。"
 
 #: tpl/page_optm/settings_css.tpl.php:85
 msgid "Automatic generation of unique CSS is in the background via a cron-based queue."
-msgstr ""
+msgstr "一意のCSSの自動生成は、cronベースのキューを使用してバックグラウンドで実行されます。"
 
 #: tpl/page_optm/settings_css.tpl.php:87
 #, php-format
 msgid "Filter %s available for UCSS per page type generation."
-msgstr ""
+msgstr "ページタイプ生成におけるUCSSで利用可能なフィルター %s。"
 
 #: tpl/page_optm/settings_css.tpl.php:93
 #, php-format
 msgid "This option is bypassed because %1$s option is %2$s."
-msgstr ""
+msgstr "%1$sオプションが%2$sであるため、このオプションはバイパスされます。"
 
 #: tpl/page_optm/settings_css.tpl.php:102
 #: tpl/page_optm/settings_css.tpl.php:239
 #: tpl/page_optm/settings_media.tpl.php:188
 #: tpl/page_optm/settings_vpi.tpl.php:53
 msgid "Last generated"
-msgstr ""
+msgstr "最終生成日時"
 
 #: tpl/page_optm/settings_css.tpl.php:105
 #: tpl/page_optm/settings_css.tpl.php:242
 msgid "Last requested cost"
-msgstr ""
+msgstr "最終リクエストコスト"
 
 #: tpl/page_optm/settings_css.tpl.php:117
 #: tpl/page_optm/settings_css.tpl.php:254
 #: tpl/page_optm/settings_vpi.tpl.php:65
 #, php-format
 msgid "URL list in %s queue waiting for cron"
-msgstr ""
+msgstr "cronの待機中 %s キューにあるURLリスト"
 
 #: tpl/page_optm/settings_css.tpl.php:118
 #: tpl/page_optm/settings_css.tpl.php:255
 #: tpl/page_optm/settings_media.tpl.php:201
 #: tpl/page_optm/settings_vpi.tpl.php:66
 msgid "Clear"
-msgstr ""
+msgstr "クリア"
 
 #: tpl/page_optm/settings_css.tpl.php:155
 #: tpl/page_optm/settings_css.tpl.php:160
@@ -4812,398 +4807,398 @@ msgstr ""
 #: tpl/page_optm/settings_vpi.tpl.php:105
 #, php-format
 msgid "Run %s Queue Manually"
-msgstr ""
+msgstr "%s キューを手動で実行"
 
 #: tpl/page_optm/settings_css.tpl.php:178
 #, php-format
 msgid "Inline UCSS to reduce the extra CSS file loading. This option will not be automatically turned on for %1$s pages. To use it on %1$s pages, please set it to ON."
-msgstr ""
+msgstr "追加のCSSファイルの読み込みを削減するため、UCSSをインライン化します。このオプションは、%1$sページでは自動的に有効になりません。%1$sページで使用するには、オンに設定してください。"
 
 #: tpl/page_optm/settings_css.tpl.php:181
 #, php-format
 msgid "This option will automatically bypass %s option."
-msgstr ""
+msgstr "このオプションは %s オプションを自動的にバイパスします。"
 
 #: tpl/page_optm/settings_css.tpl.php:195
 #, php-format
 msgid "Include external CSS and inline CSS in combined file when %1$s is also enabled. This option helps maintain the priorities of CSS, which should minimize potential errors caused by CSS Combine."
-msgstr ""
+msgstr "%1$s が有効になっている場合、外部CSSおよびインラインCSSを結合ファイルに含めます。このオプションは、CSS の優先順位を維持するのに役立ち、CSS 結合によって生じる可能性のあるエラーを最小限に抑えます。"
 
 #: tpl/page_optm/settings_css.tpl.php:215
 msgid "Optimize CSS delivery."
-msgstr ""
+msgstr "CSS配信の最適化"
 
 #: tpl/page_optm/settings_css.tpl.php:216
 #: tpl/page_optm/settings_html.tpl.php:175
 #: tpl/page_optm/settings_js.tpl.php:81
 msgid "This can improve your speed score in services like Pingdom, GTmetrix and PageSpeed."
-msgstr ""
+msgstr "これにより、Pingdom、GTmetrix、PageSpeedなどのサービスにおける速度スコアを向上させることができます。"
 
 #: tpl/page_optm/settings_css.tpl.php:217
 msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
-msgstr ""
+msgstr "QUIC.cloud オンラインサービスを使用してクリティカル CSS を生成し、残りの CSS を非同期で読み込みます。"
 
 #: tpl/page_optm/settings_css.tpl.php:219
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
-msgstr ""
+msgstr "クリティカルCSSの自動生成は、cronベースのキューを使用してバックグラウンドで実行されます。"
 
 #: tpl/page_optm/settings_css.tpl.php:220
 #, php-format
 msgid "When this option is turned %s, it will also load Google Fonts asynchronously."
-msgstr ""
+msgstr "このオプションが %s に設定されている場合、Google Fonts も非同期で読み込まれます。"
 
 #: tpl/page_optm/settings_css.tpl.php:224
 #, php-format
 msgid "Elements with attribute %s in HTML code will be excluded."
-msgstr ""
+msgstr "HTMLコード内の属性 %s を持つ要素は除外されます。"
 
 #: tpl/page_optm/settings_css.tpl.php:230
 #, php-format
 msgid "This option is bypassed due to %s option."
-msgstr ""
+msgstr "このオプションは%sオプションによりバイパスされます。"
 
 #: tpl/page_optm/settings_css.tpl.php:314
 msgid "Disable this option to generate CCSS per Post Type instead of per page. This can save significant CCSS quota, however it may result in incorrect CSS styling if your site uses a page builder."
-msgstr ""
+msgstr "このオプションを無効にすると、ページ単位ではなく投稿タイプ単位でCCSSが生成されます。これによりCCSSの割り当て量を大幅に節約できますが、サイトでページビルダーを使用している場合、CSSのスタイルが正しく適用されないことがあります。"
 
 #: tpl/page_optm/settings_css.tpl.php:327
 msgid "This will inline the asynchronous CSS library to avoid render blocking."
-msgstr ""
+msgstr "レンダリングのブロックを防ぐため、非同期CSSライブラリをインライン化します。"
 
 #: tpl/page_optm/settings_css.tpl.php:338
 msgid "Default"
-msgstr ""
+msgstr "デフォルト"
 
 #: tpl/page_optm/settings_css.tpl.php:340
 #, php-format
 msgid "Set this to append %1$s to all %2$s rules before caching CSS to specify how fonts should be displayed while being downloaded."
-msgstr ""
+msgstr "CSSをキャッシュする前にすべての %2$s ルールに %1$s を追加して、フォントのダウンロード中の表示方法を指定するように設定します。"
 
 #: tpl/page_optm/settings_css.tpl.php:341
 #, php-format
 msgid "%s is recommended."
-msgstr ""
+msgstr "%s がおすすめです。"
 
 #: tpl/page_optm/settings_css.tpl.php:341
 msgid "Swap"
-msgstr ""
+msgstr "スワップ"
 
 #: tpl/page_optm/settings_html.tpl.php:31
 msgid "Minify HTML content."
-msgstr ""
+msgstr "HTMLコンテンツを縮小する。"
 
 #: tpl/page_optm/settings_html.tpl.php:44
 msgid "Prefetching DNS can reduce latency for visitors."
-msgstr ""
+msgstr "DNSプリフェッチを行うことで、訪問者のレイテンシを削減できます。"
 
 #: tpl/page_optm/settings_html.tpl.php:45
 #: tpl/page_optm/settings_html.tpl.php:76
 msgid "For example"
-msgstr ""
+msgstr "例："
 
 #: tpl/page_optm/settings_html.tpl.php:60
 msgid "Automatically enable DNS prefetching for all URLs in the document, including images, CSS, JavaScript, and so forth."
-msgstr ""
+msgstr "ドキュメント内のすべてのURL（画像、CSS、JavaScriptなどを含む）に対して、DNSプリフェッチを自動的に有効にします。"
 
 #: tpl/page_optm/settings_html.tpl.php:61
 msgid "This can improve the page loading speed."
-msgstr ""
+msgstr "これにより、ページの読み込み速度を向上させることができます。"
 
 #: tpl/page_optm/settings_html.tpl.php:75
 msgid "Preconnecting speeds up future loads from a given origin."
-msgstr ""
+msgstr "事前接続を行うことで、指定されたオリジンからの将来の読み込みが高速化されます。"
 
 #: tpl/page_optm/settings_html.tpl.php:91
 msgid "Delay rendering off-screen HTML elements by its selector."
-msgstr ""
+msgstr "セレクターを指定して、画面外のHTML要素のレンダリングを遅延させます。"
 
 #: tpl/page_optm/settings_html.tpl.php:106
 msgid "When minifying HTML do not discard comments that match a specified pattern."
-msgstr ""
+msgstr "HTMLを圧縮する際、指定したパターンに一致するコメントは削除しないでください。"
 
 #: tpl/page_optm/settings_html.tpl.php:108
 #, php-format
 msgid "If comment to be kept is like: %1$s write: %2$s"
-msgstr ""
+msgstr "残すコメントが %1$s の場合: %2$s と記述してください"
 
 #: tpl/page_optm/settings_html.tpl.php:123
 msgid "Remove query strings from internal static resources."
-msgstr ""
+msgstr "内部の静的リソースからクエリ文字列を削除します。"
 
 #: tpl/page_optm/settings_html.tpl.php:127
 msgid "Google reCAPTCHA will be bypassed automatically."
-msgstr ""
+msgstr "Google reCAPTCHA は自動的にバイパスされます。"
 
 #: tpl/page_optm/settings_html.tpl.php:132
 #, php-format
 msgid "Append query string %s to the resources to bypass this action."
-msgstr ""
+msgstr "このアクションをバイパスするには、リソースにクエリ文字列 %s を追加してください。"
 
 #: tpl/page_optm/settings_html.tpl.php:146
 msgid "Use Web Font Loader library to load Google Fonts asynchronously while leaving other CSS intact."
-msgstr ""
+msgstr "Web Font Loader ライブラリを使用して Google Fonts を非同期で読み込み、他の CSS はそのまま残します。"
 
 #: tpl/page_optm/settings_html.tpl.php:147
 msgid "This will also add a preconnect to Google Fonts to establish a connection earlier."
-msgstr ""
+msgstr "これにより、Google Fonts への preconnect も追加され、より早い段階で接続が確立されます。"
 
 #: tpl/page_optm/settings_html.tpl.php:161
 msgid "Prevent Google Fonts from loading on all pages."
-msgstr ""
+msgstr "Google Fonts がすべてのページで読み込まれないようにします。"
 
 #: tpl/page_optm/settings_html.tpl.php:174
 msgid "Stop loading WordPress.org emoji. Browser default emoji will be displayed instead."
-msgstr ""
+msgstr "WordPress.org の絵文字の読み込みを停止します。代わりにブラウザデフォルトの絵文字が表示されます。"
 
 #: tpl/page_optm/settings_html.tpl.php:188
 #, php-format
 msgid "This option will remove all %s tags from HTML."
-msgstr ""
+msgstr "このオプションは、HTMLからすべての %s タグを削除します。"
 
 #: tpl/page_optm/settings_js.tpl.php:33
 msgid "Minify JS files and inline JS codes."
-msgstr ""
+msgstr "JSファイルを縮小し、JSコードをインライン化します。"
 
 #: tpl/page_optm/settings_js.tpl.php:47
 msgid "Combine all local JS files into a single file."
-msgstr ""
+msgstr "ローカルのJavaScriptファイルをすべて1つのファイルに結合します。"
 
 #: tpl/page_optm/settings_js.tpl.php:51
 #: tpl/page_optm/settings_js.tpl.php:85
 msgid "This option may result in a JS error or layout issue on frontend pages with certain themes/plugins."
-msgstr ""
+msgstr "このオプションにより、特定のテーマやプラグインを使用しているフロントエンドページで、JSエラーやレイアウトの不具合が発生する場合があります。"
 
 #: tpl/page_optm/settings_js.tpl.php:52
 msgid "JS error can be found from the developer console of browser by right clicking and choosing Inspect."
-msgstr ""
+msgstr "ブラウザーを右クリックして「検証」を選択し、開発者コンソールからJSエラーを確認できます。"
 
 #: tpl/page_optm/settings_js.tpl.php:66
 #, php-format
 msgid "Include external JS and inline JS in combined file when %1$s is also enabled. This option helps maintain the priorities of JS execution, which should minimize potential errors caused by JS Combine."
-msgstr ""
+msgstr "%1$s も有効な場合、結合されたファイルに外部 JS およびインライン JS を含めます。このオプションは、JS の実行優先順位を維持するのに役立ち、JS 結合によって引き起こされる潜在的なエラーを最小限に抑えます。"
 
 #: tpl/page_optm/settings_js.tpl.php:77
 msgid "Deferred"
-msgstr ""
+msgstr "保留"
 
 #: tpl/page_optm/settings_js.tpl.php:77
 msgid "Delayed"
-msgstr ""
+msgstr "遅延中"
 
 #: tpl/page_optm/settings_js.tpl.php:79
 msgid "Deferring until page is parsed or delaying till interaction can help reduce resource contention and improve performance causing a lower FID (Core Web Vitals metric)."
-msgstr ""
+msgstr "ページの解析が完了するまで読み込みを遅延させるか、インタラクションが行われるまで遅延させることは、リソースの競合を軽減し、パフォーマンスを向上させて、FID（Core Web Vitals指標）の低下につながる可能性があります。"
 
 #: tpl/page_optm/settings_localization.tpl.php:26
 #, php-format
 msgid "Failed to create Avatar table. Please follow <a %s>Table Creation guidance from LiteSpeed Wiki</a> to finish setup."
-msgstr ""
+msgstr "Avatar テーブルの作成に失敗しました。セットアップを完了するには、<a %s>LiteSpeed Wiki のテーブル作成ガイド</a>に従ってください。"
 
 #: tpl/page_optm/settings_localization.tpl.php:36
 msgid "Localization Settings"
-msgstr ""
+msgstr "ローカライズ設定"
 
 #: tpl/page_optm/settings_localization.tpl.php:49
 msgid "Store Gravatar locally."
-msgstr ""
+msgstr "グラバターをローカルに保存する"
 
 #: tpl/page_optm/settings_localization.tpl.php:50
 msgid "Accelerates the speed by caching Gravatar (Globally Recognized Avatars)."
-msgstr ""
+msgstr "Gravatar（Globally Recognized Avatars）をキャッシュすることで、速度を加速させます。"
 
 #: tpl/page_optm/settings_localization.tpl.php:63
 msgid "Refresh Gravatar cache by cron."
-msgstr ""
+msgstr "cronを使用してGravatarキャッシュを更新します。"
 
 #: tpl/page_optm/settings_localization.tpl.php:76
 msgid "Avatar list in queue waiting for update"
-msgstr ""
+msgstr "更新待ちキュー内のアバターリスト"
 
 #: tpl/page_optm/settings_localization.tpl.php:81
 #: tpl/page_optm/settings_media.tpl.php:218
 msgid "Run Queue Manually"
-msgstr ""
+msgstr "キューを手動で実行"
 
 #: tpl/page_optm/settings_localization.tpl.php:98
 msgid "Specify how long, in seconds, Gravatar files are cached."
-msgstr ""
+msgstr "Gravatarファイルをキャッシュする期間を秒単位で指定します。"
 
 #: tpl/page_optm/settings_localization.tpl.php:113
 msgid "Localize external resources."
-msgstr ""
+msgstr "外部リソースのローカライズ"
 
 #: tpl/page_optm/settings_localization.tpl.php:117
 #, php-format
 msgid "Please thoroughly test all items in %s to ensure they function as expected."
-msgstr ""
+msgstr "%s内のすべての項目が期待通りに動作することを確認するため、十分にテストしてください。"
 
 #: tpl/page_optm/settings_localization.tpl.php:139
 msgid "Resources listed here will be copied and replaced with local URLs."
-msgstr ""
+msgstr "ここにリストされているリソースはコピーされ、ローカルURLに置き換えられます。"
 
 #: tpl/page_optm/settings_localization.tpl.php:140
 msgid "HTTPS sources only."
-msgstr ""
+msgstr "HTTPSソースのみ。"
 
 #: tpl/page_optm/settings_localization.tpl.php:144
 #, php-format
 msgid "Comments are supported. Start a line with a %s to turn it into a comment line."
-msgstr ""
+msgstr "コメントがサポートされています。行頭に %s を入力すると、その行がコメント行になります。"
 
 #: tpl/page_optm/settings_localization.tpl.php:146
 msgid "Example"
-msgstr ""
+msgstr "例"
 
 #: tpl/page_optm/settings_localization.tpl.php:150
 msgid "Please thoroughly test each JS file you add to ensure it functions as expected."
-msgstr ""
+msgstr "追加する各JSファイルが期待どおりに動作するか、十分にテストしてください。"
 
 #: tpl/page_optm/settings_media.tpl.php:40
 msgid "Load images only when they enter the viewport."
-msgstr ""
+msgstr "画像がビューポートに入ったときのみ読み込みます。"
 
 #: tpl/page_optm/settings_media.tpl.php:41
 #: tpl/page_optm/settings_media.tpl.php:235
 msgid "This can improve page loading time by reducing initial HTTP requests."
-msgstr ""
+msgstr "初期HTTPリクエストを削減することで、ページの読み込み速度を改善できます。"
 
 #: tpl/page_optm/settings_media.tpl.php:45
 msgid "Adding Style to Your Lazy-Loaded Images"
-msgstr ""
+msgstr "遅延読み込み画像へのスタイルの追加"
 
 #: tpl/page_optm/settings_media.tpl.php:59
 msgid "Specify a base64 image to be used as a simple placeholder while images finish loading."
-msgstr ""
+msgstr "画像の読み込みが完了するまでの間、簡易的なプレースホルダーとして使用するbase64画像を指定してください。"
 
 #: tpl/page_optm/settings_media.tpl.php:60
 #, php-format
 msgid "This can be predefined in %2$s as well using constant %1$s, with this setting taking priority."
-msgstr ""
+msgstr "これは %2$s においても定数 %1$s を使用してあらかじめ定義することができ、この設定が優先されます。"
 
 #: tpl/page_optm/settings_media.tpl.php:61
 #, php-format
 msgid "By default a gray image placeholder %s will be used."
-msgstr ""
+msgstr "デフォルトでは灰色の画像プレースホルダー %s が使用されます。"
 
 #: tpl/page_optm/settings_media.tpl.php:62
 #, php-format
 msgid "For example, %s can be used for a transparent placeholder."
-msgstr ""
+msgstr "例えば、%sを透明なプレースホルダーに使用できます。"
 
 #: tpl/page_optm/settings_media.tpl.php:76
 msgid "Responsive image placeholders can help to reduce layout reshuffle when images are loaded."
-msgstr ""
+msgstr "レスポンシブ画像のプレースホルダーは、画像の読み込み時におけるレイアウトの崩れを防ぐのに役立ちます。"
 
 #: tpl/page_optm/settings_media.tpl.php:77
 msgid "This will generate the placeholder with same dimensions as the image if it has the width and height attributes."
-msgstr ""
+msgstr "画像に幅と高さの属性がある場合、これは画像と同じ寸法のプレースホルダーを生成します。"
 
 #: tpl/page_optm/settings_media.tpl.php:90
 msgid "Specify an SVG to be used as a placeholder when generating locally."
-msgstr ""
+msgstr "ローカルで生成する際にプレースホルダーとして使用するSVGを指定します。"
 
 #: tpl/page_optm/settings_media.tpl.php:91
 msgid "It will be converted to a base64 SVG placeholder on-the-fly."
-msgstr ""
+msgstr "オンザフライでbase64形式のSVGプレースホルダーに変換されます。"
 
 #: tpl/page_optm/settings_media.tpl.php:92
 #, php-format
 msgid "Variables %s will be replaced with the corresponding image properties."
-msgstr ""
+msgstr "変数 %s は対応する画像プロパティに置き換えられます。"
 
 #: tpl/page_optm/settings_media.tpl.php:93
 #, php-format
 msgid "Variables %s will be replaced with the configured background color."
-msgstr ""
+msgstr "変数 %s は設定された背景色に置き換えられます。"
 
 #: tpl/page_optm/settings_media.tpl.php:107
 msgid "Specify the responsive placeholder SVG color."
-msgstr ""
+msgstr "レスポンシブなプレースホルダーSVGの色を指定します。"
 
 #: tpl/page_optm/settings_media.tpl.php:122
 msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
-msgstr ""
+msgstr "読み込み中のレスポンシブな画像プレビューに QUIC.cloud LQIP（低品質画像プレースホルダー）ジェネレーターサービスを使用します。"
 
 #: tpl/page_optm/settings_media.tpl.php:123
 msgid "Keep this off to use plain color placeholders."
-msgstr ""
+msgstr "無地のカラープレースホルダーを使用するには、これをオフにしてください。"
 
 #: tpl/page_optm/settings_media.tpl.php:137
 msgid "Specify the quality when generating LQIP."
-msgstr ""
+msgstr "LQIP 生成時の品質を指定します。"
 
 #: tpl/page_optm/settings_media.tpl.php:138
 msgid "Larger number will generate higher resolution quality placeholder, but will result in larger files which will increase page size and consume more points."
-msgstr ""
+msgstr "数値を大きくすると、より高解像度のプレースホルダーが生成されますが、ファイルサイズが大きくなり、ページの容量が増えてポイントの消費量も増加します。"
 
 #: tpl/page_optm/settings_media.tpl.php:141
 #, php-format
 msgid "Changes to this setting do not apply to already-generated LQIPs. To regenerate existing LQIPs, please %s first from the admin bar menu."
-msgstr ""
+msgstr "この設定の変更は、すでに生成済みのLQIPには適用されません。既存のLQIPを再生成するには、まず管理バーメニューから%sしてください。"
 
 #: tpl/page_optm/settings_media.tpl.php:154
 msgid "pixels"
-msgstr ""
+msgstr "ピクセル"
 
 #: tpl/page_optm/settings_media.tpl.php:156
 msgid "LQIP requests will not be sent for images where both width and height are smaller than these dimensions."
-msgstr ""
+msgstr "幅と高さの両方がこれらの寸法よりも小さい画像に対しては、LQIPリクエストは送信されません。"
 
 #: tpl/page_optm/settings_media.tpl.php:172
 msgid "Automatically generate LQIP in the background via a cron-based queue."
-msgstr ""
+msgstr "クロンベースのキューを使用して、バックグラウンドでLQIPを自動生成します。"
 
 #: tpl/page_optm/settings_media.tpl.php:175
 #, php-format
 msgid "If set to %1$s, before the placeholder is localized, the %2$s configuration will be used."
-msgstr ""
+msgstr "%1$sに設定した場合、プレースホルダーがローカライズされる前に、%2$sの設定が使用されます。"
 
 #: tpl/page_optm/settings_media.tpl.php:180
 #, php-format
 msgid "If set to %s this is done in the foreground, which may slow down page load."
-msgstr ""
+msgstr "%sに設定されている場合、これはフォアグラウンドで実行されるため、ページの読み込みが遅くなる可能性があります。"
 
 #: tpl/page_optm/settings_media.tpl.php:200
 msgid "Size list in queue waiting for cron"
-msgstr ""
+msgstr "cronの実行待ちキューのサイズリスト"
 
 #: tpl/page_optm/settings_media.tpl.php:234
 msgid "Load iframes only when they enter the viewport."
-msgstr ""
+msgstr "iframeがビューポートに入ったときにのみ読み込みます。"
 
 #: tpl/page_optm/settings_media.tpl.php:248
 msgid "Set an explicit width and height on image elements to reduce layout shifts and improve CLS (a Core Web Vitals metric)."
-msgstr ""
+msgstr "レイアウトのずれを軽減し、CLS（Core Web Vitalsの指標）を改善するために、画像要素に明示的な幅と高さを設定してください。"
 
 #: tpl/page_optm/settings_media.tpl.php:259
 #, php-format
 msgid "Use %1$s to bypass remote image dimension check when %2$s is ON."
-msgstr ""
+msgstr "%2$sがONのときにリモート画像の寸法チェックをバイパスするには、%1$sを使用します。"
 
 #: tpl/page_optm/settings_media.tpl.php:274
 msgid "The image compression quality setting of WordPress out of 100."
-msgstr ""
+msgstr "100段階における WordPress の画像圧縮品質の設定。"
 
 #: tpl/page_optm/settings_media.tpl.php:289
 msgid "Automatically replace large images with scaled versions."
-msgstr ""
+msgstr "大きな画像をスケーールされたバージョンに自動的に置き換えます。"
 
 #: tpl/page_optm/settings_media.tpl.php:290
 msgid "Scaled size threshold"
-msgstr ""
+msgstr "スケーリングサイズしきい値"
 
 #: tpl/page_optm/settings_media.tpl.php:296
 #, php-format
 msgid "Filter %s available to change threshold."
-msgstr ""
+msgstr "しきい値を変更するためのフィルター %s が利用可能です。"
 
 #: tpl/page_optm/settings_media_exc.tpl.php:31
 msgid "Listed images will not be lazy loaded."
-msgstr ""
+msgstr "リストされた画像は遅延読み込みされません。"
 
 #: tpl/page_optm/settings_media_exc.tpl.php:34
 msgid "Useful for above-the-fold images causing CLS (a Core Web Vitals metric)."
-msgstr ""
+msgstr "CLS（Core Web Vitalsの指標）を引き起こすファーストビューの画像に有効です。"
 
 #: tpl/page_optm/settings_media_exc.tpl.php:38
 #: tpl/page_optm/settings_tuning.tpl.php:70
@@ -5212,835 +5207,835 @@ msgstr ""
 #: tpl/page_optm/settings_tuning_css.tpl.php:37
 #, php-format
 msgid "Elements with attribute %s in html code will be excluded."
-msgstr ""
+msgstr "htmlコード内の属性 %s を持つ要素は除外されます。"
 
 #: tpl/page_optm/settings_media_exc.tpl.php:60
 msgid "Images containing these class names will not be lazy loaded."
-msgstr ""
+msgstr "これらのクラス名を含む画像は遅延読み込みされません。"
 
 #: tpl/page_optm/settings_media_exc.tpl.php:75
 msgid "Images having these parent class names will not be lazy loaded."
-msgstr ""
+msgstr "これらの親クラス名を持つ画像は遅延読み込みされません。"
 
 #: tpl/page_optm/settings_media_exc.tpl.php:89
 msgid "Iframes containing these class names will not be lazy loaded."
-msgstr ""
+msgstr "これらのクラス名を含むiframeは、遅延読み込みされません。"
 
 #: tpl/page_optm/settings_media_exc.tpl.php:104
 msgid "Iframes having these parent class names will not be lazy loaded."
-msgstr ""
+msgstr "親クラス名にこれらを持つiframeは、遅延読み込みされません。"
 
 #: tpl/page_optm/settings_media_exc.tpl.php:118
 msgid "Prevent any lazy load of listed pages."
-msgstr ""
+msgstr "指定されたページの遅延読み込みをすべて防止します。"
 
 #: tpl/page_optm/settings_media_exc.tpl.php:132
 msgid "These images will not generate LQIP."
-msgstr ""
+msgstr "これらの画像ではLQIPが生成されません。"
 
 #: tpl/page_optm/settings_tuning.tpl.php:29
 msgid "Tuning Settings"
-msgstr ""
+msgstr "チューニング設定"
 
 #: tpl/page_optm/settings_tuning.tpl.php:43
 msgid "Listed JS files or inline JS code will be delayed."
-msgstr ""
+msgstr "指定されたJSファイルまたはインラインJSコードの読み込みが遅延されます。"
 
 #: tpl/page_optm/settings_tuning.tpl.php:63
 msgid "Listed JS files or inline JS code will not be minified or combined."
-msgstr ""
+msgstr "リストされたJSファイルまたはインラインのJSコードは、最小化（ミニファイ）や結合されません。"
 
 #: tpl/page_optm/settings_tuning.tpl.php:71
 #: tpl/page_optm/settings_tuning.tpl.php:92
 msgid "Predefined list will also be combined with the above settings."
-msgstr ""
+msgstr "定義済みのリストも上記の設定と結合されます。"
 
 #: tpl/page_optm/settings_tuning.tpl.php:85
 msgid "Listed JS files or inline JS code will not be deferred or delayed."
-msgstr ""
+msgstr "指定されたJSファイルまたはインラインJSコードは、遅延読み込み（デファード）や実行遅延の対象外となります。"
 
 #: tpl/page_optm/settings_tuning.tpl.php:106
 #, php-format
 msgid "Listed JS files or inline JS code will not be optimized by %s."
-msgstr ""
+msgstr "%s は、リストされた JS ファイルまたはインライン JS コードを最適化しません。"
 
 #: tpl/page_optm/settings_tuning.tpl.php:126
 msgid "Prevent any optimization of listed pages."
-msgstr ""
+msgstr "指定されたページの最適化をすべて防止します。"
 
 #: tpl/page_optm/settings_tuning.tpl.php:144
 msgid "Only optimize pages for guest (not logged in) visitors. If turned this OFF, CSS/JS/CCSS files will be doubled by each user group."
-msgstr ""
+msgstr "ゲスト（ログインしていない）ビジター向けのページのみを最適化します。これをオフにすると、CSS/JS/CCSSファイルがユーザーグループごとに重複します。"
 
 #: tpl/page_optm/settings_tuning.tpl.php:156
 msgid "Selected roles will be excluded from all optimizations."
-msgstr ""
+msgstr "選択されたロールはすべての最適化から除外されます。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:17
 msgid "Tuning CSS Settings"
-msgstr ""
+msgstr "CSS設定の調整"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:31
 msgid "Listed CSS files or inline CSS code will not be minified or combined."
-msgstr ""
+msgstr "リストされたCSSファイルやインラインのCSSコードは、最小化（ミニファイ）や統合されません。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:38
 msgid "Predefined list will also be combined with the above settings"
-msgstr ""
+msgstr "事前定義されたリストも上記の設定と結合されます"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:52
 msgid "Listed CSS files will be excluded from UCSS and saved to inline."
-msgstr ""
+msgstr "リストされたCSSファイルはUCSSから除外され、インラインに保存されます。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:67
 msgid "List the CSS selectors whose styles should always be included in UCSS."
-msgstr ""
+msgstr "UCSSに常に含めるべきCSSセレクターをリスト表示します。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:69
 #: tpl/page_optm/settings_tuning_css.tpl.php:144
 msgid "Learn more"
-msgstr ""
+msgstr "詳細を見る"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:70
 #: tpl/page_optm/settings_tuning_css.tpl.php:145
 #, php-format
 msgid "Wildcard %s supported."
-msgstr ""
+msgstr "ワイルドカード %s に対応しています。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:74
 msgid "The selector must exist in the CSS. Parent classes in the HTML will not work."
-msgstr ""
+msgstr "セレクタはCSSに存在する必要があります。HTML内の親クラスは機能しません。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:92
 msgid "Listed URI will not generate UCSS."
-msgstr ""
+msgstr "指定されたURIはUCSSを生成しません。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:99
 #, php-format
 msgid "Use %1$s to generate one single UCSS for the pages which page type is %2$s while other page types still per URL."
-msgstr ""
+msgstr "%1$sを使用して、ページタイプが%2$sのページに対しては単一のUCSSを生成し、他のページタイプについては引き続きURLごとに生成します。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:100
 #, php-format
 msgid "Use %1$s to bypass UCSS for the pages which page type is %2$s."
-msgstr ""
+msgstr "%1$sを使用して、ページタイプが%2$sのページのUCSSをバイパスします。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:113
 msgid "List post types where each item of that type should have its own CCSS generated."
-msgstr ""
+msgstr "各タイプの個別の項目に対して個別のCCSSを生成すべき投稿タイプを一覧表示します。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:114
 #, php-format
 msgid "For example, if every Page on the site has different formatting, enter %s in the box. Separate critical CSS files will be stored for every Page on the site."
-msgstr ""
+msgstr "例えば、サイト内のすべてのページで異なるフォーマットが使用されている場合は、ボックスに %s と入力してください。サイト内のページごとに、個別のクリティカルCSSファイルが保存されます。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:128
 msgid "Separate critical CSS files will be generated for paths containing these strings."
-msgstr ""
+msgstr "これらの文字列を含むパスに対して、クリティカルCSSファイルが個別に生成されます。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:142
 msgid "List the CSS selectors whose styles should always be included in CCSS."
-msgstr ""
+msgstr "CCSSに常時含めるべきスタイルに対応するCSSセレクターを一覧表示してください。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:149
 msgid "Selectors must exist in the CSS. Parent classes in the HTML will not work."
-msgstr ""
+msgstr "セレクターはCSS内に存在している必要があります。HTML内の親クラスは機能しません。"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:167
 #, php-format
 msgid "Specify critical CSS rules for above-the-fold content when enabling %s."
-msgstr ""
+msgstr "%sを有効にする場合は、ファーストビューのコンテンツに対して重要なCSSルールを指定してください。"
 
 #: tpl/page_optm/settings_vpi.tpl.php:37
 msgid "When you use Lazy Load, it will delay the loading of all images on a page."
-msgstr ""
+msgstr "遅延読み込み（Lazy Load）を使用すると、ページ上のすべての画像読み込みが遅延されます。"
 
 #: tpl/page_optm/settings_vpi.tpl.php:38
 msgid "The Viewport Images service detects which images appear above the fold, and excludes them from lazy load."
-msgstr ""
+msgstr "Viewport Imagesサービスは、ファーストビューに表示される画像を検出し、遅延読み込みの対象外とします。"
 
 #: tpl/page_optm/settings_vpi.tpl.php:39
 msgid "This enables the page's initial screenful of imagery to be fully displayed without delay."
-msgstr ""
+msgstr "これにより、ページの最初の画面分の画像を遅延なく完全に表示できるようになります。"
 
 #: tpl/page_optm/settings_vpi.tpl.php:122
 msgid "Enable Viewport Images auto generation cron."
-msgstr ""
+msgstr "ビューポート画像の自動生成クロンを有効にします。"
 
 #: tpl/presets/entry.tpl.php:16
 msgid "Standard Presets"
-msgstr ""
+msgstr "標準プリセット"
 
 #: tpl/presets/entry.tpl.php:17
 #: tpl/toolbox/entry.tpl.php:20
 msgid "Import / Export"
-msgstr ""
+msgstr "インポート / エクスポート"
 
 #: tpl/presets/entry.tpl.php:23
 msgid "Zinn® Cache Engine Configuration Presets"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン設定プリセット"
 
 #: tpl/presets/standard.tpl.php:17
 msgid "Essentials"
-msgstr ""
+msgstr "基本設定"
 
 #: tpl/presets/standard.tpl.php:19
 msgid "Default Cache"
-msgstr ""
+msgstr "デフォルトキャッシュ"
 
 #: tpl/presets/standard.tpl.php:20
 msgid "Higher TTL"
-msgstr ""
+msgstr "より大きなTTL"
 
 #: tpl/presets/standard.tpl.php:24
 msgid "This no-risk preset is appropriate for all websites. Good for new users, simple websites, or cache-oriented development."
-msgstr ""
+msgstr "このリスクフリーなプリセットは、すべてのウェブサイトに適しています。初心者、シンプルなウェブサイト、またはキャッシュ指向の開発に適しています。"
 
 #: tpl/presets/standard.tpl.php:25
 msgid "A QUIC.cloud connection is not required to use this preset. Only basic caching features are enabled."
-msgstr ""
+msgstr "このプリセットを使用するためにQUIC.cloud接続は必須ではありません。有効になるのは基本的なキャッシュ機能のみです。"
 
 #: tpl/presets/standard.tpl.php:29
 #: tpl/toolbox/settings-debug.tpl.php:117
 msgid "Basic"
-msgstr ""
+msgstr "基本"
 
 #: tpl/presets/standard.tpl.php:31
 msgid "Everything in Essentials, Plus"
-msgstr ""
+msgstr "Essentials、Plusのすべての機能"
 
 #: tpl/presets/standard.tpl.php:33
 msgid "Mobile Cache"
-msgstr ""
+msgstr "モバイルキャッシュ"
 
 #: tpl/presets/standard.tpl.php:36
 msgid "This low-risk preset introduces basic optimizations for speed and user experience. Appropriate for enthusiastic beginners."
-msgstr ""
+msgstr "この低リスクなプリセットは、速度とユーザー体験のための基本的な最適化を行います。熱心な初心者に最適です。"
 
 #: tpl/presets/standard.tpl.php:37
 msgid "A QUIC.cloud connection is required to use this preset. Includes optimizations known to improve site score in page speed measurement tools."
-msgstr ""
+msgstr "このプリセットを使用するには、QUIC.cloud接続が必要です。ページ速度測定ツールでのサイトのスコア向上に効果があることが知られている最適化が含まれています。"
 
 #: tpl/presets/standard.tpl.php:41
 msgid "Advanced (Recommended)"
-msgstr ""
+msgstr "詳細設定（推奨）"
 
 #: tpl/presets/standard.tpl.php:43
 msgid "Everything in Basic, Plus"
-msgstr ""
+msgstr "BasicおよびPlusのすべての機能"
 
 #: tpl/presets/standard.tpl.php:44
 msgid "Guest Mode and Guest Optimization"
-msgstr ""
+msgstr "ゲストモードとゲスト最適化"
 
 #: tpl/presets/standard.tpl.php:45
 msgid "CSS, JS and HTML Minification"
-msgstr ""
+msgstr "CSS、JS、およびHTMLの最小化"
 
 #: tpl/presets/standard.tpl.php:47
 msgid "JS Defer for both external and inline JS"
-msgstr ""
+msgstr "外部JSおよびインラインJSの両方に対するJS Defer"
 
 #: tpl/presets/standard.tpl.php:48
 msgid "DNS Prefetch for static files"
-msgstr ""
+msgstr "静的ファイルの DNS プリフェッチ"
 
 #: tpl/presets/standard.tpl.php:50
 msgid "Remove Query Strings from Static Files"
-msgstr ""
+msgstr "静的ファイルからクエリ文字列を削除する"
 
 #: tpl/presets/standard.tpl.php:55
 msgid "This preset is good for most websites, and is unlikely to cause conflicts. Any CSS or JS conflicts may be resolved with Page Optimization > Tuning tools."
-msgstr ""
+msgstr "このプリセットはほとんどのウェブサイトに適しており、競合を引き起こす可能性は低いです。CSSまたはJSの競合は、「ページ最適化 > チューニング」ツールで解決できる場合があります。"
 
 #: tpl/presets/standard.tpl.php:56
 #: tpl/presets/standard.tpl.php:70
 msgid "A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores."
-msgstr ""
+msgstr "このプリセットを使用するにはQUIC.cloud接続が必要です。ページ速度スコアの改善に効果があることが知られている多くの最適化が含まれています。"
 
 #: tpl/presets/standard.tpl.php:60
 msgid "Aggressive"
-msgstr ""
+msgstr "アグレッシブ"
 
 #: tpl/presets/standard.tpl.php:62
 msgid "Everything in Advanced, Plus"
-msgstr ""
+msgstr "Advanced, Plusプランの全機能"
 
 #: tpl/presets/standard.tpl.php:63
 msgid "CSS & JS Combine"
-msgstr ""
+msgstr "CSS & JS 結合"
 
 #: tpl/presets/standard.tpl.php:64
 msgid "Asynchronous CSS Loading with Critical CSS"
-msgstr ""
+msgstr "クリティカルCSSを使用した非同期CSS読み込み"
 
 #: tpl/presets/standard.tpl.php:65
 msgid "Removed Unused CSS for Users"
-msgstr ""
+msgstr "ユーザーの不要なCSSを削除しました"
 
 #: tpl/presets/standard.tpl.php:66
 msgid "Lazy Load for Iframes"
-msgstr ""
+msgstr "iframeの遅延読み込み"
 
 #: tpl/presets/standard.tpl.php:69
 msgid "This preset might work out of the box for some websites, but be sure to test! Some CSS or JS exclusions may be necessary in Page Optimization > Tuning."
-msgstr ""
+msgstr "このプリセットは一部のウェブサイトではそのまま機能する可能性がありますが、必ずテストしてください。「ページ最適化 > チューニング」でCSSやJSの除外設定が必要になる場合があります。"
 
 #: tpl/presets/standard.tpl.php:74
 msgid "Extreme"
-msgstr ""
+msgstr "エクストリーム"
 
 #: tpl/presets/standard.tpl.php:76
 msgid "Everything in Aggressive, Plus"
-msgstr ""
+msgstr "アグレッシブプランの全機能に加え、"
 
 #: tpl/presets/standard.tpl.php:77
 msgid "Lazy Load for Images"
-msgstr ""
+msgstr "画像の遅延読み込み"
 
 #: tpl/presets/standard.tpl.php:78
 msgid "Viewport Image Generation"
-msgstr ""
+msgstr "ビューポート画像生成"
 
 #: tpl/presets/standard.tpl.php:79
 msgid "JS Delayed"
-msgstr ""
+msgstr "JS遅延読込"
 
 #: tpl/presets/standard.tpl.php:80
 msgid "Inline JS added to Combine"
-msgstr ""
+msgstr "結合に追加されたインライン JS"
 
 #: tpl/presets/standard.tpl.php:81
 msgid "Inline CSS added to Combine"
-msgstr ""
+msgstr "結合に追加されたインライン CSS"
 
 #: tpl/presets/standard.tpl.php:84
 msgid "This preset almost certainly will require testing and exclusions for some CSS, JS and Lazy Loaded images. Pay special attention to logos, or HTML-based slider images."
-msgstr ""
+msgstr "このプリセットでは、一部のCSS、JS、および遅延読み込み画像に対して、ほぼ確実にテストと除外設定が必要になります。ロゴやHTMLベースのスライダー画像には特に注意を払ってください。"
 
 #: tpl/presets/standard.tpl.php:85
 msgid "A QUIC.cloud connection is required to use this preset. Enables the maximum level of optimizations for improved page speed scores."
-msgstr ""
+msgstr "このプリセットを使用するにはQUIC.cloud接続が必要です。ページ速度スコアを向上させるため、最高レベルの最適化を有効にします。"
 
 #: tpl/presets/standard.tpl.php:92
 msgid "Zinn® Cache Engine Standard Presets"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン 標準プリセット"
 
 #: tpl/presets/standard.tpl.php:96
 msgid "Use an official LiteSpeed-designed Preset to configure your site in one click. Try no-risk caching essentials, extreme optimization, or something in between."
-msgstr ""
+msgstr "公式のLiteSpeed製プリセットを使用して、ワンクリックでサイトを設定できます。リスクのないキャッシングの基本機能、極限の最適化、またはその中間の設定をお試しください。"
 
 #: tpl/presets/standard.tpl.php:121
 msgid "Who should use this preset?"
-msgstr ""
+msgstr "どのユーザーがこのプリセットを使用するべきですか？"
 
 #: tpl/presets/standard.tpl.php:131
 #, php-format
 msgid "This will back up your current settings and replace them with the %1$s preset settings. Do you want to continue?"
-msgstr ""
+msgstr "現在の設定をバックアップし、%1$s のプリセット設定で置き換えます。続行しますか？"
 
 #: tpl/presets/standard.tpl.php:133
 msgid "Apply Preset"
-msgstr ""
+msgstr "プリセットを適用"
 
 #: tpl/presets/standard.tpl.php:152
 msgid "unknown"
-msgstr ""
+msgstr "不明"
 
 #: tpl/presets/standard.tpl.php:163
 msgid "History"
-msgstr ""
+msgstr "履歴"
 
 #: tpl/presets/standard.tpl.php:173
 #, php-format
 msgid "Error: Failed to apply the settings %1$s"
-msgstr ""
+msgstr "エラー: 設定 %1$s の適用に失敗しました"
 
 #: tpl/presets/standard.tpl.php:175
 #, php-format
 msgid "Restored backup settings %1$s"
-msgstr ""
+msgstr "バックアップ設定を復元しました %1$s"
 
 #: tpl/presets/standard.tpl.php:178
 #, php-format
 msgid "Applied the %1$s preset %2$s"
-msgstr ""
+msgstr "%1$s のプリセット %2$s を適用しました"
 
 #: tpl/presets/standard.tpl.php:189
 #, php-format
 msgid "Backup created %1$s before applying the %2$s preset"
-msgstr ""
+msgstr "%2$s のプリセットを適用する %1$s 前にバックアップが作成されました"
 
 #: tpl/presets/standard.tpl.php:193
 #, php-format
 msgid "This will restore the backup settings created %1$s before applying the %2$s preset. Any changes made since then will be lost. Do you want to continue?"
-msgstr ""
+msgstr "%1$s前に%2$sプリセットを適用した際に作成されたバックアップ設定を復元します。それ以降に行われた変更はすべて失われます。続行しますか？"
 
 #: tpl/presets/standard.tpl.php:195
 msgid "Restore Settings"
-msgstr ""
+msgstr "設定を復元"
 
 #: tpl/toolbox/edit_htaccess.tpl.php:41
 msgid "Zinn® Cache Engine View .htaccess"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン .htaccess 表示"
 
 #: tpl/toolbox/edit_htaccess.tpl.php:46
 msgid ".htaccess Path"
-msgstr ""
+msgstr ".htaccessパス"
 
 #: tpl/toolbox/edit_htaccess.tpl.php:53
 msgid "Frontend .htaccess Path"
-msgstr ""
+msgstr "フロントエンド .htaccess パス"
 
 #: tpl/toolbox/edit_htaccess.tpl.php:58
 #: tpl/toolbox/edit_htaccess.tpl.php:76
 msgid "Default path is"
-msgstr ""
+msgstr "デフォルトのパス:"
 
 #: tpl/toolbox/edit_htaccess.tpl.php:62
 #: tpl/toolbox/edit_htaccess.tpl.php:80
 #, php-format
 msgid "PHP Constant %s is supported."
-msgstr ""
+msgstr "PHP定数 %s がサポートされています。"
 
 #: tpl/toolbox/edit_htaccess.tpl.php:63
 #: tpl/toolbox/edit_htaccess.tpl.php:81
 #, php-format
 msgid "You can use this code %1$s in %2$s to specify the htaccess file path."
-msgstr ""
+msgstr "htaccess ファイルのパスを指定するには、%2$s 内でこのコード %1$s を使用できます。"
 
 #: tpl/toolbox/edit_htaccess.tpl.php:71
 msgid "Backend .htaccess Path"
-msgstr ""
+msgstr "バックエンド .htaccess パス"
 
 #: tpl/toolbox/edit_htaccess.tpl.php:91
 #, php-format
 msgid "Current %s Contents"
-msgstr ""
+msgstr "現在の %s のコンテンツ"
 
 #: tpl/toolbox/entry.tpl.php:24
 msgid "View .htaccess"
-msgstr ""
+msgstr ".htaccessを表示"
 
 #: tpl/toolbox/entry.tpl.php:28
 msgid "Heartbeat"
-msgstr ""
+msgstr "ハートビート"
 
 #: tpl/toolbox/entry.tpl.php:32
 #: tpl/toolbox/settings-debug.tpl.php:55
 msgid "Debug Settings"
-msgstr ""
+msgstr "デバッグ設定"
 
 #: tpl/toolbox/entry.tpl.php:33
 msgid "Log View"
-msgstr ""
+msgstr "ログ表示"
 
 #: tpl/toolbox/entry.tpl.php:39
 msgid "Zinn® Cache Engine Toolbox"
-msgstr ""
+msgstr "Zinn® キャッシュエンジン ツールボックス"
 
 #: tpl/toolbox/heartbeat.tpl.php:19
 msgid "Heartbeat Control"
-msgstr ""
+msgstr "ハートビートコントロール"
 
 #: tpl/toolbox/heartbeat.tpl.php:26
 msgid "Disable WordPress interval heartbeat to reduce server load."
-msgstr ""
+msgstr "WordPress のインターバルハートビートを無効にしてサーバー負荷を軽減します。"
 
 #: tpl/toolbox/heartbeat.tpl.php:28
 msgid "Disabling this may cause WordPress tasks triggered by AJAX to stop working."
-msgstr ""
+msgstr "これを無効にすると、AJAXによってトリガーされる WordPress のタスクが動作しなくなる可能性があります。"
 
 #: tpl/toolbox/heartbeat.tpl.php:43
 msgid "Turn ON to control heartbeat on frontend."
-msgstr ""
+msgstr "フロントエンドのハートビートを制御するにはオンにします。"
 
 #: tpl/toolbox/heartbeat.tpl.php:56
 #: tpl/toolbox/heartbeat.tpl.php:86
 #: tpl/toolbox/heartbeat.tpl.php:116
 #, php-format
 msgid "Specify the %s heartbeat interval in seconds."
-msgstr ""
+msgstr "%sのハートビート間隔を秒単位で指定してください。"
 
 #: tpl/toolbox/heartbeat.tpl.php:57
 #: tpl/toolbox/heartbeat.tpl.php:87
 #: tpl/toolbox/heartbeat.tpl.php:117
 #, php-format
 msgid "WordPress valid interval is %s seconds."
-msgstr ""
+msgstr "WordPress の有効な間隔は %s 秒です。"
 
 #: tpl/toolbox/heartbeat.tpl.php:58
 #: tpl/toolbox/heartbeat.tpl.php:88
 #: tpl/toolbox/heartbeat.tpl.php:118
 #, php-format
 msgid "Set to %1$s to forbid heartbeat on %2$s."
-msgstr ""
+msgstr "%2$s でのハートビートを禁止するには、%1$s に設定してください。"
 
 #: tpl/toolbox/heartbeat.tpl.php:73
 msgid "Turn ON to control heartbeat on backend."
-msgstr ""
+msgstr "バックエンドのハートビートを制御するにはオンにしてください。"
 
 #: tpl/toolbox/heartbeat.tpl.php:103
 msgid "Turn ON to control heartbeat in backend editor."
-msgstr ""
+msgstr "バックエンドエディターでハートビートを制御するには、オンにします。"
 
 #: tpl/toolbox/import_export.tpl.php:19
 msgid "Export Settings"
-msgstr ""
+msgstr "設定の書き出し"
 
 #: tpl/toolbox/import_export.tpl.php:25
 msgid "Export"
-msgstr ""
+msgstr "エクスポート"
 
 #: tpl/toolbox/import_export.tpl.php:31
 msgid "Last exported"
-msgstr ""
+msgstr "最終エクスポート日時"
 
 #: tpl/toolbox/import_export.tpl.php:36
 msgid "This will export all current Zinn® Cache Engine settings and save them as a file."
-msgstr ""
+msgstr "これにより、現在の Zinn® Cache Engine の設定がすべてエクスポートされ、ファイルとして保存されます。"
 
 #: tpl/toolbox/import_export.tpl.php:40
 msgid "Import Settings"
-msgstr ""
+msgstr "設定のインポート"
 
 #: tpl/toolbox/import_export.tpl.php:48
 msgid "Import"
-msgstr ""
+msgstr "インポート"
 
 #: tpl/toolbox/import_export.tpl.php:54
 msgid "Last imported"
-msgstr ""
+msgstr "最終インポート日"
 
 #: tpl/toolbox/import_export.tpl.php:59
 msgid "This will import settings from a file and override all current Zinn® Cache Engine settings."
-msgstr ""
+msgstr "ファイルから設定をインポートし、現在のすべての Zinn® Cache Engine の設定を上書きします。"
 
 #: tpl/toolbox/import_export.tpl.php:63
 msgid "Reset All Settings"
-msgstr ""
+msgstr "すべての設定をリセット"
 
 #: tpl/toolbox/import_export.tpl.php:67
 msgid "This will reset all settings to default settings."
-msgstr ""
+msgstr "すべての設定が初期設定にリセットされます。"
 
 #: tpl/toolbox/import_export.tpl.php:70
 msgid "Are you sure you want to reset all settings back to the default settings?"
-msgstr ""
+msgstr "すべての設定をデフォルト設定にリセットしてもよろしいですか？"
 
 #: tpl/toolbox/import_export.tpl.php:71
 msgid "Reset Settings"
-msgstr ""
+msgstr "設定をリセット"
 
 #: tpl/toolbox/log_viewer.tpl.php:23
 msgid "Purge Log"
-msgstr ""
+msgstr "ログを削除"
 
 #: tpl/toolbox/log_viewer.tpl.php:28
 msgid "Crawler Log"
-msgstr ""
+msgstr "クローラーログ"
 
 #: tpl/toolbox/log_viewer.tpl.php:35
 msgid "LiteSpeed Logs"
-msgstr ""
+msgstr "LiteSpeed ログ"
 
 #: tpl/toolbox/log_viewer.tpl.php:46
 #: tpl/toolbox/log_viewer.tpl.php:78
 msgid "Clear Logs"
-msgstr ""
+msgstr "ログをクリア"
 
 #: tpl/toolbox/log_viewer.tpl.php:64
 msgid "Click to copy"
-msgstr ""
+msgstr "クリックしてコピー"
 
 #: tpl/toolbox/log_viewer.tpl.php:65
 msgid "Copy Log"
-msgstr ""
+msgstr "ログをコピー"
 
 #: tpl/toolbox/log_viewer.tpl.php:67
 msgid "Click to download"
-msgstr ""
+msgstr "ダウンロードするにはクリックしてください"
 
 #: tpl/toolbox/log_viewer.tpl.php:68
 msgid "Download"
-msgstr ""
+msgstr "ダウンロード"
 
 #: tpl/toolbox/purge.tpl.php:17
 msgid "Purge Front Page"
-msgstr ""
+msgstr "フロントページのパージ"
 
 #: tpl/toolbox/purge.tpl.php:18
 msgid "This will Purge Front Page only"
-msgstr ""
+msgstr "これによってフロントページのみがパージされます"
 
 #: tpl/toolbox/purge.tpl.php:23
 msgid "Purge Pages"
-msgstr ""
+msgstr "ページの削除"
 
 #: tpl/toolbox/purge.tpl.php:24
 msgid "This will Purge Pages only"
-msgstr ""
+msgstr "ページのみをパージします"
 
 #: tpl/toolbox/purge.tpl.php:32
 #, php-format
 msgid "Purge %s Error"
-msgstr ""
+msgstr "%s エラーをパージ"
 
 #: tpl/toolbox/purge.tpl.php:33
 #, php-format
 msgid "Purge %s error pages"
-msgstr ""
+msgstr "%s件のエラーページを消去"
 
 #: tpl/toolbox/purge.tpl.php:41
 msgid "Purge the LiteSpeed cache entries created by this plugin"
-msgstr ""
+msgstr "このプラグインによって作成されたLiteSpeedキャッシュエントリをパージする"
 
 #: tpl/toolbox/purge.tpl.php:48
 msgid "This will purge all minified/combined CSS/JS entries only"
-msgstr ""
+msgstr "これは最小化または結合されたCSS/JSのエントリのみを消去します"
 
 #: tpl/toolbox/purge.tpl.php:56
 msgid "Purge all the object caches"
-msgstr ""
+msgstr "オブジェクトキャッシュをすべて削除する"
 
 #: tpl/toolbox/purge.tpl.php:65
 msgid "Reset the entire opcode cache"
-msgstr ""
+msgstr "オペコードキャッシュをすべてリセットする"
 
 #: tpl/toolbox/purge.tpl.php:74
 msgid "This will delete all generated critical CSS files"
-msgstr ""
+msgstr "これにより、生成されたクリティカルCSSファイルがすべて削除されます"
 
 #: tpl/toolbox/purge.tpl.php:83
 msgid "This will delete all generated unique CSS files"
-msgstr ""
+msgstr "これにより、生成された一意のCSSファイルがすべて削除されます"
 
 #: tpl/toolbox/purge.tpl.php:92
 msgid "This will delete all localized resources"
-msgstr ""
+msgstr "すべてのローカライズ済みリソースが削除されます"
 
 #: tpl/toolbox/purge.tpl.php:101
 msgid "This will delete all generated image LQIP placeholder files"
-msgstr ""
+msgstr "これにより、生成されたすべての画像LQIPプレースホルダーファイルが削除されます"
 
 #: tpl/toolbox/purge.tpl.php:110
 msgid "This will delete all generated Viewport Images"
-msgstr ""
+msgstr "生成されたすべてのビューポート画像が削除されます"
 
 #: tpl/toolbox/purge.tpl.php:119
 msgid "This will delete all cached Gravatar files"
-msgstr ""
+msgstr "これにより、キャッシュされているすべての Gravatar ファイルが削除されます"
 
 #: tpl/toolbox/purge.tpl.php:127
 msgid "Purge the cache entries created by this plugin except for Critical CSS & Unique CSS & LQIP caches"
-msgstr ""
+msgstr "Critical CSS、Unique CSS、LQIP のキャッシュを除き、このプラグインによって作成されたキャッシュエントリを削除します"
 
 #: tpl/toolbox/purge.tpl.php:136
 msgid "Empty Entire Cache"
-msgstr ""
+msgstr "すべてのキャッシュを空にする"
 
 #: tpl/toolbox/purge.tpl.php:137
 msgid "Clears all cache entries related to this site, including other web applications."
-msgstr ""
+msgstr "他のWebアプリケーションを含む、このサイトに関連するすべてのキャッシュエントリをクリアします。"
 
 #: tpl/toolbox/purge.tpl.php:137
 msgid "This action should only be used if things are cached incorrectly."
-msgstr ""
+msgstr "この操作は、キャッシュが正しくない場合にのみ使用してください。"
 
 #: tpl/toolbox/purge.tpl.php:141
 msgid "This will clear EVERYTHING inside the cache."
-msgstr ""
+msgstr "キャッシュ内のすべてがクリアされます。"
 
 #: tpl/toolbox/purge.tpl.php:141
 msgid "This may cause heavy load on the server."
-msgstr ""
+msgstr "サーバーに高い負荷がかかる可能性があります。"
 
 #: tpl/toolbox/purge.tpl.php:141
 msgid "If only the WordPress site should be purged, use Purge All."
-msgstr ""
+msgstr "WordPress サイトのみを削除する場合は、「すべて削除」を使用してください。"
 
 #: tpl/toolbox/purge.tpl.php:185
 msgid "Purge By..."
-msgstr ""
+msgstr "条件を指定して削除..."
 
 #: tpl/toolbox/purge.tpl.php:188
 msgid "Select below for \"Purge by\" options."
-msgstr ""
+msgstr "「削除元」のオプションを以下から選択してください。"
 
 #: tpl/toolbox/purge.tpl.php:197
 msgid "Category"
-msgstr ""
+msgstr "カテゴリー"
 
 #: tpl/toolbox/purge.tpl.php:201
 msgid "Post ID"
-msgstr ""
+msgstr "投稿 ID"
 
 #: tpl/toolbox/purge.tpl.php:205
 msgid "Tag"
-msgstr ""
+msgstr "タグ"
 
 #: tpl/toolbox/purge.tpl.php:214
 #, php-format
 msgid "Purge pages by category name - e.g. %2$s should be used for the URL %1$s."
-msgstr ""
+msgstr "カテゴリ名でページを削除します - 例: URL %1$s には %2$s を使用する必要があります。"
 
 #: tpl/toolbox/purge.tpl.php:217
 msgid "Purge pages by post ID."
-msgstr ""
+msgstr "投稿 ID でページを削除します。"
 
 #: tpl/toolbox/purge.tpl.php:220
 #, php-format
 msgid "Purge pages by tag name - e.g. %2$s should be used for the URL %1$s."
-msgstr ""
+msgstr "タグ名によるページのパージ - 例：URL %1$s には %2$s を使用してください。"
 
 #: tpl/toolbox/purge.tpl.php:223
 msgid "Purge pages by relative or full URL."
-msgstr ""
+msgstr "相対URLまたは完全なURLでページをパージします。"
 
 #: tpl/toolbox/purge.tpl.php:224
 #, php-format
 msgid "e.g. Use %1$s or %2$s."
-msgstr ""
+msgstr "例: %1$s または %2$s を使用します。"
 
 #: tpl/toolbox/purge.tpl.php:234
 msgid "Purge List"
-msgstr ""
+msgstr "削除リスト"
 
 #: tpl/toolbox/settings-debug.tpl.php:19
 msgid "Debug Helpers"
-msgstr ""
+msgstr "デバッグヘルパー"
 
 #: tpl/toolbox/settings-debug.tpl.php:23
 msgid "View Site Before Optimization"
-msgstr ""
+msgstr "最適化前のサイトを表示"
 
 #: tpl/toolbox/settings-debug.tpl.php:27
 msgid "View Site Before Cache"
-msgstr ""
+msgstr "キャッシュ前のサイトを表示"
 
 #: tpl/toolbox/settings-debug.tpl.php:37
 msgid "Disable All Features for 24 Hours"
-msgstr ""
+msgstr "すべての機能を24時間無効にする"
 
 #: tpl/toolbox/settings-debug.tpl.php:44
 msgid "Remove `Disable All Feature` Flag Now"
-msgstr ""
+msgstr "今すぐ「すべての機能を無効化」フラグを削除する"
 
 #: tpl/toolbox/settings-debug.tpl.php:48
 #, php-format
 msgid "Zinn® Cache Engine is temporarily disabled until: %s."
-msgstr ""
+msgstr "Zinn® キャッシュエンジンは %s まで一時的に無効化されています。"
 
 #: tpl/toolbox/settings-debug.tpl.php:69
 msgid "This will disable LSCache and all optimization features for debug purpose."
-msgstr ""
+msgstr "デバッグ目的のため、LSCacheおよびすべての最適化機能を無効にします。"
 
 #: tpl/toolbox/settings-debug.tpl.php:80
 msgid "Admin IP Only"
-msgstr ""
+msgstr "管理者のIPのみ"
 
 #: tpl/toolbox/settings-debug.tpl.php:82
 #, php-format
 msgid "Outputs to a series of files in the %s directory."
-msgstr ""
+msgstr "%s ディレクトリ内の複数のファイルに出力します。"
 
 #: tpl/toolbox/settings-debug.tpl.php:83
 msgid "To prevent filling up the disk, this setting should be OFF when everything is working."
-msgstr ""
+msgstr "ディスクの容量が一杯になるのを防ぐため、すべてが正常に動作しているときは、この設定をオフにしてください。"
 
 #: tpl/toolbox/settings-debug.tpl.php:84
 msgid "The Admin IP option will only output log messages on requests from admin IPs listed below."
-msgstr ""
+msgstr "管理者IPオプションは、以下にリストされている管理者IPからのリクエストに対するログメッセージのみを出力します。"
 
 #: tpl/toolbox/settings-debug.tpl.php:97
 msgid "Allows listed IPs (one per line) to perform certain actions from their browsers."
-msgstr ""
+msgstr "リストされたIP（1行に1つ）が、ブラウザから特定のアクションを実行できるようにします。"
 
 #: tpl/toolbox/settings-debug.tpl.php:98
 msgid "Your IP"
-msgstr ""
+msgstr "お使いのIPアドレス"
 
 #: tpl/toolbox/settings-debug.tpl.php:104
 msgid "More information about the available commands can be found here."
-msgstr ""
+msgstr "利用可能なコマンドの詳細については、こちらをご覧ください。"
 
 #: tpl/toolbox/settings-debug.tpl.php:119
 msgid "Advanced level will log more details."
-msgstr ""
+msgstr "上級レベルでは、より詳細なログが記録されます。"
 
 #: tpl/toolbox/settings-debug.tpl.php:130
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: tpl/toolbox/settings-debug.tpl.php:132
 msgid "Specify the maximum size of the log file."
-msgstr ""
+msgstr "ログファイルの最大サイズを指定してください。"
 
 #: tpl/toolbox/settings-debug.tpl.php:147
 msgid "Shorten query strings in the debug log to improve readability."
-msgstr ""
+msgstr "読みやすさを向上させるため、デバッグログ内のクエリ文字列を短縮します。"
 
 #: tpl/toolbox/settings-debug.tpl.php:160
 msgid "Only log listed pages."
-msgstr ""
+msgstr "リストされているページのみをログに記録します。"
 
 #: tpl/toolbox/settings-debug.tpl.php:174
 msgid "Prevent any debug log of listed pages."
-msgstr ""
+msgstr "指定されたページのデバッグログの出力を防止します。"
 
 #: tpl/toolbox/settings-debug.tpl.php:188
 msgid "Prevent writing log entries that include listed strings."
-msgstr ""
+msgstr "指定された文字列を含むログエントリの記録を防止します。"
 
 #: zinn/class-updater.php:230
 msgid "See the Zinn Digital® release notes."
-msgstr ""
+msgstr "Zinn Digital® のリリースノートをご覧ください。"
 
 #: zinn/class-updater.php:285
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr ""
+msgstr "ダウンロードされたアップデートの整合性チェックに失敗したため、インストールされませんでした。"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: zinn/class-zinn-cache-pro-promo.php:241
 #: zinn/class-zinn-cache-pro-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr ""
+msgstr "%s — ガイドとサービス"
 
 #: zinn/class-zinn-cache-pro-promo.php:256
 msgid "User guides"
-msgstr ""
+msgstr "ユーザーガイド"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: zinn/class-zinn-cache-pro-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr ""
+msgstr "%s ユーザーガイドを読む"
 
 #: zinn/class-zinn-cache-pro-promo.php:314
 msgid "Hide this"
-msgstr ""
+msgstr "これを非表示にする"
 
 #: zinn/class-zinn-cache-pro-promo.php:374
 msgid "Zinn® hosting for WordPress"
-msgstr ""
+msgstr "Zinn® WordPress ホスティング"
 
 #: zinn/class-zinn-cache-pro-promo.php:375
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr ""
+msgstr "LiteSpeed、毎日のバックアップ、無料の移行、そして複数のサイトを運営する方向けに構築されたコントロールパネル。"
 
 #: zinn/class-zinn-cache-pro-promo.php:381
 msgid "The Zinn® marketplace"
-msgstr ""
+msgstr "Zinn® マーケットプレイス"
 
 #: zinn/class-zinn-cache-pro-promo.php:382
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr ""
+msgstr "既存のサイト、ドメイン、リンク掲載枠の売買を、双方の合意に至るまで資金を安全に預かりながら行えます。"
 
 #: zinn/class-zinn-cache-pro-promo.php:429
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr ""
+msgstr "Zinn Hub® — 専門家に依頼する"
 
 #: zinn/class-zinn-cache-pro-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr ""
+msgstr "当社のグローバルなフリーランスマーケットプレイス：ライター、デザイナー、開発者、SEO専門家による10,000件以上の既製サービスを閲覧するか、プロジェクトを投稿して入札してもらいましょう。"

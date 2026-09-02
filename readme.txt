@@ -1,6 +1,6 @@
 === Zinn® Cache Engine ===
 Contributors: zinndigital
-Plugin URI: https://zinndigital.com
+Plugin URI: https://zinndigital.com/wordpress-plugins/zinn-cache-pro
 Author: Neil Lock — CEO, Zinn Digital® Ltd
 Author URI: https://zinndigital.com
 Tags: cache, page cache, object cache, performance, optimization

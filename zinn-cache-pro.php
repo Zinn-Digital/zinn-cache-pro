@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Zinn® Cache Engine
- * Plugin URI:        https://zinndigital.com
+ * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-cache-pro
  * Description:       A complete caching and optimisation engine for WordPress: full-page cache, object cache, database cleanup and CSS/JS optimisation. Install this when your host does not provide a cache layer of its own — on Zinn Digital® hosting install Zinn® Cache instead. Full-page caching requires a LiteSpeed or OpenLiteSpeed server with the LSCache module. A GPLv3 fork of the LiteSpeed Cache plugin.
  * Version:           1.0.0
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
