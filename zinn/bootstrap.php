@@ -199,3 +199,31 @@ function load_promo(): void {
 add_action( 'plugins_loaded', __NAMESPACE__ . '\\load_promo' );
 
 register_updater();
+
+/**
+ * The version WordPress shows for this plugin, for display in the admin headings.
+ *
+ * ⛔⛔ NOT `Core::VER`, AND THE DIFFERENCE IS NOT COSMETIC. `ZINN_CACHE_PRO_V` is `7.8.1`
+ * — upstream's version — and it is load-bearing: `Data::correct_ver()` walks a table of
+ * historical data-upgrade routines keyed by upstream version and runs every one whose key
+ * is newer than the stored `_VER` option. Setting that constant to a Zinn version number
+ * would make `version_compare( '1.1.0', '3.0', '<' )` true on every installed site and
+ * re-run the lot. So the constant stays upstream's and only the DISPLAY is corrected.
+ *
+ * Until 2026-09-03 every admin heading read `v7.8.1` while WordPress's own Plugins screen
+ * read `1.0.0` for the same plugin — two versions for one product, on adjacent screens.
+ *
+ * ⭐ Read from the plugin header rather than duplicated into a constant: two copies of a
+ * version number is one version number and one lie, and the header is the copy the release
+ * tooling is keyed on.
+ *
+ * @return string
+ */
+function display_version(): string {
+	static $version = null;
+	if ( null === $version ) {
+		$data    = get_file_data( ZINN_CACHE_PRO_DIR . 'zinn-cache-pro.php', array( 'Version' => 'Version' ) );
+		$version = $data['Version'] ? $data['Version'] : ZINN_CACHE_PRO_V;
+	}
+	return $version;
+}

@@ -55,7 +55,7 @@ $imgoptm_service_hot = $this->cls( 'Cloud' )->service_hot( Cloud::SVC_IMG_OPTM .
 				<?php else : ?>
 					<span class="litespeed-quic-icon"></span> <?php esc_html_e( 'Redetect', 'zinn-cache-pro' ); ?>
 				<?php endif; ?>
-				<?php esc_html_e( 'Optimize images with our QUIC.cloud server', 'zinn-cache-pro' ); ?>
+				<?php esc_html_e( 'Image optimisation', 'zinn-cache-pro' ); ?>
 				<a href="https://docs.litespeedtech.com/lscache/lscwp/imageopt/#image-optimization-summary-tab" target="_blank" class="litespeed-right litespeed-learn-more"><?php esc_html_e( 'Learn More', 'zinn-cache-pro' ); ?></a>
 			</h3>
 
@@ -138,7 +138,7 @@ $imgoptm_service_hot = $this->cls( 'Cloud' )->service_hot( Cloud::SVC_IMG_OPTM .
 							</code>
 						</p>
 						<p class="litespeed-desc">
-							<?php esc_html_e( 'After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images.', 'zinn-cache-pro' ); ?>
+							<?php esc_html_e( 'When the optimisation server finishes, it notifies your site to pull the optimised images.', 'zinn-cache-pro' ); ?>
 							<?php esc_html_e( 'This process is automatic.', 'zinn-cache-pro' ); ?>
 						</p>
 					<?php endif; ?>

@@ -14,7 +14,6 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: tpl/inc/admin_footer.php:17
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -117,14 +116,12 @@ msgstr "CDN"
 
 #: src/admin-display.cls.php:257
 #: src/gui.cls.php:891
-#: tpl/dash/dashboard.tpl.php:169
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "Inganta Hotuna"
 
 #: src/admin-display.cls.php:258
-#: tpl/dash/dashboard.tpl.php:170
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "Inganta Shafuka"
@@ -182,9 +179,6 @@ msgstr "Ƙara sabon adireshi na CDN"
 #: tpl/cdn/other.tpl.php:45
 #: tpl/crawler/settings.tpl.php:138
 #: tpl/dash/dashboard.tpl.php:67
-#: tpl/dash/dashboard.tpl.php:425
-#: tpl/dash/dashboard.tpl.php:547
-#: tpl/dash/dashboard.tpl.php:576
 #: tpl/page_optm/settings_css.tpl.php:220
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/toolbox/settings-debug.tpl.php:80
@@ -198,9 +192,6 @@ msgstr "KUNNA"
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
-#: tpl/dash/dashboard.tpl.php:427
-#: tpl/dash/dashboard.tpl.php:549
-#: tpl/dash/dashboard.tpl.php:578
 #: tpl/img_optm/settings.media_webp.tpl.php:22
 #: tpl/page_optm/settings_css.tpl.php:93
 #: tpl/page_optm/settings_js.tpl.php:77
@@ -713,8 +704,6 @@ msgid "Please see %s for more details."
 msgstr "Da fat za a duba %s don samun ƙarin bayani."
 
 #: src/doc.cls.php:101
-#: tpl/dash/dashboard.tpl.php:152
-#: tpl/dash/dashboard.tpl.php:811
 #: tpl/img_optm/summary.tpl.php:59
 #: tpl/inc/check_cache_disabled.php:46
 #: tpl/page_optm/settings_media.tpl.php:301
@@ -737,154 +726,146 @@ msgstr "Wannan saitin zai gyara fayil ɗin .htaccess."
 msgid "The queue is processed asynchronously. It may take time."
 msgstr "Ana sarrafa jerin a bayane. Yana iya ɗaukar lokaci."
 
-#: src/error.cls.php:68
-#, php-format
-msgid "You will need to finish %s setup to use the online services."
-msgstr "Za ka bukaci a kammala saiti na %s domin amfani da sabis na intanet."
+#: src/error.cls.php:66
+msgid "This feature needs an online generation service, which is not included in this plugin. The setting has no effect."
+msgstr "Wannan fasalin yana buƙatar sabis na tsarawa a kan intanet, wanda ba a haɗa shi cikin wannan plugin ɗin ba. Saitin ba shi da wani tasiri."
 
-#: src/error.cls.php:73
-#: tpl/crawler/settings.tpl.php:123
-#: tpl/crawler/settings.tpl.php:144
-#: tpl/crawler/summary.tpl.php:218
-msgid "Click here to set."
-msgstr "Danna nan don saitawa."
-
-#: src/error.cls.php:81
+#: src/error.cls.php:70
 msgid "You have used all of your daily quota for today."
 msgstr "Kun yi amfani da dukan kaso na yau don yau."
 
-#: src/error.cls.php:86
-#: src/error.cls.php:99
+#: src/error.cls.php:75
+#: src/error.cls.php:88
 msgid "Learn more or purchase additional quota."
 msgstr "Ƙara koyo ko sayen ƙarin kaso."
 
-#: src/error.cls.php:94
+#: src/error.cls.php:83
 msgid "You have used all of your quota left for current service this month."
 msgstr "Kun yi amfani da dukkan adadin rabo da ya rage muku na hidimar yanzu a wannan wata."
 
-#: src/error.cls.php:107
+#: src/error.cls.php:96
 msgid "You have too many requested images, please try again in a few minutes."
 msgstr "Kana da hotunan da suka yi yawa da aka nema, don Allah a sake gwadawa bayan 'yan mintoci kaɗan."
 
-#: src/error.cls.php:111
+#: src/error.cls.php:100
 msgid "You have images waiting to be pulled. Please wait for the automatic pull to complete, or pull them down manually now."
 msgstr "Kuna da hotunan da ke jiran a jawo su. Da fatan za a jira jawo na atomatik ya kammala, ko kuma ku jawo su da kanku yanzu."
 
-#: src/error.cls.php:115
+#: src/error.cls.php:104
 msgid "The image list is empty."
 msgstr "Jerin hotunan ba shi da komai."
 
-#: src/error.cls.php:119
+#: src/error.cls.php:108
 msgid "Not enough parameters. Please check if the QUIC.cloud connection is set correctly"
 msgstr "Ba a da ma'aikata wadanda suka isa. Da fatan za a duba ko an saita haɗin QUIC.cloud da daidai"
 
-#: src/error.cls.php:123
+#: src/error.cls.php:112
 msgid "There is proceeding queue not pulled yet."
 msgstr "Akwai jerin gwano da ke ci gaba wanda ba a ja ba tukuna."
 
-#: src/error.cls.php:128
+#: src/error.cls.php:117
 #, php-format
 msgid "There is proceeding queue not pulled yet. Queue info: %s."
 msgstr "Akwai layin aiwatarwa da ba a jawo shi ba tukuna. Bayanin layi: %s."
 
-#: src/error.cls.php:134
+#: src/error.cls.php:123
 msgid "The site is not a valid alias on QUIC.cloud."
 msgstr "Shafin ba ingantaccen lafazi ba ne akan QUIC.cloud."
 
-#: src/error.cls.php:138
+#: src/error.cls.php:127
 msgid "The site is not registered on QUIC.cloud."
 msgstr "Ba a yi rijistar shafin ba a kan QUIC.cloud."
 
-#: src/error.cls.php:142
+#: src/error.cls.php:131
 msgid "The QUIC.cloud connection is not correct. Please try to sync your QUIC.cloud connection again."
 msgstr "Haɗin QUIC.cloud bai daidaita ba. Da fatan za a sake gwada daidaita haɗin QUIC.cloud ɗinka."
 
-#: src/error.cls.php:146
+#: src/error.cls.php:135
 msgid "The current server is under heavy load."
 msgstr "Server na yanzu yana fuskantar nauyi mai yawa."
 
-#: src/error.cls.php:150
+#: src/error.cls.php:139
 msgid "Online node needs to be redetected."
 msgstr "Ana buƙatar sake gano yanar gizon da ke kan layi."
 
-#: src/error.cls.php:154
+#: src/error.cls.php:143
 msgid "Credits are not enough to proceed the current request."
 msgstr "Ba a da kiredit da ya isa don ci gaba da buƙatar yanzu."
 
-#: src/error.cls.php:158
-#: src/error.cls.php:182
+#: src/error.cls.php:147
+#: src/error.cls.php:171
 #, php-format
 msgid "%s file not writable."
 msgstr "Ba a iya rubuta fayil din %s ba."
 
-#: src/error.cls.php:166
+#: src/error.cls.php:155
 #, php-format
 msgid "Could not find %1$s in %2$s."
 msgstr "Ba a iya samun %1$s a cikin %2$s ba."
 
-#: src/error.cls.php:170
+#: src/error.cls.php:159
 #, php-format
 msgid "Invalid login cookie. Please check the %s file."
 msgstr "Cookie din shiga ba daidai ba ne. Da fatan za a bincika fayil ɗin %s."
 
-#: src/error.cls.php:174
+#: src/error.cls.php:163
 #, php-format
 msgid "Failed to back up %s file, aborted changes."
 msgstr "An kasaaji ajiyewa %s fayil, an soke canje-canjen."
 
-#: src/error.cls.php:178
+#: src/error.cls.php:167
 #, php-format
 msgid "%s file not readable."
 msgstr "Ba a iya karanta fayil din %s ba."
 
-#: src/error.cls.php:186
+#: src/error.cls.php:175
 #, php-format
 msgid "Failed to get %s file contents."
 msgstr "An kasa samun abubuwan da ke cikin fayil ɗin %s."
 
-#: src/error.cls.php:190
+#: src/error.cls.php:179
 #, php-format
 msgid "Failed to create table %1$s! SQL: %2$s."
 msgstr "An gaza ƙirƙirar teburin %1$s! SQL: %2$s."
 
-#: src/error.cls.php:194
+#: src/error.cls.php:183
 msgid "Crawler disabled by the server admin."
 msgstr "Mai gudanar da sabar ya kashe mai binciken yanar gizo (crawler)."
 
-#: src/error.cls.php:198
+#: src/error.cls.php:187
 msgid "Previous request too recent. Please try again later."
 msgstr "An roƙon da aka gabata ya yi kusa sosai. Don Allah a sake gwadawa daga baya."
 
-#: src/error.cls.php:203
+#: src/error.cls.php:192
 #, php-format
 msgid "Previous request too recent. Please try again after %s."
 msgstr "An roƙo da yawa kwanan nan. Da fatan za a sake gwadawa bayan %s."
 
-#: src/error.cls.php:209
+#: src/error.cls.php:198
 msgid "Your application is waiting for approval."
 msgstr "Ana jiran amincewa da aikace-kawenku."
 
-#: src/error.cls.php:213
+#: src/error.cls.php:202
 msgid "The callback validation to your domain failed due to hash mismatch."
 msgstr "Tabbacin callback zuwa ga domain ɗinka ya gaza saboda rashin dacewar hash."
 
-#: src/error.cls.php:217
+#: src/error.cls.php:206
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
 msgstr "Tabbatar da kiran da aka yi zuwa yankinka (domain) ya gaza. Don Allah a tabbatar cewa babu wani bango mai kare na'ura (firewall) da ke tare da sabar mu."
 
-#: src/error.cls.php:222
+#: src/error.cls.php:211
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
 msgstr "Kuskure ya faru yayin tabbatar da kira zuwa ga yankinka. Da fatan za a tabbatar babu wani firewall da ke Ƙuntata sabar namu. Lambar martani:"
 
-#: src/error.cls.php:227
+#: src/error.cls.php:216
 msgid "Your domain has been forbidden from using our services due to a previous policy violation."
 msgstr "An hana yankin ku amfani da sabis ɗinmu saboda wani sabon take doka da aka yi a baya."
 
-#: src/error.cls.php:231
+#: src/error.cls.php:220
 msgid "You cannot remove this DNS zone, because it is still in use. Please update the domain's nameservers, then try to delete this zone again, otherwise your site will become inaccessible."
 msgstr "Ba za ka iya cire wannan yanki na DNS ba, domin har yanzu ana amfani da shi. Da fatan za a sabunta sunayen sabar na domain din, sannan a yi ƙoƙarin sake goge wannan yanki, idan ba haka ba shafin naka zai zama maras isa."
 
-#: src/error.cls.php:238
+#: src/error.cls.php:227
 msgid "Unknown error"
 msgstr "Ba a san kuskuren ba"
 
@@ -1028,7 +1009,6 @@ msgstr "Cloudflare"
 #: src/gui.cls.php:945
 #: src/lang.cls.php:131
 #: tpl/dash/dashboard.tpl.php:60
-#: tpl/dash/dashboard.tpl.php:569
 #: tpl/toolbox/purge.tpl.php:55
 msgid "Object Cache"
 msgstr "Ma'ajiyar Abu"
@@ -1247,12 +1227,10 @@ msgid "Images ready to request"
 msgstr "Hotunan da aka shirya don buƙatu"
 
 #: src/lang.cls.php:32
-#: tpl/dash/dashboard.tpl.php:517
 msgid "Images requested"
 msgstr "Hotunan da aka nema"
 
 #: src/lang.cls.php:33
-#: tpl/dash/dashboard.tpl.php:526
 msgid "Images notified to pull"
 msgstr "Hotunan da aka sanar don jawowa"
 
@@ -1280,7 +1258,6 @@ msgstr "Kunna Cache"
 
 #: src/lang.cls.php:109
 #: tpl/dash/dashboard.tpl.php:61
-#: tpl/dash/dashboard.tpl.php:570
 #: tpl/presets/standard.tpl.php:21
 msgid "Browser Cache"
 msgstr "Ma'ajiyar Browser"
@@ -2449,48 +2426,44 @@ msgstr "Lokacin da aka kashe cache din, za a share dukkan bayanan da aka adana n
 msgid "The network admin setting can be overridden here."
 msgstr "Ana iya wuce saitin mai kula da hanyar sadarwa a nan."
 
-#: tpl/cache/settings-cache.tpl.php:49
-msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
-msgstr "Tare da QUIC.cloud CDN da aka kunna, za ka iya cigaba da ganin shugabannin cache daga na'urar gida ta ka."
-
-#: tpl/cache/settings-cache.tpl.php:63
+#: tpl/cache/settings-cache.tpl.php:60
 #, php-format
 msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
 msgstr "Ajiye shafukan gaba na gida a sirri ga masu amfani da suka shiga. (Ana buƙatar LSWS %s)"
 
-#: tpl/cache/settings-cache.tpl.php:76
+#: tpl/cache/settings-cache.tpl.php:73
 #, php-format
 msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
 msgstr "Yi caching na masu tsokaci waɗanda ke da tsokaci masu jiran amincewa a sirrِce. Kashe wannan zaɓi zai ba da shafukan da ba za a iya yin caching nasu ba ga masu tsokaci. (Ana buƙatar LSWS %s)"
 
-#: tpl/cache/settings-cache.tpl.php:89
+#: tpl/cache/settings-cache.tpl.php:86
 msgid "Cache requests made by WordPress REST API calls."
 msgstr "Ajiye buƙatun da aka yi ta hanyar kiran WordPress REST API a cikin cache."
 
-#: tpl/cache/settings-cache.tpl.php:102
+#: tpl/cache/settings-cache.tpl.php:99
 msgid "Disabling this option may negatively affect performance."
 msgstr "Kashe wannan zaɓi na iya shafar aiki mara kyau."
 
-#: tpl/cache/settings-cache.tpl.php:119
+#: tpl/cache/settings-cache.tpl.php:116
 msgid "URI Paths containing these strings will NOT be cached as public."
 msgstr "Hanyoyin URI da ke dauke da waɗannan kirtani ba za a adana su a matsayin na jama'a ba."
 
-#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:130
 msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
 msgstr "Za a adana hanyoyin da ke dauke da waɗannan kirtani a rumbun ajiya (cache) ba tare da la'akari da saitunan rashin iya adanawa ba."
 
-#: tpl/cache/settings-cache.tpl.php:136
-#: tpl/cache/settings-cache.tpl.php:161
+#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:158
 msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
 msgstr "Don bayyana keɓantaccen TTL ga URI, ƙara sarari sannan ƙimar TTL a ƙarshen URI."
 
-#: tpl/cache/settings-cache.tpl.php:139
-#: tpl/cache/settings-cache.tpl.php:164
+#: tpl/cache/settings-cache.tpl.php:136
+#: tpl/cache/settings-cache.tpl.php:161
 #, php-format
 msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
 msgstr "Misali, %1$s yana bayyana TTL na daƙiƙa %2$s don %3$s."
 
-#: tpl/cache/settings-cache.tpl.php:158
+#: tpl/cache/settings-cache.tpl.php:155
 msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
 msgstr "Za a tilasta wa hanyoyin da ke dauke da wadannan zaruruwa su zama na jama'a da aka adana a madigo ba tare da la'akari da ka'idojin rashin adanawa ba."
 
@@ -2535,8 +2508,8 @@ msgid "WARNING"
 msgstr "GARGADI"
 
 #: tpl/cache/settings-esi.tpl.php:46
-msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
-msgstr "Wadannan zaɓuɓɓuka suna samuwa ne kawai tare da LiteSpeed Enterprise Web Server ko QUIC.cloud CDN."
+msgid "These options are only available with LiteSpeed Enterprise Web Server."
+msgstr "Waɗannan zaɓuɓɓuka suna samuwa ne kawai tare da LiteSpeed Enterprise Web Server."
 
 #: tpl/cache/settings-esi.tpl.php:59
 msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
@@ -3156,13 +3129,13 @@ msgstr "Saitunan CDN"
 
 #: tpl/cdn/other.tpl.php:44
 #, php-format
-msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
-msgstr "Kunna wannan saitin %s idan kana amfani da wani tsohon Matsakaicin Isar da Abun Ciki (CDN) ko wani ƙaramin yanki don abun ciki mai tsauri tare da QUIC.cloud CDN."
+msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content."
+msgstr "Kunna wannan saitin %s idan kana amfani da wani tsohon Tsarin Isar da Abun Ciki (CDN) ko ƙaramin yanki don abun ciki mai tsauri."
 
 #: tpl/cdn/other.tpl.php:52
 #, php-format
-msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are only using QUIC.cloud or Cloudflare, leave this setting %s."
-msgstr "LURA: QUIC.cloud CDN da Cloudflare ba sa amfani da Taswirar CDN (CDN Mapping). Idan kana amfani da QUIC.cloud ko Cloudflare kawai, bar wannan saitin %s."
+msgid "NOTE: Cloudflare does not use CDN Mapping. If you are only using Cloudflare, leave this setting %s."
+msgstr "LURA: Cloudflare ba ta amfani da Taswirar CDN (CDN Mapping). Idan kuna amfani da Cloudflare kawai, bar wannan saitin ya zama %s."
 
 #: tpl/cdn/other.tpl.php:80
 msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
@@ -3332,7 +3305,6 @@ msgstr "Rashin Cache"
 
 #: tpl/crawler/map.tpl.php:77
 #: tpl/dash/dashboard.tpl.php:80
-#: tpl/dash/dashboard.tpl.php:765
 msgid "Crawler Status"
 msgstr "Matsayin Mai Bincike"
 
@@ -3379,6 +3351,12 @@ msgstr "Don shiga rukunin yanar gizon a matsayin mai amfani da ya shiga, shigar 
 #, php-format
 msgid "You must set %s before using this feature."
 msgstr "Dole ne ka saita %s kafin ka yi amfani da wannan fasalin."
+
+#: tpl/crawler/settings.tpl.php:123
+#: tpl/crawler/settings.tpl.php:144
+#: tpl/crawler/summary.tpl.php:218
+msgid "Click here to set."
+msgstr "Danna nan don saitawa."
 
 #: tpl/crawler/settings.tpl.php:136
 #, php-format
@@ -3437,7 +3415,6 @@ msgstr "Lokacin gudu don mai rarrafe na baya"
 
 #: tpl/crawler/summary.tpl.php:104
 #: tpl/dash/dashboard.tpl.php:91
-#: tpl/dash/dashboard.tpl.php:776
 msgid "Current crawler started at"
 msgstr "Lokacin da mai bincike na yanar gizo na yanzu ya fara a"
 
@@ -3447,13 +3424,11 @@ msgstr "Load na uwar garken a yanzu"
 
 #: tpl/crawler/summary.tpl.php:116
 #: tpl/dash/dashboard.tpl.php:97
-#: tpl/dash/dashboard.tpl.php:782
 msgid "Last interval"
 msgstr "Lokaci na ƙarshe"
 
 #: tpl/crawler/summary.tpl.php:123
 #: tpl/dash/dashboard.tpl.php:103
-#: tpl/dash/dashboard.tpl.php:788
 msgid "Ended reason"
 msgstr "Dalilin ƙarewa"
 
@@ -3553,340 +3528,42 @@ msgid "No crawler meta file generated yet"
 msgstr "Ba a samar da fayil ɗin meta na mai rarrafe ba tukuna"
 
 #: tpl/dash/dashboard.tpl.php:53
-#: tpl/dash/dashboard.tpl.php:562
 msgid "Cache Status"
 msgstr "Matsayin Cache"
 
 #: tpl/dash/dashboard.tpl.php:54
 #: tpl/dash/dashboard.tpl.php:81
-#: tpl/dash/dashboard.tpl.php:486
-#: tpl/dash/dashboard.tpl.php:563
-#: tpl/dash/dashboard.tpl.php:590
-#: tpl/dash/dashboard.tpl.php:634
-#: tpl/dash/dashboard.tpl.php:678
-#: tpl/dash/dashboard.tpl.php:722
-#: tpl/dash/dashboard.tpl.php:766
-#: tpl/dash/dashboard.tpl.php:813
 msgid "More"
 msgstr "Ƙari"
 
 #: tpl/dash/dashboard.tpl.php:58
-#: tpl/dash/dashboard.tpl.php:567
 msgid "Public Cache"
 msgstr "Bayanin Ajiya na Jama'a"
 
 #: tpl/dash/dashboard.tpl.php:59
-#: tpl/dash/dashboard.tpl.php:568
 msgid "Private Cache"
 msgstr "Keɓaɓɓen Ma'ajiya"
 
 #: tpl/dash/dashboard.tpl.php:84
-#: tpl/dash/dashboard.tpl.php:769
 msgid "Crawler(s)"
 msgstr "Mai shiga yanar gizo (Crawler)"
 
 #: tpl/dash/dashboard.tpl.php:87
-#: tpl/dash/dashboard.tpl.php:772
 msgid "Currently active crawler"
 msgstr "Mai rarrafe da aiki a halin yanzu"
 
 #: tpl/dash/dashboard.tpl.php:111
-#: tpl/dash/dashboard.tpl.php:796
 #, php-format
 msgid "%1$s %2$d item(s)"
 msgstr "%1$s abubuwa %2$d"
 
 #: tpl/dash/dashboard.tpl.php:112
-#: tpl/dash/dashboard.tpl.php:797
 msgid "Last crawled:"
 msgstr "An bincika karshe:"
 
 #: tpl/dash/dashboard.tpl.php:128
-#: tpl/dash/dashboard.tpl.php:873
 msgid "News"
 msgstr "Labarai"
-
-#: tpl/dash/dashboard.tpl.php:145
-msgid "QUIC.cloud Service Usage Statistics"
-msgstr "Kididdigar Amfani da Sabis na QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:147
-msgid "Refresh Usage"
-msgstr "Sabunta Amfani"
-
-#: tpl/dash/dashboard.tpl.php:148
-msgid "Sync data from Cloud"
-msgstr "Daidaita bayanai daga Cloud"
-
-#: tpl/dash/dashboard.tpl.php:159
-#, php-format
-msgid "The features below are provided by %s"
-msgstr "Ana ba da fasalolin da ke ƙasa ta %s"
-
-#: tpl/dash/dashboard.tpl.php:171
-#: tpl/dash/network_dash.tpl.php:38
-msgid "CDN Bandwidth"
-msgstr "Adadin Bandwidth na CDN"
-
-#: tpl/dash/dashboard.tpl.php:172
-#: tpl/dash/dashboard.tpl.php:677
-#: tpl/dash/network_dash.tpl.php:39
-msgid "Low Quality Image Placeholder"
-msgstr "Wurin Ajiyewar Hoton Mara Inganci Mai Kyau"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Fast Queue Usage"
-msgstr "Amfani da Layi Mai Saurin Gudu"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Usage"
-msgstr "Amfani"
-
-#: tpl/dash/dashboard.tpl.php:236
-#: tpl/dash/network_dash.tpl.php:108
-msgid "PAYG Balance"
-msgstr "Ma'aunin PAYG"
-
-#: tpl/dash/dashboard.tpl.php:237
-#, php-format
-msgid "PAYG used this month: %s. PAYG balance and usage not included in above quota calculation."
-msgstr "Abin da aka yi amfani da shi na PAYG a wannan wata: %s. Ba a haɗa ragowar PAYG da amfani a cikin ƙididdigar adadin da ke sama ba."
-
-#: tpl/dash/dashboard.tpl.php:239
-#: tpl/dash/network_dash.tpl.php:111
-msgid "Pay as You Go Usage Statistics"
-msgstr "Kididdigar Amfani ta Biya Yayin da Kake Amfani"
-
-#: tpl/dash/dashboard.tpl.php:257
-#: tpl/dash/network_dash.tpl.php:118
-msgid "Total Usage"
-msgstr "Jimlar Amfani"
-
-#: tpl/dash/dashboard.tpl.php:258
-#: tpl/dash/network_dash.tpl.php:119
-msgid "Total images optimized in this month"
-msgstr "Jimlar hotunan da aka inganta a wannan wata"
-
-#: tpl/dash/dashboard.tpl.php:266
-msgid "Remaining Daily Quota"
-msgstr "Ragowar Adadin Kason Kullum"
-
-#: tpl/dash/dashboard.tpl.php:276
-msgid "Partner Benefits Provided by"
-msgstr "Abubuwan Amfani na Abokin Hulɗa da aka Samar da su ta"
-
-#: tpl/dash/dashboard.tpl.php:312
-msgid "Enable QUIC.cloud Services"
-msgstr "Kunna Sabis na QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:319
-msgid "Go to QUIC.cloud dashboard"
-msgstr "Je zuwa ga allon kulawa na QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:325
-msgid "Link to QUIC.cloud"
-msgstr "Haɗa zuwa QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:340
-msgid "Page Load Time"
-msgstr "Lokacin Loading ɗin Shafi"
-
-#: tpl/dash/dashboard.tpl.php:347
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-#, php-format
-msgid "Current closest Cloud server is %s. Click to redetect."
-msgstr "Server din Cloud mafi kusa da kai a yanzu shi ne %s. Danna don sake gano shi."
-
-#: tpl/dash/dashboard.tpl.php:348
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Are you sure you want to redetect the closest cloud server for this service?"
-msgstr "Kuna da tabbas kuna son sake gano sabar gajimare mafi kusa don wannan hidimar?"
-
-#: tpl/dash/dashboard.tpl.php:350
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/img_optm/summary.tpl.php:56
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Redetect"
-msgstr "Sake ganowa"
-
-#: tpl/dash/dashboard.tpl.php:360
-#: tpl/dash/dashboard.tpl.php:436
-msgid "Before"
-msgstr "Aka"
-
-#: tpl/dash/dashboard.tpl.php:368
-#: tpl/dash/dashboard.tpl.php:444
-msgid "After"
-msgstr "Bayan"
-
-#: tpl/dash/dashboard.tpl.php:376
-#: tpl/dash/dashboard.tpl.php:452
-msgid "Improved by"
-msgstr "Wanda Ya Fi Kyau Ta"
-
-#: tpl/dash/dashboard.tpl.php:384
-msgid "You must be using one of the following products in order to measure Page Load Time:"
-msgstr "Dole ne ka kasance kana amfani da ɗaya daga cikin samfuran da ke biye don auna Lokacin Load ɗin Shafi:"
-
-#: tpl/dash/dashboard.tpl.php:385
-msgid "LiteSpeed Web Server"
-msgstr "Uwar Garken Yanar Gizo ta LiteSpeed"
-
-#: tpl/dash/dashboard.tpl.php:387
-msgid "OpenLiteSpeed Web Server"
-msgstr "Bude Sabar Yanar Gizo ta OpenLiteSpeed"
-
-#: tpl/dash/dashboard.tpl.php:389
-msgid "LiteSpeed Web ADC"
-msgstr "LiteSpeed Web ADC"
-
-#: tpl/dash/dashboard.tpl.php:391
-#: tpl/dash/dashboard.tpl.php:809
-msgid "QUIC.cloud CDN"
-msgstr "QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:403
-#: tpl/dash/dashboard.tpl.php:468
-#, php-format
-msgid "Requested: %s ago"
-msgstr "An buƙaci: %s da suka wuce"
-
-#: tpl/dash/dashboard.tpl.php:411
-#: tpl/dash/dashboard.tpl.php:476
-msgid "Refresh"
-msgstr "Sake sabuntawa"
-
-#: tpl/dash/dashboard.tpl.php:412
-msgid "Refresh page load time"
-msgstr "Sake loda shafin"
-
-#: tpl/dash/dashboard.tpl.php:421
-msgid "PageSpeed Score"
-msgstr "Makin PageSpeed"
-
-#: tpl/dash/dashboard.tpl.php:477
-msgid "Refresh page score"
-msgstr "Sabunta makin shafin"
-
-#: tpl/dash/dashboard.tpl.php:485
-#: tpl/img_optm/entry.tpl.php:16
-msgid "Image Optimization Summary"
-msgstr "Takaitaccen Bayanin Inganta Hotuna"
-
-#: tpl/dash/dashboard.tpl.php:502
-#: tpl/img_optm/summary.tpl.php:76
-#: tpl/img_optm/summary.tpl.php:89
-msgid "Send Optimization Request"
-msgstr "Aika da Bukatar Ingantawa"
-
-#: tpl/dash/dashboard.tpl.php:508
-#: tpl/img_optm/summary.tpl.php:316
-msgid "Total Reduction"
-msgstr "Jimlar Ragewa"
-
-#: tpl/dash/dashboard.tpl.php:511
-#: tpl/img_optm/summary.tpl.php:319
-msgid "Images Pulled"
-msgstr "An Jawo Hotuna"
-
-#: tpl/dash/dashboard.tpl.php:534
-#: tpl/img_optm/summary.tpl.php:322
-msgid "Last Request"
-msgstr "Buƙatar Ƙarshe"
-
-#: tpl/dash/dashboard.tpl.php:537
-msgid "Last Pull"
-msgstr "Jigon Ƙarshe"
-
-#: tpl/dash/dashboard.tpl.php:589
-#: tpl/toolbox/purge.tpl.php:73
-msgid "Critical CSS"
-msgstr "Mahimmin CSS"
-
-#: tpl/dash/dashboard.tpl.php:596
-#: tpl/dash/dashboard.tpl.php:640
-#: tpl/dash/dashboard.tpl.php:684
-#: tpl/dash/dashboard.tpl.php:728
-#, php-format
-msgid "Last generated: %s"
-msgstr "An ƙirƙira ta ƙarshe: %s"
-
-#: tpl/dash/dashboard.tpl.php:604
-#: tpl/dash/dashboard.tpl.php:648
-#: tpl/dash/dashboard.tpl.php:692
-#: tpl/dash/dashboard.tpl.php:736
-#, php-format
-msgid "Time to execute previous request: %s"
-msgstr "Lokacin aiwatar da buƙatar da ta gabata: %s"
-
-#: tpl/dash/dashboard.tpl.php:611
-#: tpl/dash/dashboard.tpl.php:655
-#: tpl/dash/dashboard.tpl.php:699
-#: tpl/dash/dashboard.tpl.php:743
-msgid "Requests in queue"
-msgstr "Buƙatoci a cikin layi"
-
-#: tpl/dash/dashboard.tpl.php:614
-#: tpl/dash/dashboard.tpl.php:658
-#: tpl/dash/dashboard.tpl.php:702
-#: tpl/dash/dashboard.tpl.php:746
-msgid "Force cron"
-msgstr "Tilasta cron"
-
-#: tpl/dash/dashboard.tpl.php:622
-#: tpl/dash/dashboard.tpl.php:666
-#: tpl/dash/dashboard.tpl.php:710
-#: tpl/dash/dashboard.tpl.php:754
-#, php-format
-msgid "Last requested: %s"
-msgstr "An cika nema ta karshe: %s"
-
-#: tpl/dash/dashboard.tpl.php:633
-#: tpl/toolbox/purge.tpl.php:82
-msgid "Unique CSS"
-msgstr "Keɓaɓɓen CSS"
-
-#: tpl/dash/dashboard.tpl.php:721
-msgid "Viewport Image"
-msgstr "Hoton Babban Allon Kallo"
-
-#: tpl/dash/dashboard.tpl.php:822
-msgid "Enable QUIC.cloud CDN"
-msgstr "Kunyar da QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:829
-msgid "Best available WordPress performance"
-msgstr "Mafi kyawun aikin WordPress da ake da shi"
-
-#: tpl/dash/dashboard.tpl.php:834
-#, php-format
-msgid "Globally fast TTFB, easy setup, and %s!"
-msgstr "TTFB da sauri a duk duniya, sauƙin saiti, da %s!"
-
-#: tpl/dash/dashboard.tpl.php:835
-msgid "more"
-msgstr "ƙari"
-
-#: tpl/dash/dashboard.tpl.php:851
-msgid "Refresh Status"
-msgstr "Sabunta Matsayi"
-
-#: tpl/dash/dashboard.tpl.php:852
-msgid "Refresh QUIC.cloud status"
-msgstr "Sabunta matsayin QUIC.cloud"
 
 #: tpl/dash/entry.tpl.php:21
 msgid "Network Dashboard"
@@ -3901,14 +3578,46 @@ msgstr "Dashboard na Zinn® Cache Engine"
 msgid "Usage Statistics: %s"
 msgstr "Kididdigar Amfani: %s"
 
+#: tpl/dash/network_dash.tpl.php:38
+msgid "CDN Bandwidth"
+msgstr "Adadin Bandwidth na CDN"
+
+#: tpl/dash/network_dash.tpl.php:39
+msgid "Low Quality Image Placeholder"
+msgstr "Wurin Ajiyewar Hoton Mara Inganci Mai Kyau"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Fast Queue Usage"
+msgstr "Amfani da Layi Mai Saurin Gudu"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Usage"
+msgstr "Amfani"
+
 #: tpl/dash/network_dash.tpl.php:107
 msgid "Pay as You Go"
 msgstr "Biya Yayin Da Kake Guda"
+
+#: tpl/dash/network_dash.tpl.php:108
+msgid "PAYG Balance"
+msgstr "Ma'aunin PAYG"
 
 #: tpl/dash/network_dash.tpl.php:109
 #, php-format
 msgid "This Month Usage: %s"
 msgstr "Amfani na Wannan Wata: %s"
+
+#: tpl/dash/network_dash.tpl.php:111
+msgid "Pay as You Go Usage Statistics"
+msgstr "Kididdigar Amfani ta Biya Yayin da Kake Amfani"
+
+#: tpl/dash/network_dash.tpl.php:118
+msgid "Total Usage"
+msgstr "Jimlar Amfani"
+
+#: tpl/dash/network_dash.tpl.php:119
+msgid "Total images optimized in this month"
+msgstr "Jimlar hotunan da aka inganta a wannan wata"
 
 #: tpl/db_optm/entry.tpl.php:17
 #: tpl/db_optm/settings.tpl.php:19
@@ -4131,58 +3840,53 @@ msgstr "Wannan zaɓi yana ba da damar ingantawa mafi girma ga baƙi na Yanayin B
 msgid "Please read all warnings before enabling this option."
 msgstr "Da fatan za a karanta duk gargadi kafin a kunna wannan zabin."
 
-#: tpl/general/settings.tpl.php:64
-#, php-format
-msgid "Your %1$s quota on %2$s will still be in use."
-msgstr "Kasonsa na %1$s a kan %2$s za ta ci gaba da kasancewa ana amfani da ita."
-
-#: tpl/general/settings.tpl.php:72
-#: tpl/general/settings.tpl.php:79
-#: tpl/general/settings.tpl.php:86
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:71
+#: tpl/general/settings.tpl.php:78
+#: tpl/general/settings.tpl.php:85
+#: tpl/general/settings.tpl.php:102
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 msgid "Notice"
 msgstr "Sanarwa"
 
-#: tpl/general/settings.tpl.php:72
+#: tpl/general/settings.tpl.php:71
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 #, php-format
 msgid "%s must be turned ON for this setting to work."
 msgstr "Dole ne a kunna %s domin wannan saitin ya yi aiki."
 
-#: tpl/general/settings.tpl.php:79
+#: tpl/general/settings.tpl.php:78
 #, php-format
 msgid "You need to turn %s on to get maximum result."
 msgstr "Kuna buƙatar kunna %s don samun mafi girman sakamako."
 
-#: tpl/general/settings.tpl.php:86
+#: tpl/general/settings.tpl.php:85
 #, php-format
 msgid "You need to turn %s on and finish all WebP generation to get maximum result."
 msgstr "Kuna buƙatar kunnashe %s ku gama duk ƙirƙirar WebP don samun sakamako mafi girma."
 
-#: tpl/general/settings.tpl.php:101
+#: tpl/general/settings.tpl.php:100
 msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
 msgstr "Shigar da adireshin IP na wannan shafin don ba da damar sabis na girgije su kira IP kai tsaye maimakon sunan yanki. Wannan yana kawar da wahalar binciken DNS da CDN."
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Your server IP"
 msgstr "IP din uwar garken ku"
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Check my public IP from"
 msgstr "Bincika IP ta jama'a ta daga"
 
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:102
 msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
 msgstr "Wuri mai fitowa da kansa wanda aka gano ƙila ba zai yi daidai ba idan kana da ƙarin wuri mai fitowa da aka saita, ko kuma kana da wurare masu fitowa da yawa da aka saita a kan sabar ka."
 
-#: tpl/general/settings.tpl.php:104
+#: tpl/general/settings.tpl.php:103
 msgid "Please make sure this IP is the correct one for visiting your site."
 msgstr "Don Allah tabbatar cewa wannan IP shi ne daidai domin ziyartar shafinka."
 
-#: tpl/general/settings.tpl.php:119
+#: tpl/general/settings.tpl.php:118
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
 msgstr "Kunna wannan zabin don nuna sabbin labarai ta atomatik, gami da gyare-gyare masu zafi, sabbin abubuwan da aka fitar, samfuran beta da ke akwai, da kuma tallace-tallace."
 
@@ -4232,6 +3936,10 @@ msgstr "An daidaita nasarar."
 msgid "Sync failed."
 msgstr "Taidaitawa ta ƙara."
 
+#: tpl/img_optm/entry.tpl.php:16
+msgid "Image Optimization Summary"
+msgstr "Takaitaccen Bayanin Inganta Hotuna"
+
 #: tpl/img_optm/entry.tpl.php:17
 #: tpl/img_optm/entry.tpl.php:22
 #: tpl/img_optm/network_settings.tpl.php:19
@@ -4254,20 +3962,15 @@ msgstr "Inganta saurin lodi sosai ta hanyar maye gurbin hotuna da ingantattun na
 
 #: tpl/img_optm/settings.media_webp.tpl.php:31
 #, php-format
-msgid "%1$s is a %2$s paid feature."
-msgstr "%1$s fasali ne da ake biyan kuɗi na %2$s."
-
-#: tpl/img_optm/settings.media_webp.tpl.php:34
-#, php-format
 msgid "When switching formats, please %1$s or %2$s to apply this new choice to previously optimized images."
 msgstr "Lokacin da ake canza fomat, don Allah ka %1$s ko ka %2$s don amfani da wannan sabon zaɓi ga hotunan da aka inganta a baya."
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:378
 msgid "Destroy All Optimization Data"
 msgstr "Rushe Duk Bayanan Ingantawa"
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:368
 msgid "Soft Reset Optimization Counter"
 msgstr "Maɓallin Inganta Sauye-sauye na Farko"
@@ -4328,9 +4031,35 @@ msgstr "Yi bayanin wanne sifa ta kashi za a maye gurbinsu da WebP/AVIF."
 msgid "Enable replacement of WebP/AVIF in %s elements that were generated outside of WordPress logic."
 msgstr "Ba da damar maye gurbin WebP/AVIF a cikin abubuwan %s waɗanda aka ƙirƙira a wajen tsarin WordPress."
 
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+#, php-format
+msgid "Current closest Cloud server is %s. Click to redetect."
+msgstr "Server din Cloud mafi kusa da kai a yanzu shi ne %s. Danna don sake gano shi."
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "Kuna da tabbas kuna son sake gano sabar gajimare mafi kusa don wannan hidimar?"
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/img_optm/summary.tpl.php:56
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Redetect"
+msgstr "Sake ganowa"
+
 #: tpl/img_optm/summary.tpl.php:58
-msgid "Optimize images with our QUIC.cloud server"
-msgstr "Inganta hotuna da sabar mu ta QUIC.cloud"
+msgid "Image optimisation"
+msgstr "Inganta hoto"
 
 #: tpl/img_optm/summary.tpl.php:63
 #, php-format
@@ -4344,6 +4073,11 @@ msgstr "Don tabbatar cewa sabarmu za ta iya hulɗa da sabarka ba tare da wata ma
 #: tpl/img_optm/summary.tpl.php:69
 msgid "Current limit is"
 msgstr "Iyakacin yanzu shine"
+
+#: tpl/img_optm/summary.tpl.php:76
+#: tpl/img_optm/summary.tpl.php:89
+msgid "Send Optimization Request"
+msgstr "Aika da Bukatar Ingantawa"
 
 #: tpl/img_optm/summary.tpl.php:77
 #: tpl/page_optm/settings_css.tpl.php:156
@@ -4370,8 +4104,8 @@ msgid "Optimization Status"
 msgstr "Matsayi na Inganta Aiki"
 
 #: tpl/img_optm/summary.tpl.php:141
-msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
-msgstr "Bayan uwar garken inganta hoto na QUIC.cloud ya kammala ingantawa, zai sanar da shafinka don jawo hotunan da aka inganta."
+msgid "When the optimisation server finishes, it notifies your site to pull the optimised images."
+msgstr "Lokacin da sabar ingantawa ta kammala, tana sanar da shafin ku don jawohotunan da aka inganta."
 
 #: tpl/img_optm/summary.tpl.php:142
 msgid "This process is automatic."
@@ -4473,6 +4207,18 @@ msgstr "Sake Duba Sabbin Hotuna"
 msgid "Optimization Summary"
 msgstr "Takaitaccen Ingantawa"
 
+#: tpl/img_optm/summary.tpl.php:316
+msgid "Total Reduction"
+msgstr "Jimlar Ragewa"
+
+#: tpl/img_optm/summary.tpl.php:319
+msgid "Images Pulled"
+msgstr "An Jawo Hotuna"
+
+#: tpl/img_optm/summary.tpl.php:322
+msgid "Last Request"
+msgstr "Buƙatar Ƙarshe"
+
 #: tpl/img_optm/summary.tpl.php:325
 msgid "Last Pulled"
 msgstr "An Jawo Na Karshe"
@@ -4520,26 +4266,21 @@ msgstr "Shin kana da tabbatacin share duk ingantattun hotunan?"
 msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
 msgstr "Cire duk wasu buƙatun/sakamakon inganta hotuna na baya, mayar da ingantattun da aka gama, kuma a goge duk fayilolin ingantawa."
 
-#: tpl/inc/admin_footer.php:17
-#, php-format
-msgid "Rate %1$s on %2$s"
-msgstr "Ba %1$s tauraro a %2$s"
+#: tpl/inc/admin_footer.php:16
+msgid "Read the upstream Zinn® Cache Engine documentation"
+msgstr "Karanta takardun bayanin Zinn® Cache Engine na sama"
 
 #: tpl/inc/admin_footer.php:19
-msgid "Read LiteSpeed Documentation"
-msgstr "Karanta takardun LiteSpeed"
+msgid "Zinn Digital® support"
+msgstr "Goyon baya na Zinn Digital®"
 
-#: tpl/inc/admin_footer.php:21
-msgid "Visit LSCWP support forum"
-msgstr "Ziyarci dandalin tallafi na LSCWP"
-
-#: tpl/inc/admin_footer.php:23
-msgid "Join LiteSpeed Slack community"
-msgstr "Shiga cikin al'ummar LiteSpeed Slack"
+#: tpl/inc/admin_footer.php:22
+msgid "Zinn® Cache Engine user guide"
+msgstr "Jagorar mai amfani na Zinn® Cache Engine"
 
 #: tpl/inc/check_cache_disabled.php:20
-msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
-msgstr "Don amfani da ayyukan ajiyar cache dole ne ka sami uwar garken yanar gizo na LiteSpeed ko kuma kana amfani da QUIC.cloud CDN."
+msgid "To use the caching functions you must have a LiteSpeed or OpenLiteSpeed web server with the LSCache module."
+msgstr "Don amfani da ayyukan ajiyar wucin gadi, dole ne ku sami uwar garken gidan yanar gizo na LiteSpeed ko OpenLiteSpeed tare da mojull din LSCache."
 
 #: tpl/inc/check_cache_disabled.php:25
 msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
@@ -4752,8 +4493,8 @@ msgid "How to Fix Problems Caused by CSS/JS Optimization."
 msgstr "Yadda ake Gyara Matsalolin da Inganta CSS/JS ke Haifarwa."
 
 #: tpl/page_optm/settings_css.tpl.php:82
-msgid "Use QUIC.cloud online service to generate unique CSS."
-msgstr "Yi amfani da sabis na yanar gizo na QUIC.cloud don samar da keɓaɓɓen CSS."
+msgid "Generate unique CSS through an online generation service."
+msgstr "Yi amfani da sabis na ƙirƙirar CSS ta Intanet domin samun wasu keɓaɓɓun lambobin CSS."
 
 #: tpl/page_optm/settings_css.tpl.php:83
 msgid "This will drop the unused CSS on each page from the combined file."
@@ -4835,8 +4576,8 @@ msgid "This can improve your speed score in services like Pingdom, GTmetrix and 
 msgstr "Wannan na iya inganta maki gudunka a sabis kamar Pingdom, GTmetrix da PageSpeed."
 
 #: tpl/page_optm/settings_css.tpl.php:217
-msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
-msgstr "Yi amfani da sabis na yanar gizo na QUIC.cloud don samar da ingantaccen CSS da kuma loda sauran CSS ɗin a lokuta daban-daban."
+msgid "Generate critical CSS through an online generation service and load the remaining CSS asynchronously."
+msgstr "Ka samar da muhimmin CSS ta hanyar sabis na samar da intanet kuma ka lodi sauran CSS ɗin a jere daban."
 
 #: tpl/page_optm/settings_css.tpl.php:219
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
@@ -5116,8 +4857,8 @@ msgid "Specify the responsive placeholder SVG color."
 msgstr "Bayyana launi na filin ajiyar SVG mai dacewa da girman allo."
 
 #: tpl/page_optm/settings_media.tpl.php:122
-msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
-msgstr "Yi amfani da sabis na samar da QUIC.cloud LQIP (Low Quality Image Placeholder) don samun kyan gani na hoto mai amsawa yayin lodawa."
+msgid "Generate Low Quality Image Placeholders through an online generation service, for responsive image previews while loading."
+msgstr "Hada Guraren Hoto Masu Inganci na Ƙasa ta hanyar sabis na samarwa ta Intanet, domin rigakafin samfotin hoto mai saurin amsawa yayin lodi."
 
 #: tpl/page_optm/settings_media.tpl.php:123
 msgid "Keep this off to use plain color placeholders."
@@ -5392,8 +5133,8 @@ msgid "This no-risk preset is appropriate for all websites. Good for new users, 
 msgstr "Wannan tsarin da babu haɗari ya dace da duk gidajen yanar gizo. Yana da kyau ga sabbin masu amfani, sauƙaƙan gidajen yanar gizo, ko ci gaba da ke mai da hankali kan cache."
 
 #: tpl/presets/standard.tpl.php:25
-msgid "A QUIC.cloud connection is not required to use this preset. Only basic caching features are enabled."
-msgstr "Ba a buƙatar haɗin QUIC.cloud don amfani da wannan saitin ba. Abubuwan adana bayanai na asali kaɗai aka kunna."
+msgid "Only basic caching features are enabled. Every option in this preset works without any online service."
+msgstr "Abubuwan tanadin cache na asali ne kawai aka kunna. Kowane zaɓi a cikin wannan saitin yana aiki ba tare da wani sabis na kan intanet ba."
 
 #: tpl/presets/standard.tpl.php:29
 #: tpl/toolbox/settings-debug.tpl.php:117
@@ -5413,8 +5154,8 @@ msgid "This low-risk preset introduces basic optimizations for speed and user ex
 msgstr "Wannan tsari mai ƙarancin haɗari yana gabatar da ingantattun matakai na asali don saurin gudu da ƙwarewar mai amfani. Ya dace da sabbin masu sha'awa."
 
 #: tpl/presets/standard.tpl.php:37
-msgid "A QUIC.cloud connection is required to use this preset. Includes optimizations known to improve site score in page speed measurement tools."
-msgstr "Ana buƙatar haɗin QUIC.cloud don amfani da wannan saitaccen tsari. Ya haɗa da ingantawa da aka sani don inganta maki na shafin a kayan aikin auna saurin shafi."
+msgid "Includes optimizations known to improve site score in page speed measurement tools. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Ya haɗa da ingantawa waɗanda aka sani suna inganta maki shafi a cikin kayan aikin awo na saurin shafi. Wasu daga cikinsu suna buƙatar sabis na tsarawa ta intanet, wanda ba a haɗa shi da wannan ɗan amfani ba, kuma waɗancan ba su da wani tasiri."
 
 #: tpl/presets/standard.tpl.php:41
 msgid "Advanced (Recommended)"
@@ -5450,8 +5191,8 @@ msgstr "Wannan jeri na farko yana da kyau ga yawancin shafukan yanar gizo, kuma 
 
 #: tpl/presets/standard.tpl.php:56
 #: tpl/presets/standard.tpl.php:70
-msgid "A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores."
-msgstr "Ana buƙatar haɗin yanar gizo na QUIC.cloud don amfani da wannan tsari da aka riga aka saita. Ya ƙunshi haɓakawa da yawa da aka sani don inganta makin saurin shafi."
+msgid "Includes many optimizations known to improve page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Ya ƙunshi inganta abubuwa da yawa da aka sani suna inganta maki saurin shafi. Wasu daga cikinsu suna buƙatar sabis na tsarawa ta intanet, wanda ba a haɗa shi cikin wannan plugin ba, kuma waɗancan ba su da wani tasiri."
 
 #: tpl/presets/standard.tpl.php:60
 msgid "Aggressive"
@@ -5514,8 +5255,8 @@ msgid "This preset almost certainly will require testing and exclusions for some
 msgstr "Wannan shiri da aka riga aka tsara tabbas zai buƙaci gwaji da keɓancewa ga wasu CSS, JS da hotunan da ake ɗorawa a hankali (Lazy Loaded). Ku ba da kulawa ta musamman ga tambura, ko hotunan da ke kan madauwari (slider) masu tushen HTML."
 
 #: tpl/presets/standard.tpl.php:85
-msgid "A QUIC.cloud connection is required to use this preset. Enables the maximum level of optimizations for improved page speed scores."
-msgstr "Ana buƙatar haɗin yanar gizo na QUIC.cloud don amfani da wannan tsari na farko. Yana ba da damar mafi girman matakin ingantawa don inganta makin saurin shafi."
+msgid "Enables the maximum level of optimizations for improved page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Yana ba da damar mafi girman matakin haɓakawa don ingantaccen maki saurin shafi. Wasu daga cikinsu suna buƙatar sabis na ƙarni na kan layi, wanda ba a haɗa shi cikin wannan ɗigon ba, kuma waɗancan ba su da wani tasiri."
 
 #: tpl/presets/standard.tpl.php:92
 msgid "Zinn® Cache Engine Standard Presets"
@@ -5802,9 +5543,17 @@ msgstr "Share duk wani ajiyar abu da aka riga aka yi"
 msgid "Reset the entire opcode cache"
 msgstr "Sake saita gaba daya wurin ajiye bayanai na opcode"
 
+#: tpl/toolbox/purge.tpl.php:73
+msgid "Critical CSS"
+msgstr "Mahimmin CSS"
+
 #: tpl/toolbox/purge.tpl.php:74
 msgid "This will delete all generated critical CSS files"
 msgstr "Wannan zai goge duk fayilolin CSS masu muhimmanci da aka samar"
+
+#: tpl/toolbox/purge.tpl.php:82
+msgid "Unique CSS"
+msgstr "Keɓaɓɓen CSS"
 
 #: tpl/toolbox/purge.tpl.php:83
 msgid "This will delete all generated unique CSS files"

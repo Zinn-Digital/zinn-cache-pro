@@ -14,7 +14,6 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: tpl/inc/admin_footer.php:17
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -117,14 +116,12 @@ msgstr "CDN"
 
 #: src/admin-display.cls.php:257
 #: src/gui.cls.php:891
-#: tpl/dash/dashboard.tpl.php:169
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "చిత్ర ఆప్టిమైజేషన్"
 
 #: src/admin-display.cls.php:258
-#: tpl/dash/dashboard.tpl.php:170
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "పేజీ ఆప్టిమైజేషన్"
@@ -182,9 +179,6 @@ msgstr "కొత్త CDN URLని జోడించు"
 #: tpl/cdn/other.tpl.php:45
 #: tpl/crawler/settings.tpl.php:138
 #: tpl/dash/dashboard.tpl.php:67
-#: tpl/dash/dashboard.tpl.php:425
-#: tpl/dash/dashboard.tpl.php:547
-#: tpl/dash/dashboard.tpl.php:576
 #: tpl/page_optm/settings_css.tpl.php:220
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/toolbox/settings-debug.tpl.php:80
@@ -198,9 +192,6 @@ msgstr "ఆన్"
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
-#: tpl/dash/dashboard.tpl.php:427
-#: tpl/dash/dashboard.tpl.php:549
-#: tpl/dash/dashboard.tpl.php:578
 #: tpl/img_optm/settings.media_webp.tpl.php:22
 #: tpl/page_optm/settings_css.tpl.php:93
 #: tpl/page_optm/settings_js.tpl.php:77
@@ -713,8 +704,6 @@ msgid "Please see %s for more details."
 msgstr "మరిన్ని వివరాల కోసం దయచేసి %s చూడండి."
 
 #: src/doc.cls.php:101
-#: tpl/dash/dashboard.tpl.php:152
-#: tpl/dash/dashboard.tpl.php:811
 #: tpl/img_optm/summary.tpl.php:59
 #: tpl/inc/check_cache_disabled.php:46
 #: tpl/page_optm/settings_media.tpl.php:301
@@ -737,154 +726,146 @@ msgstr "ఈ సెట్టింగ్ .htaccess ఫైల్‌ను సవ�
 msgid "The queue is processed asynchronously. It may take time."
 msgstr "క్యూ అసమకాలికంగా ప్రాసెస్ చేయబడుతుంది. దీనికి సమయం పట్టవచ్చు."
 
-#: src/error.cls.php:68
-#, php-format
-msgid "You will need to finish %s setup to use the online services."
-msgstr "ఆన్‌లైన్ సేవలను ఉపయోగించడానికి మీరు %s సెటప్‌ను పూర్తి చేయాల్సి ఉంటుంది."
+#: src/error.cls.php:66
+msgid "This feature needs an online generation service, which is not included in this plugin. The setting has no effect."
+msgstr "ఈ ఫీచర్‌కు ఆన్‌లైన్ జనరేషన్ సర్వీస్ అవసరం, ఇది ఈప్లగిన్‌లో చేర్చబడలేదు. ఈ సెట్టింగ్ వల్ల ఎలాంటి ప్రభావం ఉండదు."
 
-#: src/error.cls.php:73
-#: tpl/crawler/settings.tpl.php:123
-#: tpl/crawler/settings.tpl.php:144
-#: tpl/crawler/summary.tpl.php:218
-msgid "Click here to set."
-msgstr "సెట్ చేయడానికి ఇక్కడ క్లిక్ చేయండి."
-
-#: src/error.cls.php:81
+#: src/error.cls.php:70
 msgid "You have used all of your daily quota for today."
 msgstr "ఈరోజు మీ రోజువారీ కోటా పూర్తిగా ఉపయోగించబడింది."
 
-#: src/error.cls.php:86
-#: src/error.cls.php:99
+#: src/error.cls.php:75
+#: src/error.cls.php:88
 msgid "Learn more or purchase additional quota."
 msgstr "మరింత తెలుసుకోండి లేదా అదనపు కోటాను కొనుగోలు చేయండి."
 
-#: src/error.cls.php:94
+#: src/error.cls.php:83
 msgid "You have used all of your quota left for current service this month."
 msgstr "ఈ నెలలో ప్రస్తుత సర్వీస్ కోసం మీ కోటా మొత్తం మీరు ఉపయోగించారు."
 
-#: src/error.cls.php:107
+#: src/error.cls.php:96
 msgid "You have too many requested images, please try again in a few minutes."
 msgstr "మీరు చాలా ఎక్కువ చిత్రాలను అభ్యర్థించారు, దయచేసి కొన్ని నిమిషాల తర్వాత మళ్లీ ప్రయత్నించండి."
 
-#: src/error.cls.php:111
+#: src/error.cls.php:100
 msgid "You have images waiting to be pulled. Please wait for the automatic pull to complete, or pull them down manually now."
 msgstr "పుల్ చేయడానికి వేచి ఉన్న చిత్రాలు ఉన్నాయి. దయచేసి ఆటోమేటిక్ పుల్ పూర్తయ్యే వరకు వేచి ఉండండి లేదా ఇప్పుడు వాటిని మాన్యువల్‌గా పుల్ చేయండి."
 
-#: src/error.cls.php:115
+#: src/error.cls.php:104
 msgid "The image list is empty."
 msgstr "చిత్ర జాబితా ఖాళీగా ఉంది."
 
-#: src/error.cls.php:119
+#: src/error.cls.php:108
 msgid "Not enough parameters. Please check if the QUIC.cloud connection is set correctly"
 msgstr "తగినన్ని పారామితులు లేవు. దయచేసి QUIC.cloud కనెక్షన్ సరిగ్గా అమర్చబడిందో లేదో తనిఖీ చేయండి"
 
-#: src/error.cls.php:123
+#: src/error.cls.php:112
 msgid "There is proceeding queue not pulled yet."
 msgstr "ఇంకా లాగని ప్రొసీడింగ్ క్యూ ఉంది."
 
-#: src/error.cls.php:128
+#: src/error.cls.php:117
 #, php-format
 msgid "There is proceeding queue not pulled yet. Queue info: %s."
 msgstr "ఇంకా లాగని ప్రాసెసింగ్ క్యూ ఉంది. క్యూ సమాచారం: %s."
 
-#: src/error.cls.php:134
+#: src/error.cls.php:123
 msgid "The site is not a valid alias on QUIC.cloud."
 msgstr "ఈ సైట్ QUIC.cloudలో చెల్లుబాటు అయ్యే మారుపేరు (అలియాస్) కాదు."
 
-#: src/error.cls.php:138
+#: src/error.cls.php:127
 msgid "The site is not registered on QUIC.cloud."
 msgstr "సైట్ QUIC.cloudలో రిజిస్టర్ చేయబడలేదు."
 
-#: src/error.cls.php:142
+#: src/error.cls.php:131
 msgid "The QUIC.cloud connection is not correct. Please try to sync your QUIC.cloud connection again."
 msgstr "QUIC.cloud కనెక్షన్ సరైనది కాదు. దయచేసి మీ QUIC.cloud కనెక్షన్‌ని మళ్లీ సింక్ చేయడానికి ప్రయత్నించండి."
 
-#: src/error.cls.php:146
+#: src/error.cls.php:135
 msgid "The current server is under heavy load."
 msgstr "ప్రస్తుత సర్వర్ అధిక లోడ్‌లో ఉంది."
 
-#: src/error.cls.php:150
+#: src/error.cls.php:139
 msgid "Online node needs to be redetected."
 msgstr "ఆన్‌లైన్ నోడ్‌ను మళ్లీ గుర్తించాలి."
 
-#: src/error.cls.php:154
+#: src/error.cls.php:143
 msgid "Credits are not enough to proceed the current request."
 msgstr "ప్రస్తుత అభ్యర్థనను కొనసాగించడానికి క్రెడిట్‌లు సరిపోవు."
 
-#: src/error.cls.php:158
-#: src/error.cls.php:182
+#: src/error.cls.php:147
+#: src/error.cls.php:171
 #, php-format
 msgid "%s file not writable."
 msgstr "%s ఫైల్ వ్రాయదగినది కాదు."
 
-#: src/error.cls.php:166
+#: src/error.cls.php:155
 #, php-format
 msgid "Could not find %1$s in %2$s."
 msgstr "%2$s లో %1$s కనుగొనబడలేదు."
 
-#: src/error.cls.php:170
+#: src/error.cls.php:159
 #, php-format
 msgid "Invalid login cookie. Please check the %s file."
 msgstr "చెల్లని లాగిన్ కుకీ. దయచేసి %s ఫైల్‌ని తనిఖీ చేయండి."
 
-#: src/error.cls.php:174
+#: src/error.cls.php:163
 #, php-format
 msgid "Failed to back up %s file, aborted changes."
 msgstr "%s ఫైల్‌ను బ్యాకప్ చేయడం విఫలమైంది, మార్పులు రద్దు చేయబడ్డాయి."
 
-#: src/error.cls.php:178
+#: src/error.cls.php:167
 #, php-format
 msgid "%s file not readable."
 msgstr "%s ఫైల్ చదవదగింది కాదు."
 
-#: src/error.cls.php:186
+#: src/error.cls.php:175
 #, php-format
 msgid "Failed to get %s file contents."
 msgstr "%s ఫైల్ కంటెంట్‌ను పొందడంలో విఫలమైంది."
 
-#: src/error.cls.php:190
+#: src/error.cls.php:179
 #, php-format
 msgid "Failed to create table %1$s! SQL: %2$s."
 msgstr "%1$s పట్టికను సృష్టించడం విఫలమైంది! SQL: %2$s."
 
-#: src/error.cls.php:194
+#: src/error.cls.php:183
 msgid "Crawler disabled by the server admin."
 msgstr "సర్వర్ అడ్మిన్ ద్వారా క్రాలర్ నిలిపివేయబడింది."
 
-#: src/error.cls.php:198
+#: src/error.cls.php:187
 msgid "Previous request too recent. Please try again later."
 msgstr "గత అభ్యర్థన చాలా ఇటీవల పంపబడింది. దయచేసి కాసేపటి తర్వాత మళ్లీ ప్రయత్నించండి."
 
-#: src/error.cls.php:203
+#: src/error.cls.php:192
 #, php-format
 msgid "Previous request too recent. Please try again after %s."
 msgstr "క్రితం అభ్యర్థన చాలా ఇటీవల పంపబడింది. దయచేసి %s తర్వాత మళ్ళీ ప్రయత్నించండి."
 
-#: src/error.cls.php:209
+#: src/error.cls.php:198
 msgid "Your application is waiting for approval."
 msgstr "మీ అప్లికేషన్ ఆమోదం కోసం వేచి ఉంది."
 
-#: src/error.cls.php:213
+#: src/error.cls.php:202
 msgid "The callback validation to your domain failed due to hash mismatch."
 msgstr "హ్యాష్ సరిపోలకపోవడం వలన మీ డొమైన్‌కి సంబంధించిన కాల్‌బ్యాక్ ధృవీకరణ విఫలమైంది."
 
-#: src/error.cls.php:217
+#: src/error.cls.php:206
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
 msgstr "మీ డొమైన్‌కి సంబంధించిన కాల్‌బ్యాక్ ధ్రువీకరణ విఫలమైంది. మా సర్వర్‌లను నిరోధించే ఫైర్‌వాల్ ఏదీ లేదని దయచేసి నిర్ధారించుకోండి."
 
-#: src/error.cls.php:222
+#: src/error.cls.php:211
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
 msgstr "మీ డొమైన్‌కి సంబంధించిన కాల్‌బ్యాక్ ధ్రువీకరణ విఫలమైంది. మా సర్వర్‌లను ఏ ఫైర్‌వాల్ కూడా నిరోధించకుండా దయచేసి నిర్ధారించుకోండి. ప్రతిస్పందన కోడ్:"
 
-#: src/error.cls.php:227
+#: src/error.cls.php:216
 msgid "Your domain has been forbidden from using our services due to a previous policy violation."
 msgstr "మునుపటి పాలసీ ఉల్లంఘన కారణంగా మా సేవలను ఉపయోగించకుండా మీ డొమైన్ నిషేధించబడింది."
 
-#: src/error.cls.php:231
+#: src/error.cls.php:220
 msgid "You cannot remove this DNS zone, because it is still in use. Please update the domain's nameservers, then try to delete this zone again, otherwise your site will become inaccessible."
 msgstr "మీరు ఈ DNS జోన్‌ను తీసివేయలేరు, ఎందుకంటే ఇది ఇంకా వినియోగంలో ఉంది. దయచేసి డొమైన్ యొక్క నేమ్‌సర్వర్‌లను అప్‌డేట్ చేయండి, ఆపై ఈ జోన్‌ను మళ్లీ తొలగించడానికి ప్రయత్నించండి, లేకపోతే మీ సైట్ అందుబాటులో ఉండదు."
 
-#: src/error.cls.php:238
+#: src/error.cls.php:227
 msgid "Unknown error"
 msgstr "తెలియని లోపం"
 
@@ -1028,7 +1009,6 @@ msgstr "Cloudflare"
 #: src/gui.cls.php:945
 #: src/lang.cls.php:131
 #: tpl/dash/dashboard.tpl.php:60
-#: tpl/dash/dashboard.tpl.php:569
 #: tpl/toolbox/purge.tpl.php:55
 msgid "Object Cache"
 msgstr "ఆబ్జెక్ట్ క్యాష్"
@@ -1247,12 +1227,10 @@ msgid "Images ready to request"
 msgstr "అభ్యర్థించడానికి సిద్ధంగా ఉన్న చిత్రాలు"
 
 #: src/lang.cls.php:32
-#: tpl/dash/dashboard.tpl.php:517
 msgid "Images requested"
 msgstr "చిత్రాలు అభ్యర్థించబడ్డాయి"
 
 #: src/lang.cls.php:33
-#: tpl/dash/dashboard.tpl.php:526
 msgid "Images notified to pull"
 msgstr "పుల్ చేయడానికి తెలియజేయబడిన చిత్రాలు"
 
@@ -1280,7 +1258,6 @@ msgstr "క్యాష్‌ను ప్రారంభించండి"
 
 #: src/lang.cls.php:109
 #: tpl/dash/dashboard.tpl.php:61
-#: tpl/dash/dashboard.tpl.php:570
 #: tpl/presets/standard.tpl.php:21
 msgid "Browser Cache"
 msgstr "బ్రౌజర్ కాష్"
@@ -2449,48 +2426,44 @@ msgstr "కాష్‌ను నిలిపివేసేటప్పుడ�
 msgid "The network admin setting can be overridden here."
 msgstr "నెట్‌వర్క్ అడ్మిన్ సెట్టింగ్‌ను ఇక్కడ భర్తీ చేయవచ్చు."
 
-#: tpl/cache/settings-cache.tpl.php:49
-msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
-msgstr "QUIC.cloud CDN ఎనేబుల్ చేయబడి ఉన్నప్పటికీ, మీరు మీ లోకల్ సర్వర్ నుండి క్యాష్ హెడర్‌లను ఇంకా చూడవచ్చు."
-
-#: tpl/cache/settings-cache.tpl.php:63
+#: tpl/cache/settings-cache.tpl.php:60
 #, php-format
 msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
 msgstr "లాగిన్ అయిన వినియోగదారుల కోసం ఫ్రంటెండ్ పేజీలను ప్రైవేట్‌గా కాష్ చేయండి. (LSWS %s అవసరం)"
 
-#: tpl/cache/settings-cache.tpl.php:76
+#: tpl/cache/settings-cache.tpl.php:73
 #, php-format
 msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
 msgstr "పెండింగ్‌లో ఉన్న కామెంట్‌లను కలిగి ఉన్న కామెంట్‌దారులను ప్రైవేట్‌గా కాష్ చేయండి. ఈ ఎంపికను నిలిపివేయడం ద్వారా కామెంట్‌దారులకు కాష్ చేయలేని పేజీలు అందించబడతాయి. (LSWS %s అవసరం)"
 
-#: tpl/cache/settings-cache.tpl.php:89
+#: tpl/cache/settings-cache.tpl.php:86
 msgid "Cache requests made by WordPress REST API calls."
 msgstr "వర్డ్‌ప్రెస్ (WordPress) REST API కాల్‌ల ద్వారా చేసిన కాష్ అభ్యర్థనలు."
 
-#: tpl/cache/settings-cache.tpl.php:102
+#: tpl/cache/settings-cache.tpl.php:99
 msgid "Disabling this option may negatively affect performance."
 msgstr "ఈ ఎంపికను నిలిపివేయడం వలన పనితీరుపై ప్రతికూల ప్రభావం పడవచ్చు."
 
-#: tpl/cache/settings-cache.tpl.php:119
+#: tpl/cache/settings-cache.tpl.php:116
 msgid "URI Paths containing these strings will NOT be cached as public."
 msgstr "ఈ స్ట్రింగ్‌లను కలిగి ఉన్న URI మార్గాలు పబ్లిక్‌గా క్యాష్ చేయబడవు."
 
-#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:130
 msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
 msgstr "నో-కాచబుల్ సెట్టింగ్‌లతో సంబంధం లేకుండా ఈ స్ట్రింగ్‌లను కలిగి ఉన్న పాత్‌లు కాచే చేయబడతాయి."
 
-#: tpl/cache/settings-cache.tpl.php:136
-#: tpl/cache/settings-cache.tpl.php:161
+#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:158
 msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
 msgstr "ఒక URI కోసం అనుకూల TTLని నిర్వచించడానికి, URI చివరలో ఒక స్పేస్ మరియు దాని తర్వాత TTL విలువను జోడించండి."
 
-#: tpl/cache/settings-cache.tpl.php:139
-#: tpl/cache/settings-cache.tpl.php:164
+#: tpl/cache/settings-cache.tpl.php:136
+#: tpl/cache/settings-cache.tpl.php:161
 #, php-format
 msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
 msgstr "ఉదాహరణకు, %1$s అనేది %3$s కోసం %2$s సెకన్ల TTLను నిర్వచిస్తుంది."
 
-#: tpl/cache/settings-cache.tpl.php:158
+#: tpl/cache/settings-cache.tpl.php:155
 msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
 msgstr "ఈ స్ట్రింగ్‌లను కలిగి ఉన్న మార్గాలు, నో-క్యాచబుల్ సెట్టింగ్‌లతో సంబంధం లేకుండా పబ్లిక్ క్యాష్ చేయబడటానికి బలవంతం చేయబడతాయి."
 
@@ -2535,8 +2508,8 @@ msgid "WARNING"
 msgstr "హెచ్చరిక"
 
 #: tpl/cache/settings-esi.tpl.php:46
-msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
-msgstr "ఈ ఎంపికలు కేవలం LiteSpeed Enterprise Web Server లేదా QUIC.cloud CDN తో మాత్రమే అందుబాటులో ఉంటాయి."
+msgid "These options are only available with LiteSpeed Enterprise Web Server."
+msgstr "ఈ ఎంపికలు కేవలం LiteSpeed Enterprise Web Server తో మాత్రమే అందుబాటులో ఉన్నాయి."
 
 #: tpl/cache/settings-esi.tpl.php:59
 msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
@@ -3156,13 +3129,13 @@ msgstr "CDN సెట్టింగ్‌లు"
 
 #: tpl/cdn/other.tpl.php:44
 #, php-format
-msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
-msgstr "మీరు పాతద్ధతికి చెందిన కంటెంట్ డెలివరీ నెట్‌వర్క్ (CDN)ని లేదా QUIC.cloud CDNతో కూడిన స్టాటిక్ కంటెంట్ కోసం సబ్‌డొమైన్‌ని ఉపయోగిస్తుంటే ఈ సెట్టింగ్‌ను %s చేయండి."
+msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content."
+msgstr "మీరు సాంప్రదాయ కంటెంట్ డెలివరీ నెట్‌వర్క్ (CDN) లేదా స్టాటిక్ కంటెంట్ కోసం సబ్‌డొమైన్‌ను ఉపయోగిస్తుంటే ఈ సెట్టింగ్‌ను %s చేయండి."
 
 #: tpl/cdn/other.tpl.php:52
 #, php-format
-msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are only using QUIC.cloud or Cloudflare, leave this setting %s."
-msgstr "గమనిక: QUIC.cloud CDN మరియు Cloudflare CDN మ్యాపింగ్‌ను ఉపయోగించవు. మీరు కేవలం QUIC.cloud లేదా Cloudflareని మాత్రమే ఉపయోగిస్తుంటే, ఈ సెట్టింగ్‌ను %s వదలండి."
+msgid "NOTE: Cloudflare does not use CDN Mapping. If you are only using Cloudflare, leave this setting %s."
+msgstr "గమనిక: Cloudflare CDN మ్యాపింగ్‌ను ఉపయోగించదు. మీరు Cloudflare మాత్రమే ఉపయోగిస్తుంటే, ఈ సెట్టింగ్‌ను %s వదలండి."
 
 #: tpl/cdn/other.tpl.php:80
 msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
@@ -3332,7 +3305,6 @@ msgstr "కాష్ మిస్"
 
 #: tpl/crawler/map.tpl.php:77
 #: tpl/dash/dashboard.tpl.php:80
-#: tpl/dash/dashboard.tpl.php:765
 msgid "Crawler Status"
 msgstr "క్రాలర్ స్థితి"
 
@@ -3379,6 +3351,12 @@ msgstr "లాగిన్ అయిన వినియోగదారుగా 
 #, php-format
 msgid "You must set %s before using this feature."
 msgstr "ఈ ఫీచర్‌ని ఉపయోగించే ముందు మీరు తప్పకుండా %s ని సెట్ చేయాలి."
+
+#: tpl/crawler/settings.tpl.php:123
+#: tpl/crawler/settings.tpl.php:144
+#: tpl/crawler/summary.tpl.php:218
+msgid "Click here to set."
+msgstr "సెట్ చేయడానికి ఇక్కడ క్లిక్ చేయండి."
 
 #: tpl/crawler/settings.tpl.php:136
 #, php-format
@@ -3437,7 +3415,6 @@ msgstr "మునుపటి క్రాలర్ కోసం రన్ ట�
 
 #: tpl/crawler/summary.tpl.php:104
 #: tpl/dash/dashboard.tpl.php:91
-#: tpl/dash/dashboard.tpl.php:776
 msgid "Current crawler started at"
 msgstr "ప్రస్తుత క్రాలర్ ప్రారంభమైన సమయం"
 
@@ -3447,13 +3424,11 @@ msgstr "ప్రస్తుత సర్వర్ లోడ్"
 
 #: tpl/crawler/summary.tpl.php:116
 #: tpl/dash/dashboard.tpl.php:97
-#: tpl/dash/dashboard.tpl.php:782
 msgid "Last interval"
 msgstr "చివరి విరామం"
 
 #: tpl/crawler/summary.tpl.php:123
 #: tpl/dash/dashboard.tpl.php:103
-#: tpl/dash/dashboard.tpl.php:788
 msgid "Ended reason"
 msgstr "ముగిసిన కారణం"
 
@@ -3553,340 +3528,42 @@ msgid "No crawler meta file generated yet"
 msgstr "ఇంకా క్రాల్లర్ మెటా ఫైల్ రూపొందించబడలేదు"
 
 #: tpl/dash/dashboard.tpl.php:53
-#: tpl/dash/dashboard.tpl.php:562
 msgid "Cache Status"
 msgstr "కాషే స్థితి"
 
 #: tpl/dash/dashboard.tpl.php:54
 #: tpl/dash/dashboard.tpl.php:81
-#: tpl/dash/dashboard.tpl.php:486
-#: tpl/dash/dashboard.tpl.php:563
-#: tpl/dash/dashboard.tpl.php:590
-#: tpl/dash/dashboard.tpl.php:634
-#: tpl/dash/dashboard.tpl.php:678
-#: tpl/dash/dashboard.tpl.php:722
-#: tpl/dash/dashboard.tpl.php:766
-#: tpl/dash/dashboard.tpl.php:813
 msgid "More"
 msgstr "మరిన్ని"
 
 #: tpl/dash/dashboard.tpl.php:58
-#: tpl/dash/dashboard.tpl.php:567
 msgid "Public Cache"
 msgstr "పబ్లిక్ క్యాష్"
 
 #: tpl/dash/dashboard.tpl.php:59
-#: tpl/dash/dashboard.tpl.php:568
 msgid "Private Cache"
 msgstr "ప్రైవేట్ క్యాష్"
 
 #: tpl/dash/dashboard.tpl.php:84
-#: tpl/dash/dashboard.tpl.php:769
 msgid "Crawler(s)"
 msgstr "క్రాలర్(లు)"
 
 #: tpl/dash/dashboard.tpl.php:87
-#: tpl/dash/dashboard.tpl.php:772
 msgid "Currently active crawler"
 msgstr "ప్రస్తుతం సక్రియంగా ఉన్న క్రాలర్"
 
 #: tpl/dash/dashboard.tpl.php:111
-#: tpl/dash/dashboard.tpl.php:796
 #, php-format
 msgid "%1$s %2$d item(s)"
 msgstr "%1$s %2$d అంశం(లు)"
 
 #: tpl/dash/dashboard.tpl.php:112
-#: tpl/dash/dashboard.tpl.php:797
 msgid "Last crawled:"
 msgstr "చివరిసారిగా క్రాల్ చేయబడింది:"
 
 #: tpl/dash/dashboard.tpl.php:128
-#: tpl/dash/dashboard.tpl.php:873
 msgid "News"
 msgstr "వార్తలు"
-
-#: tpl/dash/dashboard.tpl.php:145
-msgid "QUIC.cloud Service Usage Statistics"
-msgstr "QUIC.cloud సేవా వినియోగ గణాంకాలు"
-
-#: tpl/dash/dashboard.tpl.php:147
-msgid "Refresh Usage"
-msgstr "వాడకాన్ని రిఫ్రెష్ చేయండి"
-
-#: tpl/dash/dashboard.tpl.php:148
-msgid "Sync data from Cloud"
-msgstr "క్లౌడ్ నుండి డేటాను సింక్ చేయి"
-
-#: tpl/dash/dashboard.tpl.php:159
-#, php-format
-msgid "The features below are provided by %s"
-msgstr "క్రింది ఫీచర్లు %s ద్వారా అందించబడుతున్నాయి"
-
-#: tpl/dash/dashboard.tpl.php:171
-#: tpl/dash/network_dash.tpl.php:38
-msgid "CDN Bandwidth"
-msgstr "CDN బ్యాండ్‌విడ్త్"
-
-#: tpl/dash/dashboard.tpl.php:172
-#: tpl/dash/dashboard.tpl.php:677
-#: tpl/dash/network_dash.tpl.php:39
-msgid "Low Quality Image Placeholder"
-msgstr "తక్కువ నాణ్యత గల ఇమేజ్ ప్లేస్‌హోల్డర్"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Fast Queue Usage"
-msgstr "వేగవంతమైన క్యూ వినియోగం"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Usage"
-msgstr "వాడుక"
-
-#: tpl/dash/dashboard.tpl.php:236
-#: tpl/dash/network_dash.tpl.php:108
-msgid "PAYG Balance"
-msgstr "PAYG బ్యాలెన్స్"
-
-#: tpl/dash/dashboard.tpl.php:237
-#, php-format
-msgid "PAYG used this month: %s. PAYG balance and usage not included in above quota calculation."
-msgstr "ఈ నెలలో ఉపయోగించిన PAYG: %s. పై కోటా లెక్కలో PAYG బ్యాలెన్స్ మరియు వినియోగం చేర్చబడలేదు."
-
-#: tpl/dash/dashboard.tpl.php:239
-#: tpl/dash/network_dash.tpl.php:111
-msgid "Pay as You Go Usage Statistics"
-msgstr "పే-యాజ్-యు-గో వినియోగ గణాంకాలు"
-
-#: tpl/dash/dashboard.tpl.php:257
-#: tpl/dash/network_dash.tpl.php:118
-msgid "Total Usage"
-msgstr "మొత్తం వినియోగం"
-
-#: tpl/dash/dashboard.tpl.php:258
-#: tpl/dash/network_dash.tpl.php:119
-msgid "Total images optimized in this month"
-msgstr "ఈ నెలలో ఆప్టిమైజ్ చేయబడిన మొత్తం చిత్రాలు"
-
-#: tpl/dash/dashboard.tpl.php:266
-msgid "Remaining Daily Quota"
-msgstr "మిగిలిన రోజువారీ కోటా"
-
-#: tpl/dash/dashboard.tpl.php:276
-msgid "Partner Benefits Provided by"
-msgstr "ద్వారా అందించబడే భాగస్వామి ప్రయోజనాలు"
-
-#: tpl/dash/dashboard.tpl.php:312
-msgid "Enable QUIC.cloud Services"
-msgstr "QUIC.cloud సేవలను ప్రారంభించు"
-
-#: tpl/dash/dashboard.tpl.php:319
-msgid "Go to QUIC.cloud dashboard"
-msgstr "QUIC.cloud డాష్‌బోర్డ్‌కి వెళ్లండి"
-
-#: tpl/dash/dashboard.tpl.php:325
-msgid "Link to QUIC.cloud"
-msgstr "QUIC.cloudకి లింక్ చేయండి"
-
-#: tpl/dash/dashboard.tpl.php:340
-msgid "Page Load Time"
-msgstr "పేజీ లోడ్ సమయం"
-
-#: tpl/dash/dashboard.tpl.php:347
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-#, php-format
-msgid "Current closest Cloud server is %s. Click to redetect."
-msgstr "ప్రస్తుత అత్యంత సమీప క్లౌడ్ సర్వర్ %s. మళ్లీ గుర్తించడానికి క్లిక్ చేయండి."
-
-#: tpl/dash/dashboard.tpl.php:348
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Are you sure you want to redetect the closest cloud server for this service?"
-msgstr "ఈ సేవైట్ కోసం సమీప క్లౌడ్ సర్వర్‌ను మళ్లీ గుర్తించాలనుకుంటున్నారని మీకు ఖచ్చితంగా తెలుసా?"
-
-#: tpl/dash/dashboard.tpl.php:350
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/img_optm/summary.tpl.php:56
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Redetect"
-msgstr "మళ్లీ గుర్తించు"
-
-#: tpl/dash/dashboard.tpl.php:360
-#: tpl/dash/dashboard.tpl.php:436
-msgid "Before"
-msgstr "ముందుగా"
-
-#: tpl/dash/dashboard.tpl.php:368
-#: tpl/dash/dashboard.tpl.php:444
-msgid "After"
-msgstr "తర్వాత"
-
-#: tpl/dash/dashboard.tpl.php:376
-#: tpl/dash/dashboard.tpl.php:452
-msgid "Improved by"
-msgstr "ద్వారా మెరుగుపరచబడింది"
-
-#: tpl/dash/dashboard.tpl.php:384
-msgid "You must be using one of the following products in order to measure Page Load Time:"
-msgstr "పేజీ లోడ్ సమయాన్ని కొలచడానికి మీరు క్రింది ఉత్పత్తులలో దేనినైనా ఉపయోగిస్తుండాలి:"
-
-#: tpl/dash/dashboard.tpl.php:385
-msgid "LiteSpeed Web Server"
-msgstr "LiteSpeed వెబ్ సర్వర్"
-
-#: tpl/dash/dashboard.tpl.php:387
-msgid "OpenLiteSpeed Web Server"
-msgstr "ఓపెన్‌లైట్‌స్పీడ్ వెబ్ సర్వర్"
-
-#: tpl/dash/dashboard.tpl.php:389
-msgid "LiteSpeed Web ADC"
-msgstr "LiteSpeed వెబ్ ADC"
-
-#: tpl/dash/dashboard.tpl.php:391
-#: tpl/dash/dashboard.tpl.php:809
-msgid "QUIC.cloud CDN"
-msgstr "QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:403
-#: tpl/dash/dashboard.tpl.php:468
-#, php-format
-msgid "Requested: %s ago"
-msgstr "అభ్యర్థించబడినది: %s క్రితం"
-
-#: tpl/dash/dashboard.tpl.php:411
-#: tpl/dash/dashboard.tpl.php:476
-msgid "Refresh"
-msgstr "రీఫ్రెష్ చేయి"
-
-#: tpl/dash/dashboard.tpl.php:412
-msgid "Refresh page load time"
-msgstr "పేజీ లోడ్ సమయాన్ని రిఫ్రెష్ చేయండి"
-
-#: tpl/dash/dashboard.tpl.php:421
-msgid "PageSpeed Score"
-msgstr "పేజ్‌స్పీడ్ స్కోర్"
-
-#: tpl/dash/dashboard.tpl.php:477
-msgid "Refresh page score"
-msgstr "పేజీ స్కోర్‌ను రిఫ్రెష్ చేయండి"
-
-#: tpl/dash/dashboard.tpl.php:485
-#: tpl/img_optm/entry.tpl.php:16
-msgid "Image Optimization Summary"
-msgstr "చిత్ర ఆప్టిమైజేషన్ సారాంశం"
-
-#: tpl/dash/dashboard.tpl.php:502
-#: tpl/img_optm/summary.tpl.php:76
-#: tpl/img_optm/summary.tpl.php:89
-msgid "Send Optimization Request"
-msgstr "ఆప్టిమైజేషన్ అభ్యర్థనను పంపు చేయి"
-
-#: tpl/dash/dashboard.tpl.php:508
-#: tpl/img_optm/summary.tpl.php:316
-msgid "Total Reduction"
-msgstr "మొత్తం తగ్గింపు"
-
-#: tpl/dash/dashboard.tpl.php:511
-#: tpl/img_optm/summary.tpl.php:319
-msgid "Images Pulled"
-msgstr "చిత్రాలు లాగబడ్డాయి"
-
-#: tpl/dash/dashboard.tpl.php:534
-#: tpl/img_optm/summary.tpl.php:322
-msgid "Last Request"
-msgstr "చివరి అభ్యర్థన"
-
-#: tpl/dash/dashboard.tpl.php:537
-msgid "Last Pull"
-msgstr "చివరి పుల్"
-
-#: tpl/dash/dashboard.tpl.php:589
-#: tpl/toolbox/purge.tpl.php:73
-msgid "Critical CSS"
-msgstr "క్రిటికల్ CSS"
-
-#: tpl/dash/dashboard.tpl.php:596
-#: tpl/dash/dashboard.tpl.php:640
-#: tpl/dash/dashboard.tpl.php:684
-#: tpl/dash/dashboard.tpl.php:728
-#, php-format
-msgid "Last generated: %s"
-msgstr "చివరిగా రూపొందించబడింది: %s"
-
-#: tpl/dash/dashboard.tpl.php:604
-#: tpl/dash/dashboard.tpl.php:648
-#: tpl/dash/dashboard.tpl.php:692
-#: tpl/dash/dashboard.tpl.php:736
-#, php-format
-msgid "Time to execute previous request: %s"
-msgstr "మునుపటి అభ్యర్థనను అమలు చేయడానికి పట్టిన సమయం: %s"
-
-#: tpl/dash/dashboard.tpl.php:611
-#: tpl/dash/dashboard.tpl.php:655
-#: tpl/dash/dashboard.tpl.php:699
-#: tpl/dash/dashboard.tpl.php:743
-msgid "Requests in queue"
-msgstr "క్యూలో ఉన్న అభ్యర్థనలు"
-
-#: tpl/dash/dashboard.tpl.php:614
-#: tpl/dash/dashboard.tpl.php:658
-#: tpl/dash/dashboard.tpl.php:702
-#: tpl/dash/dashboard.tpl.php:746
-msgid "Force cron"
-msgstr "క్రాన్‌ను బలవంతంగా అమలు చేయండి"
-
-#: tpl/dash/dashboard.tpl.php:622
-#: tpl/dash/dashboard.tpl.php:666
-#: tpl/dash/dashboard.tpl.php:710
-#: tpl/dash/dashboard.tpl.php:754
-#, php-format
-msgid "Last requested: %s"
-msgstr "చివరిగా అభ్యర్థించినది: %s"
-
-#: tpl/dash/dashboard.tpl.php:633
-#: tpl/toolbox/purge.tpl.php:82
-msgid "Unique CSS"
-msgstr "ప్రత్యేక CSS"
-
-#: tpl/dash/dashboard.tpl.php:721
-msgid "Viewport Image"
-msgstr "వ్యూపోర్ట్ చిత్రం"
-
-#: tpl/dash/dashboard.tpl.php:822
-msgid "Enable QUIC.cloud CDN"
-msgstr "QUIC.cloud CDNని ప్రారంభించండి"
-
-#: tpl/dash/dashboard.tpl.php:829
-msgid "Best available WordPress performance"
-msgstr "అందుబాటులో ఉన్న అత్య ఉత్తమ WordPress పనితీరు"
-
-#: tpl/dash/dashboard.tpl.php:834
-#, php-format
-msgid "Globally fast TTFB, easy setup, and %s!"
-msgstr "ప్రపంచవ్యాప్తంగా వేగవంతమైన TTFB, సులభమైన సెటప్ మరియు %s!"
-
-#: tpl/dash/dashboard.tpl.php:835
-msgid "more"
-msgstr "మరిన్ని"
-
-#: tpl/dash/dashboard.tpl.php:851
-msgid "Refresh Status"
-msgstr "స్థితిని రిఫ్రెష్ చేయి"
-
-#: tpl/dash/dashboard.tpl.php:852
-msgid "Refresh QUIC.cloud status"
-msgstr "QUIC.cloud స్థితిని రిఫ్రెష్ చేయండి"
 
 #: tpl/dash/entry.tpl.php:21
 msgid "Network Dashboard"
@@ -3901,14 +3578,46 @@ msgstr "Zinn® క్యాష్ ఇంజిన్ డ్యాష్‌బో
 msgid "Usage Statistics: %s"
 msgstr "వాడకం గణాంకాలు: %s"
 
+#: tpl/dash/network_dash.tpl.php:38
+msgid "CDN Bandwidth"
+msgstr "CDN బ్యాండ్‌విడ్త్"
+
+#: tpl/dash/network_dash.tpl.php:39
+msgid "Low Quality Image Placeholder"
+msgstr "తక్కువ నాణ్యత గల ఇమేజ్ ప్లేస్‌హోల్డర్"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Fast Queue Usage"
+msgstr "వేగవంతమైన క్యూ వినియోగం"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Usage"
+msgstr "వాడుక"
+
 #: tpl/dash/network_dash.tpl.php:107
 msgid "Pay as You Go"
 msgstr "పే-యాజ్-యు-గో"
+
+#: tpl/dash/network_dash.tpl.php:108
+msgid "PAYG Balance"
+msgstr "PAYG బ్యాలెన్స్"
 
 #: tpl/dash/network_dash.tpl.php:109
 #, php-format
 msgid "This Month Usage: %s"
 msgstr "ఈ నెల వినియోగం: %s"
+
+#: tpl/dash/network_dash.tpl.php:111
+msgid "Pay as You Go Usage Statistics"
+msgstr "పే-యాజ్-యు-గో వినియోగ గణాంకాలు"
+
+#: tpl/dash/network_dash.tpl.php:118
+msgid "Total Usage"
+msgstr "మొత్తం వినియోగం"
+
+#: tpl/dash/network_dash.tpl.php:119
+msgid "Total images optimized in this month"
+msgstr "ఈ నెలలో ఆప్టిమైజ్ చేయబడిన మొత్తం చిత్రాలు"
 
 #: tpl/db_optm/entry.tpl.php:17
 #: tpl/db_optm/settings.tpl.php:19
@@ -4131,58 +3840,53 @@ msgstr "ఈ ఎంపిక గెస్ట్ మోడ్ సందర్శ�
 msgid "Please read all warnings before enabling this option."
 msgstr "ఈ ఎంపికను ప్రారంభించే ముందు దయచేసి అన్ని హెచ్చరికలను చదవండి."
 
-#: tpl/general/settings.tpl.php:64
-#, php-format
-msgid "Your %1$s quota on %2$s will still be in use."
-msgstr "%2$s పై మీ %1$s కోటా ఇప్పటికీ వినియోగంలో ఉంటుంది."
-
-#: tpl/general/settings.tpl.php:72
-#: tpl/general/settings.tpl.php:79
-#: tpl/general/settings.tpl.php:86
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:71
+#: tpl/general/settings.tpl.php:78
+#: tpl/general/settings.tpl.php:85
+#: tpl/general/settings.tpl.php:102
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 msgid "Notice"
 msgstr "గమనిక"
 
-#: tpl/general/settings.tpl.php:72
+#: tpl/general/settings.tpl.php:71
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 #, php-format
 msgid "%s must be turned ON for this setting to work."
 msgstr "ఈ సెట్టింగ్ పనిచేయడానికి %s ఆన్ (ON) చేయాలి."
 
-#: tpl/general/settings.tpl.php:79
+#: tpl/general/settings.tpl.php:78
 #, php-format
 msgid "You need to turn %s on to get maximum result."
 msgstr "గరిష్ట ఫలితాన్ని పొందడానికి మీరు %sని ఆన్ చేయాలి."
 
-#: tpl/general/settings.tpl.php:86
+#: tpl/general/settings.tpl.php:85
 #, php-format
 msgid "You need to turn %s on and finish all WebP generation to get maximum result."
 msgstr "గరిష్ట ఫలితాన్ని పొందడానికి మీరు %sని ఆన్ చేసి, అన్ని WebP జనరేషన్‌ను పూర్తి చేయాలి."
 
-#: tpl/general/settings.tpl.php:101
+#: tpl/general/settings.tpl.php:100
 msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
 msgstr "డొమైన్ పేరుకు బదులుగా క్లౌడ్ సేవలు నేరుగా IPని కాల్ చేయడానికి అనుమతించడానికి ఈ సైట్ యొక్క IP చిరునామాను నమోదు చేయండి. ఇది DNS మరియు CDN లుక్అప్‌ల ఓవర్‌హెడ్‌ను తొలగిస్తుంది."
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Your server IP"
 msgstr "మీ సర్వర్ ఐపి"
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Check my public IP from"
 msgstr "దీని నుండి నా పబ్లిక్ IPని తనిఖీ చేయండి"
 
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:102
 msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
 msgstr "మీరు అదనపు అవుట్‌గోయింగ్ ఐపీ (IP)ని సెట్ చేసి ఉంటే లేదా మీ సర్వర్‌లో బహుళ ఐపీలు కాన్ఫిగర్ చేయబడి ఉంటే, ఆటో-డిటెక్ట్ చేయబడిన ఐపీ ఖచ్చితంగా ఉండకపోవచ్చు."
 
-#: tpl/general/settings.tpl.php:104
+#: tpl/general/settings.tpl.php:103
 msgid "Please make sure this IP is the correct one for visiting your site."
 msgstr "దయచేసి మీ సైట్‌ను సందర్శించడానికి ఈ IP సరైనదేనని నిర్ధారించుకోండి."
 
-#: tpl/general/settings.tpl.php:119
+#: tpl/general/settings.tpl.php:118
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
 msgstr "హాట్‌ఫిక్స్‌లు, కొత్త విడుదలలు, అందుబాటులో ఉన్న బీటా వెర్షన్‌లు మరియు ప్రమోషన్‌లతో సహా తాజా వార్తలను స్వయంచాలకంగా చూపడానికి ఈ ఎంపికను ఆన్ చేయండి."
 
@@ -4232,6 +3936,10 @@ msgstr "విజయవంతంగా సింక్ చేయబడింద�
 msgid "Sync failed."
 msgstr "సమకాలీకరణ విఫలమైంది."
 
+#: tpl/img_optm/entry.tpl.php:16
+msgid "Image Optimization Summary"
+msgstr "చిత్ర ఆప్టిమైజేషన్ సారాంశం"
+
 #: tpl/img_optm/entry.tpl.php:17
 #: tpl/img_optm/entry.tpl.php:22
 #: tpl/img_optm/network_settings.tpl.php:19
@@ -4254,20 +3962,15 @@ msgstr "చిత్రాలను వాటి ఆప్టిమైజ్ చ
 
 #: tpl/img_optm/settings.media_webp.tpl.php:31
 #, php-format
-msgid "%1$s is a %2$s paid feature."
-msgstr "%1$s అనేది ఒక %2$s చెల్లింపు ఫీచర్."
-
-#: tpl/img_optm/settings.media_webp.tpl.php:34
-#, php-format
 msgid "When switching formats, please %1$s or %2$s to apply this new choice to previously optimized images."
 msgstr "ఫార్మాట్‌లను మారుస్తున్నప్పుడు, గతంలో ఆప్టిమైజ్ చేసిన చిత్రాలకు ఈ కొత్త ఎంపికను వర్తింపజేయడానికి దయచేసి %1$s లేదా %2$s చేయండి."
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:378
 msgid "Destroy All Optimization Data"
 msgstr "అన్ని ఆప్టిమైజేషన్ డేటాను తొలగించు"
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:368
 msgid "Soft Reset Optimization Counter"
 msgstr "సాఫ్ట్ రీసెట్ ఆప్టిమైజేషన్ కౌంటర్"
@@ -4328,9 +4031,35 @@ msgstr "ఏ మూలకం (element) యొక్క గుణాలు (attrib
 msgid "Enable replacement of WebP/AVIF in %s elements that were generated outside of WordPress logic."
 msgstr "WordPress లాజిక్ వెలుపల రూపొందించబడిన %s మూలకాలలో WebP/AVIF భర్తీని ప్రారంభించండి."
 
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+#, php-format
+msgid "Current closest Cloud server is %s. Click to redetect."
+msgstr "ప్రస్తుత అత్యంత సమీప క్లౌడ్ సర్వర్ %s. మళ్లీ గుర్తించడానికి క్లిక్ చేయండి."
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "ఈ సేవైట్ కోసం సమీప క్లౌడ్ సర్వర్‌ను మళ్లీ గుర్తించాలనుకుంటున్నారని మీకు ఖచ్చితంగా తెలుసా?"
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/img_optm/summary.tpl.php:56
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Redetect"
+msgstr "మళ్లీ గుర్తించు"
+
 #: tpl/img_optm/summary.tpl.php:58
-msgid "Optimize images with our QUIC.cloud server"
-msgstr "మా QUIC.cloud సర్వర్‌తో చిత్రాలను ఆప్టిమైజ్ చేయండి"
+msgid "Image optimisation"
+msgstr "చిత్ర ఆప్టిమైజేషన్"
 
 #: tpl/img_optm/summary.tpl.php:63
 #, php-format
@@ -4344,6 +4073,11 @@ msgstr "మా సర్వర్ మీ సర్వర్‌తో ఎలా�
 #: tpl/img_optm/summary.tpl.php:69
 msgid "Current limit is"
 msgstr "ప్రస్తుత పరిమితి"
+
+#: tpl/img_optm/summary.tpl.php:76
+#: tpl/img_optm/summary.tpl.php:89
+msgid "Send Optimization Request"
+msgstr "ఆప్టిమైజేషన్ అభ్యర్థనను పంపు చేయి"
 
 #: tpl/img_optm/summary.tpl.php:77
 #: tpl/page_optm/settings_css.tpl.php:156
@@ -4370,8 +4104,8 @@ msgid "Optimization Status"
 msgstr "ఆప్టిమైజేషన్ స్థితి"
 
 #: tpl/img_optm/summary.tpl.php:141
-msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
-msgstr "QUIC.cloud ఇమేజ్ ఆప్టిమైజేషన్ సర్వర్ ఆప్టిమైజేషన్‌ను పూర్తి చేసిన తర్వాత, ఆప్టిమైజ్ చేసిన ఇమేజ్‌లను లాగడానికి ఇది మీ సైట్‌కు తెలియజేస్తుంది."
+msgid "When the optimisation server finishes, it notifies your site to pull the optimised images."
+msgstr "ఆప్టిమైజేషన్ సర్వర్ పూర్తయినప్పుడు, ఆప్టిమైజ్ చేసిన చిత్రాలను లాగడానికి ఇది మీ సైట్‌కు తెలియజేస్తుంది."
 
 #: tpl/img_optm/summary.tpl.php:142
 msgid "This process is automatic."
@@ -4473,6 +4207,18 @@ msgstr "కొత్త థంబ్‌నెయిళ్లను మళ్ల�
 msgid "Optimization Summary"
 msgstr "ఆప్టిమైజేషన్ సారాంశం"
 
+#: tpl/img_optm/summary.tpl.php:316
+msgid "Total Reduction"
+msgstr "మొత్తం తగ్గింపు"
+
+#: tpl/img_optm/summary.tpl.php:319
+msgid "Images Pulled"
+msgstr "చిత్రాలు లాగబడ్డాయి"
+
+#: tpl/img_optm/summary.tpl.php:322
+msgid "Last Request"
+msgstr "చివరి అభ్యర్థన"
+
 #: tpl/img_optm/summary.tpl.php:325
 msgid "Last Pulled"
 msgstr "చివరిసారిగా సేకరించబడింది"
@@ -4520,26 +4266,21 @@ msgstr "ఆప్టిమైజ్ చేసిన అన్ని చిత్
 msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
 msgstr "మునుపటి అన్ని ఇమేజ్ ఆప్టిమైజేషన్ అభ్యర్థనలు/ఫలితాలను తొలగించండి, పూర్తయిన ఆప్టిమైజేషన్‌లను వెనక్కి మార్చండి మరియు అన్ని ఆప్టిమైజేషన్ ఫైల్‌లను తొలగించండి."
 
-#: tpl/inc/admin_footer.php:17
-#, php-format
-msgid "Rate %1$s on %2$s"
-msgstr "%2$s పై %1$sని రేట్ చేయండి"
+#: tpl/inc/admin_footer.php:16
+msgid "Read the upstream Zinn® Cache Engine documentation"
+msgstr "అప్‌స్ట్రీమ్ Zinn® కాష్ ఇంజిన్ డాక్యుమెంటేషన్‌ను చదవండి"
 
 #: tpl/inc/admin_footer.php:19
-msgid "Read LiteSpeed Documentation"
-msgstr "LiteSpeed డాక్యుమెంటేషన్‌ను చదవండి"
+msgid "Zinn Digital® support"
+msgstr "Zinn Digital® మద్దతు"
 
-#: tpl/inc/admin_footer.php:21
-msgid "Visit LSCWP support forum"
-msgstr "LSCWP మద్దతు ఫోరమ్‌ను సందర్శించండి"
-
-#: tpl/inc/admin_footer.php:23
-msgid "Join LiteSpeed Slack community"
-msgstr "LiteSpeed Slack సంఘంలో చేరండి"
+#: tpl/inc/admin_footer.php:22
+msgid "Zinn® Cache Engine user guide"
+msgstr "Zinn® క్యాష్ ఇంజిన్ వినియోగదారు మార్గదర్శిని"
 
 #: tpl/inc/check_cache_disabled.php:20
-msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
-msgstr "క్యాచింగ్ ఫంక్షన్‌లను ఉపయోగించడానికి మీరు LiteSpeed వెబ్ సర్వర్‌ని కలిగి ఉండాలి లేదా QUIC.cloud CDNని ఉపయోగిస్తూ ఉండాలి."
+msgid "To use the caching functions you must have a LiteSpeed or OpenLiteSpeed web server with the LSCache module."
+msgstr "కాషింగ్ ఫంక్షన్‌లను ఉపయోగించడానికి మీరు LSCache మాడ్యూల్‌తో కూడిన LiteSpeed లేదా OpenLiteSpeed వెబ్ సర్వర్‌ను కలిగి ఉండాలి."
 
 #: tpl/inc/check_cache_disabled.php:25
 msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
@@ -4752,8 +4493,8 @@ msgid "How to Fix Problems Caused by CSS/JS Optimization."
 msgstr "CSS/JS ఆప్టిమైజేషన్ వల్ల వచ్చే సమస్యలను ఎలా పరిష్కరించాలి."
 
 #: tpl/page_optm/settings_css.tpl.php:82
-msgid "Use QUIC.cloud online service to generate unique CSS."
-msgstr "ప్రత్యేకమైన CSSని రూపొందించడానికి QUIC.cloud ఆన్‌లైన్ సేవను ఉపయోగించండి."
+msgid "Generate unique CSS through an online generation service."
+msgstr "ఆన్‌లైన్ జనరేషన్ సర్వీస్ ద్వారా ప్రత్యేకమైన CSS ని రూపొందించండి."
 
 #: tpl/page_optm/settings_css.tpl.php:83
 msgid "This will drop the unused CSS on each page from the combined file."
@@ -4835,8 +4576,8 @@ msgid "This can improve your speed score in services like Pingdom, GTmetrix and 
 msgstr "Pingdom, GTmetrix మరియు PageSpeed ​​వంటి సేవలలో ఇది మీ స్పీడ్ స్కోర్‌ను మెరుగుపరచగలదు."
 
 #: tpl/page_optm/settings_css.tpl.php:217
-msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
-msgstr "క్రిటికల్ CSSని రూపొందించడానికి మరియు మిగిలిన CSSని అసింక్రోనస్‌గా లోడ్ చేయడానికి QUIC.cloud ఆన్‌లైన్ సేవను ఉపయోగించండి."
+msgid "Generate critical CSS through an online generation service and load the remaining CSS asynchronously."
+msgstr "ఆన్‌లైన్ జనరేషన్ సర్వీస్ ద్వారా క్రిటికల్ CSSని జనరేట్ చేయండి మరియు మిగిలిన CSSని అసింక్రోనస్‌గా లోడ్ చేయండి."
 
 #: tpl/page_optm/settings_css.tpl.php:219
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
@@ -5116,8 +4857,8 @@ msgid "Specify the responsive placeholder SVG color."
 msgstr "ప్రతిస్పందించే ప్లేస్‌హోల్డర్ SVG రంగును పేర్కొనండి."
 
 #: tpl/page_optm/settings_media.tpl.php:122
-msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
-msgstr "లోడ్ అవుతున్నప్పుడు రెస్పాన్సివ్ ఇమేజ్ ప్రివ్యూల కోసం QUIC.cloud LQIP (లో క్వాలిటీ ఇమేజ్ ప్లేస్‌హోల్డర్) జనరేటర్ సేవను ఉపయోగించండి."
+msgid "Generate Low Quality Image Placeholders through an online generation service, for responsive image previews while loading."
+msgstr "లోడింగ్ సమయంలో రెస్పాన్సివ్ ఇమేజ్ ప్రివ్యూల కోసం ఆన్‌లైన్ జనరేషన్ సర్వీస్ ద్వారా తక్కువ నాణ్యత గల ఇమేజ్ ప్లేస్‌హోల్డర్‌లను రూపొందించండి."
 
 #: tpl/page_optm/settings_media.tpl.php:123
 msgid "Keep this off to use plain color placeholders."
@@ -5392,8 +5133,8 @@ msgid "This no-risk preset is appropriate for all websites. Good for new users, 
 msgstr "ఈ రిస్క్ లేని ప్రీసెట్ అన్ని వెబ్‌సైట్‌లకు అనుకూలంగా ఉంటుంది. కొత్త వినియోగదారులు, సాధారణ వెబ్‌సైట్‌లు లేదా కాష్-ఆధారిత డెవలప్‌మెంట్ కోసం ఇది బాగుంటుంది."
 
 #: tpl/presets/standard.tpl.php:25
-msgid "A QUIC.cloud connection is not required to use this preset. Only basic caching features are enabled."
-msgstr "ఈ ప్రిసెట్‌ను ఉపయోగించడానికి QUIC.cloud కనెక్షన్ అవసరం లేదు. కేవలం ప్రాథమిక క్యాషింగ్ ఫీచర్లు మాత్రమే ప్రారంభించబడ్డాయి."
+msgid "Only basic caching features are enabled. Every option in this preset works without any online service."
+msgstr "కేవలం ప్రాథమిక క్యాచింగ్ ఫీచర్లు మాత్రమే ప్రారంభించబడ్డాయి. ఈ ప్రీసెట్‌లోని ప్రతి ఎంపిక ఏదైనా ఆన్‌లైన్ సేవ లేకుండా పనిచేస్తుంది."
 
 #: tpl/presets/standard.tpl.php:29
 #: tpl/toolbox/settings-debug.tpl.php:117
@@ -5413,8 +5154,8 @@ msgid "This low-risk preset introduces basic optimizations for speed and user ex
 msgstr "ఈ తక్కువ-ప్రమాదకర ప్రీసెట్ వేగం మరియు వినియోగదారు అనుభవం కోసం ప్రాథమిక ఆప్టిమైజేషన్‌లను పరిచయం చేస్తుంది. ఉత్సాహభరితమైన ప్రారంభకులకు తగినది."
 
 #: tpl/presets/standard.tpl.php:37
-msgid "A QUIC.cloud connection is required to use this preset. Includes optimizations known to improve site score in page speed measurement tools."
-msgstr "ఈ ప్రీసెట్‌ని ఉపయోగించడానికి QUIC.cloud కనెక్షన్ అవసరం. పేజ్ స్పీడ్ కొలత సాధనాలలో సైట్ స్కోర్‌ను మెరుగుపరచడానికి తెలిసిన ఆప్టిమైజేషన్‌లు ఇందులో ఉన్నాయి."
+msgid "Includes optimizations known to improve site score in page speed measurement tools. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "పేజ్ స్పీడ్ మెజర్‌మెంట్ టూల్స్‌లో సైట్ స్కోర్‌ను మెరుగుపరచడానికి తెలిసిన ఆప్టిమైజేషన్‌లు ఇందులో ఉన్నాయి. వాటిలో కొన్నింటికి ఆన్‌లైన్ జనరేషన్ సర్వీస్ అవసరం, ఇది ఈ ప్లగిన్‌లో చేర్చబడలేదు మరియు వాటికి ఎలాంటి ప్రభావం ఉండదు."
 
 #: tpl/presets/standard.tpl.php:41
 msgid "Advanced (Recommended)"
@@ -5450,8 +5191,8 @@ msgstr "ఈ ప్రీసెట్ చాలా వెబ్‌సైట్‌
 
 #: tpl/presets/standard.tpl.php:56
 #: tpl/presets/standard.tpl.php:70
-msgid "A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores."
-msgstr "ఈ ప్రీసెట్‌ని ఉపయోగించడానికి QUIC.cloud కనెక్షన్ అవసరం. పేజ్ స్పీడ్ స్కోర్‌లను మెరుగుపర్చడానికి తెలిసిన అనేక ఆప్టిమైజేషన్‌లు ఇందులో ఉన్నాయి."
+msgid "Includes many optimizations known to improve page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "పేజీ స్పీడ్ స్కోర్‌లను మెరుగుపరచడానికి తెలిసిన అనేక ఆప్టిమైజేషన్‌లను కలిగి ఉంటుంది. వాటిలో కొన్నింటికి ఆన్‌లైన్ జనరేషన్ సర్వీస్ అవసరం, ఇది ఈప్లగిన్‌లో చేర్చబడలేదు మరియు వాటికి ఎటువంటి ప్రభావం ఉండదు."
 
 #: tpl/presets/standard.tpl.php:60
 msgid "Aggressive"
@@ -5514,8 +5255,8 @@ msgid "This preset almost certainly will require testing and exclusions for some
 msgstr "ఈ ప్రీసెట్‌కు దాదాపుగా కొన్ని CSS, JS మరియు లేజీ లోడ్ చేయబడిన చిత్రాల కోసం టెస్టింగ్ మరియు మినహాయింపులు అవసరమవుతాయి. లోగోలు లేదా HTML ఆధారిత స్లయిడర్ చిత్రాలపై ప్రత్యేక శ్రద్ధ వహించండి."
 
 #: tpl/presets/standard.tpl.php:85
-msgid "A QUIC.cloud connection is required to use this preset. Enables the maximum level of optimizations for improved page speed scores."
-msgstr "ఈ ప్రీసెట్‌ని ఉపయోగించడానికి QUIC.cloud కనెక్షన్ అవసరం. మెరుగైన పేజ్ స్పీడ్ స్కోర్‌ల కోసం గరిష్ట స్థాయి ఆప్టిమైజేషన్‌లను ప్రారంభిస్తుంది."
+msgid "Enables the maximum level of optimizations for improved page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "మెరుగుపరచిన పేజీ వేగ స్కోర్‌ల కోసం గరిష్ట స్థాయి ఆప్టిమైజేషన్‌లను ప్రారంభిస్తుంది. వాటిలో కొన్నింటికి ఆన్‌లైన్ జనరేషన్ సర్వీస్ అవసరం, ఇది ఈప్లగిన్‌లో చేర్చబడలేదు మరియు వాటికి ఎటువంటి ప్రభావం ఉండదు."
 
 #: tpl/presets/standard.tpl.php:92
 msgid "Zinn® Cache Engine Standard Presets"
@@ -5802,9 +5543,17 @@ msgstr "అన్ని ఆబ్జెక్ట్ క్యాచెలను 
 msgid "Reset the entire opcode cache"
 msgstr "ఒకోడ్ క్యాష్ మొత్తాన్ని రీసెట్ చేయండి"
 
+#: tpl/toolbox/purge.tpl.php:73
+msgid "Critical CSS"
+msgstr "క్రిటికల్ CSS"
+
 #: tpl/toolbox/purge.tpl.php:74
 msgid "This will delete all generated critical CSS files"
 msgstr "ఇది రూపొందించబడిన అన్ని క్రిటికల్ CSS ఫైల్‌లను తొలగిస్తుంది"
+
+#: tpl/toolbox/purge.tpl.php:82
+msgid "Unique CSS"
+msgstr "ప్రత్యేక CSS"
 
 #: tpl/toolbox/purge.tpl.php:83
 msgid "This will delete all generated unique CSS files"

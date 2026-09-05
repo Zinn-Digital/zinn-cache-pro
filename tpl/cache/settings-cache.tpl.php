@@ -45,9 +45,6 @@ defined( 'WPINC' ) || exit;
 						<?php esc_html_e( 'The network admin setting can be overridden here.', 'zinn-cache-pro' ); ?>
 						<br>
 					<?php endif; ?>
-					<?php if ( ! $this->conf( Base::O_CACHE ) && $this->conf( Base::O_CDN_QUIC ) ) : ?>
-						<span class="litespeed-success"><?php esc_html_e( 'With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server.', 'zinn-cache-pro' ); ?></span>
-					<?php endif; ?>
 				</div>
 			</td>
 		</tr>

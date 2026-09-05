@@ -63,18 +63,7 @@ class Error {
 	public static function msg( $code, $args = null ) {
 		switch ( $code ) {
 			case 'qc_setup_required':
-				$msg =
-					sprintf(
-						__( 'You will need to finish %s setup to use the online services.', 'zinn-cache-pro' ),
-						'<strong>QUIC.cloud</strong>'
-					) .
-					Doc::learn_more(
-						admin_url( 'admin.php?page=zinn-cache-pro-general' ),
-						__( 'Click here to set.', 'zinn-cache-pro' ),
-						true,
-						false,
-						true
-					);
+				$msg = __( 'This feature needs an online generation service, which is not included in this plugin. The setting has no effect.', 'zinn-cache-pro' );
 				break;
 
 			case 'out_of_daily_quota':

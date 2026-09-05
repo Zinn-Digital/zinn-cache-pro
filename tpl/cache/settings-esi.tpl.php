@@ -43,7 +43,7 @@ defined( 'WPINC' ) || exit;
 <?php if ( ! ZINN_CACHE_PRO_ESI_SUPPORT && ! $this->conf( Base::O_CDN_QUIC ) ) : ?>
 	<div class="litespeed-callout-danger">
 		<h4><?php echo esc_html__( 'WARNING', 'zinn-cache-pro' ); ?></h4>
-		<h4><?php echo esc_html__( 'These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN.', 'zinn-cache-pro' ); ?></h4>
+		<h4><?php echo esc_html__( 'These options are only available with LiteSpeed Enterprise Web Server.', 'zinn-cache-pro' ); ?></h4>
 	</div>
 <?php endif; ?>
 

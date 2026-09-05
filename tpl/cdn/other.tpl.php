@@ -41,7 +41,7 @@ $this->form_action();
 				<div class="litespeed-desc">
 					<?php
 					printf(
-						esc_html__( 'Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN.', 'zinn-cache-pro' ),
+						esc_html__( 'Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content.', 'zinn-cache-pro' ),
 						'<code>' . esc_html__( 'ON', 'zinn-cache-pro' ) . '</code>'
 					);
 					?>
@@ -49,7 +49,7 @@ $this->form_action();
 					<br>
 					<?php
 					printf(
-						esc_html__( 'NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are only using QUIC.cloud or Cloudflare, leave this setting %s.', 'zinn-cache-pro' ),
+						esc_html__( 'NOTE: Cloudflare does not use CDN Mapping. If you are only using Cloudflare, leave this setting %s.', 'zinn-cache-pro' ),
 						'<code>' . esc_html__( 'OFF', 'zinn-cache-pro' ) . '</code>'
 					);
 					?>

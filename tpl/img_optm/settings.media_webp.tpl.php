@@ -28,9 +28,6 @@ defined( 'WPINC' ) || exit;
 			<br /><?php Doc::crawler_affected(); ?>
 			<br />
 			<font class="litespeed-warning">
-				⚠️ <?php printf( esc_html__( '%1$s is a %2$s paid feature.', 'zinn-cache-pro' ), 'AVIF', 'QUIC.cloud' ); ?></font>
-			<br />
-			<font class="litespeed-warning">
 				⚠️ <?php printf( esc_html__( 'When switching formats, please %1$s or %2$s to apply this new choice to previously optimized images.', 'zinn-cache-pro' ), esc_html__( 'Destroy All Optimization Data', 'zinn-cache-pro' ), esc_html__( 'Soft Reset Optimization Counter', 'zinn-cache-pro' ) ); ?></font>
 			<?php Doc::learn_more( 'https://docs.litespeedtech.com/lscache/lscwp/imageopt/#soft-reset-optimization-counter' ); ?>
 		</div>

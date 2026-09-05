@@ -61,7 +61,6 @@ $this->form_action();
 						$the_type = implode( '/', $type_list );
 						echo '<br />';
 						echo '<font class="litespeed-info">';
-						echo '⚠️ ' . sprintf( esc_html__( 'Your %1$s quota on %2$s will still be in use.', 'zinn-cache-pro' ), esc_html( $the_type ), 'QUIC.cloud' );
 						echo '</font>';
 					}
 					?>

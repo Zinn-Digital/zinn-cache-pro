@@ -14,7 +14,6 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: tpl/inc/admin_footer.php:17
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -117,14 +116,12 @@ msgstr "CDN"
 
 #: src/admin-display.cls.php:257
 #: src/gui.cls.php:891
-#: tpl/dash/dashboard.tpl.php:169
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "ಚಿತ್ರ ಆಪ್ಟಿಮೈಸೇಶನ್"
 
 #: src/admin-display.cls.php:258
-#: tpl/dash/dashboard.tpl.php:170
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "ಪುಟ ಆಪ್ಟಿಮೈಸೇಶನ್"
@@ -182,9 +179,6 @@ msgstr "ಹೊಸ CDN URL ಅನ್ನು ಸೇರಿಸಿ"
 #: tpl/cdn/other.tpl.php:45
 #: tpl/crawler/settings.tpl.php:138
 #: tpl/dash/dashboard.tpl.php:67
-#: tpl/dash/dashboard.tpl.php:425
-#: tpl/dash/dashboard.tpl.php:547
-#: tpl/dash/dashboard.tpl.php:576
 #: tpl/page_optm/settings_css.tpl.php:220
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/toolbox/settings-debug.tpl.php:80
@@ -198,9 +192,6 @@ msgstr "ಚಾಲನೆಗೊಳ್ಳುತ್ತಿದೆ"
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
-#: tpl/dash/dashboard.tpl.php:427
-#: tpl/dash/dashboard.tpl.php:549
-#: tpl/dash/dashboard.tpl.php:578
 #: tpl/img_optm/settings.media_webp.tpl.php:22
 #: tpl/page_optm/settings_css.tpl.php:93
 #: tpl/page_optm/settings_js.tpl.php:77
@@ -713,8 +704,6 @@ msgid "Please see %s for more details."
 msgstr "ಹೆಚ್ಚಿನ ವಿವರಗಳಿಗಾಗಿ ದಯವಿಟ್ಟು %s ಅನ್ನು ನೋಡಿ."
 
 #: src/doc.cls.php:101
-#: tpl/dash/dashboard.tpl.php:152
-#: tpl/dash/dashboard.tpl.php:811
 #: tpl/img_optm/summary.tpl.php:59
 #: tpl/inc/check_cache_disabled.php:46
 #: tpl/page_optm/settings_media.tpl.php:301
@@ -737,154 +726,146 @@ msgstr "ಈ ಸೆಟ್ಟಿಂಗ್ .htaccess ಫೈಲ್ ಅನ್ನು �
 msgid "The queue is processed asynchronously. It may take time."
 msgstr "ಸರತಿ ಸಾಲನ್ನು ಅಸಿಂಕ್ರೋನಸ್ ಆಗಿ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತದೆ. ಇದಕ್ಕೆ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು."
 
-#: src/error.cls.php:68
-#, php-format
-msgid "You will need to finish %s setup to use the online services."
-msgstr "ಆನ್‌ಲೈನ್ ಸೇವೆಗಳನ್ನು ಬಳಸಲು ನೀವು %s ಸೆಟಪ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಬೇಕಾಗುತ್ತದೆ."
+#: src/error.cls.php:66
+msgid "This feature needs an online generation service, which is not included in this plugin. The setting has no effect."
+msgstr "ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ ಆನ್‌ಲೈನ್ ಜನರೇಷನ್ ಸೇವೆಯ ಅಗತ್ಯವಿದೆ, ಇದು ಈ ಪ್ಲಗಿನ್‌ನಲ್ಲಿ ಸೇರಿಸಲಾಗಿಲ್ಲ. ಸೆಟ್ಟಿಂಗ್‌ ಯಾವುದೇ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ."
 
-#: src/error.cls.php:73
-#: tpl/crawler/settings.tpl.php:123
-#: tpl/crawler/settings.tpl.php:144
-#: tpl/crawler/summary.tpl.php:218
-msgid "Click here to set."
-msgstr "ಸಾಧಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
-
-#: src/error.cls.php:81
+#: src/error.cls.php:70
 msgid "You have used all of your daily quota for today."
 msgstr "ಇಂದಿನ ನಿಮ್ಮ ದೈನಂದಿನ ಕೋಟಾವನ್ನು ನೀವು ಸಂಪೂರ್ಣವಾಗಿ ಬಳಸಿಕೊಂಡಿದ್ದೀರಿ."
 
-#: src/error.cls.php:86
-#: src/error.cls.php:99
+#: src/error.cls.php:75
+#: src/error.cls.php:88
 msgid "Learn more or purchase additional quota."
 msgstr "ಹೆಚ್ಚಿನ ಮಾಹಿತಿ ಪಡೆಯಿರಿ ಅಥವಾ ಹೆಚ್ಚುವರಿ ಕೋಟಾವನ್ನು ಖರೀದಿಸಿ."
 
-#: src/error.cls.php:94
+#: src/error.cls.php:83
 msgid "You have used all of your quota left for current service this month."
 msgstr "ಈ ತಿಂಗಳಲ್ಲಿ ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಸೇವೆಗಾಗಿ ಉಳಿದಿರುವ ಕೋಟಾವನ್ನು ನೀವು ಸಂಪೂರ್ಣವಾಗಿ ಬಳಸಿಕೊಂಡಿದ್ದೀರಿ."
 
-#: src/error.cls.php:107
+#: src/error.cls.php:96
 msgid "You have too many requested images, please try again in a few minutes."
 msgstr "ನೀವು ಬಹಳಷ್ಟು ಚಿತ್ರಗಳನ್ನು ವಿನಂತಿಸಿದ್ದೀರಿ, ದಯವಿಟ್ಟು ಕೆಲವು ನಿಮಿಷಗಳ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
 
-#: src/error.cls.php:111
+#: src/error.cls.php:100
 msgid "You have images waiting to be pulled. Please wait for the automatic pull to complete, or pull them down manually now."
 msgstr "ನಿಮ್ಮ ಚಿತ್ರಗಳು ಎಳೆದುಕೊಳ್ಳಲು ಕಾಯುತ್ತಿವೆ. ಸ್ವಯಂಚಾಲಿತ ಎಳೆಯುವಿಕೆ ಪೂರ್ಣಗೊಳ್ಳುವವರೆಗೆ ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ, ಅಥವಾ ಈಗ ಅವುಗಳನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ಎಳೆದುಕೊಳ್ಳಿ."
 
-#: src/error.cls.php:115
+#: src/error.cls.php:104
 msgid "The image list is empty."
 msgstr "ಚಿತ್ರಗಳ ಪಟ್ಟಿ ಖಾಲಿಯಾಗಿದೆ."
 
-#: src/error.cls.php:119
+#: src/error.cls.php:108
 msgid "Not enough parameters. Please check if the QUIC.cloud connection is set correctly"
 msgstr "ಸಾಕುgetParameters ಇಲ್ಲ. ದಯವಿಟ್ಟು QUIC.cloud ಸಂಪರ್ಕವನ್ನು ಸರಿಯಾಗಿ ಹೊಂದಿಸಲಾಗಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ"
 
-#: src/error.cls.php:123
+#: src/error.cls.php:112
 msgid "There is proceeding queue not pulled yet."
 msgstr "ಇನ್ನೂ ಎಳೆದುಕೊಳ್ಳದ ಪ್ರಕ್ರಿಯೆಯ ಸರತಿಯಲ್ಲಿದೆ."
 
-#: src/error.cls.php:128
+#: src/error.cls.php:117
 #, php-format
 msgid "There is proceeding queue not pulled yet. Queue info: %s."
 msgstr "ಇನ್ನೂ ಎಳೆದುಕೊಳ್ಳದ ಪ್ರಕ್ರಿಯೆಯ ಸರತಿಯಲ್ಲಿದೆ. ಸರತಿಯ ಸಾಲಿನ ಮಾಹಿತಿ: %s."
 
-#: src/error.cls.php:134
+#: src/error.cls.php:123
 msgid "The site is not a valid alias on QUIC.cloud."
 msgstr "ಸೈಟ್ QUIC.cloud ನಲ್ಲಿ ಮಾನ್ಯವಾದ ಅಲಿಯಾಸ್ ಅಲ್ಲ."
 
-#: src/error.cls.php:138
+#: src/error.cls.php:127
 msgid "The site is not registered on QUIC.cloud."
 msgstr "ಸೈಟ್ QUIC.cloud ನಲ್ಲಿ ನೋಂದಾಯಿಸಲ್ಪಟ್ಟಿಲ್ಲ."
 
-#: src/error.cls.php:142
+#: src/error.cls.php:131
 msgid "The QUIC.cloud connection is not correct. Please try to sync your QUIC.cloud connection again."
 msgstr "QUIC.cloud ಸಂಪರ್ಕವು ಸರಿಯಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ QUIC.cloud ಸಂಪರ್ಕವನ್ನು ಮತ್ತೊಮ್ಮೆ ಸಿಂಕ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ."
 
-#: src/error.cls.php:146
+#: src/error.cls.php:135
 msgid "The current server is under heavy load."
 msgstr "ಪ್ರಸ್ತುತ ಸರ್ವರ್ ಹೆಚ್ಚಿನ ಲೋಟ್‌ನಲ್ಲಿದೆ."
 
-#: src/error.cls.php:150
+#: src/error.cls.php:139
 msgid "Online node needs to be redetected."
 msgstr "ಆನ್‌ಲೈನ್ ನೋಡ್ ಅನ್ನು ಮರುಪತ್ತೆ ಮಾಡಬೇಕಾಗಿದೆ."
 
-#: src/error.cls.php:154
+#: src/error.cls.php:143
 msgid "Credits are not enough to proceed the current request."
 msgstr "ಪ್ರಸ್ತುತ ವಿನಂತಿಯನ್ನು ಮುಂದುವರಿಸಲು ಕ್ರೆಡಿಟ್‌ಗಳು ಸಾಕಾಗುವುದಿಲ್ಲ."
 
-#: src/error.cls.php:158
-#: src/error.cls.php:182
+#: src/error.cls.php:147
+#: src/error.cls.php:171
 #, php-format
 msgid "%s file not writable."
 msgstr "%s ಕಡತವು ಬರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ."
 
-#: src/error.cls.php:166
+#: src/error.cls.php:155
 #, php-format
 msgid "Could not find %1$s in %2$s."
 msgstr "%2$s ನಲ್ಲಿ %1$s ಕಂಡುಬಂದಿಲ್ಲ."
 
-#: src/error.cls.php:170
+#: src/error.cls.php:159
 #, php-format
 msgid "Invalid login cookie. Please check the %s file."
 msgstr "ಅಮಾನ್ಯ ಲಾಗಿನ್ ಕುಕಿ. ದಯವಿಟ್ಟು %s ಫೈಲ್ ಅನ್ನು ಪರಿಶೀಲಿಸಿ."
 
-#: src/error.cls.php:174
+#: src/error.cls.php:163
 #, php-format
 msgid "Failed to back up %s file, aborted changes."
 msgstr "%s ಫೈಲ್ ಅನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ, ಬದಲಾವಣೆಗಳನ್ನು ಕೈಬಿಡಲಾಗಿದೆ."
 
-#: src/error.cls.php:178
+#: src/error.cls.php:167
 #, php-format
 msgid "%s file not readable."
 msgstr "%s ಕಡತವನ್ನು ಓದಲು ಸಾಧ್ಯವಿಲ್ಲ."
 
-#: src/error.cls.php:186
+#: src/error.cls.php:175
 #, php-format
 msgid "Failed to get %s file contents."
 msgstr "%s ಫೈಲ್ ವಿಷಯಗಳನ್ನು ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ."
 
-#: src/error.cls.php:190
+#: src/error.cls.php:179
 #, php-format
 msgid "Failed to create table %1$s! SQL: %2$s."
 msgstr "%1$s ಕೋಷ್ಟಕವನ್ನು ರಚಿಸಲು ವಿಫಲವಾಗಿದೆ! SQL: %2$s."
 
-#: src/error.cls.php:194
+#: src/error.cls.php:183
 msgid "Crawler disabled by the server admin."
 msgstr "ಸರ್ವರ್ ನಿರ್ವಾಹಕರಿಂದ ಕ್ರಾಲರ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ."
 
-#: src/error.cls.php:198
+#: src/error.cls.php:187
 msgid "Previous request too recent. Please try again later."
 msgstr "ಹಿಂದಿನ ವಿನಂತಿಯು ತೀರಾ ಇತ್ತೀಚಿನದು. ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
 
-#: src/error.cls.php:203
+#: src/error.cls.php:192
 #, php-format
 msgid "Previous request too recent. Please try again after %s."
 msgstr "ಹಿಂದಿನ ವಿನಂತಿಯು ತುಂಬಾ ಇತ್ತೀಚಿನದಾಗಿದೆ. ದಯವಿಟ್ಟು %s ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
 
-#: src/error.cls.php:209
+#: src/error.cls.php:198
 msgid "Your application is waiting for approval."
 msgstr "ನಿಮ್ಮ ಅರ್ಜಿಯು ಅನುಮೋದನೆಗಾಗಿ ಕಾಯುತ್ತಿದೆ."
 
-#: src/error.cls.php:213
+#: src/error.cls.php:202
 msgid "The callback validation to your domain failed due to hash mismatch."
 msgstr "ಹ್ಯಾಶ್ ಮಿಸ್‌ಮ್ಯಾಚ್ ಕಾರಣದಿಂದಾಗಿ ನಿಮ್ಮ ಡೊಮೇನ್‌ಗೆ ಕಾಲ್‌ಬ್ಯಾಕ್ ಮೌಲ್ಯಮಾಪನ ವಿಫಲವಾಗಿದೆ."
 
-#: src/error.cls.php:217
+#: src/error.cls.php:206
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
 msgstr "ನಿಮ್ಮ ಡೊಮೇನ್‌ಗೆ ಕಾಲ್‌ಬ್ಯಾಕ್ ಮೌಲ್ಯಮಾಪನ ವಿಫಲಗೊಂಡಿದೆ. ನಮ್ಮ ಸರ್ವರ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸುವ ಯಾವುದೇ ಫೈರ್‌ವಾಲ್ ಇಲ್ಲ ಎಂಬುದನ್ನು ದಯವಿಟ್ಟು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
 
-#: src/error.cls.php:222
+#: src/error.cls.php:211
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
 msgstr "ನಿಮ್ಮ ಡೊಮೇನ್‌ಗೆ ಕಾಲ್‌ಬ್ಯಾಕ್ ಮೌಲ್ಯಮಾಪನ ವಿಫಲಗೊಂಡಿದೆ. ನಮ್ಮ ಸರ್ವರ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸುವ ಯಾವುದೇ ಫೈರ್‌ವಾಲ್ ಇಲ್ಲ ಎಂಬುದನ್ನು ದಯವಿಟ್ಟು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಪ್ರತಿಕ್ರಿಯೆ ಕೋಡ್:"
 
-#: src/error.cls.php:227
+#: src/error.cls.php:216
 msgid "Your domain has been forbidden from using our services due to a previous policy violation."
 msgstr "ಹಿಂದಿನ ನೀತಿ ಉಲ್ಲಂಘನೆಯ ಕಾರಣದಿಂದಾಗಿ ನಿಮ್ಮ ಡೊಮೇನ್ ನಮ್ಮ ಸೇವೆಗಳನ್ನು ಬಳಸುವುದನ್ನು ನಿಷೇಧಿಸಲಾಗಿದೆ."
 
-#: src/error.cls.php:231
+#: src/error.cls.php:220
 msgid "You cannot remove this DNS zone, because it is still in use. Please update the domain's nameservers, then try to delete this zone again, otherwise your site will become inaccessible."
 msgstr "ನೀವು ಈ DNS ವಲಯವನ್ನು ತೆಗೆದುಹಾಕಲು ಸಾಧ್ಯವಿಲ್ಲ, ಏಕೆಂದರೆ ಇದು ಇನ್ನೂ ಬಳಕೆಯಲ್ಲಿದೆ. ದಯವಿಟ್ಟು ಡೊಮೇನ್‌ನ ನೇಮ್‌ಸರ್ವರ್‌ಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿ, ನಂತರ ಈ ವಲಯವನ್ನು ಮತ್ತೆ ಅಳಿಸಲು ಪ್ರಯತ್ನಿಸಿ, ಇಲ್ಲದಿದ್ದರೆ ನಿಮ್ಮ ಸೈಟ್ ಅನ್ನು ಪ್ರವೇಶಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ."
 
-#: src/error.cls.php:238
+#: src/error.cls.php:227
 msgid "Unknown error"
 msgstr "ಅಜ್ಞಾತ ದೋಷ"
 
@@ -1028,7 +1009,6 @@ msgstr "Cloudflare"
 #: src/gui.cls.php:945
 #: src/lang.cls.php:131
 #: tpl/dash/dashboard.tpl.php:60
-#: tpl/dash/dashboard.tpl.php:569
 #: tpl/toolbox/purge.tpl.php:55
 msgid "Object Cache"
 msgstr "ಆಬ್ಜೆಕ್ಟ್ ಕ್ಯಾಶ್"
@@ -1247,12 +1227,10 @@ msgid "Images ready to request"
 msgstr "ಚಿತ್ರಗಳು ವಿನಂತಿಸಲು ಸಿದ್ಧವಾಗಿವೆ"
 
 #: src/lang.cls.php:32
-#: tpl/dash/dashboard.tpl.php:517
 msgid "Images requested"
 msgstr "ಚಿತ್ರಗಳನ್ನು ವಿನಂತಿಸಲಾಗಿದೆ"
 
 #: src/lang.cls.php:33
-#: tpl/dash/dashboard.tpl.php:526
 msgid "Images notified to pull"
 msgstr "ಎಳೆಯಲು ಸೂಚನೆ ನೀಡಲಾದ ಚಿತ್ರಗಳು"
 
@@ -1280,7 +1258,6 @@ msgstr "ಕ್ಯಾಶ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
 
 #: src/lang.cls.php:109
 #: tpl/dash/dashboard.tpl.php:61
-#: tpl/dash/dashboard.tpl.php:570
 #: tpl/presets/standard.tpl.php:21
 msgid "Browser Cache"
 msgstr "ಬ್ರೌಸರ್ ಕ್ಯಾಶ್"
@@ -2449,48 +2426,44 @@ msgstr "ಕ್ಯಾಶ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳ�
 msgid "The network admin setting can be overridden here."
 msgstr "ನೆಟ್‌ವರ್ಕ್ ನಿರ್ವಾಹಕ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಇಲ್ಲಿ ಅತಿಕ್ರಮಿಸಬಹುದು."
 
-#: tpl/cache/settings-cache.tpl.php:49
-msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
-msgstr "QUIC.cloud CDN ಸಕ್ರಿಯಗೊಂಡಿದ್ದರೂ ಸಹ, ನಿಮ್ಮ ಸ್ಥಳೀಯ ಸರ್ವರ್‌ನಿಂದ ನೀವು ಇನ್ನೂ ಕ್ಯಾಶ್ ಹೆಡರ್‌ಗಳನ್ನು ನೋಡುತ್ತಿರಬಹುದು."
-
-#: tpl/cache/settings-cache.tpl.php:63
+#: tpl/cache/settings-cache.tpl.php:60
 #, php-format
 msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
 msgstr "ಲಾಗಿನ್ ಆಗಿರುವ ಬಳಕೆದಾರರಿಗಾಗಿ ಮುಂಭಾಗದ ಪುಟಗಳನ್ನು ಖಾಸಗಿಯಾಗಿ ಕ್ಯಾಶ್ ಮಾಡಿ. (LSWS %s ಅಗತ್ಯವಿದೆ)"
 
-#: tpl/cache/settings-cache.tpl.php:76
+#: tpl/cache/settings-cache.tpl.php:73
 #, php-format
 msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
 msgstr "ಬಾಕಿ ಇರುವ ಕಾಮೆಂಟ್‌ಗಳನ್ನು ಹೊಂದಿರುವ ಕಾಮೆಂಟ್‌ದಾರರನ್ನು ಖಾಸಗಿಯಾಗಿ ಸಂಗ್ರಹಿಸಿ. ಈ ಆಯ್ಕೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದರಿಂದ ಕಾಮೆಂಟ್‌ದಾರರಿಗೆ ಸಂಗ್ರಹಿಸಲು ಸಾಧ್ಯವಾಗದ ಪುಟಗಳನ್ನು ಒದಗಿಸಲಾಗುತ್ತದೆ. (LSWS %s ಅಗತ್ಯವಿದೆ)"
 
-#: tpl/cache/settings-cache.tpl.php:89
+#: tpl/cache/settings-cache.tpl.php:86
 msgid "Cache requests made by WordPress REST API calls."
 msgstr "WordPress REST API ಕರೆಗಳಿಂದ ಮಾಡಲಾದ 캐시 ವಿನಂತಿಗಳು."
 
-#: tpl/cache/settings-cache.tpl.php:102
+#: tpl/cache/settings-cache.tpl.php:99
 msgid "Disabling this option may negatively affect performance."
 msgstr "ಈ ಆಯ್ಕೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದರಿಂದ ಕಾರ್ಯಕ್ಷಮತೆಯ ಮೇಲೆ ನಕಾರಾತ್ಮಕ ಪರಿಣಾಮ ಬೀರಬಹುದು."
 
-#: tpl/cache/settings-cache.tpl.php:119
+#: tpl/cache/settings-cache.tpl.php:116
 msgid "URI Paths containing these strings will NOT be cached as public."
 msgstr "ಈ ಸ್ಟ್ರಿಂಗ್‌ಗಳನ್ನು ಹೊಂದಿರುವ URI ಮಾರ್ಗಗಳನ್ನು ಸಾರ್ವಜನಿಕವಾಗಿ ಕ್ಯಾಶ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ."
 
-#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:130
 msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
 msgstr "ಈ ಸ್ಟ್ರಿಂಗ್‌ಗಳನ್ನು ಹೊಂದಿರುವ ಮಾರ್ಗಗಳನ್ನು ನೋ-ಕ್ಯಾಶೆಬಲ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಹೊರತಾಗಿಯೂ ಕ್ಯಾಶೆ ಮಾಡಲಾಗುತ್ತದೆ."
 
-#: tpl/cache/settings-cache.tpl.php:136
-#: tpl/cache/settings-cache.tpl.php:161
+#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:158
 msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
 msgstr "URI ಗೆ ಕಸ್ಟಮ್ TTL ಅನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಲು, URI ನ ಕೊನೆಗೆ ಒಂದು ಸ್ಥಳಾವಕಾಶದೊಂದಿಗೆ TTL ಮೌಲ್ಯವನ್ನು ಸೇರಿಸಿ."
 
-#: tpl/cache/settings-cache.tpl.php:139
-#: tpl/cache/settings-cache.tpl.php:164
+#: tpl/cache/settings-cache.tpl.php:136
+#: tpl/cache/settings-cache.tpl.php:161
 #, php-format
 msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
 msgstr "ಉದಾಹರಣೆಗೆ, %1$s ಯು %3$s ಗಾಗಿ %2$s ಸೆಕೆಂಡುಗಳ TTL ಅನ್ನು ವ್ಯಾಖ್ಯಾನಿಸುತ್ತದೆ."
 
-#: tpl/cache/settings-cache.tpl.php:158
+#: tpl/cache/settings-cache.tpl.php:155
 msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
 msgstr "ನೋ-ಕ್ಯಾಶೆ ಮಾಡಲಾಗದ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಲೆಕ್ಕಿಸದೆ, ಈ ಸ್ಟ್ರಿಂಗ್‌ಗಳನ್ನು ಹೊಂದಿರುವ ಮಾರ್ಗಗಳನ್ನು ಸಾರ್ವಜನಿಕವಾಗಿ ಕ್ಯಾಶ್ ಮಾಡಲು ಒತ್ತಾಯಿಸಲಾಗುತ್ತದೆ."
 
@@ -2535,8 +2508,8 @@ msgid "WARNING"
 msgstr "ಎಚ್ಚರಿಕೆ"
 
 #: tpl/cache/settings-esi.tpl.php:46
-msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
-msgstr "ಈ ಆಯ್ಕೆಗಳು LiteSpeed Enterprise Web Server ಅಥವಾ QUIC.cloud CDN ನೊಂದಿಗೆ ಮಾತ್ರ ಲಭ್ಯವಿವೆ."
+msgid "These options are only available with LiteSpeed Enterprise Web Server."
+msgstr "ಈ ಆಯ್ಕೆಗಳು ಕೇವಲ LiteSpeed Enterprise Web Server ನೊಂದಿಗೆ ಮಾತ್ರ ಲಭ್ಯವಿವೆ."
 
 #: tpl/cache/settings-esi.tpl.php:59
 msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
@@ -3156,13 +3129,13 @@ msgstr "CDN ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
 
 #: tpl/cdn/other.tpl.php:44
 #, php-format
-msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
-msgstr "ನೀವು ಸಾಂಪ್ರದಾಯಿಕ ಕಂಟೆಂಟ್ ಡೆಲಿವರಿ ನೆಟ್‌ವರ್ಕ್ (CDN) ಅಥವಾ QUIC.cloud CDN ನೊಂದಿಗೆ ಸ್ಥಿರ ವಿಷಯಕ್ಕಾಗಿ ಉಪಡೊಮೇನ್ ಅನ್ನು ಬಳಸುತ್ತಿದ್ದರೆ ಈ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು %s ಮಾಡಿ."
+msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content."
+msgstr "ನೀವು ಸಾಂಪ್ರದಾಯಿಕ ಕಂಟೆಂಟ್ ಡೆಲಿವರಿ ನೆಟ್‌ವರ್ಕ್ (CDN) ಅಥವಾ ಸ್ಥಿರ ವಿಷಯಕ್ಕಾಗಿ ಉಪಡೊಮೇನ್ ಅನ್ನು ಬಳಸುತ್ತಿದ್ದರೆ ಈ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು %s ಮಾಡಿ."
 
 #: tpl/cdn/other.tpl.php:52
 #, php-format
-msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are only using QUIC.cloud or Cloudflare, leave this setting %s."
-msgstr "ಸೂಚನೆ: QUIC.cloud CDN ಮತ್ತು Cloudflare CDN ಮ್ಯಾಪಿಂಗ್ ಅನ್ನು ಬಳಸುವುದಿಲ್ಲ. ನೀವು ಕೇವಲ QUIC.cloud ಅಥವಾ Cloudflare ಅನ್ನು ಮಾತ್ರ ಬಳಸುತ್ತಿದ್ದರೆ, ಈ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು %s ಬಿಡಿ."
+msgid "NOTE: Cloudflare does not use CDN Mapping. If you are only using Cloudflare, leave this setting %s."
+msgstr "ಸೂಚನೆ: Cloudflare ಸಿಡಿಎನ್ ಮ್ಯಾಪಿಂಗ್ ಅನ್ನು ಬಳಸುವುದಿಲ್ಲ. ನೀವು ಕೇವಲ Cloudflare ಅನ್ನು ಬಳಸುತ್ತಿದ್ದರೆ, ಈ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು %s ಬಿಡಿ."
 
 #: tpl/cdn/other.tpl.php:80
 msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
@@ -3332,7 +3305,6 @@ msgstr "ಕ್ಯಾಶ್ ಮಿಸ್"
 
 #: tpl/crawler/map.tpl.php:77
 #: tpl/dash/dashboard.tpl.php:80
-#: tpl/dash/dashboard.tpl.php:765
 msgid "Crawler Status"
 msgstr "ಕ್ರಾಲರ್ ಸ್ಥಿತಿ"
 
@@ -3379,6 +3351,12 @@ msgstr "ಲಾಗಿನ್ ಆದ ಬಳಕೆದಾರರಾಗಿ ಸೈಟ್
 #, php-format
 msgid "You must set %s before using this feature."
 msgstr "ಈ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಬಳಸುವ ಮೊದಲು ನೀವು %s ಅನ್ನು ಹೊಂದಿಸಬೇಕು."
+
+#: tpl/crawler/settings.tpl.php:123
+#: tpl/crawler/settings.tpl.php:144
+#: tpl/crawler/summary.tpl.php:218
+msgid "Click here to set."
+msgstr "ಸಾಧಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
 
 #: tpl/crawler/settings.tpl.php:136
 #, php-format
@@ -3437,7 +3415,6 @@ msgstr "ಹಿಂದಿನ ಕ್ರಾಲರ್‌ನ ರನ್ ಸಮಯ"
 
 #: tpl/crawler/summary.tpl.php:104
 #: tpl/dash/dashboard.tpl.php:91
-#: tpl/dash/dashboard.tpl.php:776
 msgid "Current crawler started at"
 msgstr "ಪ್ರಸ್ತುತ ಕ್ರಾಲರ್ ಪ್ರಾರಂಭವಾದದ್ದು"
 
@@ -3447,13 +3424,11 @@ msgstr "ಪ್ರಸ್ತುತ ಸರ್ವರ್ ಲೋಡ್"
 
 #: tpl/crawler/summary.tpl.php:116
 #: tpl/dash/dashboard.tpl.php:97
-#: tpl/dash/dashboard.tpl.php:782
 msgid "Last interval"
 msgstr "ಕೊನೆಯ ಮಧ್ಯಂತರ"
 
 #: tpl/crawler/summary.tpl.php:123
 #: tpl/dash/dashboard.tpl.php:103
-#: tpl/dash/dashboard.tpl.php:788
 msgid "Ended reason"
 msgstr "ಅಂತ್ಯಗೊಂಡ ಕಾರಣ"
 
@@ -3553,340 +3528,42 @@ msgid "No crawler meta file generated yet"
 msgstr "ಯಾವುದೇ ಕ್ರಾಲರ್ ಮೆಟಾ ಫೈಲ್ ಅನ್ನು ಇನ್ನೂ ರಚಿಸಲಾಗಿಲ್ಲ"
 
 #: tpl/dash/dashboard.tpl.php:53
-#: tpl/dash/dashboard.tpl.php:562
 msgid "Cache Status"
 msgstr "ಕ್ಯಾಶ್ ಸ್ಥಿತಿ"
 
 #: tpl/dash/dashboard.tpl.php:54
 #: tpl/dash/dashboard.tpl.php:81
-#: tpl/dash/dashboard.tpl.php:486
-#: tpl/dash/dashboard.tpl.php:563
-#: tpl/dash/dashboard.tpl.php:590
-#: tpl/dash/dashboard.tpl.php:634
-#: tpl/dash/dashboard.tpl.php:678
-#: tpl/dash/dashboard.tpl.php:722
-#: tpl/dash/dashboard.tpl.php:766
-#: tpl/dash/dashboard.tpl.php:813
 msgid "More"
 msgstr "ಇನ್ನಷ್ಟು"
 
 #: tpl/dash/dashboard.tpl.php:58
-#: tpl/dash/dashboard.tpl.php:567
 msgid "Public Cache"
 msgstr "ಸಾರ್ವಜನಿಕ ಸಂಗ್ರಹಣೆ"
 
 #: tpl/dash/dashboard.tpl.php:59
-#: tpl/dash/dashboard.tpl.php:568
 msgid "Private Cache"
 msgstr "ಖಾಸಗಿ ಸಂಗ್ರಹಣೆ"
 
 #: tpl/dash/dashboard.tpl.php:84
-#: tpl/dash/dashboard.tpl.php:769
 msgid "Crawler(s)"
 msgstr "ಕ್ರಾಲರ್(ಗಳು)"
 
 #: tpl/dash/dashboard.tpl.php:87
-#: tpl/dash/dashboard.tpl.php:772
 msgid "Currently active crawler"
 msgstr "ಪ್ರಸ್ತುತ ಸಕ್ರಿಯವಾಗಿರುವ ಕ್ರಾಲರ್"
 
 #: tpl/dash/dashboard.tpl.php:111
-#: tpl/dash/dashboard.tpl.php:796
 #, php-format
 msgid "%1$s %2$d item(s)"
 msgstr "%1$s %2$d ಅಂಶ(ಗಳು)"
 
 #: tpl/dash/dashboard.tpl.php:112
-#: tpl/dash/dashboard.tpl.php:797
 msgid "Last crawled:"
 msgstr "ಕೊನೆಯದಾಗಿ ಕ್ರೌಲ್ ಮಾಡಲಾಗಿದೆ:"
 
 #: tpl/dash/dashboard.tpl.php:128
-#: tpl/dash/dashboard.tpl.php:873
 msgid "News"
 msgstr "ಸುದ್ದಿ"
-
-#: tpl/dash/dashboard.tpl.php:145
-msgid "QUIC.cloud Service Usage Statistics"
-msgstr "QUIC.cloud ಸೇವಾ ಬಳಕೆಯ ಅಂಕಿಅಂಶಗಳು"
-
-#: tpl/dash/dashboard.tpl.php:147
-msgid "Refresh Usage"
-msgstr "ಬಳಕೆಯನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ"
-
-#: tpl/dash/dashboard.tpl.php:148
-msgid "Sync data from Cloud"
-msgstr "ಕ್ಲೌಡ್‌ನಿಂದ ಡೇಟಾವನ್ನು ಸಿಂಕ್ ಮಾಡಿ"
-
-#: tpl/dash/dashboard.tpl.php:159
-#, php-format
-msgid "The features below are provided by %s"
-msgstr "ಕೆಳಗಿನ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು %s ಒದಗಿಸುತ್ತದೆ"
-
-#: tpl/dash/dashboard.tpl.php:171
-#: tpl/dash/network_dash.tpl.php:38
-msgid "CDN Bandwidth"
-msgstr "CDN ಬ್ಯಾಂಡ್‌ವಿಡ್ತ್"
-
-#: tpl/dash/dashboard.tpl.php:172
-#: tpl/dash/dashboard.tpl.php:677
-#: tpl/dash/network_dash.tpl.php:39
-msgid "Low Quality Image Placeholder"
-msgstr "ಕಡಿಮೆ ಗುಣಮಟ್ಟದ ಚಿತ್ರದ ಪ್ಲೇಸ್‌ಹೋಲ್ಡರ್"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Fast Queue Usage"
-msgstr "ವೇಗದ ಕ್ಯೂ ಬಳಕೆ"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Usage"
-msgstr "ಬಳಕೆ"
-
-#: tpl/dash/dashboard.tpl.php:236
-#: tpl/dash/network_dash.tpl.php:108
-msgid "PAYG Balance"
-msgstr "PAYG ಬಾಕಿ"
-
-#: tpl/dash/dashboard.tpl.php:237
-#, php-format
-msgid "PAYG used this month: %s. PAYG balance and usage not included in above quota calculation."
-msgstr "ಈ ತಿಂಗಳು ಬಳಸಲಾದ PAYG: %s. PAYG ಬಾಕಿ ಮತ್ತು ಬಳಕೆಯು ಮೇಲಿನ ಕೋಟಾ ಲೆಕ್ಕಾಚಾರದಲ್ಲಿ ಸೇರಿಸಲಾಗಿಲ್ಲ."
-
-#: tpl/dash/dashboard.tpl.php:239
-#: tpl/dash/network_dash.tpl.php:111
-msgid "Pay as You Go Usage Statistics"
-msgstr "ಬಳಕೆಗೆ ತಕ್ಕಂತೆ ಪಾವತಿಸಿ ಬಳಕೆಯ ಅಂಕಿಅಂಶಗಳು"
-
-#: tpl/dash/dashboard.tpl.php:257
-#: tpl/dash/network_dash.tpl.php:118
-msgid "Total Usage"
-msgstr "ಒಟ್ಟು ಬಳಕೆ"
-
-#: tpl/dash/dashboard.tpl.php:258
-#: tpl/dash/network_dash.tpl.php:119
-msgid "Total images optimized in this month"
-msgstr "ಈ ತಿಂಗಳಲ್ಲಿ ಅತ್ಯುತ್ತಮವಾಗಿಸಲಾದ ಚಿತ್ರಗಳ ಒಟ್ಟು ಸಂಖ್ಯೆ"
-
-#: tpl/dash/dashboard.tpl.php:266
-msgid "Remaining Daily Quota"
-msgstr "ಉಳಿದ ದೈನಂದಿನ ಕೋಟಾ"
-
-#: tpl/dash/dashboard.tpl.php:276
-msgid "Partner Benefits Provided by"
-msgstr "ಪಾಲುದಾರರ ಪ್ರಯೋಜನಗಳನ್ನು ಒದಗಿಸಿದವರು"
-
-#: tpl/dash/dashboard.tpl.php:312
-msgid "Enable QUIC.cloud Services"
-msgstr "QUIC.cloud ಸೇವೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
-
-#: tpl/dash/dashboard.tpl.php:319
-msgid "Go to QUIC.cloud dashboard"
-msgstr "QUIC.cloud ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗೆ ಹೋಗಿ"
-
-#: tpl/dash/dashboard.tpl.php:325
-msgid "Link to QUIC.cloud"
-msgstr "QUIC.cloud ಗೆ ಲಿಂಕ್ ಮಾಡಿ"
-
-#: tpl/dash/dashboard.tpl.php:340
-msgid "Page Load Time"
-msgstr "ಪುಟ ಲೋಡ್ ಸಮಯ"
-
-#: tpl/dash/dashboard.tpl.php:347
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-#, php-format
-msgid "Current closest Cloud server is %s. Click to redetect."
-msgstr "ಪ್ರಸ್ತುತ ಹತ್ತಿರದ ಕ್ಲೌಡ್ ಸರ್ವರ್ %s ಆಗಿದೆ. ಮರುಪತ್ತೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
-
-#: tpl/dash/dashboard.tpl.php:348
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Are you sure you want to redetect the closest cloud server for this service?"
-msgstr "ಈ ಸೇವೆಗಾಗಿ ಅತ್ಯಂತ ಸಮೀಪದ ಕ್ಲೌಡ್ ಸರ್ವರ್ ಅನ್ನು ಮರುಪತ್ತೆ ಮಾಡಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುತ್ತೀರಾ?"
-
-#: tpl/dash/dashboard.tpl.php:350
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/img_optm/summary.tpl.php:56
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Redetect"
-msgstr "ಮತ್ತೆ ಪತ್ತೆಮಾಡಿ"
-
-#: tpl/dash/dashboard.tpl.php:360
-#: tpl/dash/dashboard.tpl.php:436
-msgid "Before"
-msgstr "ಮೊದಲು"
-
-#: tpl/dash/dashboard.tpl.php:368
-#: tpl/dash/dashboard.tpl.php:444
-msgid "After"
-msgstr "ನಂತರ"
-
-#: tpl/dash/dashboard.tpl.php:376
-#: tpl/dash/dashboard.tpl.php:452
-msgid "Improved by"
-msgstr "ಇವರಿಂದ ಸುಧಾರಿಸಲಾಗಿದೆ"
-
-#: tpl/dash/dashboard.tpl.php:384
-msgid "You must be using one of the following products in order to measure Page Load Time:"
-msgstr "ಪುಟ ಲೋಡ್ ಸಮಯವನ್ನು ಅಳೆಯಲು ನೀವು ಕೆಳಗಿನ ಉತ್ಪನ್ನಗಳಲ್ಲಿ ಒಂದನ್ನು ಬಳಸುತ್ತಿರಬೇಕು:"
-
-#: tpl/dash/dashboard.tpl.php:385
-msgid "LiteSpeed Web Server"
-msgstr "LiteSpeed ವೆಬ್ ಸರ್ವರ್"
-
-#: tpl/dash/dashboard.tpl.php:387
-msgid "OpenLiteSpeed Web Server"
-msgstr "ಓಪನ್‌ಲೈಟ್‌ಸ್ಪೀಡ್ ವೆಬ್ ಸರ್ವರ್"
-
-#: tpl/dash/dashboard.tpl.php:389
-msgid "LiteSpeed Web ADC"
-msgstr "LiteSpeed ವೆಬ್ ADC"
-
-#: tpl/dash/dashboard.tpl.php:391
-#: tpl/dash/dashboard.tpl.php:809
-msgid "QUIC.cloud CDN"
-msgstr "QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:403
-#: tpl/dash/dashboard.tpl.php:468
-#, php-format
-msgid "Requested: %s ago"
-msgstr "ಕೋರಲಾಗಿದೆ: %s ಹಿಂದೆ"
-
-#: tpl/dash/dashboard.tpl.php:411
-#: tpl/dash/dashboard.tpl.php:476
-msgid "Refresh"
-msgstr "ಪುನಶ್ಚೇತನಗೊಳಿಸಿ"
-
-#: tpl/dash/dashboard.tpl.php:412
-msgid "Refresh page load time"
-msgstr "ಪುಟ ಲೋಡ್ ಸಮಯವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ"
-
-#: tpl/dash/dashboard.tpl.php:421
-msgid "PageSpeed Score"
-msgstr "ಪೇಜ್‌ಸ್ಪೀಡ್ ಸ್ಕೋರ್"
-
-#: tpl/dash/dashboard.tpl.php:477
-msgid "Refresh page score"
-msgstr "ಪುಟದ ಸ್ಕೋರ್ ಅನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ"
-
-#: tpl/dash/dashboard.tpl.php:485
-#: tpl/img_optm/entry.tpl.php:16
-msgid "Image Optimization Summary"
-msgstr "ಚಿತ್ರ ಆಪ್ಟಿಮೈಸೇಶನ್ ಸಾರಾಂಶ"
-
-#: tpl/dash/dashboard.tpl.php:502
-#: tpl/img_optm/summary.tpl.php:76
-#: tpl/img_optm/summary.tpl.php:89
-msgid "Send Optimization Request"
-msgstr "ಆಪ್ಟಿಮೈಸೇಶನ್ ವಿನಂತಿಯನ್ನು ಕಳುಹಿಸಿ"
-
-#: tpl/dash/dashboard.tpl.php:508
-#: tpl/img_optm/summary.tpl.php:316
-msgid "Total Reduction"
-msgstr "ಒಟ್ಟು ಕಡಿತ"
-
-#: tpl/dash/dashboard.tpl.php:511
-#: tpl/img_optm/summary.tpl.php:319
-msgid "Images Pulled"
-msgstr "ತೆಗೆದುಕೊಂಡ ಚಿತ್ರಗಳು"
-
-#: tpl/dash/dashboard.tpl.php:534
-#: tpl/img_optm/summary.tpl.php:322
-msgid "Last Request"
-msgstr "ಕೊನೆಯ ವಿನಂತಿ"
-
-#: tpl/dash/dashboard.tpl.php:537
-msgid "Last Pull"
-msgstr "ಕೊನೆಯ ಪುಲ್"
-
-#: tpl/dash/dashboard.tpl.php:589
-#: tpl/toolbox/purge.tpl.php:73
-msgid "Critical CSS"
-msgstr "ಕ್ರಿಟಿಕಲ್ ಸಿಎಸ್‌ಎಸ್"
-
-#: tpl/dash/dashboard.tpl.php:596
-#: tpl/dash/dashboard.tpl.php:640
-#: tpl/dash/dashboard.tpl.php:684
-#: tpl/dash/dashboard.tpl.php:728
-#, php-format
-msgid "Last generated: %s"
-msgstr "ಕೊನೆಯದಾಗಿ ಉತ್ಪಾದಿಸಲಾಗಿದೆ: %s"
-
-#: tpl/dash/dashboard.tpl.php:604
-#: tpl/dash/dashboard.tpl.php:648
-#: tpl/dash/dashboard.tpl.php:692
-#: tpl/dash/dashboard.tpl.php:736
-#, php-format
-msgid "Time to execute previous request: %s"
-msgstr "ಹಿಂದಿನ ವಿನಂತಿಯನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸಲು ತೆಗೆದುಕೊಂಡ ಸಮಯ: %s"
-
-#: tpl/dash/dashboard.tpl.php:611
-#: tpl/dash/dashboard.tpl.php:655
-#: tpl/dash/dashboard.tpl.php:699
-#: tpl/dash/dashboard.tpl.php:743
-msgid "Requests in queue"
-msgstr "ಸರತಿಯಲ್ಲಿರುವ ವಿನಂತಿಗಳು"
-
-#: tpl/dash/dashboard.tpl.php:614
-#: tpl/dash/dashboard.tpl.php:658
-#: tpl/dash/dashboard.tpl.php:702
-#: tpl/dash/dashboard.tpl.php:746
-msgid "Force cron"
-msgstr "ಬಲವಂತದ ಕ್ರೋನ್"
-
-#: tpl/dash/dashboard.tpl.php:622
-#: tpl/dash/dashboard.tpl.php:666
-#: tpl/dash/dashboard.tpl.php:710
-#: tpl/dash/dashboard.tpl.php:754
-#, php-format
-msgid "Last requested: %s"
-msgstr "ಕೊನೆಯದಾಗಿ ವಿನಂತಿಸಿದ್ದು: %s"
-
-#: tpl/dash/dashboard.tpl.php:633
-#: tpl/toolbox/purge.tpl.php:82
-msgid "Unique CSS"
-msgstr "ಅನನ್ಯ CSS"
-
-#: tpl/dash/dashboard.tpl.php:721
-msgid "Viewport Image"
-msgstr "ವ್ಯೂಪೋರ್ಟ್ ಚಿತ್ರ"
-
-#: tpl/dash/dashboard.tpl.php:822
-msgid "Enable QUIC.cloud CDN"
-msgstr "QUIC.cloud CDN ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
-
-#: tpl/dash/dashboard.tpl.php:829
-msgid "Best available WordPress performance"
-msgstr "ಉತ್ತಮ ಲಭ್ಯವಿರುವ WordPress ಕಾರ್ಯಕ್ಷಮತೆ"
-
-#: tpl/dash/dashboard.tpl.php:834
-#, php-format
-msgid "Globally fast TTFB, easy setup, and %s!"
-msgstr "ಜಾಗತಿಕವಾಗಿ ವೇಗದ TTFB, ಸುಲಭವಾದ ಸೆಟಪ್ ಮತ್ತು %s!"
-
-#: tpl/dash/dashboard.tpl.php:835
-msgid "more"
-msgstr "ಇನ್ನಷ್ಟು"
-
-#: tpl/dash/dashboard.tpl.php:851
-msgid "Refresh Status"
-msgstr "ಸ್ಥಿತಿಯನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ"
-
-#: tpl/dash/dashboard.tpl.php:852
-msgid "Refresh QUIC.cloud status"
-msgstr "QUIC.cloud ಸ್ಥಿತಿಯನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ"
 
 #: tpl/dash/entry.tpl.php:21
 msgid "Network Dashboard"
@@ -3901,14 +3578,46 @@ msgstr "Zinn® ಕೆಶ್ ಎಂಜಿನ್ ಡ್ಯಾಶ್‌ಬೋರ್
 msgid "Usage Statistics: %s"
 msgstr "ಬಳಕೆಯ ಅಂಕಿಅಂಶಗಳು: %s"
 
+#: tpl/dash/network_dash.tpl.php:38
+msgid "CDN Bandwidth"
+msgstr "CDN ಬ್ಯಾಂಡ್‌ವಿಡ್ತ್"
+
+#: tpl/dash/network_dash.tpl.php:39
+msgid "Low Quality Image Placeholder"
+msgstr "ಕಡಿಮೆ ಗುಣಮಟ್ಟದ ಚಿತ್ರದ ಪ್ಲೇಸ್‌ಹೋಲ್ಡರ್"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Fast Queue Usage"
+msgstr "ವೇಗದ ಕ್ಯೂ ಬಳಕೆ"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Usage"
+msgstr "ಬಳಕೆ"
+
 #: tpl/dash/network_dash.tpl.php:107
 msgid "Pay as You Go"
 msgstr "ಬಳಕೆಗೆ ತಕ್ಕಂತೆ ಪಾವತಿಸಿ"
+
+#: tpl/dash/network_dash.tpl.php:108
+msgid "PAYG Balance"
+msgstr "PAYG ಬಾಕಿ"
 
 #: tpl/dash/network_dash.tpl.php:109
 #, php-format
 msgid "This Month Usage: %s"
 msgstr "ಈ ತಿಂಗಳ ಬಳಕೆ: %s"
+
+#: tpl/dash/network_dash.tpl.php:111
+msgid "Pay as You Go Usage Statistics"
+msgstr "ಬಳಕೆಗೆ ತಕ್ಕಂತೆ ಪಾವತಿಸಿ ಬಳಕೆಯ ಅಂಕಿಅಂಶಗಳು"
+
+#: tpl/dash/network_dash.tpl.php:118
+msgid "Total Usage"
+msgstr "ಒಟ್ಟು ಬಳಕೆ"
+
+#: tpl/dash/network_dash.tpl.php:119
+msgid "Total images optimized in this month"
+msgstr "ಈ ತಿಂಗಳಲ್ಲಿ ಅತ್ಯುತ್ತಮವಾಗಿಸಲಾದ ಚಿತ್ರಗಳ ಒಟ್ಟು ಸಂಖ್ಯೆ"
 
 #: tpl/db_optm/entry.tpl.php:17
 #: tpl/db_optm/settings.tpl.php:19
@@ -4131,58 +3840,53 @@ msgstr "ಈ ಆಯ್ಕೆಯು ಅತಿಥಿ ಮೋಡ್ ಸಂದರ್�
 msgid "Please read all warnings before enabling this option."
 msgstr "ಈ ಆಯ್ಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವ ಮೊದಲು ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಎಚ್ಚರಿಕೆಗಳನ್ನು ಓದಿ."
 
-#: tpl/general/settings.tpl.php:64
-#, php-format
-msgid "Your %1$s quota on %2$s will still be in use."
-msgstr "%2$s ನಲ್ಲಿ ನಿಮ್ಮ %1$s ಕೋಟಾ ಇನ್ನೂ ಬಳಕೆಯಲ್ಲಿದೆ."
-
-#: tpl/general/settings.tpl.php:72
-#: tpl/general/settings.tpl.php:79
-#: tpl/general/settings.tpl.php:86
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:71
+#: tpl/general/settings.tpl.php:78
+#: tpl/general/settings.tpl.php:85
+#: tpl/general/settings.tpl.php:102
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 msgid "Notice"
 msgstr "ಸೂಚನೆ"
 
-#: tpl/general/settings.tpl.php:72
+#: tpl/general/settings.tpl.php:71
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 #, php-format
 msgid "%s must be turned ON for this setting to work."
 msgstr "ಈ ಸೆಟ್ಟಿಂಗ್ ಕೆಲಸ ಮಾಡಲು %s ಅನ್ನು ಆನ್ ಮಾಡಬೇಕು."
 
-#: tpl/general/settings.tpl.php:79
+#: tpl/general/settings.tpl.php:78
 #, php-format
 msgid "You need to turn %s on to get maximum result."
 msgstr "ಗರಿಷ್ಠ ಫಲಿತಾಂಶವನ್ನು ಪಡೆಯಲು ನೀವು %s ಅನ್ನು ಆನ್ ಮಾಡಬೇಕು."
 
-#: tpl/general/settings.tpl.php:86
+#: tpl/general/settings.tpl.php:85
 #, php-format
 msgid "You need to turn %s on and finish all WebP generation to get maximum result."
 msgstr "ಗರಿಷ್ಠ ಫಲಿತಾಂಶವನ್ನು ಪಡೆಯಲು ನೀವು %s ಅನ್ನು ಆನ್ ಮಾಡಬೇಕು ಮತ್ತು ಎಲ್ಲಾ WebP ಜನರೇಶನ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಬೇಕು."
 
-#: tpl/general/settings.tpl.php:101
+#: tpl/general/settings.tpl.php:100
 msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
 msgstr "ಡೊಮೇನ್ ಹೆಸರಿನ ಬದಲು ನೇರವಾಗಿ IP ಅನ್ನು ಕರೆಯಲು ಕ್ಲೌಡ್ ಸೇವೆಗಳನ್ನು ಅನುಮತಿಸಲು ಈ ಸೈಟ್‌ನ IP ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ. ಇದು DNS ಮತ್ತು CDN ಲುಕಪ್‌ಗಳ ಓವರ್‌ಹೆಡ್ ಅನ್ನು ನಿವಾರಿಸುತ್ತದೆ."
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Your server IP"
 msgstr "ನಿಮ್ಮ ಸರ್ವರ್ IP"
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Check my public IP from"
 msgstr "ನನ್ನ ಸಾರ್ವಜನಿಕ IP ಯನ್ನು ಪರಿಶೀಲಿಸಿ"
 
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:102
 msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
 msgstr "ನಿಮ್ಮ ಸರ್ವರ್‌ನಲ್ಲಿ ನೀವು ಹೆಚ್ಚುವರಿ ಔಟ್‌ಗೋಯಿಂಗ್ IP ಹೊಂದಿಸಿದ್ದರೆ ಅಥವಾ ಮಲ್ಟಿಪಲ್ IPಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿದ್ದರೆ, ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆಯಾದ IP ನಿಖರವಾಗಿಲ್ಲದಿರಬಹುದು."
 
-#: tpl/general/settings.tpl.php:104
+#: tpl/general/settings.tpl.php:103
 msgid "Please make sure this IP is the correct one for visiting your site."
 msgstr "ನಿಮ್ಮ ಸೈಟ್‌ಗೆ ಭೇಟಿ ನೀಡಲು ಈ IP ಸರಿಯಾದದ್ದಾಗಿದೆ ಎಂಬುದನ್ನು ದಯವಿಟ್ಟು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
 
-#: tpl/general/settings.tpl.php:119
+#: tpl/general/settings.tpl.php:118
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
 msgstr "ಹಾಟ್‌ಫಿಕ್ಸ್‌ಗಳು, ಹೊಸ ಬಿಡುಗಡೆಗಳು, ಲಭ್ಯವಿರುವ ಬೀಟಾ ಆವೃತ್ತಿಗಳು ಮತ್ತು ಕೊಡುಗೆಗಳು ಸೇರಿದಂತೆ ಇತ್ತೀಚಿನ ಸುದ್ದಿಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ತೋರಿಸಲು ಈ ಆಯ್ಕೆಯನ್ನು ಆನ್ ಮಾಡಿ."
 
@@ -4232,6 +3936,10 @@ msgstr "ಶಸ್ತ್ರವಾಗಿ ಸಿಂಕ್ ಮಾಡಲಾಗಿದ�
 msgid "Sync failed."
 msgstr "ಸಿಂಕ್ ವಿಫಲಗೊಂಡಿದೆ."
 
+#: tpl/img_optm/entry.tpl.php:16
+msgid "Image Optimization Summary"
+msgstr "ಚಿತ್ರ ಆಪ್ಟಿಮೈಸೇಶನ್ ಸಾರಾಂಶ"
+
 #: tpl/img_optm/entry.tpl.php:17
 #: tpl/img_optm/entry.tpl.php:22
 #: tpl/img_optm/network_settings.tpl.php:19
@@ -4254,20 +3962,15 @@ msgstr "ಚಿತ್ರಗಳನ್ನು ಅವುಗಳ ಆಪ್ಟಿಮೈ�
 
 #: tpl/img_optm/settings.media_webp.tpl.php:31
 #, php-format
-msgid "%1$s is a %2$s paid feature."
-msgstr "%1$s ಎಂಬುದು ಪಾವತಿಸಿದ %2$s ವೈಶಿಷ್ಟ್ಯವಾಗಿದೆ."
-
-#: tpl/img_optm/settings.media_webp.tpl.php:34
-#, php-format
 msgid "When switching formats, please %1$s or %2$s to apply this new choice to previously optimized images."
 msgstr "ರೂಪಗಳನ್ನು ಬದಲಾಯಿಸುವಾಗ, ಹಿಂದೆ ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿದ ಚಿತ್ರಗಳಿಗೆ ಈ ಹೊಸ ಆಯ್ಕೆಯನ್ನು ಅನ್ವಯಿಸಲು ದಯವಿಟ್ಟು %1$s ಅಥವಾ %2$s ಬಳಸಿ."
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:378
 msgid "Destroy All Optimization Data"
 msgstr "ಎಲ್ಲಾ ಆಪ್ಟಿಮೈಸೇಶನ್ ಡೇಟಾವನ್ನು ನಾಶಮಾಡಿ"
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:368
 msgid "Soft Reset Optimization Counter"
 msgstr "ಸಾಫ್ಟ್ ರಿಸೆಟ್ ಆಪ್ಟಿಮೈಸೇಶನ್ ಕೌಂಟರ್"
@@ -4328,9 +4031,35 @@ msgstr "ಯ Which element attributes will be replaced with WebP/AVIF."
 msgid "Enable replacement of WebP/AVIF in %s elements that were generated outside of WordPress logic."
 msgstr "WordPress ತರ್ಕದ ಹೊರಗೆ ಉತ್ಪಾದಿಸಲಾದ %s ಅಂಶಗಳಲ್ಲಿ WebP/AVIF ಬದಲಾವಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ."
 
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+#, php-format
+msgid "Current closest Cloud server is %s. Click to redetect."
+msgstr "ಪ್ರಸ್ತುತ ಹತ್ತಿರದ ಕ್ಲೌಡ್ ಸರ್ವರ್ %s ಆಗಿದೆ. ಮರುಪತ್ತೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "ಈ ಸೇವೆಗಾಗಿ ಅತ್ಯಂತ ಸಮೀಪದ ಕ್ಲೌಡ್ ಸರ್ವರ್ ಅನ್ನು ಮರುಪತ್ತೆ ಮಾಡಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುತ್ತೀರಾ?"
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/img_optm/summary.tpl.php:56
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Redetect"
+msgstr "ಮತ್ತೆ ಪತ್ತೆಮಾಡಿ"
+
 #: tpl/img_optm/summary.tpl.php:58
-msgid "Optimize images with our QUIC.cloud server"
-msgstr "ನಮ್ಮ QUIC.cloud ಸರ್ವರ್‌ನೊಂದಿಗೆ ಚಿತ್ರಗಳನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ"
+msgid "Image optimisation"
+msgstr "ಚಿತ್ರ ಆಪ್ಟಿಮೈಸೇಶನ್"
 
 #: tpl/img_optm/summary.tpl.php:63
 #, php-format
@@ -4344,6 +4073,11 @@ msgstr "ನಮ್ಮ ಸರ್ವರ್ ನಿಮ್ಮ ಸರ್ವರ್‌ನ
 #: tpl/img_optm/summary.tpl.php:69
 msgid "Current limit is"
 msgstr "ಪ್ರಸ್ತುತ ಮಿತಿ ಇದೆ"
+
+#: tpl/img_optm/summary.tpl.php:76
+#: tpl/img_optm/summary.tpl.php:89
+msgid "Send Optimization Request"
+msgstr "ಆಪ್ಟಿಮೈಸೇಶನ್ ವಿನಂತಿಯನ್ನು ಕಳುಹಿಸಿ"
 
 #: tpl/img_optm/summary.tpl.php:77
 #: tpl/page_optm/settings_css.tpl.php:156
@@ -4370,8 +4104,8 @@ msgid "Optimization Status"
 msgstr "ಆಪ್ಟಿಮೈಸೇಶನ್ ಸ್ಥಿತಿ"
 
 #: tpl/img_optm/summary.tpl.php:141
-msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
-msgstr "QUIC.cloud ಇಮೇಜ್ ಆಪ್ಟಿಮೈಸೇಷನ್ ಸರ್ವರ್ ಆಪ್ಟಿಮೈಸೇಷನ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ ನಂತರ, ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿದ ಚಿತ್ರಗಳನ್ನು ಎಳೆದುಕೊಳ್ಳಲು ಅದು ನಿಮ್ಮ ಸೈಟ್‌ಗೆ ಸೂಚನೆ ನೀಡುತ್ತದೆ."
+msgid "When the optimisation server finishes, it notifies your site to pull the optimised images."
+msgstr "ಆಪ್ಟಿಮೈಸೇಶನ್ ಸರ್ವರ್ ಪೂರ್ಣಗೊಂಡಾಗ, ಅದು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿದ ಚಿತ್ರಗಳನ್ನು ಎಳೆದುಕೊಳ್ಳಲು (ಪುಲ್ ಮಾಡಲು) ನಿಮ್ಮ ಸೈಟ್‌ಗೆ ಸೂಚನೆ ನೀಡುತ್ತದೆ."
 
 #: tpl/img_optm/summary.tpl.php:142
 msgid "This process is automatic."
@@ -4473,6 +4207,18 @@ msgstr "ಹೊಸ ಥಂಬ್‌ನೇಲ್‌ಗಳನ್ನು ಮರು-ಸ
 msgid "Optimization Summary"
 msgstr "ಆಪ್ಟಿಮೈಸೇಶನ್ ಸಾರಾಂಶ"
 
+#: tpl/img_optm/summary.tpl.php:316
+msgid "Total Reduction"
+msgstr "ಒಟ್ಟು ಕಡಿತ"
+
+#: tpl/img_optm/summary.tpl.php:319
+msgid "Images Pulled"
+msgstr "ತೆಗೆದುಕೊಂಡ ಚಿತ್ರಗಳು"
+
+#: tpl/img_optm/summary.tpl.php:322
+msgid "Last Request"
+msgstr "ಕೊನೆಯ ವಿನಂತಿ"
+
 #: tpl/img_optm/summary.tpl.php:325
 msgid "Last Pulled"
 msgstr "ಕೊನೆಯದಾಗಿ ಎಳೆದದ್ದು"
@@ -4520,26 +4266,21 @@ msgstr "ಎಲ್ಲಾ ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿದ ಚಿತ್
 msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
 msgstr "ಹಿಂದಿನ ಎಲ್ಲಾ ಚಿತ್ರ ಆಪ್ಟಿಮೈಸೇಶನ್ ವಿನಂತಿಗಳು/ಫgetResult ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ, ಪೂರ್ಣಗೊಂಡ ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳನ್ನು ಹಿಂತಿರುಗಿಸಿ ಮತ್ತು ಎಲ್ಲಾ ಆಪ್ಟಿಮೈಸೇಶನ್ ಫೈಲ್‌ಗಳನ್ನು ಅಳಿಸಿಹಾಕಿ."
 
-#: tpl/inc/admin_footer.php:17
-#, php-format
-msgid "Rate %1$s on %2$s"
-msgstr "%2$s ನಲ್ಲಿ %1$s ಅನ್ನು ರೇಟ್ ಮಾಡಿ"
+#: tpl/inc/admin_footer.php:16
+msgid "Read the upstream Zinn® Cache Engine documentation"
+msgstr "ಅಪ್ಸ್‌ಸ್ಟ್ರೀಮ್ Zinn® ಕ್ಯಾಶ್ ಇಂಜಿನ್ ದಸ್ತಾವೇಜನ್ನು ಓದಿ"
 
 #: tpl/inc/admin_footer.php:19
-msgid "Read LiteSpeed Documentation"
-msgstr "LiteSpeed ದಸ್ತಾವೇಜನ್ನು ಓದಿ"
+msgid "Zinn Digital® support"
+msgstr "Zinn Digital® ಬೆಂಬಲ"
 
-#: tpl/inc/admin_footer.php:21
-msgid "Visit LSCWP support forum"
-msgstr "LSCWP ಬೆಂಬಲ ವೇದಿಕೆಗೆ ಭೇಟಿ ನೀಡಿ"
-
-#: tpl/inc/admin_footer.php:23
-msgid "Join LiteSpeed Slack community"
-msgstr "LiteSpeed Slack ಸಮುದಾಯವನ್ನು ಸೇರಿ"
+#: tpl/inc/admin_footer.php:22
+msgid "Zinn® Cache Engine user guide"
+msgstr "Zinn® ಕ್ಯಾಚ್ ಎಂಜಿನ್ ಬಳಕೆದಾರರ ಮಾರ್ಗದರ್ಶಿ"
 
 #: tpl/inc/check_cache_disabled.php:20
-msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
-msgstr "ಕ್ಯಾಶಿಂಗ್ ಕಾರ್ಯಗಳನ್ನು ಬಳಸಲು ನೀವು LiteSpeed ವೆಬ್ ಸರ್ವರ್ ಅನ್ನು ಹೊಂದಿರಬೇಕು ಅಥವಾ QUIC.cloud CDN ಅನ್ನು ಬಳಸುತ್ತಿರಬೇಕು."
+msgid "To use the caching functions you must have a LiteSpeed or OpenLiteSpeed web server with the LSCache module."
+msgstr "ಕ್ಯಾಶಿಂಗ್ ಕಾರ್ಯಗಳನ್ನು ಬಳಸಲು ನೀವು LSCache ಮಾಡ್ಯೂಲ್‌ನೊಂದಿಗೆ LiteSpeed ಅಥವಾ OpenLiteSpeed ವೆಬ್ ಸರ್ವರ್ ಅನ್ನು ಹೊಂದಿರಬೇಕು."
 
 #: tpl/inc/check_cache_disabled.php:25
 msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
@@ -4752,8 +4493,8 @@ msgid "How to Fix Problems Caused by CSS/JS Optimization."
 msgstr "CSS/JS ಆಪ್ಟಿಮೈಸೇಶನ್‌ನಿಂದ ಉಂಟಾಗುವ ಸಮಸ್ಯೆಗಳನ್ನು ಸರಿಪಡಿಸುವುದು ಹೇಗೆ."
 
 #: tpl/page_optm/settings_css.tpl.php:82
-msgid "Use QUIC.cloud online service to generate unique CSS."
-msgstr "ಅನನ್ಯ CSS ಅನ್ನು ರಚಿಸಲು QUIC.cloud ಆನ್‌ಲೈನ್ ಸೇವೆಯನ್ನು ಬಳಸಿ."
+msgid "Generate unique CSS through an online generation service."
+msgstr "ಆನ್‌ಲೈನ್ ಜನರೇಷನ್ ಸೇವೆಯ ಮೂಲಕ ವಿಶಿಷ್ಟವಾದ CSS ಅನ್ನು ರಚಿಸಿ."
 
 #: tpl/page_optm/settings_css.tpl.php:83
 msgid "This will drop the unused CSS on each page from the combined file."
@@ -4835,8 +4576,8 @@ msgid "This can improve your speed score in services like Pingdom, GTmetrix and 
 msgstr "Pingdom, GTmetrix ಮತ್ತು PageSpeed ​​ನಂತಹ ಸೇವೆಗಳಲ್ಲಿ ಇದು ನಿಮ್ಮ ವೇಗದ ಸ್ಕೋರ್ ಅನ್ನು ಸುಧಾರಿಸಬಹುದು."
 
 #: tpl/page_optm/settings_css.tpl.php:217
-msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
-msgstr "ನಿರ್ಣಾಯಕ CSS ಅನ್ನು ರಚಿಸಲು ಮತ್ತು ಉಳಿದ CSS ಅನ್ನು ಅಸಿಂಕ್ರೋನಸ್ ಆಗಿ ಲೋಡ್ ಮಾಡಲು QUIC.cloud ಆನ್‌ಲೈನ್ ಸೇವೆಯನ್ನು ಬಳಸಿ."
+msgid "Generate critical CSS through an online generation service and load the remaining CSS asynchronously."
+msgstr "ಆನ್‌ಲೈನ್ ಜನರೇಷನ್ ಸೇವೆಯ ಮೂಲಕ ಕ್ರಿಟಿಕಲ್ ಸಿಎಸ್‌ಎಸ್ ಅನ್ನು ಜನರೇಟ್ ಮಾಡಿ ಮತ್ತು ಉಳಿದ ಸಿಎಸ್‌ಎಸ್ ಅನ್ನು ಅಸಿಂಕ್ರೋನಸ್ ಆಗಿ ಲೋಡ್ ಮಾಡಿ."
 
 #: tpl/page_optm/settings_css.tpl.php:219
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
@@ -5116,8 +4857,8 @@ msgid "Specify the responsive placeholder SVG color."
 msgstr "ಪ್ರತಿponsive ಪ್ಲೇಸ್‌ಹೋಲ್ಡರ್ SVG ಬಣ್ಣವನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ."
 
 #: tpl/page_optm/settings_media.tpl.php:122
-msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
-msgstr "ಲೋಡ್ ಆಗುವಾಗ ಪ್ರತಿಕ್ರಿಯಾಶೀಲ ಚಿತ್ರ ಮುನ್ನೋಟಗಳಿಗಾಗಿ QUIC.cloud LQIP (ಕಡಿಮೆ ಗುಣಮಟ್ಟದ ಚಿತ್ರ ಸ್ಥಳಹಾಗೇ) ಜನರೇಟರ್ ಸೇವೆಯನ್ನು ಬಳಸಿ."
+msgid "Generate Low Quality Image Placeholders through an online generation service, for responsive image previews while loading."
+msgstr "ಲೋಡ್ ಆಗುವಾಗ ರೆಸ್ಪಾನ್ಸಿವ್ ಇಮೇಜ್ ಮುನ್ನೋಟಗಳಿಗಾಗಿ, ಆನ್‌ಲೈನ್ ಜನರೇಷನ್ ಸೇವೆ ಮೂಲಕ ಕಡಿಮೆ ಗುಣಮಟ್ಟದ ಇಮೇಜ್ ಪ್ಲೇಸ್‌ಹೋಲ್ಡರ್‌ಗಳನ್ನು ಜನರೇಟ್ ಮಾಡಿ."
 
 #: tpl/page_optm/settings_media.tpl.php:123
 msgid "Keep this off to use plain color placeholders."
@@ -5392,8 +5133,8 @@ msgid "This no-risk preset is appropriate for all websites. Good for new users, 
 msgstr "ಈ ಯಾವುದೇ ಅಪಾಯವಿಲ್ಲದ ಪ್ರಿಸೆಟ್ ಎಲ್ಲಾ ವೆಬ್‌ಸೈಟ್‌ಗಳಿಗೆ ಸೂಕ್ತವಾಗಿದೆ. ಹೊಸ ಬಳಕೆದಾರರಿಗೆ, ಸರಳ ವೆಬ್‌ಸೈಟ್‌ಗಳಿಗೆ ಅಥವಾ ಕ್ಯಾಶ್-ಆಧಾರಿತ ಅಭಿವೃದ್ಧಿಗೆ ಇದು ಉತ್ತಮವಾಗಿದೆ."
 
 #: tpl/presets/standard.tpl.php:25
-msgid "A QUIC.cloud connection is not required to use this preset. Only basic caching features are enabled."
-msgstr "ಈ ಪ್ರಿಸೆಟ್ ಅನ್ನು ಬಳಸಲು QUIC.cloud ಸಂಪರ್ಕದ ಅಗತ್ಯವಿಲ್ಲ. ಮೂಲಭೂತ 캐싱 (caching) ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಮಾತ್ರ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ."
+msgid "Only basic caching features are enabled. Every option in this preset works without any online service."
+msgstr "ಕೇವಲ ಮೂಲಭೂತ ಕ್ಯಾಶಿಂಗ್ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ. ಈ ಪೂರ್ವನಿಗದಿತ ಸೆಟ್ಟಿಂಗ್‌ನಲ್ಲಿರುವ ಪ್ರತಿಯೊಂದು ಆಯ್ಕೆಯು ಯಾವುದೇ ಆನ್‌ಲೈನ್ ಸೇವೆ ಇಲ್ಲದೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ."
 
 #: tpl/presets/standard.tpl.php:29
 #: tpl/toolbox/settings-debug.tpl.php:117
@@ -5413,8 +5154,8 @@ msgid "This low-risk preset introduces basic optimizations for speed and user ex
 msgstr "ಈ ಕಡಿಮೆ-ಅಪಾಯದ ಪೂರ್ವನಿರ್ಧರಿತ ಆಯ್ಕೆಯು ವೇಗ ಮತ್ತು ಬಳಕೆದಾರರ ಅನುಭವಕ್ಕಾಗಿ ಮೂಲಭೂತ ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳನ್ನು ಪರಿಚಯಿಸುತ್ತದೆ. ಉತ್ಸಾಹಿ ಆರಂಭಿಕರಿಗೆ ಸೂಕ್ತವಾಗಿದೆ."
 
 #: tpl/presets/standard.tpl.php:37
-msgid "A QUIC.cloud connection is required to use this preset. Includes optimizations known to improve site score in page speed measurement tools."
-msgstr "ಈ ಪ್ರಿನ್ಸೆಟ್ ಅನ್ನು ಬಳಸಲು QUIC.cloud ಸಂಪರ್ಕದ ಅಗತ್ಯವಿದೆ. ಪುಟ ವೇಗದ ಮಾಪನ ಸಾಧನಗಳಲ್ಲಿ ಸೈಟ್ ಸ್ಕೋರ್ ಅನ್ನು ಸುಧಾರಿಸಲು ತಿಳಿದಿರುವ ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ."
+msgid "Includes optimizations known to improve site score in page speed measurement tools. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "ಪುಟ ವೇಗ ಅಳತೆ ಸಾಧನಗಳಲ್ಲಿ ಸೈಟ್ ಸ್ಕೋರ್ ಅನ್ನು ಸುಧಾರಿಸಲು ತಿಳಿದಿರುವ ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ. ಅವುಗಳಲ್ಲಿ ಕೆಲೊಂದಕ್ಕೆ ಆನ್‌ಲೈನ್ ಜನರೇಷನ್ ಸೇವೆಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಇದು ಈ ಪ್ಲಗಿನ್‌ನಲ್ಲಿ ಸೇರಿಸಲಾಗಿಲ್ಲ ಮತ್ತು ಅವು ಯಾವುದೇ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ."
 
 #: tpl/presets/standard.tpl.php:41
 msgid "Advanced (Recommended)"
@@ -5450,8 +5191,8 @@ msgstr "ಈ ಮುನ್ನೆಟ್ಪು ಹೆಚ್ಚಿನ ವೆಬ್‌
 
 #: tpl/presets/standard.tpl.php:56
 #: tpl/presets/standard.tpl.php:70
-msgid "A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores."
-msgstr "ಈ ಪ್ರೆಸೆಟ್ ಅನ್ನು ಬಳಸಲು QUIC.cloud ಸಂಪರ್ಕದ ಅಗತ್ಯವಿದೆ. ಪುಟದ ವೇಗದ ಅಂಕಗಳನ್ನು ಸುಧಾರಿಸಲು ಹೆಸರುವಾಸಿಯಾದ ಅನೇಕ ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ."
+msgid "Includes many optimizations known to improve page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "ಪುಟದ ವೇಗದ ಅಂಕಗಳನ್ನು ಸುಧಾರಿಸಲು ಹೆಸರುವಾಸಿಯಾದ ಅನೇಕ ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ. ಇವುಗಳಲ್ಲಿ ಕೆಲವು ಆನ್‌ಲೈನ್ ಜನರೇಷನ್ ಸೇವೆಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಇದು ಈ ಪ್ಲಗಿನ್‌ನಲ್ಲಿ ಸೇರಿಸಲಾಗಿಲ್ಲ ಮತ್ತು ಅವು ಯಾವುದೇ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ."
 
 #: tpl/presets/standard.tpl.php:60
 msgid "Aggressive"
@@ -5514,8 +5255,8 @@ msgid "This preset almost certainly will require testing and exclusions for some
 msgstr "ಈ ಪೂರ್ವನಿಗದಿತ ಸೆಟ್ಟಿಂಗ್‌ಗೆ ಬಹುಶಃ ಕೆಲವು CSS, JS ಮತ್ತು ಲೇಜಿ ಲೋಡ್ ಮಾಡಿದ ಚಿತ್ರಗಳಿಗಾಗಿ ಪರೀಕ್ಷೆ ಮತ್ತು ಹೊರಗಿಡುವಿಕೆಗಳು (ಎಕ್ಸ್‌ಕ್ಲೂಷನ್‌ಗಳು) ಖಂಡಿತವಾಗಿಯೂ ಅಗತ್ಯವಿರುತ್ತದೆ. ಲೋಗೋಗಳು ಅಥವಾ HTML-ಆಧಾರಿತ ಸ್ಲೈಡರ್ ಚಿತ್ರಗಳ ಬಗ್ಗೆ ವಿಶೇಷ ಗಮನ ಹರಿಸಿ."
 
 #: tpl/presets/standard.tpl.php:85
-msgid "A QUIC.cloud connection is required to use this preset. Enables the maximum level of optimizations for improved page speed scores."
-msgstr "ಈ ಮುನ್ನೆಲೆಯನ್ನು ಬಳಸಲು QUIC.cloud ಸಂಪರ್ಕದ ಅಗತ್ಯವಿದೆ. ಸುಧಾರಿತ ಪುಟ ವೇಗದ ಅಂಕಗಳಿಗಾಗಿ ಇದು ಗರಿಷ್ಠ ಮಟ್ಟದ ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ."
+msgid "Enables the maximum level of optimizations for improved page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "ಪುಟದ ವೇಗದ ಸ್ಕೋರ್‌ಗಳನ್ನು ಸುಧಾರಿಸಲು ಅತ್ಯಧಿಕ ಮಟ್ಟದ ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ. ಇವುಗಳಲ್ಲಿ ಕೆಲವೊಂದಕ್ಕೆ ಆನ್‌ಲೈನ್ ಉತ್ಪಾದನಾ ಸೇವೆಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಇದು ಈ ಪ್ಲಗ್‌ಇನ್‌ನಲ್ಲಿ ಸೇರಿಸಲಾಗಿಲ್ಲ ಮತ್ತು ಅವು ಯಾವುದೇ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ."
 
 #: tpl/presets/standard.tpl.php:92
 msgid "Zinn® Cache Engine Standard Presets"
@@ -5802,9 +5543,17 @@ msgstr "ಎಲ್ಲಾ ಆಬ್ಜೆಕ್ಟ್ ಕ್ಯಾಷೆಗಳನ�
 msgid "Reset the entire opcode cache"
 msgstr "ಸಂಪೂರ್ಣ ಒಪ್‌ಕೋಡ್ ಕ್ಯಾಶೆಯನ್ನು ಮರುಹೊಂದಿಸಿ"
 
+#: tpl/toolbox/purge.tpl.php:73
+msgid "Critical CSS"
+msgstr "ಕ್ರಿಟಿಕಲ್ ಸಿಎಸ್‌ಎಸ್"
+
 #: tpl/toolbox/purge.tpl.php:74
 msgid "This will delete all generated critical CSS files"
 msgstr "ಇದು ರಚಿಸಲಾದ ಎಲ್ಲಾ ನಿರ್ಣಾಯಕ CSS ಫೈಲ್‌ಗಳನ್ನು ಅಳಿಸುತ್ತದೆ"
+
+#: tpl/toolbox/purge.tpl.php:82
+msgid "Unique CSS"
+msgstr "ಅನನ್ಯ CSS"
 
 #: tpl/toolbox/purge.tpl.php:83
 msgid "This will delete all generated unique CSS files"

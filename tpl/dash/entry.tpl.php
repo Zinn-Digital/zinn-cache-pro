@@ -29,7 +29,7 @@ if ( $this->_is_network_admin ) {
 		<?php echo esc_html__( 'Zinn® Cache Engine Dashboard', 'zinn-cache-pro' ); ?>
 	</h1>
 	<span class="litespeed-desc">
-		<?php echo esc_html( 'v' . Core::VER ); ?>
+		<?php echo esc_html( 'v' . \ZinnCachePro\Zinn\display_version() ); ?>
 	</span>
 	<hr class="wp-header-end">
 </div>

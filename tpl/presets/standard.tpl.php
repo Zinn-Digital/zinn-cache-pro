@@ -22,7 +22,7 @@ $presets = array(
 		),
 		'footer' => array(
 			esc_html__( 'This no-risk preset is appropriate for all websites. Good for new users, simple websites, or cache-oriented development.', 'zinn-cache-pro' ),
-			esc_html__( 'A QUIC.cloud connection is not required to use this preset. Only basic caching features are enabled.', 'zinn-cache-pro' ),
+			esc_html__( 'Only basic caching features are enabled. Every option in this preset works without any online service.', 'zinn-cache-pro' ),
 		),
 	),
 	'basic' => array(
@@ -34,7 +34,7 @@ $presets = array(
 		),
 		'footer' => array(
 			esc_html__( 'This low-risk preset introduces basic optimizations for speed and user experience. Appropriate for enthusiastic beginners.', 'zinn-cache-pro' ),
-			esc_html__( 'A QUIC.cloud connection is required to use this preset. Includes optimizations known to improve site score in page speed measurement tools.', 'zinn-cache-pro' ),
+			esc_html__( 'Includes optimizations known to improve site score in page speed measurement tools. Some of them need an online generation service, which is not included in this plugin, and those have no effect.', 'zinn-cache-pro' ),
 		),
 	),
 	'advanced' => array(
@@ -53,7 +53,7 @@ $presets = array(
 		),
 		'footer' => array(
 			esc_html__( 'This preset is good for most websites, and is unlikely to cause conflicts. Any CSS or JS conflicts may be resolved with Page Optimization > Tuning tools.', 'zinn-cache-pro' ),
-			esc_html__( 'A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores.', 'zinn-cache-pro' ),
+			esc_html__( 'Includes many optimizations known to improve page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect.', 'zinn-cache-pro' ),
 		),
 	),
 	'aggressive' => array(
@@ -67,7 +67,7 @@ $presets = array(
 		),
 		'footer' => array(
 			esc_html__( 'This preset might work out of the box for some websites, but be sure to test! Some CSS or JS exclusions may be necessary in Page Optimization > Tuning.', 'zinn-cache-pro' ),
-			esc_html__( 'A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores.', 'zinn-cache-pro' ),
+			esc_html__( 'Includes many optimizations known to improve page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect.', 'zinn-cache-pro' ),
 		),
 	),
 	'extreme' => array(
@@ -82,7 +82,7 @@ $presets = array(
 		),
 		'footer' => array(
 			esc_html__( 'This preset almost certainly will require testing and exclusions for some CSS, JS and Lazy Loaded images. Pay special attention to logos, or HTML-based slider images.', 'zinn-cache-pro' ),
-			esc_html__( 'A QUIC.cloud connection is required to use this preset. Enables the maximum level of optimizations for improved page speed scores.', 'zinn-cache-pro' ),
+			esc_html__( 'Enables the maximum level of optimizations for improved page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect.', 'zinn-cache-pro' ),
 		),
 	),
 );

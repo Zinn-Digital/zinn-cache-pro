@@ -14,7 +14,6 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: tpl/inc/admin_footer.php:17
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -117,14 +116,12 @@ msgstr "CDN"
 
 #: src/admin-display.cls.php:257
 #: src/gui.cls.php:891
-#: tpl/dash/dashboard.tpl.php:169
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "Bildoptimierung"
 
 #: src/admin-display.cls.php:258
-#: tpl/dash/dashboard.tpl.php:170
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "Seitenoptimierung"
@@ -182,9 +179,6 @@ msgstr "Neue CDN-URL hinzufügen"
 #: tpl/cdn/other.tpl.php:45
 #: tpl/crawler/settings.tpl.php:138
 #: tpl/dash/dashboard.tpl.php:67
-#: tpl/dash/dashboard.tpl.php:425
-#: tpl/dash/dashboard.tpl.php:547
-#: tpl/dash/dashboard.tpl.php:576
 #: tpl/page_optm/settings_css.tpl.php:220
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/toolbox/settings-debug.tpl.php:80
@@ -198,9 +192,6 @@ msgstr "AN"
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
-#: tpl/dash/dashboard.tpl.php:427
-#: tpl/dash/dashboard.tpl.php:549
-#: tpl/dash/dashboard.tpl.php:578
 #: tpl/img_optm/settings.media_webp.tpl.php:22
 #: tpl/page_optm/settings_css.tpl.php:93
 #: tpl/page_optm/settings_js.tpl.php:77
@@ -713,8 +704,6 @@ msgid "Please see %s for more details."
 msgstr "Weitere Einzelheiten entnehmen Sie bitte %s."
 
 #: src/doc.cls.php:101
-#: tpl/dash/dashboard.tpl.php:152
-#: tpl/dash/dashboard.tpl.php:811
 #: tpl/img_optm/summary.tpl.php:59
 #: tpl/inc/check_cache_disabled.php:46
 #: tpl/page_optm/settings_media.tpl.php:301
@@ -737,154 +726,146 @@ msgstr "Diese Einstellung bearbeitet die .htaccess-Datei."
 msgid "The queue is processed asynchronously. It may take time."
 msgstr "Die Warteschlange wird asynchron verarbeitet. Dies kann einige Zeit in Anspruch nehmen."
 
-#: src/error.cls.php:68
-#, php-format
-msgid "You will need to finish %s setup to use the online services."
-msgstr "Sie müssen die Einrichtung von %s abschließen, um die Onlinedienste nutzen zu können."
+#: src/error.cls.php:66
+msgid "This feature needs an online generation service, which is not included in this plugin. The setting has no effect."
+msgstr "Diese Funktion erfordert einen Online-Generierungsdienst, der nicht in diesem Plugin enthalten ist. Die Einstellung hat keine Wirkung."
 
-#: src/error.cls.php:73
-#: tpl/crawler/settings.tpl.php:123
-#: tpl/crawler/settings.tpl.php:144
-#: tpl/crawler/summary.tpl.php:218
-msgid "Click here to set."
-msgstr "Klicken Sie hier, um den Wert festzulegen."
-
-#: src/error.cls.php:81
+#: src/error.cls.php:70
 msgid "You have used all of your daily quota for today."
 msgstr "Sie haben Ihr tägliches Kontingent für heute aufgebraucht."
 
-#: src/error.cls.php:86
-#: src/error.cls.php:99
+#: src/error.cls.php:75
+#: src/error.cls.php:88
 msgid "Learn more or purchase additional quota."
 msgstr "Erfahren Sie mehr oder erwerben Sie zusätzliches Guthaben."
 
-#: src/error.cls.php:94
+#: src/error.cls.php:83
 msgid "You have used all of your quota left for current service this month."
 msgstr "Sie haben Ihr gesamtes verbleibendes Kontingent für den aktuellen Dienst in diesem Monat verbraucht."
 
-#: src/error.cls.php:107
+#: src/error.cls.php:96
 msgid "You have too many requested images, please try again in a few minutes."
 msgstr "Sie haben zu viele Bilder angefordert, bitte versuchen Sie es in wenigen Minuten noch einmal."
 
-#: src/error.cls.php:111
+#: src/error.cls.php:100
 msgid "You have images waiting to be pulled. Please wait for the automatic pull to complete, or pull them down manually now."
 msgstr "Sie haben Bilder, die darauf warten, abgerufen zu werden. Bitte warten Sie, bis der automatische Abruf abgeschlossen ist, oder rufen Sie sie jetzt manuell ab."
 
-#: src/error.cls.php:115
+#: src/error.cls.php:104
 msgid "The image list is empty."
 msgstr "Die Bilderliste ist leer."
 
-#: src/error.cls.php:119
+#: src/error.cls.php:108
 msgid "Not enough parameters. Please check if the QUIC.cloud connection is set correctly"
 msgstr "Nicht genügend Parameter. Bitte überprüfen Sie, ob die QUIC.cloud-Verbindung korrekt eingerichtet ist."
 
-#: src/error.cls.php:123
+#: src/error.cls.php:112
 msgid "There is proceeding queue not pulled yet."
 msgstr "Es gibt eine Warteschlange, die noch nicht abgezogen wurde."
 
-#: src/error.cls.php:128
+#: src/error.cls.php:117
 #, php-format
 msgid "There is proceeding queue not pulled yet. Queue info: %s."
 msgstr "Es gibt noch eine nicht abgeholte Warteschlange. Warteschlangeninfo: %s."
 
-#: src/error.cls.php:134
+#: src/error.cls.php:123
 msgid "The site is not a valid alias on QUIC.cloud."
 msgstr "Die Website ist kein gültiger Alias auf QUIC.cloud."
 
-#: src/error.cls.php:138
+#: src/error.cls.php:127
 msgid "The site is not registered on QUIC.cloud."
 msgstr "Die Website ist nicht bei QUIC.cloud registriert."
 
-#: src/error.cls.php:142
+#: src/error.cls.php:131
 msgid "The QUIC.cloud connection is not correct. Please try to sync your QUIC.cloud connection again."
 msgstr "Die QUIC.cloud-Verbindung ist nicht korrekt. Bitte versuchen Sie, Ihre QUIC.cloud-Verbindung erneut zu synchronisieren."
 
-#: src/error.cls.php:146
+#: src/error.cls.php:135
 msgid "The current server is under heavy load."
 msgstr "Der aktuelle Server ist stark ausgelastet."
 
-#: src/error.cls.php:150
+#: src/error.cls.php:139
 msgid "Online node needs to be redetected."
 msgstr "Der Online-Node muss neu erkannt werden."
 
-#: src/error.cls.php:154
+#: src/error.cls.php:143
 msgid "Credits are not enough to proceed the current request."
 msgstr "Guthaben reicht nicht aus, um die aktuelle Anfrage fortzuführen."
 
-#: src/error.cls.php:158
-#: src/error.cls.php:182
+#: src/error.cls.php:147
+#: src/error.cls.php:171
 #, php-format
 msgid "%s file not writable."
 msgstr "%s Datei nicht beschreibbar."
 
-#: src/error.cls.php:166
+#: src/error.cls.php:155
 #, php-format
 msgid "Could not find %1$s in %2$s."
 msgstr "%1$s konnte in %2$s nicht gefunden werden."
 
-#: src/error.cls.php:170
+#: src/error.cls.php:159
 #, php-format
 msgid "Invalid login cookie. Please check the %s file."
 msgstr "Ungültiges Anmelde-Cookie. Bitte überprüfen Sie die Datei %s."
 
-#: src/error.cls.php:174
+#: src/error.cls.php:163
 #, php-format
 msgid "Failed to back up %s file, aborted changes."
 msgstr "Fehler beim Sichern der Datei %s, Änderungen wurden abgebrochen."
 
-#: src/error.cls.php:178
+#: src/error.cls.php:167
 #, php-format
 msgid "%s file not readable."
 msgstr "%s-Datei nicht lesbar."
 
-#: src/error.cls.php:186
+#: src/error.cls.php:175
 #, php-format
 msgid "Failed to get %s file contents."
 msgstr "Dateiinhalt für %s konnte nicht abgerufen werden."
 
-#: src/error.cls.php:190
+#: src/error.cls.php:179
 #, php-format
 msgid "Failed to create table %1$s! SQL: %2$s."
 msgstr "Tabelle %1$s konnte nicht erstellt werden! SQL: %2$s."
 
-#: src/error.cls.php:194
+#: src/error.cls.php:183
 msgid "Crawler disabled by the server admin."
 msgstr "Crawler vom Server-Administrator deaktiviert."
 
-#: src/error.cls.php:198
+#: src/error.cls.php:187
 msgid "Previous request too recent. Please try again later."
 msgstr "Vorherige Anfrage zu kürzlich gestellt. Bitte versuchen Sie es später noch einmal."
 
-#: src/error.cls.php:203
+#: src/error.cls.php:192
 #, php-format
 msgid "Previous request too recent. Please try again after %s."
 msgstr "Der vorherige Antrag liegt zu weit in der Vergangenheit. Bitte versuchen Sie es nach %s erneut."
 
-#: src/error.cls.php:209
+#: src/error.cls.php:198
 msgid "Your application is waiting for approval."
 msgstr "Ihre Bewerbung wartet auf Genehmigung."
 
-#: src/error.cls.php:213
+#: src/error.cls.php:202
 msgid "The callback validation to your domain failed due to hash mismatch."
 msgstr "Die Callback-Validierung für Ihre Domain ist aufgrund eines Hash-Mismatch fehlgeschlagen."
 
-#: src/error.cls.php:217
+#: src/error.cls.php:206
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
 msgstr "Die Rückrufvalidierung für Ihre Domain ist fehlgeschlagen. Bitte stellen Sie sicher, dass keine Firewall unsere Server blockiert."
 
-#: src/error.cls.php:222
+#: src/error.cls.php:211
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
 msgstr "Die Callback-Validierung für Ihre Domain ist fehlgeschlagen. Bitte stellen Sie sicher, dass keine Firewall unsere Server blockiert. Antwortcode:"
 
-#: src/error.cls.php:227
+#: src/error.cls.php:216
 msgid "Your domain has been forbidden from using our services due to a previous policy violation."
 msgstr "Ihre Domain wurde aufgrund eines früheren Richtlinienverstoßes von der Nutzung unserer Dienste ausgeschlossen."
 
-#: src/error.cls.php:231
+#: src/error.cls.php:220
 msgid "You cannot remove this DNS zone, because it is still in use. Please update the domain's nameservers, then try to delete this zone again, otherwise your site will become inaccessible."
 msgstr "Sie können diese DNS-Zone nicht entfernen, da sie noch in verwendet wird. Bitte aktualisieren Sie die Nameserver der Domain und versuchen Sie dann erneut, diese Zone zu löschen, da Ihre Website sonst nicht mehr erreichbar ist."
 
-#: src/error.cls.php:238
+#: src/error.cls.php:227
 msgid "Unknown error"
 msgstr "Unbekannter Fehler"
 
@@ -1028,7 +1009,6 @@ msgstr "Cloudflare"
 #: src/gui.cls.php:945
 #: src/lang.cls.php:131
 #: tpl/dash/dashboard.tpl.php:60
-#: tpl/dash/dashboard.tpl.php:569
 #: tpl/toolbox/purge.tpl.php:55
 msgid "Object Cache"
 msgstr "Objekt-Cache"
@@ -1247,12 +1227,10 @@ msgid "Images ready to request"
 msgstr "Bilder bereit zur Anforderung"
 
 #: src/lang.cls.php:32
-#: tpl/dash/dashboard.tpl.php:517
 msgid "Images requested"
 msgstr "Angefragte Bilder"
 
 #: src/lang.cls.php:33
-#: tpl/dash/dashboard.tpl.php:526
 msgid "Images notified to pull"
 msgstr "Zum Herunterladen gemeldete Images"
 
@@ -1280,7 +1258,6 @@ msgstr "Cache aktivieren"
 
 #: src/lang.cls.php:109
 #: tpl/dash/dashboard.tpl.php:61
-#: tpl/dash/dashboard.tpl.php:570
 #: tpl/presets/standard.tpl.php:21
 msgid "Browser Cache"
 msgstr "Browser-Cache"
@@ -2449,48 +2426,44 @@ msgstr "Beim Deaktivieren des Caches werden alle zwischengespeicherten Einträge
 msgid "The network admin setting can be overridden here."
 msgstr "Die Netzwerkeinstellungsoption kann hier überschrieben werden."
 
-#: tpl/cache/settings-cache.tpl.php:49
-msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
-msgstr "Wenn QUIC.cloud CDN aktiviert ist, sehen Sie möglicherweise weiterhin Cache-Header von Ihrem lokalen Server."
-
-#: tpl/cache/settings-cache.tpl.php:63
+#: tpl/cache/settings-cache.tpl.php:60
 #, php-format
 msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
 msgstr "Frontend-Seiten für eingeloggte Benutzer privat zwischenspeichern. (LSWS %s erforderlich)"
 
-#: tpl/cache/settings-cache.tpl.php:76
+#: tpl/cache/settings-cache.tpl.php:73
 #, php-format
 msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
 msgstr "Kommentatoren mit ausstehenden Kommentaren privat zwischenspeichern. Das Deaktivieren dieser Option führt dazu, dass Kommentatoren nicht cachebare Seiten erhalten. (LSWS %s erforderlich)"
 
-#: tpl/cache/settings-cache.tpl.php:89
+#: tpl/cache/settings-cache.tpl.php:86
 msgid "Cache requests made by WordPress REST API calls."
 msgstr "Anfragen der WordPress REST API cachen."
 
-#: tpl/cache/settings-cache.tpl.php:102
+#: tpl/cache/settings-cache.tpl.php:99
 msgid "Disabling this option may negatively affect performance."
 msgstr "Das Deaktivieren dieser Option kann die Leistung beeinträchtigen."
 
-#: tpl/cache/settings-cache.tpl.php:119
+#: tpl/cache/settings-cache.tpl.php:116
 msgid "URI Paths containing these strings will NOT be cached as public."
 msgstr "URI-Pfade, die diese Zeichenfolgen enthalten, werden NICHT als öffentlich zwischengespeichert."
 
-#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:130
 msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
 msgstr "Pfade, die diese Zeichenfolgen enthalten, werden unabhängig von den Einstellungen für Nicht-Cachebarkeit zwischengespeichert."
 
-#: tpl/cache/settings-cache.tpl.php:136
-#: tpl/cache/settings-cache.tpl.php:161
+#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:158
 msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
 msgstr "Um eine benutzerdefinierte TTL für eine URI zu définir, fügen Sie ein Leerzeichen gefolgt von dem TTL-Wert am Ende der URI hinzu."
 
-#: tpl/cache/settings-cache.tpl.php:139
-#: tpl/cache/settings-cache.tpl.php:164
+#: tpl/cache/settings-cache.tpl.php:136
+#: tpl/cache/settings-cache.tpl.php:161
 #, php-format
 msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
 msgstr "Beispielsweise definiert %1$s eine TTL von %2$s Sekunden für %3$s."
 
-#: tpl/cache/settings-cache.tpl.php:158
+#: tpl/cache/settings-cache.tpl.php:155
 msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
 msgstr "Pfade, die diese Zeichenfolgen enthalten, werden unabhängig von den Einstellungen für die Zwischenspeicherung (No-Cache) gezwungen, öffentlich im Cache gespeichert zu werden."
 
@@ -2535,8 +2508,8 @@ msgid "WARNING"
 msgstr "WARNUNG"
 
 #: tpl/cache/settings-esi.tpl.php:46
-msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
-msgstr "Diese Optionen sind nur mit dem LiteSpeed Enterprise Web Server oder dem QUIC.cloud CDN verfügbar."
+msgid "These options are only available with LiteSpeed Enterprise Web Server."
+msgstr "Diese Optionen sind nur mit LiteSpeed Enterprise Web Server verfügbar."
 
 #: tpl/cache/settings-esi.tpl.php:59
 msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
@@ -3156,13 +3129,13 @@ msgstr "CDN-Einstellungen"
 
 #: tpl/cdn/other.tpl.php:44
 #, php-format
-msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
-msgstr "Schalten Sie diese Einstellung %s, wenn Sie ein traditionelles Content Delivery Network (CDN) oder eine Subdomain für statische Inhalte mit QUIC.cloud CDN verwenden."
+msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content."
+msgstr "Aktivieren Sie diese Einstellung %s, wenn Sie ein herkömmliches Content Delivery Network (CDN) oder eine Subdomain für statische Inhalte verwenden."
 
 #: tpl/cdn/other.tpl.php:52
 #, php-format
-msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are only using QUIC.cloud or Cloudflare, leave this setting %s."
-msgstr "HINWEIS: QUIC.cloud CDN und Cloudflare verwenden kein CDN Mapping. Wenn Sie nur QUIC.cloud oder Cloudflare verwenden, lassen Sie diese Einstellung %s."
+msgid "NOTE: Cloudflare does not use CDN Mapping. If you are only using Cloudflare, leave this setting %s."
+msgstr "HINWEIS: Cloudflare verwendet kein CDN Mapping. Wenn Sie nur Cloudflare verwenden, lassen Sie diese Einstellung %s."
 
 #: tpl/cdn/other.tpl.php:80
 msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
@@ -3332,7 +3305,6 @@ msgstr "Cache-Miss"
 
 #: tpl/crawler/map.tpl.php:77
 #: tpl/dash/dashboard.tpl.php:80
-#: tpl/dash/dashboard.tpl.php:765
 msgid "Crawler Status"
 msgstr "Crawler-Status"
 
@@ -3379,6 +3351,12 @@ msgstr "Um die Website als eingeloggter Benutzer zu durchsuchen, geben Sie die z
 #, php-format
 msgid "You must set %s before using this feature."
 msgstr "Sie müssen %s festlegen, bevor Sie diese Funktion nutzen können."
+
+#: tpl/crawler/settings.tpl.php:123
+#: tpl/crawler/settings.tpl.php:144
+#: tpl/crawler/summary.tpl.php:218
+msgid "Click here to set."
+msgstr "Klicken Sie hier, um den Wert festzulegen."
 
 #: tpl/crawler/settings.tpl.php:136
 #, php-format
@@ -3437,7 +3415,6 @@ msgstr "Laufzeit für vorherigen Crawler"
 
 #: tpl/crawler/summary.tpl.php:104
 #: tpl/dash/dashboard.tpl.php:91
-#: tpl/dash/dashboard.tpl.php:776
 msgid "Current crawler started at"
 msgstr "Aktueller Crawler-Start um"
 
@@ -3447,13 +3424,11 @@ msgstr "Aktuelle Serverauslastung"
 
 #: tpl/crawler/summary.tpl.php:116
 #: tpl/dash/dashboard.tpl.php:97
-#: tpl/dash/dashboard.tpl.php:782
 msgid "Last interval"
 msgstr "Letztes Intervall"
 
 #: tpl/crawler/summary.tpl.php:123
 #: tpl/dash/dashboard.tpl.php:103
-#: tpl/dash/dashboard.tpl.php:788
 msgid "Ended reason"
 msgstr "Grund der Beendigung"
 
@@ -3553,340 +3528,42 @@ msgid "No crawler meta file generated yet"
 msgstr "Bisher wurde noch keine Crawler-Meta-Datei generiert"
 
 #: tpl/dash/dashboard.tpl.php:53
-#: tpl/dash/dashboard.tpl.php:562
 msgid "Cache Status"
 msgstr "Cache-Status"
 
 #: tpl/dash/dashboard.tpl.php:54
 #: tpl/dash/dashboard.tpl.php:81
-#: tpl/dash/dashboard.tpl.php:486
-#: tpl/dash/dashboard.tpl.php:563
-#: tpl/dash/dashboard.tpl.php:590
-#: tpl/dash/dashboard.tpl.php:634
-#: tpl/dash/dashboard.tpl.php:678
-#: tpl/dash/dashboard.tpl.php:722
-#: tpl/dash/dashboard.tpl.php:766
-#: tpl/dash/dashboard.tpl.php:813
 msgid "More"
 msgstr "Mehr"
 
 #: tpl/dash/dashboard.tpl.php:58
-#: tpl/dash/dashboard.tpl.php:567
 msgid "Public Cache"
 msgstr "Öffentlicher Cache"
 
 #: tpl/dash/dashboard.tpl.php:59
-#: tpl/dash/dashboard.tpl.php:568
 msgid "Private Cache"
 msgstr "Privater Cache"
 
 #: tpl/dash/dashboard.tpl.php:84
-#: tpl/dash/dashboard.tpl.php:769
 msgid "Crawler(s)"
 msgstr "Crawler"
 
 #: tpl/dash/dashboard.tpl.php:87
-#: tpl/dash/dashboard.tpl.php:772
 msgid "Currently active crawler"
 msgstr "Aktuell aktiver Crawler"
 
 #: tpl/dash/dashboard.tpl.php:111
-#: tpl/dash/dashboard.tpl.php:796
 #, php-format
 msgid "%1$s %2$d item(s)"
 msgstr "%1$s %2$d Element(e)"
 
 #: tpl/dash/dashboard.tpl.php:112
-#: tpl/dash/dashboard.tpl.php:797
 msgid "Last crawled:"
 msgstr "Letzte Crawl-Aktion:"
 
 #: tpl/dash/dashboard.tpl.php:128
-#: tpl/dash/dashboard.tpl.php:873
 msgid "News"
 msgstr "Neuigkeiten"
-
-#: tpl/dash/dashboard.tpl.php:145
-msgid "QUIC.cloud Service Usage Statistics"
-msgstr "Nutzungsstatistiken des QUIC.cloud-Dienstes"
-
-#: tpl/dash/dashboard.tpl.php:147
-msgid "Refresh Usage"
-msgstr "Nutzung aktualisieren"
-
-#: tpl/dash/dashboard.tpl.php:148
-msgid "Sync data from Cloud"
-msgstr "Daten aus Cloud synchronisieren"
-
-#: tpl/dash/dashboard.tpl.php:159
-#, php-format
-msgid "The features below are provided by %s"
-msgstr "Die folgenden Funktionen werden bereitgestellt von %s"
-
-#: tpl/dash/dashboard.tpl.php:171
-#: tpl/dash/network_dash.tpl.php:38
-msgid "CDN Bandwidth"
-msgstr "CDN-Bandbreite"
-
-#: tpl/dash/dashboard.tpl.php:172
-#: tpl/dash/dashboard.tpl.php:677
-#: tpl/dash/network_dash.tpl.php:39
-msgid "Low Quality Image Placeholder"
-msgstr "Platzhalter für Bilder mit niedriger Qualität"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Fast Queue Usage"
-msgstr "Schnelle Warteschlangen-Auslastung"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Usage"
-msgstr "Nutzung"
-
-#: tpl/dash/dashboard.tpl.php:236
-#: tpl/dash/network_dash.tpl.php:108
-msgid "PAYG Balance"
-msgstr "PAYG-Guthaben"
-
-#: tpl/dash/dashboard.tpl.php:237
-#, php-format
-msgid "PAYG used this month: %s. PAYG balance and usage not included in above quota calculation."
-msgstr "Diesen Monat genutztes PAYG: %s. PAYG-Guthaben und -Nutzung sind in der obigen Kontingentberechnung nicht enthalten."
-
-#: tpl/dash/dashboard.tpl.php:239
-#: tpl/dash/network_dash.tpl.php:111
-msgid "Pay as You Go Usage Statistics"
-msgstr "Nutzungsstatistiken für die nutzungsabhängige Abrechnung"
-
-#: tpl/dash/dashboard.tpl.php:257
-#: tpl/dash/network_dash.tpl.php:118
-msgid "Total Usage"
-msgstr "Gesamtnutzung"
-
-#: tpl/dash/dashboard.tpl.php:258
-#: tpl/dash/network_dash.tpl.php:119
-msgid "Total images optimized in this month"
-msgstr "In diesem Monat optimierte Bilder"
-
-#: tpl/dash/dashboard.tpl.php:266
-msgid "Remaining Daily Quota"
-msgstr "Verbleibendes Tageskontingent"
-
-#: tpl/dash/dashboard.tpl.php:276
-msgid "Partner Benefits Provided by"
-msgstr "Partner-Vorteile bereitgestellt von"
-
-#: tpl/dash/dashboard.tpl.php:312
-msgid "Enable QUIC.cloud Services"
-msgstr "QUIC.cloud-Dienste aktivieren"
-
-#: tpl/dash/dashboard.tpl.php:319
-msgid "Go to QUIC.cloud dashboard"
-msgstr "Zum QUIC.cloud-Dashboard wechseln"
-
-#: tpl/dash/dashboard.tpl.php:325
-msgid "Link to QUIC.cloud"
-msgstr "Mit QUIC.cloud verknüpfen"
-
-#: tpl/dash/dashboard.tpl.php:340
-msgid "Page Load Time"
-msgstr "Seitenladezeit"
-
-#: tpl/dash/dashboard.tpl.php:347
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-#, php-format
-msgid "Current closest Cloud server is %s. Click to redetect."
-msgstr "Derzeit nächster Cloud-Server ist %s. Klicken Sie hier, um ihn erneut zu ermitteln."
-
-#: tpl/dash/dashboard.tpl.php:348
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Are you sure you want to redetect the closest cloud server for this service?"
-msgstr "Sind Sie sicher, dass Sie den nächstgelegenen Cloud-Server für diesen Dienst erneut ermitteln möchten?"
-
-#: tpl/dash/dashboard.tpl.php:350
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/img_optm/summary.tpl.php:56
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Redetect"
-msgstr "Erneut erkennen"
-
-#: tpl/dash/dashboard.tpl.php:360
-#: tpl/dash/dashboard.tpl.php:436
-msgid "Before"
-msgstr "Vorher"
-
-#: tpl/dash/dashboard.tpl.php:368
-#: tpl/dash/dashboard.tpl.php:444
-msgid "After"
-msgstr "Nach"
-
-#: tpl/dash/dashboard.tpl.php:376
-#: tpl/dash/dashboard.tpl.php:452
-msgid "Improved by"
-msgstr "Verbessert von"
-
-#: tpl/dash/dashboard.tpl.php:384
-msgid "You must be using one of the following products in order to measure Page Load Time:"
-msgstr "Sie müssen eines der folgenden Produkte verwenden, um die Ladezeit der Seite zu messen:"
-
-#: tpl/dash/dashboard.tpl.php:385
-msgid "LiteSpeed Web Server"
-msgstr "LiteSpeed Webserver"
-
-#: tpl/dash/dashboard.tpl.php:387
-msgid "OpenLiteSpeed Web Server"
-msgstr "OpenLiteSpeed-Webserver"
-
-#: tpl/dash/dashboard.tpl.php:389
-msgid "LiteSpeed Web ADC"
-msgstr "LiteSpeed Web ADC"
-
-#: tpl/dash/dashboard.tpl.php:391
-#: tpl/dash/dashboard.tpl.php:809
-msgid "QUIC.cloud CDN"
-msgstr "QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:403
-#: tpl/dash/dashboard.tpl.php:468
-#, php-format
-msgid "Requested: %s ago"
-msgstr "Angefordert: vor %s"
-
-#: tpl/dash/dashboard.tpl.php:411
-#: tpl/dash/dashboard.tpl.php:476
-msgid "Refresh"
-msgstr "Aktualisieren"
-
-#: tpl/dash/dashboard.tpl.php:412
-msgid "Refresh page load time"
-msgstr "Seitenladezeit aktualisieren"
-
-#: tpl/dash/dashboard.tpl.php:421
-msgid "PageSpeed Score"
-msgstr "PageSpeed-Score"
-
-#: tpl/dash/dashboard.tpl.php:477
-msgid "Refresh page score"
-msgstr "Seitenwert aktualisieren"
-
-#: tpl/dash/dashboard.tpl.php:485
-#: tpl/img_optm/entry.tpl.php:16
-msgid "Image Optimization Summary"
-msgstr "Zusammenfassung der Bildoptimierung"
-
-#: tpl/dash/dashboard.tpl.php:502
-#: tpl/img_optm/summary.tpl.php:76
-#: tpl/img_optm/summary.tpl.php:89
-msgid "Send Optimization Request"
-msgstr "Optimierungsanfrage senden"
-
-#: tpl/dash/dashboard.tpl.php:508
-#: tpl/img_optm/summary.tpl.php:316
-msgid "Total Reduction"
-msgstr "Gesamtreduzierung"
-
-#: tpl/dash/dashboard.tpl.php:511
-#: tpl/img_optm/summary.tpl.php:319
-msgid "Images Pulled"
-msgstr "Abgerufene Images"
-
-#: tpl/dash/dashboard.tpl.php:534
-#: tpl/img_optm/summary.tpl.php:322
-msgid "Last Request"
-msgstr "Letzte Anfrage"
-
-#: tpl/dash/dashboard.tpl.php:537
-msgid "Last Pull"
-msgstr "Letzter Pull"
-
-#: tpl/dash/dashboard.tpl.php:589
-#: tpl/toolbox/purge.tpl.php:73
-msgid "Critical CSS"
-msgstr "Kritische CSS"
-
-#: tpl/dash/dashboard.tpl.php:596
-#: tpl/dash/dashboard.tpl.php:640
-#: tpl/dash/dashboard.tpl.php:684
-#: tpl/dash/dashboard.tpl.php:728
-#, php-format
-msgid "Last generated: %s"
-msgstr "Zuletzt generiert: %s"
-
-#: tpl/dash/dashboard.tpl.php:604
-#: tpl/dash/dashboard.tpl.php:648
-#: tpl/dash/dashboard.tpl.php:692
-#: tpl/dash/dashboard.tpl.php:736
-#, php-format
-msgid "Time to execute previous request: %s"
-msgstr "Ausführungszeit der vorherigen Anfrage: %s"
-
-#: tpl/dash/dashboard.tpl.php:611
-#: tpl/dash/dashboard.tpl.php:655
-#: tpl/dash/dashboard.tpl.php:699
-#: tpl/dash/dashboard.tpl.php:743
-msgid "Requests in queue"
-msgstr "Anfragen in der Warteschlange"
-
-#: tpl/dash/dashboard.tpl.php:614
-#: tpl/dash/dashboard.tpl.php:658
-#: tpl/dash/dashboard.tpl.php:702
-#: tpl/dash/dashboard.tpl.php:746
-msgid "Force cron"
-msgstr "Cron-Job erzwingen"
-
-#: tpl/dash/dashboard.tpl.php:622
-#: tpl/dash/dashboard.tpl.php:666
-#: tpl/dash/dashboard.tpl.php:710
-#: tpl/dash/dashboard.tpl.php:754
-#, php-format
-msgid "Last requested: %s"
-msgstr "Letzte Anfrage: %s"
-
-#: tpl/dash/dashboard.tpl.php:633
-#: tpl/toolbox/purge.tpl.php:82
-msgid "Unique CSS"
-msgstr "Eindeutiges CSS"
-
-#: tpl/dash/dashboard.tpl.php:721
-msgid "Viewport Image"
-msgstr "Ansicht-Bild"
-
-#: tpl/dash/dashboard.tpl.php:822
-msgid "Enable QUIC.cloud CDN"
-msgstr "QUIC.cloud-CDN aktivieren"
-
-#: tpl/dash/dashboard.tpl.php:829
-msgid "Best available WordPress performance"
-msgstr "Beste verfügbare WordPress-Leistung"
-
-#: tpl/dash/dashboard.tpl.php:834
-#, php-format
-msgid "Globally fast TTFB, easy setup, and %s!"
-msgstr "Weltweit schnelles TTFB, einfache Einrichtung und %s!"
-
-#: tpl/dash/dashboard.tpl.php:835
-msgid "more"
-msgstr "mehr"
-
-#: tpl/dash/dashboard.tpl.php:851
-msgid "Refresh Status"
-msgstr "Status aktualisieren"
-
-#: tpl/dash/dashboard.tpl.php:852
-msgid "Refresh QUIC.cloud status"
-msgstr "QUIC.cloud-Status aktualisieren"
 
 #: tpl/dash/entry.tpl.php:21
 msgid "Network Dashboard"
@@ -3901,14 +3578,46 @@ msgstr "Zinn® Cache-Engine-Dashboard"
 msgid "Usage Statistics: %s"
 msgstr "Nutzungsstatistiken: %s"
 
+#: tpl/dash/network_dash.tpl.php:38
+msgid "CDN Bandwidth"
+msgstr "CDN-Bandbreite"
+
+#: tpl/dash/network_dash.tpl.php:39
+msgid "Low Quality Image Placeholder"
+msgstr "Platzhalter für Bilder mit niedriger Qualität"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Fast Queue Usage"
+msgstr "Schnelle Warteschlangen-Auslastung"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Usage"
+msgstr "Nutzung"
+
 #: tpl/dash/network_dash.tpl.php:107
 msgid "Pay as You Go"
 msgstr "Pay-as-you-Go"
+
+#: tpl/dash/network_dash.tpl.php:108
+msgid "PAYG Balance"
+msgstr "PAYG-Guthaben"
 
 #: tpl/dash/network_dash.tpl.php:109
 #, php-format
 msgid "This Month Usage: %s"
 msgstr "Verbrauch in diesem Monat: %s"
+
+#: tpl/dash/network_dash.tpl.php:111
+msgid "Pay as You Go Usage Statistics"
+msgstr "Nutzungsstatistiken für die nutzungsabhängige Abrechnung"
+
+#: tpl/dash/network_dash.tpl.php:118
+msgid "Total Usage"
+msgstr "Gesamtnutzung"
+
+#: tpl/dash/network_dash.tpl.php:119
+msgid "Total images optimized in this month"
+msgstr "In diesem Monat optimierte Bilder"
 
 #: tpl/db_optm/entry.tpl.php:17
 #: tpl/db_optm/settings.tpl.php:19
@@ -4131,58 +3840,53 @@ msgstr "Diese Option ermöglicht eine maximale Optimierung für Besucher im Gast
 msgid "Please read all warnings before enabling this option."
 msgstr "Bitte lesen Sie alle Warnhinweise, bevor Sie diese Option aktivieren."
 
-#: tpl/general/settings.tpl.php:64
-#, php-format
-msgid "Your %1$s quota on %2$s will still be in use."
-msgstr "Ihr %1$s-Kontingent auf %2$s wird weiterhin genutzt."
-
-#: tpl/general/settings.tpl.php:72
-#: tpl/general/settings.tpl.php:79
-#: tpl/general/settings.tpl.php:86
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:71
+#: tpl/general/settings.tpl.php:78
+#: tpl/general/settings.tpl.php:85
+#: tpl/general/settings.tpl.php:102
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 msgid "Notice"
 msgstr "Hinweis"
 
-#: tpl/general/settings.tpl.php:72
+#: tpl/general/settings.tpl.php:71
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 #, php-format
 msgid "%s must be turned ON for this setting to work."
 msgstr "%s muss eingeschaltet sein, damit diese Einstellung funktioniert."
 
-#: tpl/general/settings.tpl.php:79
+#: tpl/general/settings.tpl.php:78
 #, php-format
 msgid "You need to turn %s on to get maximum result."
 msgstr "Sie müssen %s aktivieren, um das optimale Ergebnis zu erzielen."
 
-#: tpl/general/settings.tpl.php:86
+#: tpl/general/settings.tpl.php:85
 #, php-format
 msgid "You need to turn %s on and finish all WebP generation to get maximum result."
 msgstr "Sie müssen %s einschalten und die gesamte WebP-Generierung abschließen, um ein optimales Ergebnis zu erzielen."
 
-#: tpl/general/settings.tpl.php:101
+#: tpl/general/settings.tpl.php:100
 msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
 msgstr "Geben Sie die IP-Adresse dieser Website ein, damit Cloud-Dienste die IP direkt anstelle des Domainnamens aufrufen können. Dies eliminiert den Overhead von DNS- und CDN-Abfragen."
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Your server IP"
 msgstr "Ihre Server-IP"
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Check my public IP from"
 msgstr "Meine öffentliche IP-Adresse prüfen von"
 
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:102
 msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
 msgstr "Die automatisch erkannte IP-Adresse ist möglicherweise nicht korrekt, wenn Sie eine zusätzliche ausgehende IP-Adresse festgelegt haben oder mehrere IP-Adresse auf Ihrem Server konfiguriert sind."
 
-#: tpl/general/settings.tpl.php:104
+#: tpl/general/settings.tpl.php:103
 msgid "Please make sure this IP is the correct one for visiting your site."
 msgstr "Bitte stellen Sie sicher, dass diese IP die korrekte ist, um Ihre Website aufzurufen."
 
-#: tpl/general/settings.tpl.php:119
+#: tpl/general/settings.tpl.php:118
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
 msgstr "Schalten Sie diese Option ein, um die neuesten Nachrichten automatisch anzuzeigen, einschließlich Hotfixes, neuer Versionen, verfügbarer Beta-Versionen und Werbeaktionen."
 
@@ -4232,6 +3936,10 @@ msgstr "Erfolgreich synchronisiert."
 msgid "Sync failed."
 msgstr "Synchronisierung fehlgeschlagen."
 
+#: tpl/img_optm/entry.tpl.php:16
+msgid "Image Optimization Summary"
+msgstr "Zusammenfassung der Bildoptimierung"
+
 #: tpl/img_optm/entry.tpl.php:17
 #: tpl/img_optm/entry.tpl.php:22
 #: tpl/img_optm/network_settings.tpl.php:19
@@ -4254,20 +3962,15 @@ msgstr "Verbessern Sie die Ladezeit deutlich, indem Sie Bilder durch deren optim
 
 #: tpl/img_optm/settings.media_webp.tpl.php:31
 #, php-format
-msgid "%1$s is a %2$s paid feature."
-msgstr "%1$s ist eine kostenpflichtige Funktion (%2$s)."
-
-#: tpl/img_optm/settings.media_webp.tpl.php:34
-#, php-format
 msgid "When switching formats, please %1$s or %2$s to apply this new choice to previously optimized images."
 msgstr "Beim Wechsel der Formate %1$s oder %2$s Sie bitte, um diese neue Auswahl auf zuvor optimierte Bilder anzuwenden."
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:378
 msgid "Destroy All Optimization Data"
 msgstr "Alle Optimierungsdaten vernichten"
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:368
 msgid "Soft Reset Optimization Counter"
 msgstr "Optimierungszähler für Soft-Reset"
@@ -4328,9 +4031,35 @@ msgstr "Geben Sie an, welche Elementattribute durch WebP/AVIF ersetzt werden sol
 msgid "Enable replacement of WebP/AVIF in %s elements that were generated outside of WordPress logic."
 msgstr "Aktivieren Sie das Ersetzen von WebP/AVIF in %s-Elementen, die außerhalb der WordPress-Logik generiert wurden."
 
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+#, php-format
+msgid "Current closest Cloud server is %s. Click to redetect."
+msgstr "Derzeit nächster Cloud-Server ist %s. Klicken Sie hier, um ihn erneut zu ermitteln."
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "Sind Sie sicher, dass Sie den nächstgelegenen Cloud-Server für diesen Dienst erneut ermitteln möchten?"
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/img_optm/summary.tpl.php:56
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Redetect"
+msgstr "Erneut erkennen"
+
 #: tpl/img_optm/summary.tpl.php:58
-msgid "Optimize images with our QUIC.cloud server"
-msgstr "Bilder mit unserem QUIC.cloud-Server optimieren"
+msgid "Image optimisation"
+msgstr "Bildoptimierung"
 
 #: tpl/img_optm/summary.tpl.php:63
 #, php-format
@@ -4344,6 +4073,11 @@ msgstr "Um sicherzustellen, dass unser Server problemlos mit Ihrem Server kommun
 #: tpl/img_optm/summary.tpl.php:69
 msgid "Current limit is"
 msgstr "Das aktuelle Limit ist"
+
+#: tpl/img_optm/summary.tpl.php:76
+#: tpl/img_optm/summary.tpl.php:89
+msgid "Send Optimization Request"
+msgstr "Optimierungsanfrage senden"
 
 #: tpl/img_optm/summary.tpl.php:77
 #: tpl/page_optm/settings_css.tpl.php:156
@@ -4370,8 +4104,8 @@ msgid "Optimization Status"
 msgstr "Optimierungsstatus"
 
 #: tpl/img_optm/summary.tpl.php:141
-msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
-msgstr "Nachdem der QUIC.cloud-Server zur Bildoptimierung die Optimierung abgeschlossen hat, benachrichtigt er Ihre Website, dass sie die optimierten Bilder abrufen soll."
+msgid "When the optimisation server finishes, it notifies your site to pull the optimised images."
+msgstr "Wenn der Optimierungsserver fertig ist, benachrichtigt er Ihre Website, damit diese die optimierten Bilder abruft."
 
 #: tpl/img_optm/summary.tpl.php:142
 msgid "This process is automatic."
@@ -4473,6 +4207,18 @@ msgstr "Neue Vorschaubilder scannen"
 msgid "Optimization Summary"
 msgstr "Optimierungsübersicht"
 
+#: tpl/img_optm/summary.tpl.php:316
+msgid "Total Reduction"
+msgstr "Gesamtreduzierung"
+
+#: tpl/img_optm/summary.tpl.php:319
+msgid "Images Pulled"
+msgstr "Abgerufene Images"
+
+#: tpl/img_optm/summary.tpl.php:322
+msgid "Last Request"
+msgstr "Letzte Anfrage"
+
 #: tpl/img_optm/summary.tpl.php:325
 msgid "Last Pulled"
 msgstr "Zuletzt abgerufen"
@@ -4520,26 +4266,21 @@ msgstr "Möchten Sie wirklich alle optimierten Bilder unwiderruflich löschen?"
 msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
 msgstr "Alle bisherigen Bildoptimierungsanfragen und -ergebnisse entfernen, abgeschlossene Optimierungen rückgängig machen und alle Optimierungsdateien löschen."
 
-#: tpl/inc/admin_footer.php:17
-#, php-format
-msgid "Rate %1$s on %2$s"
-msgstr "%1$s auf %2$s bewerten"
+#: tpl/inc/admin_footer.php:16
+msgid "Read the upstream Zinn® Cache Engine documentation"
+msgstr "Lesen Sie die Dokumentation der Upstream-Zinn® Cache Engine"
 
 #: tpl/inc/admin_footer.php:19
-msgid "Read LiteSpeed Documentation"
-msgstr "LiteSpeed-Dokumentation lesen"
+msgid "Zinn Digital® support"
+msgstr "Zinn Digital®-Support"
 
-#: tpl/inc/admin_footer.php:21
-msgid "Visit LSCWP support forum"
-msgstr "Besuche das LSCWP-Support-Forum"
-
-#: tpl/inc/admin_footer.php:23
-msgid "Join LiteSpeed Slack community"
-msgstr "Treten Sie der LiteSpeed Slack-Community bei"
+#: tpl/inc/admin_footer.php:22
+msgid "Zinn® Cache Engine user guide"
+msgstr "Zinn® Cache-Engine-Benutzerhandbuch"
 
 #: tpl/inc/check_cache_disabled.php:20
-msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
-msgstr "Um die Caching-Funktionen nutzen zu können, müssen Sie über einen LiteSpeed-Webserver verfügen oder das QUIC.cloud CDN verwenden."
+msgid "To use the caching functions you must have a LiteSpeed or OpenLiteSpeed web server with the LSCache module."
+msgstr "Um die Caching-Funktionen nutzen zu können, benötigen Sie einen LiteSpeed- oder OpenLiteSpeed-Webserver mit dem LSCache-Modul."
 
 #: tpl/inc/check_cache_disabled.php:25
 msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
@@ -4752,8 +4493,8 @@ msgid "How to Fix Problems Caused by CSS/JS Optimization."
 msgstr "So beheben Sie Probleme, die durch CSS-/JS-Optimierung verursacht werden."
 
 #: tpl/page_optm/settings_css.tpl.php:82
-msgid "Use QUIC.cloud online service to generate unique CSS."
-msgstr "Nutzen Sie den Onlinedienst QUIC.cloud, um einzigartiges CSS zu generieren."
+msgid "Generate unique CSS through an online generation service."
+msgstr "Generieren Sie einzigartiges CSS über einen Online-Generierungsdienst."
 
 #: tpl/page_optm/settings_css.tpl.php:83
 msgid "This will drop the unused CSS on each page from the combined file."
@@ -4835,8 +4576,8 @@ msgid "This can improve your speed score in services like Pingdom, GTmetrix and 
 msgstr "Dies kann Ihre Geschwindigkeitsbewertung in Diensten wie Pingdom, GTmetrix und PageSpeed verbessern."
 
 #: tpl/page_optm/settings_css.tpl.php:217
-msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
-msgstr "Nutzen Sie den Onlinedienst QUIC.cloud, um kritisches CSS zu generieren und verbleibendes CSS asynchron zu laden."
+msgid "Generate critical CSS through an online generation service and load the remaining CSS asynchronously."
+msgstr "Generieren Sie kritisches CSS über einen Online-Generierungsdienst und laden Sie das restliche CSS asynchron."
 
 #: tpl/page_optm/settings_css.tpl.php:219
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
@@ -5116,8 +4857,8 @@ msgid "Specify the responsive placeholder SVG color."
 msgstr "Geben Sie die SVG-Farbe für den responsiven Platzhalter an."
 
 #: tpl/page_optm/settings_media.tpl.php:122
-msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
-msgstr "Nutzen Sie den LQIP-Generatordienst (Low Quality Image Placeholder) von QUIC.cloud für responsive Bildvorschauen beim Laden."
+msgid "Generate Low Quality Image Placeholders through an online generation service, for responsive image previews while loading."
+msgstr "Generieren Sie Low Quality Image Placeholders über einen Online-Generierungsdienst für responsive Bildvorschauen beim Laden."
 
 #: tpl/page_optm/settings_media.tpl.php:123
 msgid "Keep this off to use plain color placeholders."
@@ -5392,8 +5133,8 @@ msgid "This no-risk preset is appropriate for all websites. Good for new users, 
 msgstr "Dieses risikofreie Preset eignet sich für alle Websites. Ideal für neue Benutzer, einfache Websites oder die cache-orientierte Entwicklung."
 
 #: tpl/presets/standard.tpl.php:25
-msgid "A QUIC.cloud connection is not required to use this preset. Only basic caching features are enabled."
-msgstr "Für die Verwendung dieses Presets ist keine QUIC.cloud-Verbindung erforderlich. Es sind nur grundlegende Caching-Funktionen aktiviert."
+msgid "Only basic caching features are enabled. Every option in this preset works without any online service."
+msgstr "Es sind nur grundlegende Caching-Funktionen aktiviert. Jede Option in diesem Preset funktioniert ohne Onlinedienst."
 
 #: tpl/presets/standard.tpl.php:29
 #: tpl/toolbox/settings-debug.tpl.php:117
@@ -5413,8 +5154,8 @@ msgid "This low-risk preset introduces basic optimizations for speed and user ex
 msgstr "Dieses risikoarme Preset führt grundlegende Optimierungen für Geschwindigkeit und Benutzererfahrung ein. Geeignet für ambitionierte Einsteiger."
 
 #: tpl/presets/standard.tpl.php:37
-msgid "A QUIC.cloud connection is required to use this preset. Includes optimizations known to improve site score in page speed measurement tools."
-msgstr "Für die Verwendung dieser Voreinstellung ist eine QUIC.cloud-Verbindung erforderlich. Enthält Optimierungen, von denen bekannt ist, dass sie den Website-Score in Tools zur Messung der Seitengeschwindigkeit verbessern."
+msgid "Includes optimizations known to improve site score in page speed measurement tools. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Enthält Optimierungen, die bekanntermaßen die Website-Bewertung in Seitengeschwindigkeits-Messwerkzeugen verbessern. Einige davon erfordern einen Online-Generierungsdienst, der in diesem Plugin nicht enthalten ist, und diese haben keine Wirkung."
 
 #: tpl/presets/standard.tpl.php:41
 msgid "Advanced (Recommended)"
@@ -5450,8 +5191,8 @@ msgstr "Diese Voreinstellung ist für die meisten Websites geeignet und führt w
 
 #: tpl/presets/standard.tpl.php:56
 #: tpl/presets/standard.tpl.php:70
-msgid "A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores."
-msgstr "Für die Verwendung dieses Presets ist eine QUIC.cloud-Verbindung erforderlich. Enthält viele Optimierungen, die nachweislich die Seitengeschwindigkeitswerte verbessern."
+msgid "Includes many optimizations known to improve page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Enthält viele Optimierungen, von denen bekannt ist, dass sie die Seitengeschwindigkeitswerte verbessern. Einige davon erfordern einen Online-Generierungsdienst, der in diesem Plugin nicht enthalten ist, weshalb diese wirkungslos bleiben."
 
 #: tpl/presets/standard.tpl.php:60
 msgid "Aggressive"
@@ -5514,8 +5255,8 @@ msgid "This preset almost certainly will require testing and exclusions for some
 msgstr "Dieses Preset erfordert mit an Sicherheit grenzende Wahrscheinlichkeit Tests und Ausnahmen für einige CSS-, JS- und Lazy-Loaded-Bilder. Achten Sie besonders auf Logos oder HTML-basierte Slider-Bilder."
 
 #: tpl/presets/standard.tpl.php:85
-msgid "A QUIC.cloud connection is required to use this preset. Enables the maximum level of optimizations for improved page speed scores."
-msgstr "Für die Verwendung dieses Presets ist eine QUIC.cloud-Verbindung erforderlich. Aktiviert das maximale Optimierungsniveau für verbesserte Ergebnisse bei der Ladegeschwindigkeit."
+msgid "Enables the maximum level of optimizations for improved page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Aktiviert das maximale Optimierungsniveau für verbesserte Page-Speed-Werte. Einige davon erfordern einen Online-Generierungsdienst, der in diesem Plugin nicht enthalten ist, und diese haben keine Wirkung."
 
 #: tpl/presets/standard.tpl.php:92
 msgid "Zinn® Cache Engine Standard Presets"
@@ -5802,9 +5543,17 @@ msgstr "Alle Objektscaches leeren"
 msgid "Reset the entire opcode cache"
 msgstr "Den gesamten Opcode-Cache zurücksetzen"
 
+#: tpl/toolbox/purge.tpl.php:73
+msgid "Critical CSS"
+msgstr "Kritische CSS"
+
 #: tpl/toolbox/purge.tpl.php:74
 msgid "This will delete all generated critical CSS files"
 msgstr "Dadurch werden alle generierten kritischen CSS-Dateien gelöscht."
+
+#: tpl/toolbox/purge.tpl.php:82
+msgid "Unique CSS"
+msgstr "Eindeutiges CSS"
 
 #: tpl/toolbox/purge.tpl.php:83
 msgid "This will delete all generated unique CSS files"

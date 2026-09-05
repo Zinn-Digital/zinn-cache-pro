@@ -14,7 +14,6 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: tpl/inc/admin_footer.php:17
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -117,14 +116,12 @@ msgstr "شبکه تحویل محتوا (CDN)"
 
 #: src/admin-display.cls.php:257
 #: src/gui.cls.php:891
-#: tpl/dash/dashboard.tpl.php:169
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "بهینه‌سازی تصویر"
 
 #: src/admin-display.cls.php:258
-#: tpl/dash/dashboard.tpl.php:170
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "بهینه‌سازی صفحه"
@@ -182,9 +179,6 @@ msgstr "افزودن نشانی وب CDN جدید"
 #: tpl/cdn/other.tpl.php:45
 #: tpl/crawler/settings.tpl.php:138
 #: tpl/dash/dashboard.tpl.php:67
-#: tpl/dash/dashboard.tpl.php:425
-#: tpl/dash/dashboard.tpl.php:547
-#: tpl/dash/dashboard.tpl.php:576
 #: tpl/page_optm/settings_css.tpl.php:220
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/toolbox/settings-debug.tpl.php:80
@@ -198,9 +192,6 @@ msgstr "روشن"
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
-#: tpl/dash/dashboard.tpl.php:427
-#: tpl/dash/dashboard.tpl.php:549
-#: tpl/dash/dashboard.tpl.php:578
 #: tpl/img_optm/settings.media_webp.tpl.php:22
 #: tpl/page_optm/settings_css.tpl.php:93
 #: tpl/page_optm/settings_js.tpl.php:77
@@ -713,8 +704,6 @@ msgid "Please see %s for more details."
 msgstr "لطفاً برای جزئیات بیشتر به %s مراجعه کنید."
 
 #: src/doc.cls.php:101
-#: tpl/dash/dashboard.tpl.php:152
-#: tpl/dash/dashboard.tpl.php:811
 #: tpl/img_optm/summary.tpl.php:59
 #: tpl/inc/check_cache_disabled.php:46
 #: tpl/page_optm/settings_media.tpl.php:301
@@ -737,154 +726,146 @@ msgstr "این تنظیم فایل .htaccess را ویرایش خواهد کرد
 msgid "The queue is processed asynchronously. It may take time."
 msgstr "صف به صورت ناهمگام پردازش می‌شود. ممکن است زمان ببرد."
 
-#: src/error.cls.php:68
-#, php-format
-msgid "You will need to finish %s setup to use the online services."
-msgstr "برای استفاده از خدمات آنلاین، باید راه‌اندازی %s را به پایان برسانید."
+#: src/error.cls.php:66
+msgid "This feature needs an online generation service, which is not included in this plugin. The setting has no effect."
+msgstr "این ویژگی به یک سرویس تولید آنلاین نیاز دارد که در این افزونه گنجانده نشده است. این تنظیم هیچ تأثیری ندارد."
 
-#: src/error.cls.php:73
-#: tpl/crawler/settings.tpl.php:123
-#: tpl/crawler/settings.tpl.php:144
-#: tpl/crawler/summary.tpl.php:218
-msgid "Click here to set."
-msgstr "برای تنظیم، اینجا کلیک کنید."
-
-#: src/error.cls.php:81
+#: src/error.cls.php:70
 msgid "You have used all of your daily quota for today."
 msgstr "شما تمام سهمیه روزانه خود را برای امروز مصرف کرده‌اید."
 
-#: src/error.cls.php:86
-#: src/error.cls.php:99
+#: src/error.cls.php:75
+#: src/error.cls.php:88
 msgid "Learn more or purchase additional quota."
 msgstr "بیشتر بدانید یا سهمیه اضافی خریداری کنید."
 
-#: src/error.cls.php:94
+#: src/error.cls.php:83
 msgid "You have used all of your quota left for current service this month."
 msgstr "شما تمام سهمیه باقی‌مانده خود را برای سرویس فعلی در این ماه مصرف کرده‌اید."
 
-#: src/error.cls.php:107
+#: src/error.cls.php:96
 msgid "You have too many requested images, please try again in a few minutes."
 msgstr "تصاویر درخواستی شما بیش از حد مجاز است، لطفاً چند دقیقه دیگر دوباره امتحان کنید."
 
-#: src/error.cls.php:111
+#: src/error.cls.php:100
 msgid "You have images waiting to be pulled. Please wait for the automatic pull to complete, or pull them down manually now."
 msgstr "تصاویر شما در انتظار دریافت هستند. لطفاً منتظر بمانید تا دریافت خودکار کامل شود، یا اکنون آن‌ها را به‌صورت دستی دریافت کنید."
 
-#: src/error.cls.php:115
+#: src/error.cls.php:104
 msgid "The image list is empty."
 msgstr "فهرست تصویر خالی است."
 
-#: src/error.cls.php:119
+#: src/error.cls.php:108
 msgid "Not enough parameters. Please check if the QUIC.cloud connection is set correctly"
 msgstr "پارامترهای کافی نیست. لطفاً بررسی کنید که اتصال QUIC.cloud به درستی تنظیم شده باشد"
 
-#: src/error.cls.php:123
+#: src/error.cls.php:112
 msgid "There is proceeding queue not pulled yet."
 msgstr "صف انتظار در حال پردازش وجود دارد که هنوز کشیده نشده است."
 
-#: src/error.cls.php:128
+#: src/error.cls.php:117
 #, php-format
 msgid "There is proceeding queue not pulled yet. Queue info: %s."
 msgstr "صف انتظار در حال پردازش وجود دارد که هنوز کشیده نشده است. اطلاعات صف: %s."
 
-#: src/error.cls.php:134
+#: src/error.cls.php:123
 msgid "The site is not a valid alias on QUIC.cloud."
 msgstr "این وب‌سایت یک نام مستعار معتبر در QUIC.cloud نیست."
 
-#: src/error.cls.php:138
+#: src/error.cls.php:127
 msgid "The site is not registered on QUIC.cloud."
 msgstr "این سایت در QUIC.cloud ثبت نشده است."
 
-#: src/error.cls.php:142
+#: src/error.cls.php:131
 msgid "The QUIC.cloud connection is not correct. Please try to sync your QUIC.cloud connection again."
 msgstr "اتصال QUIC.cloud نادرست است. لطفاً دوباره سعی کنید اتصال QUIC.cloud خود را همگام‌سازی کنید."
 
-#: src/error.cls.php:146
+#: src/error.cls.php:135
 msgid "The current server is under heavy load."
 msgstr "سرور فعلی تحت بار سنگینی است."
 
-#: src/error.cls.php:150
+#: src/error.cls.php:139
 msgid "Online node needs to be redetected."
 msgstr "گره آنلاین باید دوباره شناسایی شود."
 
-#: src/error.cls.php:154
+#: src/error.cls.php:143
 msgid "Credits are not enough to proceed the current request."
 msgstr "اعتبار موجود برای انجام درخواست فعلی کافی نیست."
 
-#: src/error.cls.php:158
-#: src/error.cls.php:182
+#: src/error.cls.php:147
+#: src/error.cls.php:171
 #, php-format
 msgid "%s file not writable."
 msgstr "پرونده %s قابل نوشتن نیست."
 
-#: src/error.cls.php:166
+#: src/error.cls.php:155
 #, php-format
 msgid "Could not find %1$s in %2$s."
 msgstr "%1$s در %2$s پیدا نشد."
 
-#: src/error.cls.php:170
+#: src/error.cls.php:159
 #, php-format
 msgid "Invalid login cookie. Please check the %s file."
 msgstr "کوکی ورود نامعتبر است. لطفاً فایل %s را بررسی کنید."
 
-#: src/error.cls.php:174
+#: src/error.cls.php:163
 #, php-format
 msgid "Failed to back up %s file, aborted changes."
 msgstr "خطا در پشتیبان‌گیری از پرونده %s، تغییرات لغو شد."
 
-#: src/error.cls.php:178
+#: src/error.cls.php:167
 #, php-format
 msgid "%s file not readable."
 msgstr "%s فایل قابل خواندن نیست."
 
-#: src/error.cls.php:186
+#: src/error.cls.php:175
 #, php-format
 msgid "Failed to get %s file contents."
 msgstr "دریافت محتوای پرونده %s با شکست مواجه شد."
 
-#: src/error.cls.php:190
+#: src/error.cls.php:179
 #, php-format
 msgid "Failed to create table %1$s! SQL: %2$s."
 msgstr "ایجاد جدول %1$s انجام نشد! SQL: %2$s."
 
-#: src/error.cls.php:194
+#: src/error.cls.php:183
 msgid "Crawler disabled by the server admin."
 msgstr "خزنده توسط مدیر سرور غیرفعال شده است."
 
-#: src/error.cls.php:198
+#: src/error.cls.php:187
 msgid "Previous request too recent. Please try again later."
 msgstr "درخواست قبلی بیش از حد جدید است. لطفاً بعداً دوباره تلاش کنید."
 
-#: src/error.cls.php:203
+#: src/error.cls.php:192
 #, php-format
 msgid "Previous request too recent. Please try again after %s."
 msgstr "درخواست قبلی بیش از حد جدید است. لطفاً پس از %s دوباره امتحان کنید."
 
-#: src/error.cls.php:209
+#: src/error.cls.php:198
 msgid "Your application is waiting for approval."
 msgstr "درخواست شما در انتظار تأیید است."
 
-#: src/error.cls.php:213
+#: src/error.cls.php:202
 msgid "The callback validation to your domain failed due to hash mismatch."
 msgstr "اعتبارسنجی بازخورد به دامنه شما به دلیل عدم تطابق هش ناموفق بود."
 
-#: src/error.cls.php:217
+#: src/error.cls.php:206
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
 msgstr "اعتبارسنجی بازخوانی به دامنه شما با شکست مواجه شد. لطفاً مطمئن شوید که هیچ فایروالی سرورهای ما را مسدود نکرده است."
 
-#: src/error.cls.php:222
+#: src/error.cls.php:211
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
 msgstr "اعتبارسنجی بازخورد به دامنه شما ناموفق بود. لطفاً مطمئن شوید که هیچ فایروالی سرورهای ما را مسدود نکرده است. کد پاسخ:"
 
-#: src/error.cls.php:227
+#: src/error.cls.php:216
 msgid "Your domain has been forbidden from using our services due to a previous policy violation."
 msgstr "دامنه شما به دلیل تخلف قبلی از خط‌مشی، از استفاده از خدمات ما محروم شده است."
 
-#: src/error.cls.php:231
+#: src/error.cls.php:220
 msgid "You cannot remove this DNS zone, because it is still in use. Please update the domain's nameservers, then try to delete this zone again, otherwise your site will become inaccessible."
 msgstr "شما نمی‌توانید این منطقه DNS را حذف کنید، زیرا هنوز در حال استفاده است. لطفاً سرورهای نام دامنه را به‌روزرسانی کنید و سپس دوباره برای حذف این منطقه تلاش کنید، در غیر این صورت سایت شما غیرقابل دسترس خواهد شد."
 
-#: src/error.cls.php:238
+#: src/error.cls.php:227
 msgid "Unknown error"
 msgstr "خطای ناشناخته"
 
@@ -1028,7 +1009,6 @@ msgstr "Cloudflare"
 #: src/gui.cls.php:945
 #: src/lang.cls.php:131
 #: tpl/dash/dashboard.tpl.php:60
-#: tpl/dash/dashboard.tpl.php:569
 #: tpl/toolbox/purge.tpl.php:55
 msgid "Object Cache"
 msgstr "کش ذخیره‌سازی شیء"
@@ -1247,12 +1227,10 @@ msgid "Images ready to request"
 msgstr "تصاویر آماده‌ی درخواست"
 
 #: src/lang.cls.php:32
-#: tpl/dash/dashboard.tpl.php:517
 msgid "Images requested"
 msgstr "تصاویر درخواست‌شده"
 
 #: src/lang.cls.php:33
-#: tpl/dash/dashboard.tpl.php:526
 msgid "Images notified to pull"
 msgstr "تصاویر برای دریافت اطلاع‌رسانی شده‌اند"
 
@@ -1280,7 +1258,6 @@ msgstr "فعال‌سازی کش"
 
 #: src/lang.cls.php:109
 #: tpl/dash/dashboard.tpl.php:61
-#: tpl/dash/dashboard.tpl.php:570
 #: tpl/presets/standard.tpl.php:21
 msgid "Browser Cache"
 msgstr "حافظه پنهان مرورگر"
@@ -2449,48 +2426,44 @@ msgstr "هنگام غیرفعال کردن کش، تمام موارد کش‌ش�
 msgid "The network admin setting can be overridden here."
 msgstr "تنظیمات مدیر شبکه را می‌توان در اینجا بازنویسی کرد."
 
-#: tpl/cache/settings-cache.tpl.php:49
-msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
-msgstr "با فعال بودن شبکه تحویل محتوای (CDN) QUIC.cloud، ممکن است همچنان هدرهای کش را از سرور محلی خود مشاهده کنید."
-
-#: tpl/cache/settings-cache.tpl.php:63
+#: tpl/cache/settings-cache.tpl.php:60
 #, php-format
 msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
 msgstr "کش کردن خصوصی صفحات فرانت‌اند برای کاربران وارد شده. (LSWS %s مورد نیاز است)"
 
-#: tpl/cache/settings-cache.tpl.php:76
+#: tpl/cache/settings-cache.tpl.php:73
 #, php-format
 msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
 msgstr "دیدگاه‌دهندگان دارای دیدگاه‌های در انتظار تأیید را به صورت خصوصی در حافظه پنهان ذخیره کنید. غیرفعال کردن این گزینه، صفحات غیرقابل ذخیره‌سازی را به دیدگاه‌دهندگان نمایش می‌دهد. (LSWS %s مورد نیاز است)"
 
-#: tpl/cache/settings-cache.tpl.php:89
+#: tpl/cache/settings-cache.tpl.php:86
 msgid "Cache requests made by WordPress REST API calls."
 msgstr "درخواست‌های کش شده توسط فراخوانی‌های WordPress REST API."
 
-#: tpl/cache/settings-cache.tpl.php:102
+#: tpl/cache/settings-cache.tpl.php:99
 msgid "Disabling this option may negatively affect performance."
 msgstr "غیرفعال کردن این گزینه ممکن است تأثیر منفی بر عملکرد داشته باشد."
 
-#: tpl/cache/settings-cache.tpl.php:119
+#: tpl/cache/settings-cache.tpl.php:116
 msgid "URI Paths containing these strings will NOT be cached as public."
 msgstr "مسیرهای URI حاوی این رشته‌ها به عنوان عمومی کش نخواهند شد."
 
-#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:130
 msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
 msgstr "مسیرهایی که حاوی این رشته‌ها هستند، صرف نظر از تنظیمات غیرقابل کش، کش خواهند شد."
 
-#: tpl/cache/settings-cache.tpl.php:136
-#: tpl/cache/settings-cache.tpl.php:161
+#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:158
 msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
 msgstr "برای تعیین یک TTL سفارشی برای یک URI، یک فاصله و به دنبال آن مقدار TTL را به انتهای URI اضافه کنید."
 
-#: tpl/cache/settings-cache.tpl.php:139
-#: tpl/cache/settings-cache.tpl.php:164
+#: tpl/cache/settings-cache.tpl.php:136
+#: tpl/cache/settings-cache.tpl.php:161
 #, php-format
 msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
 msgstr "برای مثال، %1$s یک TTL با مدت %2$s ثانیه برای %3$s تعریف می‌کند."
 
-#: tpl/cache/settings-cache.tpl.php:158
+#: tpl/cache/settings-cache.tpl.php:155
 msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
 msgstr "مسیرهایی که شامل این رشته‌ها هستند، صرف‌نظر از تنظیمات قابلیت عدم کش (no-cacheable)، به کش عمومی مجبور خواهند شد."
 
@@ -2535,8 +2508,8 @@ msgid "WARNING"
 msgstr "هشدار"
 
 #: tpl/cache/settings-esi.tpl.php:46
-msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
-msgstr "این گزینه ها فقط با LiteSpeed Enterprise Web Server یا QUIC.cloud CDN در دسترس هستند."
+msgid "These options are only available with LiteSpeed Enterprise Web Server."
+msgstr "این گزینه‌ها فقط با LiteSpeed Enterprise Web Server در دسترس هستند."
 
 #: tpl/cache/settings-esi.tpl.php:59
 msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
@@ -3156,13 +3129,13 @@ msgstr "تنظیمات CDN"
 
 #: tpl/cdn/other.tpl.php:44
 #, php-format
-msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
-msgstr "اگر از یک شبکه تحویل محتوای (CDN) سنتی یا یک زیردامنه برای محتوای استاتیک با QUIC.cloud CDN استفاده می‌کنید، این تنظیم را %s کنید."
+msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content."
+msgstr "اگر از یک شبکه تحویل محتوای (CDN) سنتی یا یک زیردامنه برای محتوای ایستا استفاده می‌کنید، این تنظیم را %s کنید."
 
 #: tpl/cdn/other.tpl.php:52
 #, php-format
-msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are only using QUIC.cloud or Cloudflare, leave this setting %s."
-msgstr "نکته: شبکه تحویل محتوای QUIC.cloud و Cloudflare از نگاشت شبکه تحویل محتوا (CDN Mapping) استفاده نمی‌کنند. اگر فقط از QUIC.cloud یا Cloudflare استفاده می‌کنید، این تنظیم را %s بگذارید."
+msgid "NOTE: Cloudflare does not use CDN Mapping. If you are only using Cloudflare, leave this setting %s."
+msgstr "توجه: Cloudflare از نگاشت CDN استفاده نمی‌کند. اگر فقط از Cloudflare استفاده می‌کنید، این تنظیم را %s رها کنید."
 
 #: tpl/cdn/other.tpl.php:80
 msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
@@ -3332,7 +3305,6 @@ msgstr "عدم ذخیره‌سازی کش"
 
 #: tpl/crawler/map.tpl.php:77
 #: tpl/dash/dashboard.tpl.php:80
-#: tpl/dash/dashboard.tpl.php:765
 msgid "Crawler Status"
 msgstr "وضعیت خزنده"
 
@@ -3379,6 +3351,12 @@ msgstr "برای خزیدن در سایت به عنوان یک کاربر وار
 #, php-format
 msgid "You must set %s before using this feature."
 msgstr "پیش از استفاده از این ویژگی باید %s را تنظیم کنید."
+
+#: tpl/crawler/settings.tpl.php:123
+#: tpl/crawler/settings.tpl.php:144
+#: tpl/crawler/summary.tpl.php:218
+msgid "Click here to set."
+msgstr "برای تنظیم، اینجا کلیک کنید."
 
 #: tpl/crawler/settings.tpl.php:136
 #, php-format
@@ -3437,7 +3415,6 @@ msgstr "زمان اجرا برای خزنده قبلی"
 
 #: tpl/crawler/summary.tpl.php:104
 #: tpl/dash/dashboard.tpl.php:91
-#: tpl/dash/dashboard.tpl.php:776
 msgid "Current crawler started at"
 msgstr "شروع خزنده فعلی در"
 
@@ -3447,13 +3424,11 @@ msgstr "بار فعلی سرور"
 
 #: tpl/crawler/summary.tpl.php:116
 #: tpl/dash/dashboard.tpl.php:97
-#: tpl/dash/dashboard.tpl.php:782
 msgid "Last interval"
 msgstr "آخرین فاصله زمانی"
 
 #: tpl/crawler/summary.tpl.php:123
 #: tpl/dash/dashboard.tpl.php:103
-#: tpl/dash/dashboard.tpl.php:788
 msgid "Ended reason"
 msgstr "دلیل پایان یافتن"
 
@@ -3553,340 +3528,42 @@ msgid "No crawler meta file generated yet"
 msgstr "هنوز هیچ فایل متای خزنده‌ای تولید نشده است"
 
 #: tpl/dash/dashboard.tpl.php:53
-#: tpl/dash/dashboard.tpl.php:562
 msgid "Cache Status"
 msgstr "وضعیت کش"
 
 #: tpl/dash/dashboard.tpl.php:54
 #: tpl/dash/dashboard.tpl.php:81
-#: tpl/dash/dashboard.tpl.php:486
-#: tpl/dash/dashboard.tpl.php:563
-#: tpl/dash/dashboard.tpl.php:590
-#: tpl/dash/dashboard.tpl.php:634
-#: tpl/dash/dashboard.tpl.php:678
-#: tpl/dash/dashboard.tpl.php:722
-#: tpl/dash/dashboard.tpl.php:766
-#: tpl/dash/dashboard.tpl.php:813
 msgid "More"
 msgstr "بیشتر"
 
 #: tpl/dash/dashboard.tpl.php:58
-#: tpl/dash/dashboard.tpl.php:567
 msgid "Public Cache"
 msgstr "کش عمومی"
 
 #: tpl/dash/dashboard.tpl.php:59
-#: tpl/dash/dashboard.tpl.php:568
 msgid "Private Cache"
 msgstr "کش ممتاع"
 
 #: tpl/dash/dashboard.tpl.php:84
-#: tpl/dash/dashboard.tpl.php:769
 msgid "Crawler(s)"
 msgstr "خزشگر(ها)"
 
 #: tpl/dash/dashboard.tpl.php:87
-#: tpl/dash/dashboard.tpl.php:772
 msgid "Currently active crawler"
 msgstr "خزشگر فعال در حال حاضر"
 
 #: tpl/dash/dashboard.tpl.php:111
-#: tpl/dash/dashboard.tpl.php:796
 #, php-format
 msgid "%1$s %2$d item(s)"
 msgstr "%1$s %2$d مورد"
 
 #: tpl/dash/dashboard.tpl.php:112
-#: tpl/dash/dashboard.tpl.php:797
 msgid "Last crawled:"
 msgstr "آخرین خززش:"
 
 #: tpl/dash/dashboard.tpl.php:128
-#: tpl/dash/dashboard.tpl.php:873
 msgid "News"
 msgstr "اخبار"
-
-#: tpl/dash/dashboard.tpl.php:145
-msgid "QUIC.cloud Service Usage Statistics"
-msgstr "آمار استفاده از سرویس QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:147
-msgid "Refresh Usage"
-msgstr "به‌روزرسانی میزان مصرف"
-
-#: tpl/dash/dashboard.tpl.php:148
-msgid "Sync data from Cloud"
-msgstr "همگام‌سازی داده‌ها از ابر"
-
-#: tpl/dash/dashboard.tpl.php:159
-#, php-format
-msgid "The features below are provided by %s"
-msgstr "ویژگی‌های زیر توسط %s ارائه شده‌اند"
-
-#: tpl/dash/dashboard.tpl.php:171
-#: tpl/dash/network_dash.tpl.php:38
-msgid "CDN Bandwidth"
-msgstr "پهنای باند CDN"
-
-#: tpl/dash/dashboard.tpl.php:172
-#: tpl/dash/dashboard.tpl.php:677
-#: tpl/dash/network_dash.tpl.php:39
-msgid "Low Quality Image Placeholder"
-msgstr "نشانه‌گذار تصویر با کیفیت پایین"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Fast Queue Usage"
-msgstr "مصرف صف سریع"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Usage"
-msgstr "مصرف"
-
-#: tpl/dash/dashboard.tpl.php:236
-#: tpl/dash/network_dash.tpl.php:108
-msgid "PAYG Balance"
-msgstr "موجودی پرداخت بر اساس مصرف"
-
-#: tpl/dash/dashboard.tpl.php:237
-#, php-format
-msgid "PAYG used this month: %s. PAYG balance and usage not included in above quota calculation."
-msgstr "مبلغ پرداختی بر اساس مصرف (PAYG) در ماه جاری: %s. موجودی و مصرف PAYG در محاسبه سهمیه بالا منظور نشده است."
-
-#: tpl/dash/dashboard.tpl.php:239
-#: tpl/dash/network_dash.tpl.php:111
-msgid "Pay as You Go Usage Statistics"
-msgstr "آمار مصرف پرداختی بر اساس میزان استفاده"
-
-#: tpl/dash/dashboard.tpl.php:257
-#: tpl/dash/network_dash.tpl.php:118
-msgid "Total Usage"
-msgstr "کل مصرف"
-
-#: tpl/dash/dashboard.tpl.php:258
-#: tpl/dash/network_dash.tpl.php:119
-msgid "Total images optimized in this month"
-msgstr "کل تصاویر بهینه‌سازی‌شده در این ماه"
-
-#: tpl/dash/dashboard.tpl.php:266
-msgid "Remaining Daily Quota"
-msgstr "سهمیه روزانه باقی‌مانده"
-
-#: tpl/dash/dashboard.tpl.php:276
-msgid "Partner Benefits Provided by"
-msgstr "مزایای همکار ارائه شده توسط"
-
-#: tpl/dash/dashboard.tpl.php:312
-msgid "Enable QUIC.cloud Services"
-msgstr "فع‌سازی خدمات QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:319
-msgid "Go to QUIC.cloud dashboard"
-msgstr "برو به داشبورد QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:325
-msgid "Link to QUIC.cloud"
-msgstr "پیوند به QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:340
-msgid "Page Load Time"
-msgstr "زمان بارگذاری صفحه"
-
-#: tpl/dash/dashboard.tpl.php:347
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-#, php-format
-msgid "Current closest Cloud server is %s. Click to redetect."
-msgstr "نزدیک‌ترین سرور ابری فعلی %s است. برای تشخیص مجدد کلیک کنید."
-
-#: tpl/dash/dashboard.tpl.php:348
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Are you sure you want to redetect the closest cloud server for this service?"
-msgstr "آیا مطمئن هستید که می‌خواهید نزدیک‌ترین سرور ابری را برای این سرویس دوباره شناسایی کنید؟"
-
-#: tpl/dash/dashboard.tpl.php:350
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/img_optm/summary.tpl.php:56
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Redetect"
-msgstr "تشخیص مجدد"
-
-#: tpl/dash/dashboard.tpl.php:360
-#: tpl/dash/dashboard.tpl.php:436
-msgid "Before"
-msgstr "قبل"
-
-#: tpl/dash/dashboard.tpl.php:368
-#: tpl/dash/dashboard.tpl.php:444
-msgid "After"
-msgstr "پس از"
-
-#: tpl/dash/dashboard.tpl.php:376
-#: tpl/dash/dashboard.tpl.php:452
-msgid "Improved by"
-msgstr "بهبودیافته توسط"
-
-#: tpl/dash/dashboard.tpl.php:384
-msgid "You must be using one of the following products in order to measure Page Load Time:"
-msgstr "برای سنجش زمان بارگذاری صفحه، باید از یکی از محصولات زیر استفاده کنید:"
-
-#: tpl/dash/dashboard.tpl.php:385
-msgid "LiteSpeed Web Server"
-msgstr "سرور وب LiteSpeed"
-
-#: tpl/dash/dashboard.tpl.php:387
-msgid "OpenLiteSpeed Web Server"
-msgstr "وب‌سرور OpenLiteSpeed"
-
-#: tpl/dash/dashboard.tpl.php:389
-msgid "LiteSpeed Web ADC"
-msgstr "LiteSpeed Web ADC"
-
-#: tpl/dash/dashboard.tpl.php:391
-#: tpl/dash/dashboard.tpl.php:809
-msgid "QUIC.cloud CDN"
-msgstr "CDN شبکه QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:403
-#: tpl/dash/dashboard.tpl.php:468
-#, php-format
-msgid "Requested: %s ago"
-msgstr "درخواست‌شده: %s پیش"
-
-#: tpl/dash/dashboard.tpl.php:411
-#: tpl/dash/dashboard.tpl.php:476
-msgid "Refresh"
-msgstr "بروزرسانی"
-
-#: tpl/dash/dashboard.tpl.php:412
-msgid "Refresh page load time"
-msgstr "بارگذاری مجدد صفحه"
-
-#: tpl/dash/dashboard.tpl.php:421
-msgid "PageSpeed Score"
-msgstr "امتیاز PageSpeed"
-
-#: tpl/dash/dashboard.tpl.php:477
-msgid "Refresh page score"
-msgstr "بروزرسانی امتیاز صفحه"
-
-#: tpl/dash/dashboard.tpl.php:485
-#: tpl/img_optm/entry.tpl.php:16
-msgid "Image Optimization Summary"
-msgstr "خلاصه بهینه‌سازی تصویر"
-
-#: tpl/dash/dashboard.tpl.php:502
-#: tpl/img_optm/summary.tpl.php:76
-#: tpl/img_optm/summary.tpl.php:89
-msgid "Send Optimization Request"
-msgstr "ارسال درخواست بهینه‌سازی"
-
-#: tpl/dash/dashboard.tpl.php:508
-#: tpl/img_optm/summary.tpl.php:316
-msgid "Total Reduction"
-msgstr "مجموع کاهش"
-
-#: tpl/dash/dashboard.tpl.php:511
-#: tpl/img_optm/summary.tpl.php:319
-msgid "Images Pulled"
-msgstr "تصاویر کشیده شده"
-
-#: tpl/dash/dashboard.tpl.php:534
-#: tpl/img_optm/summary.tpl.php:322
-msgid "Last Request"
-msgstr "آخرین درخواست"
-
-#: tpl/dash/dashboard.tpl.php:537
-msgid "Last Pull"
-msgstr "آخرین دریافت"
-
-#: tpl/dash/dashboard.tpl.php:589
-#: tpl/toolbox/purge.tpl.php:73
-msgid "Critical CSS"
-msgstr "CSS حیاتی"
-
-#: tpl/dash/dashboard.tpl.php:596
-#: tpl/dash/dashboard.tpl.php:640
-#: tpl/dash/dashboard.tpl.php:684
-#: tpl/dash/dashboard.tpl.php:728
-#, php-format
-msgid "Last generated: %s"
-msgstr "آخرین تولید: %s"
-
-#: tpl/dash/dashboard.tpl.php:604
-#: tpl/dash/dashboard.tpl.php:648
-#: tpl/dash/dashboard.tpl.php:692
-#: tpl/dash/dashboard.tpl.php:736
-#, php-format
-msgid "Time to execute previous request: %s"
-msgstr "زمان اجرای درخواست قبلی: %s"
-
-#: tpl/dash/dashboard.tpl.php:611
-#: tpl/dash/dashboard.tpl.php:655
-#: tpl/dash/dashboard.tpl.php:699
-#: tpl/dash/dashboard.tpl.php:743
-msgid "Requests in queue"
-msgstr "درخواست‌های در صف"
-
-#: tpl/dash/dashboard.tpl.php:614
-#: tpl/dash/dashboard.tpl.php:658
-#: tpl/dash/dashboard.tpl.php:702
-#: tpl/dash/dashboard.tpl.php:746
-msgid "Force cron"
-msgstr "اجرای اجباری کران"
-
-#: tpl/dash/dashboard.tpl.php:622
-#: tpl/dash/dashboard.tpl.php:666
-#: tpl/dash/dashboard.tpl.php:710
-#: tpl/dash/dashboard.tpl.php:754
-#, php-format
-msgid "Last requested: %s"
-msgstr "آخرین درخواست: %s"
-
-#: tpl/dash/dashboard.tpl.php:633
-#: tpl/toolbox/purge.tpl.php:82
-msgid "Unique CSS"
-msgstr "CSS منحصربه‌فرد"
-
-#: tpl/dash/dashboard.tpl.php:721
-msgid "Viewport Image"
-msgstr "تصویر محفظه دید"
-
-#: tpl/dash/dashboard.tpl.php:822
-msgid "Enable QUIC.cloud CDN"
-msgstr "فعال‌سازی CDN در QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:829
-msgid "Best available WordPress performance"
-msgstr "بهترین عملکرد موجود برای WordPress"
-
-#: tpl/dash/dashboard.tpl.php:834
-#, php-format
-msgid "Globally fast TTFB, easy setup, and %s!"
-msgstr "TTFB سریع در سراسر جهان، راه‌اندازی آسان و %s!"
-
-#: tpl/dash/dashboard.tpl.php:835
-msgid "more"
-msgstr "بیشتر"
-
-#: tpl/dash/dashboard.tpl.php:851
-msgid "Refresh Status"
-msgstr "به‌روزرسانی وضعیت"
-
-#: tpl/dash/dashboard.tpl.php:852
-msgid "Refresh QUIC.cloud status"
-msgstr "به‌روزرسانی وضعیت QUIC.cloud"
 
 #: tpl/dash/entry.tpl.php:21
 msgid "Network Dashboard"
@@ -3901,14 +3578,46 @@ msgstr "داشبورد موتور کش Zinn®"
 msgid "Usage Statistics: %s"
 msgstr "آمارهای مصرف: %s"
 
+#: tpl/dash/network_dash.tpl.php:38
+msgid "CDN Bandwidth"
+msgstr "پهنای باند CDN"
+
+#: tpl/dash/network_dash.tpl.php:39
+msgid "Low Quality Image Placeholder"
+msgstr "نشانه‌گذار تصویر با کیفیت پایین"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Fast Queue Usage"
+msgstr "مصرف صف سریع"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Usage"
+msgstr "مصرف"
+
 #: tpl/dash/network_dash.tpl.php:107
 msgid "Pay as You Go"
 msgstr "پرداخت بر اساس مصرف"
+
+#: tpl/dash/network_dash.tpl.php:108
+msgid "PAYG Balance"
+msgstr "موجودی پرداخت بر اساس مصرف"
 
 #: tpl/dash/network_dash.tpl.php:109
 #, php-format
 msgid "This Month Usage: %s"
 msgstr "مصرف این ماه: %s"
+
+#: tpl/dash/network_dash.tpl.php:111
+msgid "Pay as You Go Usage Statistics"
+msgstr "آمار مصرف پرداختی بر اساس میزان استفاده"
+
+#: tpl/dash/network_dash.tpl.php:118
+msgid "Total Usage"
+msgstr "کل مصرف"
+
+#: tpl/dash/network_dash.tpl.php:119
+msgid "Total images optimized in this month"
+msgstr "کل تصاویر بهینه‌سازی‌شده در این ماه"
 
 #: tpl/db_optm/entry.tpl.php:17
 #: tpl/db_optm/settings.tpl.php:19
@@ -4131,58 +3840,53 @@ msgstr "این گزینه بیشترین بهینه‌سازی را برای ب�
 msgid "Please read all warnings before enabling this option."
 msgstr "لطفاً پیش از فعال کردن این گزینه، تمامی هشدارها را مطالعه کنید."
 
-#: tpl/general/settings.tpl.php:64
-#, php-format
-msgid "Your %1$s quota on %2$s will still be in use."
-msgstr "سهمیه %1$s شما در %2$s همچنان مورد استفاده خواهد بود."
-
-#: tpl/general/settings.tpl.php:72
-#: tpl/general/settings.tpl.php:79
-#: tpl/general/settings.tpl.php:86
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:71
+#: tpl/general/settings.tpl.php:78
+#: tpl/general/settings.tpl.php:85
+#: tpl/general/settings.tpl.php:102
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 msgid "Notice"
 msgstr "اعلان"
 
-#: tpl/general/settings.tpl.php:72
+#: tpl/general/settings.tpl.php:71
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 #, php-format
 msgid "%s must be turned ON for this setting to work."
 msgstr "برای کار کردن این تنظیم، %s باید روشن باشد."
 
-#: tpl/general/settings.tpl.php:79
+#: tpl/general/settings.tpl.php:78
 #, php-format
 msgid "You need to turn %s on to get maximum result."
 msgstr "برای دریافت بیشترین نتیجه، باید %s را روشن کنید."
 
-#: tpl/general/settings.tpl.php:86
+#: tpl/general/settings.tpl.php:85
 #, php-format
 msgid "You need to turn %s on and finish all WebP generation to get maximum result."
 msgstr "برای دریافت حداکثر نتیجه، باید %s را روشن کنید و تمام مراحل تولید WebP را به پایان برسانید."
 
-#: tpl/general/settings.tpl.php:101
+#: tpl/general/settings.tpl.php:100
 msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
 msgstr "آدرس IP این سایت را وارد کنید تا سرویس‌های ابری به جای نام دامنه، مستقیماً با IP تماس بگیرند. این کار سربار جستجوهای DNS و CDN را از بین می‌برد."
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Your server IP"
 msgstr "IP سرور شما"
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Check my public IP from"
 msgstr "آی‌پی عمومی من را بررسی کن از"
 
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:102
 msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
 msgstr "اگر آی‌پی خروجی اضافی دیگری تنظیم کرده باشید یا چندین آی‌پی روی سرور خود پیکربندی کرده باشید، ممکن است آی‌پی شناسایی‌شده‌ی خودکار دقیق نباشد."
 
-#: tpl/general/settings.tpl.php:104
+#: tpl/general/settings.tpl.php:103
 msgid "Please make sure this IP is the correct one for visiting your site."
 msgstr "لطفاً مطمئن شوید که این IP برای بازدید از سایت شما درست است."
 
-#: tpl/general/settings.tpl.php:119
+#: tpl/general/settings.tpl.php:118
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
 msgstr "این گزینه را روشن کنید تا آخرین اخبار به‌طور خودکار، از جمله اصلاحات مهم، نسخه‌های جدید، نسخه‌های بتای موجود و تخفیف‌ها نمایش داده شوند."
 
@@ -4232,6 +3936,10 @@ msgstr "با موفقیت همگام‌سازی شد."
 msgid "Sync failed."
 msgstr "همگام‌سازی انجام نشد."
 
+#: tpl/img_optm/entry.tpl.php:16
+msgid "Image Optimization Summary"
+msgstr "خلاصه بهینه‌سازی تصویر"
+
 #: tpl/img_optm/entry.tpl.php:17
 #: tpl/img_optm/entry.tpl.php:22
 #: tpl/img_optm/network_settings.tpl.php:19
@@ -4254,20 +3962,15 @@ msgstr "با جایگزین کردن تصاویر با نسخه‌های بهی�
 
 #: tpl/img_optm/settings.media_webp.tpl.php:31
 #, php-format
-msgid "%1$s is a %2$s paid feature."
-msgstr "%1$s یک ویژگی پولی %2$s است."
-
-#: tpl/img_optm/settings.media_webp.tpl.php:34
-#, php-format
 msgid "When switching formats, please %1$s or %2$s to apply this new choice to previously optimized images."
 msgstr "هنگام تغییر قالب، لطفاً برای اعمال این انتخاب جدید روی تصاویر بهینه‌سازی‌شده‌ی قبلی، %1$s یا %2$s کنید."
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:378
 msgid "Destroy All Optimization Data"
 msgstr "حذف تمام داده‌های بهینه‌سازی"
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:368
 msgid "Soft Reset Optimization Counter"
 msgstr "بازنشانی نرم شمارنده بهینه‌سازی"
@@ -4328,9 +4031,35 @@ msgstr "مشخص کنید کدام ویژگی‌های عنصر با WebP/AVIF �
 msgid "Enable replacement of WebP/AVIF in %s elements that were generated outside of WordPress logic."
 msgstr "فعال‌سازی جایگزینی WebP/AVIF در عناصر %s که خارج از منطق WordPress تولید شده‌اند."
 
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+#, php-format
+msgid "Current closest Cloud server is %s. Click to redetect."
+msgstr "نزدیک‌ترین سرور ابری فعلی %s است. برای تشخیص مجدد کلیک کنید."
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "آیا مطمئن هستید که می‌خواهید نزدیک‌ترین سرور ابری را برای این سرویس دوباره شناسایی کنید؟"
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/img_optm/summary.tpl.php:56
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Redetect"
+msgstr "تشخیص مجدد"
+
 #: tpl/img_optm/summary.tpl.php:58
-msgid "Optimize images with our QUIC.cloud server"
-msgstr "تصاویر را با سرور QUIC.cloud خود بهینه‌سازی کنید"
+msgid "Image optimisation"
+msgstr "بهینه‌سازی تصویر"
 
 #: tpl/img_optm/summary.tpl.php:63
 #, php-format
@@ -4344,6 +4073,11 @@ msgstr "برای اطمینان از اینکه سرور ما می‌تواند 
 #: tpl/img_optm/summary.tpl.php:69
 msgid "Current limit is"
 msgstr "حد فعلی است"
+
+#: tpl/img_optm/summary.tpl.php:76
+#: tpl/img_optm/summary.tpl.php:89
+msgid "Send Optimization Request"
+msgstr "ارسال درخواست بهینه‌سازی"
 
 #: tpl/img_optm/summary.tpl.php:77
 #: tpl/page_optm/settings_css.tpl.php:156
@@ -4370,8 +4104,8 @@ msgid "Optimization Status"
 msgstr "وضعیت بهینه‌سازی"
 
 #: tpl/img_optm/summary.tpl.php:141
-msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
-msgstr "پس از اینکه سرور بهینه‌سازی تصویر QUIC.cloud بهینه‌سازی را به پایان رساند، به سایت شما اطلاع می‌دهد تا تصاویر بهینه‌شده را دریافت کند."
+msgid "When the optimisation server finishes, it notifies your site to pull the optimised images."
+msgstr "وقتی سرور بهینه‌سازی کار خود را تمام می‌کند، به سایت شما اطلاع می‌دهد تا تصاویر بهینه‌شده را دریافت کند."
 
 #: tpl/img_optm/summary.tpl.php:142
 msgid "This process is automatic."
@@ -4473,6 +4207,18 @@ msgstr "اسکن مجدد بندانگشتی‌های جدید"
 msgid "Optimization Summary"
 msgstr "خلاصه بهینه‌سازی"
 
+#: tpl/img_optm/summary.tpl.php:316
+msgid "Total Reduction"
+msgstr "مجموع کاهش"
+
+#: tpl/img_optm/summary.tpl.php:319
+msgid "Images Pulled"
+msgstr "تصاویر کشیده شده"
+
+#: tpl/img_optm/summary.tpl.php:322
+msgid "Last Request"
+msgstr "آخرین درخواست"
+
 #: tpl/img_optm/summary.tpl.php:325
 msgid "Last Pulled"
 msgstr "آخرین بارگیری‌شده"
@@ -4520,26 +4266,21 @@ msgstr "آیا از حذف تمام تصاویر بهینه‌شده اطمین�
 msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
 msgstr "تمام درخواست‌ها/نتایج قبلی بهینه‌سازی تصویر را حذف کنید، بهینه‌سازی‌های انجام‌شده را به حالت قبل بازگردانید و تمام فایل‌های بهینه‌سازی را پاک کنید."
 
-#: tpl/inc/admin_footer.php:17
-#, php-format
-msgid "Rate %1$s on %2$s"
-msgstr "امتیاز دادن به %1$s در %2$s"
+#: tpl/inc/admin_footer.php:16
+msgid "Read the upstream Zinn® Cache Engine documentation"
+msgstr "مستندات موتور کش Zinn® بالادست را مطالعه کنید"
 
 #: tpl/inc/admin_footer.php:19
-msgid "Read LiteSpeed Documentation"
-msgstr "مطالعه مستندات LiteSpeed"
+msgid "Zinn Digital® support"
+msgstr "پشتیبانی Zinn Digital®"
 
-#: tpl/inc/admin_footer.php:21
-msgid "Visit LSCWP support forum"
-msgstr "بازدید از انجمن پشتیبانی LSCWP"
-
-#: tpl/inc/admin_footer.php:23
-msgid "Join LiteSpeed Slack community"
-msgstr "به انجمن Slack شرکت LiteSpeed بپیوندید"
+#: tpl/inc/admin_footer.php:22
+msgid "Zinn® Cache Engine user guide"
+msgstr "راهنمای کاربر موتور کش Zinn®"
 
 #: tpl/inc/check_cache_disabled.php:20
-msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
-msgstr "برای استفاده از قابلیت‌های کش، باید یک وب‌سرور LiteSpeed داشته باشید یا از شبکه توزیع محتوای QUIC.cloud استفاده کنید."
+msgid "To use the caching functions you must have a LiteSpeed or OpenLiteSpeed web server with the LSCache module."
+msgstr "برای استفاده از توابع کش، باید یک وب سرور LiteSpeed یا OpenLiteSpeed با ماژول LSCache داشته باشید."
 
 #: tpl/inc/check_cache_disabled.php:25
 msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
@@ -4752,8 +4493,8 @@ msgid "How to Fix Problems Caused by CSS/JS Optimization."
 msgstr "نحوه رفع مشکلات ناشی از بهینه‌سازی CSS/JS."
 
 #: tpl/page_optm/settings_css.tpl.php:82
-msgid "Use QUIC.cloud online service to generate unique CSS."
-msgstr "از سرویس آنلاین QUIC.cloud برای تولید CSS منحصر‌به‌فرد استفاده کنید."
+msgid "Generate unique CSS through an online generation service."
+msgstr "تولید CSS منحصربه‌فرد از طریق یک سرویس تولید آنلاین."
 
 #: tpl/page_optm/settings_css.tpl.php:83
 msgid "This will drop the unused CSS on each page from the combined file."
@@ -4835,8 +4576,8 @@ msgid "This can improve your speed score in services like Pingdom, GTmetrix and 
 msgstr "این می‌تواند امتیاز سرعت شما را در سرویس‌هایی مانند پینگ‌دوم، جی‌متریکس و پیج‌اسپید بهبود بخشد."
 
 #: tpl/page_optm/settings_css.tpl.php:217
-msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
-msgstr "از سرویس آنلاین QUIC.cloud برای تولید CSS حیاتی و بارگذاری ناهمگام CSS باقی‌مانده استفاده کنید."
+msgid "Generate critical CSS through an online generation service and load the remaining CSS asynchronously."
+msgstr "CSS بحرانی را از طریق یک سرویس تولید آنلاین ایجاد کنید و مابقی CSS را به صورت ناهمگام بارگیری کنید."
 
 #: tpl/page_optm/settings_css.tpl.php:219
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
@@ -5116,8 +4857,8 @@ msgid "Specify the responsive placeholder SVG color."
 msgstr "رنگ SVG جای‌گذار واکنش‌گرا را مشخص کنید."
 
 #: tpl/page_optm/settings_media.tpl.php:122
-msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
-msgstr "از سرویس تولیدکننده LQIP (جاگذاشت کم‌کیفیت تصویر) QUIC.cloud برای پیش‌نمایش تصاویر واکنش‌گرا هنگام بارگذاری استفاده کنید."
+msgid "Generate Low Quality Image Placeholders through an online generation service, for responsive image previews while loading."
+msgstr "تصویرِ پیش‌نمایش کم‌کیفیت را از طریق یک سرویس تولید آنلاین برای پیش‌نمایش‌های تصویر واکنش‌گرا در هنگام بارگذاری ایجاد کنید."
 
 #: tpl/page_optm/settings_media.tpl.php:123
 msgid "Keep this off to use plain color placeholders."
@@ -5392,8 +5133,8 @@ msgid "This no-risk preset is appropriate for all websites. Good for new users, 
 msgstr "این پیش‌تنظیم بدون ریسک برای تمامی وب‌سایت‌ها مناسب است. مناسب برای کاربران جدید، وب‌سایت‌های ساده یا توسعه مبتنی بر کش."
 
 #: tpl/presets/standard.tpl.php:25
-msgid "A QUIC.cloud connection is not required to use this preset. Only basic caching features are enabled."
-msgstr "برای استفاده از این پیش‌تنظیم، اتصال به QUIC.cloud الزامی نیست. فقط ویژگی‌های ذخیره‌سازی اولیه فعال هستند."
+msgid "Only basic caching features are enabled. Every option in this preset works without any online service."
+msgstr "فقط قابلیت‌های کش پایه فعال هستند. هر گزینه در این پیش‌تنظیم بدون هیچ سرویس آنلاین کار می‌کند."
 
 #: tpl/presets/standard.tpl.php:29
 #: tpl/toolbox/settings-debug.tpl.php:117
@@ -5413,8 +5154,8 @@ msgid "This low-risk preset introduces basic optimizations for speed and user ex
 msgstr "این پیش‌تنظیم کم‌ریسک، بهینه‌سازی‌های پایه‌ای را برای سرعت و تجربه کاربری ارائه می‌دهد. مناسب برای افراد تازه‌کار مشتاق."
 
 #: tpl/presets/standard.tpl.php:37
-msgid "A QUIC.cloud connection is required to use this preset. Includes optimizations known to improve site score in page speed measurement tools."
-msgstr "برای استفاده از این پیش‌تنظیم، اتصال به QUIC.cloud الزامی است. شامل بهینه‌سازی‌هایی که مشخص شده امتیاز سایت را در ابزارهای سنجش سرعت صفحه بهبود می‌بخشد."
+msgid "Includes optimizations known to improve site score in page speed measurement tools. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "شامل بهینه‌سازی‌هایی است که به بهبود امتیاز سایت در ابزارهای اندازه‌سازی سرعت صفحه کمک می‌کنند. برخی از آن‌ها به یک سرویس تولید آنلاین نیاز دارند که در این افزونه گنجانده نشده است و آن‌ها هیچ تأثیری ندارند."
 
 #: tpl/presets/standard.tpl.php:41
 msgid "Advanced (Recommended)"
@@ -5450,8 +5191,8 @@ msgstr "این پیش‌تنظیم برای بیشتر وب‌سایت‌ها م
 
 #: tpl/presets/standard.tpl.php:56
 #: tpl/presets/standard.tpl.php:70
-msgid "A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores."
-msgstr "برای استفاده از این پیش‌تنظیم، اتصال به QUIC.cloud الزامی است. شامل بهینه‌سازی‌های فراوانی که برای بهبود امتیازات سرعت صفحه شناخته شده‌اند."
+msgid "Includes many optimizations known to improve page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "شامل بهینه‌سازی‌های متعددی است که برای بهبود نمرات سرعت صفحه شناخته شده‌اند. برخی از آن‌ها به یک سرویس تولید آنلاین نیاز دارند که در این افزونه گنجانده نشده است و آن‌ها هیچ تأثیری ندارند."
 
 #: tpl/presets/standard.tpl.php:60
 msgid "Aggressive"
@@ -5514,8 +5255,8 @@ msgid "This preset almost certainly will require testing and exclusions for some
 msgstr "این پیش‌تنظیم تقریباً به‌طور حتم به تست و استثناسازی برای برخی کدهای CSS، JS و تصاویر دارای بارگذاری تنبل (Lazy Load) نیاز خواهد داشت. توجه ویژه‌ای به لوگوها یا تصاویر اسلایدر مبتنی بر HTML داشته باشید."
 
 #: tpl/presets/standard.tpl.php:85
-msgid "A QUIC.cloud connection is required to use this preset. Enables the maximum level of optimizations for improved page speed scores."
-msgstr "برای استفاده از این پیش‌تنظیم، اتصال به QUIC.cloud الزامی است. بالاترین سطح بهینه‌سازی را برای بهبود امتیاز سرعت صفحه فعال می‌کند."
+msgid "Enables the maximum level of optimizations for improved page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "بالاترین سطح بهینه‌سازی‌ها را برای بهبود امتیازهای سرعت صفحه فعال می‌کند. برخی از آن‌ها به یک سرویس تولید آنلاین نیاز دارند که در این افزونه گنجانده نشده است و آن موارد تأثیری ندارند."
 
 #: tpl/presets/standard.tpl.php:92
 msgid "Zinn® Cache Engine Standard Presets"
@@ -5802,9 +5543,17 @@ msgstr "پاکسازی تمام کَش‌های شیء"
 msgid "Reset the entire opcode cache"
 msgstr "بازنشانی کامل حافظه پنهان کدهای عملیاتی (opcode cache)"
 
+#: tpl/toolbox/purge.tpl.php:73
+msgid "Critical CSS"
+msgstr "CSS حیاتی"
+
 #: tpl/toolbox/purge.tpl.php:74
 msgid "This will delete all generated critical CSS files"
 msgstr "این کار همه فایل‌های CSS بحرانی تولیدشده را حذف خواهد کرد"
+
+#: tpl/toolbox/purge.tpl.php:82
+msgid "Unique CSS"
+msgstr "CSS منحصربه‌فرد"
 
 #: tpl/toolbox/purge.tpl.php:83
 msgid "This will delete all generated unique CSS files"

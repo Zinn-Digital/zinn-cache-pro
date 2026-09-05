@@ -14,7 +14,6 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: tpl/inc/admin_footer.php:17
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -117,14 +116,12 @@ msgstr "CDN"
 
 #: src/admin-display.cls.php:257
 #: src/gui.cls.php:891
-#: tpl/dash/dashboard.tpl.php:169
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "Optiimaynta Sawirka"
 
 #: src/admin-display.cls.php:258
-#: tpl/dash/dashboard.tpl.php:170
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "Bogga Hagaajinta"
@@ -182,9 +179,6 @@ msgstr "Ku dar URL-ka CDN-ka cusub"
 #: tpl/cdn/other.tpl.php:45
 #: tpl/crawler/settings.tpl.php:138
 #: tpl/dash/dashboard.tpl.php:67
-#: tpl/dash/dashboard.tpl.php:425
-#: tpl/dash/dashboard.tpl.php:547
-#: tpl/dash/dashboard.tpl.php:576
 #: tpl/page_optm/settings_css.tpl.php:220
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/toolbox/settings-debug.tpl.php:80
@@ -198,9 +192,6 @@ msgstr "DAARAN"
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
-#: tpl/dash/dashboard.tpl.php:427
-#: tpl/dash/dashboard.tpl.php:549
-#: tpl/dash/dashboard.tpl.php:578
 #: tpl/img_optm/settings.media_webp.tpl.php:22
 #: tpl/page_optm/settings_css.tpl.php:93
 #: tpl/page_optm/settings_js.tpl.php:77
@@ -715,8 +706,6 @@ msgid "Please see %s for more details."
 msgstr ""
 
 #: src/doc.cls.php:101
-#: tpl/dash/dashboard.tpl.php:152
-#: tpl/dash/dashboard.tpl.php:811
 #: tpl/img_optm/summary.tpl.php:59
 #: tpl/inc/check_cache_disabled.php:46
 #: tpl/page_optm/settings_media.tpl.php:301
@@ -739,154 +728,146 @@ msgstr "Dejintani waxay wax ka beddeli doontaa faylka .htaccess."
 msgid "The queue is processed asynchronously. It may take time."
 msgstr "Safafka waxaa loo habeeyaa si aan isla-markaas ahayn. Waxay qaadan kartaa waqti."
 
-#: src/error.cls.php:68
-#, php-format
-msgid "You will need to finish %s setup to use the online services."
-msgstr "Waa inaad dhameysatid %s dejinta si aad u isticmaasho adeegyada khadka tooska ah."
+#: src/error.cls.php:66
+msgid "This feature needs an online generation service, which is not included in this plugin. The setting has no effect."
+msgstr "Tilmaan-bixintani waxay u baahan tahay adeeg jiilka khadka ah, oo aan ku jirin furahan. Dejintani wax saameyn ah ma leh."
 
-#: src/error.cls.php:73
-#: tpl/crawler/settings.tpl.php:123
-#: tpl/crawler/settings.tpl.php:144
-#: tpl/crawler/summary.tpl.php:218
-msgid "Click here to set."
-msgstr "Riix halkan si aad u dejiso."
-
-#: src/error.cls.php:81
+#: src/error.cls.php:70
 msgid "You have used all of your daily quota for today."
 msgstr "Waxaad isticmaashay dhammaan saamigaaga maalinlaha ah ee maanta."
 
-#: src/error.cls.php:86
-#: src/error.cls.php:99
+#: src/error.cls.php:75
+#: src/error.cls.php:88
 msgid "Learn more or purchase additional quota."
 msgstr "Wax badan baro ama iibso kooto dheeraad ah."
 
-#: src/error.cls.php:94
+#: src/error.cls.php:83
 msgid "You have used all of your quota left for current service this month."
 msgstr "Waxaad isticmaashay dhammaan saamigii aad u lahayd adeegga hadda jira bishan."
 
-#: src/error.cls.php:107
+#: src/error.cls.php:96
 msgid "You have too many requested images, please try again in a few minutes."
 msgstr "Waxaad codsatay sawirro aad u badan, fadlan isku day mar kale dhowr daqiiqo gudahood."
 
-#: src/error.cls.php:111
+#: src/error.cls.php:100
 msgid "You have images waiting to be pulled. Please wait for the automatic pull to complete, or pull them down manually now."
 msgstr "Waxaad haysataa sawirро sugaya in la soo jiido. Fadlan sug inta ay soo jiidista tooska ahi dhammaanayso, ama hadda gacanta ku soo jiid."
 
-#: src/error.cls.php:115
+#: src/error.cls.php:104
 msgid "The image list is empty."
 msgstr "Liiska sawirradu waa madhan yahay."
 
-#: src/error.cls.php:119
+#: src/error.cls.php:108
 msgid "Not enough parameters. Please check if the QUIC.cloud connection is set correctly"
 msgstr "Parameters kuma filna. Fadlan hubi in xiriirka QUIC.cloud si sax ah loo habeeyay"
 
-#: src/error.cls.php:123
+#: src/error.cls.php:112
 msgid "There is proceeding queue not pulled yet."
 msgstr "Waxaa jira saf socda oo aan weli la soo jiidin."
 
-#: src/error.cls.php:128
+#: src/error.cls.php:117
 #, php-format
 msgid "There is proceeding queue not pulled yet. Queue info: %s."
 msgstr "Waxaa jira saf socda oo aan la jiidin weli. Macluumaadka safka: %s."
 
-#: src/error.cls.php:134
+#: src/error.cls.php:123
 msgid "The site is not a valid alias on QUIC.cloud."
 msgstr "Boggu ma aha magac-u-rogad (alias) sax ah oo ku yaalla QUIC.cloud."
 
-#: src/error.cls.php:138
+#: src/error.cls.php:127
 msgid "The site is not registered on QUIC.cloud."
 msgstr "Goobtu laguma diiwaangelin QUIC.cloud."
 
-#: src/error.cls.php:142
+#: src/error.cls.php:131
 msgid "The QUIC.cloud connection is not correct. Please try to sync your QUIC.cloud connection again."
 msgstr "Xiriirka QUIC.cloud sax ma ahan. Fadlan isku day inaad mar labaad waafajiso xiriirkaaga QUIC.cloud."
 
-#: src/error.cls.php:146
+#: src/error.cls.php:135
 msgid "The current server is under heavy load."
 msgstr "Server-ka hadda wuxuu ku jiraa culeys culus."
 
-#: src/error.cls.php:150
+#: src/error.cls.php:139
 msgid "Online node needs to be redetected."
 msgstr "Node-ka khadka waa in dib loo ogaadaa."
 
-#: src/error.cls.php:154
+#: src/error.cls.php:143
 msgid "Credits are not enough to proceed the current request."
 msgstr "Dhibcuhu kuma filna in lagu sii wado codsiga hadda."
 
-#: src/error.cls.php:158
-#: src/error.cls.php:182
+#: src/error.cls.php:147
+#: src/error.cls.php:171
 #, php-format
 msgid "%s file not writable."
 msgstr "%s faylku lama qori karo."
 
-#: src/error.cls.php:166
+#: src/error.cls.php:155
 #, php-format
 msgid "Could not find %1$s in %2$s."
 msgstr "Lama helin %1$s dhexda %2$s."
 
-#: src/error.cls.php:170
+#: src/error.cls.php:159
 #, php-format
 msgid "Invalid login cookie. Please check the %s file."
 msgstr "Kookie-ga gelitaanka waa mid aan ansax ahayn. Fadlan hubi faylka %s."
 
-#: src/error.cls.php:174
+#: src/error.cls.php:163
 #, php-format
 msgid "Failed to back up %s file, aborted changes."
 msgstr "Waa la waayay in la kaydiyo faylka %s, isbeddelladii waa la joojiyay."
 
-#: src/error.cls.php:178
+#: src/error.cls.php:167
 #, php-format
 msgid "%s file not readable."
 msgstr "%s faylku lama akhriyi karo."
 
-#: src/error.cls.php:186
+#: src/error.cls.php:175
 #, php-format
 msgid "Failed to get %s file contents."
 msgstr "Waa la waayay in la helo waxyaabaha ku jira faylka %s."
 
-#: src/error.cls.php:190
+#: src/error.cls.php:179
 #, php-format
 msgid "Failed to create table %1$s! SQL: %2$s."
 msgstr "Waa la waayay in la abuuro miiska %1$s! SQL: %2$s."
 
-#: src/error.cls.php:194
+#: src/error.cls.php:183
 msgid "Crawler disabled by the server admin."
 msgstr "Isku-duobaha (Crawler) waxaa hawl-gabiyay maamulaha adeegeha."
 
-#: src/error.cls.php:198
+#: src/error.cls.php:187
 msgid "Previous request too recent. Please try again later."
 msgstr "Codsigii hore aad buu u dhawaa. Fadlan dib u tijaabi hadhow."
 
-#: src/error.cls.php:203
+#: src/error.cls.php:192
 #, php-format
 msgid "Previous request too recent. Please try again after %s."
 msgstr "Codsigii hore aad buu dhowaa. Fadlan dib u day ka dib %s."
 
-#: src/error.cls.php:209
+#: src/error.cls.php:198
 msgid "Your application is waiting for approval."
 msgstr "Codsigaagu wuxuu sugayaa in la ansixiyo."
 
-#: src/error.cls.php:213
+#: src/error.cls.php:202
 msgid "The callback validation to your domain failed due to hash mismatch."
 msgstr "Xaqiijinta soo celinta ee domain-kaaga waa ay guuldareysatay sababtoo ah hash-ka oo aan is-lahayn."
 
-#: src/error.cls.php:217
+#: src/error.cls.php:206
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
 msgstr "Xaqiijinta dib u yeeritaanka ee domain-kaaga waa ay fashilantay. Fadlan hubi in uusan jirin gidaar dab (firewall) xiraya server-adayada."
 
-#: src/error.cls.php:222
+#: src/error.cls.php:211
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
 msgstr "Xaqiijinta dib u yeerista ee domain-kaaga waa la weeciyay. Fadlan hubi in uusan jirin dab-demis (firewall) xiraya server-adaha. Koodka jawaabta:"
 
-#: src/error.cls.php:227
+#: src/error.cls.php:216
 msgid "Your domain has been forbidden from using our services due to a previous policy violation."
 msgstr "Degalkaagu wuxuu ka mamnuucay inuu adeegyadayada isticmaalo xadgubub siyaasadeed oo hore awgeed."
 
-#: src/error.cls.php:231
+#: src/error.cls.php:220
 msgid "You cannot remove this DNS zone, because it is still in use. Please update the domain's nameservers, then try to delete this zone again, otherwise your site will become inaccessible."
 msgstr "Ma tirtiri kartid aaggan DNS-ka, sababta oo ah weli waa la isticmaalayaa. Fadlan cusbooneysii magaca server-ka ee domain-ka, kadibna isku day inaad mar kale tirtirto aaggan, haddii kale boggaagu wuxuu noqon doonaa mid aan la geli karin."
 
-#: src/error.cls.php:238
+#: src/error.cls.php:227
 msgid "Unknown error"
 msgstr "Khalad aan la aqoon"
 
@@ -1030,7 +1011,6 @@ msgstr "Cloudflare"
 #: src/gui.cls.php:945
 #: src/lang.cls.php:131
 #: tpl/dash/dashboard.tpl.php:60
-#: tpl/dash/dashboard.tpl.php:569
 #: tpl/toolbox/purge.tpl.php:55
 msgid "Object Cache"
 msgstr "Keydka Shayga"
@@ -1249,12 +1229,10 @@ msgid "Images ready to request"
 msgstr "Sawirrada diodda ah ee la codsan karo"
 
 #: src/lang.cls.php:32
-#: tpl/dash/dashboard.tpl.php:517
 msgid "Images requested"
 msgstr "Sawirrada la codsaday"
 
 #: src/lang.cls.php:33
-#: tpl/dash/dashboard.tpl.php:526
 msgid "Images notified to pull"
 msgstr "Sawirrada la ogeysiiyay in la soo jiido"
 
@@ -1282,7 +1260,6 @@ msgstr "Daar Kayska"
 
 #: src/lang.cls.php:109
 #: tpl/dash/dashboard.tpl.php:61
-#: tpl/dash/dashboard.tpl.php:570
 #: tpl/presets/standard.tpl.php:21
 msgid "Browser Cache"
 msgstr "Kaydka biraawsarka"
@@ -2451,48 +2428,44 @@ msgstr "Marka la daminayo kaydka (cache), dhammaan gelitaannada kaydsan ee bisha
 msgid "The network admin setting can be overridden here."
 msgstr "Dejinta maamulaha shabakadda waa la tirtiri karaa ama la bedeli karaa halkan."
 
-#: tpl/cache/settings-cache.tpl.php:49
-msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
-msgstr "Iyadoo QUIC.cloud CDN ay shaqaynayso, waxaa laga yaabaa inaad weli aragto madaxyada kaydka (cache headers) ee server-kaaga maxalliga ah."
-
-#: tpl/cache/settings-cache.tpl.php:63
+#: tpl/cache/settings-cache.tpl.php:60
 #, php-format
 msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
 msgstr "Si gaar ah u kaydi boggagta hore ee isticmaaleyaasha soo galay. (LSWS %s ayaa loo baahan yahay)"
 
-#: tpl/cache/settings-cache.tpl.php:76
+#: tpl/cache/settings-cache.tpl.php:73
 #, php-format
 msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
 msgstr "Kaydi dadka faallooyinka ka tago ee leh faallooyinka sugaya si qarsoodi ah. Damiin ikhtiyaarkan waxay macaamiisha faallooyinka u adeegaysaa boggag aan la kaydin karin. (Waxaa loo baahan yahay LSWS %s)"
 
-#: tpl/cache/settings-cache.tpl.php:89
+#: tpl/cache/settings-cache.tpl.php:86
 msgid "Cache requests made by WordPress REST API calls."
 msgstr "Kaydi codsiyada ay sameeyeen wicitaannada WordPress REST API."
 
-#: tpl/cache/settings-cache.tpl.php:102
+#: tpl/cache/settings-cache.tpl.php:99
 msgid "Disabling this option may negatively affect performance."
 msgstr "Naafaynta ikhtiyaarkan waxay si xun u saameyn kartaa waxqabadka."
 
-#: tpl/cache/settings-cache.tpl.php:119
+#: tpl/cache/settings-cache.tpl.php:116
 msgid "URI Paths containing these strings will NOT be cached as public."
 msgstr "Waddooyinka URI ee ay ku jiraan xargahan LAMA keydin doono sidoo kale dadweynaha."
 
-#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:130
 msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
 msgstr "Waddooyinka ka kooban xargahan waxaa loo kaydin doonaa si ku-meelgaar ah iyada oo aan loo eegin goobaha aan la kaydinin."
 
-#: tpl/cache/settings-cache.tpl.php:136
-#: tpl/cache/settings-cache.tpl.php:161
+#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:158
 msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
 msgstr "Si aad u qeexdo TTL caadi ah oo loogu talagalay URI, ku dar meel bannaan oo ay ku xigto qiimaha TTL dhammaadka URI."
 
-#: tpl/cache/settings-cache.tpl.php:139
-#: tpl/cache/settings-cache.tpl.php:164
+#: tpl/cache/settings-cache.tpl.php:136
+#: tpl/cache/settings-cache.tpl.php:161
 #, php-format
 msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
 msgstr "Tusaale ahaan, %1$s waxay qeexaysaa TTL ah %2$s ilbiriqsi oo loogu talagalay %3$s."
 
-#: tpl/cache/settings-cache.tpl.php:158
+#: tpl/cache/settings-cache.tpl.php:155
 msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
 msgstr "Waddooyinka ka kooban xadhkahan waxaa lagu qasbi doonaa inay noqdaan kuwo guud ahaan la keydiyay iyada oo aan loo eegin habaynta aan la kaydin karin."
 
@@ -2537,8 +2510,8 @@ msgid "WARNING"
 msgstr "DIGINIIN"
 
 #: tpl/cache/settings-esi.tpl.php:46
-msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
-msgstr "Xulisyadan waxaa kaliya heli kara LiteSpeed Enterprise Web Server ama QUIC.cloud CDN."
+msgid "These options are only available with LiteSpeed Enterprise Web Server."
+msgstr "Xulisyadani waxay kaliya ku jiraan LiteSpeed Enterprise Web Server."
 
 #: tpl/cache/settings-esi.tpl.php:59
 msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
@@ -3158,13 +3131,13 @@ msgstr "Dejinta CDN"
 
 #: tpl/cdn/other.tpl.php:44
 #, php-format
-msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
-msgstr "Dami goobtan %s hadii aad isticmaasho Shabakad Gaarsiinta Waxyaabaha dhaqameed (CDN) ama hoosaad loogu talagalay waxyaabaha taagan ee leh QUIC.cloud CDN."
+msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content."
+msgstr "Daar dejintakan %s haddii aad isticmaasho Shabakad Bixinta Nuxurka (CDN) ee caadiga ah ama hoosaad (subdomain) loogu talagalay nuxurka taagan."
 
 #: tpl/cdn/other.tpl.php:52
 #, php-format
-msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are only using QUIC.cloud or Cloudflare, leave this setting %s."
-msgstr "FIIRO GAAR AH: QUIC.cloud CDN iyo Cloudflare ma isticmaalaan Khariidadaynta CDN (CDN Mapping). Haddii aad isticmaalayso oo keliya QUIC.cloud ama Cloudflare, dejintan ka tag %s."
+msgid "NOTE: Cloudflare does not use CDN Mapping. If you are only using Cloudflare, leave this setting %s."
+msgstr "FIIRO GAAR AH: Cloudflare ma isticmaasho Khariideynta CDN. Haddii aad kaliya isticmaalayso Cloudflare, dejintan u daa %s."
 
 #: tpl/cdn/other.tpl.php:80
 msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
@@ -3334,7 +3307,6 @@ msgstr "Cache Miss"
 
 #: tpl/crawler/map.tpl.php:77
 #: tpl/dash/dashboard.tpl.php:80
-#: tpl/dash/dashboard.tpl.php:765
 msgid "Crawler Status"
 msgstr "Xaaladda Cilmibaaraha"
 
@@ -3382,6 +3354,12 @@ msgstr "Si aad ugu gurguurato bogga adoo ah isticmaale soo galay, geli aqoonsiya
 #, php-format
 msgid "You must set %s before using this feature."
 msgstr "Waa inaad dejisaa %s ka hor inta aanad isticmaalin sifadan."
+
+#: tpl/crawler/settings.tpl.php:123
+#: tpl/crawler/settings.tpl.php:144
+#: tpl/crawler/summary.tpl.php:218
+msgid "Click here to set."
+msgstr "Riix halkan si aad u dejiso."
 
 #: tpl/crawler/settings.tpl.php:136
 #, php-format
@@ -3440,7 +3418,6 @@ msgstr "Waqtiga shaqada ee gurguuraha hore"
 
 #: tpl/crawler/summary.tpl.php:104
 #: tpl/dash/dashboard.tpl.php:91
-#: tpl/dash/dashboard.tpl.php:776
 msgid "Current crawler started at"
 msgstr "Xirmaha hadda jira wuxuu bilaabmay"
 
@@ -3450,13 +3427,11 @@ msgstr "Culayska adeegaha ee hadda"
 
 #: tpl/crawler/summary.tpl.php:116
 #: tpl/dash/dashboard.tpl.php:97
-#: tpl/dash/dashboard.tpl.php:782
 msgid "Last interval"
 msgstr "Kormeerkii ugu dambeeyay"
 
 #: tpl/crawler/summary.tpl.php:123
 #: tpl/dash/dashboard.tpl.php:103
-#: tpl/dash/dashboard.tpl.php:788
 msgid "Ended reason"
 msgstr "Sababta dhamaadka"
 
@@ -3556,340 +3531,42 @@ msgid "No crawler meta file generated yet"
 msgstr "Weli lama soo saarin faylka meta ee ciraawalka (crawler)."
 
 #: tpl/dash/dashboard.tpl.php:53
-#: tpl/dash/dashboard.tpl.php:562
 msgid "Cache Status"
 msgstr "Xaaladda Kaydka"
 
 #: tpl/dash/dashboard.tpl.php:54
 #: tpl/dash/dashboard.tpl.php:81
-#: tpl/dash/dashboard.tpl.php:486
-#: tpl/dash/dashboard.tpl.php:563
-#: tpl/dash/dashboard.tpl.php:590
-#: tpl/dash/dashboard.tpl.php:634
-#: tpl/dash/dashboard.tpl.php:678
-#: tpl/dash/dashboard.tpl.php:722
-#: tpl/dash/dashboard.tpl.php:766
-#: tpl/dash/dashboard.tpl.php:813
 msgid "More"
 msgstr "In ka badan"
 
 #: tpl/dash/dashboard.tpl.php:58
-#: tpl/dash/dashboard.tpl.php:567
 msgid "Public Cache"
 msgstr "Kaydka Dadweynaha"
 
 #: tpl/dash/dashboard.tpl.php:59
-#: tpl/dash/dashboard.tpl.php:568
 msgid "Private Cache"
 msgstr "Kaydka Khaaska ah"
 
 #: tpl/dash/dashboard.tpl.php:84
-#: tpl/dash/dashboard.tpl.php:769
 msgid "Crawler(s)"
 msgstr "Crawler(s)"
 
 #: tpl/dash/dashboard.tpl.php:87
-#: tpl/dash/dashboard.tpl.php:772
 msgid "Currently active crawler"
 msgstr "So-xaqiiq ah ee hadda shaqaynaysa"
 
 #: tpl/dash/dashboard.tpl.php:111
-#: tpl/dash/dashboard.tpl.php:796
 #, php-format
 msgid "%1$s %2$d item(s)"
 msgstr "%1$s %2$d shay(o)"
 
 #: tpl/dash/dashboard.tpl.php:112
-#: tpl/dash/dashboard.tpl.php:797
 msgid "Last crawled:"
 msgstr "Markii ugu dambaysay ee la crmiyay:"
 
 #: tpl/dash/dashboard.tpl.php:128
-#: tpl/dash/dashboard.tpl.php:873
 msgid "News"
 msgstr "Wararka"
-
-#: tpl/dash/dashboard.tpl.php:145
-msgid "QUIC.cloud Service Usage Statistics"
-msgstr "Tirokoobka Isticmaalka Adeegga QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:147
-msgid "Refresh Usage"
-msgstr "Cusbooneysii Isticmaalka"
-
-#: tpl/dash/dashboard.tpl.php:148
-msgid "Sync data from Cloud"
-msgstr "Soo dejinta xogta ee Cloud"
-
-#: tpl/dash/dashboard.tpl.php:159
-#, php-format
-msgid "The features below are provided by %s"
-msgstr "Tilmaamaha hoose waxaa bixiya %s"
-
-#: tpl/dash/dashboard.tpl.php:171
-#: tpl/dash/network_dash.tpl.php:38
-msgid "CDN Bandwidth"
-msgstr "CDN bandwidth"
-
-#: tpl/dash/dashboard.tpl.php:172
-#: tpl/dash/dashboard.tpl.php:677
-#: tpl/dash/network_dash.tpl.php:39
-msgid "Low Quality Image Placeholder"
-msgstr "Meel-dhigaha Sawirka Tayada Hooseeya"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Fast Queue Usage"
-msgstr "Isticmaalka Safka Degdegga ah"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Usage"
-msgstr "Isticmaalka"
-
-#: tpl/dash/dashboard.tpl.php:236
-#: tpl/dash/network_dash.tpl.php:108
-msgid "PAYG Balance"
-msgstr "Hadhaaga PAYG"
-
-#: tpl/dash/dashboard.tpl.php:237
-#, php-format
-msgid "PAYG used this month: %s. PAYG balance and usage not included in above quota calculation."
-msgstr "PAYG oo la isticmaalay bishan: %s. Hadhaaga PAYG iyo isticmaalka kuma jiraan xisaabinta saamiga sare."
-
-#: tpl/dash/dashboard.tpl.php:239
-#: tpl/dash/network_dash.tpl.php:111
-msgid "Pay as You Go Usage Statistics"
-msgstr "Isticmaalka Bixinta Inta Aad Isticmaasho (Pay as You Go) Tirakoobka"
-
-#: tpl/dash/dashboard.tpl.php:257
-#: tpl/dash/network_dash.tpl.php:118
-msgid "Total Usage"
-msgstr "Wadarta Isticmaalka"
-
-#: tpl/dash/dashboard.tpl.php:258
-#: tpl/dash/network_dash.tpl.php:119
-msgid "Total images optimized in this month"
-msgstr "Wadarta sawirrada ee la hagaajiyay bishan"
-
-#: tpl/dash/dashboard.tpl.php:266
-msgid "Remaining Daily Quota"
-msgstr "Saamiga Maalinlaha ah ee Hadhay"
-
-#: tpl/dash/dashboard.tpl.php:276
-msgid "Partner Benefits Provided by"
-msgstr "Faa'iidooyinka Wada-hawlwadeenka ee ay bixiso"
-
-#: tpl/dash/dashboard.tpl.php:312
-msgid "Enable QUIC.cloud Services"
-msgstr "Gali Adeegyada QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:319
-msgid "Go to QUIC.cloud dashboard"
-msgstr "Tago dashboard-ka QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:325
-msgid "Link to QUIC.cloud"
-msgstr "Ku xir QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:340
-msgid "Page Load Time"
-msgstr "Waqtiga Soodejinta Bogga"
-
-#: tpl/dash/dashboard.tpl.php:347
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-#, php-format
-msgid "Current closest Cloud server is %s. Click to redetect."
-msgstr "Bishanka darajada darajada darajada ee Cloud waa %s. Guji si aad dib u ogaato."
-
-#: tpl/dash/dashboard.tpl.php:348
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Are you sure you want to redetect the closest cloud server for this service?"
-msgstr "Ma hubtaa inaad rabto inaad dib uga ogaato server-ka daruuraha ee ugu dhow adeeggan?"
-
-#: tpl/dash/dashboard.tpl.php:350
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/img_optm/summary.tpl.php:56
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Redetect"
-msgstr "Dib u ogaansho"
-
-#: tpl/dash/dashboard.tpl.php:360
-#: tpl/dash/dashboard.tpl.php:436
-msgid "Before"
-msgstr "Kahor"
-
-#: tpl/dash/dashboard.tpl.php:368
-#: tpl/dash/dashboard.tpl.php:444
-msgid "After"
-msgstr "Ka dib"
-
-#: tpl/dash/dashboard.tpl.php:376
-#: tpl/dash/dashboard.tpl.php:452
-msgid "Improved by"
-msgstr "Waxaa hagaajiyay"
-
-#: tpl/dash/dashboard.tpl.php:384
-msgid "You must be using one of the following products in order to measure Page Load Time:"
-msgstr "Waa inaad isticmaashaa mid ka mid ah alaabooyinka soo socda si aad u cabbirto Waqtiga Rarista Bogga:"
-
-#: tpl/dash/dashboard.tpl.php:385
-msgid "LiteSpeed Web Server"
-msgstr "Adeegaha Shebekadda ee LiteSpeed"
-
-#: tpl/dash/dashboard.tpl.php:387
-msgid "OpenLiteSpeed Web Server"
-msgstr "Ieegaha Web-ka ee OpenLiteSpeed"
-
-#: tpl/dash/dashboard.tpl.php:389
-msgid "LiteSpeed Web ADC"
-msgstr "LiteSpeed Web ADC"
-
-#: tpl/dash/dashboard.tpl.php:391
-#: tpl/dash/dashboard.tpl.php:809
-msgid "QUIC.cloud CDN"
-msgstr "QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:403
-#: tpl/dash/dashboard.tpl.php:468
-#, php-format
-msgid "Requested: %s ago"
-msgstr "La codsaday: %s ka hor"
-
-#: tpl/dash/dashboard.tpl.php:411
-#: tpl/dash/dashboard.tpl.php:476
-msgid "Refresh"
-msgstr "Cusboonaysii"
-
-#: tpl/dash/dashboard.tpl.php:412
-msgid "Refresh page load time"
-msgstr "Cusboonaysii wakhtiga boggu rarto"
-
-#: tpl/dash/dashboard.tpl.php:421
-msgid "PageSpeed Score"
-msgstr "PageSpeed Buundo"
-
-#: tpl/dash/dashboard.tpl.php:477
-msgid "Refresh page score"
-msgstr "Cusboonaysii dhibcaha bogga"
-
-#: tpl/dash/dashboard.tpl.php:485
-#: tpl/img_optm/entry.tpl.php:16
-msgid "Image Optimization Summary"
-msgstr "Soo Koobidda Kor u Qaadista Sawirka"
-
-#: tpl/dash/dashboard.tpl.php:502
-#: tpl/img_optm/summary.tpl.php:76
-#: tpl/img_optm/summary.tpl.php:89
-msgid "Send Optimization Request"
-msgstr "Dir Dalabka Hagaajinta"
-
-#: tpl/dash/dashboard.tpl.php:508
-#: tpl/img_optm/summary.tpl.php:316
-msgid "Total Reduction"
-msgstr "Wadarta Dhimista"
-
-#: tpl/dash/dashboard.tpl.php:511
-#: tpl/img_optm/summary.tpl.php:319
-msgid "Images Pulled"
-msgstr "Sawirrada La Soo Jiidashay"
-
-#: tpl/dash/dashboard.tpl.php:534
-#: tpl/img_optm/summary.tpl.php:322
-msgid "Last Request"
-msgstr "Codsigii U Dambeeyay"
-
-#: tpl/dash/dashboard.tpl.php:537
-msgid "Last Pull"
-msgstr "So jiidiskii ugu dambeeyay"
-
-#: tpl/dash/dashboard.tpl.php:589
-#: tpl/toolbox/purge.tpl.php:73
-msgid "Critical CSS"
-msgstr "CSS-ka Halbowlaha ah"
-
-#: tpl/dash/dashboard.tpl.php:596
-#: tpl/dash/dashboard.tpl.php:640
-#: tpl/dash/dashboard.tpl.php:684
-#: tpl/dash/dashboard.tpl.php:728
-#, php-format
-msgid "Last generated: %s"
-msgstr "U dambayshe ee la soo saaray: %s"
-
-#: tpl/dash/dashboard.tpl.php:604
-#: tpl/dash/dashboard.tpl.php:648
-#: tpl/dash/dashboard.tpl.php:692
-#: tpl/dash/dashboard.tpl.php:736
-#, php-format
-msgid "Time to execute previous request: %s"
-msgstr "Waqtiga lagu fulinayo codsigii hore: %s"
-
-#: tpl/dash/dashboard.tpl.php:611
-#: tpl/dash/dashboard.tpl.php:655
-#: tpl/dash/dashboard.tpl.php:699
-#: tpl/dash/dashboard.tpl.php:743
-msgid "Requests in queue"
-msgstr "Codsashada ku jirta safka"
-
-#: tpl/dash/dashboard.tpl.php:614
-#: tpl/dash/dashboard.tpl.php:658
-#: tpl/dash/dashboard.tpl.php:702
-#: tpl/dash/dashboard.tpl.php:746
-msgid "Force cron"
-msgstr "Qas cron"
-
-#: tpl/dash/dashboard.tpl.php:622
-#: tpl/dash/dashboard.tpl.php:666
-#: tpl/dash/dashboard.tpl.php:710
-#: tpl/dash/dashboard.tpl.php:754
-#, php-format
-msgid "Last requested: %s"
-msgstr "Cilmiga u dambeeyay ee la codsaday: %s"
-
-#: tpl/dash/dashboard.tpl.php:633
-#: tpl/toolbox/purge.tpl.php:82
-msgid "Unique CSS"
-msgstr "CSS-ga Gaarka ah"
-
-#: tpl/dash/dashboard.tpl.php:721
-msgid "Viewport Image"
-msgstr "Muuqaalka Sawirka"
-
-#: tpl/dash/dashboard.tpl.php:822
-msgid "Enable QUIC.cloud CDN"
-msgstr "Sahmi QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:829
-msgid "Best available WordPress performance"
-msgstr "Waxqabadka ugu wanaagsan ee la heli karo ee WordPress"
-
-#: tpl/dash/dashboard.tpl.php:834
-#, php-format
-msgid "Globally fast TTFB, easy setup, and %s!"
-msgstr "TTFB oo caalami ah oo degdeg ah, habayn fudud, iyo %s!"
-
-#: tpl/dash/dashboard.tpl.php:835
-msgid "more"
-msgstr "wax badan"
-
-#: tpl/dash/dashboard.tpl.php:851
-msgid "Refresh Status"
-msgstr "Cusboonaysii Xaaladda"
-
-#: tpl/dash/dashboard.tpl.php:852
-msgid "Refresh QUIC.cloud status"
-msgstr "Cusbooneysii xaaladda QUIC.cloud"
 
 #: tpl/dash/entry.tpl.php:21
 msgid "Network Dashboard"
@@ -3904,14 +3581,46 @@ msgstr "Guddiga Xakamaynta Kaydka ee Zinn®"
 msgid "Usage Statistics: %s"
 msgstr "Isticmaalka Tirakoobka: %s"
 
+#: tpl/dash/network_dash.tpl.php:38
+msgid "CDN Bandwidth"
+msgstr "CDN bandwidth"
+
+#: tpl/dash/network_dash.tpl.php:39
+msgid "Low Quality Image Placeholder"
+msgstr "Meel-dhigaha Sawirka Tayada Hooseeya"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Fast Queue Usage"
+msgstr "Isticmaalka Safka Degdegga ah"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Usage"
+msgstr "Isticmaalka"
+
 #: tpl/dash/network_dash.tpl.php:107
 msgid "Pay as You Go"
 msgstr "Lacag bixi intaad isticmaasho"
+
+#: tpl/dash/network_dash.tpl.php:108
+msgid "PAYG Balance"
+msgstr "Hadhaaga PAYG"
 
 #: tpl/dash/network_dash.tpl.php:109
 #, php-format
 msgid "This Month Usage: %s"
 msgstr "Isticmaalka Bishan: %s"
+
+#: tpl/dash/network_dash.tpl.php:111
+msgid "Pay as You Go Usage Statistics"
+msgstr "Isticmaalka Bixinta Inta Aad Isticmaasho (Pay as You Go) Tirakoobka"
+
+#: tpl/dash/network_dash.tpl.php:118
+msgid "Total Usage"
+msgstr "Wadarta Isticmaalka"
+
+#: tpl/dash/network_dash.tpl.php:119
+msgid "Total images optimized in this month"
+msgstr "Wadarta sawirrada ee la hagaajiyay bishan"
 
 #: tpl/db_optm/entry.tpl.php:17
 #: tpl/db_optm/settings.tpl.php:19
@@ -4134,58 +3843,53 @@ msgstr "Xulashankani wuxuu suurt gelinayaa habaynta ugu sarraysa ee booqdayaasha
 msgid "Please read all warnings before enabling this option."
 msgstr "Fadlan akhri dhammaan digniinaha ka hor intaanad awood gelin xulkan."
 
-#: tpl/general/settings.tpl.php:64
-#, php-format
-msgid "Your %1$s quota on %2$s will still be in use."
-msgstr "Qadarkaaga %1$s ee %2$s ayaa weli la isticmaali doonaa."
-
-#: tpl/general/settings.tpl.php:72
-#: tpl/general/settings.tpl.php:79
-#: tpl/general/settings.tpl.php:86
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:71
+#: tpl/general/settings.tpl.php:78
+#: tpl/general/settings.tpl.php:85
+#: tpl/general/settings.tpl.php:102
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 msgid "Notice"
 msgstr "Ogeysiis"
 
-#: tpl/general/settings.tpl.php:72
+#: tpl/general/settings.tpl.php:71
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 #, php-format
 msgid "%s must be turned ON for this setting to work."
 msgstr "%s waa in la shaqaysiiyaa si ay dejintani u shaqeyso."
 
-#: tpl/general/settings.tpl.php:79
+#: tpl/general/settings.tpl.php:78
 #, php-format
 msgid "You need to turn %s on to get maximum result."
 msgstr "Waxaad u baahan tahay inaad shiddo %s si aad u hesho natiijada ugu badan."
 
-#: tpl/general/settings.tpl.php:86
+#: tpl/general/settings.tpl.php:85
 #, php-format
 msgid "You need to turn %s on and finish all WebP generation to get maximum result."
 msgstr "Waxaad u baahan tahay inaad shiddo %s oo aad dhammaystirto dhammaan abuurista WebP si aad u hesho natiijada ugu badan."
 
-#: tpl/general/settings.tpl.php:101
+#: tpl/general/settings.tpl.php:100
 msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
 msgstr "Geli cinwaanka IP-ga ee boggan si aad ugu oggolaato adeegyada daruuriga ah inay si toos ah ugu yeeraan IP halkii ay ka ahaan lahaayeen magaca domainka. Tani waxay meesha ka saaraysaa culayska DNS iyo raadinta CDN."
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Your server IP"
 msgstr "IP-ga serverkaaga"
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Check my public IP from"
 msgstr "Ka hubi IP-gayga guud ee"
 
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:102
 msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
 msgstr "IP-ga otomaatig loo ogaaday waxaa laga yaabaa inuusan sax ahayn haddii aad leedahay IP kale oo ka baxaya oo la dejiyay, ama aad ku leedahay IP-yo badan oo lagu habeeyay adiga server-kaaga."
 
-#: tpl/general/settings.tpl.php:104
+#: tpl/general/settings.tpl.php:103
 msgid "Please make sure this IP is the correct one for visiting your site."
 msgstr "Fadlan hubi in IP-gani uu yahay kan saxda ah ee lagu booqanayo boggaaga."
 
-#: tpl/general/settings.tpl.php:119
+#: tpl/general/settings.tpl.php:118
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
 msgstr "Shid doorashadan si aad si toos ah ugu muujiso wararkii ugu dambeeyay, oo ay ku jiraan hagaajinta cayayaanka, sii-deynta cusub, noocyada beta ee la heli karo, iyo xayaysiisyada."
 
@@ -4235,6 +3939,10 @@ msgstr "Si guul leh loo wada-sheegay."
 msgid "Sync failed."
 msgstr "Wuu guuldarraystay is-waafajinta."
 
+#: tpl/img_optm/entry.tpl.php:16
+msgid "Image Optimization Summary"
+msgstr "Soo Koobidda Kor u Qaadista Sawirka"
+
 #: tpl/img_optm/entry.tpl.php:17
 #: tpl/img_optm/entry.tpl.php:22
 #: tpl/img_optm/network_settings.tpl.php:19
@@ -4257,20 +3965,15 @@ msgstr "Si weyn u wanaaji xawaaraha culayska adiga oo sawirrada ku beddelaya noo
 
 #: tpl/img_optm/settings.media_webp.tpl.php:31
 #, php-format
-msgid "%1$s is a %2$s paid feature."
-msgstr "%1$s waa sifo lacag ah oo %2$s ah."
-
-#: tpl/img_optm/settings.media_webp.tpl.php:34
-#, php-format
 msgid "When switching formats, please %1$s or %2$s to apply this new choice to previously optimized images."
 msgstr "Markii aad beddelayso qaababka, fadlan %1$s ama %2$s si aad doorashadan cusub ugu adeegto sawirrada horay loo sii hagaajiyay."
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:378
 msgid "Destroy All Optimization Data"
 msgstr "Baabi'i Dhammaan Xogta Hagaajinta"
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:368
 msgid "Soft Reset Optimization Counter"
 msgstr "Tiroobaha Hagaajinta Dib-u-dejinta Fudud"
@@ -4331,9 +4034,35 @@ msgstr "Sheeg sifooyinka curiyaha ee lagu beddelayo WebP/AVIF."
 msgid "Enable replacement of WebP/AVIF in %s elements that were generated outside of WordPress logic."
 msgstr "Kicin beddelka WebP/AVIF ee walxaha %s ee laga soo saaray bannaanka caqli-galka WordPress."
 
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+#, php-format
+msgid "Current closest Cloud server is %s. Click to redetect."
+msgstr "Bishanka darajada darajada darajada ee Cloud waa %s. Guji si aad dib u ogaato."
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "Ma hubtaa inaad rabto inaad dib uga ogaato server-ka daruuraha ee ugu dhow adeeggan?"
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/img_optm/summary.tpl.php:56
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Redetect"
+msgstr "Dib u ogaansho"
+
 #: tpl/img_optm/summary.tpl.php:58
-msgid "Optimize images with our QUIC.cloud server"
-msgstr "Sawirrada ku wanaaji server-kaaga QUIC.cloud"
+msgid "Image optimisation"
+msgstr "Hagaajinta sawirka"
 
 #: tpl/img_optm/summary.tpl.php:63
 #, php-format
@@ -4347,6 +4076,11 @@ msgstr "Si loo xaqiijiyo in adeegeenu uu si nabadgelyo ah ula xiriiri karo adeeg
 #: tpl/img_optm/summary.tpl.php:69
 msgid "Current limit is"
 msgstr "Hadda xadka waa"
+
+#: tpl/img_optm/summary.tpl.php:76
+#: tpl/img_optm/summary.tpl.php:89
+msgid "Send Optimization Request"
+msgstr "Dir Dalabka Hagaajinta"
 
 #: tpl/img_optm/summary.tpl.php:77
 #: tpl/page_optm/settings_css.tpl.php:156
@@ -4373,8 +4107,8 @@ msgid "Optimization Status"
 msgstr "Heerka Hagaajinta"
 
 #: tpl/img_optm/summary.tpl.php:141
-msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
-msgstr "Ka dib marka uu server-ka QUIC.cloud Image Optimization dhamaystiro wanaajinta, waxa uu siin doonaa ogeysiis boggaaga in uu soo jiido sawirrada la wanaajiyay."
+msgid "When the optimisation server finishes, it notifies your site to pull the optimised images."
+msgstr "Markabka hagaajinta markuu dhammeeyo, wuxuu ku ogeysiinayaa boggaaga inuu soo jiido sawirrada la hagaajiyay."
 
 #: tpl/img_optm/summary.tpl.php:142
 msgid "This process is automatic."
@@ -4476,6 +4210,18 @@ msgstr "Dib U Sawir Ganeededyada Cusub"
 msgid "Optimization Summary"
 msgstr "Sokoobitaanka Hagaajinta"
 
+#: tpl/img_optm/summary.tpl.php:316
+msgid "Total Reduction"
+msgstr "Wadarta Dhimista"
+
+#: tpl/img_optm/summary.tpl.php:319
+msgid "Images Pulled"
+msgstr "Sawirrada La Soo Jiidashay"
+
+#: tpl/img_optm/summary.tpl.php:322
+msgid "Last Request"
+msgstr "Codsigii U Dambeeyay"
+
 #: tpl/img_optm/summary.tpl.php:325
 msgid "Last Pulled"
 msgstr "Last Pulled"
@@ -4523,26 +4269,21 @@ msgstr "Ma hubtaa in aad tirtirto dhammaan sawirrada la hagaajiyay?"
 msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
 msgstr "Ka saar dhammaan codsiyada/natiijooyinka kor u qaadista sawirka ee hore, dib ugu soo celi hagaajintii la dhammeeyey, oo tirtir dhammaan faylasha hagaajinta."
 
-#: tpl/inc/admin_footer.php:17
-#, php-format
-msgid "Rate %1$s on %2$s"
-msgstr "Qiimee %1$s ee %2$s"
+#: tpl/inc/admin_footer.php:16
+msgid "Read the upstream Zinn® Cache Engine documentation"
+msgstr "Akhriso dukumiintiga upstream Zinn® Cache Engine"
 
 #: tpl/inc/admin_footer.php:19
-msgid "Read LiteSpeed Documentation"
-msgstr "Akhri Dukumiintiyada LiteSpeed"
+msgid "Zinn Digital® support"
+msgstr "Taageerada Zinn Digital®"
 
-#: tpl/inc/admin_footer.php:21
-msgid "Visit LSCWP support forum"
-msgstr "Booqo madasha taageerada ee LSCWP"
-
-#: tpl/inc/admin_footer.php:23
-msgid "Join LiteSpeed Slack community"
-msgstr "Ku biir bulshada LiteSpeed Slack"
+#: tpl/inc/admin_footer.php:22
+msgid "Zinn® Cache Engine user guide"
+msgstr "Hagaha isticmaalaha ee Zinn® Cache Engine"
 
 #: tpl/inc/check_cache_disabled.php:20
-msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
-msgstr "Si aad u isticmaasho shaqooyinka kaydinta (caching) waa inaad haysataa LiteSpeed shabakadaha (web server) ama aad isticmaashaa QUIC.cloud CDN."
+msgid "To use the caching functions you must have a LiteSpeed or OpenLiteSpeed web server with the LSCache module."
+msgstr "Si aad u isticmaasho shaqooyinka kaydinta (caching), waa inaad haysataa adeegaha shabakadda (web server) ee LiteSpeed ama OpenLiteSpeed oo leh module-ka LSCache."
 
 #: tpl/inc/check_cache_disabled.php:25
 msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
@@ -4755,8 +4496,8 @@ msgid "How to Fix Problems Caused by CSS/JS Optimization."
 msgstr "Sida loo Xalliyo Dhibaatooyinka ay Keeneen Hagaajinta CSS/JS."
 
 #: tpl/page_optm/settings_css.tpl.php:82
-msgid "Use QUIC.cloud online service to generate unique CSS."
-msgstr "Isticmaal adeegga khadka tooska ah ee QUIC.cloud si aad u soo saarto CSS gaar ah."
+msgid "Generate unique CSS through an online generation service."
+msgstr "So saar CSS gaar ah adigoo isticmaalaya adeeg online ah."
 
 #: tpl/page_optm/settings_css.tpl.php:83
 msgid "This will drop the unused CSS on each page from the combined file."
@@ -4838,8 +4579,8 @@ msgid "This can improve your speed score in services like Pingdom, GTmetrix and 
 msgstr "Tani waxay hagaajin kartaa dhibcahaaga xawaaraha ee adeegyada sida Pingdom, GTmetrix iyo PageSpeed."
 
 #: tpl/page_optm/settings_css.tpl.php:217
-msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
-msgstr "Isticmaal adeegga khadka tooska ah ee QUIC.cloud si aad u soo saarto CSS-ka muhiimka ah oo aad u soo dejiso CSS-ka soo haray si aan isku mid ahayn."
+msgid "Generate critical CSS through an online generation service and load the remaining CSS asynchronously."
+msgstr "CSS-ka muhiimka ah ku soo saar adeeg online ah oo lagu sameeyo, ka dibna CSS-ka soo haray si aan isku mid ahayn (asynchronously) u soo rar."
 
 #: tpl/page_optm/settings_css.tpl.php:219
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
@@ -5119,8 +4860,8 @@ msgid "Specify the responsive placeholder SVG color."
 msgstr "Sheeg midabka SVG ee meesha lagu hayo ee jawaabta leh."
 
 #: tpl/page_optm/settings_media.tpl.php:122
-msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
-msgstr "Isticmaal adeegga soo saaraha QUIC.cloud LQIP (Low Quality Image Placeholder) si aad u hesho sawirro horudhac ah oo jawaab celin leh inta lagu jiro rarista."
+msgid "Generate Low Quality Image Placeholders through an online generation service, for responsive image previews while loading."
+msgstr "Samee Meelaha Sawirka Tayada Hooseeya adoo adeegsanaya adeeg abuurista khadka tooska ah, si loogu eego sawirka wax ka beddelka ah inta la soo dejinayo."
 
 #: tpl/page_optm/settings_media.tpl.php:123
 msgid "Keep this off to use plain color placeholders."
@@ -5394,9 +5135,10 @@ msgstr "TTL Sare"
 msgid "This no-risk preset is appropriate for all websites. Good for new users, simple websites, or cache-oriented development."
 msgstr "Dejintaan aan khatarta lahayn waxay ku habboon tahay dhammaan mareegaha. Waxay u fiican tahay isticmaaleyaasha cusub, mareegaha fudud, ama horumarinta kayd-u-jeedka leh."
 
+#. zinn-i18n: not translated — NeedsHumanTranslationError: so translation contains 'aasaasiga', a token that repeats its own opening — the shape of `revrevendeur` for `r
 #: tpl/presets/standard.tpl.php:25
-msgid "A QUIC.cloud connection is not required to use this preset. Only basic caching features are enabled."
-msgstr "Xiriirka QUIC.cloud looma baahna si loo isticmaalo qaabkan hore loo diyaariyay. Kaliya sifooyinka kaydinta asaasiga ah ayaa la suurtageliyay."
+msgid "Only basic caching features are enabled. Every option in this preset works without any online service."
+msgstr ""
 
 #: tpl/presets/standard.tpl.php:29
 #: tpl/toolbox/settings-debug.tpl.php:117
@@ -5416,8 +5158,8 @@ msgid "This low-risk preset introduces basic optimizations for speed and user ex
 msgstr "Qaabkan khatartiisu hooseyso wuxuu soo bandhigayaa hagaajin aasaasi ah oo loogu talagalay xawaaraha iyo khibradda isticmaalaha. Ku habboon bilowadayaasha xamaasadda leh."
 
 #: tpl/presets/standard.tpl.php:37
-msgid "A QUIC.cloud connection is required to use this preset. Includes optimizations known to improve site score in page speed measurement tools."
-msgstr "Waxaa loo baahan yahay xiriirka QUIC.cloud si loo isticmaalo qaabkan la diyaariyay. Waxaa ku jira hagaajinno la yaqaan inay kor u qaadaan dhibcaha mareegaha ee qalabka lagu cabbiro xawaaraha bogga."
+msgid "Includes optimizations known to improve site score in page speed measurement tools. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Waxaa ku jira hagaajinno la og yahay inay kor u qaadaan dhibcaha mareegaha ee qalabka lagu cabbiro xawaaraha bogagga. Qaarkood waxay u baahan yihiin adeeg soo saarid online ah, kaas oo aan ku jirin qalabkan, kuwaasina wax saameyn ah ma leh."
 
 #: tpl/presets/standard.tpl.php:41
 msgid "Advanced (Recommended)"
@@ -5453,8 +5195,8 @@ msgstr "Qaabkan hore waxa uu u fiican yahay mareegaha ugu badan, mana u badna in
 
 #: tpl/presets/standard.tpl.php:56
 #: tpl/presets/standard.tpl.php:70
-msgid "A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores."
-msgstr "Horrayntaan waxaa looga baahan yahay xiriirka QUIC.cloud si loo isticmaalo qaabkan hore loo diyaariyey. Waxaa ku jira habeynro badan oo la ogyahay inay hagaajiyaan dhibcaha xawaaraha bogga."
+msgid "Includes many optimizations known to improve page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Waxaa ku jira habeynno badan oo la og yahay inay wanaajiyaan dhibcaha xawaaraha bogga. Qaar kamid ah waxay u baahan yihiin adeeg jiilka internetka ah, kaas oo aan ku jirin qalabkan furan, kuwaasina wax saameyn ah ma leh."
 
 #: tpl/presets/standard.tpl.php:60
 msgid "Aggressive"
@@ -5517,8 +5259,8 @@ msgid "This preset almost certainly will require testing and exclusions for some
 msgstr "Horayntu tani waxay ku dhowdahay inaanay suurtagal ahayn in aanay u baahnayn tijaabin iyo ka reebitaan CSS, JS iyo sawirrada Lazy Loaded qaarkood. Si gaar ah ugu fiirso astaamaha, ama sawirrada slider-ka ee ku saleysan HTML."
 
 #: tpl/presets/standard.tpl.php:85
-msgid "A QUIC.cloud connection is required to use this preset. Enables the maximum level of optimizations for improved page speed scores."
-msgstr "Waxaa loo baahan yahay xiriirinta QUIC.cloud si loo isticmaalo qaabeyntan hore loo sii qeexay. Waxay suurtogelinaysaa heerka ugu sarreeya ee hagaajinta si loo helo dhibco xawaaraha bogga oo la wanaajiyay."
+msgid "Enables the maximum level of optimizations for improved page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Wuxuu suurtagelinayaa heerka ugu sarreeya ee hagaajinta si loo wanaajiyo dhibcaha xawaaraha bogga. Qaar kamid ah ayaa u baahan adeeg jiilka khadka tooska ah, oo aan ku jirin qalabkan, kuwaasina wax saameyn ah ma leh."
 
 #: tpl/presets/standard.tpl.php:92
 msgid "Zinn® Cache Engine Standard Presets"
@@ -5805,9 +5547,17 @@ msgstr "Nadiifi dhammaan keydinta walxaha"
 msgid "Reset the entire opcode cache"
 msgstr "Dib u deji dhammaan kaydka opcode"
 
+#: tpl/toolbox/purge.tpl.php:73
+msgid "Critical CSS"
+msgstr "CSS-ka Halbowlaha ah"
+
 #: tpl/toolbox/purge.tpl.php:74
 msgid "This will delete all generated critical CSS files"
 msgstr "Tani waxa ay tirtiri doontaa dhammaan faylasha CSS-ka muhiimka ah ee la soo saaray"
+
+#: tpl/toolbox/purge.tpl.php:82
+msgid "Unique CSS"
+msgstr "CSS-ga Gaarka ah"
 
 #: tpl/toolbox/purge.tpl.php:83
 msgid "This will delete all generated unique CSS files"

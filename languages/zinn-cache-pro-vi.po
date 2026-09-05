@@ -14,7 +14,6 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: tpl/inc/admin_footer.php:17
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -117,14 +116,12 @@ msgstr "CDN"
 
 #: src/admin-display.cls.php:257
 #: src/gui.cls.php:891
-#: tpl/dash/dashboard.tpl.php:169
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "Tối ưu hóa hình ảnh"
 
 #: src/admin-display.cls.php:258
-#: tpl/dash/dashboard.tpl.php:170
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "Tối ưu hóa trang"
@@ -182,9 +179,6 @@ msgstr "Thêm URL CDN mới"
 #: tpl/cdn/other.tpl.php:45
 #: tpl/crawler/settings.tpl.php:138
 #: tpl/dash/dashboard.tpl.php:67
-#: tpl/dash/dashboard.tpl.php:425
-#: tpl/dash/dashboard.tpl.php:547
-#: tpl/dash/dashboard.tpl.php:576
 #: tpl/page_optm/settings_css.tpl.php:220
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/toolbox/settings-debug.tpl.php:80
@@ -198,9 +192,6 @@ msgstr "BẬT"
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
-#: tpl/dash/dashboard.tpl.php:427
-#: tpl/dash/dashboard.tpl.php:549
-#: tpl/dash/dashboard.tpl.php:578
 #: tpl/img_optm/settings.media_webp.tpl.php:22
 #: tpl/page_optm/settings_css.tpl.php:93
 #: tpl/page_optm/settings_js.tpl.php:77
@@ -713,8 +704,6 @@ msgid "Please see %s for more details."
 msgstr "Vui lòng xem %s để biết thêm chi tiết."
 
 #: src/doc.cls.php:101
-#: tpl/dash/dashboard.tpl.php:152
-#: tpl/dash/dashboard.tpl.php:811
 #: tpl/img_optm/summary.tpl.php:59
 #: tpl/inc/check_cache_disabled.php:46
 #: tpl/page_optm/settings_media.tpl.php:301
@@ -737,154 +726,146 @@ msgstr "Cài đặt này sẽ chỉnh sửa tệp .htaccess."
 msgid "The queue is processed asynchronously. It may take time."
 msgstr "Hàng đợi được xử lý bất đồng bộ. Việc này có thể mất chút thời gian."
 
-#: src/error.cls.php:68
-#, php-format
-msgid "You will need to finish %s setup to use the online services."
-msgstr "Bạn sẽ cần hoàn tất thiết lập %s để sử dụng các dịch vụ trực tuyến."
+#: src/error.cls.php:66
+msgid "This feature needs an online generation service, which is not included in this plugin. The setting has no effect."
+msgstr "Tính năng này cần có dịch vụ tạo trực tuyến, không được bao gồm trong plugin này. Cài đặt này không có tác dụng."
 
-#: src/error.cls.php:73
-#: tpl/crawler/settings.tpl.php:123
-#: tpl/crawler/settings.tpl.php:144
-#: tpl/crawler/summary.tpl.php:218
-msgid "Click here to set."
-msgstr "Nhấn vào đây để thiết lập."
-
-#: src/error.cls.php:81
+#: src/error.cls.php:70
 msgid "You have used all of your daily quota for today."
 msgstr "Bạn đã dùng hết hạn mức hàng ngày cho hôm nay."
 
-#: src/error.cls.php:86
-#: src/error.cls.php:99
+#: src/error.cls.php:75
+#: src/error.cls.php:88
 msgid "Learn more or purchase additional quota."
 msgstr "Tìm hiểu thêm hoặc mua thêm dung lượng."
 
-#: src/error.cls.php:94
+#: src/error.cls.php:83
 msgid "You have used all of your quota left for current service this month."
 msgstr "Bạn đã dùng hết hạn mức còn lại cho dịch vụ hiện tại trong tháng này."
 
-#: src/error.cls.php:107
+#: src/error.cls.php:96
 msgid "You have too many requested images, please try again in a few minutes."
 msgstr "Bạn đã yêu cầu quá nhiều hình ảnh, vui lòng thử lại sau vài phút."
 
-#: src/error.cls.php:111
+#: src/error.cls.php:100
 msgid "You have images waiting to be pulled. Please wait for the automatic pull to complete, or pull them down manually now."
 msgstr "Bạn có các hình ảnh đang chờ được tải về. Vui lòng đợi quá trình tải tự động hoàn tất hoặc tự tải xuống ngay bây giờ."
 
-#: src/error.cls.php:115
+#: src/error.cls.php:104
 msgid "The image list is empty."
 msgstr "Danh sách hình ảnh trống."
 
-#: src/error.cls.php:119
+#: src/error.cls.php:108
 msgid "Not enough parameters. Please check if the QUIC.cloud connection is set correctly"
 msgstr "Không đủ tham số. Vui lòng kiểm tra xem kết nối QUIC.cloud đã được thiết lập chính xác chưa"
 
-#: src/error.cls.php:123
+#: src/error.cls.php:112
 msgid "There is proceeding queue not pulled yet."
 msgstr "Hàng đợi đang xử lý chưa được kéo."
 
-#: src/error.cls.php:128
+#: src/error.cls.php:117
 #, php-format
 msgid "There is proceeding queue not pulled yet. Queue info: %s."
 msgstr "Có hàng đợi đang tiến hành chưa được kéo. Thông tin hàng đợi: %s."
 
-#: src/error.cls.php:134
+#: src/error.cls.php:123
 msgid "The site is not a valid alias on QUIC.cloud."
 msgstr "Trang web không phải là một bí danh hợp lệ trên QUIC.cloud."
 
-#: src/error.cls.php:138
+#: src/error.cls.php:127
 msgid "The site is not registered on QUIC.cloud."
 msgstr "Trang web chưa được đăng ký trên QUIC.cloud."
 
-#: src/error.cls.php:142
+#: src/error.cls.php:131
 msgid "The QUIC.cloud connection is not correct. Please try to sync your QUIC.cloud connection again."
 msgstr "Kết nối QUIC.cloud không chính xác. Vui lòng thử đồng bộ hóa lại kết nối QUIC.cloud của bạn."
 
-#: src/error.cls.php:146
+#: src/error.cls.php:135
 msgid "The current server is under heavy load."
 msgstr "Máy chủ hiện tại đang chịu tải nặng."
 
-#: src/error.cls.php:150
+#: src/error.cls.php:139
 msgid "Online node needs to be redetected."
 msgstr "Cần phát hiện lại nút trực tuyến."
 
-#: src/error.cls.php:154
+#: src/error.cls.php:143
 msgid "Credits are not enough to proceed the current request."
 msgstr "Số dư tín dụng không đủ để thực hiện yêu cầu hiện tại."
 
-#: src/error.cls.php:158
-#: src/error.cls.php:182
+#: src/error.cls.php:147
+#: src/error.cls.php:171
 #, php-format
 msgid "%s file not writable."
 msgstr "Không thể ghi tệp %s."
 
-#: src/error.cls.php:166
+#: src/error.cls.php:155
 #, php-format
 msgid "Could not find %1$s in %2$s."
 msgstr "Không thể tìm thấy %1$s trong %2$s."
 
-#: src/error.cls.php:170
+#: src/error.cls.php:159
 #, php-format
 msgid "Invalid login cookie. Please check the %s file."
 msgstr "Cookie đăng nhập không hợp lệ. Vui lòng kiểm tra tệp %s."
 
-#: src/error.cls.php:174
+#: src/error.cls.php:163
 #, php-format
 msgid "Failed to back up %s file, aborted changes."
 msgstr "Không thể sao lưu tệp %s, đã hủy bỏ các thay đổi."
 
-#: src/error.cls.php:178
+#: src/error.cls.php:167
 #, php-format
 msgid "%s file not readable."
 msgstr "Không thể đọc tệp %s."
 
-#: src/error.cls.php:186
+#: src/error.cls.php:175
 #, php-format
 msgid "Failed to get %s file contents."
 msgstr "Không thể lấy nội dung tệp %s."
 
-#: src/error.cls.php:190
+#: src/error.cls.php:179
 #, php-format
 msgid "Failed to create table %1$s! SQL: %2$s."
 msgstr "Không thể tạo bảng %1$s! SQL: %2$s."
 
-#: src/error.cls.php:194
+#: src/error.cls.php:183
 msgid "Crawler disabled by the server admin."
 msgstr "Trình thu thập thông tin đã bị quản trị viên máy chủ vô hiệu hóa."
 
-#: src/error.cls.php:198
+#: src/error.cls.php:187
 msgid "Previous request too recent. Please try again later."
 msgstr "Yêu cầu trước quá gần nhau. Vui lòng thử lại sau."
 
-#: src/error.cls.php:203
+#: src/error.cls.php:192
 #, php-format
 msgid "Previous request too recent. Please try again after %s."
 msgstr "Yêu cầu trước quá gần nhau. Vui lòng thử lại sau %s."
 
-#: src/error.cls.php:209
+#: src/error.cls.php:198
 msgid "Your application is waiting for approval."
 msgstr "Đơn đăng ký của quý khách đang chờ được phê duyệt."
 
-#: src/error.cls.php:213
+#: src/error.cls.php:202
 msgid "The callback validation to your domain failed due to hash mismatch."
 msgstr "Xác thực lệnh gọi lại cho miền của bạn không thành công do không khớp mã băm."
 
-#: src/error.cls.php:217
+#: src/error.cls.php:206
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
 msgstr "Xác thực lệnh gọi lại (callback) tới tên miền của bạn đã thất bại. Vui lòng đảm bảo không có tường lửa nào đang chặn các máy chủ của chúng tôi."
 
-#: src/error.cls.php:222
+#: src/error.cls.php:211
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
 msgstr "Xác thực lệnh gọi lại (callback) đến tên miền của bạn đã thất bại. Vui lòng đảm bảo không có tường lửa nào chặn các máy chủ của chúng tôi. Mã phản hồi:"
 
-#: src/error.cls.php:227
+#: src/error.cls.php:216
 msgid "Your domain has been forbidden from using our services due to a previous policy violation."
 msgstr "Tên miền của bạn đã bị cấm sử dụng các dịch vụ của chúng tôi do vi phạm chính sách trước đó."
 
-#: src/error.cls.php:231
+#: src/error.cls.php:220
 msgid "You cannot remove this DNS zone, because it is still in use. Please update the domain's nameservers, then try to delete this zone again, otherwise your site will become inaccessible."
 msgstr "Bạn không thể xóa vùng DNS này vì nó vẫn đang được sử dụng. Vui lòng cập nhật nameserver của tên miền, sau đó thử xóa lại vùng này, nếu không trang web của bạn sẽ không thể truy cập được."
 
-#: src/error.cls.php:238
+#: src/error.cls.php:227
 msgid "Unknown error"
 msgstr "Lỗi không xác định"
 
@@ -1028,7 +1009,6 @@ msgstr "Cloudflare"
 #: src/gui.cls.php:945
 #: src/lang.cls.php:131
 #: tpl/dash/dashboard.tpl.php:60
-#: tpl/dash/dashboard.tpl.php:569
 #: tpl/toolbox/purge.tpl.php:55
 msgid "Object Cache"
 msgstr "Bộ nhớ đệm đối tượng"
@@ -1247,12 +1227,10 @@ msgid "Images ready to request"
 msgstr "Đã sẵn sàng yêu cầu hình ảnh"
 
 #: src/lang.cls.php:32
-#: tpl/dash/dashboard.tpl.php:517
 msgid "Images requested"
 msgstr "Đã yêu cầu hình ảnh"
 
 #: src/lang.cls.php:33
-#: tpl/dash/dashboard.tpl.php:526
 msgid "Images notified to pull"
 msgstr "Hình ảnh đã thông báo kéo"
 
@@ -1280,7 +1258,6 @@ msgstr "Bật bộ nhớ đệm"
 
 #: src/lang.cls.php:109
 #: tpl/dash/dashboard.tpl.php:61
-#: tpl/dash/dashboard.tpl.php:570
 #: tpl/presets/standard.tpl.php:21
 msgid "Browser Cache"
 msgstr "Bộ nhớ đệm trình duyệt"
@@ -2449,48 +2426,44 @@ msgstr "Khi tắt bộ nhớ đệm, tất cả các mục được lưu trong b
 msgid "The network admin setting can be overridden here."
 msgstr "Có thể ghi đè cài đặt quản trị viên mạng tại đây."
 
-#: tpl/cache/settings-cache.tpl.php:49
-msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
-msgstr "Khi bật QUIC.cloud CDN, bạn vẫn có thể nhìn thấy các tiêu đề bộ nhớ đệm từ máy chủ cục bộ của mình."
-
-#: tpl/cache/settings-cache.tpl.php:63
+#: tpl/cache/settings-cache.tpl.php:60
 #, php-format
 msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
 msgstr "Lưu trữ đệm trang giao diện người dùng ở chế độ riêng tư cho người dùng đã đăng nhập. (Yêu cầu LSWS %s)"
 
-#: tpl/cache/settings-cache.tpl.php:76
+#: tpl/cache/settings-cache.tpl.php:73
 #, php-format
 msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
 msgstr "Lưu bộ nhớ đệm riêng tư cho những người bình luận có bình luận đang chờ duyệt. Việc vô hiệu hóa tùy chọn này sẽ phục vụ các trang không thể lưu bộ nhớ đệm cho người bình luận. (Yêu cầu LSWS %s)"
 
-#: tpl/cache/settings-cache.tpl.php:89
+#: tpl/cache/settings-cache.tpl.php:86
 msgid "Cache requests made by WordPress REST API calls."
 msgstr "Lưu vào bộ nhớ đệm các yêu cầu được thực hiện bởi các lệnh gọi WordPress REST API."
 
-#: tpl/cache/settings-cache.tpl.php:102
+#: tpl/cache/settings-cache.tpl.php:99
 msgid "Disabling this option may negatively affect performance."
 msgstr "Việc vô hiệu hóa tùy chọn này có thể ảnh hưởng tiêu cực đến hiệu năng."
 
-#: tpl/cache/settings-cache.tpl.php:119
+#: tpl/cache/settings-cache.tpl.php:116
 msgid "URI Paths containing these strings will NOT be cached as public."
 msgstr "Các đường dẫn URI chứa các chuỗi này SẼ KHÔNG được lưu bộ nhớ đệm dạng công khai."
 
-#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:130
 msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
 msgstr "Các đường dẫn chứa các chuỗi này sẽ được lưu bộ nhớ đệm bất kể cài đặt không thể lưu bộ nhớ đệm."
 
-#: tpl/cache/settings-cache.tpl.php:136
-#: tpl/cache/settings-cache.tpl.php:161
+#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:158
 msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
 msgstr "Để xác định TTL tùy chỉnh cho một URI, hãy thêm một khoảng trắng theo sau bởi giá trị TTL vào cuối URI."
 
-#: tpl/cache/settings-cache.tpl.php:139
-#: tpl/cache/settings-cache.tpl.php:164
+#: tpl/cache/settings-cache.tpl.php:136
+#: tpl/cache/settings-cache.tpl.php:161
 #, php-format
 msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
 msgstr "Ví dụ, %1$s xác định TTL là %2$s giây cho %3$s."
 
-#: tpl/cache/settings-cache.tpl.php:158
+#: tpl/cache/settings-cache.tpl.php:155
 msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
 msgstr "Các đường dẫn chứa các chuỗi này sẽ bắt buộc phải được lưu vào bộ nhớ đệm công khai bất kể cài đặt không thể lưu vào bộ nhớ đệm."
 
@@ -2535,8 +2508,8 @@ msgid "WARNING"
 msgstr "CẢNH BÁO"
 
 #: tpl/cache/settings-esi.tpl.php:46
-msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
-msgstr "Các tùy chọn này chỉ khả dụng với LiteSpeed Enterprise Web Server hoặc QUIC.cloud CDN."
+msgid "These options are only available with LiteSpeed Enterprise Web Server."
+msgstr "Các tùy chọn này chỉ khả dụng với LiteSpeed Enterprise Web Server."
 
 #: tpl/cache/settings-esi.tpl.php:59
 msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
@@ -3156,13 +3129,13 @@ msgstr "Cài đặt CDN"
 
 #: tpl/cdn/other.tpl.php:44
 #, php-format
-msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
-msgstr "Hãy bật cài đặt này %s nếu bạn đang sử dụng Mạng phân phối nội dung (CDN) truyền thống hoặc một tên miền phụ cho nội dung tĩnh với QUIC.cloud CDN."
+msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content."
+msgstr "Bật cài đặt %s nếu bạn đang sử dụng Mạng phân phối nội dung (CDN) truyền thống hoặc một miền phụ cho nội dung tĩnh."
 
 #: tpl/cdn/other.tpl.php:52
 #, php-format
-msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are only using QUIC.cloud or Cloudflare, leave this setting %s."
-msgstr "LƯU Ý: QUIC.cloud CDN và Cloudflare không sử dụng CDN Mapping. Nếu bạn chỉ sử dụng QUIC.cloud hoặc Cloudflare, hãy để cài đặt này ở trạng thái %s."
+msgid "NOTE: Cloudflare does not use CDN Mapping. If you are only using Cloudflare, leave this setting %s."
+msgstr "LƯU Ý: Cloudflare không sử dụng Bản đồ CDN. Nếu bạn chỉ sử dụng Cloudflare, hãy giữ nguyên cài đặt này %s."
 
 #: tpl/cdn/other.tpl.php:80
 msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
@@ -3332,7 +3305,6 @@ msgstr "Bộ nhớ đệm không khớp"
 
 #: tpl/crawler/map.tpl.php:77
 #: tpl/dash/dashboard.tpl.php:80
-#: tpl/dash/dashboard.tpl.php:765
 msgid "Crawler Status"
 msgstr "Trạng thái Crawler"
 
@@ -3379,6 +3351,12 @@ msgstr "Để thu thập dữ liệu trang web với tư cách là người dùn
 #, php-format
 msgid "You must set %s before using this feature."
 msgstr "Bạn phải thiết lập %s trước khi sử dụng tính năng này."
+
+#: tpl/crawler/settings.tpl.php:123
+#: tpl/crawler/settings.tpl.php:144
+#: tpl/crawler/summary.tpl.php:218
+msgid "Click here to set."
+msgstr "Nhấn vào đây để thiết lập."
 
 #: tpl/crawler/settings.tpl.php:136
 #, php-format
@@ -3437,7 +3415,6 @@ msgstr "Thời gian chạy của trình thu thập dữ liệu trước"
 
 #: tpl/crawler/summary.tpl.php:104
 #: tpl/dash/dashboard.tpl.php:91
-#: tpl/dash/dashboard.tpl.php:776
 msgid "Current crawler started at"
 msgstr "Thời điểm bắt đầu trình thu thập dữ liệu hiện tại"
 
@@ -3447,13 +3424,11 @@ msgstr "Tải trọng máy chủ hiện tại"
 
 #: tpl/crawler/summary.tpl.php:116
 #: tpl/dash/dashboard.tpl.php:97
-#: tpl/dash/dashboard.tpl.php:782
 msgid "Last interval"
 msgstr "Khoảng thời gian trước"
 
 #: tpl/crawler/summary.tpl.php:123
 #: tpl/dash/dashboard.tpl.php:103
-#: tpl/dash/dashboard.tpl.php:788
 msgid "Ended reason"
 msgstr "Lý do kết thúc"
 
@@ -3553,340 +3528,42 @@ msgid "No crawler meta file generated yet"
 msgstr "Chưa có tệp meta crawler nào được tạo"
 
 #: tpl/dash/dashboard.tpl.php:53
-#: tpl/dash/dashboard.tpl.php:562
 msgid "Cache Status"
 msgstr "Trạng thái bộ nhớ đệm"
 
 #: tpl/dash/dashboard.tpl.php:54
 #: tpl/dash/dashboard.tpl.php:81
-#: tpl/dash/dashboard.tpl.php:486
-#: tpl/dash/dashboard.tpl.php:563
-#: tpl/dash/dashboard.tpl.php:590
-#: tpl/dash/dashboard.tpl.php:634
-#: tpl/dash/dashboard.tpl.php:678
-#: tpl/dash/dashboard.tpl.php:722
-#: tpl/dash/dashboard.tpl.php:766
-#: tpl/dash/dashboard.tpl.php:813
 msgid "More"
 msgstr "Thêm"
 
 #: tpl/dash/dashboard.tpl.php:58
-#: tpl/dash/dashboard.tpl.php:567
 msgid "Public Cache"
 msgstr "Bộ nhớ đệm công khai"
 
 #: tpl/dash/dashboard.tpl.php:59
-#: tpl/dash/dashboard.tpl.php:568
 msgid "Private Cache"
 msgstr "Bộ nhớ đệm riêng"
 
 #: tpl/dash/dashboard.tpl.php:84
-#: tpl/dash/dashboard.tpl.php:769
 msgid "Crawler(s)"
 msgstr "Trình thu thập thông tin"
 
 #: tpl/dash/dashboard.tpl.php:87
-#: tpl/dash/dashboard.tpl.php:772
 msgid "Currently active crawler"
 msgstr "Trình thu thập dữ liệu hiện đang hoạt động"
 
 #: tpl/dash/dashboard.tpl.php:111
-#: tpl/dash/dashboard.tpl.php:796
 #, php-format
 msgid "%1$s %2$d item(s)"
 msgstr "%1$s %2$d mục"
 
 #: tpl/dash/dashboard.tpl.php:112
-#: tpl/dash/dashboard.tpl.php:797
 msgid "Last crawled:"
 msgstr "Lần thu thập dữ liệu gần nhất:"
 
 #: tpl/dash/dashboard.tpl.php:128
-#: tpl/dash/dashboard.tpl.php:873
 msgid "News"
 msgstr "Tin tức"
-
-#: tpl/dash/dashboard.tpl.php:145
-msgid "QUIC.cloud Service Usage Statistics"
-msgstr "Thống kê sử dụng dịch vụ QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:147
-msgid "Refresh Usage"
-msgstr "Làm mới mức sử dụng"
-
-#: tpl/dash/dashboard.tpl.php:148
-msgid "Sync data from Cloud"
-msgstr "Đồng bộ dữ liệu từ Cloud"
-
-#: tpl/dash/dashboard.tpl.php:159
-#, php-format
-msgid "The features below are provided by %s"
-msgstr "Các tính năng dưới đây được cung cấp bởi %s"
-
-#: tpl/dash/dashboard.tpl.php:171
-#: tpl/dash/network_dash.tpl.php:38
-msgid "CDN Bandwidth"
-msgstr "Băng thông CDN"
-
-#: tpl/dash/dashboard.tpl.php:172
-#: tpl/dash/dashboard.tpl.php:677
-#: tpl/dash/network_dash.tpl.php:39
-msgid "Low Quality Image Placeholder"
-msgstr "Trình giữ chỗ hình ảnh chất lượng thấp"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Fast Queue Usage"
-msgstr "Sử dụng hàng đợi nhanh"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Usage"
-msgstr "Mức sử dụng"
-
-#: tpl/dash/dashboard.tpl.php:236
-#: tpl/dash/network_dash.tpl.php:108
-msgid "PAYG Balance"
-msgstr "Số dư PAYG"
-
-#: tpl/dash/dashboard.tpl.php:237
-#, php-format
-msgid "PAYG used this month: %s. PAYG balance and usage not included in above quota calculation."
-msgstr "Đã dùng PAYG trong tháng này: %s. Số dư và mức sử dụng PAYG không được bao gồm trong tính toán hạn mức trên."
-
-#: tpl/dash/dashboard.tpl.php:239
-#: tpl/dash/network_dash.tpl.php:111
-msgid "Pay as You Go Usage Statistics"
-msgstr "Thống kê sử dụng theo mức độ tiêu thụ"
-
-#: tpl/dash/dashboard.tpl.php:257
-#: tpl/dash/network_dash.tpl.php:118
-msgid "Total Usage"
-msgstr "Tổng dung lượng sử dụng"
-
-#: tpl/dash/dashboard.tpl.php:258
-#: tpl/dash/network_dash.tpl.php:119
-msgid "Total images optimized in this month"
-msgstr "Tổng số hình ảnh được tối ưu hóa trong tháng này"
-
-#: tpl/dash/dashboard.tpl.php:266
-msgid "Remaining Daily Quota"
-msgstr "Hạn mức hàng ngày còn lại"
-
-#: tpl/dash/dashboard.tpl.php:276
-msgid "Partner Benefits Provided by"
-msgstr "Ưu đãi đối tác do"
-
-#: tpl/dash/dashboard.tpl.php:312
-msgid "Enable QUIC.cloud Services"
-msgstr "Bật Dịch vụ QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:319
-msgid "Go to QUIC.cloud dashboard"
-msgstr "Đi tới bảng điều khiển QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:325
-msgid "Link to QUIC.cloud"
-msgstr "Liên kết đến QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:340
-msgid "Page Load Time"
-msgstr "Thời gian tải trang"
-
-#: tpl/dash/dashboard.tpl.php:347
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-#, php-format
-msgid "Current closest Cloud server is %s. Click to redetect."
-msgstr "Máy chủ Đám mây gần nhất hiện tại là %s. Nhấp để dò lại."
-
-#: tpl/dash/dashboard.tpl.php:348
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Are you sure you want to redetect the closest cloud server for this service?"
-msgstr "Bạn có chắc chắn muốn phát hiện lại máy chủ đám mây gần nhất cho dịch vụ này không?"
-
-#: tpl/dash/dashboard.tpl.php:350
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/img_optm/summary.tpl.php:56
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Redetect"
-msgstr "Phát hiện lại"
-
-#: tpl/dash/dashboard.tpl.php:360
-#: tpl/dash/dashboard.tpl.php:436
-msgid "Before"
-msgstr "Trước"
-
-#: tpl/dash/dashboard.tpl.php:368
-#: tpl/dash/dashboard.tpl.php:444
-msgid "After"
-msgstr "Sau"
-
-#: tpl/dash/dashboard.tpl.php:376
-#: tpl/dash/dashboard.tpl.php:452
-msgid "Improved by"
-msgstr "Được cải thiện bởi"
-
-#: tpl/dash/dashboard.tpl.php:384
-msgid "You must be using one of the following products in order to measure Page Load Time:"
-msgstr "Bạn phải đang sử dụng một trong các sản phẩm sau để đo Thời gian Tải trang:"
-
-#: tpl/dash/dashboard.tpl.php:385
-msgid "LiteSpeed Web Server"
-msgstr "Máy chủ web LiteSpeed"
-
-#: tpl/dash/dashboard.tpl.php:387
-msgid "OpenLiteSpeed Web Server"
-msgstr "Máy chủ Web OpenLiteSpeed"
-
-#: tpl/dash/dashboard.tpl.php:389
-msgid "LiteSpeed Web ADC"
-msgstr "LiteSpeed Web ADC"
-
-#: tpl/dash/dashboard.tpl.php:391
-#: tpl/dash/dashboard.tpl.php:809
-msgid "QUIC.cloud CDN"
-msgstr "QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:403
-#: tpl/dash/dashboard.tpl.php:468
-#, php-format
-msgid "Requested: %s ago"
-msgstr "Đã yêu cầu: %s trước"
-
-#: tpl/dash/dashboard.tpl.php:411
-#: tpl/dash/dashboard.tpl.php:476
-msgid "Refresh"
-msgstr "Làm mới"
-
-#: tpl/dash/dashboard.tpl.php:412
-msgid "Refresh page load time"
-msgstr "Làm mới thời gian tải trang"
-
-#: tpl/dash/dashboard.tpl.php:421
-msgid "PageSpeed Score"
-msgstr "Điểm PageSpeed"
-
-#: tpl/dash/dashboard.tpl.php:477
-msgid "Refresh page score"
-msgstr "Làm mới điểm số trang"
-
-#: tpl/dash/dashboard.tpl.php:485
-#: tpl/img_optm/entry.tpl.php:16
-msgid "Image Optimization Summary"
-msgstr "Tóm tắt Tối ưu hóa Hình ảnh"
-
-#: tpl/dash/dashboard.tpl.php:502
-#: tpl/img_optm/summary.tpl.php:76
-#: tpl/img_optm/summary.tpl.php:89
-msgid "Send Optimization Request"
-msgstr "Gửi Yêu Cầu Tối Ưu Hóa"
-
-#: tpl/dash/dashboard.tpl.php:508
-#: tpl/img_optm/summary.tpl.php:316
-msgid "Total Reduction"
-msgstr "Tổng số tiền giảm"
-
-#: tpl/dash/dashboard.tpl.php:511
-#: tpl/img_optm/summary.tpl.php:319
-msgid "Images Pulled"
-msgstr "Đã tải ảnh"
-
-#: tpl/dash/dashboard.tpl.php:534
-#: tpl/img_optm/summary.tpl.php:322
-msgid "Last Request"
-msgstr "Yêu cầu cuối"
-
-#: tpl/dash/dashboard.tpl.php:537
-msgid "Last Pull"
-msgstr "Lần kéo cuối"
-
-#: tpl/dash/dashboard.tpl.php:589
-#: tpl/toolbox/purge.tpl.php:73
-msgid "Critical CSS"
-msgstr "CSS quan trọng"
-
-#: tpl/dash/dashboard.tpl.php:596
-#: tpl/dash/dashboard.tpl.php:640
-#: tpl/dash/dashboard.tpl.php:684
-#: tpl/dash/dashboard.tpl.php:728
-#, php-format
-msgid "Last generated: %s"
-msgstr "Tạo lần cuối: %s"
-
-#: tpl/dash/dashboard.tpl.php:604
-#: tpl/dash/dashboard.tpl.php:648
-#: tpl/dash/dashboard.tpl.php:692
-#: tpl/dash/dashboard.tpl.php:736
-#, php-format
-msgid "Time to execute previous request: %s"
-msgstr "Thời gian thực hiện yêu cầu trước: %s"
-
-#: tpl/dash/dashboard.tpl.php:611
-#: tpl/dash/dashboard.tpl.php:655
-#: tpl/dash/dashboard.tpl.php:699
-#: tpl/dash/dashboard.tpl.php:743
-msgid "Requests in queue"
-msgstr "Yêu cầu trong hàng đợi"
-
-#: tpl/dash/dashboard.tpl.php:614
-#: tpl/dash/dashboard.tpl.php:658
-#: tpl/dash/dashboard.tpl.php:702
-#: tpl/dash/dashboard.tpl.php:746
-msgid "Force cron"
-msgstr "Buộc chạy cron"
-
-#: tpl/dash/dashboard.tpl.php:622
-#: tpl/dash/dashboard.tpl.php:666
-#: tpl/dash/dashboard.tpl.php:710
-#: tpl/dash/dashboard.tpl.php:754
-#, php-format
-msgid "Last requested: %s"
-msgstr "Yêu cầu lần cuối: %s"
-
-#: tpl/dash/dashboard.tpl.php:633
-#: tpl/toolbox/purge.tpl.php:82
-msgid "Unique CSS"
-msgstr "CSS duy nhất"
-
-#: tpl/dash/dashboard.tpl.php:721
-msgid "Viewport Image"
-msgstr "Hình ảnh khung nhìn"
-
-#: tpl/dash/dashboard.tpl.php:822
-msgid "Enable QUIC.cloud CDN"
-msgstr "Bật CDN QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:829
-msgid "Best available WordPress performance"
-msgstr "Hiệu năng WordPress tốt nhất hiện có"
-
-#: tpl/dash/dashboard.tpl.php:834
-#, php-format
-msgid "Globally fast TTFB, easy setup, and %s!"
-msgstr "TTFB nhanh trên toàn cầu, thiết lập dễ dàng và %s!"
-
-#: tpl/dash/dashboard.tpl.php:835
-msgid "more"
-msgstr "thêm"
-
-#: tpl/dash/dashboard.tpl.php:851
-msgid "Refresh Status"
-msgstr "Làm mới trạng thái"
-
-#: tpl/dash/dashboard.tpl.php:852
-msgid "Refresh QUIC.cloud status"
-msgstr "Làm mới trạng thái QUIC.cloud"
 
 #: tpl/dash/entry.tpl.php:21
 msgid "Network Dashboard"
@@ -3901,14 +3578,46 @@ msgstr "Bảng điều khiển Zinn® Cache Engine"
 msgid "Usage Statistics: %s"
 msgstr "Thống kê sử dụng: %s"
 
+#: tpl/dash/network_dash.tpl.php:38
+msgid "CDN Bandwidth"
+msgstr "Băng thông CDN"
+
+#: tpl/dash/network_dash.tpl.php:39
+msgid "Low Quality Image Placeholder"
+msgstr "Trình giữ chỗ hình ảnh chất lượng thấp"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Fast Queue Usage"
+msgstr "Sử dụng hàng đợi nhanh"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Usage"
+msgstr "Mức sử dụng"
+
 #: tpl/dash/network_dash.tpl.php:107
 msgid "Pay as You Go"
 msgstr "Thanh toán theo mức sử dụng"
+
+#: tpl/dash/network_dash.tpl.php:108
+msgid "PAYG Balance"
+msgstr "Số dư PAYG"
 
 #: tpl/dash/network_dash.tpl.php:109
 #, php-format
 msgid "This Month Usage: %s"
 msgstr "Sử dụng tháng này: %s"
+
+#: tpl/dash/network_dash.tpl.php:111
+msgid "Pay as You Go Usage Statistics"
+msgstr "Thống kê sử dụng theo mức độ tiêu thụ"
+
+#: tpl/dash/network_dash.tpl.php:118
+msgid "Total Usage"
+msgstr "Tổng dung lượng sử dụng"
+
+#: tpl/dash/network_dash.tpl.php:119
+msgid "Total images optimized in this month"
+msgstr "Tổng số hình ảnh được tối ưu hóa trong tháng này"
 
 #: tpl/db_optm/entry.tpl.php:17
 #: tpl/db_optm/settings.tpl.php:19
@@ -4131,58 +3840,53 @@ msgstr "Tùy chọn này bật tính năng tối ưu hóa tối đa cho khách t
 msgid "Please read all warnings before enabling this option."
 msgstr "Vui lòng đọc tất cả các cảnh báo trước khi bật tùy chọn này."
 
-#: tpl/general/settings.tpl.php:64
-#, php-format
-msgid "Your %1$s quota on %2$s will still be in use."
-msgstr "Hạn mức %1$s của bạn trên %2$s sẽ vẫn được sử dụng."
-
-#: tpl/general/settings.tpl.php:72
-#: tpl/general/settings.tpl.php:79
-#: tpl/general/settings.tpl.php:86
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:71
+#: tpl/general/settings.tpl.php:78
+#: tpl/general/settings.tpl.php:85
+#: tpl/general/settings.tpl.php:102
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 msgid "Notice"
 msgstr "Thông báo"
 
-#: tpl/general/settings.tpl.php:72
+#: tpl/general/settings.tpl.php:71
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 #, php-format
 msgid "%s must be turned ON for this setting to work."
 msgstr "%s phải được BẬT để cài đặt này hoạt động."
 
-#: tpl/general/settings.tpl.php:79
+#: tpl/general/settings.tpl.php:78
 #, php-format
 msgid "You need to turn %s on to get maximum result."
 msgstr "Bạn cần bật %s để đạt được kết quả tối đa."
 
-#: tpl/general/settings.tpl.php:86
+#: tpl/general/settings.tpl.php:85
 #, php-format
 msgid "You need to turn %s on and finish all WebP generation to get maximum result."
 msgstr "Bạn cần bật %s và hoàn tất toàn bộ quá trình tạo WebP để đạt kết quả tối đa."
 
-#: tpl/general/settings.tpl.php:101
+#: tpl/general/settings.tpl.php:100
 msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
 msgstr "Nhập địa chỉ IP của trang web này để cho phép các dịch vụ đám mây gọi trực tiếp IP thay vì tên miền. Điều này giúp loại bỏ chi phí tra cứu DNS và CDN."
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Your server IP"
 msgstr "IP của máy chủ của bạn"
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Check my public IP from"
 msgstr "Kiểm tra IP công khai của tôi từ"
 
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:102
 msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
 msgstr "IP được tự động phát hiện có thể không chính xác nếu bạn đã thiết lập thêm một IP đi hoặc có nhiều IP được cấu hình trên máy chủ của mình."
 
-#: tpl/general/settings.tpl.php:104
+#: tpl/general/settings.tpl.php:103
 msgid "Please make sure this IP is the correct one for visiting your site."
 msgstr "Vui lòng đảm bảo đây là địa chỉ IP chính xác để truy cập trang web của bạn."
 
-#: tpl/general/settings.tpl.php:119
+#: tpl/general/settings.tpl.php:118
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
 msgstr "Bật tùy chọn này để hiển thị tự động các tin tức mới nhất, bao gồm bản sửa lỗi nóng, bản phát hành mới, phiên bản thử nghiệm khả dụng và chương trình khuyến mãi."
 
@@ -4232,6 +3936,10 @@ msgstr "Đã đồng bộ thành công."
 msgid "Sync failed."
 msgstr "Đồng bộ thất bại."
 
+#: tpl/img_optm/entry.tpl.php:16
+msgid "Image Optimization Summary"
+msgstr "Tóm tắt Tối ưu hóa Hình ảnh"
+
 #: tpl/img_optm/entry.tpl.php:17
 #: tpl/img_optm/entry.tpl.php:22
 #: tpl/img_optm/network_settings.tpl.php:19
@@ -4254,20 +3962,15 @@ msgstr "Cải thiện đáng kể thời gian tải bằng cách thay thế hìn
 
 #: tpl/img_optm/settings.media_webp.tpl.php:31
 #, php-format
-msgid "%1$s is a %2$s paid feature."
-msgstr "%1$s là một tính năng trả phí của %2$s."
-
-#: tpl/img_optm/settings.media_webp.tpl.php:34
-#, php-format
 msgid "When switching formats, please %1$s or %2$s to apply this new choice to previously optimized images."
 msgstr "Khi chuyển đổi định dạng, vui lòng %1$s hoặc %2$s để áp dụng lựa chọn mới này cho các hình ảnh đã tối ưu hóa trước đó."
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:378
 msgid "Destroy All Optimization Data"
 msgstr "Xóa toàn bộ dữ liệu tối ưu hóa"
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:368
 msgid "Soft Reset Optimization Counter"
 msgstr "Đặt lại bộ đếm tối ưu hóa mềm"
@@ -4328,9 +4031,35 @@ msgstr "Chỉ định các thuộc tính phần tử nào sẽ được thay th�
 msgid "Enable replacement of WebP/AVIF in %s elements that were generated outside of WordPress logic."
 msgstr "Bật tính năng thay thế WebP/AVIF trong các phần tử %s được tạo bên ngoài logic của WordPress."
 
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+#, php-format
+msgid "Current closest Cloud server is %s. Click to redetect."
+msgstr "Máy chủ Đám mây gần nhất hiện tại là %s. Nhấp để dò lại."
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "Bạn có chắc chắn muốn phát hiện lại máy chủ đám mây gần nhất cho dịch vụ này không?"
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/img_optm/summary.tpl.php:56
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Redetect"
+msgstr "Phát hiện lại"
+
 #: tpl/img_optm/summary.tpl.php:58
-msgid "Optimize images with our QUIC.cloud server"
-msgstr "Tối ưu hóa hình ảnh bằng máy chủ QUIC.cloud của chúng tôi"
+msgid "Image optimisation"
+msgstr "Tối ưu hóa hình ảnh"
 
 #: tpl/img_optm/summary.tpl.php:63
 #, php-format
@@ -4344,6 +4073,11 @@ msgstr "Để đảm bảo máy chủ của chúng tôi có thể giao tiếp v�
 #: tpl/img_optm/summary.tpl.php:69
 msgid "Current limit is"
 msgstr "Giới hạn hiện tại là"
+
+#: tpl/img_optm/summary.tpl.php:76
+#: tpl/img_optm/summary.tpl.php:89
+msgid "Send Optimization Request"
+msgstr "Gửi Yêu Cầu Tối Ưu Hóa"
 
 #: tpl/img_optm/summary.tpl.php:77
 #: tpl/page_optm/settings_css.tpl.php:156
@@ -4370,8 +4104,8 @@ msgid "Optimization Status"
 msgstr "Trạng thái tối ưu hóa"
 
 #: tpl/img_optm/summary.tpl.php:141
-msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
-msgstr "Sau khi máy chủ Tối ưu hóa Hình ảnh QUIC.cloud hoàn tất quá trình tối ưu hóa, nó sẽ thông báo cho trang web của bạn để kéo các hình ảnh đã tối ưu hóa về."
+msgid "When the optimisation server finishes, it notifies your site to pull the optimised images."
+msgstr "Khi máy chủ tối ưu hóa hoàn tất, nó sẽ thông báo cho trang web của bạn để kéo các hình ảnh đã được tối ưu hóa về."
 
 #: tpl/img_optm/summary.tpl.php:142
 msgid "This process is automatic."
@@ -4473,6 +4207,18 @@ msgstr "Quét lại hình thu nhỏ mới"
 msgid "Optimization Summary"
 msgstr "Tóm tắt tối ưu hóa"
 
+#: tpl/img_optm/summary.tpl.php:316
+msgid "Total Reduction"
+msgstr "Tổng số tiền giảm"
+
+#: tpl/img_optm/summary.tpl.php:319
+msgid "Images Pulled"
+msgstr "Đã tải ảnh"
+
+#: tpl/img_optm/summary.tpl.php:322
+msgid "Last Request"
+msgstr "Yêu cầu cuối"
+
 #: tpl/img_optm/summary.tpl.php:325
 msgid "Last Pulled"
 msgstr "Đã kéo lần cuối"
@@ -4520,26 +4266,21 @@ msgstr "Bạn có chắc chắn muốn xóa toàn bộ hình ảnh đã được
 msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
 msgstr "Xóa tất cả các yêu cầu/kết quả tối ưu hóa hình ảnh trước đó, hoàn nguyên các tối ưu hóa đã hoàn thành và xóa tất cả các tệp tối ưu hóa."
 
-#: tpl/inc/admin_footer.php:17
-#, php-format
-msgid "Rate %1$s on %2$s"
-msgstr "Đánh giá %1$s trên %2$s"
+#: tpl/inc/admin_footer.php:16
+msgid "Read the upstream Zinn® Cache Engine documentation"
+msgstr "Đọc tài liệu về Zinn® Cache Engine thượng nguồn"
 
 #: tpl/inc/admin_footer.php:19
-msgid "Read LiteSpeed Documentation"
-msgstr "Đọc tài liệu LiteSpeed"
+msgid "Zinn Digital® support"
+msgstr "Hỗ trợ Zinn Digital®"
 
-#: tpl/inc/admin_footer.php:21
-msgid "Visit LSCWP support forum"
-msgstr "Truy cập diễn đàn hỗ trợ LSCWP"
-
-#: tpl/inc/admin_footer.php:23
-msgid "Join LiteSpeed Slack community"
-msgstr "Tham gia cộng đồng Slack của LiteSpeed"
+#: tpl/inc/admin_footer.php:22
+msgid "Zinn® Cache Engine user guide"
+msgstr "Hướng dẫn sử dụng Zinn® Cache Engine"
 
 #: tpl/inc/check_cache_disabled.php:20
-msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
-msgstr "Để sử dụng các tính năng lưu đệm, bạn phải có máy chủ web LiteSpeed hoặc đang sử dụng QUIC.cloud CDN."
+msgid "To use the caching functions you must have a LiteSpeed or OpenLiteSpeed web server with the LSCache module."
+msgstr "Để sử dụng các tính năng bộ nhớ đệm, bạn phải có máy chủ web LiteSpeed hoặc OpenLiteSpeed kèm theo mô-đun LSCache."
 
 #: tpl/inc/check_cache_disabled.php:25
 msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
@@ -4752,8 +4493,8 @@ msgid "How to Fix Problems Caused by CSS/JS Optimization."
 msgstr "Cách khắc phục sự cố do tối ưu hóa CSS/JS."
 
 #: tpl/page_optm/settings_css.tpl.php:82
-msgid "Use QUIC.cloud online service to generate unique CSS."
-msgstr "Sử dụng dịch vụ trực tuyến QUIC.cloud để tạo CSS duy nhất."
+msgid "Generate unique CSS through an online generation service."
+msgstr "Tạo CSS duy nhất thông qua dịch vụ tạo trực tuyến."
 
 #: tpl/page_optm/settings_css.tpl.php:83
 msgid "This will drop the unused CSS on each page from the combined file."
@@ -4835,8 +4576,8 @@ msgid "This can improve your speed score in services like Pingdom, GTmetrix and 
 msgstr "Việc này có thể cải thiện điểm số tốc độ của bạn trên các dịch vụ như Pingdom, GTmetrix và PageSpeed."
 
 #: tpl/page_optm/settings_css.tpl.php:217
-msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
-msgstr "Sử dụng dịch vụ trực tuyến QUIC.cloud để tạo CSS quan trọng và tải phần CSS còn lại không đồng bộ."
+msgid "Generate critical CSS through an online generation service and load the remaining CSS asynchronously."
+msgstr "Tạo CSS quan trọng thông qua dịch vụ tạo trực tuyến và tải phần CSS còn lại một cách không đồng bộ."
 
 #: tpl/page_optm/settings_css.tpl.php:219
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
@@ -5116,8 +4857,8 @@ msgid "Specify the responsive placeholder SVG color."
 msgstr "Chỉ định màu SVG của placeholder thích ứng."
 
 #: tpl/page_optm/settings_media.tpl.php:122
-msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
-msgstr "Sử dụng dịch vụ tạo LQIP (Low Quality Image Placeholder - Trình giữ chỗ hình ảnh chất lượng thấp) của QUIC.cloud để tạo bản xem trước hình ảnh đáp ứng trong khi tải."
+msgid "Generate Low Quality Image Placeholders through an online generation service, for responsive image previews while loading."
+msgstr "Tạo Trình giữ chỗ hình ảnh chất lượng thấp thông qua dịch vụ tạo trực tuyến, để xem trước hình ảnh thích ứng trong khi tải."
 
 #: tpl/page_optm/settings_media.tpl.php:123
 msgid "Keep this off to use plain color placeholders."
@@ -5392,8 +5133,8 @@ msgid "This no-risk preset is appropriate for all websites. Good for new users, 
 msgstr "Thiết lập sẵn không rủi ro này phù hợp cho tất cả các trang web. Phù hợp cho người dùng mới, trang web đơn giản hoặc quá trình phát triển hướng đến bộ nhớ đệm."
 
 #: tpl/presets/standard.tpl.php:25
-msgid "A QUIC.cloud connection is not required to use this preset. Only basic caching features are enabled."
-msgstr "Không bắt buộc phải kết nối QUIC.cloud để sử dụng cấu hình sẵn này. Chỉ có các tính năng bộ đệm cơ bản được bật."
+msgid "Only basic caching features are enabled. Every option in this preset works without any online service."
+msgstr "Chỉ có các tính năng bộ nhớ đệm cơ bản được bật. Mọi tùy chọn trong cấu hình sẵn này đều hoạt động mà không cần bất kỳ dịch vụ trực tuyến nào."
 
 #: tpl/presets/standard.tpl.php:29
 #: tpl/toolbox/settings-debug.tpl.php:117
@@ -5413,8 +5154,8 @@ msgid "This low-risk preset introduces basic optimizations for speed and user ex
 msgstr "Cấu hình sẵn có rủi ro thấp này áp dụng các tối ưu hóa cơ bản cho tốc độ và trải nghiệm người dùng. Thích hợp cho những người mới bắt đầu đầy nhiệt huyết."
 
 #: tpl/presets/standard.tpl.php:37
-msgid "A QUIC.cloud connection is required to use this preset. Includes optimizations known to improve site score in page speed measurement tools."
-msgstr "Cần có kết nối QUIC.cloud để sử dụng thiết lập sẵn này. Bao gồm các tối ưu hóa đã được biết là cải thiện điểm số trang web trong các công cụ đo tốc độ trang."
+msgid "Includes optimizations known to improve site score in page speed measurement tools. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Bao gồm các tối ưu hóa đã được biết là cải thiện điểm số trang web trong các công cụ đo lường tốc độ trang. Một số tính năng trong số đó cần dịch vụ tạo trực tuyến — không bao gồm trong plugin này — và các tính năng đó sẽ không có hiệu lực."
 
 #: tpl/presets/standard.tpl.php:41
 msgid "Advanced (Recommended)"
@@ -5450,8 +5191,8 @@ msgstr "Cài đặt sẵn này phù hợp với hầu hết các trang web và �
 
 #: tpl/presets/standard.tpl.php:56
 #: tpl/presets/standard.tpl.php:70
-msgid "A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores."
-msgstr "Cần có kết nối QUIC.cloud để sử dụng thiết lập sẵn này. Bao gồm nhiều bản tối ưu hóa đã được biết là giúp cải thiện điểm tốc độ trang."
+msgid "Includes many optimizations known to improve page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Bao gồm nhiều điểm tối ưu được biết là giúp cải thiện điểm tốc độ trang. Một số tính năng trong số đó cần dịch vụ tạo trực tuyến, không được bao gồm trong plugin này, và do đó chúng không có hiệu lực."
 
 #: tpl/presets/standard.tpl.php:60
 msgid "Aggressive"
@@ -5514,8 +5255,8 @@ msgid "This preset almost certainly will require testing and exclusions for some
 msgstr "Cấu hình sẵn này hầu như chắc chắn sẽ cần kiểm tra và loại trừ cho một số tệp CSS, JS và hình ảnh Tải chậm (Lazy Loaded). Hãy chú ý đặc biệt đến logo hoặc hình ảnh thanh trượt dựa trên HTML."
 
 #: tpl/presets/standard.tpl.php:85
-msgid "A QUIC.cloud connection is required to use this preset. Enables the maximum level of optimizations for improved page speed scores."
-msgstr "Cần có kết nối QUIC.cloud để sử dụng thiết lập sẵn này. Kích hoạt mức tối ưu hóa cao nhất để cải thiện điểm số tốc độ trang."
+msgid "Enables the maximum level of optimizations for improved page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Kích hoạt mức độ tối ưu hóa cao nhất để cải thiện điểm số tốc độ trang. Một số tính năng trong số đó cần dịch vụ tạo trực tuyến, không đi kèm trong plugin này, và những tính năng đó sẽ không có hiệu lực."
 
 #: tpl/presets/standard.tpl.php:92
 msgid "Zinn® Cache Engine Standard Presets"
@@ -5802,9 +5543,17 @@ msgstr "Xóa toàn bộ bộ nhớ đệm đối tượng"
 msgid "Reset the entire opcode cache"
 msgstr "Đặt lại toàn bộ bộ đệm mã vận hành"
 
+#: tpl/toolbox/purge.tpl.php:73
+msgid "Critical CSS"
+msgstr "CSS quan trọng"
+
 #: tpl/toolbox/purge.tpl.php:74
 msgid "This will delete all generated critical CSS files"
 msgstr "Thao tác này sẽ xóa tất cả các tệp CSS quan trọng đã được tạo"
+
+#: tpl/toolbox/purge.tpl.php:82
+msgid "Unique CSS"
+msgstr "CSS duy nhất"
 
 #: tpl/toolbox/purge.tpl.php:83
 msgid "This will delete all generated unique CSS files"

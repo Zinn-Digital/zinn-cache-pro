@@ -79,7 +79,7 @@ $ccss_service_hot = $this->cls( 'Cloud' )->service_hot( Cloud::SVC_CCSS );
 						</div>
 					<?php endif; ?>
 
-					<?php esc_html_e( 'Use QUIC.cloud online service to generate unique CSS.', 'zinn-cache-pro' ); ?>
+					<?php esc_html_e( 'Generate unique CSS through an online generation service.', 'zinn-cache-pro' ); ?>
 					<?php esc_html_e( 'This will drop the unused CSS on each page from the combined file.', 'zinn-cache-pro' ); ?>
 					<?php Doc::learn_more( 'https://docs.litespeedtech.com/lscache/lscwp/pageopt/#generate-ucss' ); ?>
 					<br /><?php esc_html_e( 'Automatic generation of unique CSS is in the background via a cron-based queue.', 'zinn-cache-pro' ); ?>
@@ -214,7 +214,7 @@ $ccss_service_hot = $this->cls( 'Cloud' )->service_hot( Cloud::SVC_CCSS );
 					<?php endif; ?>
 					<?php esc_html_e( 'Optimize CSS delivery.', 'zinn-cache-pro' ); ?>
 					<?php esc_html_e( 'This can improve your speed score in services like Pingdom, GTmetrix and PageSpeed.', 'zinn-cache-pro' ); ?><br />
-					<?php esc_html_e( 'Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously.', 'zinn-cache-pro' ); ?>
+					<?php esc_html_e( 'Generate critical CSS through an online generation service and load the remaining CSS asynchronously.', 'zinn-cache-pro' ); ?>
 					<?php Doc::learn_more( 'https://docs.litespeedtech.com/lscache/lscwp/pageopt/#load-css-asynchronously' ); ?><br />
 					<?php esc_html_e( 'Automatic generation of critical CSS is in the background via a cron-based queue.', 'zinn-cache-pro' ); ?><br />
 					<?php printf( esc_html__( 'When this option is turned %s, it will also load Google Fonts asynchronously.', 'zinn-cache-pro' ), '<code>' . esc_html__( 'ON', 'zinn-cache-pro' ) . '</code>' ); ?>

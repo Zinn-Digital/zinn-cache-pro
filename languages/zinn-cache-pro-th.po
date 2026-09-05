@@ -14,7 +14,6 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: tpl/inc/admin_footer.php:17
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -117,14 +116,12 @@ msgstr "CDN"
 
 #: src/admin-display.cls.php:257
 #: src/gui.cls.php:891
-#: tpl/dash/dashboard.tpl.php:169
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "การปรับแต่งรูปภาพให้เหมาะสม"
 
 #: src/admin-display.cls.php:258
-#: tpl/dash/dashboard.tpl.php:170
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "การปรับแต่งหน้าเว็บไซต์"
@@ -182,9 +179,6 @@ msgstr "เพิ่ม URL CDN ใหม่"
 #: tpl/cdn/other.tpl.php:45
 #: tpl/crawler/settings.tpl.php:138
 #: tpl/dash/dashboard.tpl.php:67
-#: tpl/dash/dashboard.tpl.php:425
-#: tpl/dash/dashboard.tpl.php:547
-#: tpl/dash/dashboard.tpl.php:576
 #: tpl/page_optm/settings_css.tpl.php:220
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/toolbox/settings-debug.tpl.php:80
@@ -198,9 +192,6 @@ msgstr "เปิด"
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
-#: tpl/dash/dashboard.tpl.php:427
-#: tpl/dash/dashboard.tpl.php:549
-#: tpl/dash/dashboard.tpl.php:578
 #: tpl/img_optm/settings.media_webp.tpl.php:22
 #: tpl/page_optm/settings_css.tpl.php:93
 #: tpl/page_optm/settings_js.tpl.php:77
@@ -713,8 +704,6 @@ msgid "Please see %s for more details."
 msgstr "โปรดดูรายละเอียดเพิ่มเติมที่ %s"
 
 #: src/doc.cls.php:101
-#: tpl/dash/dashboard.tpl.php:152
-#: tpl/dash/dashboard.tpl.php:811
 #: tpl/img_optm/summary.tpl.php:59
 #: tpl/inc/check_cache_disabled.php:46
 #: tpl/page_optm/settings_media.tpl.php:301
@@ -737,154 +726,146 @@ msgstr "การตั้งค่านี้จะแก้ไขไฟล์
 msgid "The queue is processed asynchronously. It may take time."
 msgstr "คิวได้รับการประมวลผลแบบอะซิงโครนัส อาจใช้เวลาสักครู่"
 
-#: src/error.cls.php:68
-#, php-format
-msgid "You will need to finish %s setup to use the online services."
-msgstr "คุณจำเป็นต้องตั้งค่า %s ให้เสร็จสิ้นเพื่อใช้งานบริการออนไลน์"
+#: src/error.cls.php:66
+msgid "This feature needs an online generation service, which is not included in this plugin. The setting has no effect."
+msgstr "ฟีเจอร์นี้ต้องใช้บริการสร้างออนไลน์ ซึ่งไม่รวมอยู่ในปลั๊กอินนี้ การตั้งค่านี้จึงไม่มีผลใดๆ"
 
-#: src/error.cls.php:73
-#: tpl/crawler/settings.tpl.php:123
-#: tpl/crawler/settings.tpl.php:144
-#: tpl/crawler/summary.tpl.php:218
-msgid "Click here to set."
-msgstr "คลิกที่นี่เพื่อตั้งค่า"
-
-#: src/error.cls.php:81
+#: src/error.cls.php:70
 msgid "You have used all of your daily quota for today."
 msgstr "คุณใช้โควต้าประจำวันหมดแล้วสำหรับวันนี้"
 
-#: src/error.cls.php:86
-#: src/error.cls.php:99
+#: src/error.cls.php:75
+#: src/error.cls.php:88
 msgid "Learn more or purchase additional quota."
 msgstr "เรียนรู้เพิ่มเติมหรือซื้อโควตาเพิ่มเติม"
 
-#: src/error.cls.php:94
+#: src/error.cls.php:83
 msgid "You have used all of your quota left for current service this month."
 msgstr "คุณได้ใช้โควตาสำหรับบริการปัจจุบันจนหมดสำหรับเดือนนี้แล้ว"
 
-#: src/error.cls.php:107
+#: src/error.cls.php:96
 msgid "You have too many requested images, please try again in a few minutes."
 msgstr "คุณขอรูปภาพจำนวนมากเกินไป โปรดลองใหม่อีกครั้งในอีกสักครู่"
 
-#: src/error.cls.php:111
+#: src/error.cls.php:100
 msgid "You have images waiting to be pulled. Please wait for the automatic pull to complete, or pull them down manually now."
 msgstr "คุณมีรูปภาพที่รอการดึงข้อมูล โปรดรอให้การดึงข้อมูลอัตโนมัติเสร็จสิ้น หรือดึงข้อมูลลงมาด้วยตนเองตอนนี้"
 
-#: src/error.cls.php:115
+#: src/error.cls.php:104
 msgid "The image list is empty."
 msgstr "รายการรูปภาพว่างเปล่า"
 
-#: src/error.cls.php:119
+#: src/error.cls.php:108
 msgid "Not enough parameters. Please check if the QUIC.cloud connection is set correctly"
 msgstr "พารามิเตอร์ไม่เพียงพอ โปรดตรวจสอบว่าการเชื่อมต่อ QUIC.cloud ตั้งค่าไว้อย่างถูกต้องหรือไม่"
 
-#: src/error.cls.php:123
+#: src/error.cls.php:112
 msgid "There is proceeding queue not pulled yet."
 msgstr "ยังมีคิวที่กำลังดำเนินการอยู่แต่ยังไม่ได้ดึงข้อมูล"
 
-#: src/error.cls.php:128
+#: src/error.cls.php:117
 #, php-format
 msgid "There is proceeding queue not pulled yet. Queue info: %s."
 msgstr "มีคิวที่กำลังดำเนินการอยู่ซึ่งยังไม่ได้ดึงข้อมูล ข้อมูลคิว: %s"
 
-#: src/error.cls.php:134
+#: src/error.cls.php:123
 msgid "The site is not a valid alias on QUIC.cloud."
 msgstr "ไซต์นี้ไม่ใช่แอลกอฮอล์ที่ถูกต้องบน QUIC.cloud"
 
-#: src/error.cls.php:138
+#: src/error.cls.php:127
 msgid "The site is not registered on QUIC.cloud."
 msgstr "เว็บไซต์นี้ยังไม่ได้ลงทะเบียนบน QUIC.cloud"
 
-#: src/error.cls.php:142
+#: src/error.cls.php:131
 msgid "The QUIC.cloud connection is not correct. Please try to sync your QUIC.cloud connection again."
 msgstr "การเชื่อมต่อ QUIC.cloud ไม่ถูกต้อง โปรดลองซิงค์การเชื่อมต่อ QUIC.cloud ของคุณอีกครั้ง"
 
-#: src/error.cls.php:146
+#: src/error.cls.php:135
 msgid "The current server is under heavy load."
 msgstr "ขณะนี้เซิร์ฟเวอร์กำลังโหลดหนักมาก"
 
-#: src/error.cls.php:150
+#: src/error.cls.php:139
 msgid "Online node needs to be redetected."
 msgstr "ต้องตรวจหาโหนดออนไลน์ใหม่อีกครั้ง"
 
-#: src/error.cls.php:154
+#: src/error.cls.php:143
 msgid "Credits are not enough to proceed the current request."
 msgstr "เครดิตไม่เพียงพอที่จะดำเนินการตามคำขอปัจจุบัน"
 
-#: src/error.cls.php:158
-#: src/error.cls.php:182
+#: src/error.cls.php:147
+#: src/error.cls.php:171
 #, php-format
 msgid "%s file not writable."
 msgstr "ไม่สามารถเขียนทับไฟล์ %s ได้"
 
-#: src/error.cls.php:166
+#: src/error.cls.php:155
 #, php-format
 msgid "Could not find %1$s in %2$s."
 msgstr "ไม่พบ %1$s ใน %2$s"
 
-#: src/error.cls.php:170
+#: src/error.cls.php:159
 #, php-format
 msgid "Invalid login cookie. Please check the %s file."
 msgstr "คุกกี้เข้าสู่ระบบไม่ถูกต้อง โปรดตรวจสอบไฟล์ %s"
 
-#: src/error.cls.php:174
+#: src/error.cls.php:163
 #, php-format
 msgid "Failed to back up %s file, aborted changes."
 msgstr "ไม่สามารถสำรองข้อมูลไฟล์ %s ได้ จึงยกเลิกการเปลี่ยนแปลง"
 
-#: src/error.cls.php:178
+#: src/error.cls.php:167
 #, php-format
 msgid "%s file not readable."
 msgstr "ไม่สามารถอ่านไฟล์ %s ได้"
 
-#: src/error.cls.php:186
+#: src/error.cls.php:175
 #, php-format
 msgid "Failed to get %s file contents."
 msgstr "ไม่สามารถดึงข้อมูลเนื้อหาไฟล์ %s ได้"
 
-#: src/error.cls.php:190
+#: src/error.cls.php:179
 #, php-format
 msgid "Failed to create table %1$s! SQL: %2$s."
 msgstr "ไม่สามารถสร้างตาราง %1$s ได้! SQL: %2$s"
 
-#: src/error.cls.php:194
+#: src/error.cls.php:183
 msgid "Crawler disabled by the server admin."
 msgstr "ผู้ดูแลระบบเซิร์ฟเวอร์ปิดการใช้งานโปรแกรมรวบรวมข้อมูลแล้ว"
 
-#: src/error.cls.php:198
+#: src/error.cls.php:187
 msgid "Previous request too recent. Please try again later."
 msgstr "คำขอที่ผ่านมาทำเร็วเกินไป กรุณาลองใหม่อีกครั้งในภายหลัง"
 
-#: src/error.cls.php:203
+#: src/error.cls.php:192
 #, php-format
 msgid "Previous request too recent. Please try again after %s."
 msgstr "คำขอที่แล้วมีความถี่สูงเกินไป กรุณาลองใหม่อีกครั้งในอีก %s"
 
-#: src/error.cls.php:209
+#: src/error.cls.php:198
 msgid "Your application is waiting for approval."
 msgstr "ใบสมัครของคุณกำลังรอการอนุมัติ"
 
-#: src/error.cls.php:213
+#: src/error.cls.php:202
 msgid "The callback validation to your domain failed due to hash mismatch."
 msgstr "การตรวจสอบคอลแบ็กไปยังโดเมนของคุณล้มเหลวเนื่องจากแฮชไม่ตรงกัน"
 
-#: src/error.cls.php:217
+#: src/error.cls.php:206
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
 msgstr "การตรวจสอบคอลแบ็กไปยังโดเมนของคุณล้มเหลว โปรดตรวจสอบให้แน่ใจว่าไม่มีไฟร์วอลล์บล็อกเซิร์ฟเวอร์ของเรา"
 
-#: src/error.cls.php:222
+#: src/error.cls.php:211
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
 msgstr "การตรวจสอบย้อนกลับไปยังโดเมนของคุณล้มเหลว โปรดตรวจสอบให้แน่ใจว่าไม่มีไฟร์วอลล์บล็อกเซิร์ฟเวอร์ของเรา รหัสการตอบกลับ:"
 
-#: src/error.cls.php:227
+#: src/error.cls.php:216
 msgid "Your domain has been forbidden from using our services due to a previous policy violation."
 msgstr "โดเมนของคุณถูกห้ามไม่ให้ใช้บริการของเราเนื่องจากมีการละเมิดนโยบายมาก่อนหน้านี้"
 
-#: src/error.cls.php:231
+#: src/error.cls.php:220
 msgid "You cannot remove this DNS zone, because it is still in use. Please update the domain's nameservers, then try to delete this zone again, otherwise your site will become inaccessible."
 msgstr "คุณไม่สามารถลบโซน DNS นี้ได้เนื่องจากยังใช้งานอยู่ โปรดอัปเดตเนมเซิร์ฟเวอร์ของโดเมนแล้วลองลบโซนนี้อีกครั้ง มิฉะนั้นเว็บไซต์ของคุณจะไม่สามารถเข้าถึงได้"
 
-#: src/error.cls.php:238
+#: src/error.cls.php:227
 msgid "Unknown error"
 msgstr "ข้อผิดพลาดที่ไม่รู้จัก"
 
@@ -1028,7 +1009,6 @@ msgstr "Cloudflare"
 #: src/gui.cls.php:945
 #: src/lang.cls.php:131
 #: tpl/dash/dashboard.tpl.php:60
-#: tpl/dash/dashboard.tpl.php:569
 #: tpl/toolbox/purge.tpl.php:55
 msgid "Object Cache"
 msgstr "ออเจกต์แคช"
@@ -1247,12 +1227,10 @@ msgid "Images ready to request"
 msgstr "รูปภาพพร้อมขอคำขอ"
 
 #: src/lang.cls.php:32
-#: tpl/dash/dashboard.tpl.php:517
 msgid "Images requested"
 msgstr "คำขอรูปภาพ"
 
 #: src/lang.cls.php:33
-#: tpl/dash/dashboard.tpl.php:526
 msgid "Images notified to pull"
 msgstr "ภาพที่แจ้งเตือนให้ดึงข้อมูล"
 
@@ -1280,7 +1258,6 @@ msgstr "เปิดใช้งานแคช"
 
 #: src/lang.cls.php:109
 #: tpl/dash/dashboard.tpl.php:61
-#: tpl/dash/dashboard.tpl.php:570
 #: tpl/presets/standard.tpl.php:21
 msgid "Browser Cache"
 msgstr "แคชของเบราว์เซอร์"
@@ -2449,48 +2426,44 @@ msgstr "เมื่อปิดใช้งานแคช ข้อมูล�
 msgid "The network admin setting can be overridden here."
 msgstr "สามารถเขียนทับการตั้งค่าผู้ดูแลระบบเครือข่ายได้ที่นี่"
 
-#: tpl/cache/settings-cache.tpl.php:49
-msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
-msgstr "เมื่อเปิดใช้งาน QUIC.cloud CDN คุณอาจจะยังคงเห็นส่วนหัวของแคชจากเซิร์ฟเวอร์ในเครื่องของคุณ"
-
-#: tpl/cache/settings-cache.tpl.php:63
+#: tpl/cache/settings-cache.tpl.php:60
 #, php-format
 msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
 msgstr "แคชหน้าฟรอนต์เอนด์แบบส่วนตัวสำหรับผู้ใช้ที่เข้าสู่ระบบแล้ว (ต้องใช้ LSWS %s)"
 
-#: tpl/cache/settings-cache.tpl.php:76
+#: tpl/cache/settings-cache.tpl.php:73
 #, php-format
 msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
 msgstr "แคชข้อมูลของผู้แสดงความคิดเห็นที่มีความคิดเห็นรอดอนุมัติเป็นการส่วนตัว การปิดใช้งานตัวเลือกนี้จะแสดงหน้าเว็บที่ไม่สามารถแคชได้ให้กับผู้แสดงความคิดเห็น (ต้องใช้ LSWS %s)"
 
-#: tpl/cache/settings-cache.tpl.php:89
+#: tpl/cache/settings-cache.tpl.php:86
 msgid "Cache requests made by WordPress REST API calls."
 msgstr "แคชคำขอที่ส่งมาจาก WordPress REST API บันทึกการโทร"
 
-#: tpl/cache/settings-cache.tpl.php:102
+#: tpl/cache/settings-cache.tpl.php:99
 msgid "Disabling this option may negatively affect performance."
 msgstr "การปิดใช้งานตัวเลือกนี้อาจส่งผลเสียต่อประสิทธิภาพการทำงาน"
 
-#: tpl/cache/settings-cache.tpl.php:119
+#: tpl/cache/settings-cache.tpl.php:116
 msgid "URI Paths containing these strings will NOT be cached as public."
 msgstr "เส้นทาง URI ที่มีข้อความเหล่านี้จะไม่ถูกแคชเป็นแบบสาธารณะ"
 
-#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:130
 msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
 msgstr "พาธที่มีสตริงเหล่านี้จะถูกแคชไว้โดยไม่คำนึงถึงการตั้งค่า no-cacheable"
 
-#: tpl/cache/settings-cache.tpl.php:136
-#: tpl/cache/settings-cache.tpl.php:161
+#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:158
 msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
 msgstr "หากต้องการกำหนดค่า TTL แบบกำหนดเองสำหรับ URI ให้เว้นวรรคหนึ่งครั้งตามด้วยค่า TTL ที่ท้าย URI"
 
-#: tpl/cache/settings-cache.tpl.php:139
-#: tpl/cache/settings-cache.tpl.php:164
+#: tpl/cache/settings-cache.tpl.php:136
+#: tpl/cache/settings-cache.tpl.php:161
 #, php-format
 msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
 msgstr "ตัวอย่างเช่น %1$s กำหนดค่า TTL เป็น %2$s วินาทีสำหรับ %3$s"
 
-#: tpl/cache/settings-cache.tpl.php:158
+#: tpl/cache/settings-cache.tpl.php:155
 msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
 msgstr "เส้นทางที่มีสตริงเหล่านี้จะถูกบังคับให้แคชแบบสาธารณะโดยไม่คำนึงถึงการตั้งค่าไม่ให้แคช"
 
@@ -2535,8 +2508,8 @@ msgid "WARNING"
 msgstr "คำเตือน"
 
 #: tpl/cache/settings-esi.tpl.php:46
-msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
-msgstr "ตัวเลือกเหล่านี้ใช้งานได้เฉพาะกับ LiteSpeed Enterprise Web Server หรือ QUIC.cloud CDN เท่านั้น"
+msgid "These options are only available with LiteSpeed Enterprise Web Server."
+msgstr "ตัวเลือกเหล่านี้ใช้งานได้เฉพาะกับ LiteSpeed Enterprise Web Server เท่านั้น"
 
 #: tpl/cache/settings-esi.tpl.php:59
 msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
@@ -3156,13 +3129,13 @@ msgstr "การตั้งค่า CDN"
 
 #: tpl/cdn/other.tpl.php:44
 #, php-format
-msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
-msgstr "เปิดการตั้งค่านี้ %s หากคุณกำลังใช้งานเครือข่ายนำส่งเนื้อหา (CDN) แบบเดิม หรือใช้ซับโดเมนสำหรับเนื้อหาแบบสถิตร่วมกับ QUIC.cloud CDN"
+msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content."
+msgstr "เปิดใช้งานการตั้งค่านี้ %s หากคุณใช้เครือข่ายนำส่งข้อมูล (CDN) แบบดั้งเดิมหรือใช้ซับโดเมนสำหรับเนื้อหาคงที่"
 
 #: tpl/cdn/other.tpl.php:52
 #, php-format
-msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are only using QUIC.cloud or Cloudflare, leave this setting %s."
-msgstr "หมายเหตุ: QUIC.cloud CDN และ Cloudflare ไม่ใช้ CDN Mapping หากคุณใช้เพียง QUIC.cloud หรือ Cloudflare เท่านั้น ให้คงการตั้งค่านี้ไว้เป็น %s"
+msgid "NOTE: Cloudflare does not use CDN Mapping. If you are only using Cloudflare, leave this setting %s."
+msgstr "หมายเหตุ: Cloudflare ไม่ได้ใช้การแมป CDN หากคุณใช้เฉพาะ Cloudflare ให้ปล่อยการตั้งค่านี้ไว้เป็น %s"
 
 #: tpl/cdn/other.tpl.php:80
 msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
@@ -3332,7 +3305,6 @@ msgstr "แคชมิส"
 
 #: tpl/crawler/map.tpl.php:77
 #: tpl/dash/dashboard.tpl.php:80
-#: tpl/dash/dashboard.tpl.php:765
 msgid "Crawler Status"
 msgstr "สถานะตัวรวบรวมข้อมูลเว็บ"
 
@@ -3379,6 +3351,12 @@ msgstr "หากต้องการรวบรวมข้อมูลเว
 #, php-format
 msgid "You must set %s before using this feature."
 msgstr "คุณต้องตั้งค่า %s ก่อนใช้งานฟีเจอร์นี้"
+
+#: tpl/crawler/settings.tpl.php:123
+#: tpl/crawler/settings.tpl.php:144
+#: tpl/crawler/summary.tpl.php:218
+msgid "Click here to set."
+msgstr "คลิกที่นี่เพื่อตั้งค่า"
 
 #: tpl/crawler/settings.tpl.php:136
 #, php-format
@@ -3437,7 +3415,6 @@ msgstr "เวลาทำงานของโปรแกรมรวบรว
 
 #: tpl/crawler/summary.tpl.php:104
 #: tpl/dash/dashboard.tpl.php:91
-#: tpl/dash/dashboard.tpl.php:776
 msgid "Current crawler started at"
 msgstr "ตัวรวบรวมข้อมูลปัจจุบันเริ่มเมื่อ"
 
@@ -3447,13 +3424,11 @@ msgstr "โหลดเซิร์ฟเวอร์ปัจจุบัน"
 
 #: tpl/crawler/summary.tpl.php:116
 #: tpl/dash/dashboard.tpl.php:97
-#: tpl/dash/dashboard.tpl.php:782
 msgid "Last interval"
 msgstr "ช่วงเวลาล่าสุด"
 
 #: tpl/crawler/summary.tpl.php:123
 #: tpl/dash/dashboard.tpl.php:103
-#: tpl/dash/dashboard.tpl.php:788
 msgid "Ended reason"
 msgstr "เหตุผลที่สิ้นสุด"
 
@@ -3553,340 +3528,42 @@ msgid "No crawler meta file generated yet"
 msgstr "ยังไม่ได้สร้างไฟล์เมตาของโปรแกรมรวบรวมข้อมูล"
 
 #: tpl/dash/dashboard.tpl.php:53
-#: tpl/dash/dashboard.tpl.php:562
 msgid "Cache Status"
 msgstr "สถานะแคช"
 
 #: tpl/dash/dashboard.tpl.php:54
 #: tpl/dash/dashboard.tpl.php:81
-#: tpl/dash/dashboard.tpl.php:486
-#: tpl/dash/dashboard.tpl.php:563
-#: tpl/dash/dashboard.tpl.php:590
-#: tpl/dash/dashboard.tpl.php:634
-#: tpl/dash/dashboard.tpl.php:678
-#: tpl/dash/dashboard.tpl.php:722
-#: tpl/dash/dashboard.tpl.php:766
-#: tpl/dash/dashboard.tpl.php:813
 msgid "More"
 msgstr "เพิ่มเติม"
 
 #: tpl/dash/dashboard.tpl.php:58
-#: tpl/dash/dashboard.tpl.php:567
 msgid "Public Cache"
 msgstr "แคชสาธารณะ"
 
 #: tpl/dash/dashboard.tpl.php:59
-#: tpl/dash/dashboard.tpl.php:568
 msgid "Private Cache"
 msgstr "แคชส่วนตัว"
 
 #: tpl/dash/dashboard.tpl.php:84
-#: tpl/dash/dashboard.tpl.php:769
 msgid "Crawler(s)"
 msgstr "บอทเก็บข้อมูล"
 
 #: tpl/dash/dashboard.tpl.php:87
-#: tpl/dash/dashboard.tpl.php:772
 msgid "Currently active crawler"
 msgstr "โปรแกรมรวบรวมข้อมูลที่ใช้งานอยู่ขณะนี้"
 
 #: tpl/dash/dashboard.tpl.php:111
-#: tpl/dash/dashboard.tpl.php:796
 #, php-format
 msgid "%1$s %2$d item(s)"
 msgstr "%1$s %2$d รายการ"
 
 #: tpl/dash/dashboard.tpl.php:112
-#: tpl/dash/dashboard.tpl.php:797
 msgid "Last crawled:"
 msgstr "ทำการรวบรวมข้อมูลล่าสุดเมื่อ:"
 
 #: tpl/dash/dashboard.tpl.php:128
-#: tpl/dash/dashboard.tpl.php:873
 msgid "News"
 msgstr "ข่าวสาร"
-
-#: tpl/dash/dashboard.tpl.php:145
-msgid "QUIC.cloud Service Usage Statistics"
-msgstr "สถิติการใช้งานบริการ QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:147
-msgid "Refresh Usage"
-msgstr "รีเฟรชการใช้งาน"
-
-#: tpl/dash/dashboard.tpl.php:148
-msgid "Sync data from Cloud"
-msgstr "ซิงค์ข้อมูลจากคลาวด์"
-
-#: tpl/dash/dashboard.tpl.php:159
-#, php-format
-msgid "The features below are provided by %s"
-msgstr "ฟีเจอร์ด้านล่างนี้ให้บริการโดย %s"
-
-#: tpl/dash/dashboard.tpl.php:171
-#: tpl/dash/network_dash.tpl.php:38
-msgid "CDN Bandwidth"
-msgstr "แบนด์วิดท์ CDN"
-
-#: tpl/dash/dashboard.tpl.php:172
-#: tpl/dash/dashboard.tpl.php:677
-#: tpl/dash/network_dash.tpl.php:39
-msgid "Low Quality Image Placeholder"
-msgstr "ตัวยึดตำแหน่งรูปภาพคุณภาพต่ำ"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Fast Queue Usage"
-msgstr "การใช้งานคิวแบบรวดเร็ว"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Usage"
-msgstr "การใช้งาน"
-
-#: tpl/dash/dashboard.tpl.php:236
-#: tpl/dash/network_dash.tpl.php:108
-msgid "PAYG Balance"
-msgstr "ยอดเงินคงเหลือตามการใช้งานจริง (PAYG)"
-
-#: tpl/dash/dashboard.tpl.php:237
-#, php-format
-msgid "PAYG used this month: %s. PAYG balance and usage not included in above quota calculation."
-msgstr "ยอดการใช้จ่ายตามจริง (PAYG) เดือนนี้: %s ยอดคงเหลือและการใช้งาน PAYG ไม่รวมอยู่ในการคำนวณโควตาข้างต้น"
-
-#: tpl/dash/dashboard.tpl.php:239
-#: tpl/dash/network_dash.tpl.php:111
-msgid "Pay as You Go Usage Statistics"
-msgstr "สถิติมการใช้งานแบบจ่ายตามจริง"
-
-#: tpl/dash/dashboard.tpl.php:257
-#: tpl/dash/network_dash.tpl.php:118
-msgid "Total Usage"
-msgstr "การใช้งานทั้งหมด"
-
-#: tpl/dash/dashboard.tpl.php:258
-#: tpl/dash/network_dash.tpl.php:119
-msgid "Total images optimized in this month"
-msgstr "จำนวนรูปภาพทั้งหมดที่ปรับให้เหมาะสมในเดือนนี้"
-
-#: tpl/dash/dashboard.tpl.php:266
-msgid "Remaining Daily Quota"
-msgstr "โควตาคงเหลือต่อวัน"
-
-#: tpl/dash/dashboard.tpl.php:276
-msgid "Partner Benefits Provided by"
-msgstr "สิทธิประโยชน์สำหรับพาร์ทเนอร์จัดทำโดย"
-
-#: tpl/dash/dashboard.tpl.php:312
-msgid "Enable QUIC.cloud Services"
-msgstr "เปิดใช้งานบริการ QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:319
-msgid "Go to QUIC.cloud dashboard"
-msgstr "ไปที่แผงควบคุม QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:325
-msgid "Link to QUIC.cloud"
-msgstr "ลิงก์ไปยัง QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:340
-msgid "Page Load Time"
-msgstr "เวลาในการโหลดหน้าเว็บ"
-
-#: tpl/dash/dashboard.tpl.php:347
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-#, php-format
-msgid "Current closest Cloud server is %s. Click to redetect."
-msgstr "เซิร์ฟเวอร์คลาวด์ที่ใกล้ที่สุดในปัจจุบันคือ %s คลิกเพื่อตรวจหาใหม่อีกครั้ง"
-
-#: tpl/dash/dashboard.tpl.php:348
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Are you sure you want to redetect the closest cloud server for this service?"
-msgstr "คุณแน่ใจหรือไม่ว่าต้องการค้นหาเซิร์ฟเวอร์คลาวด์ที่ใกล้ที่สุดสำหรับบริการนี้ใหม่อีกครั้ง"
-
-#: tpl/dash/dashboard.tpl.php:350
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/img_optm/summary.tpl.php:56
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Redetect"
-msgstr "ตรวจหาใหม่"
-
-#: tpl/dash/dashboard.tpl.php:360
-#: tpl/dash/dashboard.tpl.php:436
-msgid "Before"
-msgstr "ก่อนหน้า"
-
-#: tpl/dash/dashboard.tpl.php:368
-#: tpl/dash/dashboard.tpl.php:444
-msgid "After"
-msgstr "หลังจาก"
-
-#: tpl/dash/dashboard.tpl.php:376
-#: tpl/dash/dashboard.tpl.php:452
-msgid "Improved by"
-msgstr "ปรับปรุงโดย"
-
-#: tpl/dash/dashboard.tpl.php:384
-msgid "You must be using one of the following products in order to measure Page Load Time:"
-msgstr "ท่านต้องใช้งานผลิตภัณฑ์ใดผลิตภัณฑ์หนึ่งต่อไปนี้เพื่อวัดเวลาในการโหลดหน้าเว็บ:"
-
-#: tpl/dash/dashboard.tpl.php:385
-msgid "LiteSpeed Web Server"
-msgstr "LiteSpeed Web Server"
-
-#: tpl/dash/dashboard.tpl.php:387
-msgid "OpenLiteSpeed Web Server"
-msgstr "เว็บเซิร์ฟเวอร์ OpenLiteSpeed"
-
-#: tpl/dash/dashboard.tpl.php:389
-msgid "LiteSpeed Web ADC"
-msgstr "LiteSpeed Web ADC"
-
-#: tpl/dash/dashboard.tpl.php:391
-#: tpl/dash/dashboard.tpl.php:809
-msgid "QUIC.cloud CDN"
-msgstr "QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:403
-#: tpl/dash/dashboard.tpl.php:468
-#, php-format
-msgid "Requested: %s ago"
-msgstr "ขอเมื่อ: %s ที่แล้ว"
-
-#: tpl/dash/dashboard.tpl.php:411
-#: tpl/dash/dashboard.tpl.php:476
-msgid "Refresh"
-msgstr "รีเฟรช"
-
-#: tpl/dash/dashboard.tpl.php:412
-msgid "Refresh page load time"
-msgstr "รีเฟรชเวลาโหลดหน้าเว็บ"
-
-#: tpl/dash/dashboard.tpl.php:421
-msgid "PageSpeed Score"
-msgstr "คะแนน PageSpeed"
-
-#: tpl/dash/dashboard.tpl.php:477
-msgid "Refresh page score"
-msgstr "รีเฟรชคะแนนหน้าเว็บ"
-
-#: tpl/dash/dashboard.tpl.php:485
-#: tpl/img_optm/entry.tpl.php:16
-msgid "Image Optimization Summary"
-msgstr "สรุปการปรับแต่งรูปภาพ"
-
-#: tpl/dash/dashboard.tpl.php:502
-#: tpl/img_optm/summary.tpl.php:76
-#: tpl/img_optm/summary.tpl.php:89
-msgid "Send Optimization Request"
-msgstr "ส่งคำขอเพิ่มประสิทธิภาพ"
-
-#: tpl/dash/dashboard.tpl.php:508
-#: tpl/img_optm/summary.tpl.php:316
-msgid "Total Reduction"
-msgstr "ลดรวม"
-
-#: tpl/dash/dashboard.tpl.php:511
-#: tpl/img_optm/summary.tpl.php:319
-msgid "Images Pulled"
-msgstr "ดึงรูปภาพแล้ว"
-
-#: tpl/dash/dashboard.tpl.php:534
-#: tpl/img_optm/summary.tpl.php:322
-msgid "Last Request"
-msgstr "คำขอสุดท้าย"
-
-#: tpl/dash/dashboard.tpl.php:537
-msgid "Last Pull"
-msgstr "ดึงข้อมูลล่าสุด"
-
-#: tpl/dash/dashboard.tpl.php:589
-#: tpl/toolbox/purge.tpl.php:73
-msgid "Critical CSS"
-msgstr "CSS วิกฤต"
-
-#: tpl/dash/dashboard.tpl.php:596
-#: tpl/dash/dashboard.tpl.php:640
-#: tpl/dash/dashboard.tpl.php:684
-#: tpl/dash/dashboard.tpl.php:728
-#, php-format
-msgid "Last generated: %s"
-msgstr "สร้างล่าสุดเมื่อ: %s"
-
-#: tpl/dash/dashboard.tpl.php:604
-#: tpl/dash/dashboard.tpl.php:648
-#: tpl/dash/dashboard.tpl.php:692
-#: tpl/dash/dashboard.tpl.php:736
-#, php-format
-msgid "Time to execute previous request: %s"
-msgstr "เวลาที่ใช้ในการดำเนินการตามคำขอก่อนหน้า: %s"
-
-#: tpl/dash/dashboard.tpl.php:611
-#: tpl/dash/dashboard.tpl.php:655
-#: tpl/dash/dashboard.tpl.php:699
-#: tpl/dash/dashboard.tpl.php:743
-msgid "Requests in queue"
-msgstr "คำขอในคิว"
-
-#: tpl/dash/dashboard.tpl.php:614
-#: tpl/dash/dashboard.tpl.php:658
-#: tpl/dash/dashboard.tpl.php:702
-#: tpl/dash/dashboard.tpl.php:746
-msgid "Force cron"
-msgstr "บังคับรันครอน"
-
-#: tpl/dash/dashboard.tpl.php:622
-#: tpl/dash/dashboard.tpl.php:666
-#: tpl/dash/dashboard.tpl.php:710
-#: tpl/dash/dashboard.tpl.php:754
-#, php-format
-msgid "Last requested: %s"
-msgstr "คำขอลาสุด: %s"
-
-#: tpl/dash/dashboard.tpl.php:633
-#: tpl/toolbox/purge.tpl.php:82
-msgid "Unique CSS"
-msgstr "CSS ที่ไม่ซ้ำกัน"
-
-#: tpl/dash/dashboard.tpl.php:721
-msgid "Viewport Image"
-msgstr "รูปภาพวิวพอร์ต"
-
-#: tpl/dash/dashboard.tpl.php:822
-msgid "Enable QUIC.cloud CDN"
-msgstr "เปิดใช้งาน QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:829
-msgid "Best available WordPress performance"
-msgstr "ประสิทธิภาพ WordPress ที่ดีที่สุดที่มีอยู่"
-
-#: tpl/dash/dashboard.tpl.php:834
-#, php-format
-msgid "Globally fast TTFB, easy setup, and %s!"
-msgstr "TTFB ที่รวดเร็วทั่วโลก, ตั้งค่าง่าย และ %s!"
-
-#: tpl/dash/dashboard.tpl.php:835
-msgid "more"
-msgstr "เพิ่มเติม"
-
-#: tpl/dash/dashboard.tpl.php:851
-msgid "Refresh Status"
-msgstr "รีเฟรชสถานะ"
-
-#: tpl/dash/dashboard.tpl.php:852
-msgid "Refresh QUIC.cloud status"
-msgstr "รีเฟรชสถานะ QUIC.cloud"
 
 #: tpl/dash/entry.tpl.php:21
 msgid "Network Dashboard"
@@ -3901,14 +3578,46 @@ msgstr "แดชบอร์ด Zinn® Cache Engine"
 msgid "Usage Statistics: %s"
 msgstr "สถิติการใช้งาน: %s"
 
+#: tpl/dash/network_dash.tpl.php:38
+msgid "CDN Bandwidth"
+msgstr "แบนด์วิดท์ CDN"
+
+#: tpl/dash/network_dash.tpl.php:39
+msgid "Low Quality Image Placeholder"
+msgstr "ตัวยึดตำแหน่งรูปภาพคุณภาพต่ำ"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Fast Queue Usage"
+msgstr "การใช้งานคิวแบบรวดเร็ว"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Usage"
+msgstr "การใช้งาน"
+
 #: tpl/dash/network_dash.tpl.php:107
 msgid "Pay as You Go"
 msgstr "จ่ายตามการใช้งาน"
+
+#: tpl/dash/network_dash.tpl.php:108
+msgid "PAYG Balance"
+msgstr "ยอดเงินคงเหลือตามการใช้งานจริง (PAYG)"
 
 #: tpl/dash/network_dash.tpl.php:109
 #, php-format
 msgid "This Month Usage: %s"
 msgstr "การใช้งานเดือนนี้: %s"
+
+#: tpl/dash/network_dash.tpl.php:111
+msgid "Pay as You Go Usage Statistics"
+msgstr "สถิติมการใช้งานแบบจ่ายตามจริง"
+
+#: tpl/dash/network_dash.tpl.php:118
+msgid "Total Usage"
+msgstr "การใช้งานทั้งหมด"
+
+#: tpl/dash/network_dash.tpl.php:119
+msgid "Total images optimized in this month"
+msgstr "จำนวนรูปภาพทั้งหมดที่ปรับให้เหมาะสมในเดือนนี้"
 
 #: tpl/db_optm/entry.tpl.php:17
 #: tpl/db_optm/settings.tpl.php:19
@@ -4131,58 +3840,53 @@ msgstr "ตัวเลือกนี้ช่วยเปิดใช้งา
 msgid "Please read all warnings before enabling this option."
 msgstr "โปรดอ่านคำเตือนทั้งหมดก่อนเปิดใช้งานตัวเลือกนี้"
 
-#: tpl/general/settings.tpl.php:64
-#, php-format
-msgid "Your %1$s quota on %2$s will still be in use."
-msgstr "โควตา %1$s ของคุณบน %2$s จะยังคงถูกใช้งานอยู่"
-
-#: tpl/general/settings.tpl.php:72
-#: tpl/general/settings.tpl.php:79
-#: tpl/general/settings.tpl.php:86
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:71
+#: tpl/general/settings.tpl.php:78
+#: tpl/general/settings.tpl.php:85
+#: tpl/general/settings.tpl.php:102
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 msgid "Notice"
 msgstr "ประกาศ"
 
-#: tpl/general/settings.tpl.php:72
+#: tpl/general/settings.tpl.php:71
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 #, php-format
 msgid "%s must be turned ON for this setting to work."
 msgstr "ต้องเปิด %s ไว้ การตั้งค่านี้จึงจะทำงานได้"
 
-#: tpl/general/settings.tpl.php:79
+#: tpl/general/settings.tpl.php:78
 #, php-format
 msgid "You need to turn %s on to get maximum result."
 msgstr "คุณต้องเปิดใช้งาน %s เพื่อให้ได้ผลลัพธ์สูงสุด"
 
-#: tpl/general/settings.tpl.php:86
+#: tpl/general/settings.tpl.php:85
 #, php-format
 msgid "You need to turn %s on and finish all WebP generation to get maximum result."
 msgstr "คุณต้องเปิดใช้งาน %s และดำเนินการสร้าง WebP ให้เสร็จสิ้นเพื่อให้ได้ผลลัพธ์สูงสุด"
 
-#: tpl/general/settings.tpl.php:101
+#: tpl/general/settings.tpl.php:100
 msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
 msgstr "ป้อนที่อยู่ IP ของเว็บไซต์นี้เพื่อให้คลาวด์เซอร์วิสสามารถเรียกใช้ IP ได้โดยตรงแทนชื่อโดเมน การดำเนินการนี้จะช่วยลดค่าใช้จ่ายด้านการประมวลผลในการค้นหา DNS และ CDN"
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Your server IP"
 msgstr "IP เซิร์ฟเวอร์ของคุณ"
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Check my public IP from"
 msgstr "ตรวจสอบ IP สาธารณะของฉันจาก"
 
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:102
 msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
 msgstr "IP ที่ตรวจพบโดยอัตโนมัติอาจไม่ถูกต้อง หากคุณมีการตั้งค่า IP ขาออกเพิ่มเติม หรือมีการกำหนดค่า IP หลายรายการบนเซิร์ฟเวอร์ของคุณ"
 
-#: tpl/general/settings.tpl.php:104
+#: tpl/general/settings.tpl.php:103
 msgid "Please make sure this IP is the correct one for visiting your site."
 msgstr "โปรดตรวจสอบให้แน่ใจว่า IP นี้ถูกต้องสำหรับการเยี่ยมชมเว็บไซต์ของคุณ"
 
-#: tpl/general/settings.tpl.php:119
+#: tpl/general/settings.tpl.php:118
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
 msgstr "เปิดใช้งานตัวเลือกนี้เพื่อแสดงข่าวสารล่าสุดโดยอัตโนมัติ รวมถึงการแก้ไขด่วน (hotfixes) รุ่นที่ออกใหม่ เวอร์ชันเบต้าที่มีให้ใช้งาน และโปรโมชันต่างๆ"
 
@@ -4232,6 +3936,10 @@ msgstr "ซิงค์ข้อมูลสำเร็จแล้ว"
 msgid "Sync failed."
 msgstr "การซิงค์ล้มเหลว"
 
+#: tpl/img_optm/entry.tpl.php:16
+msgid "Image Optimization Summary"
+msgstr "สรุปการปรับแต่งรูปภาพ"
+
 #: tpl/img_optm/entry.tpl.php:17
 #: tpl/img_optm/entry.tpl.php:22
 #: tpl/img_optm/network_settings.tpl.php:19
@@ -4254,20 +3962,15 @@ msgstr "ปรับปรุงเวลาในการโหลดให้
 
 #: tpl/img_optm/settings.media_webp.tpl.php:31
 #, php-format
-msgid "%1$s is a %2$s paid feature."
-msgstr "%1$s เป็นฟีเจอร์แบบชำระเงินของ %2$s"
-
-#: tpl/img_optm/settings.media_webp.tpl.php:34
-#, php-format
 msgid "When switching formats, please %1$s or %2$s to apply this new choice to previously optimized images."
 msgstr "เมื่อเปลี่ยนรูปแบบ โปรด %1$s หรือ %2$s เพื่อใช้ตัวเลือกใหม่นี้กับรูปภาพที่ได้รับการปรับแต่งก่อนหน้านี้"
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:378
 msgid "Destroy All Optimization Data"
 msgstr "ทำลายข้อมูลการเพิ่มประสิทธิภาพทั้งหมด"
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:368
 msgid "Soft Reset Optimization Counter"
 msgstr "ตัวนับการเพิ่มประสิทธิภาพการรีเซ็ตแบบซอฟต์"
@@ -4328,9 +4031,35 @@ msgstr "ระบุแอตทริบิวต์ขององค์ปร
 msgid "Enable replacement of WebP/AVIF in %s elements that were generated outside of WordPress logic."
 msgstr "เปิดใช้งานการแทนที่ WebP/AVIF ในองค์ประกอบ %s ที่ถูกสร้างขึ้นนอกตรรกะของ WordPress"
 
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+#, php-format
+msgid "Current closest Cloud server is %s. Click to redetect."
+msgstr "เซิร์ฟเวอร์คลาวด์ที่ใกล้ที่สุดในปัจจุบันคือ %s คลิกเพื่อตรวจหาใหม่อีกครั้ง"
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการค้นหาเซิร์ฟเวอร์คลาวด์ที่ใกล้ที่สุดสำหรับบริการนี้ใหม่อีกครั้ง"
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/img_optm/summary.tpl.php:56
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Redetect"
+msgstr "ตรวจหาใหม่"
+
 #: tpl/img_optm/summary.tpl.php:58
-msgid "Optimize images with our QUIC.cloud server"
-msgstr "ปรับแต่งรูปภาพให้เหมาะสมด้วยเซิร์ฟเวอร์ QUIC.cloud ของเรา"
+msgid "Image optimisation"
+msgstr "การปรับแต่งรูปภาพให้เหมาะสม"
 
 #: tpl/img_optm/summary.tpl.php:63
 #, php-format
@@ -4344,6 +4073,11 @@ msgstr "เพื่อให้แน่ใจว่าเซิร์ฟเว
 #: tpl/img_optm/summary.tpl.php:69
 msgid "Current limit is"
 msgstr "ขีดจำกัดปัจจุบันคือ"
+
+#: tpl/img_optm/summary.tpl.php:76
+#: tpl/img_optm/summary.tpl.php:89
+msgid "Send Optimization Request"
+msgstr "ส่งคำขอเพิ่มประสิทธิภาพ"
 
 #: tpl/img_optm/summary.tpl.php:77
 #: tpl/page_optm/settings_css.tpl.php:156
@@ -4370,8 +4104,8 @@ msgid "Optimization Status"
 msgstr "สถานะการปรับแต่ง"
 
 #: tpl/img_optm/summary.tpl.php:141
-msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
-msgstr "หลังจากที่เซิร์ฟเวอร์การเพิ่มประสิทธิภาพรูปภาพของ QUIC.cloud ทำการเพิ่มประสิทธิภาพเสร็จสิ้น เซิร์ฟเวอร์จะแจ้งเตือนเว็บไซต์ของคุณให้ดึงรูปภาพที่ได้รับการปรับ Cบเรียบร้อยแล้วกลับมา"
+msgid "When the optimisation server finishes, it notifies your site to pull the optimised images."
+msgstr "เมื่อเซิร์ฟเวอร์การปรับแต่งทำงานเสร็จสิ้น ระบบจะแจ้งเตือนเว็บไซต์ของคุณให้ดึงรูปภาพที่ปรับแต่งแล้ว"
 
 #: tpl/img_optm/summary.tpl.php:142
 msgid "This process is automatic."
@@ -4473,6 +4207,18 @@ msgstr "สแกนภาพขนาดย่อยใหม่ซ้ำ"
 msgid "Optimization Summary"
 msgstr "สรุปการปรับแต่งให้เหมาะสม"
 
+#: tpl/img_optm/summary.tpl.php:316
+msgid "Total Reduction"
+msgstr "ลดรวม"
+
+#: tpl/img_optm/summary.tpl.php:319
+msgid "Images Pulled"
+msgstr "ดึงรูปภาพแล้ว"
+
+#: tpl/img_optm/summary.tpl.php:322
+msgid "Last Request"
+msgstr "คำขอสุดท้าย"
+
 #: tpl/img_optm/summary.tpl.php:325
 msgid "Last Pulled"
 msgstr "ดึงข้อมูลล่าสุดเมื่อ"
@@ -4520,26 +4266,21 @@ msgstr "คุณแน่ใจหรือไม่ว่าต้องกา
 msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
 msgstr "ลบคำขอ/ผลลัพธ์การปรับแต่งรูปภาพทั้งหมดที่ผ่านมา ย้อนการปรับแต่งที่เสร็จสิ้นแล้ว และลบไฟล์การปรับแต่งทั้งหมด"
 
-#: tpl/inc/admin_footer.php:17
-#, php-format
-msgid "Rate %1$s on %2$s"
-msgstr "ให้คะแนน %1$s บน %2$s"
+#: tpl/inc/admin_footer.php:16
+msgid "Read the upstream Zinn® Cache Engine documentation"
+msgstr "อ่านเอกสารประกอบ Zinn® Cache Engine ต้นน้ำ"
 
 #: tpl/inc/admin_footer.php:19
-msgid "Read LiteSpeed Documentation"
-msgstr "อ่านเอกสารประกอบ LiteSpeed"
+msgid "Zinn Digital® support"
+msgstr "ฝ่ายสนับสนุน Zinn Digital®"
 
-#: tpl/inc/admin_footer.php:21
-msgid "Visit LSCWP support forum"
-msgstr "ไปที่ฟอรัมสนับสนุน LSCWP"
-
-#: tpl/inc/admin_footer.php:23
-msgid "Join LiteSpeed Slack community"
-msgstr "เข้าร่วมชุมชน LiteSpeed Slack"
+#: tpl/inc/admin_footer.php:22
+msgid "Zinn® Cache Engine user guide"
+msgstr "คู่มือผู้ใช้ Zinn® Cache Engine"
 
 #: tpl/inc/check_cache_disabled.php:20
-msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
-msgstr "ในการใช้งานฟังก์ชันการแคช คุณต้องมีเว็บเซิร์ฟเวอร์ LiteSpeed หรือใช้งาน QUIC.cloud CDN"
+msgid "To use the caching functions you must have a LiteSpeed or OpenLiteSpeed web server with the LSCache module."
+msgstr "ในการใช้ฟังก์ชันแคช คุณต้องมีเว็บเซิร์ฟเวอร์ LiteSpeed หรือ OpenLiteSpeed พร้อมโมดูล LSCache"
 
 #: tpl/inc/check_cache_disabled.php:25
 msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
@@ -4752,8 +4493,8 @@ msgid "How to Fix Problems Caused by CSS/JS Optimization."
 msgstr "วิธีแก้ไขปัญหาที่เกิดจากการปรับแต่ง CSS/JS ให้เหมาะสม"
 
 #: tpl/page_optm/settings_css.tpl.php:82
-msgid "Use QUIC.cloud online service to generate unique CSS."
-msgstr "ใช้บริการออนไลน์ QUIC.cloud เพื่อสร้าง CSS ที่ไม่ซ้ำใคร"
+msgid "Generate unique CSS through an online generation service."
+msgstr "สร้าง CSS ที่ไม่ซ้ำใครผ่านบริการสร้างแบบออนไลน์"
 
 #: tpl/page_optm/settings_css.tpl.php:83
 msgid "This will drop the unused CSS on each page from the combined file."
@@ -4835,8 +4576,8 @@ msgid "This can improve your speed score in services like Pingdom, GTmetrix and 
 msgstr "สิ่งนี้สามารถช่วยปรับปรุงคะแนนความเร็วของคุณในบริการต่างๆ เช่น Pingdom, GTmetrix และ PageSpeed"
 
 #: tpl/page_optm/settings_css.tpl.php:217
-msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
-msgstr "ใช้บริการออนไลน์ QUIC.cloud เพื่อสร้าง CSS ที่จำเป็นสำหรับการแสดงผลหน้าแรก (critical CSS) และโหลด CSS ที่เหลือแบบอะซิงโครนัส"
+msgid "Generate critical CSS through an online generation service and load the remaining CSS asynchronously."
+msgstr "สร้าง Critical CSS ผ่านบริการสร้างออนไลน์และโหลด CSS ที่เหลือแบบอะซิงโครนัส"
 
 #: tpl/page_optm/settings_css.tpl.php:219
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
@@ -5116,8 +4857,8 @@ msgid "Specify the responsive placeholder SVG color."
 msgstr "ระบุสี SVG ของตัวยึดตำแหน่งแบบตอบสนอง"
 
 #: tpl/page_optm/settings_media.tpl.php:122
-msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
-msgstr "ใช้บริการตัวสร้าง QUIC.cloud LQIP (Low Quality Image Placeholder) สำหรับตัวอย่างรูปภาพแบบตอบสนองขณะกำลังโหลด"
+msgid "Generate Low Quality Image Placeholders through an online generation service, for responsive image previews while loading."
+msgstr "สร้างภาพตัวอย่างคุณภาพต่ำผ่านบริการสร้างออนไลน์ สำหรับตัวอย่างภาพที่ตอบสนองต่อหน้าจอขณะกำลังโหลด"
 
 #: tpl/page_optm/settings_media.tpl.php:123
 msgid "Keep this off to use plain color placeholders."
@@ -5392,8 +5133,8 @@ msgid "This no-risk preset is appropriate for all websites. Good for new users, 
 msgstr "ค่าพรีเซ็ตที่ไม่มีความเสี่ยงนี้เหมาะสำหรับเว็บไซต์ทั้งหมด เหมาะสำหรับผู้ใช้ใหม่ เว็บไซต์อย่างง่าย หรือการพัฒนาที่เน้นแคช"
 
 #: tpl/presets/standard.tpl.php:25
-msgid "A QUIC.cloud connection is not required to use this preset. Only basic caching features are enabled."
-msgstr "ไม่จำเป็นต้องใช้การเชื่อมต่อ QUIC.cloud เพื่อใช้พรีเซ็ตนี้ จะเปิดใช้งานเฉพาะฟีเจอร์การแคชพื้นฐานเท่านั้น"
+msgid "Only basic caching features are enabled. Every option in this preset works without any online service."
+msgstr "เปิดใช้งานเฉพาะฟีเจอร์แคชพื้นฐานเท่านั้น ทุกตัวเลือกในพรีเซ็ตนี้ทำงานได้โดยไม่ต้องอาศัยบริการออนไลน์ใดๆ"
 
 #: tpl/presets/standard.tpl.php:29
 #: tpl/toolbox/settings-debug.tpl.php:117
@@ -5413,8 +5154,8 @@ msgid "This low-risk preset introduces basic optimizations for speed and user ex
 msgstr "ค่าที่ตั้งไว้ล่วงหน้าความเสี่ยงต่ำนี้เพิ่มประสิทธิภาพพื้นฐานสำหรับความเร็วและประสบการณ์ของผู้ใช้ เหมาะสำหรับผู้เริ่มต้นที่มีความกระตือรือร้น"
 
 #: tpl/presets/standard.tpl.php:37
-msgid "A QUIC.cloud connection is required to use this preset. Includes optimizations known to improve site score in page speed measurement tools."
-msgstr "จำเป็นต้องมีการเชื่อมต่อ QUIC.cloud เพื่อใช้พรีเซ็ตนี้ รวมการปรับแต่งที่ทราบกันดีว่าช่วยเพิ่มคะแนนเว็บไซต์ในเครื่องมือวัดความเร็วหน้าเว็บ"
+msgid "Includes optimizations known to improve site score in page speed measurement tools. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "รวมถึงการปรับแต่งที่ทราบกันดีว่าช่วยเพิ่มคะแนนเว็บไซต์ในเครื่องมือวัดความเร็วหน้าเว็บ การปรับแต่งบางรายการจำเป็นต้องมีบริการสร้างข้อมูลออนไลน์ ซึ่งไม่รวมอยู่ในปลั๊กอินนี้ และการปรับแต่งเหล่านั้นจะไม่ส่งผลใดๆ"
 
 #: tpl/presets/standard.tpl.php:41
 msgid "Advanced (Recommended)"
@@ -5450,8 +5191,8 @@ msgstr "พรีเซ็ตนี้เหมาะสำหรับเว็
 
 #: tpl/presets/standard.tpl.php:56
 #: tpl/presets/standard.tpl.php:70
-msgid "A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores."
-msgstr "จำเป็นต้องมีการเชื่อมต่อ QUIC.cloud เพื่อใช้งานพรีเซ็ตนี้ รวมการปรับแต่งมากมายที่ทราบกันดีว่าช่วยปรับปรุงคะแนนความเร็วหน้าเว็บ"
+msgid "Includes many optimizations known to improve page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "ประกอบด้วยการปรับแต่งประสิทธิภาพหลายรายการที่ทราบกันดีว่าช่วยเพิ่มคะแนนความเร็วของหน้าเว็บ การปรับแต่งบางรายการจำเป็นต้องใช้บริการสร้างข้อมูลออนไลน์ ซึ่งไม่รวมอยู่ในปลั๊กอินนี้ จึงไม่มีผลใดๆ"
 
 #: tpl/presets/standard.tpl.php:60
 msgid "Aggressive"
@@ -5514,8 +5255,8 @@ msgid "This preset almost certainly will require testing and exclusions for some
 msgstr "ค่าที่ตั้งล่วงหน้านี้เกือบจะแน่นอนว่าจำเป็นต้องมีการทดสอบและการยกเว้นสำหรับ CSS, JS และรูปภาพที่โหลดแบบ Lazy Load บางรายการ โปรดให้ความสนใจเป็นพิเศษกับโลโก้ หรือรูปภาพสไลเดอร์ที่ใช้ HTML"
 
 #: tpl/presets/standard.tpl.php:85
-msgid "A QUIC.cloud connection is required to use this preset. Enables the maximum level of optimizations for improved page speed scores."
-msgstr "ต้องเชื่อมต่อกับ QUIC.cloud เพื่อใช้พรีเซ็ตนี้ เปิดใช้งานระดับการปรับแต่งสูงสุดเพื่อให้คะแนนความเร็วของหน้าเว็บดีขึ้น"
+msgid "Enables the maximum level of optimizations for improved page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "เปิดใช้งานระดับการปรับแต่งสูงสุดเพื่อให้คะแนนความเร็วของหน้าเว็บดีขึ้น การปรับแต่งบางรายการต้องใช้บริการสร้างออนไลน์ ซึ่งไม่รวมอยู่ในปลั๊กอินนี้ และการปรับแต่งเหล่านั้นจะไม่มีผลใดๆ"
 
 #: tpl/presets/standard.tpl.php:92
 msgid "Zinn® Cache Engine Standard Presets"
@@ -5802,9 +5543,17 @@ msgstr "ล้างแคชออบเจกต์ทั้งหมด"
 msgid "Reset the entire opcode cache"
 msgstr "รีเซ็ตแคช opcode ทั้งหมด"
 
+#: tpl/toolbox/purge.tpl.php:73
+msgid "Critical CSS"
+msgstr "CSS วิกฤต"
+
 #: tpl/toolbox/purge.tpl.php:74
 msgid "This will delete all generated critical CSS files"
 msgstr "การดำเนินการนี้จะลบไฟล์ CSS สำคัญที่สร้างขึ้นทั้งหมด"
+
+#: tpl/toolbox/purge.tpl.php:82
+msgid "Unique CSS"
+msgstr "CSS ที่ไม่ซ้ำกัน"
 
 #: tpl/toolbox/purge.tpl.php:83
 msgid "This will delete all generated unique CSS files"

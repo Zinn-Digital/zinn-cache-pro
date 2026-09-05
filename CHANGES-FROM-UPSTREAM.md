@@ -123,6 +123,38 @@ The enforced floors now match the declared header, and both are non-EOL runtimes
 | PHP | 7.2 | **8.2** |
 | WordPress | 5.3 | **6.6** |
 
+## 2a. QUIC.cloud — the SCREENS, removed in 1.1.0 (D17692)
+
+⛔⛔ **§2 above was true about the coupling and false about the UI, for two releases.** The
+network calls really were gone; the panels that offered the service were not. Opening
+`admin.php?page=zinn-cache-pro` in a browser showed a full-width **"QUIC.cloud Service Usage
+Statistics"** panel with four dials reading 0%, an **"Enable QUIC.cloud Services"** button,
+*"Go to QUIC.cloud dashboard"*, *"Link to QUIC.cloud"*, a **"QUIC.cloud CDN"** postbox with
+**"Enable QUIC.cloud CDN"**, a Page Load Time box advertising LiteSpeed Web Server /
+OpenLiteSpeed / LiteSpeed Web ADC / QUIC.cloud CDN, and the service's name on the Cache, CDN,
+Page Optimization, Image Optimization, Presets and Toolbox screens. A customer saw a
+competitor's paid-service sign-up inside a plugin branded Zinn, with every figure at zero
+because the backend really had been neutered.
+
+⭐ **Nothing was red and nothing could be.** It is valid PHP rendering valid HTML, and §2's
+own prose is what made it invisible: the notes and the code were written from the same
+intention, so re-reading the notes confirmed both (CLAUDE.md §2.24). The observable that
+separates them is *what the dashboard actually renders*, and that appears in no diff.
+
+**What 1.1.0 removes**
+
+* the whole `litespeed-dashboard-qc` region of `tpl/dash/dashboard.tpl.php` — one anchored
+  patch, because measured, everything inside it is either a QUIC.cloud surface or a duplicate
+  of the first dashboard group. D17692 expected three interleaved sub-blocks; there is one.
+* every remaining rendered mention of the service, on six further screens.
+* `Error::msg( 'qc_setup_required' )`, which told the customer to finish a setup that does
+  not exist and linked to a screen that has no such setting.
+
+**The control is a RENDER, not a grep.** `scripts/wp-admin-render-check.py` installs the
+built plugin into a real WordPress, opens all ten admin screens and fails on any QUIC.cloud
+string. A zip diff cannot see a dashboard, and a grep over templates cannot either — the
+first version of that scan was correct about the source and blind to the screen.
+
 ## 6. Removed files
 
 Upstream development and packaging files that must not reach a customer site
@@ -130,7 +162,8 @@ Upstream development and packaging files that must not reach a customer site
 `phpcs.ruleset.xml`, `typos.toml`, `qc-ping.txt`), upstream's `readme.txt`, `changelog.txt` and
 `security.md` (all replaced, because mechanically rebranding them would assert a release history
 and a `Contributors:` account that are not ours), the stale bundled `.pot`, and the five
-QUIC.cloud screens left unreachable by the excision.
+QUIC.cloud screens left unreachable by the excision. Since 1.1.0 the excision also covers every
+**rendered** QUIC.cloud surface — see §2a.
 
 ---
 

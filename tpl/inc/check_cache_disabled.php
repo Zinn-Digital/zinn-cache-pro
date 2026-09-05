@@ -17,7 +17,7 @@ $reasons = array();
 if ( ! defined( 'ZINN_CACHE_PRO_ALLOWED' ) ) {
     if ( defined( 'ZINN_CACHE_PRO_SERVER_TYPE' ) && ZINN_CACHE_PRO_SERVER_TYPE === 'NONE' ) {
         $reasons[] = array(
-            'title' => esc_html__( 'To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN.', 'zinn-cache-pro' ),
+            'title' => esc_html__( 'To use the caching functions you must have a LiteSpeed or OpenLiteSpeed web server with the LSCache module.', 'zinn-cache-pro' ),
             'link'  => 'https://docs.litespeedtech.com/lscache/lscwp/faq/#why-do-the-cache-features-require-a-litespeed-server',
         );
     } else {

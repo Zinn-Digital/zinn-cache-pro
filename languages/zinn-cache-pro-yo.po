@@ -14,7 +14,6 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: tpl/inc/admin_footer.php:17
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -117,14 +116,12 @@ msgstr "CDN"
 
 #: src/admin-display.cls.php:257
 #: src/gui.cls.php:891
-#: tpl/dash/dashboard.tpl.php:169
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "Ìmúṣe Àwòrán"
 
 #: src/admin-display.cls.php:258
-#: tpl/dash/dashboard.tpl.php:170
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "Ìmúṣẹ Ojúewé"
@@ -182,9 +179,6 @@ msgstr "Fi URL CDN tuntun kun"
 #: tpl/cdn/other.tpl.php:45
 #: tpl/crawler/settings.tpl.php:138
 #: tpl/dash/dashboard.tpl.php:67
-#: tpl/dash/dashboard.tpl.php:425
-#: tpl/dash/dashboard.tpl.php:547
-#: tpl/dash/dashboard.tpl.php:576
 #: tpl/page_optm/settings_css.tpl.php:220
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/toolbox/settings-debug.tpl.php:80
@@ -198,9 +192,6 @@ msgstr "LÉ"
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
-#: tpl/dash/dashboard.tpl.php:427
-#: tpl/dash/dashboard.tpl.php:549
-#: tpl/dash/dashboard.tpl.php:578
 #: tpl/img_optm/settings.media_webp.tpl.php:22
 #: tpl/page_optm/settings_css.tpl.php:93
 #: tpl/page_optm/settings_js.tpl.php:77
@@ -713,8 +704,6 @@ msgid "Please see %s for more details."
 msgstr "Jọ̀wọ́ wo %s fún àwọn kúnkan mìíràn."
 
 #: src/doc.cls.php:101
-#: tpl/dash/dashboard.tpl.php:152
-#: tpl/dash/dashboard.tpl.php:811
 #: tpl/img_optm/summary.tpl.php:59
 #: tpl/inc/check_cache_disabled.php:46
 #: tpl/page_optm/settings_media.tpl.php:301
@@ -737,154 +726,146 @@ msgstr "Ètò yìí yóò ṣàtúnṣe fáìlì .htaccess náà."
 msgid "The queue is processed asynchronously. It may take time."
 msgstr "A n ṣe iṣẹ lori atẹle naa ní àsiko kan náà. O le gba àkókò díẹ."
 
-#: src/error.cls.php:68
-#, php-format
-msgid "You will need to finish %s setup to use the online services."
-msgstr "Wàá nílò láti parí ìṣètò %s láti lo àwọn iṣẹ́ orí ayélujára náà."
+#: src/error.cls.php:66
+msgid "This feature needs an online generation service, which is not included in this plugin. The setting has no effect."
+msgstr "Ẹ̀yà ara yìí nílò iṣẹ́ ìṣẹ̀dá lórí ẹ̀rọ ayélujára, èyí tí kò sí nínú àfikún yìí. Ètò náà kò ní ipa kankan."
 
-#: src/error.cls.php:73
-#: tpl/crawler/settings.tpl.php:123
-#: tpl/crawler/settings.tpl.php:144
-#: tpl/crawler/summary.tpl.php:218
-msgid "Click here to set."
-msgstr "Tẹ ibi lati ṣeto."
-
-#: src/error.cls.php:81
+#: src/error.cls.php:70
 msgid "You have used all of your daily quota for today."
 msgstr "O ti lo gbogbo ipin ojoojumo rẹ fun oleoni."
 
-#: src/error.cls.php:86
-#: src/error.cls.php:99
+#: src/error.cls.php:75
+#: src/error.cls.php:88
 msgid "Learn more or purchase additional quota."
 msgstr "Kọ́ diẹ sii tabi ra ipin afikun."
 
-#: src/error.cls.php:94
+#: src/error.cls.php:83
 msgid "You have used all of your quota left for current service this month."
 msgstr "O ti lo gbogbo kuota rẹ ti o ku fun iṣẹ lọwọlọwọ ni oṣu yii."
 
-#: src/error.cls.php:107
+#: src/error.cls.php:96
 msgid "You have too many requested images, please try again in a few minutes."
 msgstr "O ní àwọn àwòrán tí o béèrè púpọ̀ jù, jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan si ní ìṣẹ́jú díẹ̀ sẹ́yìn."
 
-#: src/error.cls.php:111
+#: src/error.cls.php:100
 msgid "You have images waiting to be pulled. Please wait for the automatic pull to complete, or pull them down manually now."
 msgstr "O ni awọn aworan ti o n duro de fifa. Jọwọ duro ki fifa laifọwọyi le pari, tabi fa wọn silẹ pẹlu ọwọ ni bayi."
 
-#: src/error.cls.php:115
+#: src/error.cls.php:104
 msgid "The image list is empty."
 msgstr "Àtòkọ àwòrán náà ṣánṣán."
 
-#: src/error.cls.php:119
+#: src/error.cls.php:108
 msgid "Not enough parameters. Please check if the QUIC.cloud connection is set correctly"
 msgstr "Àwọn àmì ìṣàfihàn kò tó. Jọ̀wọ́ ṣàyẹ̀wò bóyá a ti ṣètò ìsopọ̀ QUIC.cloud náà lọ́nà tí ó tọ́"
 
-#: src/error.cls.php:123
+#: src/error.cls.php:112
 msgid "There is proceeding queue not pulled yet."
 msgstr "Ìsé àtìmólẹ kan wa tí a kò tíì fa jáde."
 
-#: src/error.cls.php:128
+#: src/error.cls.php:117
 #, php-format
 msgid "There is proceeding queue not pulled yet. Queue info: %s."
 msgstr "Àwọn ìlànà ìṣètò kan wà tí a kò tíì fà jáde. Ìsọ̀rọ̀ ìlànà ìṣètò: %s."
 
-#: src/error.cls.php:134
+#: src/error.cls.php:123
 msgid "The site is not a valid alias on QUIC.cloud."
 msgstr "Ojula isẹ yii kii ṣe aliasi to wulo lori QUIC.cloud."
 
-#: src/error.cls.php:138
+#: src/error.cls.php:127
 msgid "The site is not registered on QUIC.cloud."
 msgstr "A ko fi ojú sílẹ̀ ojú-wọ́ yìí sórí QUIC.cloud."
 
-#: src/error.cls.php:142
+#: src/error.cls.php:131
 msgid "The QUIC.cloud connection is not correct. Please try to sync your QUIC.cloud connection again."
 msgstr "Asopọ QUIC.cloud ko tọ. Jọwọ gbiyanju lati mu asopọ QUIC.cloud rẹ ṣiṣẹpọ lẹẹkan si."
 
-#: src/error.cls.php:146
+#: src/error.cls.php:135
 msgid "The current server is under heavy load."
 msgstr "Awọn sẹ́fà lọ́wọ́lọ́wọ́ wa labẹ ẹru nla."
 
-#: src/error.cls.php:150
+#: src/error.cls.php:139
 msgid "Online node needs to be redetected."
 msgstr "A ní láti tún wá àlejò orí ayélujára náà."
 
-#: src/error.cls.php:154
+#: src/error.cls.php:143
 msgid "Credits are not enough to proceed the current request."
 msgstr "Àwọn ìkírè kò tó láti tẹ̀ síwájú pẹ̀lú ìbéèrè yìí."
 
-#: src/error.cls.php:158
-#: src/error.cls.php:182
+#: src/error.cls.php:147
+#: src/error.cls.php:171
 #, php-format
 msgid "%s file not writable."
 msgstr "%s kò lè kọ̀ sí fáìlì náà."
 
-#: src/error.cls.php:166
+#: src/error.cls.php:155
 #, php-format
 msgid "Could not find %1$s in %2$s."
 msgstr "A le rí %1$s nínú %2$s."
 
-#: src/error.cls.php:170
+#: src/error.cls.php:159
 #, php-format
 msgid "Invalid login cookie. Please check the %s file."
 msgstr "Kuki iwọle ti ko tọ. Jọwọ ṣayẹwo faili %s."
 
-#: src/error.cls.php:174
+#: src/error.cls.php:163
 #, php-format
 msgid "Failed to back up %s file, aborted changes."
 msgstr "O kùn láti ṣe àfikún fún fáìlì %s, a ti fagilé àwọn àtúnṣe náà."
 
-#: src/error.cls.php:178
+#: src/error.cls.php:167
 #, php-format
 msgid "%s file not readable."
 msgstr "%s kò lè kà fáìlì náà."
 
-#: src/error.cls.php:186
+#: src/error.cls.php:175
 #, php-format
 msgid "Failed to get %s file contents."
 msgstr "Kiko lati gba awọn akoonu faili %s."
 
-#: src/error.cls.php:190
+#: src/error.cls.php:179
 #, php-format
 msgid "Failed to create table %1$s! SQL: %2$s."
 msgstr "Kuna lati ṣẹda tabili %1$s! SQL: %2$s."
 
-#: src/error.cls.php:194
+#: src/error.cls.php:183
 msgid "Crawler disabled by the server admin."
 msgstr "Olùṣàkóso sífà ti mú ẹ̀rọ agbẹ̀wò kúrò lẹ́nu iṣẹ́."
 
-#: src/error.cls.php:198
+#: src/error.cls.php:187
 msgid "Previous request too recent. Please try again later."
 msgstr "Ìbéèrè tó kọjá tipọ̀jù. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan sí i nígbà a mú."
 
-#: src/error.cls.php:203
+#: src/error.cls.php:192
 #, php-format
 msgid "Previous request too recent. Please try again after %s."
 msgstr "Ìbéèrè rẹ tó kọjá ti pọ̀ jù. Jọ̀wọ́ tún gbiyanju lẹ́ẹ̀kan sí i lẹ́yìn %s."
 
-#: src/error.cls.php:209
+#: src/error.cls.php:198
 msgid "Your application is waiting for approval."
 msgstr "Ohun elo rẹ n duro de ìfọwọ́sọ́pọ̀."
 
-#: src/error.cls.php:213
+#: src/error.cls.php:202
 msgid "The callback validation to your domain failed due to hash mismatch."
 msgstr "Ìfọwọ́sí àbọ̀padà sí agbègbè ayélujára rẹ kùnà nítorí àìbámu àmì bàmù (hash mismatch)."
 
-#: src/error.cls.php:217
+#: src/error.cls.php:206
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
 msgstr "Ìmúdájú ìpadàbọ̀ sí àgbègbè rẹ̀ (domain) kùnà. Jọ̀wọ́ rí i dájú pé kò sí ogiri iná (firewall) tí ó ń dí àwọn sẹ̀fà (servers) wa lọ́wọ́."
 
-#: src/error.cls.php:222
+#: src/error.cls.php:211
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
 msgstr "Ìfẹ́sí ìdájọ́ padà sí agbègbè rẹ náà kùnà. Jọ̀wọ́ rí i dajú pé kò sí àtòkọ aabo (firewall) tí ó ń dí àwọn sẹ̀fà wa lọ́wọ́. Koodu ìdáhùn:"
 
-#: src/error.cls.php:227
+#: src/error.cls.php:216
 msgid "Your domain has been forbidden from using our services due to a previous policy violation."
 msgstr "A fi ìdí àìgbà ákọ̀ọ́ṣe rẹ lẹ́wọ̀n láti lo àwọn iṣẹ́ wa nítorí àṣìṣe ìlànà tẹ́lẹ̀."
 
-#: src/error.cls.php:231
+#: src/error.cls.php:220
 msgid "You cannot remove this DNS zone, because it is still in use. Please update the domain's nameservers, then try to delete this zone again, otherwise your site will become inaccessible."
 msgstr "O le ko agbegbe DNS yii kuro, nitori pe o tun n lo. Jọwọ sọ awọn orukọ nẹtiwọki ti ìwé oruko naa di tuntun, lẹhinna gbiyanju lati pa agbegbe yii kuro lẹẹkansi, bibẹẹkọ aaye rẹ yoo di aimọ."
 
-#: src/error.cls.php:238
+#: src/error.cls.php:227
 msgid "Unknown error"
 msgstr "Àṣìṣe àìmọ̀"
 
@@ -1028,7 +1009,6 @@ msgstr "Cloudflare"
 #: src/gui.cls.php:945
 #: src/lang.cls.php:131
 #: tpl/dash/dashboard.tpl.php:60
-#: tpl/dash/dashboard.tpl.php:569
 #: tpl/toolbox/purge.tpl.php:55
 msgid "Object Cache"
 msgstr "Fífipamọ Ohun Elo"
@@ -1247,12 +1227,10 @@ msgid "Images ready to request"
 msgstr "Àwọn àwòrán tí ó ti ṣetan láti béèrè"
 
 #: src/lang.cls.php:32
-#: tpl/dash/dashboard.tpl.php:517
 msgid "Images requested"
 msgstr "Awọn aworan ti a beere lọwọ"
 
 #: src/lang.cls.php:33
-#: tpl/dash/dashboard.tpl.php:526
 msgid "Images notified to pull"
 msgstr "Àwọn àwòrán tí a sọ fún láti fa"
 
@@ -1280,7 +1258,6 @@ msgstr "Mu kaṣe ṣiṣẹ"
 
 #: src/lang.cls.php:109
 #: tpl/dash/dashboard.tpl.php:61
-#: tpl/dash/dashboard.tpl.php:570
 #: tpl/presets/standard.tpl.php:21
 msgid "Browser Cache"
 msgstr "Kache Aṣàwákiri"
@@ -2449,48 +2426,44 @@ msgstr "Nígbà tí o bá ń mú kaṣì kúrò, gbogbo àwọn ohun tí a fi pa
 msgid "The network admin setting can be overridden here."
 msgstr "Awon eto olutoju netiwọki le jẹ titọ si ni ibi."
 
-#: tpl/cache/settings-cache.tpl.php:49
-msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
-msgstr "Pẹlu QUIC.cloud CDN ti o ṣiṣẹ, o le tun n rii awọn akọsori kaṣe lati sifuri agbegbe rẹ."
-
-#: tpl/cache/settings-cache.tpl.php:63
+#: tpl/cache/settings-cache.tpl.php:60
 #, php-format
 msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
 msgstr "Fipamọ awọn oju-iwe iwaju ni ikọkọ fun awọn olumulo ti o wọle. (LSWS %s nilo)"
 
-#: tpl/cache/settings-cache.tpl.php:76
+#: tpl/cache/settings-cache.tpl.php:73
 #, php-format
 msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
 msgstr "Fi àṣírí pamọ́ àwọn tó ń sọ̀rọ̀ tí wọ́n ní àwọn àlàyé tí wọ́n ń dúró de. Bí o bá mú àṣàyàn yìí kúrò, wọ́n á ṣe àwọn ojú ewé tí a kò lè fi àṣírí pamọ́ fún àwọn tó ń sọ̀rọ̀. (LSWS %s ni a nílò)"
 
-#: tpl/cache/settings-cache.tpl.php:89
+#: tpl/cache/settings-cache.tpl.php:86
 msgid "Cache requests made by WordPress REST API calls."
 msgstr "Ṣe kaṣe awọn ibeere ti a ṣe nipasẹ awọn ipe WordPress REST API."
 
-#: tpl/cache/settings-cache.tpl.php:102
+#: tpl/cache/settings-cache.tpl.php:99
 msgid "Disabling this option may negatively affect performance."
 msgstr "Ìgbékalẹ̀ àṣàyàn yìí le ní ipa búburú lórí iṣẹ́ ìṣiṣẹ́ náà."
 
-#: tpl/cache/settings-cache.tpl.php:119
+#: tpl/cache/settings-cache.tpl.php:116
 msgid "URI Paths containing these strings will NOT be cached as public."
 msgstr "Awọn ọna URI ti o ni awọn okun wọnyi ninu KO NI fi pamọ gẹgẹ bi ti gbogbo eniyan."
 
-#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:130
 msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
 msgstr "Awọn ọna (paths) ti o ni awọn okun (strings) wọnyi ninu yoo wa ni ipamọ (cached) laisi kaakiri awọn eto ti ko le ni ipamọ (no-cacheable)."
 
-#: tpl/cache/settings-cache.tpl.php:136
-#: tpl/cache/settings-cache.tpl.php:161
+#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:158
 msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
 msgstr "Lati ṣalaye TTL aṣa fun URI kan, fi àlàfo kàn tẹle e pẹlu iye TTL si opin URI naa."
 
-#: tpl/cache/settings-cache.tpl.php:139
-#: tpl/cache/settings-cache.tpl.php:164
+#: tpl/cache/settings-cache.tpl.php:136
+#: tpl/cache/settings-cache.tpl.php:161
 #, php-format
 msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
 msgstr "Fún àpẹẹrẹ, %1$s ṣètò TTL ti %2$s àwọn ìṣẹ́jú ààyè fún %3$s."
 
-#: tpl/cache/settings-cache.tpl.php:158
+#: tpl/cache/settings-cache.tpl.php:155
 msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
 msgstr "Awọn ọna (paths) ti o ni awọn okun wọnyi ninu yoo jẹ agbara lati ṣafipamọ si ita (public cached) laisi ka si awọn eto ti ko le ṣafipamọ (no-cacheable)."
 
@@ -2535,8 +2508,8 @@ msgid "WARNING"
 msgstr "ÌKÌLỌ̀"
 
 #: tpl/cache/settings-esi.tpl.php:46
-msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
-msgstr "Awọn aṣayan wọnyi wa nikan pẹlu LiteSpeed Enterprise Web Server tabi QUIC.cloud CDN."
+msgid "These options are only available with LiteSpeed Enterprise Web Server."
+msgstr "Àwọn aṣàyàn wọ̀nyí wà ní ìlérò nìkan pẹ̀lú LiteSpeed Enterprise Web Server."
 
 #: tpl/cache/settings-esi.tpl.php:59
 msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
@@ -3156,13 +3129,13 @@ msgstr "Àwọn Ètò CDN"
 
 #: tpl/cdn/other.tpl.php:44
 #, php-format
-msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
-msgstr "Tan eto yii %s ti o ba n lo Nẹtiwọọki Ifijiṣẹ Akoonu (CDN) ti aṣa tabi subdomain kan fun akoonu aimọṣe pẹlu QUIC.cloud CDN."
+msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content."
+msgstr "Yi eto yìí sí %s bí o bá ń lo Network Ifijiṣẹ Akoonu (CDN) ibile tabi subdomain kan fun akoonu aimọṣepọ."
 
 #: tpl/cdn/other.tpl.php:52
 #, php-format
-msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are only using QUIC.cloud or Cloudflare, leave this setting %s."
-msgstr "ÀKÌYÈSÌ: QUIC.cloud CDN ati Cloudflare kò lo CDN Mapping. Bí o bá nìkan lo QUIC.cloud tabi Cloudflare, fi ètò yìí sílẹ̀ %s."
+msgid "NOTE: Cloudflare does not use CDN Mapping. If you are only using Cloudflare, leave this setting %s."
+msgstr "ÀKÍYÈSÍ: Cloudflare kò lo CDN Mapping. Tí o bá ń lo Cloudflare nìkan, fi ètò yìí sílẹ̀ bí %s."
 
 #: tpl/cdn/other.tpl.php:80
 msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
@@ -3332,7 +3305,6 @@ msgstr "Àìrí Kóèṣ̣ì"
 
 #: tpl/crawler/map.tpl.php:77
 #: tpl/dash/dashboard.tpl.php:80
-#: tpl/dash/dashboard.tpl.php:765
 msgid "Crawler Status"
 msgstr "Ipò ẹ̀rọ àwárí ayélujára"
 
@@ -3379,6 +3351,12 @@ msgstr "Lati ka aaye naa gẹgẹbi olumulo tiwọle, tẹ awọn ID olumulo sii
 #, php-format
 msgid "You must set %s before using this feature."
 msgstr "O gbọdọ ṣeto %s ki o to lo ẹya ara ẹrọ yii."
+
+#: tpl/crawler/settings.tpl.php:123
+#: tpl/crawler/settings.tpl.php:144
+#: tpl/crawler/summary.tpl.php:218
+msgid "Click here to set."
+msgstr "Tẹ ibi lati ṣeto."
 
 #: tpl/crawler/settings.tpl.php:136
 #, php-format
@@ -3437,7 +3415,6 @@ msgstr "Àkókò ìṣiṣẹ́ fún olùwárí tí ó kọjá"
 
 #: tpl/crawler/summary.tpl.php:104
 #: tpl/dash/dashboard.tpl.php:91
-#: tpl/dash/dashboard.tpl.php:776
 msgid "Current crawler started at"
 msgstr "Olùṣẹ̀wádìí lọ́wọ́lọ́wọ́ bẹ̀rẹ̀ ní"
 
@@ -3447,13 +3424,11 @@ msgstr "Ẹru àwọn sẹ́fà lọ́wọ́lọ́wọ́"
 
 #: tpl/crawler/summary.tpl.php:116
 #: tpl/dash/dashboard.tpl.php:97
-#: tpl/dash/dashboard.tpl.php:782
 msgid "Last interval"
 msgstr "Àkókò tó kọjá"
 
 #: tpl/crawler/summary.tpl.php:123
 #: tpl/dash/dashboard.tpl.php:103
-#: tpl/dash/dashboard.tpl.php:788
 msgid "Ended reason"
 msgstr "Idi ti o pari"
 
@@ -3553,340 +3528,42 @@ msgid "No crawler meta file generated yet"
 msgstr "Àì ti ṣe àב́èdá dòkùmíntì fún olùwárí kankan sí iṣẹ́ kankan báyìí"
 
 #: tpl/dash/dashboard.tpl.php:53
-#: tpl/dash/dashboard.tpl.php:562
 msgid "Cache Status"
 msgstr "Ipo Cache"
 
 #: tpl/dash/dashboard.tpl.php:54
 #: tpl/dash/dashboard.tpl.php:81
-#: tpl/dash/dashboard.tpl.php:486
-#: tpl/dash/dashboard.tpl.php:563
-#: tpl/dash/dashboard.tpl.php:590
-#: tpl/dash/dashboard.tpl.php:634
-#: tpl/dash/dashboard.tpl.php:678
-#: tpl/dash/dashboard.tpl.php:722
-#: tpl/dash/dashboard.tpl.php:766
-#: tpl/dash/dashboard.tpl.php:813
 msgid "More"
 msgstr "Elomi"
 
 #: tpl/dash/dashboard.tpl.php:58
-#: tpl/dash/dashboard.tpl.php:567
 msgid "Public Cache"
 msgstr "Ìkójọpọ̀ Gbangba"
 
 #: tpl/dash/dashboard.tpl.php:59
-#: tpl/dash/dashboard.tpl.php:568
 msgid "Private Cache"
 msgstr "Ikọ Mọni Ikọọlu Ti Ara Ẹni"
 
 #: tpl/dash/dashboard.tpl.php:84
-#: tpl/dash/dashboard.tpl.php:769
 msgid "Crawler(s)"
 msgstr "Olùwákiri (Àwọn Olùwákiri)"
 
 #: tpl/dash/dashboard.tpl.php:87
-#: tpl/dash/dashboard.tpl.php:772
 msgid "Currently active crawler"
 msgstr "Olùṣàyẹ̀wò tó ń ṣiṣẹ́ lọ́wọ́ báyìí"
 
 #: tpl/dash/dashboard.tpl.php:111
-#: tpl/dash/dashboard.tpl.php:796
 #, php-format
 msgid "%1$s %2$d item(s)"
 msgstr "%1$s %2$d nkan (awọn)"
 
 #: tpl/dash/dashboard.tpl.php:112
-#: tpl/dash/dashboard.tpl.php:797
 msgid "Last crawled:"
 msgstr "Ìgbà ìkẹyìn tí a lọ wò ó:"
 
 #: tpl/dash/dashboard.tpl.php:128
-#: tpl/dash/dashboard.tpl.php:873
 msgid "News"
 msgstr "Àwọn ìròyìn"
-
-#: tpl/dash/dashboard.tpl.php:145
-msgid "QUIC.cloud Service Usage Statistics"
-msgstr "Ìsọwọ́ títí Lílò Iṣẹ́ QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:147
-msgid "Refresh Usage"
-msgstr "Sọ Lilo Titun di Ọtun"
-
-#: tpl/dash/dashboard.tpl.php:148
-msgid "Sync data from Cloud"
-msgstr "Fi data ṣiṣẹpọ lati Cloud"
-
-#: tpl/dash/dashboard.tpl.php:159
-#, php-format
-msgid "The features below are provided by %s"
-msgstr "Awon eya ara to wa ni isale ni a pese nipa %s"
-
-#: tpl/dash/dashboard.tpl.php:171
-#: tpl/dash/network_dash.tpl.php:38
-msgid "CDN Bandwidth"
-msgstr "Lọ́ọ̀dù Ààyè CDN"
-
-#: tpl/dash/dashboard.tpl.php:172
-#: tpl/dash/dashboard.tpl.php:677
-#: tpl/dash/network_dash.tpl.php:39
-msgid "Low Quality Image Placeholder"
-msgstr "Ààyè Àwòrán Tó Kéré Báùn"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Fast Queue Usage"
-msgstr "Lilo Ila ti O Yara Mo"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Usage"
-msgstr "Lilo"
-
-#: tpl/dash/dashboard.tpl.php:236
-#: tpl/dash/network_dash.tpl.php:108
-msgid "PAYG Balance"
-msgstr "Ìwọ̀n Owó PAYG"
-
-#: tpl/dash/dashboard.tpl.php:237
-#, php-format
-msgid "PAYG used this month: %s. PAYG balance and usage not included in above quota calculation."
-msgstr "Awon ohun ti PAYG lo ni osu yi: %s. Iwontunwonsi ati lilo PAYG ko si ninu isiro quotaoke."
-
-#: tpl/dash/dashboard.tpl.php:239
-#: tpl/dash/network_dash.tpl.php:111
-msgid "Pay as You Go Usage Statistics"
-msgstr "Àwọn ìwọ̀n ìlò San Gẹ́gẹ́ Bí O Ṣe Ń Lò Wọ́n"
-
-#: tpl/dash/dashboard.tpl.php:257
-#: tpl/dash/network_dash.tpl.php:118
-msgid "Total Usage"
-msgstr "Àpapọ̀ Ìlò"
-
-#: tpl/dash/dashboard.tpl.php:258
-#: tpl/dash/network_dash.tpl.php:119
-msgid "Total images optimized in this month"
-msgstr "Àwọn àwòrán tí a mú dára jù lọ ní oṣù yìí"
-
-#: tpl/dash/dashboard.tpl.php:266
-msgid "Remaining Daily Quota"
-msgstr "Ààyè Òjòjọ́ Tó Kù"
-
-#: tpl/dash/dashboard.tpl.php:276
-msgid "Partner Benefits Provided by"
-msgstr "Àwọn Àǹfààní Alábàṣẹpọ̀ tí a pèsè láti ọwọ́"
-
-#: tpl/dash/dashboard.tpl.php:312
-msgid "Enable QUIC.cloud Services"
-msgstr "Ṣiṣẹ iṣẹ QUIC.cloud lọwọ"
-
-#: tpl/dash/dashboard.tpl.php:319
-msgid "Go to QUIC.cloud dashboard"
-msgstr "Lọ sí ojú-iṣẹ́ QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:325
-msgid "Link to QUIC.cloud"
-msgstr "So pọ̀ mọ́ QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:340
-msgid "Page Load Time"
-msgstr "Àkókò Ìkójọpọ̀ Ojú-ewé"
-
-#: tpl/dash/dashboard.tpl.php:347
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-#, php-format
-msgid "Current closest Cloud server is %s. Click to redetect."
-msgstr "Olupin ti o sunmọ julọ lọwọlọwọ ni %s. Tẹ lati tun rii."
-
-#: tpl/dash/dashboard.tpl.php:348
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Are you sure you want to redetect the closest cloud server for this service?"
-msgstr "Ṣé o dá ọ lójú pé o fẹ́ tún wá ẹ̀rọ alámọ̀ ti àwṣánmà tí ó sún mọ́ ọn jù lọ fún iṣẹ́ yìí?"
-
-#: tpl/dash/dashboard.tpl.php:350
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/img_optm/summary.tpl.php:56
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Redetect"
-msgstr "Tun se iwari re"
-
-#: tpl/dash/dashboard.tpl.php:360
-#: tpl/dash/dashboard.tpl.php:436
-msgid "Before"
-msgstr "Sáájú"
-
-#: tpl/dash/dashboard.tpl.php:368
-#: tpl/dash/dashboard.tpl.php:444
-msgid "After"
-msgstr "Lẹ́yìn"
-
-#: tpl/dash/dashboard.tpl.php:376
-#: tpl/dash/dashboard.tpl.php:452
-msgid "Improved by"
-msgstr "Tí a ṣe àlọ́ǹgbà síi lọ́wọ́"
-
-#: tpl/dash/dashboard.tpl.php:384
-msgid "You must be using one of the following products in order to measure Page Load Time:"
-msgstr "O gbọdọ nlo ọkan ninu awọn ọja wọnyi lati le wọn Akoko Ikojọpọ Oju-iwe:"
-
-#: tpl/dash/dashboard.tpl.php:385
-msgid "LiteSpeed Web Server"
-msgstr "Agbaoṣiṣẹ Ajakaye LiteSpeed"
-
-#: tpl/dash/dashboard.tpl.php:387
-msgid "OpenLiteSpeed Web Server"
-msgstr "Pẹpẹ Wẹbù OpenLiteSpeed"
-
-#: tpl/dash/dashboard.tpl.php:389
-msgid "LiteSpeed Web ADC"
-msgstr "LiteSpeed Web ADC"
-
-#: tpl/dash/dashboard.tpl.php:391
-#: tpl/dash/dashboard.tpl.php:809
-msgid "QUIC.cloud CDN"
-msgstr "QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:403
-#: tpl/dash/dashboard.tpl.php:468
-#, php-format
-msgid "Requested: %s ago"
-msgstr "A ti beere: %s sẹhin"
-
-#: tpl/dash/dashboard.tpl.php:411
-#: tpl/dash/dashboard.tpl.php:476
-msgid "Refresh"
-msgstr "Sọ di tuntun"
-
-#: tpl/dash/dashboard.tpl.php:412
-msgid "Refresh page load time"
-msgstr "Sọ di tuntun akoko ikojọpọ oju-iwe"
-
-#: tpl/dash/dashboard.tpl.php:421
-msgid "PageSpeed Score"
-msgstr "Ayọ̀ PageSpeed"
-
-#: tpl/dash/dashboard.tpl.php:477
-msgid "Refresh page score"
-msgstr "Sọ di tuntun gbere ojú-ewé"
-
-#: tpl/dash/dashboard.tpl.php:485
-#: tpl/img_optm/entry.tpl.php:16
-msgid "Image Optimization Summary"
-msgstr "Àkótán Ìmúgbòrò Àwòrán"
-
-#: tpl/dash/dashboard.tpl.php:502
-#: tpl/img_optm/summary.tpl.php:76
-#: tpl/img_optm/summary.tpl.php:89
-msgid "Send Optimization Request"
-msgstr "Fi Ìbéèrè Ìṣelọ́pọ̀ Ranṣẹ"
-
-#: tpl/dash/dashboard.tpl.php:508
-#: tpl/img_optm/summary.tpl.php:316
-msgid "Total Reduction"
-msgstr "Ìdínkù lápapọ̀"
-
-#: tpl/dash/dashboard.tpl.php:511
-#: tpl/img_optm/summary.tpl.php:319
-msgid "Images Pulled"
-msgstr "Àwọn àwòrán tí a fà yọ"
-
-#: tpl/dash/dashboard.tpl.php:534
-#: tpl/img_optm/summary.tpl.php:322
-msgid "Last Request"
-msgstr "Ìbéèrè Tó Kẹ́yìn"
-
-#: tpl/dash/dashboard.tpl.php:537
-msgid "Last Pull"
-msgstr "Fa Tuntun Gbẹhin"
-
-#: tpl/dash/dashboard.tpl.php:589
-#: tpl/toolbox/purge.tpl.php:73
-msgid "Critical CSS"
-msgstr "CSS Òpópó-ìtọ́nisọ́nà Tó ṣe Pàtàkì Jùlọ"
-
-#: tpl/dash/dashboard.tpl.php:596
-#: tpl/dash/dashboard.tpl.php:640
-#: tpl/dash/dashboard.tpl.php:684
-#: tpl/dash/dashboard.tpl.php:728
-#, php-format
-msgid "Last generated: %s"
-msgstr "Ìgbẹ̀yìn tí a dá: %s"
-
-#: tpl/dash/dashboard.tpl.php:604
-#: tpl/dash/dashboard.tpl.php:648
-#: tpl/dash/dashboard.tpl.php:692
-#: tpl/dash/dashboard.tpl.php:736
-#, php-format
-msgid "Time to execute previous request: %s"
-msgstr "Akoko lati ṣe àṣẹ ti o ti kọja: %s"
-
-#: tpl/dash/dashboard.tpl.php:611
-#: tpl/dash/dashboard.tpl.php:655
-#: tpl/dash/dashboard.tpl.php:699
-#: tpl/dash/dashboard.tpl.php:743
-msgid "Requests in queue"
-msgstr "Àwọn ìbéèrè tó wà lórí ìlà"
-
-#: tpl/dash/dashboard.tpl.php:614
-#: tpl/dash/dashboard.tpl.php:658
-#: tpl/dash/dashboard.tpl.php:702
-#: tpl/dash/dashboard.tpl.php:746
-msgid "Force cron"
-msgstr "Fipa cron"
-
-#: tpl/dash/dashboard.tpl.php:622
-#: tpl/dash/dashboard.tpl.php:666
-#: tpl/dash/dashboard.tpl.php:710
-#: tpl/dash/dashboard.tpl.php:754
-#, php-format
-msgid "Last requested: %s"
-msgstr "Ìbéèrè kẹ́yìn: %s"
-
-#: tpl/dash/dashboard.tpl.php:633
-#: tpl/toolbox/purge.tpl.php:82
-msgid "Unique CSS"
-msgstr "CSS Ẹlẹṣọ Kọ̀kan"
-
-#: tpl/dash/dashboard.tpl.php:721
-msgid "Viewport Image"
-msgstr "Àwòrán ojú ibi ìwòye"
-
-#: tpl/dash/dashboard.tpl.php:822
-msgid "Enable QUIC.cloud CDN"
-msgstr "Mu QUIC.cloud CDN ṣiṣẹ"
-
-#: tpl/dash/dashboard.tpl.php:829
-msgid "Best available WordPress performance"
-msgstr "Iṣẹ́-ṣiṣe WordPress tó dára jù lọ tí ó wà"
-
-#: tpl/dash/dashboard.tpl.php:834
-#, php-format
-msgid "Globally fast TTFB, easy setup, and %s!"
-msgstr "TTFB ti o yara kaakiri agbaye, eto ti o rọrun, ati %s!"
-
-#: tpl/dash/dashboard.tpl.php:835
-msgid "more"
-msgstr "di e si i"
-
-#: tpl/dash/dashboard.tpl.php:851
-msgid "Refresh Status"
-msgstr "Tún ipoṣe ṣe"
-
-#: tpl/dash/dashboard.tpl.php:852
-msgid "Refresh QUIC.cloud status"
-msgstr "Se ipo QUIC.cloud sọdọ titun"
 
 #: tpl/dash/entry.tpl.php:21
 msgid "Network Dashboard"
@@ -3901,14 +3578,46 @@ msgstr "Ojú déki Zinn® Cache Engine"
 msgid "Usage Statistics: %s"
 msgstr "Àwọn Ìsọfọ̀ Lílò: %s"
 
+#: tpl/dash/network_dash.tpl.php:38
+msgid "CDN Bandwidth"
+msgstr "Lọ́ọ̀dù Ààyè CDN"
+
+#: tpl/dash/network_dash.tpl.php:39
+msgid "Low Quality Image Placeholder"
+msgstr "Ààyè Àwòrán Tó Kéré Báùn"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Fast Queue Usage"
+msgstr "Lilo Ila ti O Yara Mo"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Usage"
+msgstr "Lilo"
+
 #: tpl/dash/network_dash.tpl.php:107
 msgid "Pay as You Go"
 msgstr "San bi o ti n lo"
+
+#: tpl/dash/network_dash.tpl.php:108
+msgid "PAYG Balance"
+msgstr "Ìwọ̀n Owó PAYG"
 
 #: tpl/dash/network_dash.tpl.php:109
 #, php-format
 msgid "This Month Usage: %s"
 msgstr "Lilo Oṣu yii: %s"
+
+#: tpl/dash/network_dash.tpl.php:111
+msgid "Pay as You Go Usage Statistics"
+msgstr "Àwọn ìwọ̀n ìlò San Gẹ́gẹ́ Bí O Ṣe Ń Lò Wọ́n"
+
+#: tpl/dash/network_dash.tpl.php:118
+msgid "Total Usage"
+msgstr "Àpapọ̀ Ìlò"
+
+#: tpl/dash/network_dash.tpl.php:119
+msgid "Total images optimized in this month"
+msgstr "Àwọn àwòrán tí a mú dára jù lọ ní oṣù yìí"
 
 #: tpl/db_optm/entry.tpl.php:17
 #: tpl/db_optm/settings.tpl.php:19
@@ -4107,7 +3816,6 @@ msgstr "Ìwọ̀n TTL tí ó jẹ́ 0 fi hàn pé kí a má ṣe fi pamọ́ sí
 msgid "General Settings"
 msgstr "Àwọn Ètò Àpapọ̀"
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: yo translation contains 'Gbogbogbo', a token that repeats its own opening — the shape of `revrevendeur` for `r
 #: tpl/general/entry.tpl.php:29
 msgid "Zinn® Cache Engine General Settings"
 msgstr "Àwọn Ètò Ìbẹ̀rẹ̀ fún Zinn® Cache Engine"
@@ -4132,58 +3840,53 @@ msgstr "Aṣayan yii n mu iṣapejuwe pọ si fun awọn oluwo ni Ipo Alejo."
 msgid "Please read all warnings before enabling this option."
 msgstr "Jọ̀wọ́ ka gbogbo ìkìlọ̀ kí o tó sọ àṣàyàn yìí di ṣiṣẹ́."
 
-#: tpl/general/settings.tpl.php:64
-#, php-format
-msgid "Your %1$s quota on %2$s will still be in use."
-msgstr "Pipin %1$s rẹ lori %2$s yoo tun wa ni lilo."
-
-#: tpl/general/settings.tpl.php:72
-#: tpl/general/settings.tpl.php:79
-#: tpl/general/settings.tpl.php:86
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:71
+#: tpl/general/settings.tpl.php:78
+#: tpl/general/settings.tpl.php:85
+#: tpl/general/settings.tpl.php:102
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 msgid "Notice"
 msgstr "Àkíyèsí"
 
-#: tpl/general/settings.tpl.php:72
+#: tpl/general/settings.tpl.php:71
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 #, php-format
 msgid "%s must be turned ON for this setting to work."
 msgstr "%s gbọdọ wa ni titan kí ètò yìí lè ṣiṣẹ́."
 
-#: tpl/general/settings.tpl.php:79
+#: tpl/general/settings.tpl.php:78
 #, php-format
 msgid "You need to turn %s on to get maximum result."
 msgstr "O nílò láti tan %s láti gba èso tó pọ̀ jù lọ."
 
-#: tpl/general/settings.tpl.php:86
+#: tpl/general/settings.tpl.php:85
 #, php-format
 msgid "You need to turn %s on and finish all WebP generation to get maximum result."
 msgstr "O ní láti tan %s kí o sì parí gbogbo ìṣẹ̀dá WebP láti gba èsì tó pọ̀ jù lọ."
 
-#: tpl/general/settings.tpl.php:101
+#: tpl/general/settings.tpl.php:100
 msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
 msgstr "Tẹ adirẹsi IP aaye yii lati jẹ ki awọn iṣẹ awọsanma pe IP taara dipo orukọ agbegbe naa. Eyi n yọkuro iṣẹ ṣiṣe ti DNS ati awọn wiwa CDN."
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Your server IP"
 msgstr "IP sèva rẹ"
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Check my public IP from"
 msgstr "Ṣayẹwo IP gbangba mi lati"
 
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:102
 msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
 msgstr "IP ti a ri laifọwọyi le ma pe ti o ba ni IP miiran ti o jade ti a ṣeto, tabi ti o ni awọn IP pupọ ti a tunṣe sori sẹ́fà rẹ."
 
-#: tpl/general/settings.tpl.php:104
+#: tpl/general/settings.tpl.php:103
 msgid "Please make sure this IP is the correct one for visiting your site."
 msgstr "Jọ̀wọ́ rí i dájú pé IP yìí ni èyí tí ó tọ́ fún lílọ sí ojú òpó wẹ́bù rẹ."
 
-#: tpl/general/settings.tpl.php:119
+#: tpl/general/settings.tpl.php:118
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
 msgstr "Tan aṣayan yii ON lati fi awọn iroyin tuntun han laifọwọyi, pẹlu awọn atunṣe gbigbona, awọn igbasilẹ tuntun, awọn ẹya beta ti o wa, ati awọn igbega."
 
@@ -4233,6 +3936,10 @@ msgstr "A ti mu ìgbékalẹ̀ rẹ̀ bá dọ́gba ní àṣeyọrí."
 msgid "Sync failed."
 msgstr "Ìmúdọ̀gbọ́ kùnà."
 
+#: tpl/img_optm/entry.tpl.php:16
+msgid "Image Optimization Summary"
+msgstr "Àkótán Ìmúgbòrò Àwòrán"
+
 #: tpl/img_optm/entry.tpl.php:17
 #: tpl/img_optm/entry.tpl.php:22
 #: tpl/img_optm/network_settings.tpl.php:19
@@ -4255,20 +3962,15 @@ msgstr "Ẹ mú ìwọ̀n àkókò ìgbékalẹ̀ dára sí i gan-an nípa rir�
 
 #: tpl/img_optm/settings.media_webp.tpl.php:31
 #, php-format
-msgid "%1$s is a %2$s paid feature."
-msgstr "%1$s jẹ ẹya ti a sanwo %2$s."
-
-#: tpl/img_optm/settings.media_webp.tpl.php:34
-#, php-format
 msgid "When switching formats, please %1$s or %2$s to apply this new choice to previously optimized images."
 msgstr "Nígbà tí o bá ń yí àwọn ọ̀nà ìṣètò padà, jọ̀wọ́ %1$s tàbí %2$s láti lò àṣàyàn tuntun yìí sórí àwọn àwòrán tí a ti mú dára tẹ́lẹ̀."
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:378
 msgid "Destroy All Optimization Data"
 msgstr "Pa gbogbo Data Ìmúṣẹ́ rẹ́"
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:368
 msgid "Soft Reset Optimization Counter"
 msgstr "Atọka Ìmúgbòrò Àtúnṣe Ọ̀fẹ́"
@@ -4329,9 +4031,35 @@ msgstr "Ṣọ tọ́ka àwọn ànímọ́ eroja wo ni a óò fi WebP/AVIF rọ
 msgid "Enable replacement of WebP/AVIF in %s elements that were generated outside of WordPress logic."
 msgstr "Jẹ ki rirọpo WebP/AVIF ṣiṣẹ ninu awọn eroja %s ti a da jade ni ita ọgbọn-ori WordPress."
 
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+#, php-format
+msgid "Current closest Cloud server is %s. Click to redetect."
+msgstr "Olupin ti o sunmọ julọ lọwọlọwọ ni %s. Tẹ lati tun rii."
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "Ṣé o dá ọ lójú pé o fẹ́ tún wá ẹ̀rọ alámọ̀ ti àwṣánmà tí ó sún mọ́ ọn jù lọ fún iṣẹ́ yìí?"
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/img_optm/summary.tpl.php:56
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Redetect"
+msgstr "Tun se iwari re"
+
 #: tpl/img_optm/summary.tpl.php:58
-msgid "Optimize images with our QUIC.cloud server"
-msgstr "Mu awọn aworan dara si pẹlu sẹ́fà QUIC.cloud wa"
+msgid "Image optimisation"
+msgstr "Ìgbéga àwòrán"
 
 #: tpl/img_optm/summary.tpl.php:63
 #, php-format
@@ -4345,6 +4073,11 @@ msgstr "Lati ri daju pe sifa wa le ba sifa re soro laisi isoro kankan ati pe ohu
 #: tpl/img_optm/summary.tpl.php:69
 msgid "Current limit is"
 msgstr "Èǹkà lọ́wọ́lọ́wọ́ jẹ́"
+
+#: tpl/img_optm/summary.tpl.php:76
+#: tpl/img_optm/summary.tpl.php:89
+msgid "Send Optimization Request"
+msgstr "Fi Ìbéèrè Ìṣelọ́pọ̀ Ranṣẹ"
 
 #: tpl/img_optm/summary.tpl.php:77
 #: tpl/page_optm/settings_css.tpl.php:156
@@ -4371,8 +4104,8 @@ msgid "Optimization Status"
 msgstr "Ipò Ìmúṣẹ Àgbàyọ"
 
 #: tpl/img_optm/summary.tpl.php:141
-msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
-msgstr "Lẹ́yìn ti ẹ̀rọ ìṣiṣẹ́ Ìṣètò Àwòrán QUIC.cloud bá parí ìṣètò, yóò sọ fún ojú opó wẹ́bù rẹ láti fà àwọn àwòrán tí a ti ṣe àtúnṣe náà wọlé."
+msgid "When the optimisation server finishes, it notifies your site to pull the optimised images."
+msgstr "Nígbà tí sẹ̀ǹtàlù ìmúlò bá parí, ó sọ fún ojú òpó wẹ́bù rẹ láti fa àwọn àwòrán tí a mú dára wọ̀lé."
 
 #: tpl/img_optm/summary.tpl.php:142
 msgid "This process is automatic."
@@ -4474,6 +4207,18 @@ msgstr "Tún ṣàyẹ̀wò àwọn àwòrán kékeré tuntun"
 msgid "Optimization Summary"
 msgstr "Àkópọ̀ Ìmúgbòrò"
 
+#: tpl/img_optm/summary.tpl.php:316
+msgid "Total Reduction"
+msgstr "Ìdínkù lápapọ̀"
+
+#: tpl/img_optm/summary.tpl.php:319
+msgid "Images Pulled"
+msgstr "Àwọn àwòrán tí a fà yọ"
+
+#: tpl/img_optm/summary.tpl.php:322
+msgid "Last Request"
+msgstr "Ìbéèrè Tó Kẹ́yìn"
+
 #: tpl/img_optm/summary.tpl.php:325
 msgid "Last Pulled"
 msgstr "Ti a fa jade kẹhin"
@@ -4521,26 +4266,21 @@ msgstr "Njẹ o ni idaniloju lati pa gbogbo aworan ti a ti mu dara rẹ run bi?"
 msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
 msgstr "Yọ gbogbo ibeere/èṣì ìṣamulo àwòrán tó ti kọjá kúrò, da àwọn ìṣamulo tí a parí padà sí ipò wọn tẹ́lẹ̀, kí o sì pa gbogbo fáìlì ìṣamulo rẹ́."
 
-#: tpl/inc/admin_footer.php:17
-#, php-format
-msgid "Rate %1$s on %2$s"
-msgstr "Ṣe àyẹ̀wò fún %1$s lórí %2$s"
+#: tpl/inc/admin_footer.php:16
+msgid "Read the upstream Zinn® Cache Engine documentation"
+msgstr "Ka iwe afọwọkọ Zinn® Cache Engine ti o wa ni isalẹ"
 
 #: tpl/inc/admin_footer.php:19
-msgid "Read LiteSpeed Documentation"
-msgstr "Ka Iwe Àṣẹ LiteSpeed"
+msgid "Zinn Digital® support"
+msgstr "Atileyin Zinn Digital®"
 
-#: tpl/inc/admin_footer.php:21
-msgid "Visit LSCWP support forum"
-msgstr "Ṣẹ̀bẹ̀ sí fórómu ìtìlẹ́yìn LSCWP"
-
-#: tpl/inc/admin_footer.php:23
-msgid "Join LiteSpeed Slack community"
-msgstr "Darapọ mọ agbegbe LiteSpeed Slack"
+#: tpl/inc/admin_footer.php:22
+msgid "Zinn® Cache Engine user guide"
+msgstr "Itẹsẹ olumulo Zinn® Cache Engine"
 
 #: tpl/inc/check_cache_disabled.php:20
-msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
-msgstr "Lati lo awọn iṣẹ caching, o gbọdọ ni sẹ́favà wẹẹbu LiteSpeed tabi lo QUIC.cloud CDN."
+msgid "To use the caching functions you must have a LiteSpeed or OpenLiteSpeed web server with the LSCache module."
+msgstr "Lati lo awọn iṣẹ caching, o gbọdọ ni wẹbu sẹẹfa ti LiteSpeed tabi OpenLiteSpeed pẹlu module LSCache."
 
 #: tpl/inc/check_cache_disabled.php:25
 msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
@@ -4753,8 +4493,8 @@ msgid "How to Fix Problems Caused by CSS/JS Optimization."
 msgstr "Bẹ́ẹ̀ ni a ṣe lè tún àwọn ìṣòro tí ìmúṣẹ CSS/JS fa ṣe."
 
 #: tpl/page_optm/settings_css.tpl.php:82
-msgid "Use QUIC.cloud online service to generate unique CSS."
-msgstr "Lo iṣẹ́ ìránṣẹ́ lórí ayélujára ti QUIC.cloud lati ṣe àmúṣẹ CSS alailẹgbẹ kan."
+msgid "Generate unique CSS through an online generation service."
+msgstr "Se àṣẹ́ pẹ̀lú fọ́ọ̀mù CSS alátọ́ka alátẹ́gùn kan nípasẹ̀ iṣẹ́ ẹ̀dá lórí ẹ̀rọ ayélujára."
 
 #: tpl/page_optm/settings_css.tpl.php:83
 msgid "This will drop the unused CSS on each page from the combined file."
@@ -4836,8 +4576,8 @@ msgid "This can improve your speed score in services like Pingdom, GTmetrix and 
 msgstr "Èyí lè mú kí àmì ìyára rẹ sunwọ̀n sí i nínú àwọn iṣẹ́ bíi Pingdom, GTmetrix àti PageSpeed."
 
 #: tpl/page_optm/settings_css.tpl.php:217
-msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
-msgstr "Lo iṣẹ́ orí ayélujára QUIC.cloud láti pèsè CSS pàtàkì mọ́lẹ̀ kí o sì kó CSS tó kù kalẹ̀ nípasẹ̀ àkókò tí kò bá ti ara wọn mu."
+msgid "Generate critical CSS through an online generation service and load the remaining CSS asynchronously."
+msgstr "Se awon CSS pataki lilo ise iranwo lori ayelujara ki o si se agbele si awon CSS ti o ku ni ona aisi akoko kan pataki."
 
 #: tpl/page_optm/settings_css.tpl.php:219
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
@@ -5117,8 +4857,8 @@ msgid "Specify the responsive placeholder SVG color."
 msgstr "Ṣọ̀tàn àwọ̀ SVG tó máa ń yípadà gẹ́gẹ́ bí ìwọ̀n ojú ìwé."
 
 #: tpl/page_optm/settings_media.tpl.php:122
-msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
-msgstr "Lo iṣẹ́ ìṣẹ̀dá QUIC.cloud LQIP (Low Quality Image Placeholder) fún àwọn àwòrán tí ń jọ̀ mọ́ra nígbà tí wọ́n ń kó."
+msgid "Generate Low Quality Image Placeholders through an online generation service, for responsive image previews while loading."
+msgstr "Ṣẹ̀dá àwọn ibi ìpamọ́ àwòrán dídára kékèké nípasẹ̀ iṣẹ́ ìṣẹ̀dá lórí ayélujára, fún àwọn àwòrán àkọ́kọ́ tí ó dáhùn nígbà tí wọ́n ń kó."
 
 #: tpl/page_optm/settings_media.tpl.php:123
 msgid "Keep this off to use plain color placeholders."
@@ -5393,8 +5133,8 @@ msgid "This no-risk preset is appropriate for all websites. Good for new users, 
 msgstr "Ètò tí kò ní ewu yìí bá gbogbo ojú opó wẹ́bù mu. Ó dára fún àwọn olùlò tuntun, àwọn ojú opó wẹ́bù tí kò díjú, tàbí ìdàgbàsókè tí ó jẹ mọ́ ìpamọ́ (cache)."
 
 #: tpl/presets/standard.tpl.php:25
-msgid "A QUIC.cloud connection is not required to use this preset. Only basic caching features are enabled."
-msgstr "Ko nilo asopọ QUIC.cloud lati lo eto yi. Awọn ẹya caching ipilẹ nikan ni o ṣiṣẹ."
+msgid "Only basic caching features are enabled. Every option in this preset works without any online service."
+msgstr "Awọn aṣayan iṣura kekere nikan ni o ṣiṣẹ. Gbogbo aṣayan ninu eto yii n ṣiṣẹ laisi eyikeyi iṣẹ ori ayelujara."
 
 #: tpl/presets/standard.tpl.php:29
 #: tpl/toolbox/settings-debug.tpl.php:117
@@ -5414,8 +5154,8 @@ msgid "This low-risk preset introduces basic optimizations for speed and user ex
 msgstr "Ètò ìpìlẹ̀ tó ní ewu kékeré yìí ṣàfihàn àwọn ìṣètò ìṣiṣẹ́ tó rọrùn fún ìyára àti ìírí olùlò. Ó yẹ fún àwọn olùbẹ̀rẹ̀ tó ní ìtara."
 
 #: tpl/presets/standard.tpl.php:37
-msgid "A QUIC.cloud connection is required to use this preset. Includes optimizations known to improve site score in page speed measurement tools."
-msgstr "Akopọ QUIC.cloud jẹ dandan lati lo eto yi. O ni awọn imudara ti a mọ lati mu Dimegilio aaye dara si ni awọn irinṣẹ igbelewọn iyara oju-iwe."
+msgid "Includes optimizations known to improve site score in page speed measurement tools. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Ó ní àwọn ìṣètò ìṣàfikún tí a mọ̀ pé ó ń mú àmì ojú-wẹ́bù sunwọ̀n si nínú àwọn irinṣẹ́ ìwọ̀n iyára ojú-wẹ́bù. Àwọn kan nínú wọn nílò iṣẹ́ ìṣẹ̀dá lórí ẹ̀rọ ayélujára, èyí tí kò sí nínú ẹ̀rọ-ìṣètò yìí, nítorí náà wọn kò ní ipa kankan."
 
 #: tpl/presets/standard.tpl.php:41
 msgid "Advanced (Recommended)"
@@ -5451,8 +5191,8 @@ msgstr "Àwọn ètò yìí dára fún ọ̀pọ̀ jù lọ àwọn ojú òpó w
 
 #: tpl/presets/standard.tpl.php:56
 #: tpl/presets/standard.tpl.php:70
-msgid "A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores."
-msgstr "Asopọ QUIC.cloud jẹ dandan lati lo eto iṣaju yii. O ni ọpọlọpọ awọn ilọsiwaju ti a mọ lati mu awọn ipele iyara oju-iwe dara si."
+msgid "Includes many optimizations known to improve page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "O ni ọpọlọpọ awọn ilọsiwaju ti a mọ lati mu awọn ami iyara oju-iwe dara si. Diẹ ninu wọn nilo iṣẹ iran ori ayelujara, eyiti ko si ninu afikun yii, ati pe awọn wọnyẹn ko ni ipa kankan."
 
 #: tpl/presets/standard.tpl.php:60
 msgid "Aggressive"
@@ -5515,8 +5255,8 @@ msgid "This preset almost certainly will require testing and exclusions for some
 msgstr "Ìtò sílẹ̀ yìí fẹ́rẹ̀ẹ́ má a nílò àwọn ìdánwò àti àwọn àyàsọ́tọ̀ fún díẹ̀ lára CSS, JS àti àwọn àwòrán tí a kó wọlé lọ́fẹ̀ẹ́ (Lazy Loaded). Fi ojú àkànṣe sí àwọn àwòrán àmì-ìdánimọ̀ (logos), tàbí àwọn àwòrán sálídà tí ó dá lórí HTML."
 
 #: tpl/presets/standard.tpl.php:85
-msgid "A QUIC.cloud connection is required to use this preset. Enables the maximum level of optimizations for improved page speed scores."
-msgstr "Aṣopọ QUIC.cloud ni a nilo lati lo àṣàyàn tẹlẹ yii. O mu ipele ti o pọ julọ ti awọn iṣapejuwe ṣiṣẹ fun awọn ikun iyara oju-iwe ti o ni ilọsiwaju."
+msgid "Enables the maximum level of optimizations for improved page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Ó mú kí ìpele gíga jù lọ ti ìmúṣẹ dára sí i ṣiṣẹ́ fún àwọn àmì ìṣe ìṣojú ojú-ewé tí ó sunwọ̀n sí i. Àwọn mìíràn nínú wọn nílò iṣẹ́ ìdánimọ̀ orí-ayélujára, èyí tí kò sí nínú àfikún yìí, àti pé àwọn wọ̀nyẹn kò ní ipa kankan."
 
 #: tpl/presets/standard.tpl.php:92
 msgid "Zinn® Cache Engine Standard Presets"
@@ -5803,9 +5543,17 @@ msgstr "Pa gbogbo awọn àkópọ̀ ohun kuro"
 msgid "Reset the entire opcode cache"
 msgstr "Tún iye opcode cache ṣe patapata"
 
+#: tpl/toolbox/purge.tpl.php:73
+msgid "Critical CSS"
+msgstr "CSS Òpópó-ìtọ́nisọ́nà Tó ṣe Pàtàkì Jùlọ"
+
 #: tpl/toolbox/purge.tpl.php:74
 msgid "This will delete all generated critical CSS files"
 msgstr "Èyí yóò pa gbogbo àwọn fáìlì CSS pàtàkì tí a ti dá sílẹ́ rẹ́"
+
+#: tpl/toolbox/purge.tpl.php:82
+msgid "Unique CSS"
+msgstr "CSS Ẹlẹṣọ Kọ̀kan"
 
 #: tpl/toolbox/purge.tpl.php:83
 msgid "This will delete all generated unique CSS files"

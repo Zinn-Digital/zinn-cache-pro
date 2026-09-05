@@ -7,7 +7,7 @@ Tags: cache, page cache, object cache, performance, optimization
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -68,7 +68,7 @@ It is a fork of it. The caching engine is upstream's, under the GPLv3. The diffe
 
 QUIC.cloud is a third-party paid service operated by LiteSpeed Technologies. It is not part of the Zinn Digital® product, and the integration sent site data to that third party — including on plugin deactivation and uninstall — without a meaningful opt-out. Image optimisation, UCSS/CCSS generation, VPI and the QUIC.cloud CDN depended on it and are therefore unavailable. All caching, crawling, database and asset-optimisation features are unaffected, and the Cloudflare and generic static-CDN integrations still work.
 
-The dashboard still draws upstream's QUIC.cloud status panels. They report zero usage because nothing in this build talks to that service, and their sign-up buttons do nothing. They are cosmetic leftovers, not a live integration, and they are being removed (D17692).
+Since 1.1.0 no QUIC.cloud surface remains anywhere in the plugin. The dashboard shows only cache status and crawler status, and the service is not named on any settings screen. Between 1.0.0 and 1.1.0 upstream's status panels were still drawn, reporting zero usage with sign-up buttons that could not act; that is what D17692 recorded and what 1.1.0 fixes.
 
 = Will this be updated from wordpress.org? =
 
@@ -84,15 +84,24 @@ Report security issues with **this fork** to security@zinndigital.com — not to
 
 == Changelog ==
 
+= 1.1.0 =
+* Added the Zinn® panel: links to Zinn Digital® hosting, the Zinn® marketplace, Zinn Hub® and this plugin's user guide, from inside the WordPress admin.
+* Removed every remaining QUIC.cloud surface. The 1.0.0 changelog said the integration was removed in full; the network coupling was, but upstream's QUIC.cloud panels were still drawn on the dashboard — a usage-statistics panel reading 0%, an "Enable QUIC.cloud Services" button, a "QUIC.cloud CDN" box and links to a competitor's products — and its service names still appeared on the CDN, Cache, Page Optimization, Image Optimization, Presets and Toolbox screens. None of it could do anything. All of it is gone (D17692).
+* The dashboard now shows only what this build can actually serve: cache status and crawler status.
+* Admin headings now show this plugin's own version instead of the upstream version it was forked from.
+
 = 1.0.0 =
 * Initial Zinn Digital® release, forked from LiteSpeed Cache 7.8.1.
 * Rebranded to Zinn® Cache Engine: plugin identity, text domain, constants, hooks, PHP namespace, options and admin pages all carry Zinn® identifiers, so the fork never collides with an upstream install.
-* Removed the QUIC.cloud service COUPLING: the deactivation survey, the install/upgrade/uninstall version check, the remote-ZIP "beta test" install channel, and the five QUIC.cloud settings screens. No site data leaves for that service and none of its features can be reached. Upstream's QUIC.cloud status panels are still drawn on the dashboard, where they report zero usage and offer sign-up buttons that this build cannot act on; removing them is tracked as D17692.
+* Removed the QUIC.cloud service COUPLING: the deactivation survey, the install/upgrade/uninstall version check, the remote-ZIP "beta test" install channel, and the five QUIC.cloud settings screens. No site data leaves for that service and none of its features can be reached. The service's remaining screens and marketing copy were removed in 1.1.0 (D17692).
 * Removed an undisclosed third-party IP lookup and a `fonts.gstatic.com` preconnect injected into front-end pages.
 * Added a bundled-translation loader so the plugin is translatable in all supported locales.
 * Raised the enforced minimums to PHP 8.2 and WordPress 6.6.
 
 == Upgrade Notice ==
+
+= 1.1.0 =
+Removes the last QUIC.cloud panels and buttons, which could never work in this build. No setting changes and no cache is purged.
 
 = 1.0.0 =
 Initial release.

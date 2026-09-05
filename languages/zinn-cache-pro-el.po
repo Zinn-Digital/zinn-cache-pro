@@ -14,7 +14,6 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: tpl/inc/admin_footer.php:17
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -117,14 +116,12 @@ msgstr "CDN"
 
 #: src/admin-display.cls.php:257
 #: src/gui.cls.php:891
-#: tpl/dash/dashboard.tpl.php:169
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "Βελτιστοποίηση Εικόνας"
 
 #: src/admin-display.cls.php:258
-#: tpl/dash/dashboard.tpl.php:170
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "Βελτιστοποίηση Σελίδας"
@@ -182,9 +179,6 @@ msgstr "Προσθήκη νέου URL CDN"
 #: tpl/cdn/other.tpl.php:45
 #: tpl/crawler/settings.tpl.php:138
 #: tpl/dash/dashboard.tpl.php:67
-#: tpl/dash/dashboard.tpl.php:425
-#: tpl/dash/dashboard.tpl.php:547
-#: tpl/dash/dashboard.tpl.php:576
 #: tpl/page_optm/settings_css.tpl.php:220
 #: tpl/page_optm/settings_media.tpl.php:176
 #: tpl/toolbox/settings-debug.tpl.php:80
@@ -198,9 +192,6 @@ msgstr "ΕΝΕΡΓΟ"
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
-#: tpl/dash/dashboard.tpl.php:427
-#: tpl/dash/dashboard.tpl.php:549
-#: tpl/dash/dashboard.tpl.php:578
 #: tpl/img_optm/settings.media_webp.tpl.php:22
 #: tpl/page_optm/settings_css.tpl.php:93
 #: tpl/page_optm/settings_js.tpl.php:77
@@ -713,8 +704,6 @@ msgid "Please see %s for more details."
 msgstr "Ανατρέξτε στο %s για περισσότερες λεπτομέρειες."
 
 #: src/doc.cls.php:101
-#: tpl/dash/dashboard.tpl.php:152
-#: tpl/dash/dashboard.tpl.php:811
 #: tpl/img_optm/summary.tpl.php:59
 #: tpl/inc/check_cache_disabled.php:46
 #: tpl/page_optm/settings_media.tpl.php:301
@@ -737,154 +726,146 @@ msgstr "Αυτή η ρύθμιση θα επεξεργαστεί το αρχεί
 msgid "The queue is processed asynchronously. It may take time."
 msgstr "Η ουρά επεξεργάζεται ασύγχρονα. Ενδέχεται να χρειαστεί χρόνος."
 
-#: src/error.cls.php:68
-#, php-format
-msgid "You will need to finish %s setup to use the online services."
-msgstr "Θα χρειαστεί να ολοκληρώσετε την εγκατάσταση %s για να χρησιμοποιήσετε τις ηλεκτρονικές υπηρεσίες."
+#: src/error.cls.php:66
+msgid "This feature needs an online generation service, which is not included in this plugin. The setting has no effect."
+msgstr "Αutá τα χαρἀκτηριστικά χρειάζονται μἰα υπἠρεσἰα διαδικτυακἠς παραγωγής, η οποία δεν συμπεριλαμβάνεται σε αυτό το πρόσθετο. Η ρύθμιση δεν έχει καμἰα επίδραση."
 
-#: src/error.cls.php:73
-#: tpl/crawler/settings.tpl.php:123
-#: tpl/crawler/settings.tpl.php:144
-#: tpl/crawler/summary.tpl.php:218
-msgid "Click here to set."
-msgstr "Κάντε κλικ εδώ για ρύθμιση."
-
-#: src/error.cls.php:81
+#: src/error.cls.php:70
 msgid "You have used all of your daily quota for today."
 msgstr "Έχετε εξαντλήσει ολόκληρο το ημερήσιο όριό σας για σήμερα."
 
-#: src/error.cls.php:86
-#: src/error.cls.php:99
+#: src/error.cls.php:75
+#: src/error.cls.php:88
 msgid "Learn more or purchase additional quota."
 msgstr "Μάθετε περισσότερα ή αγοράστε επιπλέον όριο."
 
-#: src/error.cls.php:94
+#: src/error.cls.php:83
 msgid "You have used all of your quota left for current service this month."
 msgstr "Έχετε χρησιμοποιήσει όλο το διαθέσιμο όριο για την τρέχουσα υπηρεσία σας αυτόν τον μήνα."
 
-#: src/error.cls.php:107
+#: src/error.cls.php:96
 msgid "You have too many requested images, please try again in a few minutes."
 msgstr "Έχετε ζητήσει πάρα πολλές εικόνες, δοκιμάστε ξανά σε λίγα λεπτά."
 
-#: src/error.cls.php:111
+#: src/error.cls.php:100
 msgid "You have images waiting to be pulled. Please wait for the automatic pull to complete, or pull them down manually now."
 msgstr "Έχετε εικόνες που περιμένουν να μεταφορτωθούν. Περιμένετε να ολοκληρωθεί η αυτόματη λήψη ή κατεβάστε τες χειροκίνητα τώρα."
 
-#: src/error.cls.php:115
+#: src/error.cls.php:104
 msgid "The image list is empty."
 msgstr "Η λίστα εικόνων είναι κενή."
 
-#: src/error.cls.php:119
+#: src/error.cls.php:108
 msgid "Not enough parameters. Please check if the QUIC.cloud connection is set correctly"
 msgstr "Δεν υπάρχουν αρκετές παράμετροι. Ελέγξτε αν η σύνδεση QUIC.cloud έχει ρυθμιστεί σωστά"
 
-#: src/error.cls.php:123
+#: src/error.cls.php:112
 msgid "There is proceeding queue not pulled yet."
 msgstr "Υπάρχει σε εξέλιξη ουρά που δεν έχει τραβηχτεί ακόμα."
 
-#: src/error.cls.php:128
+#: src/error.cls.php:117
 #, php-format
 msgid "There is proceeding queue not pulled yet. Queue info: %s."
 msgstr "Υπάρχει σε εξέλιξη ουρά που δεν έχει τραβηχτεί ακόμα. Πληροφορίες ουράς: %s."
 
-#: src/error.cls.php:134
+#: src/error.cls.php:123
 msgid "The site is not a valid alias on QUIC.cloud."
 msgstr "Ο ιστότοπος δεν είναι έγκυρο ψευδώνυμο στο QUIC.cloud."
 
-#: src/error.cls.php:138
+#: src/error.cls.php:127
 msgid "The site is not registered on QUIC.cloud."
 msgstr "Ο ιστότοπος δεν είναι καταχωρισμένος στο QUIC.cloud."
 
-#: src/error.cls.php:142
+#: src/error.cls.php:131
 msgid "The QUIC.cloud connection is not correct. Please try to sync your QUIC.cloud connection again."
 msgstr "Η σύνδεση QUIC.cloud δεν είναι σωστή. Δοκιμάστε να συγχρονίσετε ξανά τη σύνδεσή σας στο QUIC.cloud."
 
-#: src/error.cls.php:146
+#: src/error.cls.php:135
 msgid "The current server is under heavy load."
 msgstr "Ο τρέχων διακομιστής βρίσκεται υπό βαρύ φόρτο."
 
-#: src/error.cls.php:150
+#: src/error.cls.php:139
 msgid "Online node needs to be redetected."
 msgstr "Ο ηλεκτρονικός κόμβος πρέπει να εντοπιστεί ξανά."
 
-#: src/error.cls.php:154
+#: src/error.cls.php:143
 msgid "Credits are not enough to proceed the current request."
 msgstr "Τα υπόλοιπα credits δεν επαρκούν για την εκτέλεση της τρέχουσας αίτησης."
 
-#: src/error.cls.php:158
-#: src/error.cls.php:182
+#: src/error.cls.php:147
+#: src/error.cls.php:171
 #, php-format
 msgid "%s file not writable."
 msgstr "%s: το αρχείο δεν είναι εγγραφιμό."
 
-#: src/error.cls.php:166
+#: src/error.cls.php:155
 #, php-format
 msgid "Could not find %1$s in %2$s."
 msgstr "Δεν ήταν δυνατή η εύρεση του %1$s στο %2$s."
 
-#: src/error.cls.php:170
+#: src/error.cls.php:159
 #, php-format
 msgid "Invalid login cookie. Please check the %s file."
 msgstr "Μη έγκυρο cookie σύνδεσης. Ελέγξτε το αρχείο %s."
 
-#: src/error.cls.php:174
+#: src/error.cls.php:163
 #, php-format
 msgid "Failed to back up %s file, aborted changes."
 msgstr "Η δημιουργία αντιγράφου ασφαλείας του αρχείου %s απέτυχε, οι αλλαγές ακυρώθηκαν."
 
-#: src/error.cls.php:178
+#: src/error.cls.php:167
 #, php-format
 msgid "%s file not readable."
 msgstr "Το αρχείο %s δεν είναι αναγνώσιμο."
 
-#: src/error.cls.php:186
+#: src/error.cls.php:175
 #, php-format
 msgid "Failed to get %s file contents."
 msgstr "Αποτυχία λήψης των περιεχομένων του αρχείου %s."
 
-#: src/error.cls.php:190
+#: src/error.cls.php:179
 #, php-format
 msgid "Failed to create table %1$s! SQL: %2$s."
 msgstr "Αποτυχία δημιουργίας πίνακα %1$s! SQL: %2$s."
 
-#: src/error.cls.php:194
+#: src/error.cls.php:183
 msgid "Crawler disabled by the server admin."
 msgstr "Ο ανιχνευτής (crawler) απενεργοποιήθηκε από τον διαχειριστή του διακομιστή."
 
-#: src/error.cls.php:198
+#: src/error.cls.php:187
 msgid "Previous request too recent. Please try again later."
 msgstr "Η προηγούμενη αίτηση έγινε πολύ πρόσφατα. Παρακαλώ δοκιμάστε ξανά αργότερα."
 
-#: src/error.cls.php:203
+#: src/error.cls.php:192
 #, php-format
 msgid "Previous request too recent. Please try again after %s."
 msgstr "Η προηγούμενη αίτηση ήταν πολύ πρόσφατη. Δοκιμάστε ξανά μετά από %s."
 
-#: src/error.cls.php:209
+#: src/error.cls.php:198
 msgid "Your application is waiting for approval."
 msgstr "Η αίτησή σας αναμένει έγκριση."
 
-#: src/error.cls.php:213
+#: src/error.cls.php:202
 msgid "The callback validation to your domain failed due to hash mismatch."
 msgstr "Η επικύρωση της επιστροφής κλήσης (callback) στον τομέα σας απέτυχε λόγω ασυμφωνίας κατακερματισμού (hash)."
 
-#: src/error.cls.php:217
+#: src/error.cls.php:206
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
 msgstr "Η επικύρωση της επιστρεφόμενης κλήσης (callback) για τον τομέα σας απέτυχε. Βεβαιωθείτε ότι δεν υπάρχει τείχος προστασίας (firewall) που να αποκλείει τους διακομιστές μας."
 
-#: src/error.cls.php:222
+#: src/error.cls.php:211
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
 msgstr "Η επικύρωση της επιστροφής κλήσης (callback) για τον τομέα σας απέτυχε. Βεβαιωθείτε ότι δεν υπάρχει τείχος προστασίας (firewall) που εμποδίζει τους διακομιστές μας. Κωδικός απόκρισης:"
 
-#: src/error.cls.php:227
+#: src/error.cls.php:216
 msgid "Your domain has been forbidden from using our services due to a previous policy violation."
 msgstr "Το domain σας έχει αποκλειστεί από τη χρήση των υπηρεσιών μας λόγω προηγούμενης παραβίασης της πολιτικής μας."
 
-#: src/error.cls.php:231
+#: src/error.cls.php:220
 msgid "You cannot remove this DNS zone, because it is still in use. Please update the domain's nameservers, then try to delete this zone again, otherwise your site will become inaccessible."
 msgstr "Δεν μπορείτε να καταργήσετε αυτή τη ζώνη DNS, επειδή εξακολουθεί να χρησιμοποιείται. Ενημερώστε τους διακομιστές ονομάτων του domain και, στη συνέχεια, δοκιμάστε να διαγράψετε ξανά αυτή τη ζώνη, διαφορετικά ο ιστότοπός σας θα καταστεί μη προσβάσιμος."
 
-#: src/error.cls.php:238
+#: src/error.cls.php:227
 msgid "Unknown error"
 msgstr "Άγνωστο σφάλμα"
 
@@ -1028,7 +1009,6 @@ msgstr "Cloudflare"
 #: src/gui.cls.php:945
 #: src/lang.cls.php:131
 #: tpl/dash/dashboard.tpl.php:60
-#: tpl/dash/dashboard.tpl.php:569
 #: tpl/toolbox/purge.tpl.php:55
 msgid "Object Cache"
 msgstr "Προσωρινή μνήμη αντικειμένων"
@@ -1247,12 +1227,10 @@ msgid "Images ready to request"
 msgstr "Εικόνες έτοιμες για αίτητηση"
 
 #: src/lang.cls.php:32
-#: tpl/dash/dashboard.tpl.php:517
 msgid "Images requested"
 msgstr "Ζητημένες εικόνες"
 
 #: src/lang.cls.php:33
-#: tpl/dash/dashboard.tpl.php:526
 msgid "Images notified to pull"
 msgstr "Εικόνες με ειδοποίηση για λήψη"
 
@@ -1280,7 +1258,6 @@ msgstr "Ενεργοποίηση προσωρινής μνήμης"
 
 #: src/lang.cls.php:109
 #: tpl/dash/dashboard.tpl.php:61
-#: tpl/dash/dashboard.tpl.php:570
 #: tpl/presets/standard.tpl.php:21
 msgid "Browser Cache"
 msgstr "Κρυφή μνήμη προγράμματος περιήγησης"
@@ -2449,48 +2426,44 @@ msgstr "Όταν απενεργοποιείτε την προσω ρινή μν�
 msgid "The network admin setting can be overridden here."
 msgstr "Η ρύθμιση του διαχειριστή δικτύου μπορεί να παρακαμφθεί εδώ."
 
-#: tpl/cache/settings-cache.tpl.php:49
-msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
-msgstr "Με ενεργοποιημένο το QUIC.cloud CDN, ενδέχεται να εξακολουθείτε να βλέπετε κεφαλίδες προσωρινής μνήμης από τον τοπικό σας διακομιστή."
-
-#: tpl/cache/settings-cache.tpl.php:63
+#: tpl/cache/settings-cache.tpl.php:60
 #, php-format
 msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
 msgstr "Αποθήκευση σε ιδιωτική κρυφία σελίδων frontend για συνδεδεμένους χρήστες. (Απαιτείται LSWS %s)"
 
-#: tpl/cache/settings-cache.tpl.php:76
+#: tpl/cache/settings-cache.tpl.php:73
 #, php-format
 msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
 msgstr "Αποθήκευση σχολiaστών με εκκρεμή σχόλια σε ιδιωτική κρυφία. Η απενεργοποίηση αυτής της επιλογής θα προβάλει μη προσωρινά αποθηκευμένες σελίδες στους σχολιαστές. (Απαιτείται το LSWS %s)"
 
-#: tpl/cache/settings-cache.tpl.php:89
+#: tpl/cache/settings-cache.tpl.php:86
 msgid "Cache requests made by WordPress REST API calls."
 msgstr "Αποθήκευση στη μνήμη cache των αιτημάτων που γίνονται από κλήσεις του WordPress REST API."
 
-#: tpl/cache/settings-cache.tpl.php:102
+#: tpl/cache/settings-cache.tpl.php:99
 msgid "Disabling this option may negatively affect performance."
 msgstr "Η απενεργοποίηση αυτής της επιλογής ενδέχεται να επηρεάσει αρνητικά την απόδοση."
 
-#: tpl/cache/settings-cache.tpl.php:119
+#: tpl/cache/settings-cache.tpl.php:116
 msgid "URI Paths containing these strings will NOT be cached as public."
 msgstr "Τα μονοπάτια URI που περιέχουν αυτές τις συμβολοσειρές ΔΕΝ θα αποθηκευτούν προσωρινά ως δημόσια."
 
-#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:130
 msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
 msgstr "Οι διαδρομές που περιέχουν αυτές τις συμβολοσειρές θα αποθηκεύονται στην κρυφά μνήμη ανεξάρτητα από τις ρυθμίσεις μη αποθήκευσης στη μνήμη cache."
 
-#: tpl/cache/settings-cache.tpl.php:136
-#: tpl/cache/settings-cache.tpl.php:161
+#: tpl/cache/settings-cache.tpl.php:133
+#: tpl/cache/settings-cache.tpl.php:158
 msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
 msgstr "Για να ορίσετε ένα προσαρμοσμένο TTL για ένα URI, προσθέστε ένα διάστημα ακολουθούμενο από την τιμή TTL στο τέλος του URI."
 
-#: tpl/cache/settings-cache.tpl.php:139
-#: tpl/cache/settings-cache.tpl.php:164
+#: tpl/cache/settings-cache.tpl.php:136
+#: tpl/cache/settings-cache.tpl.php:161
 #, php-format
 msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
 msgstr "Για παράδειγμα, το %1$s ορίζει TTL %2$s δευτερολέπτων για το %3$s."
 
-#: tpl/cache/settings-cache.tpl.php:158
+#: tpl/cache/settings-cache.tpl.php:155
 msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
 msgstr "Οι διαδρομές που περιέχουν αυτές τις συμβολοσειρές θα εξαναγκάζονται σε δημόσια προσωρινή αποθήκευση, ανεξάρτητα από τις ρυθμίσεις μη αποθήκευσης στη μνήμη cache."
 
@@ -2535,8 +2508,8 @@ msgid "WARNING"
 msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ"
 
 #: tpl/cache/settings-esi.tpl.php:46
-msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
-msgstr "Αυτές οι επιλογές είναι διαθέσιμες μόνο με το LiteSpeed Enterprise Web Server ή το QUIC.cloud CDN."
+msgid "These options are only available with LiteSpeed Enterprise Web Server."
+msgstr "Αυτές οι επιλογές είναι διαθέσιμες μόνο με τον LiteSpeed Enterprise Web Server."
 
 #: tpl/cache/settings-esi.tpl.php:59
 msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
@@ -3156,13 +3129,13 @@ msgstr "Ρυθμίσεις CDN"
 
 #: tpl/cdn/other.tpl.php:44
 #, php-format
-msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
-msgstr "Ενεργοποιήστε αυτή τη ρύθμιση %s εάν χρησιμοποιείτε ένα παραδοσιακό Content Delivery Network (CDN) ή ένα υποδόomain για στατικό περιεχόμενο με το QUIC.cloud CDN."
+msgid "Turn this setting %s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content."
+msgstr "Ενεργοποιήστε αυτή τη ρύθμιση %s εάν χρησιμοποιείτε ένα παραδοσιακό Δίκτυο Παράδοσης Περιεχομένου (CDN) ή ένα υποdomain για στατικό περιεχόμενο."
 
 #: tpl/cdn/other.tpl.php:52
 #, php-format
-msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are only using QUIC.cloud or Cloudflare, leave this setting %s."
-msgstr "ΣΗΜΕΙΩΣΗ: Το QUIC.cloud CDN και το Cloudflare δεν χρησιμοποιούν αντιστοίχιση CDN. Εάν χρησιμοποιείτε μόνο το QUIC.cloud ή το Cloudflare, αφήστε αυτήν τη ρύθμιση %s."
+msgid "NOTE: Cloudflare does not use CDN Mapping. If you are only using Cloudflare, leave this setting %s."
+msgstr "ΣΗΜΕΙΩΣΗ: Το Cloudflare δεν χρησιμοποιεί αντιστοίχιση CDN. Εάν χρησιμοποιείτε μόνο το Cloudflare, αφήστε αυτήν τη ρύθμιση %s."
 
 #: tpl/cdn/other.tpl.php:80
 msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
@@ -3332,7 +3305,6 @@ msgstr "Αστοχία προσωρινής μνήμης"
 
 #: tpl/crawler/map.tpl.php:77
 #: tpl/dash/dashboard.tpl.php:80
-#: tpl/dash/dashboard.tpl.php:765
 msgid "Crawler Status"
 msgstr "Κατάσταση Crawler"
 
@@ -3379,6 +3351,12 @@ msgstr "Για να ανιχνεύσετε τον ιστότοπο ως συνδ
 #, php-format
 msgid "You must set %s before using this feature."
 msgstr "Πρέπει να ορίσετε το %s πριν χρησιμοποιήσετε αυτή τη λειτουργία."
+
+#: tpl/crawler/settings.tpl.php:123
+#: tpl/crawler/settings.tpl.php:144
+#: tpl/crawler/summary.tpl.php:218
+msgid "Click here to set."
+msgstr "Κάντε κλικ εδώ για ρύθμιση."
 
 #: tpl/crawler/settings.tpl.php:136
 #, php-format
@@ -3437,7 +3415,6 @@ msgstr "Χρόνος εκτέλεσης για τον προηγούμενο α�
 
 #: tpl/crawler/summary.tpl.php:104
 #: tpl/dash/dashboard.tpl.php:91
-#: tpl/dash/dashboard.tpl.php:776
 msgid "Current crawler started at"
 msgstr "Η τρέχουσα σάρωση ξεκίνησε στις"
 
@@ -3447,13 +3424,11 @@ msgstr "Τρέχων φόρτος διακομιστή"
 
 #: tpl/crawler/summary.tpl.php:116
 #: tpl/dash/dashboard.tpl.php:97
-#: tpl/dash/dashboard.tpl.php:782
 msgid "Last interval"
 msgstr "Τελευταίο διάστημα"
 
 #: tpl/crawler/summary.tpl.php:123
 #: tpl/dash/dashboard.tpl.php:103
-#: tpl/dash/dashboard.tpl.php:788
 msgid "Ended reason"
 msgstr "Αιτία λήξης"
 
@@ -3553,340 +3528,42 @@ msgid "No crawler meta file generated yet"
 msgstr "Δεν έχει δημιουργηθεί ακόμη αρχείο μεταδεδομένων ανιχνευτή"
 
 #: tpl/dash/dashboard.tpl.php:53
-#: tpl/dash/dashboard.tpl.php:562
 msgid "Cache Status"
 msgstr "Κατάσταση κaché"
 
 #: tpl/dash/dashboard.tpl.php:54
 #: tpl/dash/dashboard.tpl.php:81
-#: tpl/dash/dashboard.tpl.php:486
-#: tpl/dash/dashboard.tpl.php:563
-#: tpl/dash/dashboard.tpl.php:590
-#: tpl/dash/dashboard.tpl.php:634
-#: tpl/dash/dashboard.tpl.php:678
-#: tpl/dash/dashboard.tpl.php:722
-#: tpl/dash/dashboard.tpl.php:766
-#: tpl/dash/dashboard.tpl.php:813
 msgid "More"
 msgstr "Περισσότερα"
 
 #: tpl/dash/dashboard.tpl.php:58
-#: tpl/dash/dashboard.tpl.php:567
 msgid "Public Cache"
 msgstr "Δημόσια Προσωρινή Μνήμη"
 
 #: tpl/dash/dashboard.tpl.php:59
-#: tpl/dash/dashboard.tpl.php:568
 msgid "Private Cache"
 msgstr "Ιδιωτική Cache"
 
 #: tpl/dash/dashboard.tpl.php:84
-#: tpl/dash/dashboard.tpl.php:769
 msgid "Crawler(s)"
 msgstr "Ερπετό/ά crawler"
 
 #: tpl/dash/dashboard.tpl.php:87
-#: tpl/dash/dashboard.tpl.php:772
 msgid "Currently active crawler"
 msgstr "Τρέχον ενεργό πρόγραμμα ανίχνευσης"
 
 #: tpl/dash/dashboard.tpl.php:111
-#: tpl/dash/dashboard.tpl.php:796
 #, php-format
 msgid "%1$s %2$d item(s)"
 msgstr "%1$s %2$d στοιχείο(-α)"
 
 #: tpl/dash/dashboard.tpl.php:112
-#: tpl/dash/dashboard.tpl.php:797
 msgid "Last crawled:"
 msgstr "Τελευταία ανίχνευση:"
 
 #: tpl/dash/dashboard.tpl.php:128
-#: tpl/dash/dashboard.tpl.php:873
 msgid "News"
 msgstr "Νέα"
-
-#: tpl/dash/dashboard.tpl.php:145
-msgid "QUIC.cloud Service Usage Statistics"
-msgstr "Στατιστικά χρήσης υπηρεσίας QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:147
-msgid "Refresh Usage"
-msgstr "Ανανέωση χρήσης"
-
-#: tpl/dash/dashboard.tpl.php:148
-msgid "Sync data from Cloud"
-msgstr "Συγχρονισμός δεδομένων από το Cloud"
-
-#: tpl/dash/dashboard.tpl.php:159
-#, php-format
-msgid "The features below are provided by %s"
-msgstr "Οι παρακάτω δυνατότητες παρέχονται από το %s"
-
-#: tpl/dash/dashboard.tpl.php:171
-#: tpl/dash/network_dash.tpl.php:38
-msgid "CDN Bandwidth"
-msgstr "Εύρος ζώνης CDN"
-
-#: tpl/dash/dashboard.tpl.php:172
-#: tpl/dash/dashboard.tpl.php:677
-#: tpl/dash/network_dash.tpl.php:39
-msgid "Low Quality Image Placeholder"
-msgstr "Δείγμα θέσης εικόνας χαμηλής ποιότητας"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Fast Queue Usage"
-msgstr "Χρήση γρήγορης ουράς"
-
-#: tpl/dash/dashboard.tpl.php:224
-#: tpl/dash/network_dash.tpl.php:95
-msgid "Usage"
-msgstr "Χρήση"
-
-#: tpl/dash/dashboard.tpl.php:236
-#: tpl/dash/network_dash.tpl.php:108
-msgid "PAYG Balance"
-msgstr "Υπόλοιπο PAYG"
-
-#: tpl/dash/dashboard.tpl.php:237
-#, php-format
-msgid "PAYG used this month: %s. PAYG balance and usage not included in above quota calculation."
-msgstr "Χρεώσεις ανά χρήση (PAYG) αυτόν τον μήνα: %s. Το υπόλοιπο και η χρήση PAYG δεν περιλαμβάνονται στον παραπάνω υπολογισμό ορίου."
-
-#: tpl/dash/dashboard.tpl.php:239
-#: tpl/dash/network_dash.tpl.php:111
-msgid "Pay as You Go Usage Statistics"
-msgstr "Στατιστικά χρήσης με χρέωση ανάλογα με τη χρήση"
-
-#: tpl/dash/dashboard.tpl.php:257
-#: tpl/dash/network_dash.tpl.php:118
-msgid "Total Usage"
-msgstr "Σuvoλική Χρήση"
-
-#: tpl/dash/dashboard.tpl.php:258
-#: tpl/dash/network_dash.tpl.php:119
-msgid "Total images optimized in this month"
-msgstr "Συνολικές εικόνες που βελτιστοποιήθηκαν αυτόν τον μήνα"
-
-#: tpl/dash/dashboard.tpl.php:266
-msgid "Remaining Daily Quota"
-msgstr "Εναπομείναν Ημερήσιο Όριο"
-
-#: tpl/dash/dashboard.tpl.php:276
-msgid "Partner Benefits Provided by"
-msgstr "Προνομιακές παροχές συνεργατών από"
-
-#: tpl/dash/dashboard.tpl.php:312
-msgid "Enable QUIC.cloud Services"
-msgstr "Ενεργοποίηση υπηρεσιών QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:319
-msgid "Go to QUIC.cloud dashboard"
-msgstr "Μετάβαση στον πίνακα ελέγχου του QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:325
-msgid "Link to QUIC.cloud"
-msgstr "Σύνδεση με το QUIC.cloud"
-
-#: tpl/dash/dashboard.tpl.php:340
-msgid "Page Load Time"
-msgstr "Χρόνος Φόρτωσης Σελίδας"
-
-#: tpl/dash/dashboard.tpl.php:347
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-#, php-format
-msgid "Current closest Cloud server is %s. Click to redetect."
-msgstr "Ο τρέχων πλησιέστερος διακομιστής Cloud είναι ο %s. Κάντε κλικ για επαναπροσδιορισμό."
-
-#: tpl/dash/dashboard.tpl.php:348
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Are you sure you want to redetect the closest cloud server for this service?"
-msgstr "Είστε σίγουροι ότι θέλετε να εντοπίσετε ξανά τον πλησιέστερο διακομιστή cloud για αυτήν την υπηρεσία;"
-
-#: tpl/dash/dashboard.tpl.php:350
-#: tpl/img_optm/summary.tpl.php:54
-#: tpl/img_optm/summary.tpl.php:56
-#: tpl/page_optm/settings_css.tpl.php:111
-#: tpl/page_optm/settings_css.tpl.php:248
-#: tpl/page_optm/settings_media.tpl.php:194
-#: tpl/page_optm/settings_vpi.tpl.php:59
-msgid "Redetect"
-msgstr "Επανανίχνευση"
-
-#: tpl/dash/dashboard.tpl.php:360
-#: tpl/dash/dashboard.tpl.php:436
-msgid "Before"
-msgstr "Πριν"
-
-#: tpl/dash/dashboard.tpl.php:368
-#: tpl/dash/dashboard.tpl.php:444
-msgid "After"
-msgstr "Μετά"
-
-#: tpl/dash/dashboard.tpl.php:376
-#: tpl/dash/dashboard.tpl.php:452
-msgid "Improved by"
-msgstr "Βελτιώθηκε από"
-
-#: tpl/dash/dashboard.tpl.php:384
-msgid "You must be using one of the following products in order to measure Page Load Time:"
-msgstr "Πρέπει να χρησιμοποιείτε ένα από τα ακόλουθα προϊόντα προκειμένου να μετρήσετε τον Χρόνο Φόρτωσης Σελίδας:"
-
-#: tpl/dash/dashboard.tpl.php:385
-msgid "LiteSpeed Web Server"
-msgstr "LiteSpeed Web Server"
-
-#: tpl/dash/dashboard.tpl.php:387
-msgid "OpenLiteSpeed Web Server"
-msgstr "Διακομιστής Ιστού OpenLiteSpeed"
-
-#: tpl/dash/dashboard.tpl.php:389
-msgid "LiteSpeed Web ADC"
-msgstr "LiteSpeed Web ADC"
-
-#: tpl/dash/dashboard.tpl.php:391
-#: tpl/dash/dashboard.tpl.php:809
-msgid "QUIC.cloud CDN"
-msgstr "QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:403
-#: tpl/dash/dashboard.tpl.php:468
-#, php-format
-msgid "Requested: %s ago"
-msgstr "Ζητήθηκε: πριν από %s"
-
-#: tpl/dash/dashboard.tpl.php:411
-#: tpl/dash/dashboard.tpl.php:476
-msgid "Refresh"
-msgstr "Ανανέωση"
-
-#: tpl/dash/dashboard.tpl.php:412
-msgid "Refresh page load time"
-msgstr "Ανανέωση χρόνου φόρτωσης σελίδας"
-
-#: tpl/dash/dashboard.tpl.php:421
-msgid "PageSpeed Score"
-msgstr "Βαθμολογία PageSpeed"
-
-#: tpl/dash/dashboard.tpl.php:477
-msgid "Refresh page score"
-msgstr "Ανανέωση βαθμολογίας σελίδας"
-
-#: tpl/dash/dashboard.tpl.php:485
-#: tpl/img_optm/entry.tpl.php:16
-msgid "Image Optimization Summary"
-msgstr "Σύνοψη Βελτιστοποίησης Εικόνων"
-
-#: tpl/dash/dashboard.tpl.php:502
-#: tpl/img_optm/summary.tpl.php:76
-#: tpl/img_optm/summary.tpl.php:89
-msgid "Send Optimization Request"
-msgstr "Αποστολή αίτησης βελτιστοποίησης"
-
-#: tpl/dash/dashboard.tpl.php:508
-#: tpl/img_optm/summary.tpl.php:316
-msgid "Total Reduction"
-msgstr "Συνολική Μείωση"
-
-#: tpl/dash/dashboard.tpl.php:511
-#: tpl/img_optm/summary.tpl.php:319
-msgid "Images Pulled"
-msgstr "Ληφθείσες εικόνες"
-
-#: tpl/dash/dashboard.tpl.php:534
-#: tpl/img_optm/summary.tpl.php:322
-msgid "Last Request"
-msgstr "Τελευταία Αίτηση"
-
-#: tpl/dash/dashboard.tpl.php:537
-msgid "Last Pull"
-msgstr "Τελευταίο Pull"
-
-#: tpl/dash/dashboard.tpl.php:589
-#: tpl/toolbox/purge.tpl.php:73
-msgid "Critical CSS"
-msgstr "Κρίσιμη CSS"
-
-#: tpl/dash/dashboard.tpl.php:596
-#: tpl/dash/dashboard.tpl.php:640
-#: tpl/dash/dashboard.tpl.php:684
-#: tpl/dash/dashboard.tpl.php:728
-#, php-format
-msgid "Last generated: %s"
-msgstr "Τελευταία δημιουργία: %s"
-
-#: tpl/dash/dashboard.tpl.php:604
-#: tpl/dash/dashboard.tpl.php:648
-#: tpl/dash/dashboard.tpl.php:692
-#: tpl/dash/dashboard.tpl.php:736
-#, php-format
-msgid "Time to execute previous request: %s"
-msgstr "Χρόνος εκτέλεσης προηγούμενου αιτήματος: %s"
-
-#: tpl/dash/dashboard.tpl.php:611
-#: tpl/dash/dashboard.tpl.php:655
-#: tpl/dash/dashboard.tpl.php:699
-#: tpl/dash/dashboard.tpl.php:743
-msgid "Requests in queue"
-msgstr "Αιτήματα σε ουρά"
-
-#: tpl/dash/dashboard.tpl.php:614
-#: tpl/dash/dashboard.tpl.php:658
-#: tpl/dash/dashboard.tpl.php:702
-#: tpl/dash/dashboard.tpl.php:746
-msgid "Force cron"
-msgstr "Εξαναγκασμός cron"
-
-#: tpl/dash/dashboard.tpl.php:622
-#: tpl/dash/dashboard.tpl.php:666
-#: tpl/dash/dashboard.tpl.php:710
-#: tpl/dash/dashboard.tpl.php:754
-#, php-format
-msgid "Last requested: %s"
-msgstr "Τελευταία αίτηση: %s"
-
-#: tpl/dash/dashboard.tpl.php:633
-#: tpl/toolbox/purge.tpl.php:82
-msgid "Unique CSS"
-msgstr "Μοναδικό CSS"
-
-#: tpl/dash/dashboard.tpl.php:721
-msgid "Viewport Image"
-msgstr "Εικόνα Viewport"
-
-#: tpl/dash/dashboard.tpl.php:822
-msgid "Enable QUIC.cloud CDN"
-msgstr "Ενεργοποίηση του QUIC.cloud CDN"
-
-#: tpl/dash/dashboard.tpl.php:829
-msgid "Best available WordPress performance"
-msgstr "Η καλύτερη δυνατή απόδοση για το WordPress"
-
-#: tpl/dash/dashboard.tpl.php:834
-#, php-format
-msgid "Globally fast TTFB, easy setup, and %s!"
-msgstr "Παγκοσμίως γρήγορο TTFB, εύκολη εγκατάσταση και %s!"
-
-#: tpl/dash/dashboard.tpl.php:835
-msgid "more"
-msgstr "περισσότερα"
-
-#: tpl/dash/dashboard.tpl.php:851
-msgid "Refresh Status"
-msgstr "Ανανέωση κατάστασης"
-
-#: tpl/dash/dashboard.tpl.php:852
-msgid "Refresh QUIC.cloud status"
-msgstr "Ανανέωση κατάστασης QUIC.cloud"
 
 #: tpl/dash/entry.tpl.php:21
 msgid "Network Dashboard"
@@ -3901,14 +3578,46 @@ msgstr "Πίνακας ελέγχου Zinn® Cache Engine"
 msgid "Usage Statistics: %s"
 msgstr "Στατιστικά Χρήσης: %s"
 
+#: tpl/dash/network_dash.tpl.php:38
+msgid "CDN Bandwidth"
+msgstr "Εύρος ζώνης CDN"
+
+#: tpl/dash/network_dash.tpl.php:39
+msgid "Low Quality Image Placeholder"
+msgstr "Δείγμα θέσης εικόνας χαμηλής ποιότητας"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Fast Queue Usage"
+msgstr "Χρήση γρήγορης ουράς"
+
+#: tpl/dash/network_dash.tpl.php:95
+msgid "Usage"
+msgstr "Χρήση"
+
 #: tpl/dash/network_dash.tpl.php:107
 msgid "Pay as You Go"
 msgstr "Πληρωμή ανάλογα με τη χρήση"
+
+#: tpl/dash/network_dash.tpl.php:108
+msgid "PAYG Balance"
+msgstr "Υπόλοιπο PAYG"
 
 #: tpl/dash/network_dash.tpl.php:109
 #, php-format
 msgid "This Month Usage: %s"
 msgstr "Χρήση αυτού του μήνα: %s"
+
+#: tpl/dash/network_dash.tpl.php:111
+msgid "Pay as You Go Usage Statistics"
+msgstr "Στατιστικά χρήσης με χρέωση ανάλογα με τη χρήση"
+
+#: tpl/dash/network_dash.tpl.php:118
+msgid "Total Usage"
+msgstr "Σuvoλική Χρήση"
+
+#: tpl/dash/network_dash.tpl.php:119
+msgid "Total images optimized in this month"
+msgstr "Συνολικές εικόνες που βελτιστοποιήθηκαν αυτόν τον μήνα"
 
 #: tpl/db_optm/entry.tpl.php:17
 #: tpl/db_optm/settings.tpl.php:19
@@ -4131,58 +3840,53 @@ msgstr "Αυτή η επιλογή ενεργοποιεί τη μέγιστη β
 msgid "Please read all warnings before enabling this option."
 msgstr "Παρακαλώ διαβάστε όλες τις προειδοποιήσεις πριν ενεργοποιήσετε αυτήν την επιλογή."
 
-#: tpl/general/settings.tpl.php:64
-#, php-format
-msgid "Your %1$s quota on %2$s will still be in use."
-msgstr "Το όριο %1$s σας στο %2$s θα εξακολουθεί να χρησιμοποιείται."
-
-#: tpl/general/settings.tpl.php:72
-#: tpl/general/settings.tpl.php:79
-#: tpl/general/settings.tpl.php:86
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:71
+#: tpl/general/settings.tpl.php:78
+#: tpl/general/settings.tpl.php:85
+#: tpl/general/settings.tpl.php:102
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 msgid "Notice"
 msgstr "Ειδοποίηση"
 
-#: tpl/general/settings.tpl.php:72
+#: tpl/general/settings.tpl.php:71
 #: tpl/page_optm/settings_media.tpl.php:253
 #: tpl/page_optm/settings_vpi.tpl.php:44
 #, php-format
 msgid "%s must be turned ON for this setting to work."
 msgstr "Το %s πρέπει να είναι ΕΝΕΡΓΟΠΟΙΗΜΕΝΟ για να λειτουργήσει αυτή η ρύθμιση."
 
-#: tpl/general/settings.tpl.php:79
+#: tpl/general/settings.tpl.php:78
 #, php-format
 msgid "You need to turn %s on to get maximum result."
 msgstr "Πρέπει να ενεργοποιήσετε το %s για να έχετε το μέγιστο αποτέλεσμα."
 
-#: tpl/general/settings.tpl.php:86
+#: tpl/general/settings.tpl.php:85
 #, php-format
 msgid "You need to turn %s on and finish all WebP generation to get maximum result."
 msgstr "Πρέπει να ενεργοποιήσετε το %s και να ολοκληρώσετε όλη τη δημιουργία WebP για να έχετε το μέγιστο αποτέλεσμα."
 
-#: tpl/general/settings.tpl.php:101
+#: tpl/general/settings.tpl.php:100
 msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
 msgstr "Εισάγετε τη διεύθυνση IP αυτού του ιστότοπου για να επιτρέψετε στις υπηρεσίες cloud να καλούν απευθείας την IP αντί για το όνομα τομέα. Αυτό εξαλείφει την επιβάρυνση των αναζητήσεων DNS και CDN."
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Your server IP"
 msgstr "Η IP του διακομιστή σας"
 
-#: tpl/general/settings.tpl.php:102
+#: tpl/general/settings.tpl.php:101
 msgid "Check my public IP from"
 msgstr "Έλεγχος της δημόσιας IP μου από"
 
-#: tpl/general/settings.tpl.php:103
+#: tpl/general/settings.tpl.php:102
 msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
 msgstr "η αυτόματα ανιχνευμένη IP ενδέχεται να μην είναι ακριβής εσείς έχετε ορίσει μια επιπλέον εξερχόμενη IP ή έχετε διαμορφώσει πολλαπλές IP στον διακομιστή σας."
 
-#: tpl/general/settings.tpl.php:104
+#: tpl/general/settings.tpl.php:103
 msgid "Please make sure this IP is the correct one for visiting your site."
 msgstr "Βεβαιωθείτε ότι αυτή η IP είναι η σωστή για την επίσκεψη στον ιστότοπό σας."
 
-#: tpl/general/settings.tpl.php:119
+#: tpl/general/settings.tpl.php:118
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
 msgstr "Ενεργοποιήστε αυτήν την επιλογή για να εμφανίζονται αυτόματα τα τελευταία νέα, συμπεριλαμβανομένων διορθώσεων σφαλμάτων, νέων κυκλοφοριών, διαθέσιμων εκδόσεων beta και προσφορών."
 
@@ -4232,6 +3936,10 @@ msgstr "Επιτυχής συγχρονισμός."
 msgid "Sync failed."
 msgstr "Η συγχρονισμός απέτυχε."
 
+#: tpl/img_optm/entry.tpl.php:16
+msgid "Image Optimization Summary"
+msgstr "Σύνοψη Βελτιστοποίησης Εικόνων"
+
 #: tpl/img_optm/entry.tpl.php:17
 #: tpl/img_optm/entry.tpl.php:22
 #: tpl/img_optm/network_settings.tpl.php:19
@@ -4254,20 +3962,15 @@ msgstr "Βελτιώστε σημαντικά τον χρόνο φόρτωσης
 
 #: tpl/img_optm/settings.media_webp.tpl.php:31
 #, php-format
-msgid "%1$s is a %2$s paid feature."
-msgstr "Το %1$s είναι μια επί πληρωμή λειτουργία %2$s."
-
-#: tpl/img_optm/settings.media_webp.tpl.php:34
-#, php-format
 msgid "When switching formats, please %1$s or %2$s to apply this new choice to previously optimized images."
 msgstr "Όταν αλλάζετε μορφές, παρακαλώ %1$s ή %2$s για να εφαρμόσετε αυτή τη νέα επιλογή σε εικόνες που έχουν βελτιστοποιηθεί προηγουμένως."
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:378
 msgid "Destroy All Optimization Data"
 msgstr "Καταστροφή όλων των δεδομένων βελτιστοποίησης"
 
-#: tpl/img_optm/settings.media_webp.tpl.php:34
+#: tpl/img_optm/settings.media_webp.tpl.php:31
 #: tpl/img_optm/summary.tpl.php:368
 msgid "Soft Reset Optimization Counter"
 msgstr "Μετρητής Βελτιστοποίησης Μαλακής Επαναφοράς"
@@ -4328,9 +4031,35 @@ msgstr "Καθορίστε ποια χαρακτηριστικά στοιχεί�
 msgid "Enable replacement of WebP/AVIF in %s elements that were generated outside of WordPress logic."
 msgstr "Ενεργοποίηση αντικατάκτησης WebP/AVIF σε στοιχεία %s που δημιουργήθηκαν εκτός της λογικής του WordPress."
 
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+#, php-format
+msgid "Current closest Cloud server is %s. Click to redetect."
+msgstr "Ο τρέχων πλησιέστερος διακομιστής Cloud είναι ο %s. Κάντε κλικ για επαναπροσδιορισμό."
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "Είστε σίγουροι ότι θέλετε να εντοπίσετε ξανά τον πλησιέστερο διακομιστή cloud για αυτήν την υπηρεσία;"
+
+#: tpl/img_optm/summary.tpl.php:54
+#: tpl/img_optm/summary.tpl.php:56
+#: tpl/page_optm/settings_css.tpl.php:111
+#: tpl/page_optm/settings_css.tpl.php:248
+#: tpl/page_optm/settings_media.tpl.php:194
+#: tpl/page_optm/settings_vpi.tpl.php:59
+msgid "Redetect"
+msgstr "Επανανίχνευση"
+
 #: tpl/img_optm/summary.tpl.php:58
-msgid "Optimize images with our QUIC.cloud server"
-msgstr "Βελτιστοποιήστε τις εικόνες με τον διακομιστή μας QUIC.cloud"
+msgid "Image optimisation"
+msgstr "Βελτιστοποίηση εικόνας"
 
 #: tpl/img_optm/summary.tpl.php:63
 #, php-format
@@ -4344,6 +4073,11 @@ msgstr "Για να διασφαλίσουμε ότι ο διακομιστής 
 #: tpl/img_optm/summary.tpl.php:69
 msgid "Current limit is"
 msgstr "Το τρέχον όριο είναι"
+
+#: tpl/img_optm/summary.tpl.php:76
+#: tpl/img_optm/summary.tpl.php:89
+msgid "Send Optimization Request"
+msgstr "Αποστολή αίτησης βελτιστοποίησης"
 
 #: tpl/img_optm/summary.tpl.php:77
 #: tpl/page_optm/settings_css.tpl.php:156
@@ -4370,8 +4104,8 @@ msgid "Optimization Status"
 msgstr "Κατάσταση βελτιστοποίησης"
 
 #: tpl/img_optm/summary.tpl.php:141
-msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
-msgstr "Αφού ο διακομιστής βελτιστοποίησης εικόνας QUIC.cloud ολοκληρώσει τη βελτιστοποίηση, θα ειδοποιήσει τον ιστότοπό σας να τραβήξει τις βελτιστοποιημένες εικόνες."
+msgid "When the optimisation server finishes, it notifies your site to pull the optimised images."
+msgstr "Όταν ο διακομιστής βελτιστοποίησης ολοκληρώσει τη διαδικασία, ειδοποιεί τον ιστότοπό σας να τραβήξει τις βελτιστοποιημένες εικόνες."
 
 #: tpl/img_optm/summary.tpl.php:142
 msgid "This process is automatic."
@@ -4473,6 +4207,18 @@ msgstr "Σάρωση Νέων Μικρογραφιών"
 msgid "Optimization Summary"
 msgstr "Σύνοψη Βελτιστοποίησης"
 
+#: tpl/img_optm/summary.tpl.php:316
+msgid "Total Reduction"
+msgstr "Συνολική Μείωση"
+
+#: tpl/img_optm/summary.tpl.php:319
+msgid "Images Pulled"
+msgstr "Ληφθείσες εικόνες"
+
+#: tpl/img_optm/summary.tpl.php:322
+msgid "Last Request"
+msgstr "Τελευταία Αίτηση"
+
 #: tpl/img_optm/summary.tpl.php:325
 msgid "Last Pulled"
 msgstr "Τελευταία ανάκτηση"
@@ -4520,26 +4266,21 @@ msgstr "Είστε βέβαιοι ότι θέλετε να καταστρέψε�
 msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
 msgstr "Κατάργηση όλων των προηγούμενων αιτημάτων/αποτελεσμάτων βελτιστοποίησης εικόνων, επαναφορά των ολοκληρωμένων βελτιστοποιήσεων και διαγραφή όλων των αρχείων βελτιστοποίησης."
 
-#: tpl/inc/admin_footer.php:17
-#, php-format
-msgid "Rate %1$s on %2$s"
-msgstr "Αξιολογήστε το %1$s στο %2$s"
+#: tpl/inc/admin_footer.php:16
+msgid "Read the upstream Zinn® Cache Engine documentation"
+msgstr "Διαβάστε την τεκμηρίωση του upstream Zinn® Cache Engine"
 
 #: tpl/inc/admin_footer.php:19
-msgid "Read LiteSpeed Documentation"
-msgstr "Διαβάστε την τεκμηρίωση του LiteSpeed"
+msgid "Zinn Digital® support"
+msgstr "Υποστήριξη Zinn Digital®"
 
-#: tpl/inc/admin_footer.php:21
-msgid "Visit LSCWP support forum"
-msgstr "Επισκεφθείτε το φόρουμ υποστήριξης του LSCWP"
-
-#: tpl/inc/admin_footer.php:23
-msgid "Join LiteSpeed Slack community"
-msgstr "Συμμετοχή στην κοινότητα Slack του LiteSpeed"
+#: tpl/inc/admin_footer.php:22
+msgid "Zinn® Cache Engine user guide"
+msgstr "Οδηγός χρήσης του Zinn® Cache Engine"
 
 #: tpl/inc/check_cache_disabled.php:20
-msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
-msgstr "Για να χρησιμοποιήσετε τις λειτουργίες προσωρινής αποθήκευσης, πρέπει να διαθέτετε διακομιστή web LiteSpeed ή να χρησιμοποιείτε το QUIC.cloud CDN."
+msgid "To use the caching functions you must have a LiteSpeed or OpenLiteSpeed web server with the LSCache module."
+msgstr "Για να χρησιμοποιήσετε τις λειτουργίες προσωρινής αποθήκευσης (caching), πρέπει να διαθέτετε διακομιστή ιστού LiteSpeed ή OpenLiteSpeed με το πρόσθετο LSCache."
 
 #: tpl/inc/check_cache_disabled.php:25
 msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
@@ -4752,8 +4493,8 @@ msgid "How to Fix Problems Caused by CSS/JS Optimization."
 msgstr "Πώς να διορθώσετε προβλήματα που προκαλούνται από τη βελτιστοποίηση CSS/JS."
 
 #: tpl/page_optm/settings_css.tpl.php:82
-msgid "Use QUIC.cloud online service to generate unique CSS."
-msgstr "Χρησιμοποιήστε την online υπηρεσία QUIC.cloud για τη δημιουργία μοναδικού CSS."
+msgid "Generate unique CSS through an online generation service."
+msgstr "Δημιουργήστε μοναδικό CSS μέσω μιας διαδικτυακής υπηρεσίας δημιουργίας."
 
 #: tpl/page_optm/settings_css.tpl.php:83
 msgid "This will drop the unused CSS on each page from the combined file."
@@ -4835,8 +4576,8 @@ msgid "This can improve your speed score in services like Pingdom, GTmetrix and 
 msgstr "Αυτό μπορεί να βελτιώσει τη βαθμολογία ταχύτητάς σας σε υπηρεσίες όπως το Pingdom, το GTmetrix και το PageSpeed."
 
 #: tpl/page_optm/settings_css.tpl.php:217
-msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
-msgstr "Χρησιμοποιήστε την ηλεκτρονική υπηρεσία QUIC.cloud για να δημιουργήσετε κρίσιμο CSS και να φορτώσετε το υπόλοιπο CSS ασύγχρονα."
+msgid "Generate critical CSS through an online generation service and load the remaining CSS asynchronously."
+msgstr "Δημιουργήστε κρίσιμη CSS μέσω μιας ηλεκτρονικής υπηρεσίας δημιουργίας και φορτώστε την υπόλοιπη CSS ασύγχρονα."
 
 #: tpl/page_optm/settings_css.tpl.php:219
 msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
@@ -5116,8 +4857,8 @@ msgid "Specify the responsive placeholder SVG color."
 msgstr "Καθορίστε το χρώμα SVG του δυναμικού (responsive) σύμβολου κράτησης θέσης (placeholder)."
 
 #: tpl/page_optm/settings_media.tpl.php:122
-msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
-msgstr "Χρησιμοποιήστε την υπηρεσία γεννήτριας LQIP (Low Quality Image Placeholder) του QUIC.cloud για προεπισ εικόνων χαμηλής ποιότητας κατά τη φόρτωση."
+msgid "Generate Low Quality Image Placeholders through an online generation service, for responsive image previews while loading."
+msgstr "Δημιουργήστε σύμβολα κρατήσεως εικόνων χαμηλής ποιότητας μέσω μιας διαδικτυακής υπηρεσίας δημιουργίας, για προεπισκοπήσεις αποκριτικών εικόνων κατά τη φόρτωση."
 
 #: tpl/page_optm/settings_media.tpl.php:123
 msgid "Keep this off to use plain color placeholders."
@@ -5392,8 +5133,8 @@ msgid "This no-risk preset is appropriate for all websites. Good for new users, 
 msgstr "Αυτή η προεπιλογή χωρίς ρίσκο είναι κατάλληλη για όλους τους ιστότοπους. Ιδανική για νέους χρήστες, απλούς ιστότοπους ή ανάπτυξη που βασίζεται στην προσωρινή μνήμη (cache)."
 
 #: tpl/presets/standard.tpl.php:25
-msgid "A QUIC.cloud connection is not required to use this preset. Only basic caching features are enabled."
-msgstr "Δεν απαιτείται σύνδεση QUIC.cloud για τη χρήση αυτού του προκαθορισμένου προφίλ. Ενεργοποιούνται μόνο βασικές λειτουργίες προσωisικής αποθήκευσης."
+msgid "Only basic caching features are enabled. Every option in this preset works without any online service."
+msgstr "Ενεργοποιούνται μόνο οι βασικές λειτουργίες προσωρινής αποθήκευσης. Κάθε επιλογή σε αυτήν την προκαθορισμένη ρύθμιση λειτουργεί χωρίς καμία ηλεκτρονική υπηρεσία."
 
 #: tpl/presets/standard.tpl.php:29
 #: tpl/toolbox/settings-debug.tpl.php:117
@@ -5413,8 +5154,8 @@ msgid "This low-risk preset introduces basic optimizations for speed and user ex
 msgstr "Αυτή η προεπιλογή χαμηλού κινδύνου εισάγει βασικές βελτιστοποιήσεις για την ταχύτητα και την εμπειρία χρήστη. Κατάλληλο για ενθουσιώδεις αρχάριους."
 
 #: tpl/presets/standard.tpl.php:37
-msgid "A QUIC.cloud connection is required to use this preset. Includes optimizations known to improve site score in page speed measurement tools."
-msgstr "Απαιτείται σύνδεση στο QUIC.cloud για τη χρήση αυτού του προκαθορισμένου προφίλ. Περιλαμβάνει βελτιστοποιήσεις που είναι γνωστό ότι βελτιώνουν τη βαθμολογία του ιστότοπου σε εργαλεία μέτρησης ταχύτητας σελίδας."
+msgid "Includes optimizations known to improve site score in page speed measurement tools. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Περιλαμβάνει βελτιστοποιήσεις που είναι γνωστό ότι βελτιώνουν τη βαθμολογία του ιστότοπου σε εργαλεία μέτρησης ταχύτητας σελίδας. Ορισμένες από αυτές απαιτούν μια υπηρεσία δημιουργίας στο διαδίκτυο, η οποία δεν περιλαμβάνεται σε αυτό το πρόσθετο, και αυτές δεν έχουν κανένα αποτέλεσμα."
 
 #: tpl/presets/standard.tpl.php:41
 msgid "Advanced (Recommended)"
@@ -5450,8 +5191,8 @@ msgstr "Αυτή η προεπιλογή είναι κατάλληλη για τ
 
 #: tpl/presets/standard.tpl.php:56
 #: tpl/presets/standard.tpl.php:70
-msgid "A QUIC.cloud connection is required to use this preset. Includes many optimizations known to improve page speed scores."
-msgstr "Απαιτείται σύνδεση QUIC.cloud για τη χρήση αυτής της προεπιλογής. Περιλαμβάνει πολλές βελτιστοποιήσεις που είναι γνωστό ότι βελτιώνουν τις βαθμολογίες ταχύτητας σελίδας."
+msgid "Includes many optimizations known to improve page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Περιλαμβάνει πολλές βελτιστοποιήσεις που είναι γνωστό ότι βελτιώνουν τις βαθμολογίες ταχύτητας σελίδας. Ορισμένες από αυτές απαιτούν μια υπηρεσία δημιουργίας στο διαδίκτυο, η οποία δεν περιλαμβάνεται σε αυτό το πρόσθετο, και αυτές δεν έχουν καμία επίδραση."
 
 #: tpl/presets/standard.tpl.php:60
 msgid "Aggressive"
@@ -5514,8 +5255,8 @@ msgid "This preset almost certainly will require testing and exclusions for some
 msgstr "Αυτή η προεπιλογή σχεδόν σίγουρα θα απαιτήσει δοκιμές και εξαιρέσεις για ορισμένα αρχεία CSS, JS και εικόνες με φόρτωση κατά ζήτηση (Lazy Loaded). Δώστε ιδιαίτερη προσοχή σε λογότυπα ή σε εικόνες slider που βασίζονται σε HTML."
 
 #: tpl/presets/standard.tpl.php:85
-msgid "A QUIC.cloud connection is required to use this preset. Enables the maximum level of optimizations for improved page speed scores."
-msgstr "Απαιτείται σύνδεση QUIC.cloud για τη χρήση αυτού του προεπιλεγμένου προφίλ. Ενεργοποιεί το μέγιστο επίπεδο βελτιστοποιήσεων για βελτιωμένες βαθμολογίες ταχύτητας σελίδας."
+msgid "Enables the maximum level of optimizations for improved page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
+msgstr "Ενεργοποιεί το μέγιστο επίπεδο βελτιστοποιήσεων για βελτιωμένες βαθμολογίες ταχύτητας σελίδας. Ορισμένες από αυτές απαιτούν μια ηλεκτρονική υπηρεσία δημιουργίας, η οποία δεν περιλαμβάνεται σε αυτό το πρόσθετο, και αυτές δεν έχουν καμία επίδραση."
 
 #: tpl/presets/standard.tpl.php:92
 msgid "Zinn® Cache Engine Standard Presets"
@@ -5802,9 +5543,17 @@ msgstr "Εκκαθάριση όλων των κacher αντικειμένων"
 msgid "Reset the entire opcode cache"
 msgstr "Επαναφορά ολόκληρης της κachάρ μνήμης opcode"
 
+#: tpl/toolbox/purge.tpl.php:73
+msgid "Critical CSS"
+msgstr "Κρίσιμη CSS"
+
 #: tpl/toolbox/purge.tpl.php:74
 msgid "This will delete all generated critical CSS files"
 msgstr "Αυτό θα διαγράψει όλα τα δημιουργημένα κρίσιμα αρχεία CSS"
+
+#: tpl/toolbox/purge.tpl.php:82
+msgid "Unique CSS"
+msgstr "Μοναδικό CSS"
 
 #: tpl/toolbox/purge.tpl.php:83
 msgid "This will delete all generated unique CSS files"

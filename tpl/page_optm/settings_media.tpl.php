@@ -119,7 +119,7 @@ $scaled_size = apply_filters( 'big_image_size_threshold', 2560, [], '', 0 ) . 'p
 				<?php $this->build_switch( $option_id ); ?>
 				<?php Doc::maybe_on_by_gm( $option_id ); ?>
 				<div class="litespeed-desc">
-					<?php esc_html_e( 'Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading.', 'zinn-cache-pro' ); ?>
+					<?php esc_html_e( 'Generate Low Quality Image Placeholders through an online generation service, for responsive image previews while loading.', 'zinn-cache-pro' ); ?>
 					<br /><?php esc_html_e( 'Keep this off to use plain color placeholders.', 'zinn-cache-pro' ); ?>
 					<?php Doc::learn_more( 'https://docs.litespeedtech.com/lscache/lscwp/pageopt/#lqip-cloud-generator' ); ?>
 				</div>
