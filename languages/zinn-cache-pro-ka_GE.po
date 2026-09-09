@@ -14,6 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
+#: zinn/bootstrap.php:346
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -4058,6 +4059,7 @@ msgid "Redetect"
 msgstr "ხელახლა აღმოჩენა"
 
 #: tpl/img_optm/summary.tpl.php:58
+#: zinn/bootstrap.php:358
 msgid "Image optimisation"
 msgstr "სურათების ოპტიმიზაცია"
 
@@ -5441,6 +5443,7 @@ msgid "Import Settings"
 msgstr "პარამეტრების იმპორტი"
 
 #: tpl/toolbox/import_export.tpl.php:48
+#: zinn/class-zinn-cache-pro-admin-ui.php:912
 msgid "Import"
 msgstr "იმპორტი"
 
@@ -5736,6 +5739,56 @@ msgstr "აღკვეთეთ ჩამოთვლილი გვერდ�
 msgid "Prevent writing log entries that include listed strings."
 msgstr "აღკვეთეთ ისეთი ჟურნალის ჩანაწერების ჩწერა, რომლებიც შეიცავს ჩამოთვლილ სტრიქონებს."
 
+#: zinn/bootstrap.php:263
+msgid "Cache Engine"
+msgstr "ქეშის ძრავა"
+
+#: zinn/bootstrap.php:269
+#: zinn/bootstrap.php:276
+#: zinn/class-zinn-cache-pro-admin-ui.php:279
+msgid "Overview"
+msgstr "მიმოხილვა"
+
+#: zinn/bootstrap.php:306
+msgid "Web server"
+msgstr "ვებ-სერვერი"
+
+#: zinn/bootstrap.php:307
+msgid "not reported"
+msgstr "არ არის მოხსენებული"
+
+#: zinn/bootstrap.php:310
+msgid "Version"
+msgstr "ვერსია"
+
+#: zinn/bootstrap.php:318
+msgid "This server is not running LiteSpeed."
+msgstr "ეს სერვერი არ უშვებს LiteSpeed."
+
+#: zinn/bootstrap.php:319
+msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
+msgstr "აქ ყველაფერი სხვა მუშაობს — სურათების ოპტიმიზაცია, მონაცემთა ბაზის გამწმენდი, CDN — მაგრამ სრული გვერდის ქეშირებას ვებ სერვერზე ესაჭიროება LiteSpeed, ამიტომ გვერდები არ ქეშირდება. ჰკითხეთ თქვენს ჰოსტინგ პროვაიდერს, ხელმისაწვდომია თუ არა LiteSpeed, ან გადავიდეთ Zinn® ჰოსტინგზე, სადაც ის სტანდარტულია."
+
+#: zinn/bootstrap.php:321
+msgid "See Zinn® hosting"
+msgstr "იხილეთ Zinn® ჰოსტინგი"
+
+#: zinn/bootstrap.php:330
+msgid "LiteSpeed is running and full-page caching is available."
+msgstr "LiteSpeed მუშაობს და სრულგვერდიანი ქეშირება ხელმისაწვდომია."
+
+#: zinn/bootstrap.php:348
+msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
+msgstr "ძრავის საკუთარი პარამეტრები — ქეშირება, სურათების ოპტიმიზაცია, მონაცემთა ბაზის გამწმენდი, ქროულერი და CDN — მისსავე მენიუშია. ეს ეკრანი შეიცავს იმას, რასაც Zinn Digital® ამატებს: სტატუსს ზემოთ, ანგარიშს, რომელიც შეგიძლიათ გაუგზავნოთ მხარდაჭერის ჯგუფს, და საერთო იმპორტსა და ექსპორტს."
+
+#: zinn/bootstrap.php:352
+msgid "Open the cache engine settings"
+msgstr "ქეშის ძრავის პარამეტრების გახსნა"
+
+#: zinn/bootstrap.php:355
+msgid "Cache settings"
+msgstr "ქეშის პარამეტრები"
+
 #: zinn/class-updater.php:230
 msgid "See the Zinn Digital® release notes."
 msgstr "იხილეთ Zinn Digital®-ის გამოშვების შენიშვნები."
@@ -5743,6 +5796,243 @@ msgstr "იხილეთ Zinn Digital®-ის გამოშვების 
 #: zinn/class-updater.php:285
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ჩამოტვირთული განახლება ვერ გაიარა მთლიანობის შემოწმება და არ დაინსტალირდა."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "შენახულია. ჩაწერეთ ახალი მნიშვნელობა მის ჩასანაცვლებლად."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "სიაში ფილტრის გამოყენება…"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:636
+msgid "Filter this list"
+msgstr "სიის ფილტრაცია"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "ამ ფილტრს არაფერი ემთხვევა."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:683
+msgid "Add a row"
+msgstr "სტრიქონის დამატება"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove this row"
+msgstr "ამ რიგის წაშლა"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove"
+msgstr "წაშლა"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:264
+#: zinn/class-zinn-cache-pro-admin-ui.php:265
+#: zinn/class-zinn-cache-pro-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — მიმოხილვა"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "ამ საიტზე არსებული ყველა Zinn® პლაგინი და მუშაობს თუ არა ის."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "ამ პლაგინისთვის კავშირი საჭირო არ არის."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:357
+msgid "Open settings"
+msgstr "პარამეტრების გახსნა"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:685
+#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "თქვენ არ გაქვთ ამ პარამეტრების შეცვლის უფლება."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:715
+msgid "Settings sections"
+msgstr "პარამეტრების განყოფილებები"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:788
+msgid "Support"
+msgstr "მხარდაჭერა"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:846
+msgid "Save changes"
+msgstr "ცვლილებების შენახვა"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:875
+msgid "Tools"
+msgstr "ხელსაწყოები"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:890
+msgid "Export settings"
+msgstr "პარამეტრების ექსპორტი"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "ნაგულისხმევზე დაბრუნება"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "ეს დააბრუნებს ამ პლაგინის ყველა პარამეტრს საწყის მდგომარეობაში. გსურთ გაგრძელება?"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "დიაგნოსტიკა მხარდაჭერისთვის"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "პარამეტრების ფაილის იმპორტი"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "ექსპორტირებული ფაილები არასდროს შეიცავს პაროლებს, ტოკენებს ან API გასაღებებს — ისინი ახალ საიტზე ხელახლა უნდა შეიყვანოთ."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "პარამეტრები შენახულია."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "ამ მოდულის ყველა პარამეტრი დაბრუნდა საწყის მნიშვნელობაზე."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+msgid "Done."
+msgstr "დასრულებულია."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "ეს ქმედება მიუწვდომელია."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "ეს ფაილი ვერ იკითხება. აირჩიეთ Zinn® პლაგინიდან ექსპორტირებული პარამეტრების ფაილი."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "ეს ფაილი ძალიან დიდია პარამეტრების ექსპორტისთვის."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "ეს ფაილი არ არის Zinn® პარამეტრების ექსპორტი."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "ეს ფაილი ექსპორტირებულია სხვა მოდულიდან (%s), ამიტომ მისი აქ იმპორტი შეინახავს პარამეტრებს, რომლებსაც ეს მოდული ვერ იცნობს."
+
+#. translators: %d: how many settings were imported.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d პარამეტრი იმპორტირებულია. პაროლები და API გასაღებები ექსპორტში არ შედის, ამიტომ ისინი ხელახლა შეიყვანეთ."
+msgstr[1] "%d პარამეტრი იმპორტირებულია. პაროლები და API გასაღებები არასოდეს შედის ექსპორტში, ამიტომ თავიდან შეიყვანეთ ისინი."
+
+#: zinn/class-zinn-cache-pro-connection.php:58
+msgid "Connected"
+msgstr "დაკავშირებულია"
+
+#: zinn/class-zinn-cache-pro-connection.php:60
+msgid "Connecting…"
+msgstr "დაკავშირება..."
+
+#: zinn/class-zinn-cache-pro-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "დაკავშირებულია, მაგრამ რაღაც ყურადღებას საჭიროებს"
+
+#: zinn/class-zinn-cache-pro-connection.php:64
+msgid "Not connected"
+msgstr "არ არის დაკავშირებული"
+
+#: zinn/class-zinn-cache-pro-connection.php:66
+msgid "Running on your own account"
+msgstr "თქვენი საკუთari ანგარიშით მუშაობა"
+
+#: zinn/class-zinn-cache-pro-connection.php:68
+msgid "We could not check this"
+msgstr "ამის შემოწმება ვერ მოხერხდა"
+
+#: zinn/class-zinn-cache-pro-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "ამ პლაგინმა მიზეზი არ მიუთითა. გამოაგზავნეთ დიაგნოსტიკური ანგარიში და ჩვენ შევამოწმებთ."
+
+#: zinn/class-zinn-cache-pro-connection.php:161
+msgid "Connection status"
+msgstr "კავშირის სტატუსი"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: zinn/class-zinn-cache-pro-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "ბოლო შემოწმებიდან გავიდა %s."
+
+#: zinn/class-zinn-cache-pro-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(იხსნება ახალ ჩანართში)"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "გაგზავნეთ ეს Zinn®-ის მხარდაჭერის ჯგუფთან"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "ზუსტად ეს გაიგზავნება — მეტი არაფერი და არაფერი დამალული. თქვენი პაროლები, ტოკენები და API გასაღებები მასში არ არის."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "დიაგნოსტიკური ანგარიში, რომელიც გაიგზავნება"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "ბუფერში კოპირება"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "გაუგზავნეთ ეს ანგარიში Zinn®-ის მხარდაჭერის ჯგუფს"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "ჩვენ ვხსნიან მხარდაჭერის თთიქეთს თქვენთვის და გპასუხობთ ელფოსტით. თუ გირჩევნიათ არ გაგზავნოთ, გადააკოპირეთ ზემოთ და თავად ჩასვით თიქეთში."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:228
+msgid "Copied"
+msgstr "კოპირებულია"
+
+#. translators: %s: the transport error reported by WordPress.
+#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "ამ სერვერიდან (%s) Zinn Digital®-თან დაკავშირება ვერ მოხერხდა. გადაიღეთ ზემოთ მოცემული ანგარიში და მის ნაცვლად გახსენით თიქეთი — თქვენს პარამეტრებში არაფერია არასწორი."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "გაგზავნილია. Zinn® მხარდაჭერის ჯგუფმა მიიღო თქვენი შეტყობინება და ელფოსტით გიპასუხებთ."
+
+#. translators: %s: the support reference for the report just sent.
+#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "გაგზავნილია. Zinn®-ის მხარდაჭერის გუნდმა მიიღო თქვენი შეტყობინება — მითითება %s — და ელფოსტით გიპასუხებთ."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "თქვენ მოკლე დროში რამდენიმე ანგარიში გაგზავნეთ. დაიცადეთ რამდენიმე წუთი და სცადეთ თავიდან — წინა შეტყობინებები მივიდა."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital®-მა ვერ მიიღო ანგარიში ამ წუთს — ეს ჩვენი ბრალია და არა თქვენი. სცადეთ მალევე ხელახლა, ან გადააკოპირეთ ზემოთ მოცემული ანგარიში თიქეთში."
+
+#. translators: %d: the HTTP status code the server returned.
+#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "ანგარიში უარყოფილია (HTTP %d). დააკოპირეთ იგი ზემოთ და გახსენით თიქეთი, მიუთითეთ ეს ნომერი."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: zinn/class-zinn-cache-pro-promo.php:241
@@ -5788,3 +6078,19 @@ msgstr "Zinn Hub® — დაიქირავეთ ადამიანე�
 #: zinn/class-zinn-cache-pro-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ჩვენი გლობალური ფრილანსერების ბაზარი: დაათვალიერეთ 10 000-ზე მეტი მზა სერვისი მწერლების, დიზაინერების, დეველოპერებისა და SEO სპეციალისტებისგან, ან გამოქვეყნეთ პროექტი და მისცეს მათ განაცხადის შეტანის საშუალება."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:109
+msgid "Style preset"
+msgstr "სტილის წინასწარ დაყენებული პარამეტრი"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "საწყისი წერტილი. მის ქვემოთ არსებული ყველაფერი გადაფარავს მას."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "გამოიყენეთ ჩემი საკუთარი ფერები და ზომები"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "ეს გამორთეთ და პრესეტი ზუსტად ისე გამოყენებული იქნება, როგორც არის."

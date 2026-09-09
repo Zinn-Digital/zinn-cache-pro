@@ -14,6 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
+#: zinn/bootstrap.php:346
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -4058,6 +4059,7 @@ msgid "Redetect"
 msgstr "재감지"
 
 #: tpl/img_optm/summary.tpl.php:58
+#: zinn/bootstrap.php:358
 msgid "Image optimisation"
 msgstr "이미지 최적화"
 
@@ -5441,6 +5443,7 @@ msgid "Import Settings"
 msgstr "설정 가져오기"
 
 #: tpl/toolbox/import_export.tpl.php:48
+#: zinn/class-zinn-cache-pro-admin-ui.php:912
 msgid "Import"
 msgstr "가져오기"
 
@@ -5736,6 +5739,56 @@ msgstr "지정된 페이지의 디버그 로그가 기록되지 않도록 방지
 msgid "Prevent writing log entries that include listed strings."
 msgstr "나열된 문자열이 포함된 로그 항목의 기록을 방지합니다."
 
+#: zinn/bootstrap.php:263
+msgid "Cache Engine"
+msgstr "캐시 엔진"
+
+#: zinn/bootstrap.php:269
+#: zinn/bootstrap.php:276
+#: zinn/class-zinn-cache-pro-admin-ui.php:279
+msgid "Overview"
+msgstr "개요"
+
+#: zinn/bootstrap.php:306
+msgid "Web server"
+msgstr "웹 서버"
+
+#: zinn/bootstrap.php:307
+msgid "not reported"
+msgstr "보고되지 않음"
+
+#: zinn/bootstrap.php:310
+msgid "Version"
+msgstr "버전"
+
+#: zinn/bootstrap.php:318
+msgid "This server is not running LiteSpeed."
+msgstr "이 서버는 LiteSpeed를 실행하고 있지 않습니다."
+
+#: zinn/bootstrap.php:319
+msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
+msgstr "이미지 최적화, 데이터베이스 정리 도구, CDN을 비롯한 나머지 기능은 모두 정상 작동하지만, 풀페이지 캐싱에는 웹 서버에 LiteSpeed가 필요하므로 페이지가 캐시되지 않고 있습니다. 호스팅 제공업체에 LiteSpeed 사용 가능 여부를 문의하시거나, 기본으로 제공되는 Zinn® 호스팅으로 이전하세요."
+
+#: zinn/bootstrap.php:321
+msgid "See Zinn® hosting"
+msgstr "Zinn® 호스팅 보기"
+
+#: zinn/bootstrap.php:330
+msgid "LiteSpeed is running and full-page caching is available."
+msgstr "LiteSpeed가 실행 중이며 전체 페이지 캐싱을 사용할 수 있습니다."
+
+#: zinn/bootstrap.php:348
+msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
+msgstr "이 엔진의 자체 설정(캐싱, 이미지 최적화, 데이터베이스 정리 기능, 크롤러, CDN)은 자체 메뉴에 있습니다. 이 화면에는 Zinn Digital®이 추가한 항목(상단의 상태, 지원팀에 보낼 수 있는 보고서, 공유 가져오기 및 내보내기)이 표시됩니다."
+
+#: zinn/bootstrap.php:352
+msgid "Open the cache engine settings"
+msgstr "캐시 엔진 설정 열기"
+
+#: zinn/bootstrap.php:355
+msgid "Cache settings"
+msgstr "캐시 설정"
+
 #: zinn/class-updater.php:230
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® 릴리스 노트를 확인하세요."
@@ -5743,6 +5796,242 @@ msgstr "Zinn Digital® 릴리스 노트를 확인하세요."
 #: zinn/class-updater.php:285
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "다운로드한 업데이트가 무결성 검사를 통과하지 못해 설치되지 않았습니다."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "저장되었습니다. 새 값을 입력하여 교체하세요."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "이 목록 필터링…"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:636
+msgid "Filter this list"
+msgstr "이 목록 필터링"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "해당 필터와 일치하는 항목이 없습니다."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:683
+msgid "Add a row"
+msgstr "행 추가"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove this row"
+msgstr "이 행 제거"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove"
+msgstr "제거"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:264
+#: zinn/class-zinn-cache-pro-admin-ui.php:265
+#: zinn/class-zinn-cache-pro-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — 개요"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "이 사이트의 모든 Zinn® 플러그인과 그 작동 여부."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "이 플러그인에는 인터넷 연결이 필요하지 않습니다."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:357
+msgid "Open settings"
+msgstr "설정 열기"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:685
+#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "이 설정을 변경할 권한이 없습니다."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:715
+msgid "Settings sections"
+msgstr "설정 섹션"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:788
+msgid "Support"
+msgstr "고객지원"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:846
+msgid "Save changes"
+msgstr "변경 사항 저장"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:875
+msgid "Tools"
+msgstr "도구"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:890
+msgid "Export settings"
+msgstr "설정 내보내기"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "기본값으로 재설정"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "이 플러그인의 모든 설정이 기본값으로 재설정됩니다. 계속하시겠습니까?"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "지원 진단"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "설정 파일 가져오기"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "내보낸 파일에는 비밀번호, 토큰 또는 API 키가 포함되지 않으므로 새 사이트에서 다시 입력해야 합니다."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "설정이 저장되었습니다."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "이 플러그인의 모든 설정이 기본값으로 재설정되었습니다."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+msgid "Done."
+msgstr "완료되었습니다."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "해당 작업은 사용할 수 없습니다."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "해당 파일을 읽을 수 없습니다. Zinn® 플러그인에서 내보낸 설정 파일을 선택하세요."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "해당 파일이 너무 커서 설정 내보내기 파일일 수 없습니다."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "해당 파일은 Zinn® 설정 내보내기 파일이 아닙니다."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "해당 파일은 다른 플러그인(%s)에서 내보낸 것이므로, 여기로 가져오면 이 플러그인이 이해하지 못하는 설정이 저장됩니다."
+
+#. translators: %d: how many settings were imported.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d개의 설정이 가져와졌습니다. 비밀번호와 API 키는 내보내기에 포함되지 않으므로 다시 입력해 주세요."
+
+#: zinn/class-zinn-cache-pro-connection.php:58
+msgid "Connected"
+msgstr "연결됨"
+
+#: zinn/class-zinn-cache-pro-connection.php:60
+msgid "Connecting…"
+msgstr "연결 중…"
+
+#: zinn/class-zinn-cache-pro-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "연결되었으나 조치가 필요합니다"
+
+#: zinn/class-zinn-cache-pro-connection.php:64
+msgid "Not connected"
+msgstr "연결되지 않음"
+
+#: zinn/class-zinn-cache-pro-connection.php:66
+msgid "Running on your own account"
+msgstr "내 계정으로 실행 중"
+
+#: zinn/class-zinn-cache-pro-connection.php:68
+msgid "We could not check this"
+msgstr "확인할 수 없습니다"
+
+#: zinn/class-zinn-cache-pro-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "이 플러그인에 원인이 명시되지 않았습니다. 진단 보고서를 보내주시면 확인해 드리겠습니다."
+
+#: zinn/class-zinn-cache-pro-connection.php:161
+msgid "Connection status"
+msgstr "연결 상태"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: zinn/class-zinn-cache-pro-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "%s 전 최종 확인됨."
+
+#: zinn/class-zinn-cache-pro-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(새 탭에서 열림)"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Zinn® 지원팀으로 보내기"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "이것이 정확히 전송되는 내용이며, 다른 내용이나 숨겨진 내용은 없습니다. 비밀번호, 토큰, API 키는 포함되지 않습니다."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "전송될 진단 보고서"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "클립보드에 복사"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Zinn® 지원팀에 이 보고서 보내기"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "고객님을 위해 지원 티켓을 생성하고 이메일로 답변해 드립니다. 이 내용을 보내지 않으려면 위 내용을 복사하여 직접 티켓에 붙여넣으세요."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:228
+msgid "Copied"
+msgstr "복사됨"
+
+#. translators: %s: the transport error reported by WordPress.
+#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "이 서버(%s)에서 Zinn Digital®에 연결할 수 없습니다. 위의 보고서를 복사하여 대신 티켓을 접수해 주세요. 설정에는 아무런 문제가 없습니다."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Zinn® 지원팀에서 회원님의 신고를 접수했으며 이메일로 답변해 드리겠습니다."
+
+#. translators: %s: the support reference for the report just sent.
+#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Zinn® 지원팀에서 회원님의 신고를 접수했으며(참조 번호: %s), 이메일로 답변을 드릴 예정입니다."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "짧은 시간에 너무 많은 신고를 보냈습니다. 잠시 기다린 후 다시 시도해 주세요. 이전 신고는 정상적으로 접수되었습니다."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital®에서 지금 보고서를 수락하지 못했습니다. 고객님의 문제가 아니라 저희 쪽 문제입니다. 잠시 후 다시 시도하시거나, 위의 보고서를 티켓에 복사해 주세요."
+
+#. translators: %d: the HTTP status code the server returned.
+#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "보고서가 거부되었습니다 (HTTP %d). 위 내용을 복사하여 해당 번호를 인용하고 티켓을 열어주세요."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: zinn/class-zinn-cache-pro-promo.php:241
@@ -5788,3 +6077,19 @@ msgstr "Zinn Hub® — 전문적으로 이 일을 하는 전문가 고용하기"
 #: zinn/class-zinn-cache-pro-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "전 세계 프리랜서 마켓플레이스: 작가, 디자이너, 개발자, SEO 전문가가 제공하는 10,000개 이상의 기성 서비스를 둘러보거나 프로젝트를 등록하고 입찰을 받아보세요."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:109
+msgid "Style preset"
+msgstr "스타일 사전 설정"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "시작점입니다. 그 아래의 모든 내용은 이를 재정의합니다."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "내 색상 및 크기 사용"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "이 설정을 해제하면 프리셋이 있는 그대로 사용됩니다."

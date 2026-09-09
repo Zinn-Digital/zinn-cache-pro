@@ -14,6 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
+#: zinn/bootstrap.php:346
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -4058,6 +4059,7 @@ msgid "Redetect"
 msgstr "រកឃើញឡើងវិញ"
 
 #: tpl/img_optm/summary.tpl.php:58
+#: zinn/bootstrap.php:358
 msgid "Image optimisation"
 msgstr "ការបង្កើនប្រសិទ្ធភាពរូបភាព"
 
@@ -5441,6 +5443,7 @@ msgid "Import Settings"
 msgstr "នាំចូលការកំណត់"
 
 #: tpl/toolbox/import_export.tpl.php:48
+#: zinn/class-zinn-cache-pro-admin-ui.php:912
 msgid "Import"
 msgstr "នាំចូល"
 
@@ -5736,6 +5739,56 @@ msgstr "ទប់ស្កាត់កំណត់ហេតុបំបាត់
 msgid "Prevent writing log entries that include listed strings."
 msgstr "ការពារការសរសេរកំណត់ហេតុដែលមានខ្សែអក្សរដែលបានរាយបញ្ជី។"
 
+#: zinn/bootstrap.php:263
+msgid "Cache Engine"
+msgstr "ឃ្លាំងសម្ងាត់ម៉ាស៊ីន"
+
+#: zinn/bootstrap.php:269
+#: zinn/bootstrap.php:276
+#: zinn/class-zinn-cache-pro-admin-ui.php:279
+msgid "Overview"
+msgstr "ទិដ្ឋភាពទូទៅ"
+
+#: zinn/bootstrap.php:306
+msgid "Web server"
+msgstr "សើវើបណ្តាញតាំងពិព័រណ៍"
+
+#: zinn/bootstrap.php:307
+msgid "not reported"
+msgstr "មិនទាន់បានរាយការណ៍"
+
+#: zinn/bootstrap.php:310
+msgid "Version"
+msgstr "កំណែ"
+
+#: zinn/bootstrap.php:318
+msgid "This server is not running LiteSpeed."
+msgstr "ម៉ាស៊ីនបម្រើនេះមិនកំពុងដំណើរការ LiteSpeed ទេ។"
+
+#: zinn/bootstrap.php:319
+msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
+msgstr "អ្វីៗផ្សេងទៀតនៅទីនេះដំណើរការ—ការបង្កើនប្រសិទ្ធភាពរូបភាព ការសម្អាតមូលដ្ឋានទិន្នន័យ CDN—ប៉ុន្តែការផ្ទុកទំព័រពេញក្នុងឃ្លាំងសម្ងាត់ទាមទារ LiteSpeed នៅលើម៉ាស៊ីនបម្រើបណ្តាញ ដូច្នេះទំព័រនានាមិនត្រូវបានផ្ទុកក្នុងឃ្លាំងសម្ងាត់ទេ។ សូមសួរអ្នកផ្តល់សេវាបង្ហោះរបស់អ្នកថាតើ LiteSpeed មាន ឬប្ដូរទៅកាន់ការបង្ហោះ Zinn® ដែលជាកន្លែងវាជាស្តង់ដារ។"
+
+#: zinn/bootstrap.php:321
+msgid "See Zinn® hosting"
+msgstr "មើលការបង្ហោះគេហទំព័រ Zinn®"
+
+#: zinn/bootstrap.php:330
+msgid "LiteSpeed is running and full-page caching is available."
+msgstr "LiteSpeed កំពុងដំណើរការ ហើយការដាក់ឃ្លាំងសម្ងាត់ទំព័រពេញគឺអាចប្រើប្រាស់បាន។"
+
+#: zinn/bootstrap.php:348
+msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
+msgstr "ការកំណត់របស់ម៉ាស៊ីនផ្ទាល់ — ការដាក់ឃ្លាំងសម្ងាត់ ការធ្វើឱ្យប្រសើរឡើងនូវរូបភាព កម្មវិធីសម្អាតមូលដ្ឋានទិន្នន័យ កម្មវិធីវារគេហទំព័រ និង CDN — ស្ថិតនៅលើមីនុយរបស់វាផ្ទាល់។ អេក្រង់នេះមានផ្ទុកនូវអ្វីដែល Zinn Digital® បន្ថែម៖ ស្ថានភាពខាងលើ របាយការណ៍ដែលអ្នកអាចផ្ញើទៅកាន់ផ្នែកជំនួយ និងការនាំចូលនិងនាំចេញដែលបានចែករំលែក។"
+
+#: zinn/bootstrap.php:352
+msgid "Open the cache engine settings"
+msgstr "បើកការកំណត់ម៉ាស៊ីនឃ្លាំងសម្ងាត់"
+
+#: zinn/bootstrap.php:355
+msgid "Cache settings"
+msgstr "ការកំណត់ឃ្លាំងសម្ងាត់"
+
 #: zinn/class-updater.php:230
 msgid "See the Zinn Digital® release notes."
 msgstr "សូមមើលកំណត់ចំណាំនៃការចេញផ្សាយរបស់ Zinn Digital®។"
@@ -5743,6 +5796,242 @@ msgstr "សូមមើលកំណត់ចំណាំនៃការចេញ
 #: zinn/class-updater.php:285
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ការទាញយកបច្ចុប្បន្នភាពមិនបានឆ្លងកាត់ការត្រួតពិនិត្យភាពត្រឹមត្រូវទេ ហើយត្រូវបានបរាជ័យក្នុងការដំឡើង។"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "បានរក្សាទុក។ សូមបញ្ចូលតម្លៃថ្មីដើម្បីជំនួសវា។"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "តម្រងបញ្ជីនេះ..."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:636
+msgid "Filter this list"
+msgstr "ត្រងបញ្ជីនេះ"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "គ្មានអ្វីដែលត្រូវគ្នាជាមួយតម្រងនោះទេ។"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:683
+msgid "Add a row"
+msgstr "បន្ថែមជួរដេក"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove this row"
+msgstr "លុបជួរនេះចេញ"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove"
+msgstr "លុបចេញ"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:264
+#: zinn/class-zinn-cache-pro-admin-ui.php:265
+#: zinn/class-zinn-cache-pro-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — ទិដ្ឋភាពទូទៅ"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "រាល់ផ្លាកអ៉ិន Zinn® នៅលើគេហទំព័រនេះ និងស្ថានភាពដំណើរការរបស់វា។"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "មិនត្រូវការការតភ្ជាប់សម្រាប់ផ្លកអ៊ិននេះទេ។"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:357
+msgid "Open settings"
+msgstr "បើកការកំណត់"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:685
+#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "អ្នកមិនមានសិទ្ធិផ្លាស់ប្តូរការកំណត់ទាំងនេះទេ។"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:715
+msgid "Settings sections"
+msgstr "ផ្នែកការកំណត់"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:788
+msgid "Support"
+msgstr "ជំនួយ"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:846
+msgid "Save changes"
+msgstr "រក្សាទុកការផ្លាស់ប្តូរ"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:875
+msgid "Tools"
+msgstr "ឧបករណ៍"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:890
+msgid "Export settings"
+msgstr "នាំចេញការកំណត់"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "កំណត់ឡើងវិញជាលំនាំដើម"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "ការ​នេះ​នឹង​កំណត់​រាល់​ការ​កំណត់​ទាំងអស់​នៅ​លើ​កម្មវិធី​ជំនួយ​នេះ​ឡើង​វិញ​ទៅ​ជា​ដើម។ បន្ត​ទៀត​ឬ?"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "ការធ្វើរោគវិនិច្ឆ័យសម្រាប់ជំនួយ"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "នាំចូលឯកសារការកំណត់"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "ឯកសារដែលបាននាំចេញមិនមានពាក្យសម្ងាត់ ថូខឹន ឬគ្រាប់ចុច API ទេ អ្នកនឹងត្រូវបញ្ចូលវាម្ដងទៀតនៅលើគេហទំព័រថ្មី។"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "បានរក្សាទុកការកំណត់។"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "រាល់ការកំណត់នៅលើកម្មវិធីជំនួយនេះត្រូវបានកំណត់ឡើងវិញទៅជាតម្លៃដើមរបស់វា។"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+msgid "Done."
+msgstr "រួចរាល់។"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "សកម្មភាពនោះមិនអាចប្រើប្រាស់បានទេ។"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "មិនអាចអានឯកសារនោះបានទេ។ សូមជ្រើសរើសឯកសារការកំណត់ដែលបាននាំចេញពីកម្មវិធីជំនួយ Zinn®។"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "ឯកសារនោះធំពេកមិនអាចជាការនាំចេញការកំណត់នោះទេ។"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "ឯកសារនោះមិនមែនជាការនាំចេញការកំណត់របស់ Zinn® ទេ។"
+
+#. translators: %s: the plugin slug the file was exported from.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "ឯកសារនោះត្រូវបាននាំចេញពីកម្មវិធីជំនួយផ្សេងទៀត (%s) ដូច្នេះការនាំចូលវានៅទីនេះនឹងរក្សាទុកការកំណត់ដែលកម្មវិធីជំនួយនេះមិនស្គាល់។"
+
+#. translators: %d: how many settings were imported.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "ការកំណត់ %d ត្រូវបាននាំចូល។ ពាក្យសម្ងាត់ និងគ្រាប់ចុច API មិនត្រូវបានរួមបញ្ចូលក្នុងឯកសារនាំចេញទេ ដូច្នេះសូមបញ្ចូលវាម្ដងទៀត។"
+
+#: zinn/class-zinn-cache-pro-connection.php:58
+msgid "Connected"
+msgstr "បានតភ្ជាប់"
+
+#: zinn/class-zinn-cache-pro-connection.php:60
+msgid "Connecting…"
+msgstr "កំពុងតភ្ជាប់..."
+
+#: zinn/class-zinn-cache-pro-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "បានតភ្ជាប់ ប៉ុន្តែមានបញ្ហាដែលត្រូវយកចិត្តទុកដាក់"
+
+#: zinn/class-zinn-cache-pro-connection.php:64
+msgid "Not connected"
+msgstr "មិនទាន់បានតភ្ជាប់"
+
+#: zinn/class-zinn-cache-pro-connection.php:66
+msgid "Running on your own account"
+msgstr "កំពុងដំណើរការនៅលើគណនីផ្ទាល់ខ្លួនរបស់អ្នក"
+
+#: zinn/class-zinn-cache-pro-connection.php:68
+msgid "We could not check this"
+msgstr "យើងមិនអាចពិនិត្យមើលរឿងនេះបានទេ"
+
+#: zinn/class-zinn-cache-pro-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "ប្លកអ៊ិននេះមិនបានបញ្ជាក់ពីមូលហេតុឡើយ។ សូមផ្ញើរបាយការណ៍វិនិច្ឆ័យ ហើយយើងនឹងពិនិត្យមើល។"
+
+#: zinn/class-zinn-cache-pro-connection.php:161
+msgid "Connection status"
+msgstr "ស្ថានភាពការតភ្ជាប់"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: zinn/class-zinn-cache-pro-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "បានពិនិត្យចុងក្រោយកាលពី %s មុន។"
+
+#: zinn/class-zinn-cache-pro-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(បើកក្នុងផ្ទាំងថ្មីមួយទៀត)"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "ផ្ញើការនេះទៅកាន់ផ្នែកជំនួយរបស់ Zinn®"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "នេះជាអ្វីដែលនឹងត្រូវផ្ញើពិតប្រាកដ ដោយគ្មានអ្វីផ្សេងទៀត និងគ្មានអ្វីលាក់បាំងឡើយ។ ពាក្យសម្ងាត់ តូខិន និងគន្លឹះ API របស់អ្នកមិនមាននៅក្នុងនោះទេ។"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "របាយការណ៍រោគវិនិច្ឆ័យដែលនឹងត្រូវផ្ញើ"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "ចម្លងទៅក្ដារតម្កៀបខ្ទាស់"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "ផ្ញើរបាយការណ៍នេះទៅកាន់ផ្នែកជំនួយរបស់ Zinn®"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "យើងបើកសំបុត្រគាំទ្រមួយសម្រាប់អ្នកហើយឆ្លើយតបតាមអ៊ីមែល។ ប្រសិនបើអ្នកមិនចង់ផ្ញើវាទេ សូមចម្លងវាខាងលើហើយបិទភ្ជាប់វាទៅក្នុងសំបុត្រដោយខ្លួនឯង។"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:228
+msgid "Copied"
+msgstr "បានចម្លង"
+
+#. translators: %s: the transport error reported by WordPress.
+#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "យើងមិនអាចទាក់ទង Zinn Digital® ពីម៉ាស៊ីនបម្រើនេះ (%s) បានទេ។ សូមចម្លងរបាយការណ៍ខាងលើ ហើយបើកសំបុត្រសំណួរជំនួសវិញ — គ្មានអ្វីខុសអំពីការកំណត់របស់អ្នកទេ។"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "ការិយាល័យជំនួយរបស់ Zinn® បានទទួលរបាយការណ៍របស់អ្នកហើយ នឹងឆ្លើយតបតាមរយៈអ៊ីមែល។"
+
+#. translators: %s: the support reference for the report just sent.
+#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "ការគាំទ្ររបស់ Zinn® បានទទួលរបាយការណ៍របស់អ្នកហើយ — លេខយោង %s — ហើយនឹងឆ្លើយតបតាមរយៈអ៊ីមែល។"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "អ្នកបានផ្ញើរបាយការណ៍ជាច្រើនក្នុងរយៈពេលដ៏ខ្លី។ សូមរង់ចាំបន្តិចហើយព្យាយាមម្តងទៀត — របាយការណ៍មុនៗបានមកដល់ហើយ។"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® មិនអាចទទួលយករបាយការណ៍នេះបានទេនៅពេលនេះ — នោះគឺជាបញ្ហានៅខាងយើង មិនមែននៅខាងអ្នកទេ។ សូមព្យាយាមម្តងទៀតក្នុងពេលឆាប់ៗនេះ ឬចម្លងរបាយការណ៍ខាងលើដាក់ចូលទៅក្នុងធីខេត (ticket)។"
+
+#. translators: %d: the HTTP status code the server returned.
+#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "របាយការណ៍ត្រូវបានបដិសេធ (HTTP %d)។ សូមចម្លងវាខាងលើ ហើយបើកសំបុត្រគាំទ្រមួយ ដោយដាក់លេខយោងនោះ។"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: zinn/class-zinn-cache-pro-promo.php:241
@@ -5788,3 +6077,19 @@ msgstr "Zinn Hub® — ជewaអ្នកជំនាញដែលធ្វើក
 #: zinn/class-zinn-cache-pro-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ទីផ្សារឯករាជ្យជាសាកលរបស់យើង៖ រកមើលសេវាកម្មដែលត្រៀមរួចជាស្រេចជាង ១០,០០០ ពីអ្នកនិgetWriter អ្នករចនា អ្នកអភិវឌ្ឍន៍ និងអ្នកជំនាញ SEO ឬផុសគម្រោងមួយ ហើយអនុញ្ញាតឱ្យពួកគេដាក់តម្លៃ។"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:109
+msgid "Style preset"
+msgstr "កច្នៃម៉ូដទម្រង់ជាស្រេច"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "ចំណុចចាប់ផ្តើម។ អ្វីៗដែលនៅខាងក្រោមនេះនឹងជំនួសវា។"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "ប្រើពណ៌ និងទំហំផ្ទាល់ខ្លួនរបស់ខ្ញុំ"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "ទុកវាឱ្យបិទ ហើយការកំណត់ជាមុនត្រូវបានប្រើប្រាស់យ៉ាងពិតប្រាកដដូចដែលវាមាន។"

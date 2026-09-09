@@ -14,6 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
+#: zinn/bootstrap.php:346
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -4058,6 +4059,7 @@ msgid "Redetect"
 msgstr "Qayta aniqlash"
 
 #: tpl/img_optm/summary.tpl.php:58
+#: zinn/bootstrap.php:358
 msgid "Image optimisation"
 msgstr "Tasvirni optimallashtirish"
 
@@ -5441,6 +5443,7 @@ msgid "Import Settings"
 msgstr "Sozlamalarni import qilish"
 
 #: tpl/toolbox/import_export.tpl.php:48
+#: zinn/class-zinn-cache-pro-admin-ui.php:912
 msgid "Import"
 msgstr "Import qilish"
 
@@ -5736,6 +5739,56 @@ msgstr "Ko‘rsatilgan sahifalarning har qanday disk raskadrovka jurnalini oldin
 msgid "Prevent writing log entries that include listed strings."
 msgstr "Ko'rsatilgan satrlarni o'z ichiga olgan jurnal yozuvlarini yozishning oldini olish."
 
+#: zinn/bootstrap.php:263
+msgid "Cache Engine"
+msgstr "Kesh mexanizmi"
+
+#: zinn/bootstrap.php:269
+#: zinn/bootstrap.php:276
+#: zinn/class-zinn-cache-pro-admin-ui.php:279
+msgid "Overview"
+msgstr "Umumiy koʻrinish"
+
+#: zinn/bootstrap.php:306
+msgid "Web server"
+msgstr "Veb-server"
+
+#: zinn/bootstrap.php:307
+msgid "not reported"
+msgstr "xabar berilmagan"
+
+#: zinn/bootstrap.php:310
+msgid "Version"
+msgstr "Versiya"
+
+#: zinn/bootstrap.php:318
+msgid "This server is not running LiteSpeed."
+msgstr "Bu serverda LiteSpeed ishlayotgani yo'q."
+
+#: zinn/bootstrap.php:319
+msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
+msgstr "Bu yerdagi hamma narsa ishlaydi — tasvirni optimallashtirish, ma’lumotlar bazasini tozalagich, CDN — ammo to‘liq sahifani keshlash veb-serverda LiteSpeed'ni talab qiladi, shuning uchun sahifalar keshlanmayapti. Hosting provayderingizdan LiteSpeed mavjudligini so‘rang yoki u standart bo‘lgan Zinn® hostingiga o‘ting."
+
+#: zinn/bootstrap.php:321
+msgid "See Zinn® hosting"
+msgstr "Zinn® hosting’ni ko‘rish"
+
+#: zinn/bootstrap.php:330
+msgid "LiteSpeed is running and full-page caching is available."
+msgstr "LiteSpeed ishlamoqda va to‘liq sahifali keshlash mavjud."
+
+#: zinn/bootstrap.php:348
+msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
+msgstr "Dvigatelning o‘z sozlamalari — keshlash, rasmlarni optimizatsiya qilish, ma’lumotlar bazasini tozalagich, skaner va CDN — uning o‘z menyusida joylashgan. Ushbu ekran Zinn Digital® qo‘shadigan narsalarni o‘z ichiga oladi: yuqoridagi holat, qo‘llab-quvvatlash xizmatiga yuborishingiz mumkin bo‘lgan hisobot hamda umumiy import va eksport."
+
+#: zinn/bootstrap.php:352
+msgid "Open the cache engine settings"
+msgstr "Kesh mexanizmi sozlamalarini ochish"
+
+#: zinn/bootstrap.php:355
+msgid "Cache settings"
+msgstr "Kesh sozlamalari"
+
 #: zinn/class-updater.php:230
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® chiqarilish eslatmalariga qarang."
@@ -5743,6 +5796,243 @@ msgstr "Zinn Digital® chiqarilish eslatmalariga qarang."
 #: zinn/class-updater.php:285
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Yuklab olingan yangilanish yaxlitlik tekshiruvidan o'tmadi va o'rnatilmadi."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Saqlangan. Uni almashtirish uchun yangi qiymat kiriting."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Ushbu ro'yxatni filtrlash…"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Ushbu ro'yxatni filtrlash"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Ushbu filtrga hech narsa mos kelmadi."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:683
+msgid "Add a row"
+msgstr "Qator qoʻshish"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Ushbu qatorni oʻchirish"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove"
+msgstr "Oʻchirish"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:264
+#: zinn/class-zinn-cache-pro-admin-ui.php:265
+#: zinn/class-zinn-cache-pro-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — umumiy koʻrinish"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Ushbu saytdagi har bir Zinn® plagin va uning ishlayotgani."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Bu plagin uchun ulanish talab qilinmaydi."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:357
+msgid "Open settings"
+msgstr "Sozlamalarni ochish"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:685
+#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Bu sozlamalarni o‘zgartirish uchun ruxsatingiz yo‘q."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Sozlamalar bo‘limlari"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:788
+msgid "Support"
+msgstr "Yordam"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:846
+msgid "Save changes"
+msgstr "O'zgarishlarni saqlash"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:875
+msgid "Tools"
+msgstr "Asboblar"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:890
+msgid "Export settings"
+msgstr "Sozlamalarni eksport qilish"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Standart holatga qaytarish"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Bu plagindagi barcha sozlamalarni o'z standart holatiga qaytaradi. Davom etasizmi?"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Qo‘llab-quvvatlash uchun diagnostika"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Sozlamalar faylini import qilish"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Eksport qilingan fayllarda hech qachon parollar, tokenlar yoki API kalitlari boʻlmaydi — ularni yangi saytda qaytadan kiritishingiz kerak boʻladi."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Sozlamalar saqlandi."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Ushbu plaginning har bir sozlamasi standart holatiga qaytarildi."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+msgid "Done."
+msgstr "Bajarildi."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Ushbu amal bajarilmaydi."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Ushbu faylni oʻqib boʻlmadi. Zinn® plaginidan eksport qilingan sozlamalar faylini tanlang."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Bu fayl sozlamalar eksporti uchun juda katta."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Ushbu fayl Zinn® sozlamalari eksporti emas."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Bu fayl boshqa plagindan (%s) eksport qilingan, shuning uchun uni bu yerga import qilish ushbu plagin tushunmaydigan sozlamalarni saqlaydi."
+
+#. translators: %d: how many settings were imported.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d ta sozlama import qilindi. Parollar va API kalitlari eksportga kiritilmaydi, shuning uchun ularni qaytadan kiriting."
+msgstr[1] "%d ta sozlama import qilindi. Parollar va API kalitlari eksportga hech qachon kiritilmaydi, shuning uchun ularni qaytadan kiriting."
+
+#: zinn/class-zinn-cache-pro-connection.php:58
+msgid "Connected"
+msgstr "Ulangan"
+
+#: zinn/class-zinn-cache-pro-connection.php:60
+msgid "Connecting…"
+msgstr "Ulanmoqda…"
+
+#: zinn/class-zinn-cache-pro-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "U ulangan, lekin nimadir e'tiborni talab qiladi"
+
+#: zinn/class-zinn-cache-pro-connection.php:64
+msgid "Not connected"
+msgstr "Ulanmagan"
+
+#: zinn/class-zinn-cache-pro-connection.php:66
+msgid "Running on your own account"
+msgstr "O'z hisobingizda ishlayapti"
+
+#: zinn/class-zinn-cache-pro-connection.php:68
+msgid "We could not check this"
+msgstr "Buni tekshira olmadik"
+
+#: zinn/class-zinn-cache-pro-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Bu plagin nima sababdan ekanini ko‘rsatmadi. Diagnostika hisobotini yuboring, biz buni ko‘rib chiqamiz."
+
+#: zinn/class-zinn-cache-pro-connection.php:161
+msgid "Connection status"
+msgstr "Ulanish holati"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: zinn/class-zinn-cache-pro-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Oxirgi marta %s oldin tekshirilgan."
+
+#: zinn/class-zinn-cache-pro-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(yangi tabda ochiladi)"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Zinn® qo‘llab-quvvatlash xizmatiga yuborish"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Aynan mana shuning o'zi yuboriladi — boshqa hech narsa va hech qanday yashirin narsa yo'q. Parollaringiz, tokenlaringiz va API kalitlaringiz uning ichida yo'q."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Yuboriladigan diagnostika hisoboti"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Nusxalash"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Ushbu hisobotni Zinn® qo'llab-quvvatlash xizmatiga yuboring"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Biz siz uchun qo'llab-quvvatlash so'rovini ochamiz va elektron pochta orqali javob beramiz. Agar buni yuborishni xohlamasangiz, uni yuqoridan nusxalab oling va o'zingiz so'rovga qo'ying."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:228
+msgid "Copied"
+msgstr "Nusxa olindi"
+
+#. translators: %s: the transport error reported by WordPress.
+#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Ushbu serverdan (%s) Zinn Digital® bilan bog‘lanib bo‘lmadi. Yuqoridagi hisobotni nusxalab oling va uning o‘rniga chekin oching — sozlamalaringizda hech qanday xato yo‘q."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Zinn® qo‘llab-quvvatlash xizmati xabaringizni qabul qildi va elektron pochta orqali javob beradi."
+
+#. translators: %s: the support reference for the report just sent.
+#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Zinn® qo‘llab-quvvatlash xizmati xabaringizni qabul qildi — maʼlumot raqami %s — va elektron pochta orqali javob beradi."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Siz qisqa vaqt ichida bir nechta hisobot yubordingiz. Bir necha daqiqa kuting va qaytadan urinib koʻring — avvalgilari yetib borgan."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® hozircha hisobotni qabul qila olmadi — bu bizning tomonda, siz tomonda emas. Qisqa vaqtdan so‘ng qayta urinib ko‘ring yoki yuqoridagi hisobotni tiketga nusxalang."
+
+#. translators: %d: the HTTP status code the server returned.
+#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Hisobot rad etildi (HTTP %d). Uni yuqoridan nusxalab oling va shu raqamni ko'rsatgan holda murojaat oching."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: zinn/class-zinn-cache-pro-promo.php:241
@@ -5788,3 +6078,19 @@ msgstr "Zinn Hub® — buni kasb qilgan mutaxassislarni yollang"
 #: zinn/class-zinn-cache-pro-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Bizning global frilanserlar bozori: matn yozuvchilar, dizaynerlar, dasturchilar va SEO mutaxassislarining 10 000 dan ortiq tayyor xizmatlarini ko'rib chiqing yoki loyiha joylashtirib, ularga taklif kiritish imkonini bering."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:109
+msgid "Style preset"
+msgstr "Uslub namunasi"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Boshlang‘ich nuqta. Undan pastdagi har qanday narsa buni bekor qiladi."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "O'z ranglarim va o'lchamlarimdan foydalanish"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Buni o'chirib qo'ying va andoza o'z holicha ishlatiladi."

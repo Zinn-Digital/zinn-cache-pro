@@ -14,6 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
+#: zinn/bootstrap.php:346
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -4058,6 +4059,7 @@ msgid "Redetect"
 msgstr "Tun se iwari re"
 
 #: tpl/img_optm/summary.tpl.php:58
+#: zinn/bootstrap.php:358
 msgid "Image optimisation"
 msgstr "Ìgbéga àwòrán"
 
@@ -5441,6 +5443,7 @@ msgid "Import Settings"
 msgstr "Àwọn Ètò Ìgbéwọlé"
 
 #: tpl/toolbox/import_export.tpl.php:48
+#: zinn/class-zinn-cache-pro-admin-ui.php:912
 msgid "Import"
 msgstr "Gbe wọle"
 
@@ -5736,6 +5739,56 @@ msgstr "Dena eyikeyi wọọlu aṣiṣe (debug log) ti awọn oju-iwe ti a ṣe
 msgid "Prevent writing log entries that include listed strings."
 msgstr "Dena kikọ awọn titẹ sii log ti o ni awọn okun ti a ṣe akoṣo ninu."
 
+#: zinn/bootstrap.php:263
+msgid "Cache Engine"
+msgstr "Ẹrọ Ìpamọ́ Ìgbàgbọ́"
+
+#: zinn/bootstrap.php:269
+#: zinn/bootstrap.php:276
+#: zinn/class-zinn-cache-pro-admin-ui.php:279
+msgid "Overview"
+msgstr "Àkópọ̀"
+
+#: zinn/bootstrap.php:306
+msgid "Web server"
+msgstr "Fọ́nṣán wẹ́bù"
+
+#: zinn/bootstrap.php:307
+msgid "not reported"
+msgstr "kò tíì jábọ̀"
+
+#: zinn/bootstrap.php:310
+msgid "Version"
+msgstr "Ẹ̀yà"
+
+#: zinn/bootstrap.php:318
+msgid "This server is not running LiteSpeed."
+msgstr "Ko si LiteSpeed ​​ti nṣiṣẹ lori sẹ́fà yìí."
+
+#: zinn/bootstrap.php:319
+msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
+msgstr "Gbogbo ohun miiran nibi n ṣiṣẹ — ìṣàfikún àwòrán, afọmọ́ ibi ìpamọ́ data, CDN — ṣùgbọ́n caching ojú-ewé kíkún ń béèrè fún LiteSpeed ní sẹ́fà wẹ́bù, nítorí náà a kò ń kó àwọn ojú-ewé sí ibi ìpamọ́. Béèrè lọ́wọ́ alábòójútó rẹ̀ bóyá LiteSpeed wà, tàbí kí o lọ sí ibi ìgbékalẹ̀ Zinn® níbi tí ó ti jẹ́ ìlànà déédéé."
+
+#: zinn/bootstrap.php:321
+msgid "See Zinn® hosting"
+msgstr "Wo hosting Zinn®"
+
+#: zinn/bootstrap.php:330
+msgid "LiteSpeed is running and full-page caching is available."
+msgstr "LiteSpeed nṣiṣẹ ati pe cachingioju-kikun wa."
+
+#: zinn/bootstrap.php:348
+msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
+msgstr "Awọn eto ti ẹrọ naa funrarẹ — caching, iṣapeye aw getImage, olutọju database, crawler ati CDN — wa lori akojọ aṣayan tirẹ. Iboju yii ni awọn nkan ti Zinn Digital® fi kun: ipgetStatus ti o wa loke, ijabọ kan ti o le firanṣẹ si atilẹyin, ati gbigbe wọle ati gbigbe jade ti o pin."
+
+#: zinn/bootstrap.php:352
+msgid "Open the cache engine settings"
+msgstr "Ṣí ètò ẹ̀rọ ìpamọ́kọ̀ọ́ (cache engine)"
+
+#: zinn/bootstrap.php:355
+msgid "Cache settings"
+msgstr "Ètò kaṣe"
+
 #: zinn/class-updater.php:230
 msgid "See the Zinn Digital® release notes."
 msgstr "Wo àwọn àkọsílẹ̀ ìtújáde Zinn Digital®."
@@ -5743,6 +5796,242 @@ msgstr "Wo àwọn àkọsílẹ̀ ìtújáde Zinn Digital®."
 #: zinn/class-updater.php:285
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Ṣe àyẹ̀wọ̀ ìdúróṣinṣin ti imudojuiwọn ti a ṣe igbasilẹ náà kù, a ò sì fi í sori ẹrọ náà."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Ti fipamọ. Tẹ iye tuntun kan lati rọpo rẹ."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Ṣe àlẹmọ àkójọ yìí…"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Se àtòjọ yìí lẹ́kùn-únrẹ́rẹ́"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Ko si ohun ti o ba àlẹmọ yẹn mu."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:683
+msgid "Add a row"
+msgstr "Fi ìlà kan kún un"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Yọ ila yii kuro"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove"
+msgstr "Yọ kuro"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:264
+#: zinn/class-zinn-cache-pro-admin-ui.php:265
+#: zinn/class-zinn-cache-pro-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — àkópọ̀"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Gbogbo ohun 🔌 Zinn® lori aaye yii, ati boya o n ṣiṣẹ."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Kò nílò àsopọ̀ kankan fún plọ́ọ̀gìn yìí."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:357
+msgid "Open settings"
+msgstr "Ṣí awọn ètò"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:685
+#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "O ko ni àṣẹ láti yí àwọn ètò wọ̀nyí padà."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Awọn apakan eto"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:788
+msgid "Support"
+msgstr "Atilẹyin"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:846
+msgid "Save changes"
+msgstr "Fi àwọn àtúnṣe pamọ́"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:875
+msgid "Tools"
+msgstr "Àwọn ohunèlò"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:890
+msgid "Export settings"
+msgstr "Awọn eto igbasilẹ jade"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Tun to si àwọn ohun àkọ́kọ́"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Eyi yoo da gbogbo eto lori plọọgi yii pada si ipilẹṣẹ wọn. Ṣe o fẹ tẹsiwaju?"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Àwọn àyẹ̀wò fún ìtìlẹ́yìn"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Gbe faili awọn eto wọle wọle"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Awọn dosié ti a gbe jade kò ní àwọn ọ̀rọ̀ aṣínrí (passwords), àwọn àmì ìdánimọ̀ (tokens) tàbí àwọn bọ́tìnnì API — wàá nílò láti tún wọn sí ãyè lórí ojú-wẹ́bù tuntun náà."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "A ti fipamọ awọn eto naa."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Gbogbo ètò lori plugin yii ti pada si ipinlẹ atilẹba wọn."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+msgid "Done."
+msgstr "Ó ti ṣe."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Iṣẹ yẹn ko si."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "A kò lè ka fáìlì yẹn. Yan fáìlì ètò tí a gbé wọlé láti inú plọọgìnnì Zinn®."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Fáìlì náà tóbi jù láti jẹ́ ìṣàfihàn àwọn ètò."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Fáìlì yẹn kọ́ jẹ́ ìṣejade ètò Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "A fi fáìlì yẹn sọjade lati inu àfikún mìíràn (%s), nítorí náà, wíwọlé rẹ̀ sí ibi yii yoo fipamọ́ àwọn ètò tí àfikún yii ko le mọ̀."
+
+#. translators: %d: how many settings were imported.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "Ohun ètò %d wọlé. Àwọn ọ̀rọ̀ aṣínà àti àwọn bọ́tìnnì ìjápọ̀ API kì í wà nínú ohun tí a kó jáde, nítorí náà tẹ wọ́n sílẹ̀ lẹ́ẹ̀kan síi."
+
+#: zinn/class-zinn-cache-pro-connection.php:58
+msgid "Connected"
+msgstr "Ti sopọ"
+
+#: zinn/class-zinn-cache-pro-connection.php:60
+msgid "Connecting…"
+msgstr "Ńsopọ̀ lọ́wọ́ lọ…"
+
+#: zinn/class-zinn-cache-pro-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Sopọ, ṣugbọn ohun kan nilo akiyesi"
+
+#: zinn/class-zinn-cache-pro-connection.php:64
+msgid "Not connected"
+msgstr "Kò sopọ̀"
+
+#: zinn/class-zinn-cache-pro-connection.php:66
+msgid "Running on your own account"
+msgstr "Ṣiṣẹ lori akọọlẹ rẹ ti ara ẹni"
+
+#: zinn/class-zinn-cache-pro-connection.php:68
+msgid "We could not check this"
+msgstr "A kò lè ṣàyẹ̀wò èyí"
+
+#: zinn/class-zinn-cache-pro-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Plugin yìí kò sọ ìdí rẹ̀. Fi ìرòhìn àyẹ̀wò ranṣẹ́ sí wa, a ó sì wo o."
+
+#: zinn/class-zinn-cache-pro-connection.php:161
+msgid "Connection status"
+msgstr "Ipo asopọ"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: zinn/class-zinn-cache-pro-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Wọn ṣàyẹ̀wò rẹ̀ kẹ́yìn ní %s sẹ́yìn."
+
+#: zinn/class-zinn-cache-pro-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(ó ń ṣí sí taabu tuntun kan)"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Fi è ránṣẹ́ sí àtìlẹ́yìn Zinn®"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Èyí gan-an ni ohun tí a ó fi ránṣẹ́ — kò sí ohun mìíràn, kò sì sí ohun tí ó pamọ́. Àwọn ọrọ̀ aṣínà rẹ, àwọn àmì ìdánimọ̀ rẹ, àti àwọn bọ́tìnnì API rẹ kò sí nínú rẹ̀."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Iroyin iwadii aisan ti ao ranṣẹ"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Ṣe àakọ sí pẹpẹ ìṣiṣẹ́"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Fi ìròyìn yìí ranṣẹ sí àtìlẹyìn Zinn®"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "A ṣí tìkẹ́tì àtìlẹ́yìn fún ọ, a sì ń dáhùn nípa í-mélì. Bí o kò bá fẹ́ ránṣẹ́ rẹ̀, da ẹ̀kọ́ rẹ̀ sí òkè, kí o sì lẹ mọ́ inú tìkẹ́tì fúnra rẹ."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:228
+msgid "Copied"
+msgstr "Wọ́n ti daakọ rẹ̀"
+
+#. translators: %s: the transport error reported by WordPress.
+#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "A ko le de ọdọ Zinn Digital® lati sevà yii (%s). Da iroyin oke yoo ko si ṣii tiketi kan dipo rẹ — ko si ohun ti ko tọ si awọn eto rẹ."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Atileyin Zinn® ti gba ijabọ rẹ yoo si dahun nipasẹ imeeli."
+
+#. translators: %s: the support reference for the report just sent.
+#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Atilẹyin Zinn® gba ijabọ rẹ — itọkasi %s — yoo si fesi nipasẹ imeeli."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "O ti fi ọ̀pọ̀lọpọ̀ ìjábọ̀ ránṣẹ́ láàárín àkókò kúkúrú. Dúró fún ìṣẹ́jú díẹ̀ kí o sì tún gbiyanju rẹ̀ lẹ́ẹ̀kan sí i — àwọn tí tẹ́lẹ̀ dé ní."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® ko le gba ijabọ naa ni bayi — o jẹ ewu tiwa, kii ṣe ti rẹ. Gbiyanju lẹẹkan si laipẹ, tabi daakọ ijabọ ti o wa loke sinu tikẹti kan."
+
+#. translators: %d: the HTTP status code the server returned.
+#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "A kọ̀ láti gba ìròyìn náà (HTTP %d). Da a sọ́kè kí o sì ṣí tikẹ́tì kan, kí o sì tọka si nọ́mbà yẹn."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: zinn/class-zinn-cache-pro-promo.php:241
@@ -5788,3 +6077,19 @@ msgstr "Zinn Hub® — bẹ gba awọn eniyan ti o ṣe eyi fun igbesi aye kan"
 #: zinn/class-zinn-cache-pro-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Ọjà àwọn olómìnira kárí ayé wa: wínilójú lórí ẹgbẹ̀rún mẹ́wàá iṣẹ́ tí a ti pèsè sílẹ̀ látọwọ́ àwọn olùkọ̀wé, apẹrẹ, olùgbékalẹ̀ àti àwọn onímọ̀ SEO, tàbí fi iṣẹ́ kan sọ́tọ̀ kí o sì jẹ́ kí wọ́n fún ní iye owó."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:109
+msgid "Style preset"
+msgstr "Ohun àṣàyàn fún ìrísí"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Ìpìlẹ̀ ìbẹ̀rẹ̀ kan. Ohunkohun tó wà ní ìsàlẹ̀ yoo sọ ọ́ di asan."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Lo awọn awọ ati iwọn mi"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Fi eyi silẹ ni pipa ati pe a lo aṣayan tẹlẹ gẹgẹ bi o ṣe wa gangan."

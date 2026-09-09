@@ -14,6 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
+#: zinn/bootstrap.php:346
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -4058,6 +4059,7 @@ msgid "Redetect"
 msgstr "ફરીથી શોધો"
 
 #: tpl/img_optm/summary.tpl.php:58
+#: zinn/bootstrap.php:358
 msgid "Image optimisation"
 msgstr "ઇમેજ ઑપ્ટિમાઇઝેશન"
 
@@ -5441,6 +5443,7 @@ msgid "Import Settings"
 msgstr "સેટિંગ્સ આયાત કરો"
 
 #: tpl/toolbox/import_export.tpl.php:48
+#: zinn/class-zinn-cache-pro-admin-ui.php:912
 msgid "Import"
 msgstr "આયાત કરો"
 
@@ -5736,6 +5739,56 @@ msgstr "સૂચિબદ્ધ પૃષ્ઠોના કોઈપણ ડી
 msgid "Prevent writing log entries that include listed strings."
 msgstr "સૂચિબદ્ધ સ્ટ્રિંગ્સનો સમાવેશ કરતા લૉગ એન્ટ્રીઓ લખવાનું અટકાવો."
 
+#: zinn/bootstrap.php:263
+msgid "Cache Engine"
+msgstr "કેશ એન્જિન"
+
+#: zinn/bootstrap.php:269
+#: zinn/bootstrap.php:276
+#: zinn/class-zinn-cache-pro-admin-ui.php:279
+msgid "Overview"
+msgstr "ઝાંખી"
+
+#: zinn/bootstrap.php:306
+msgid "Web server"
+msgstr "વેબ સર્વર"
+
+#: zinn/bootstrap.php:307
+msgid "not reported"
+msgstr "રિપોર્ટ નથી કર્યો"
+
+#: zinn/bootstrap.php:310
+msgid "Version"
+msgstr "વર્ઝન"
+
+#: zinn/bootstrap.php:318
+msgid "This server is not running LiteSpeed."
+msgstr "આ સર્વર LiteSpeed ચલાવી રહ્યું નથી."
+
+#: zinn/bootstrap.php:319
+msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
+msgstr "અહીંની બાકીની બધી બાબતો કામ કરે છે — ઇમેજ ઑપ્ટિમાઇઝેશન, ડેટાબેઝ ક્લીનર, CDN — પરંતુ ફુલ-પેજ કેશિંગ માટે વેબ સર્વર પર LiteSpeed ની જરૂર પડે છે, તેથી પૃષ્ઠો કેશ થઈ રહ્યા નથી. તમારા હોસ્ટને પૂછો કે શું LiteSpeed ઉપલબ્ધ છે, અથવા Zinn® હોસ્ટિંગ પર સ્વિચ કરો જ્યાં તે પ્રમાણભૂત છે."
+
+#: zinn/bootstrap.php:321
+msgid "See Zinn® hosting"
+msgstr "Zinn® હોસ્ટિંગ જુઓ"
+
+#: zinn/bootstrap.php:330
+msgid "LiteSpeed is running and full-page caching is available."
+msgstr "LiteSpeed ચાલી રહ્યું છે અને ફૂલ-પેજ કેશિંગ ઉપલબ્ધ છે."
+
+#: zinn/bootstrap.php:348
+msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
+msgstr "એન્જિનની પોતાની સેટિંગ્સ — કેશિંગ, ઇમેજ ઑપ્ટિમાઇઝેશન, ડેટાબેઝ ક્લીનર, ક્રૉલર અને CDN — તેના પોતાના મેનૂ પર રહે છે. આ સ્ક્રીન પર Zinn Digital® ઉમેરે છે તે બાબતો છે: ઉપરની સ્થિતિ, સપોર્ટ પર મોકલી શકાય તેવો રિપોર્ટ, અને શેર કરેલ ઇમ્પોર્ટ તથા એક્સપોર્ટ."
+
+#: zinn/bootstrap.php:352
+msgid "Open the cache engine settings"
+msgstr "કેશ એન્જિન સેટિંગ્સ ખોલો"
+
+#: zinn/bootstrap.php:355
+msgid "Cache settings"
+msgstr "કેશ સેટિંગ્સ"
+
 #: zinn/class-updater.php:230
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® રિલીઝ નોંધો જુઓ."
@@ -5743,6 +5796,243 @@ msgstr "Zinn Digital® રિલીઝ નોંધો જુઓ."
 #: zinn/class-updater.php:285
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ડાઉનલોડ કરેલ અપડેટ તેની અખંડિતતા ચકાસણીમાં નિષ્ફળ ગયું અને ઇન્સ્ટોલ કરવામાં આવ્યું નથી."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "સંગ્રહિત છે. તેને બદલવા માટે નવું મૂલ્ય ટાઈપ કરો."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "આ સૂચિને ફિલ્ટર કરો..."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:636
+msgid "Filter this list"
+msgstr "આ સૂચિને ફિલ્ટર કરો"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "તે ફિલ્ટર સાથે કંઈપણ મેચ થતું નથી."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:683
+msgid "Add a row"
+msgstr "એક પંક્તિ ઉમેરો"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove this row"
+msgstr "આ પંક્તિ દૂર કરો"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove"
+msgstr "દૂર કરો"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:264
+#: zinn/class-zinn-cache-pro-admin-ui.php:265
+#: zinn/class-zinn-cache-pro-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — વિહંગાવલોકન"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "આ સાઈટ પરનું દરેક Zinn® પ્લગઇન અને તે કામ કરી રહ્યું છે કે નહીં."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "આ પ્લગઇન માટે કોઈ કનેક્શનની જરૂર નથી."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:357
+msgid "Open settings"
+msgstr "સેટિંગ્સ ખોલો"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:685
+#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "તમારી પાસે આ સેટિંગ્સ બદલવાની પરવાનગી નથી."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:715
+msgid "Settings sections"
+msgstr "સેટિંગ્સ વિભાગો"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:788
+msgid "Support"
+msgstr "સપોર્ટ"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:846
+msgid "Save changes"
+msgstr "ફેરફારો સંગ્રહો"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:875
+msgid "Tools"
+msgstr "સાધનો"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:890
+msgid "Export settings"
+msgstr "સેટિંગ્સ નિકાસ કરો"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "મૂળ સ્થિતિ પર રીસેટ કરો"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "આ આ પ્લગઇનની દરેક સેટિંગને તેના મૂળ (default) સ્તરે પાછી લાવશે. ચાલુ રાખવું છે?"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "સપોર્ટ માટે ડાયગ્નોસ્ટિક્સ"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "સેટિંગ્સ ફાઇલ આયાત કરો"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "નિકાસ કરેલી ફાઇલોમાં ક્યારેય પાસવર્ડ્સ, ટોકન્સ કે API કી હોતી નથી — તમારે નવી સાઇટ પર તેને ફરીથી દાખલ કરવી પડશે."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "સેટિંગ્સ સાચવવામાં આવી છે."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "આ પ્લગઇનની દરેક સેટિંગ તેના ડિફૉલ્ટ પર પાછી આવી ગઈ છે."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+msgid "Done."
+msgstr "પૂર્ણ થયું."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "તે ક્રિયા ઉપલબ્ધ નથી."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "પેલી ફાઇલ વાંચી શકાઈ નહીં. Zinn® પ્લગઇનમાંથી નિકાસ કરેલી સેટિંગ્સ ફાઇલ પસંદ કરો."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "તે ફાઇલ સેટિંગ્સ નિકાસ માટે ખૂબ મોટી છે."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "તે ફાઇલ Zinn® સેટિંગ્સ નિકાસ નથી."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "તે ફાઇલ અલગ પ્લગઇન (%s) માંથી એક્સપોર્ટ કરવામાં આવી હતી, તેથી તેને અહીં ઇમ્પોર્ટ કરવાથી એવી સેટિંગ્સ સ્ટોર થશે જે આ પ્લગઇન સમજી શકતું નથી."
+
+#. translators: %d: how many settings were imported.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d સેટિંગ આયાત કરવામાં આવી છે. પાસવર્ડ્સ અને API કી ક્યારેય એક્સપોર્ટમાં હોતી નથી, તેથી તેને ફરીથી દાખલ કરો."
+msgstr[1] "%d સેટિંગ્સ આયાત કરવામાં આવ્યા. પાસવર્ડ્સ અને API કીઝ ક્યારેય નિકાસમાં હોતા નથી, તેથી તેમને ફરીથી દાખલ કરો."
+
+#: zinn/class-zinn-cache-pro-connection.php:58
+msgid "Connected"
+msgstr "કનેક્ટ થયેલ છે"
+
+#: zinn/class-zinn-cache-pro-connection.php:60
+msgid "Connecting…"
+msgstr "કનેક્ટ થઈ રહ્યું છે..."
+
+#: zinn/class-zinn-cache-pro-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "કનેક્ટેડ છે, પરંતુ કંઈક પર ધ્યાન આપવાની જરૂર છે"
+
+#: zinn/class-zinn-cache-pro-connection.php:64
+msgid "Not connected"
+msgstr "કનેક્ટ નથી થયું"
+
+#: zinn/class-zinn-cache-pro-connection.php:66
+msgid "Running on your own account"
+msgstr "તમારા પોતાના ખાતા પર ચાલી રહ્યું છે"
+
+#: zinn/class-zinn-cache-pro-connection.php:68
+msgid "We could not check this"
+msgstr "અમે આ તપાસી શક્યા નહીં"
+
+#: zinn/class-zinn-cache-pro-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "આ પ્લગઇને કારણ જણાવ્યું નથી. ડાયગ્નોસ્ટિક્સ રિપોર્ટ મોકલો અને અમે તપાસ કરીશું."
+
+#: zinn/class-zinn-cache-pro-connection.php:161
+msgid "Connection status"
+msgstr "કનેક્શન સ્થિતિ"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: zinn/class-zinn-cache-pro-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "છેલ્લે %s પહેલાં તપાસ્યું હતું."
+
+#: zinn/class-zinn-cache-pro-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(નવી ટેબમાં ખુલે છે)"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Zinn® સપોર્ટ પર આ મોકલો"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "આ બિલકુલ એ જ છે જે મોકલવામાં આવશે — બીજું કંઈ નહીં, અને કંઈપણ છુપાયેલું નથી. તમારા પાસવર્ડ્સ, ટોકન્સ અને API કી તેમાં નથી."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "ડાયગ્નોસ્ટિક્સ રિપોર્ટ જે મોકલવામાં આવશે"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "ક્લિપબોર્ડ પર કૉપિ કરો"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "આ રિપોર્ટ Zinn® સપોર્ટને મોકલો"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "અમે તમારા માટે એક સપોર્ટ ટિકિટ ખોલીએ છીએ અને ઇમેઇલ દ્વારા જવાબ આપીએ છીએ. જો તમે તેને મોકલવા માંગતા ન હોવ, તો તેને ઉપરથી કૉપિ કરો અને જાતે જ ટિકિટમાં પેસ્ટ કરો."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:228
+msgid "Copied"
+msgstr "કોપી કર્યું"
+
+#. translators: %s: the transport error reported by WordPress.
+#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "અમે આ સર્વર (%s) પરથી Zinn Digital® સુધી પહોંચી શક્યા નથી. ઉપરનો રિપોર્ટ કૉપી કરો અને તેના બદલે ટિકિટ ખોલો — તમારી સેટિંગ્સમાં કંઈપણ ખોટું નથી."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Zinn® સપોર્ટને તમારો રિપોર્ટ મળી ગયો છે અને તે ઈમેલ દ્વારા જવાબ આપશે."
+
+#. translators: %s: the support reference for the report just sent.
+#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Zinn® સપોર્ટને તમારો રિપોર્ટ મળ્યો છે — સંદર્ભ %s — અને ઈમેલ દ્વારા જવાબ આપવામાં આવશે."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "તમે ટૂંકા ગાળામાં ઘણા અહેવાલો મોકલ્યા છે. થોડી મિનિટો રાહ જુઓ અને ફરીથી પ્રયાસ કરો — અગાઉના અહેવાલો પહોંચી ગયા છે."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® આ સમયે રિપોર્ટ સ્વીકારી શક્યું નહીં — તે અમારી બાજુની સમસ્યા છે, તમારી નહીં. થોડીવાર પછી ફરી પ્રયાસ કરો અથવા ઉપરનો રિપોર્ટ ટિકિટમાં કૉપિ કરો."
+
+#. translators: %d: the HTTP status code the server returned.
+#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "અહેવાલ અસ્વીકાર કરવામાં આવ્યો હતો (HTTP %d). તેને ઉપર કૉપિ કરો અને તે નંબર ટાંકીને ટિકિટ ઓપન કરો."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: zinn/class-zinn-cache-pro-promo.php:241
@@ -5788,3 +6078,19 @@ msgstr "Zinn Hub® — જેઓ આ વ્યવસાય કરે છે ત�
 #: zinn/class-zinn-cache-pro-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "અમારું વૈશ્વિક ફ્રીલાન્સ માર્કેટપ્લેસ: લેખકો, ડિઝાઇનર્સ, ડેવલપર્સ અને SEO નિષ્ણાતોની 10,000 થી વધુ તૈયાર સેવાઓ બ્રાઉઝ કરો, અથવા કોઈ પ્રોજેક્ટ પોસ્ટ કરો અને તેમને બિડ કરવા દો."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:109
+msgid "Style preset"
+msgstr "સ્ટાઇલ પ્રીસેટ"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "એક શરૂઆતનો બિંદુ. તેની નીચેની કોઈપણ વસ્તુ તેને રદ કરે છે."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "મારા પોતાના રંગો અને કદનો ઉપયોગ કરો"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "આને બંધ રાખો અને પ્રીસેટનો બરાબર એવો જ ઉપયોગ કરો જેવો તે છે."

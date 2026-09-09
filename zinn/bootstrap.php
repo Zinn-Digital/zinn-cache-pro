@@ -227,3 +227,136 @@ function display_version(): string {
 	}
 	return $version;
 }
+
+/**
+ * The Zinn® layer over the fork's own settings.
+ *
+ * ⚖️ **Owner ruling, 2026-09-08**, asked directly with the alternatives in front of him:
+ * *"Add a Zinn layer on top"* — leave the forked screens alone, and add the shared connection
+ * card, the Zinn presets tab and the shared tools beside them.
+ *
+ * ⛔⛔ **THE FORK'S OWN SCREENS ARE NOT TOUCHED, AND THAT IS THE WHOLE POINT.** This plugin's
+ * tree is produced by `wp/rebrand/apply-rebrand.php` from a SHA-pinned LiteSpeed Cache and
+ * every upstream bump re-runs it. Rebuilding its settings on our framework would make every
+ * future merge a conflict against several hundred files, for a screen that already works —
+ * and the first time we skipped a security release because the merge was too painful would be
+ * the day that decision cost more than it ever saved.
+ *
+ * ⭐ What the layer adds is the half the fork cannot have: a status card that knows about
+ * ZINN (a licence, a server that is actually LiteSpeed), the shared export/import, and the
+ * diagnostics report support asks for.
+ *
+ * @return void
+ */
+function register_zinn_layer(): void {
+	// ⛔ Required by PATH, not by the autoloader. These classes are deliberately GLOBAL —
+	// shipped identically into seven plugins with different namespacing conventions — while
+	// this file is namespaced, so an autoloader keyed on the namespace would never find them.
+	require_once __DIR__ . '/class-zinn-cache-pro-admin-fields.php';
+	require_once __DIR__ . '/class-zinn-cache-pro-admin-ui.php';
+	require_once __DIR__ . '/class-zinn-cache-pro-connection.php';
+	require_once __DIR__ . '/class-zinn-cache-pro-diagnostics.php';
+	require_once __DIR__ . '/class-zinn-cache-pro-style-presets.php';
+
+	\Zinn_Cache_Pro_Admin_UI::register(
+		array(
+			'title'      => __( 'Cache Engine', 'zinn-cache-pro' ),
+			'option'     => 'zinn_cache_pro_settings',
+			'position'   => 15,
+			'connection' => __NAMESPACE__ . '\\zinn_status',
+			'tabs'       => array(
+				'overview' => array(
+					'title'  => __( 'Overview', 'zinn-cache-pro' ),
+					'fields' => array(),
+				),
+			),
+			'screens'    => array(
+				array(
+					'id'     => 'overview',
+					'title'  => __( 'Overview', 'zinn-cache-pro' ),
+					'render' => __NAMESPACE__ . '\\render_zinn_overview',
+				),
+			),
+		)
+	);
+}
+
+add_action( 'init', __NAMESPACE__ . '\\register_zinn_layer', 5 );
+
+/**
+ * What the cache engine is doing, for the shared status card.
+ *
+ * ⛔⛔ **IT REPORTS WHAT IS TRUE OF THE SERVER, NOT WHAT IS TICKED IN THE FORK'S SETTINGS.**
+ * A customer whose host does not run LiteSpeed has a fully configured cache plugin and no
+ * page cache at all, and nothing in the fork's own screens says so — it is the single
+ * commonest support ticket this plugin generates, and it was previously unanswerable from
+ * inside WordPress.
+ *
+ * @return array<string, mixed>
+ */
+function zinn_status(): array {
+	$software  = isset( $_SERVER['SERVER_SOFTWARE'] )
+		? strtolower( sanitize_text_field( wp_unslash( (string) $_SERVER['SERVER_SOFTWARE'] ) ) )
+		: '';
+	$litespeed = '' !== $software
+		&& ( false !== strpos( $software, 'litespeed' ) || false !== strpos( $software, 'openlitespeed' ) );
+
+	$details = array(
+		array(
+			'label' => __( 'Web server', 'zinn-cache-pro' ),
+			'value' => '' === $software ? __( 'not reported', 'zinn-cache-pro' ) : $software,
+		),
+		array(
+			'label' => __( 'Version', 'zinn-cache-pro' ),
+			'value' => display_version(),
+		),
+	);
+
+	if ( ! $litespeed ) {
+		return array(
+			'state'   => 'degraded',
+			'summary' => __( 'This server is not running LiteSpeed.', 'zinn-cache-pro' ),
+			'reason'  => __( 'Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard.', 'zinn-cache-pro' ),
+			'action'  => array(
+				'label' => __( 'See Zinn® hosting', 'zinn-cache-pro' ),
+				'url'   => 'https://zinndigital.com/hosting',
+			),
+			'details' => $details,
+		);
+	}
+
+	return array(
+		'state'   => 'connected',
+		'summary' => __( 'LiteSpeed is running and full-page caching is available.', 'zinn-cache-pro' ),
+		'details' => $details,
+	);
+}
+
+/**
+ * The Zinn® tab: what this layer knows, and where the engine's own screens are.
+ *
+ * ⛔ It LINKS to the fork's screens rather than reproducing them. Two settings screens for
+ * one plugin is one screen and one thing that goes stale, and the customer would have no way
+ * to know which one had won.
+ *
+ * @return void
+ */
+function render_zinn_overview(): void {
+	?>
+	<h2><?php esc_html_e( 'Zinn® Cache Engine', 'zinn-cache-pro' ); ?></h2>
+	<p>
+		<?php esc_html_e( 'The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export.', 'zinn-cache-pro' ); ?>
+	</p>
+	<p>
+		<a class="button button-primary" href="<?php echo esc_url( admin_url( 'admin.php?page=litespeed' ) ); ?>">
+			<?php esc_html_e( 'Open the cache engine settings', 'zinn-cache-pro' ); ?>
+		</a>
+		<a class="button" href="<?php echo esc_url( admin_url( 'admin.php?page=litespeed-cache' ) ); ?>">
+			<?php esc_html_e( 'Cache settings', 'zinn-cache-pro' ); ?>
+		</a>
+		<a class="button" href="<?php echo esc_url( admin_url( 'admin.php?page=litespeed-img_optm' ) ); ?>">
+			<?php esc_html_e( 'Image optimisation', 'zinn-cache-pro' ); ?>
+		</a>
+	</p>
+	<?php
+}

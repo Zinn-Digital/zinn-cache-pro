@@ -14,6 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
+#: zinn/bootstrap.php:346
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -4058,6 +4059,7 @@ msgid "Redetect"
 msgstr "மீண்டும் கண்டறி"
 
 #: tpl/img_optm/summary.tpl.php:58
+#: zinn/bootstrap.php:358
 msgid "Image optimisation"
 msgstr "பட உகப்பாக்கம்"
 
@@ -5441,6 +5443,7 @@ msgid "Import Settings"
 msgstr "அமைப்புகளை இறக்குமதி செய்"
 
 #: tpl/toolbox/import_export.tpl.php:48
+#: zinn/class-zinn-cache-pro-admin-ui.php:912
 msgid "Import"
 msgstr "இறக்குமதி செய்"
 
@@ -5736,6 +5739,56 @@ msgstr "பட்டியலிடப்பட்ட பக்கங்கள�
 msgid "Prevent writing log entries that include listed strings."
 msgstr "பட்டியலிடப்பட்ட சரங்களை உள்ளடக்கிய பதிவு உள்ளீடுகளை எழுதுவதைத் தடுக்கவும்."
 
+#: zinn/bootstrap.php:263
+msgid "Cache Engine"
+msgstr "கேச் எஞ்சின்"
+
+#: zinn/bootstrap.php:269
+#: zinn/bootstrap.php:276
+#: zinn/class-zinn-cache-pro-admin-ui.php:279
+msgid "Overview"
+msgstr "கண்ணோட்டம்"
+
+#: zinn/bootstrap.php:306
+msgid "Web server"
+msgstr "வலை வழங்கி"
+
+#: zinn/bootstrap.php:307
+msgid "not reported"
+msgstr "அறிவிக்கப்பட்டவில்லை"
+
+#: zinn/bootstrap.php:310
+msgid "Version"
+msgstr "பதிப்பு"
+
+#: zinn/bootstrap.php:318
+msgid "This server is not running LiteSpeed."
+msgstr "இந்த சர்வர் LiteSpeed ஐ இயக்கவில்லை."
+
+#: zinn/bootstrap.php:319
+msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
+msgstr "இங்குள்ள மற்ற எல்லாமே வேலை செய்கின்றன - பட உகப்பாக்கம், டேட்டாபேஸ் கிளீனர், CDN - ஆனால் முழுப் பக்க கேச்சிங் வலைச் சேவையகத்தில் LiteSpeedஐக் கோருகிறது, எனவே பக்கங்கள் கேச் செய்யப்படவில்லை. LiteSpeed கிடைக்குமா என உங்கள் ஹோஸ்டைக் கேட்கவும் அல்லது அது இயல்பாகவே உள்ள Zinn® ஹோஸ்டிங்கிற்கு மாறவும்."
+
+#: zinn/bootstrap.php:321
+msgid "See Zinn® hosting"
+msgstr "Zinn® ஹோஸ்டிங்கைக் காண்க"
+
+#: zinn/bootstrap.php:330
+msgid "LiteSpeed is running and full-page caching is available."
+msgstr "LiteSpeed இயங்குகிறது மற்றும் முழுப் பக்க தற்காலிக சேமிப்பு (caching) கிடைக்கிறது."
+
+#: zinn/bootstrap.php:348
+msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
+msgstr "எஞ்சினின் சொந்த அமைப்புகள் — கேச்சிங், பட உகப்பாக்கம், டேட்டாபேஸ் கிளீனர், கிராலர் மற்றும் CDN — அதன் சொந்த மெனுவில் உள்ளன. இந்தத் திரையில் Zinn Digital® சேர்ப்பவை உள்ளன: மேலே உள்ள நிலை, ஆதரவுக் குழுவிற்கு நீங்கள் அனுப்பக்கூடிய அறிக்கை மற்றும் பகிரப்பட்ட இறக்குமதி மற்றும் ஏற்றுமதி."
+
+#: zinn/bootstrap.php:352
+msgid "Open the cache engine settings"
+msgstr "கேச் எஞ்சின் அமைப்புகளைத் திறக்கவும்"
+
+#: zinn/bootstrap.php:355
+msgid "Cache settings"
+msgstr "கேச் அமைப்புகள்"
+
 #: zinn/class-updater.php:230
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® வெளியீட்டு குறிப்புகளைப் பார்க்கவும்."
@@ -5743,6 +5796,243 @@ msgstr "Zinn Digital® வெளியீட்டு குறிப்பு�
 #: zinn/class-updater.php:285
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "பதிவிறக்கம் செய்யப்பட்ட புதுப்பிப்பு அதன் ஒருமைமைச் சோதனையில் தோல்வியுற்றது, இதனால் நிறுவப்படவில்லை."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "சேமிக்கப்பட்டது. அதை மாற்ற புதிய மதிப்பை உள்ளிடவும்."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "இந்த பட்டியலை வடிகட்டவும்…"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:636
+msgid "Filter this list"
+msgstr "இந்த பட்டியலை வடிகட்டவும்"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "அந்த வடிகட்டியுடன் எதுவும் பொருந்தவில்லை."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:683
+msgid "Add a row"
+msgstr "ஒரு வரியைச் சேர்"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove this row"
+msgstr "இந்த வரிசையை அகற்று"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove"
+msgstr "நீக்கு"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:264
+#: zinn/class-zinn-cache-pro-admin-ui.php:265
+#: zinn/class-zinn-cache-pro-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — கண்ணோட்டம்"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "இந்தத் தளத்தில் உள்ள ஒவ்வொரு Zinn® செருகுநிரலும், அது இயங்குகிறதா இல்லையா என்பதும்."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "இந்த செருகுநிரலுக்கு எந்த இணைப்பும் தேவையில்லை."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:357
+msgid "Open settings"
+msgstr "அமைப்புகளைத் திறக்கவும்"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:685
+#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "இந்த அமைப்புகளை மாற்ற உங்களுக்கு அனுமதி இல்லை."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:715
+msgid "Settings sections"
+msgstr "அமைவுப் பிரிவுகள்"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:788
+msgid "Support"
+msgstr "ஆதரவு"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:846
+msgid "Save changes"
+msgstr "மாற்றங்களைச் சேமிக்கவும்"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:875
+msgid "Tools"
+msgstr "கருவிகள்"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:890
+msgid "Export settings"
+msgstr "அமைப்புகளை ஏற்றுமதி செய்"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "இயல்புநிலைகளுக்கு மீட்டமைக்கவும்"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "இந்தச் செருகுநிரலின் ஒவ்வொரு அமைப்பையும் அதன் இயல்புநிலைக்கு மாற்றுகிறது. தொடரவா?"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "ஆதரவுக்கான கண்டறிதல்கள்"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "அமைப்புகள் கோப்பை இறக்குமதி செய்"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "ஏற்றுமதி செய்யப்பட்ட கோப்புகளில் கடவுச்சொற்கள், டோக்கன்கள் அல்லது API விசைகள் எப்போதுமே இருக்காது — புதிய தளத்தில் அவற்றை நீங்கள் மீண்டும் உள்ளிட வேண்டும்."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "அமைப்புகள் சேமிக்கப்பட்டன."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "இந்த செருகுநிரலில் உள்ள ஒவ்வொரு அமைப்பும் அதன் இயல்புநிலைக்குத் திரும்பியுள்ளது."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+msgid "Done."
+msgstr "முடிந்தது."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "அந்தச் செயல்பாடு கிடைக்கவில்லை."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "அந்தக் கோப்பைப் படிக்க முடியவில்லை. Zinn® செருகுநிறமியிலிருந்து ஏற்றுமதி செய்யப்பட்ட அமைப்புக் கோப்பைத் தேர்ந்தெடுக்கவும்."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "அந்தக் கோப்பு அமைப்புகள் ஏற்றுமதியாக இருக்க முடியாத அளவுக்கு மிகப்பெரியது."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "அந்தக் கோப்பு ஒரு Zinn® அமைப்புகளின் ஏற்றுமதி அல்ல."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "அந்தக் கோப்பு வேறொரு செருகுநிரலிலிருந்து (%s) ஏற்றுமதி செய்யப்பட்டது, எனவே அதை இங்கே இறக்குமதி செய்வது இந்த செருகுநிரலுக்குப் புரியாத அமைப்புகளைச் சேமிக்கும்."
+
+#. translators: %d: how many settings were imported.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d அமைப்பு இறக்குமதி செய்யப்பட்டது. கடவுச்சொற்கள் மற்றும் API விசைகள் ஒருபோதும் ஏற்றுமதியில் சேர்க்கப்படுவதில்லை, எனவே அவற்றை மீண்டும் உள்ளிடவும்."
+msgstr[1] "%d அமைப்புகள் இறக்குமதி செய்யப்பட்டன. கடவுச்சொற்களும் API விதிகளும் ஏற்றுமதியில் சேர்க்கப்படுவதில்லை, எனவே அவற்றை மீண்டும் உள்ளிடவும்."
+
+#: zinn/class-zinn-cache-pro-connection.php:58
+msgid "Connected"
+msgstr "இணைக்கப்பட்டுள்ளது"
+
+#: zinn/class-zinn-cache-pro-connection.php:60
+msgid "Connecting…"
+msgstr "இணைக்கிறது..."
+
+#: zinn/class-zinn-cache-pro-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "இணைக்கப்பட்டுள்ளது, ஆனால் எதையோ கவனிக்க வேண்டும்"
+
+#: zinn/class-zinn-cache-pro-connection.php:64
+msgid "Not connected"
+msgstr "இணைக்கப்படவில்லை"
+
+#: zinn/class-zinn-cache-pro-connection.php:66
+msgid "Running on your own account"
+msgstr "உங்கள் சொந்தக் கணக்கில் இயங்குகிறது"
+
+#: zinn/class-zinn-cache-pro-connection.php:68
+msgid "We could not check this"
+msgstr "இதைச் சரிபார்க்க முடியவில்லை"
+
+#: zinn/class-zinn-cache-pro-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "இந்த செருகுநிரல் ஏன் என்று குறிப்பிடவில்லை. கண்டறிதல் அறிக்கையை அனுப்பவும், நாங்கள் பரிசீலிக்கிறோம்."
+
+#: zinn/class-zinn-cache-pro-connection.php:161
+msgid "Connection status"
+msgstr "இணைப்பு நிலை"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: zinn/class-zinn-cache-pro-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "கடைசியாக %s முன்பு சரிபார்க்கப்பட்டது."
+
+#: zinn/class-zinn-cache-pro-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(புதிய தாவலில் திறக்கும்)"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Zinn® ஆதரவிற்க்கு இதை அனுப்பவும்"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "இதுதான் அனுப்பப்படும் — வேறு எதுவும் இல்லை, மறைக்கப்பட்டதும் இல்லை. உங்கள் கடவுச்சொற்கள், டோக்கன்கள் மற்றும் API விசைகள் இதில் இல்லை."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "அனுப்பப்படும் கண்டறிதல் அறிக்கை"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "கிளிப் போர்டுக்கு நகலெடு"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "இந்த அறிக்கையை Zinn® ஆதரவுக் குழுவிற்கு அனுப்பவும்"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "நாங்கள் உங்களுக்காக ஒரு ஆதரவுச் சீட்டைத் திறக்கிறோம், மேலும் மின்னஞ்சல் மூலம் பதிலளிக்கிறோம். அனுப்ப விரும்பவில்லை எனில், அதை மேலே நகலெடுத்து நீங்களே ஒரு சீட்டில் ஒட்டவும்."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:228
+msgid "Copied"
+msgstr "நகலெடுக்கப்பட்டது"
+
+#. translators: %s: the transport error reported by WordPress.
+#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "இந்தச் சேவையகத்திலிருந்து (%s) Zinn Digital®-ஐ எங்களால் அடைய முடியவில்லை. மேலே உள்ள அறிக்கையை நகலெடுத்து அதற்குப் பதிலாக ஒரு டிக்கைத் திறக்கவும் — உங்கள் அமைப்புகளில் எதுவும் தவறில்லை."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Zinn® ஆதரவு உங்கள் அறிக்கையைப் பெற்றுள்ளது, மேலும் மின்னஞ்சல் மூலம் பதிலளிக்கும்."
+
+#. translators: %s: the support reference for the report just sent.
+#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "உங்கள் Zinn® ஆதரவுப் பிரிவு உங்கள் அறிக்கையைப் பெற்றுள்ளது — குறிப்பு %s — மேலும் மின்னஞ்சல் மூலம் பதிலளிக்கும்."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "நீங்கள் குறுகிய காலத்தில் பல அறிக்கைகளை அனுப்பியுள்ளீர்கள். சில நிமிடங்கள் காத்திருந்து மீண்டும் முயற்சிக்கவும் — முந்தையவை வந்து சேர்ந்துவிட்டன."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® அறிக்கையை இப்போதைக்கு ஏற்றுக்கொள்ள முடியவில்லை — அது உங்கள் பக்கத்தில் உள்ள பிழை அல்ல, எங்கள் பக்கத்திலுள்ள பிழை. சிறிது நேரத்திற்குப் பிறகு மீண்டும் முயற்சிக்கவும் அல்லது மேலுள்ள அறிக்கையை ஒரு டிக்கெட்டில் நகலெடுக்கவும்."
+
+#. translators: %d: the HTTP status code the server returned.
+#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "அறிக்கை நிராகரிக்கப்பட்டது (HTTP %d). அதை மேலே நகலெடுத்து, அந்த எண்ணைக் குறிப்பிட்டு ஒரு டிக்கெட் திறக்கவும்."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: zinn/class-zinn-cache-pro-promo.php:241
@@ -5788,3 +6078,19 @@ msgstr "Zinn Hub® — இதைத் தொழிலாகச் செய்�
 #: zinn/class-zinn-cache-pro-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "எங்கள் உலகளாவிய ஃப்ரீலான்ஸ் சந்தை: எழுத்தாளர்கள், வடிவமைப்பாளர்கள், டெவலப்பர்கள் மற்றும் SEO நிபுணர்களிடமிருந்து 10,000 க்கும் மேற்பட்ட ஆயத்த சேவைகளை உலாவுக அல்லது ஒரு திட்டத்தை இடுகையிட்டு அவர்களை ஏலம் எடுக்க அனுமதிக்கவும்."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:109
+msgid "Style preset"
+msgstr "பாணி முன்னமைவு"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "ஒரு தொடக்கப் புள்ளி. கீழே உள்ள எதும் அதை மாற்றி எழுதும்."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "எனது சொந்த நிறங்கள் மற்றும் அளவுகளைப் பயன்படுத்துக"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "இதை ஆஃப் செய்துவிட்டால், முன்னமைவு அப்படியே பயன்படுத்தப்படும்."

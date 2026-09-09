@@ -14,6 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
+#: zinn/bootstrap.php:346
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -3330,10 +3331,9 @@ msgstr "Cabbir muddada ilbiriqsadaha ah ee ay tahay in gurguuraha uu dib ugu bil
 msgid "The crawler will use your XML sitemap or sitemap index. Enter the full URL to your sitemap here."
 msgstr "Crawl-aha wuxuu isticmaali doonaa sitemap-kaaga XML ama fekerka sitemap-ka. Halkan ku geli URL-ka buuxa ee sitemap-kaaga."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: so translation contains 'celceliska', a token that repeats its own opening — the shape of `revrevendeur` for `
 #: tpl/crawler/settings.tpl.php:73
 msgid "The maximum average server load allowed while crawling. The number of crawler threads in use will be actively reduced until average server load falls under this limit. If this cannot be achieved with a single thread, the current crawler run will be terminated."
-msgstr ""
+msgstr "Culayska ugu sarreeya ee server-ka ee la oggol yahay inta la raadinayo. Tirada dhuujiyayaasha ee la isticmaalayo waa la dhimi doonaa ilaa culayska server-ka uu ka hoos maro xaddidan. Haddii aan tan lagu gaari karin hal dhuujiye, hawsha raadinta ee hadda socota waa la joojin doonaa."
 
 #: tpl/crawler/settings.tpl.php:79
 #, php-format
@@ -4061,6 +4061,7 @@ msgid "Redetect"
 msgstr "Dib u ogaansho"
 
 #: tpl/img_optm/summary.tpl.php:58
+#: zinn/bootstrap.php:358
 msgid "Image optimisation"
 msgstr "Hagaajinta sawirka"
 
@@ -5135,10 +5136,9 @@ msgstr "TTL Sare"
 msgid "This no-risk preset is appropriate for all websites. Good for new users, simple websites, or cache-oriented development."
 msgstr "Dejintaan aan khatarta lahayn waxay ku habboon tahay dhammaan mareegaha. Waxay u fiican tahay isticmaaleyaasha cusub, mareegaha fudud, ama horumarinta kayd-u-jeedka leh."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: so translation contains 'aasaasiga', a token that repeats its own opening — the shape of `revrevendeur` for `r
 #: tpl/presets/standard.tpl.php:25
 msgid "Only basic caching features are enabled. Every option in this preset works without any online service."
-msgstr ""
+msgstr "Waa keliya sifooyinka kaydinta ku meel gaarka ah kuwa shaqaynaya. Doorasho kasta oo ku jirta gobolkan hore loo sii dhigay waxay ku shaqaynaysaa adigoon isticmaalin wax adeeg intarneed ah."
 
 #: tpl/presets/standard.tpl.php:29
 #: tpl/toolbox/settings-debug.tpl.php:117
@@ -5445,6 +5445,7 @@ msgid "Import Settings"
 msgstr "Dejinta Soo dejinta"
 
 #: tpl/toolbox/import_export.tpl.php:48
+#: zinn/class-zinn-cache-pro-admin-ui.php:912
 msgid "Import"
 msgstr "Keenso"
 
@@ -5741,6 +5742,56 @@ msgstr "Ka hortag dukumientiga dhibaato-raadinta (debug log) ee bogagga ku qoran
 msgid "Prevent writing log entries that include listed strings."
 msgstr "Ka hortag qorista gelitaanka diiwaanka ee ay ku jiraan xarfo taxan."
 
+#: zinn/bootstrap.php:263
+msgid "Cache Engine"
+msgstr "Mashiinka Kaydinta Ku Meel Gaarka ah"
+
+#: zinn/bootstrap.php:269
+#: zinn/bootstrap.php:276
+#: zinn/class-zinn-cache-pro-admin-ui.php:279
+msgid "Overview"
+msgstr "Guudmarka"
+
+#: zinn/bootstrap.php:306
+msgid "Web server"
+msgstr "Web server"
+
+#: zinn/bootstrap.php:307
+msgid "not reported"
+msgstr "laguma soo wargelin"
+
+#: zinn/bootstrap.php:310
+msgid "Version"
+msgstr "Nooc"
+
+#: zinn/bootstrap.php:318
+msgid "This server is not running LiteSpeed."
+msgstr "Server-kani ma wado LiteSpeed."
+
+#: zinn/bootstrap.php:319
+msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
+msgstr "Wax kasta oo kale halkan wuu shaqeeyaa — wanaajinta sawirka, nadiifiyaha xog-ururinta, CDN-ka — laakiin kaydinta bogga oo buuxa waxay u baahan tahay LiteSpeed ​​server-ka shabakadda, markaa boggagii lama kaydinayo. Weydii martigeliyahaaga in LiteSpeed ​​uu diyaar yahay, ama u guur martigelinta Zinn® halkaas oo ay ku tahay heer caadi ah."
+
+#: zinn/bootstrap.php:321
+msgid "See Zinn® hosting"
+msgstr "Ka eeg Zinn® hosting"
+
+#: zinn/bootstrap.php:330
+msgid "LiteSpeed is running and full-page caching is available."
+msgstr "LiteSpeed wuu shaqeynayaa waxaana la heli karaa kaydinta bogga oo dhan."
+
+#: zinn/bootstrap.php:348
+msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
+msgstr "Mishiinka dejintiisu — keydsiga, hufnaanta sawirrada, nadiifiyaha xogta, gurguuraha iyo CDN-ta — waxay ku jiraan liiskooda gaarka ah. Shaashaddani waxay siddaa waxyaabaha Zinn Digital® ku daray: heerka kore, warbixin aad u diri karto taageerada, iyo soo dejinta iyo dhoofinta la wadaago."
+
+#: zinn/bootstrap.php:352
+msgid "Open the cache engine settings"
+msgstr "Fur dejinta mishiinka kaydka"
+
+#: zinn/bootstrap.php:355
+msgid "Cache settings"
+msgstr "Dejinta kaydka km (Cache settings)"
+
 #: zinn/class-updater.php:230
 msgid "See the Zinn Digital® release notes."
 msgstr "Eeg qoraallada sii-daynta ee Zinn Digital®."
@@ -5748,6 +5799,243 @@ msgstr "Eeg qoraallada sii-daynta ee Zinn Digital®."
 #: zinn/class-updater.php:285
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Cusboonaysiintii la soo dejiyey ayaa ku guuldareysatay hubinta daacadnimadeeda mana la rakibin."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Kaydsan. Ku qor qiime cusub si aad u bedesho."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Sifeey liiskan…"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Miir liistadan"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Waxba kuma habboona miirahaas."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:683
+msgid "Add a row"
+msgstr "Kudar saf"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Ka saar safkan"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove"
+msgstr "Ka tirtir"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:264
+#: zinn/class-zinn-cache-pro-admin-ui.php:265
+#: zinn/class-zinn-cache-pro-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — dulmar"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Plugin kasta oo Zinn® ah oo ku yaala boggan, iyo inuu shaqaynayo iyo in kale."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Xiriir looma baahna furahan."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:357
+msgid "Open settings"
+msgstr "Fur dejinta"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:685
+#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Ma haysto oggolaansho aad ku beddesho dejiintan."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Qaybaha dejinta"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:788
+msgid "Support"
+msgstr "Taageero"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:846
+msgid "Save changes"
+msgstr "Keydi isbeddellada"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:875
+msgid "Tools"
+msgstr "Qalabka"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:890
+msgid "Export settings"
+msgstr "Dejinta dhoofinta"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Dib ugu deji sida caadiga ah"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Tani waxay dib ugu celineysaa dhammaan habaynta plugin-kan sidii ay asal ahaan ahayd. Ma rabtaa inaad sii waddo?"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Cilad-baarista taageerada"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Sooji geli faylka dejinta"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Faylalka la dhoofiyay waligood ma kooban yihiin erayada sirta ah, calaamadaha ama furayaasha API-ga — waxaad u baahan doontaa inaad dib u geliso kuwaas goobta cusub."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Dejinta waa la keydiyay."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Dhammaan dejinta plugin-kan waxay ku noqotay sidii loogu talagalay asalka."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+msgid "Done."
+msgstr "La dhammeeyey."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Falalkaas lama heli karo."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Feylkaas lama akhriyi karo. Dooro faylka dejinta ee laga soo dhoofiyay Zinn® plugin."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Feylkaasi waa mid aad u weyn oo aan noqon karin dhoofinta dejinta."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Faylkani ma aha dhoofinta dejinta Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Feylkaas waxaa laga soo dhoofiyay qalab-galeen kale (%s), markaa halkan lagu soo dejiyo waxay keydinaysaa dejinta uusan qalab-galeenkani fahmin."
+
+#. translators: %d: how many settings were imported.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d dejin ayaa la soo dejiyay. Furayaasha sirta ah iyo furayaasha API-ga laguma daro dhoofinta, markaa fadlan mar kale gali kuwaas."
+msgstr[1] "%d dejinta la dhoofiyay. Furayaasha iyo furayaasha API weligood kuma jiraan dhoofinta, markaa kuwaas mar kale geli."
+
+#: zinn/class-zinn-cache-pro-connection.php:58
+msgid "Connected"
+msgstr "Ku xidhan"
+
+#: zinn/class-zinn-cache-pro-connection.php:60
+msgid "Connecting…"
+msgstr "Waa la xiriirinayaa…"
+
+#: zinn/class-zinn-cache-pro-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Isku xiran, laakiin waxaa jira wax u baahan in la eego"
+
+#: zinn/class-zinn-cache-pro-connection.php:64
+msgid "Not connected"
+msgstr "Lama xiriirin"
+
+#: zinn/class-zinn-cache-pro-connection.php:66
+msgid "Running on your own account"
+msgstr "Ku shaqaynaya akoonkaaga"
+
+#: zinn/class-zinn-cache-pro-connection.php:68
+msgid "We could not check this"
+msgstr "Ma awoodno inaan hubino tan"
+
+#: zinn/class-zinn-cache-pro-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Plugin-kan ma uusan sheegin sababta. Dir warbixinta baaritaanka waanan eegeynaa."
+
+#: zinn/class-zinn-cache-pro-connection.php:161
+msgid "Connection status"
+msgstr "Xaaladda xiriirka"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: zinn/class-zinn-cache-pro-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Last waxaa la hubiyay %s ka hor."
+
+#: zinn/class-zinn-cache-pro-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(wuxuu ku furmayaa tab cusub)"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "U dir tan taageerada Zinn®"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Kani waa sida saxda ah ee loo dirayo — wax kale ma jiraan, waxna ma qarsana. Furayaashaaga sirta ah, calaamadaha aqoonsiga iyo furayaasha API kuma jiraan."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Warbixinta ogaanshaha cilladaha ee la diri doono"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Nuqul ka qaado sabuuradda"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Warbixintan u dir taageerada Zinn®"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Waxaan kuu furaneynaa tigidh taageero ah waxaana kuugu jawaabeynaa iimayl. Haddii aadan jeclayn inaad dirto, kor ka koobi oo adigu iskala dhig tigidh."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:228
+msgid "Copied"
+msgstr "La koobiyey"
+
+#. translators: %s: the transport error reported by WordPress.
+#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Kama gaari karin Zinn Digital® server-kan (%s). Nuqul ka yeero warbixinta kor ku xusan oo halkaas ka fur tigidh — wax khalad ah oo ku jira dejintaada ma jiraan."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Taageerada Zinn® waxay haysataa warbixintaada waxayna kuugu jawaabi doontaa iimayl ahaan."
+
+#. translators: %s: the support reference for the report just sent.
+#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Taageerada Zinn® waxay heshay warbixintaada — tixraaca %s — waxayna kuugu soo jawaabi doontaa iimayl."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Waxaad dirtay warbixino dhowr ah waqti gaaban gudahood. Sug daqiiqado yar kadibna dib u day — kuwii hore way yimaadeen."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® ma awoorin in ay aqbasho warbixinta hadda — taasi waa dhinankeenna, ee maaha kanaga. Mar labaad isku day dhawaan, ama koobi ka dhig warbixinta sare oo geli tigidh."
+
+#. translators: %d: the HTTP status code the server returned.
+#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Warbixinta waa la diiday (HTTP %d). Koobi garso kore oo fur tigidh, adigoo xiganaya lambarkaas."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: zinn/class-zinn-cache-pro-promo.php:241
@@ -5793,3 +6081,19 @@ msgstr "Zinn Hub® — kireyso dadkan shaqadan u leh noloshooda"
 #: zinn/class-zinn-cache-pro-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Suuqa kala iibsiga ee madaxa-bannaan ee caalamiga ah: ka baadh in ka badan 10,000 adeeg oo diyaar ah oo ka yimid qorayaasha, naqshadeeyayaasha, horumariyeyaasha iyo khubarada SEO, ama soo dhig mashruuc oo u ogolow inay ku tartamaan."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:109
+msgid "Style preset"
+msgstr "Habka qaabka"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Bilaabayasha. Wax kasta oo hooseeya ayaa ka sarreeya."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Isticmaal midabadayda iyo cabbiradayda"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Kani dami oo horay-u-dejinta waxaa loo isticmaali doonaa sida ay tahay."

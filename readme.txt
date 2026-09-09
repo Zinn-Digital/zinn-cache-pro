@@ -7,7 +7,7 @@ Tags: cache, page cache, object cache, performance, optimization
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -81,6 +81,17 @@ No. Zinn® Cache handles page caching only when no cache engine is present; when
 == Security ==
 
 Report security issues with **this fork** to security@zinndigital.com — not to LiteSpeed Technologies. If an issue also affects upstream LiteSpeed Cache we will coordinate disclosure with them.
+
+== External services ==
+
+This plugin talks to Zinn Digital®'s API on your behalf.
+
+* **Support diagnostics (only when you press send).** If you ask us for help, the plugin can send
+  a support report to `https://api.zinndigital.com/v1/connector/diagnostics`. **You are shown the
+  exact payload first, already redacted, and nothing leaves your site until you press send.**
+  Credentials are excluded by declaration rather than by matching key names, and render as
+  `[not sent — credential]`. The plugin never sends this on its own initiative.
+
 
 == Changelog ==
 

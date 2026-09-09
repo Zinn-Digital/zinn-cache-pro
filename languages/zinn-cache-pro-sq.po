@@ -14,6 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
+#: zinn/bootstrap.php:346
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -4058,6 +4059,7 @@ msgid "Redetect"
 msgstr "Rindetekto"
 
 #: tpl/img_optm/summary.tpl.php:58
+#: zinn/bootstrap.php:358
 msgid "Image optimisation"
 msgstr "Optimizimi i imazheve"
 
@@ -5441,6 +5443,7 @@ msgid "Import Settings"
 msgstr "Importo cilësimet"
 
 #: tpl/toolbox/import_export.tpl.php:48
+#: zinn/class-zinn-cache-pro-admin-ui.php:912
 msgid "Import"
 msgstr "Importo"
 
@@ -5736,6 +5739,56 @@ msgstr "Parandaloni çdo regjistër debug të faqeve të listuara."
 msgid "Prevent writing log entries that include listed strings."
 msgstr "Parandaloni shkrimin e hyrjeve të regjistrit që përfshijnë vargjet e listuara."
 
+#: zinn/bootstrap.php:263
+msgid "Cache Engine"
+msgstr "Motori i cache-it"
+
+#: zinn/bootstrap.php:269
+#: zinn/bootstrap.php:276
+#: zinn/class-zinn-cache-pro-admin-ui.php:279
+msgid "Overview"
+msgstr "Përmbledhje"
+
+#: zinn/bootstrap.php:306
+msgid "Web server"
+msgstr "Ueb-serveri"
+
+#: zinn/bootstrap.php:307
+msgid "not reported"
+msgstr "nuk raportohet"
+
+#: zinn/bootstrap.php:310
+msgid "Version"
+msgstr "Versioni"
+
+#: zinn/bootstrap.php:318
+msgid "This server is not running LiteSpeed."
+msgstr "Ky server nuk ekzekuton LiteSpeed."
+
+#: zinn/bootstrap.php:319
+msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
+msgstr "Çdo gjë tjetër këtu funksionon — optimizimi i imazheve, pastruesi i bazës së të dhënave, CDN — por memorizimi i fshehtë i faqeve të plota kërkon LiteSpeed në serverin e uebit, kështu që faqet nuk po ruhen në memorie të fshehtë. Pyetni ofruesin tuaj të pritjes (host) nëse LiteSpeed është i disponueshëm, ose kaloni te Zinn® hosting ku ai është standard."
+
+#: zinn/bootstrap.php:321
+msgid "See Zinn® hosting"
+msgstr "Shihni pritjen Zinn®"
+
+#: zinn/bootstrap.php:330
+msgid "LiteSpeed is running and full-page caching is available."
+msgstr "LiteSpeed është duke punuar dhe memorizimi i faturave të plota (full-page caching) është i disponueshëm."
+
+#: zinn/bootstrap.php:348
+msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
+msgstr "Cilësimet e vetë motorit — ruajtja në memorien cache, optimizimi i imazheve, pastruesi i bazës së të dhënave, crawler dhe CDN — ndodhen në menunë e tyre. Ky ekran mban gjërat që shton Zinn Digital®: statusin më sipër, një raport që mund t'ia dërgoni mbështetjes, si dhe importimin dhe eksportimin e pëasrbashkët."
+
+#: zinn/bootstrap.php:352
+msgid "Open the cache engine settings"
+msgstr "Hapni cilësimet e motorit të cache-it"
+
+#: zinn/bootstrap.php:355
+msgid "Cache settings"
+msgstr "Cilësimet e cache-it"
+
 #: zinn/class-updater.php:230
 msgid "See the Zinn Digital® release notes."
 msgstr "Shihni shënimet e lëshimit të Zinn Digital®."
@@ -5743,6 +5796,243 @@ msgstr "Shihni shënimet e lëshimit të Zinn Digital®."
 #: zinn/class-updater.php:285
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Përditësimi i shkarkuar dështoi në kontrollin e integritetit dhe nuk u instalua."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Ruajtur. Shkruani një vlerë të re për ta zëvendësuar."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Filtroj këtë listë…"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Filtro këtë listë"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Nuk ka përputhje me këtë filtrues."
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:683
+msgid "Add a row"
+msgstr "Shto një rresht"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Hiq këtë rresht"
+
+#: zinn/class-zinn-cache-pro-admin-fields.php:720
+msgid "Remove"
+msgstr "Hiq"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:264
+#: zinn/class-zinn-cache-pro-admin-ui.php:265
+#: zinn/class-zinn-cache-pro-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — përmbledhje"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Çdo shtesë Zinn® në këtë faqe, dhe nëse ajo funksionon."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Nuk nevojitet asnjë lidhje për këtë shtojcë."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:357
+msgid "Open settings"
+msgstr "Hapni cilësimet"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:685
+#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Nuk keni leje për t'i ndryshuar këto cilësime."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Kategoritë e cilësimeve"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:788
+msgid "Support"
+msgstr "Mbështetje"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:846
+msgid "Save changes"
+msgstr "Ruaj ndryshimet"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:875
+msgid "Tools"
+msgstr "Mjete"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:890
+msgid "Export settings"
+msgstr "Eksporto cilësimet"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Rivendos te parazgjedhjet"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Kjo i kthen të gjitha cilësimet e këtij shtojce në parazgjedhjet e tyre. Të vazhdohet?"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Diagnostikimi për mbështetjen"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Importo një skedar cilësimesh"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Skedarët e eksportuar nuk përmbajnë kurrë fjalëkalime, çelësa ose çelësa API — do t'ju duhet t'i vendosni përsëri ato në faqen e re."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Cilësimet u ruajtën."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Çdo cilësim i këtij shtojce është kthyer në parazgjedhje."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+msgid "Done."
+msgstr "Kryer."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Ky veprim nuk është i disponueshëm."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Ai skedar nuk mund të lexohej. Zgjidhni një skedar cilësimesh të eksportuar nga një shtojcë e Zinn®."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Ai skedar është shumë i madh për të qenë një eksport cilësimesh."
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Ai skedar nuk është një eksport cilësimesh i Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Ai skedar është eksportuar nga një shtojcë tjetër (%s), kështu që importimi i tij këtu do të ruante cilësimet që kjo shtojcë nuk i kupton."
+
+#. translators: %d: how many settings were imported.
+#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d cilësim u importua. Fjalëkalimet dhe çelësat API nuk përfshihen kurrë në një eksport, ndaj futini ato përsëri."
+msgstr[1] "%d cilësime u importuan. Fjalëkalimet dhe çelësat API nuk përfshihen kurrë në një eksport, ndaj futini ato përsëri."
+
+#: zinn/class-zinn-cache-pro-connection.php:58
+msgid "Connected"
+msgstr "I lidhur"
+
+#: zinn/class-zinn-cache-pro-connection.php:60
+msgid "Connecting…"
+msgstr "Duke u lidhur…"
+
+#: zinn/class-zinn-cache-pro-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "I lidhur, por diçka kërkon vëmendje"
+
+#: zinn/class-zinn-cache-pro-connection.php:64
+msgid "Not connected"
+msgstr "I lidhur jo"
+
+#: zinn/class-zinn-cache-pro-connection.php:66
+msgid "Running on your own account"
+msgstr "Duke u ekzekutuar në llogarinë tuaj"
+
+#: zinn/class-zinn-cache-pro-connection.php:68
+msgid "We could not check this"
+msgstr "Nuk mundëm ta kontrollonim këtë"
+
+#: zinn/class-zinn-cache-pro-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Ky shtojcë nuk tregoi arsyen. Dërgoni një raport diagnostikues dhe ne do ta shqyrtojmë."
+
+#: zinn/class-zinn-cache-pro-connection.php:161
+msgid "Connection status"
+msgstr "Statusi i lidhjes"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: zinn/class-zinn-cache-pro-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Kontrolluar për herë të fundit para %s."
+
+#: zinn/class-zinn-cache-pro-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(hapet në një skedë të re)"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Dërgoje këtë te mbështetja e Zinn®"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Kjo është fiks ajo që do të dërgohet — asgjë tjetër dhe asgjë e fshehur. Fjalëkalimet, shenjat (tokens) dhe çelësat e API-së tuaj nuk janë përfshirë në të."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Raporti i diagnostikimit që do të dërgohet"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Kopjo në kujtesën e përkohshme"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Dërgoje këtë raport te mbështetja e Zinn®"
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Ne hapim një biletë mbështetjeje për ju dhe ju përgjigjemi me email. Nëse preferoni të mos e dërgoni, kopjojeni atë më sipër dhe ngjiteni vetë në një biletë."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:228
+msgid "Copied"
+msgstr "Kopjuar"
+
+#. translators: %s: the transport error reported by WordPress.
+#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Nuk mundëm të arrinim Zinn Digital® nga ky server (%s). Kopjoni raportin e mësipërm dhe hapni një ticket në vend të kësaj — asgjë rreth cilësimeve tuaja nuk është e gabuar."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Mbështetja e Zinn® ka marrë raportin tuaj dhe do t'ju përgjigjet me email."
+
+#. translators: %s: the support reference for the report just sent.
+#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Mbështetja e Zinn® ka marrë raportin tuaj — referenca %s — dhe do t'ju përgjigjet me email."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Ju keni dërguar disa raporte brenda një kohe të shkurtër. Prisni disa minuta dhe provoni përsëri — ato të mëparshmet mbërritën."
+
+#: zinn/class-zinn-cache-pro-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® nuk mund ta pranonte raportin tani – kjo është nga ana jonë, jo e juaja. Provoni përsëri pas pak, ose kopjoni raportin më sipër në një biletë."
+
+#. translators: %d: the HTTP status code the server returned.
+#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Raporti u refuzua (HTTP %d). Kopjojeni atë më lart dhe hapni një kërkesë (ticket), duke përmendur atë numër."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: zinn/class-zinn-cache-pro-promo.php:241
@@ -5788,3 +6078,19 @@ msgstr "Zinn Hub® — punësoni njerëz që e bëjnë këtë për jetesë"
 #: zinn/class-zinn-cache-pro-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Tregu ynë global i profesionistëve të pavarur: shfletoni mbi 10,000 shërbime të gatshme nga shkrimtarë, dizajnerë, zhvillues dhe ekspertë të SEO-s, ose postojeni një projekt dhe lërini të bëjnë ofertat e tyre."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:109
+msgid "Style preset"
+msgstr "Parazgjedhja e stilit"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Një pikë nisjeje. Çdo gjë më poshtë e anashkalon atë."
+
+#: zinn/class-zinn-cache-pro-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Përdor ngjyrat dhe madhësitë e mia të preferuara"
+
+#: zinn/class-zinn-cache-pro-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Lëreni këtë të çaktivizuar dhe parazgjedhja përdoret saktësisht siç është."
