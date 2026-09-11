@@ -7,7 +7,7 @@ Tags: cache, page cache, object cache, performance, optimization
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -94,6 +94,9 @@ This plugin talks to Zinn Digital®'s API on your behalf.
 
 
 == Changelog ==
+
+= 1.2.1 =
+* Hardening: a settings rule can no longer be mistaken for a PHP function with the same name. The same shared settings code is what stopped Zinn® Translate saving its settings. Nothing about how this plugin behaves changes.
 
 = 1.1.0 =
 * Added the Zinn® panel: links to Zinn Digital® hosting, the Zinn® marketplace, Zinn Hub® and this plugin's user guide, from inside the WordPress admin.
