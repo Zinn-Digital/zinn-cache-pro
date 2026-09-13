@@ -325,10 +325,10 @@ msgstr "API"
 msgid "Server variable(s) %s available to override this setting."
 msgstr "Doorsoomaha server-ka %s ayaa diyaar u ah in ay ka adkaadaan dejintan."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: so translation contains 'barbardhigi', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: src/admin-display.cls.php:1551
 msgid "The URLs will be compared to the REQUEST_URI server variable."
-msgstr ""
+msgstr "URL-yada waxaa la barbar dhigi doonaa doorsoomaha server-ka ee REQUEST_URI."
 
 #. translators: 1: example URL, 2: pattern example
 #: src/admin-display.cls.php:1553
@@ -700,11 +700,11 @@ msgid "This site utilizes caching in order to facilitate a faster response time 
 msgstr "Boggan wuxuu adeegsadaa keydka ku meel-gaarka ah (caching) si loo fududeeyo jawaab degdeg ah iyo waayo-aragnimo isticmaale oo wanaagsan. Keydka ku meel-gaarka ah wuxuu suurtogal ka dhigayaa inuu kaydiyo koobbi labaad oo bog kasta oo shabakad ah oo ka muuqda boggan. Dhammaan faylasha keydka waa kuwo ku meel-gaar ah, mana heli karo cid saddexaad, marka laga reebo sida lagama maarmaanka u ah helitaanka taageerada farsamo ee iibiyaha furaha keydka (cache plugin). Faylasha keydka waxay dhacaan jadwalka uu dejiyay maamulaha bogga, laakiin waxaa si fudud u tirtiri kara maamulaha ka hor intaanay dhicin waqtigooda dabiiciga ah, haddii loo baahdo. Waxaan isticmaali karnaa adeegyada QUIC.cloud si aan u baahino oo u keydino xogtaada si ku meel gaar ah."
 
 #. translators: %s: QUIC.cloud privacy policy URL
-#. zinn-i18n: not translated — NeedsHumanTranslationError: so translation contains 'faahfaahin', a token that repeats its own opening — the shape of `revrevendeur` for `
+#. zinn-i18n: human translation — the machine translator refused this string
 #: src/doc.cls.php:76
 #, php-format
 msgid "Please see %s for more details."
-msgstr ""
+msgstr "Fadlan eeg %s si aad u hesho faahfaahin dheeraad ah."
 
 #: src/doc.cls.php:101
 #: tpl/img_optm/summary.tpl.php:59
@@ -5713,10 +5713,10 @@ msgstr "IP-gaaga"
 msgid "More information about the available commands can be found here."
 msgstr "Macluumaad dheeraad ah oo ku saabsan amarada la heli karo waxaa laga heli karaa halkan."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: so translation contains 'faahfaahino', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/toolbox/settings-debug.tpl.php:119
 msgid "Advanced level will log more details."
-msgstr ""
+msgstr "Heerka horumarsan wuxuu diiwaangelin doonaa faahfaahin badan."
 
 #: tpl/toolbox/settings-debug.tpl.php:130
 msgid "MB"

@@ -380,7 +380,7 @@ msgstr "Babu filaye"
 #: src/admin-settings.cls.php:104
 #, php-format
 msgid "The user with id %s has editor access, which is not allowed for the role simulator."
-msgstr "Mai amfani mai id %s yana da damar edita, wanda ba a ٧ardar da shi ba ga mai koyi da matsayi."
+msgstr "Mai amfani mai id %s yana da damar edita, wanda ba a yarda da shi ba ga mai koyi da matsayi."
 
 #: src/admin-settings.cls.php:297
 #: src/admin-settings.cls.php:333

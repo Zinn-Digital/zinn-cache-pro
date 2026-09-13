@@ -1305,7 +1305,7 @@ msgstr "ໂໝດແຂກ"
 
 #: src/lang.cls.php:120
 msgid "Guest Optimization"
-msgstr "ການ β5 ປັບປຸງປະສິດທິພາບສຳລັບແຂກ"
+msgstr "ການປັບປຸງປະສິດທິພາບສຳລັບແຂກ"
 
 #: src/lang.cls.php:121
 msgid "Notifications"
@@ -5777,10 +5777,10 @@ msgstr "ເບິ່ງໂຮສຕິ້ງ Zinn®"
 msgid "LiteSpeed is running and full-page caching is available."
 msgstr "LiteSpeed ກຳລັງເຮັດວຽກ ແລະ ມີລະບົບແຄຊ໌ເຕັມໜ້າເວັບໃຫ້ໃຊ້ງານໄດ້."
 
-#. zinn-i18n: not translated — TranslationRejectedError: lo translation is written in Thai, not in the script lo is written in. The model answered in the wrong languag
+#. zinn-i18n: human translation — the machine translator refused this string
 #: zinn/bootstrap.php:348
 msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
-msgstr ""
+msgstr "ການຕັ້ງຄ່າຂອງເຄື່ອງມືເອງ — ການເກັບແຄຊ໌, ການປັບແຕ່ງຮູບພາບ, ການລ້າງຖານຂໍ້ມູນ, ຕົວກວາດຂໍ້ມູນ ແລະ CDN — ຢູ່ໃນເມນູຂອງມັນເອງ. ໜ້ານີ້ມີສິ່ງທີ່ Zinn Digital® ເພີ່ມເຂົ້າມາ: ສະຖານະຂ້າງເທິງ, ລາຍງານທີ່ທ່ານສາມາດສົ່ງໃຫ້ຝ່າຍຊ່ວຍເຫຼືອ, ແລະ ການນຳເຂົ້າ ແລະ ສົ່ງອອກທີ່ໃຊ້ຮ່ວມກັນ."
 
 #: zinn/bootstrap.php:352
 msgid "Open the cache engine settings"

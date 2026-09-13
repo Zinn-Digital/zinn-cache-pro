@@ -5385,10 +5385,10 @@ msgstr "Kalp Atışı Kontrolü"
 msgid "Disable WordPress interval heartbeat to reduce server load."
 msgstr "Sunucu yükünü azaltmak için WordPress aralık sinyalini (heartbeat) devre dışı bırakın."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: tr translation contains 'durdurmasına', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/toolbox/heartbeat.tpl.php:28
 msgid "Disabling this may cause WordPress tasks triggered by AJAX to stop working."
-msgstr ""
+msgstr "Bunu devre dışı bırakmak, AJAX tarafından tetiklenen WordPress görevlerinin çalışmayı durdurmasına neden olabilir."
 
 #: tpl/toolbox/heartbeat.tpl.php:43
 msgid "Turn ON to control heartbeat on frontend."

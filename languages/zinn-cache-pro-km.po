@@ -2456,7 +2456,7 @@ msgstr "ផ្លូវទាំងឡាយណាដែលមានខ្សែ
 #: tpl/cache/settings-cache.tpl.php:133
 #: tpl/cache/settings-cache.tpl.php:158
 msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
-msgstr "ដើម្បីកំណត់ TTL ផ្ទាល់ខ្លួនសម្រាប់ URI មួយ សូមបន្ថែមដកឃ្លា១ តាមដានដោយតម្លៃ TTL នៅចុងបញ្ចប់នៃ URI នោះ។"
+msgstr "ដើម្បីកំណត់ TTL ផ្ទាល់ខ្លួនសម្រាប់ URI មួយ សូមបន្ថែមដកឃ្លាមួយ តាមដានដោយតម្លៃ TTL នៅចុងបញ្ចប់នៃ URI នោះ។"
 
 #: tpl/cache/settings-cache.tpl.php:136
 #: tpl/cache/settings-cache.tpl.php:161
@@ -2684,7 +2684,7 @@ msgstr "ចំណាំ"
 
 #: tpl/cache/settings-purge.tpl.php:55
 msgid "Select \"All\" if there are dynamic widgets linked to posts on pages other than the front or home pages."
-msgstr "ជ្រើសរើសយក \"ទាំងអស់\" ប្រសិនបើមានធាតុក្រាហ្វិកឌីណាមិកដែលបានតភ្ជាប់ទៅនឹងការផ្សាយនៅលើទំព័រផ្សេងទៀតក្រៅពីទំព័រដើមឬទំព័រទី១។"
+msgstr "ជ្រើសរើសយក \"ទាំងអស់\" ប្រសិនបើមានធាតុក្រាហ្វិកឌីណាមិកដែលបានតភ្ជាប់ទៅនឹងការផ្សាយនៅលើទំព័រផ្សេងទៀតក្រៅពីទំព័រដើមឬទំព័រមុខ។"
 
 #: tpl/cache/settings-purge.tpl.php:56
 msgid "Other checkboxes will be ignored."

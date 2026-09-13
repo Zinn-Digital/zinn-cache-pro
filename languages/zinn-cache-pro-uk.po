@@ -2392,10 +2392,10 @@ msgstr "Укажіть AJAX-дію в POST/GET та кількість секу�
 msgid "Enable this option if you are using both HTTP and HTTPS in the same domain and are noticing cache irregularities."
 msgstr "Увімкніть цю опцію, якщо ви використовуєте як HTTP, так і HTTPS в одному й тому ж домені та помічаєте нерегулярності кешування."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'відвідувач', a token that repeats its own opening — the shape of `revrevendeur` for `
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/cache/settings-advanced.tpl.php:71
 msgid "When a visitor hovers over a page link, preload that page. This will speed up the visit to that link."
-msgstr ""
+msgstr "Коли відвідувач наводить курсор на посилання на сторінку, заздалегідь завантажувати цю сторінку. Це пришвидшить перехід за цим посиланням."
 
 #: tpl/cache/settings-advanced.tpl.php:76
 msgid "This will generate extra requests to the server, which will increase server load."
@@ -2406,11 +2406,11 @@ msgid "Use Network Admin Setting"
 msgstr "Використовувати налаштування адміністратора мережі"
 
 #. translators: %s: Link tags
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'відвідайте', a token that repeats its own opening — the shape of `revrevendeur` for `
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/cache/settings-cache.tpl.php:36
 #, php-format
 msgid "Please visit the %sInformation%s page on how to test the cache."
-msgstr ""
+msgstr "Перейдіть на сторінку %sІнформація%s, щоб дізнатися, як перевірити кеш."
 
 #: tpl/cache/settings-cache.tpl.php:42
 #: tpl/crawler/settings.tpl.php:113
@@ -2700,10 +2700,10 @@ msgstr "Виберіть лише ті типи архівів, які вико�
 msgid "Select which pages will be automatically purged when posts are published/updated."
 msgstr "Виберіть сторінки, які будуть автоматично очищатися від кешу після публікації або оновлення дописів."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'відвідувачам', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/cache/settings-purge.tpl.php:86
 msgid "If ON, the stale copy of a cached page will be shown to visitors until a new cache copy is available. Reduces the server load for following visits. If OFF, the page will be dynamically generated while visitors wait."
-msgstr ""
+msgstr "Якщо УВІМКНЕНО, відвідувачам показуватиметься застаріла копія кешованої сторінки, доки не з’явиться нова копія в кеші. Це зменшує навантаження на сервер під час наступних відвідувань. Якщо ВИМКНЕНО, сторінка генеруватиметься динамічно, поки відвідувачі чекають."
 
 #: tpl/cache/settings-purge.tpl.php:92
 msgid "By design, this option may serve stale content. Do not enable this option, if that is not OK with you."
@@ -2804,10 +2804,10 @@ msgstr "Ігнорувати певні рядки запиту під час к
 msgid "For example, to drop parameters beginning with %1$s, %2$s can be used here."
 msgstr "Наприклад, щоб видалити параметри, які починаються з %1$s, тут можна використати %2$s."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'відвідувачів', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:24
 msgid "Serve a separate cache copy for mobile visitors."
-msgstr ""
+msgstr "Надавати окрему копію кешу мобільним відвідувачам."
 
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:25
 msgid "Learn more about when this is needed"
@@ -3837,10 +3837,10 @@ msgstr "Поставте цей прапорець, щоб використов�
 msgid "This will disable the settings page on all subsites."
 msgstr "Це вимкне сторінку налаштувань на всіх субсайтах."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'відвідувачів', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/general/settings.tpl.php:48
 msgid "This option enables maximum optimization for Guest Mode visitors."
-msgstr ""
+msgstr "Цей параметр вмикає максимальну оптимізацію для відвідувачів у режимі гостя."
 
 #: tpl/general/settings.tpl.php:49
 msgid "Please read all warnings before enabling this option."
@@ -3888,10 +3888,10 @@ msgstr "Перевірити мою публічну IP-адресу з"
 msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
 msgstr "автоматично визначена IP-адреса може бути неточною, якщо у вас налаштовано додаткову вихідну IP-адресу або на вашому сервері налаштовано кілька IP-адрес."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'відвідування', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/general/settings.tpl.php:103
 msgid "Please make sure this IP is the correct one for visiting your site."
-msgstr ""
+msgstr "Переконайтеся, що це правильна IP-адреса для відвідування вашого сайту."
 
 #: tpl/general/settings.tpl.php:118
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
@@ -4383,10 +4383,10 @@ msgstr "З цієї причини перевірте сайт, щоб пере�
 msgid "Examples of test cases include:"
 msgstr "Приклади тестових сценаріїв включають:"
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'Відвідайте', a token that repeats its own opening — the shape of `revrevendeur` for `
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/inc/show_display_installed.php:32
 msgid "Visit the site while logged out."
-msgstr ""
+msgstr "Відкрийте сайт, вийшовши з облікового запису."
 
 #: tpl/inc/show_display_installed.php:33
 msgid "Create a post, make sure the front page is accurate."
@@ -4419,11 +4419,11 @@ msgstr "Якщо ні, перевірте налаштування на вкла
 msgid "If using OpenLiteSpeed, the server must be restarted once for the changes to take effect."
 msgstr "Якщо ви використовуєте OpenLiteSpeed, сервер потрібно один раз перезапустити, щоб зміни набули чинності."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'відвідувачі', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/inc/show_rule_conflict.php:16
 #, php-format
 msgid "Unexpected cache rule %2$s found in %1$s file. This rule may cause visitors to see old versions of pages due to the browser caching HTML pages. If you are sure that HTML pages are not being browser cached, this message can be dismissed. (%3$sLearn More%4$s)"
-msgstr ""
+msgstr "У файлі %1$s знайдено неочікуване правило кешування %2$s. Через це правило відвідувачі можуть бачити старі версії сторінок, бо браузер кешує HTML-сторінки. Якщо ви впевнені, що браузер не кешує HTML-сторінки, це повідомлення можна закрити. (%3$sДокладніше%4$s)"
 
 #: tpl/optimax/entry.tpl.php:16
 msgid "OptimaX Summary"
@@ -4638,10 +4638,10 @@ msgstr "Поміняти місцями"
 msgid "Minify HTML content."
 msgstr "Мінімізувати вміст HTML."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'відвідувачів', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/page_optm/settings_html.tpl.php:44
 msgid "Prefetching DNS can reduce latency for visitors."
-msgstr ""
+msgstr "Попереднє отримання DNS може зменшити затримку для відвідувачів."
 
 #: tpl/page_optm/settings_html.tpl.php:45
 #: tpl/page_optm/settings_html.tpl.php:76
@@ -5015,10 +5015,10 @@ msgstr "Перелічені JS-файли або вбудований JS-код
 msgid "Prevent any optimization of listed pages."
 msgstr "Запобігайте будь-якій оптимізації зазначених сторінок."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'відвідувачів', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/page_optm/settings_tuning.tpl.php:144
 msgid "Only optimize pages for guest (not logged in) visitors. If turned this OFF, CSS/JS/CCSS files will be doubled by each user group."
-msgstr ""
+msgstr "Оптимізувати сторінки лише для гостей (відвідувачів, які не увійшли в систему). Якщо це ВИМКНЕНО, файли CSS/JS/CCSS дублюватимуться для кожної групи користувачів."
 
 #: tpl/page_optm/settings_tuning.tpl.php:156
 msgid "Selected roles will be excluded from all optimizations."

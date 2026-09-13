@@ -4017,7 +4017,7 @@ msgstr "မည်သည့် ပုံအရွယ်အစားများ�
 
 #: tpl/img_optm/settings.tpl.php:120
 msgid "Preserve EXIF data (copyright, GPS, comments, keywords, etc) when optimizing."
-msgstr "ပတ်၀န်းကျင်ကို ပိုမိုကောင်းမွန်အောင်လုပ်ဆောင်သည့်အခါ EXIF အချက်အလက် (မူပိုင်ခွင့်၊ GPS၊ မှတ်ချက်များ၊ သော့ချက်စာလုံးများ စသည်တို့) ကို ထိန်းသိမ်းပါ။"
+msgstr "ပတ်ဝန်းကျင်ကို ပိုမိုကောင်းမွန်အောင်လုပ်ဆောင်သည့်အခါ EXIF အချက်အလက် (မူပိုင်ခွင့်၊ GPS၊ မှတ်ချက်များ၊ သော့ချက်စာလုံးများ စသည်တို့) ကို ထိန်းသိမ်းပါ။"
 
 #: tpl/img_optm/settings.tpl.php:121
 msgid "This will increase the size of optimized files."
@@ -5230,7 +5230,7 @@ msgstr "အစွန်းရောက်"
 
 #: tpl/presets/standard.tpl.php:76
 msgid "Everything in Aggressive, Plus"
-msgstr "Aggressive ပါ၀င်မှုအားလုံးအပြင်၊ ပိုမိုကောင်းမွန်သော အခြားအရာများ"
+msgstr "Aggressive ပါဝင်မှုအားလုံးအပြင်၊ ပိုမိုကောင်းမွန်သော အခြားအရာများ"
 
 #: tpl/presets/standard.tpl.php:77
 msgid "Lazy Load for Images"

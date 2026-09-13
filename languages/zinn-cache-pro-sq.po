@@ -807,7 +807,7 @@ msgstr "Nuk u gjet %1$s në %2$s."
 #: src/error.cls.php:159
 #, php-format
 msgid "Invalid login cookie. Please check the %s file."
-msgstr "Cookie i hy2rjes është i pavlefshëm. Ju lutemi kontrolloni skedarin %s."
+msgstr "Cookie i hyrjes është i pavlefshëm. Ju lutemi kontrolloni skedarin %s."
 
 #: src/error.cls.php:163
 #, php-format

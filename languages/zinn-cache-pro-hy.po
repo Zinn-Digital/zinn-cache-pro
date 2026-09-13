@@ -2576,7 +2576,7 @@ msgstr "Կանխորոշված ցանկը նույնպես կհամակցվի վ
 
 #: tpl/cache/settings-excludes.tpl.php:45
 msgid "Query strings containing these parameters will not be cached."
-msgstr "Այս պարամետրեր0 պարունակող հարցման տողերը չեն քեշավորվի:"
+msgstr "Այս պարամետրերը պարունակող հարցման տողերը չեն քեշավորվի:"
 
 #: tpl/cache/settings-excludes.tpl.php:46
 #, php-format

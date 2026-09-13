@@ -1629,7 +1629,7 @@ msgstr "Ausschlüsse für übergeordnete Klassennamen von Lazy-Load-Bildern"
 
 #: src/lang.cls.php:205
 msgid "Lazy Load Iframe Class Name Excludes"
-msgstr "Klassennamen-Ausschl\\u00fcsse f\\u00fcr Lazy-Load-Iframes"
+msgstr "Klassennamen-Ausschlüsse für Lazy-Load-Iframes"
 
 #: src/lang.cls.php:206
 msgid "Lazy Load Iframe Parent Class Name Excludes"

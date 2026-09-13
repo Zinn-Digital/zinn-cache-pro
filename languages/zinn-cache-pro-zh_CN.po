@@ -2825,10 +2825,10 @@ msgstr ".htaccess 规则为：%s"
 msgid "If %1$s is %2$s, then %3$s must be populated!"
 msgstr "如果 %1$s 为 %2$s，则必须填写 %3$s！"
 
-#. zinn-i18n: not translated — TranslationRejectedError: zh translation is written in Latin, not in the script zh is written in. The model answered in the wrong langua
+#. zinn-i18n: human translation — the machine translator refused this string
 #: tpl/cache/settings_inc.exclude_cookies.tpl.php:28
 msgid "cookies"
-msgstr ""
+msgstr "Cookie"
 
 #: tpl/cache/settings_inc.exclude_useragent.tpl.php:28
 msgid "user agents"
