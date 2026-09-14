@@ -7,7 +7,7 @@ Tags: cache, page cache, object cache, performance, optimization
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -94,6 +94,9 @@ This plugin talks to Zinn Digital®'s API on your behalf.
 
 
 == Changelog ==
+
+= 1.2.3 =
+* The admin screens' styles and scripts are now enqueued through WordPress rather than printed into the page, so they can be dequeued, deferred or optimised by your site like any other asset — and they still work on a site whose security policy forbids inline code.
 
 = 1.2.2 =
 * Translations: corrected catalogue entries in Armenian, Hausa, Lao, Khmer, Albanian, German and Burmese that carried stray digits, a literal escape code or a misspelt word, and translated the strings that were still shipping in English.
