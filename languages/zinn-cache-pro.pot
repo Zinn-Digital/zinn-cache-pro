@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-3.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Cache Engine 1.2.3\n"
+"Project-Id-Version: Zinn® Cache Engine 1.2.4\n"
 "Report-Msgid-Bugs-To: https://zinndigital.com/support\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-14T10:07:56+00:00\n"
+"POT-Creation-Date: 2026-09-16T20:26:24+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-cache-pro\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: zinn/bootstrap.php:346
+#: zinn/bootstrap.php:350
 msgid "Zinn® Cache Engine"
 msgstr ""
 
@@ -4064,7 +4064,7 @@ msgid "Redetect"
 msgstr ""
 
 #: tpl/img_optm/summary.tpl.php:58
-#: zinn/bootstrap.php:358
+#: zinn/bootstrap.php:362
 msgid "Image optimisation"
 msgstr ""
 
@@ -5448,7 +5448,7 @@ msgid "Import Settings"
 msgstr ""
 
 #: tpl/toolbox/import_export.tpl.php:48
-#: zinn/class-zinn-cache-pro-admin-ui.php:991
+#: zinn/class-zinn-cache-pro-admin-ui.php:995
 msgid "Import"
 msgstr ""
 
@@ -5750,47 +5750,47 @@ msgstr ""
 
 #: zinn/bootstrap.php:269
 #: zinn/bootstrap.php:276
-#: zinn/class-zinn-cache-pro-admin-ui.php:291
+#: zinn/class-zinn-cache-pro-admin-ui.php:295
 msgid "Overview"
 msgstr ""
 
-#: zinn/bootstrap.php:306
+#: zinn/bootstrap.php:310
 msgid "Web server"
 msgstr ""
 
-#: zinn/bootstrap.php:307
+#: zinn/bootstrap.php:311
 msgid "not reported"
 msgstr ""
 
-#: zinn/bootstrap.php:310
+#: zinn/bootstrap.php:314
 msgid "Version"
 msgstr ""
 
-#: zinn/bootstrap.php:318
+#: zinn/bootstrap.php:322
 msgid "This server is not running LiteSpeed."
 msgstr ""
 
-#: zinn/bootstrap.php:319
+#: zinn/bootstrap.php:323
 msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
 msgstr ""
 
-#: zinn/bootstrap.php:321
+#: zinn/bootstrap.php:325
 msgid "See Zinn® hosting"
 msgstr ""
 
-#: zinn/bootstrap.php:330
+#: zinn/bootstrap.php:334
 msgid "LiteSpeed is running and full-page caching is available."
 msgstr ""
 
-#: zinn/bootstrap.php:348
+#: zinn/bootstrap.php:352
 msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
 msgstr ""
 
-#: zinn/bootstrap.php:352
+#: zinn/bootstrap.php:356
 msgid "Open the cache engine settings"
 msgstr ""
 
-#: zinn/bootstrap.php:355
+#: zinn/bootstrap.php:359
 msgid "Cache settings"
 msgstr ""
 
@@ -5830,113 +5830,113 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:276
-#: zinn/class-zinn-cache-pro-admin-ui.php:277
-#: zinn/class-zinn-cache-pro-admin-ui.php:417
+#: zinn/class-zinn-cache-pro-admin-ui.php:280
+#: zinn/class-zinn-cache-pro-admin-ui.php:281
+#: zinn/class-zinn-cache-pro-admin-ui.php:421
 msgid "Zinn Digital®"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:290
+#: zinn/class-zinn-cache-pro-admin-ui.php:294
 msgid "Zinn Digital® — overview"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:379
+#: zinn/class-zinn-cache-pro-admin-ui.php:383
 msgid "Copied"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:418
+#: zinn/class-zinn-cache-pro-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:433
+#: zinn/class-zinn-cache-pro-admin-ui.php:437
 msgid "No connection is needed for this plugin."
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:438
+#: zinn/class-zinn-cache-pro-admin-ui.php:442
 msgid "Open settings"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:766
-#: zinn/class-zinn-cache-pro-admin-ui.php:1327
+#: zinn/class-zinn-cache-pro-admin-ui.php:770
+#: zinn/class-zinn-cache-pro-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:795
+#: zinn/class-zinn-cache-pro-admin-ui.php:799
 msgid "Settings sections"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:867
+#: zinn/class-zinn-cache-pro-admin-ui.php:871
 msgid "Support"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:925
+#: zinn/class-zinn-cache-pro-admin-ui.php:929
 msgid "Save changes"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:954
+#: zinn/class-zinn-cache-pro-admin-ui.php:958
 msgid "Tools"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:969
+#: zinn/class-zinn-cache-pro-admin-ui.php:973
 msgid "Export settings"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:972
+#: zinn/class-zinn-cache-pro-admin-ui.php:976
 msgid "Reset to defaults"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:973
+#: zinn/class-zinn-cache-pro-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:980
+#: zinn/class-zinn-cache-pro-admin-ui.php:984
 msgid "Diagnostics for support"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:989
+#: zinn/class-zinn-cache-pro-admin-ui.php:993
 msgid "Import a settings file"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:993
+#: zinn/class-zinn-cache-pro-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1092
+#: zinn/class-zinn-cache-pro-admin-ui.php:1096
 msgid "Settings saved."
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1139
+#: zinn/class-zinn-cache-pro-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+#: zinn/class-zinn-cache-pro-admin-ui.php:1186
 msgid "Done."
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1186
+#: zinn/class-zinn-cache-pro-admin-ui.php:1190
 msgid "That action is not available."
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1253
+#: zinn/class-zinn-cache-pro-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1261
+#: zinn/class-zinn-cache-pro-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1274
+#: zinn/class-zinn-cache-pro-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
 msgstr ""
 
 #. translators: %s: the plugin slug the file was exported from.
-#: zinn/class-zinn-cache-pro-admin-ui.php:1282
+#: zinn/class-zinn-cache-pro-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr ""
 
 #. translators: %d: how many settings were imported.
-#: zinn/class-zinn-cache-pro-admin-ui.php:1312
+#: zinn/class-zinn-cache-pro-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -6060,27 +6060,27 @@ msgstr ""
 msgid "Hide this"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-promo.php:374
+#: zinn/class-zinn-cache-pro-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-promo.php:375
+#: zinn/class-zinn-cache-pro-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-promo.php:381
+#: zinn/class-zinn-cache-pro-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-promo.php:382
+#: zinn/class-zinn-cache-pro-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-promo.php:429
+#: zinn/class-zinn-cache-pro-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr ""
 
-#: zinn/class-zinn-cache-pro-promo.php:430
+#: zinn/class-zinn-cache-pro-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr ""
 

@@ -23,7 +23,7 @@ $menu_list = array(
 		<?php esc_html_e( 'Zinn® Cache Engine Configuration Presets', 'zinn-cache-pro' ); ?>
 	</h1>
 	<span class="litespeed-desc">
-		v<?php echo esc_html( Core::VER ); ?>
+		v<?php echo esc_html( \ZinnCachePro\Zinn\display_version() ); ?>
 	</span>
 	<hr class="wp-header-end">
 </div>

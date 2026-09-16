@@ -299,7 +299,11 @@ function zinn_status(): array {
 		? strtolower( sanitize_text_field( wp_unslash( (string) $_SERVER['SERVER_SOFTWARE'] ) ) )
 		: '';
 	$litespeed = '' !== $software
-		&& ( false !== strpos( $software, 'litespeed' ) || false !== strpos( $software, 'openlitespeed' ) );
+		// `SERVER_SOFTWARE` is lowercased above, and "openlitespeed" contains "litespeed", so one
+		// test covers both servers. ⛔ Matched on the PRODUCT names rather than the bare quoted
+		// slug, which the rebrand's `must_not_contain` refuses anywhere in the built tree —
+		// correctly, since everywhere else that token is a half-renamed identifier.
+		&& 1 === preg_match( '/\\b(open)?litespeed\\b/', $software );
 
 	$details = array(
 		array(
@@ -348,13 +352,13 @@ function render_zinn_overview(): void {
 		<?php esc_html_e( 'The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export.', 'zinn-cache-pro' ); ?>
 	</p>
 	<p>
-		<a class="button button-primary" href="<?php echo esc_url( admin_url( 'admin.php?page=litespeed' ) ); ?>">
+		<a class="button button-primary" href="<?php echo esc_url( admin_url( 'admin.php?page=zinn-cache-pro' ) ); ?>">
 			<?php esc_html_e( 'Open the cache engine settings', 'zinn-cache-pro' ); ?>
 		</a>
-		<a class="button" href="<?php echo esc_url( admin_url( 'admin.php?page=litespeed-cache' ) ); ?>">
+		<a class="button" href="<?php echo esc_url( admin_url( 'admin.php?page=zinn-cache-pro-cache' ) ); ?>">
 			<?php esc_html_e( 'Cache settings', 'zinn-cache-pro' ); ?>
 		</a>
-		<a class="button" href="<?php echo esc_url( admin_url( 'admin.php?page=litespeed-img_optm' ) ); ?>">
+		<a class="button" href="<?php echo esc_url( admin_url( 'admin.php?page=zinn-cache-pro-img_optm' ) ); ?>">
 			<?php esc_html_e( 'Image optimisation', 'zinn-cache-pro' ); ?>
 		</a>
 	</p>

@@ -33,7 +33,7 @@
 		/************** Common LiteSpeed JS **************/
 		// Link confirm
 		$('[data-zinn-cache-pro-cfm]').on('click', function (event) {
-			var cfm_txt = $.trim($(this).data('litespeed-cfm')).replace(/\\n/g, '\n');
+			var cfm_txt = $.trim($(this).data('zinn-cache-pro-cfm')).replace(/\\n/g, '\n');
 			if (cfm_txt === '') {
 				return true;
 			}
@@ -83,7 +83,7 @@
 				$tab = $hash_subtab.closest('[data-zinn-cache-pro-layout]');
 				if ($tab.length > 0) {
 					$subtab = $hash_subtab;
-					tab_name = $tab.data('litespeed-layout');
+					tab_name = $tab.data('zinn-cache-pro-layout');
 				}
 			}
 			if (typeof $tab === 'undefined' || $tab.length < 1) {
@@ -98,7 +98,7 @@
 					}
 				}
 				if (typeof tab_name === 'undefined') {
-					tab_name = $tab.data('litespeed-tab');
+					tab_name = $tab.data('zinn-cache-pro-tab');
 				}
 			}
 
@@ -110,7 +110,7 @@
 				$subtab = zinn_cache_pro_tab_cookie($subtabs, 'subtab');
 			}
 			if ($subtab.length > 0) {
-				var subtab_name = $subtab.data('litespeed-subtab');
+				var subtab_name = $subtab.data('zinn-cache-pro-subtab');
 				// Display a subtab
 				zinn_cache_pro_display_tab(subtab_name, 'subtab');
 			}
@@ -268,7 +268,7 @@ function zinn_cache_pro_display_tab(name, type) {
 				$subtab = jQuery('[data-zinn-cache-pro-layout="' + name + '"] [data-zinn-cache-pro-subtab]:first');
 			}
 			if ($subtab.length > 0) {
-				var subtab_name = $subtab.data('litespeed-subtab');
+				var subtab_name = $subtab.data('zinn-cache-pro-subtab');
 				// Display a subtab
 				zinn_cache_pro_display_tab(subtab_name, 'subtab');
 			}

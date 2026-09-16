@@ -7,7 +7,7 @@ Tags: cache, page cache, object cache, performance, optimization
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -95,6 +95,13 @@ This plugin talks to Zinn Digital®'s API on your behalf.
 
 == Changelog ==
 
+= 1.2.4 =
+* **Every settings screen was blank.** Cache, Page Optimization, Database, Crawler and the other tabs showed the tab bar and nothing beneath it. The screens' script read the settings panels under their old names, found none, and hid them all. Every panel shows again.
+* The Zinn® overview screen's "Open the cache engine settings", "Cache settings" and "Image optimisation" buttons pointed at pages that do not exist in this plugin. They now open the right screens.
+* Six settings screens — Page Optimization, Image Optimization, Presets, General, OptiMax and Toolbox — still showed the upstream LiteSpeed Cache version (v7.8.1) in their heading, although 1.1.0 said the headings showed this plugin's own version. They do now, like every other screen.
+* In a right-to-left admin language, the Zinn Digital® menu entry showed its trademark symbol on the wrong side of the name. The name is now isolated so it reads correctly in Arabic, Hebrew, Persian, Pashto and Urdu.
+* The Zinn® panel at the bottom of this plugin's settings screens (user guide, hosting and marketplace links) sat partly underneath the WordPress admin menu, with its first lines cut off. It now sits in the content column beside the menu, including with the menu collapsed, on a narrow screen and in right-to-left languages.
+
 = 1.2.3 =
 * The admin screens' styles and scripts are now enqueued through WordPress rather than printed into the page, so they can be dequeued, deferred or optimised by your site like any other asset — and they still work on a site whose security policy forbids inline code.
 
@@ -119,6 +126,9 @@ This plugin talks to Zinn Digital®'s API on your behalf.
 * Raised the enforced minimums to PHP 8.2 and WordPress 6.6.
 
 == Upgrade Notice ==
+
+= 1.2.4 =
+Fixes the blank settings screens in 1.2.3 — every tab showed its title and no settings. Recommended for every site running Zinn® Cache Engine. No setting changes and no cache is purged.
 
 = 1.1.0 =
 Removes the last QUIC.cloud panels and buttons, which could never work in this build. No setting changes and no cache is purged.

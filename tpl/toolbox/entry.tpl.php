@@ -39,7 +39,7 @@ if ( ! $this->_is_multisite || $this->_is_network_admin ) {
 		<?php esc_html_e( 'Zinn® Cache Engine Toolbox', 'zinn-cache-pro' ); ?>
 	</h1>
 	<span class="litespeed-desc">
-		v<?php echo esc_html( Core::VER ); ?>
+		v<?php echo esc_html( \ZinnCachePro\Zinn\display_version() ); ?>
 	</span>
 	<hr class="wp-header-end">
 </div>
