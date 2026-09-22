@@ -5,9 +5,9 @@ Author: Neil Lock — CEO, Zinn Digital® Ltd
 Author URI: https://zinndigital.com
 Tags: cache, page cache, object cache, performance, optimization
 Requires at least: 6.6
-Tested up to: 7.1
+Tested up to: 7.1.1
 Requires PHP: 8.2
-Stable tag: 1.2.4
+Stable tag: 1.2.5
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -94,6 +94,9 @@ This plugin talks to Zinn Digital®'s API on your behalf.
 
 
 == Changelog ==
+
+= 1.2.5 =
+* Tested up to WordPress 7.1.1.
 
 = 1.2.4 =
 * **Every settings screen was blank.** Cache, Page Optimization, Database, Crawler and the other tabs showed the tab bar and nothing beneath it. The screens' script read the settings panels under their old names, found none, and hid them all. Every panel shows again.
