@@ -7,7 +7,7 @@ Tags: cache, page cache, object cache, performance, optimization
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.6
+Stable tag: 1.2.7
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -94,6 +94,9 @@ This plugin talks to Zinn Digital®'s API on your behalf.
 
 
 == Changelog ==
+
+= 1.2.7 =
+* Removed the OptimaX screen. Upstream ships it unfinished, as a stub with nothing behind it, and it reported on a QUIC.cloud service this fork does not use.
 
 = 1.2.6 =
 * Tested up to: 7.1 — the major version only, as WordPress.org's Plugin Check requires (7.1.1 was refused as invalid_tested_upto_minor).

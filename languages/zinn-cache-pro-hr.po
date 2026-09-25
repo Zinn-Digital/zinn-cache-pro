@@ -14,7 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: zinn/bootstrap.php:346
+#: zinn/bootstrap.php:350
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -93,87 +93,82 @@ msgid "Dashboard"
 msgstr "Nadzorna ploča"
 
 #: src/admin-display.cls.php:252
-#: src/lang.cls.php:286
-msgid "OptimaX"
-msgstr "OptimaX"
-
-#: src/admin-display.cls.php:253
 msgid "Presets"
 msgstr "Predlošci"
 
-#: src/admin-display.cls.php:254
+#: src/admin-display.cls.php:253
 msgid "General"
 msgstr "Općenito"
 
-#: src/admin-display.cls.php:255
+#: src/admin-display.cls.php:254
 #: tpl/cache/entry.tpl.php:17
 #: tpl/cache/entry.tpl.php:66
 msgid "Cache"
 msgstr "Predmemorija"
 
-#: src/admin-display.cls.php:256
+#: src/admin-display.cls.php:255
 msgid "CDN"
 msgstr "CDN"
 
-#: src/admin-display.cls.php:257
+#: src/admin-display.cls.php:256
 #: src/gui.cls.php:891
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "Optimizacija slika"
 
-#: src/admin-display.cls.php:258
+#: src/admin-display.cls.php:257
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "Optimizacija stranice"
 
-#: src/admin-display.cls.php:259
+#: src/admin-display.cls.php:258
 msgid "Database"
 msgstr "Baza podataka"
 
-#: src/admin-display.cls.php:260
+#: src/admin-display.cls.php:259
 #: src/lang.cls.php:266
 msgid "Crawler"
 msgstr "Crawler"
 
-#: src/admin-display.cls.php:261
+#: src/admin-display.cls.php:260
 msgid "Toolbox"
 msgstr "Alati"
 
-#: src/admin-display.cls.php:455
+#: src/admin-display.cls.php:451
 msgid "Cookie Name"
 msgstr "Naziv kolačića"
 
-#: src/admin-display.cls.php:456
+#: src/admin-display.cls.php:452
 #: tpl/crawler/settings.tpl.php:179
 msgid "Cookie Values"
 msgstr "Vrijednosti kolačića"
 
-#: src/admin-display.cls.php:458
+#: src/admin-display.cls.php:454
 msgid "Remove cookie simulation"
 msgstr "Ukloni simulaciju kolačića"
 
-#: src/admin-display.cls.php:459
+#: src/admin-display.cls.php:455
 msgid "Add new cookie to simulate"
 msgstr "Dodajte novi kolačić za simulaciju"
 
-#: src/admin-display.cls.php:482
+#: src/admin-display.cls.php:478
 #, php-format
 msgid "CDN URL to be used. For example, %s"
 msgstr "CDN URL koji treba koristiti. Na primjer, %s"
 
-#: src/admin-display.cls.php:484
+#: src/admin-display.cls.php:480
 msgid "Remove CDN URL"
 msgstr "Ukloni CDN URL"
 
-#: src/admin-display.cls.php:485
+#: src/admin-display.cls.php:481
 msgid "Add new CDN URL"
 msgstr "Dodaj novi CDN URL"
 
-#: src/admin-display.cls.php:486
-#: src/admin-display.cls.php:1167
-#: src/admin-display.cls.php:1197
-#: src/admin-display.cls.php:1284
+#: src/admin-display.cls.php:482
+#: src/admin-display.cls.php:1163
+#: src/admin-display.cls.php:1193
+#: src/admin-display.cls.php:1280
 #: src/doc.cls.php:41
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:91
@@ -186,10 +181,10 @@ msgstr "Dodaj novi CDN URL"
 msgid "ON"
 msgstr "UKLJUČENO"
 
-#: src/admin-display.cls.php:487
-#: src/admin-display.cls.php:1168
-#: src/admin-display.cls.php:1197
-#: src/admin-display.cls.php:1284
+#: src/admin-display.cls.php:483
+#: src/admin-display.cls.php:1164
+#: src/admin-display.cls.php:1193
+#: src/admin-display.cls.php:1280
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
@@ -201,104 +196,104 @@ msgstr "UKLJUČENO"
 msgid "OFF"
 msgstr "ISKLJUČENO"
 
-#: src/admin-display.cls.php:548
+#: src/admin-display.cls.php:544
 #: src/gui.cls.php:880
 #: tpl/crawler/entry.tpl.php:17
 msgid "Settings"
 msgstr "Postavke"
 
-#: src/admin-display.cls.php:805
+#: src/admin-display.cls.php:801
 msgid "Dismiss"
 msgstr "Odbaci"
 
-#: src/admin-display.cls.php:998
-#: src/admin-display.cls.php:1003
+#: src/admin-display.cls.php:994
+#: src/admin-display.cls.php:999
 msgid "Save Changes"
 msgstr "Spremi promjene"
 
-#: src/admin-display.cls.php:1298
+#: src/admin-display.cls.php:1294
 #, php-format
 msgid "This value is overwritten by the %s variable."
 msgstr "Ova vrijednost je prepisana varijablom %s."
 
-#: src/admin-display.cls.php:1302
-#: src/admin-display.cls.php:1315
+#: src/admin-display.cls.php:1298
+#: src/admin-display.cls.php:1311
 msgid "This value is overwritten by the filter."
 msgstr "Ovu vrijednost prepisuje filtar."
 
-#: src/admin-display.cls.php:1305
+#: src/admin-display.cls.php:1301
 #, php-format
 msgid "This value is overwritten by the PHP constant %s."
 msgstr "Ova se vrijednost prepisuje PHP konstantom %s."
 
-#: src/admin-display.cls.php:1309
+#: src/admin-display.cls.php:1305
 msgid "This value is overwritten by the primary site setting."
 msgstr "Ova vrijednost je prepisana postavkom primarne web-lokacije."
 
-#: src/admin-display.cls.php:1311
+#: src/admin-display.cls.php:1307
 msgid "This value is overwritten by the Network setting."
 msgstr "Ova vrijednost je prebrisana mrežnom postavkom."
 
-#: src/admin-display.cls.php:1318
+#: src/admin-display.cls.php:1314
 #, php-format
 msgid "Currently set to %s"
 msgstr "Trenutno postavljeno na %s"
 
-#: src/admin-display.cls.php:1331
+#: src/admin-display.cls.php:1327
 msgid "Value from filter applied"
 msgstr "Primijenjena vrijednost filtra"
 
-#: src/admin-display.cls.php:1345
+#: src/admin-display.cls.php:1341
 #: tpl/cache/settings_inc.object.tpl.php:162
 #: tpl/crawler/settings.tpl.php:43
 #: tpl/esi_widget_edit.php:78
 msgid "seconds"
 msgstr "sekundi"
 
-#: src/admin-display.cls.php:1371
-#: src/admin-display.cls.php:1390
+#: src/admin-display.cls.php:1367
+#: src/admin-display.cls.php:1386
 #: tpl/cdn/other.tpl.php:108
 msgid "Default value"
 msgstr "Zadana vrijednost"
 
-#: src/admin-display.cls.php:1418
+#: src/admin-display.cls.php:1414
 msgid "Invalid rewrite rule"
 msgstr "Nevažeće pravilo prepisivanja"
 
-#: src/admin-display.cls.php:1438
+#: src/admin-display.cls.php:1434
 #, php-format
 msgid "Path must end with %s"
 msgstr "Putanja mora završavati sa %s"
 
-#: src/admin-display.cls.php:1458
+#: src/admin-display.cls.php:1454
 msgid "Minimum value"
 msgstr "Minimalna vrijednost"
 
-#: src/admin-display.cls.php:1461
+#: src/admin-display.cls.php:1457
 msgid "Maximum value"
 msgstr "Maksimalna vrijednost"
 
-#: src/admin-display.cls.php:1473
+#: src/admin-display.cls.php:1469
 msgid "Zero, or"
 msgstr "Nula, ili"
 
-#: src/admin-display.cls.php:1479
+#: src/admin-display.cls.php:1475
 msgid "Larger than"
 msgstr "Veće od"
 
-#: src/admin-display.cls.php:1481
+#: src/admin-display.cls.php:1477
 msgid "Smaller than"
 msgstr "Manje od"
 
-#: src/admin-display.cls.php:1484
+#: src/admin-display.cls.php:1480
 msgid "Value range"
 msgstr "Raspon vrijednosti"
 
-#: src/admin-display.cls.php:1512
+#: src/admin-display.cls.php:1508
 msgid "Invalid IP"
 msgstr "Nevažeći IP"
 
-#: src/admin-display.cls.php:1532
+#: src/admin-display.cls.php:1528
 #: tpl/cache/settings-esi.tpl.php:103
 #: tpl/page_optm/settings_css.tpl.php:87
 #: tpl/page_optm/settings_css.tpl.php:223
@@ -320,54 +315,54 @@ msgid "API"
 msgstr "API"
 
 #. translators: %s: list of server variables in <code> tags
-#: src/admin-display.cls.php:1535
+#: src/admin-display.cls.php:1531
 #, php-format
 msgid "Server variable(s) %s available to override this setting."
 msgstr "Serverska varijabla(-e) %s dostupna(-e) za nadjačavanje ove postavke."
 
-#: src/admin-display.cls.php:1551
+#: src/admin-display.cls.php:1547
 msgid "The URLs will be compared to the REQUEST_URI server variable."
 msgstr "URL-ovi će se usporediti s poslužiteljskom varijablom REQUEST_URI."
 
 #. translators: 1: example URL, 2: pattern example
-#: src/admin-display.cls.php:1553
+#: src/admin-display.cls.php:1549
 #, php-format
 msgid "For example, for %1$s, %2$s can be used here."
 msgstr "Na primjer, za %1$s, ovdje se može koristiti %2$s."
 
 #. translators: %s: caret symbol
-#: src/admin-display.cls.php:1556
+#: src/admin-display.cls.php:1552
 #, php-format
 msgid "To match the beginning, add %s to the beginning of the item."
 msgstr "Da biste se podudarali s početkom, dodajte %s na početak stavke."
 
 #. translators: %s: dollar symbol
-#: src/admin-display.cls.php:1558
+#: src/admin-display.cls.php:1554
 #, php-format
 msgid "To do an exact match, add %s to the end of the URL."
 msgstr "Kako biste postigli točno podudaranje, dodajte %s na kraj URL-a."
 
-#: src/admin-display.cls.php:1559
+#: src/admin-display.cls.php:1555
 #: src/doc.cls.php:128
 msgid "One per line."
 msgstr "Jedno po retku."
 
-#: src/admin-display.cls.php:1576
+#: src/admin-display.cls.php:1572
 #, php-format
 msgid "%s groups"
 msgstr "%s grupa"
 
-#: src/admin-display.cls.php:1579
+#: src/admin-display.cls.php:1575
 #, php-format
 msgid "%s images"
 msgstr "%s slika"
 
-#: src/admin-display.cls.php:1588
+#: src/admin-display.cls.php:1584
 #, php-format
 msgid "%s group"
 msgstr "%s grupa"
 
-#: src/admin-display.cls.php:1591
+#: src/admin-display.cls.php:1587
 #, php-format
 msgid "%s image"
 msgstr "%s slika"
@@ -1927,6 +1922,10 @@ msgstr "Maksimalni broj revizija"
 #: src/lang.cls.php:284
 msgid "Revisions Max Age"
 msgstr "Maksimalna starost revizija"
+
+#: src/lang.cls.php:286
+msgid "OptimaX"
+msgstr "OptimaX"
 
 #: src/media.cls.php:297
 msgid "Batch rescale completed."
@@ -4059,7 +4058,7 @@ msgid "Redetect"
 msgstr "Ponovno otkrij"
 
 #: tpl/img_optm/summary.tpl.php:58
-#: zinn/bootstrap.php:358
+#: zinn/bootstrap.php:362
 msgid "Image optimisation"
 msgstr "Optimizacija slika"
 
@@ -4416,24 +4415,6 @@ msgstr "Ako koristite OpenLiteSpeed, poslužitelj se mora jednom ponovno pokrenu
 #, php-format
 msgid "Unexpected cache rule %2$s found in %1$s file. This rule may cause visitors to see old versions of pages due to the browser caching HTML pages. If you are sure that HTML pages are not being browser cached, this message can be dismissed. (%3$sLearn More%4$s)"
 msgstr "Neočekivano pravilo predmemorije %2$s pronađeno je u datoteci %1$s. Ovo pravilo može uzrokovati da posjetitelji vide stare verzije stranica zbog predmemoriranja HTML stranica u pregledniku. Ako ste sigurni da se HTML stranice ne predmemoriraju u pregledniku, ovu poruku možete zanemariti. (%3$sSaznajte više%4$s)"
-
-#: tpl/optimax/entry.tpl.php:16
-msgid "OptimaX Summary"
-msgstr "OptimaX sažetak"
-
-#: tpl/optimax/entry.tpl.php:17
-#: tpl/optimax/entry.tpl.php:22
-#: tpl/optimax/settings.tpl.php:19
-msgid "OptimaX Settings"
-msgstr "OptimaX postavke"
-
-#: tpl/optimax/entry.tpl.php:30
-msgid "Zinn® Cache Engine OptimaX"
-msgstr "Zinn® Cache Engine OptimaX"
-
-#: tpl/optimax/settings.tpl.php:34
-msgid "Turn on OptimaX. This will automatically request your pages OptimaX result via cron job."
-msgstr "Uključite OptimaX. Ovo će automatski zatražiti OptimaX rezultat vaših stranica putem cron posla."
 
 #: tpl/page_optm/entry.tpl.php:16
 #: tpl/page_optm/settings_css.tpl.php:31
@@ -5443,7 +5424,7 @@ msgid "Import Settings"
 msgstr "Uvezi postavke"
 
 #: tpl/toolbox/import_export.tpl.php:48
-#: zinn/class-zinn-cache-pro-admin-ui.php:912
+#: zinn/class-zinn-cache-pro-admin-ui.php:995
 msgid "Import"
 msgstr "Uvezi"
 
@@ -5745,47 +5726,47 @@ msgstr "Mehanizam predmemorije"
 
 #: zinn/bootstrap.php:269
 #: zinn/bootstrap.php:276
-#: zinn/class-zinn-cache-pro-admin-ui.php:279
+#: zinn/class-zinn-cache-pro-admin-ui.php:295
 msgid "Overview"
 msgstr "Pregled"
 
-#: zinn/bootstrap.php:306
+#: zinn/bootstrap.php:310
 msgid "Web server"
 msgstr "Web poslužitelj"
 
-#: zinn/bootstrap.php:307
+#: zinn/bootstrap.php:311
 msgid "not reported"
 msgstr "nije prijavljeno"
 
-#: zinn/bootstrap.php:310
+#: zinn/bootstrap.php:314
 msgid "Version"
 msgstr "Verzija"
 
-#: zinn/bootstrap.php:318
+#: zinn/bootstrap.php:322
 msgid "This server is not running LiteSpeed."
 msgstr "Ovaj poslužitelj ne pokreće LiteSpeed."
 
-#: zinn/bootstrap.php:319
+#: zinn/bootstrap.php:323
 msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
 msgstr "Sve ostalo ovdje radi – optimizacija slika, čistač baze podataka, CDN – ali predmemoriranje cijelih stranica zahtijeva LiteSpeed na web-poslužitelju, pa se stranice ne spremaju u predmemoriju. Upitajte svog pružatelja hosting usluga je li LiteSpeed dostupan ili pređite na Zinn® hosting gdje je on standardan."
 
-#: zinn/bootstrap.php:321
+#: zinn/bootstrap.php:325
 msgid "See Zinn® hosting"
 msgstr "Pogledajte Zinn® hosting"
 
-#: zinn/bootstrap.php:330
+#: zinn/bootstrap.php:334
 msgid "LiteSpeed is running and full-page caching is available."
 msgstr "LiteSpeed je pokrenut i dostupno je predmemoriranje cijele stranice."
 
-#: zinn/bootstrap.php:348
+#: zinn/bootstrap.php:352
 msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
 msgstr "Vlastite postavke mehanizma — predmemoriranje, optimizacija slika, čistač baze podataka, crawler i CDN — nalaze se u njegovom izborniku. Ovaj zaslon sadrži ono što Zinn Digital® dodaje: status iznad, izvješće koje možete poslati podršci te zajednički uvoz i izvoz."
 
-#: zinn/bootstrap.php:352
+#: zinn/bootstrap.php:356
 msgid "Open the cache engine settings"
 msgstr "Otvorite postavke mehanizma predmemorije"
 
-#: zinn/bootstrap.php:355
+#: zinn/bootstrap.php:359
 msgid "Cache settings"
 msgstr "Postavke predmemorije"
 
@@ -5797,137 +5778,141 @@ msgstr "Pogledajte bilješke o izdanju Zinn Digital®-a."
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Preuzeto ažuriranje nije prošlo provjeru cjelovitosti i nije instalirano."
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:575
+#: zinn/class-zinn-cache-pro-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "Pohranjeno. Unesite novu vrijednost da biste je zamijenili."
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:635
+#: zinn/class-zinn-cache-pro-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "Filtriraj ovaj popis…"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:636
+#: zinn/class-zinn-cache-pro-admin-fields.php:641
 msgid "Filter this list"
 msgstr "Filtriraj ovaj popis"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:652
+#: zinn/class-zinn-cache-pro-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "Nema rezultata koji odgovaraju tom filteru."
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:683
+#: zinn/class-zinn-cache-pro-admin-fields.php:688
 msgid "Add a row"
 msgstr "Dodaj redak"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:720
+#: zinn/class-zinn-cache-pro-admin-fields.php:725
 msgid "Remove this row"
 msgstr "Ukloni ovaj red"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:720
+#: zinn/class-zinn-cache-pro-admin-fields.php:725
 msgid "Remove"
 msgstr "Ukloni"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:264
-#: zinn/class-zinn-cache-pro-admin-ui.php:265
-#: zinn/class-zinn-cache-pro-admin-ui.php:335
+#: zinn/class-zinn-cache-pro-admin-ui.php:280
+#: zinn/class-zinn-cache-pro-admin-ui.php:281
+#: zinn/class-zinn-cache-pro-admin-ui.php:421
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:278
+#: zinn/class-zinn-cache-pro-admin-ui.php:294
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — pregled"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:336
+#: zinn/class-zinn-cache-pro-admin-ui.php:383
+msgid "Copied"
+msgstr "Kopirano"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "Svaki Zinn® dodatak na ovoj stranici i radi li on."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:352
+#: zinn/class-zinn-cache-pro-admin-ui.php:437
 msgid "No connection is needed for this plugin."
 msgstr "Za ovaj dodatak nije potrebna veza."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:357
+#: zinn/class-zinn-cache-pro-admin-ui.php:442
 msgid "Open settings"
 msgstr "Otvori postavke"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:685
-#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+#: zinn/class-zinn-cache-pro-admin-ui.php:770
+#: zinn/class-zinn-cache-pro-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
 msgstr "Nemate dopuštenje za promjenu ovih postavki."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:715
+#: zinn/class-zinn-cache-pro-admin-ui.php:799
 msgid "Settings sections"
 msgstr "Odjeljci postavki"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:788
+#: zinn/class-zinn-cache-pro-admin-ui.php:871
 msgid "Support"
 msgstr "Podrška"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:846
+#: zinn/class-zinn-cache-pro-admin-ui.php:929
 msgid "Save changes"
 msgstr "Spremi promjene"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:875
+#: zinn/class-zinn-cache-pro-admin-ui.php:958
 msgid "Tools"
 msgstr "Alati"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:890
+#: zinn/class-zinn-cache-pro-admin-ui.php:973
 msgid "Export settings"
 msgstr "Izvoz postavki"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:893
+#: zinn/class-zinn-cache-pro-admin-ui.php:976
 msgid "Reset to defaults"
 msgstr "Vrati na zadano"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:894
+#: zinn/class-zinn-cache-pro-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "Ovo vraća svaku postavku ovog dodatka na zadane vrijednosti. Nastaviti?"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:901
+#: zinn/class-zinn-cache-pro-admin-ui.php:984
 msgid "Diagnostics for support"
 msgstr "Dijagnostika za podršku"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:910
+#: zinn/class-zinn-cache-pro-admin-ui.php:993
 msgid "Import a settings file"
 msgstr "Uvezi datoteku postavki"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:914
+#: zinn/class-zinn-cache-pro-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "Izvezene datoteke nikada ne sadrže lozinke, tokene ili API ključeve – morat ćete ih ponovno unijeti na novoj web-lokaciji."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+#: zinn/class-zinn-cache-pro-admin-ui.php:1096
 msgid "Settings saved."
 msgstr "Postavke su spremljene."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+#: zinn/class-zinn-cache-pro-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
 msgstr "Svaka postavka na ovom dodacima vraćena je na zadane vrijednosti."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+#: zinn/class-zinn-cache-pro-admin-ui.php:1186
 msgid "Done."
 msgstr "Gotovo."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+#: zinn/class-zinn-cache-pro-admin-ui.php:1190
 msgid "That action is not available."
 msgstr "Ta radnja nije dostupna."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+#: zinn/class-zinn-cache-pro-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "Datoteku nije bilo moguće pročitati. Odaberite datoteku postavki izvezenu iz Zinn® dodatka."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+#: zinn/class-zinn-cache-pro-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
 msgstr "Ta je datoteka prevelika da bi bila izvoz postavki."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+#: zinn/class-zinn-cache-pro-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
 msgstr "Ta datoteka nije izvoz Zinn® postavki."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#: zinn/class-zinn-cache-pro-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "Ta je datoteka izvezena iz drugog dodatka (%s), pa bi njen uvoz ovdje pohranio postavke koje ovaj dodatak ne prepoznaje."
 
 #. translators: %d: how many settings were imported.
-#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#: zinn/class-zinn-cache-pro-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -6001,36 +5986,32 @@ msgstr "Pošaljite ovo izvješće Zinn® podršci"
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "Otvaramo vam zahtjev za podršku i odgovaramo e-poštom. Ako ga radije ne biste poslali, kopirajte ga iznad i sami ga zalijepite u zahtjev."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:228
-msgid "Copied"
-msgstr "Kopirano"
-
 #. translators: %s: the transport error reported by WordPress.
-#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#: zinn/class-zinn-cache-pro-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "Nismo mogli dosegnuti Zinn Digital® s ovog poslužitelja (%s). Umjesto toga kopirajte gore navedeno izvješće i otvorite zahtjev — s vašim postavkama nije ništa u redu."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:288
+#: zinn/class-zinn-cache-pro-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "Podrška za Zinn® primila je vaše izvješće i odgovorit će vam putem e-pošte."
 
 #. translators: %s: the support reference for the report just sent.
-#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#: zinn/class-zinn-cache-pro-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "Podrška za Zinn® primila je vaše izvješće – referenca %s – i odgovorit će putem e-pošte."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:300
+#: zinn/class-zinn-cache-pro-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "Poslali ste nekoliko izvješća u kratkom vremenu. Pričekajte nekoliko minuta i pokušajte ponovno – prethodna su uspješno stigla."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:307
+#: zinn/class-zinn-cache-pro-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® trenutno nije mogao prihvatiti izvješće — problem je s naše strane, ne s vaše. Pokušajte ponovno uskoro ili kopirajte gornje izvješće u tiket."
 
 #. translators: %d: the HTTP status code the server returned.
-#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#: zinn/class-zinn-cache-pro-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "Izvješće je odbijeno (HTTP %d). Kopirajte ga gore i otvorite zahtjev s navedenim brojem."
@@ -6056,42 +6037,42 @@ msgstr "Pročitajte korisnički priručnik za %s"
 msgid "Hide this"
 msgstr "Sakrij ovo"
 
-#: zinn/class-zinn-cache-pro-promo.php:374
+#: zinn/class-zinn-cache-pro-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "Zinn® hosting za WordPress"
 
-#: zinn/class-zinn-cache-pro-promo.php:375
+#: zinn/class-zinn-cache-pro-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, dnevne sigurnosne kopije, besplatna migracija i upravljačka ploča prilagođena osobama koje vode više web-mjesta."
 
-#: zinn/class-zinn-cache-pro-promo.php:381
+#: zinn/class-zinn-cache-pro-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "Tržište Zinn®"
 
-#: zinn/class-zinn-cache-pro-promo.php:382
+#: zinn/class-zinn-cache-pro-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Kupujte i prodajte već uspostavljene web-lokacije, domene i postavljanja poveznica, uz sigurno čuvanje novca sve dok obje strane ne budu zadovoljne."
 
-#: zinn/class-zinn-cache-pro-promo.php:429
+#: zinn/class-zinn-cache-pro-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — zaposlite ljude koji se time bave profesionalno"
 
-#: zinn/class-zinn-cache-pro-promo.php:430
+#: zinn/class-zinn-cache-pro-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Naše globalno tržište neovisnih stručnjaka: pregledajte više od 10.000 gotovih usluga pisaca, dizajnera, programera i SEO stručnjaka ili objavite projekt i dopustite im da daju ponude."
 
-#: zinn/class-zinn-cache-pro-style-presets.php:109
+#: zinn/class-zinn-cache-pro-style-presets.php:118
 msgid "Style preset"
 msgstr "Prezets stilova"
 
-#: zinn/class-zinn-cache-pro-style-presets.php:110
+#: zinn/class-zinn-cache-pro-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "Polazna točka. Sve ispod toga ima prednost."
 
-#: zinn/class-zinn-cache-pro-style-presets.php:117
+#: zinn/class-zinn-cache-pro-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "Upotrijebi moje vlastite boje i veličine"
 
-#: zinn/class-zinn-cache-pro-style-presets.php:118
+#: zinn/class-zinn-cache-pro-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Isključite ovo i pretpostavljena postavka koristit će se točno onakva kakva jest."

@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-3.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Cache Engine 1.2.6\n"
+"Project-Id-Version: Zinn® Cache Engine 1.2.7\n"
 "Report-Msgid-Bugs-To: https://zinndigital.com/support\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-16T20:26:24+00:00\n"
+"POT-Creation-Date: 2026-09-25T17:23:21+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-cache-pro\n"
@@ -98,87 +98,82 @@ msgid "Dashboard"
 msgstr ""
 
 #: src/admin-display.cls.php:252
-#: src/lang.cls.php:286
-msgid "OptimaX"
-msgstr ""
-
-#: src/admin-display.cls.php:253
 msgid "Presets"
 msgstr ""
 
-#: src/admin-display.cls.php:254
+#: src/admin-display.cls.php:253
 msgid "General"
 msgstr ""
 
-#: src/admin-display.cls.php:255
+#: src/admin-display.cls.php:254
 #: tpl/cache/entry.tpl.php:17
 #: tpl/cache/entry.tpl.php:66
 msgid "Cache"
 msgstr ""
 
-#: src/admin-display.cls.php:256
+#: src/admin-display.cls.php:255
 msgid "CDN"
 msgstr ""
 
-#: src/admin-display.cls.php:257
+#: src/admin-display.cls.php:256
 #: src/gui.cls.php:891
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr ""
 
-#: src/admin-display.cls.php:258
+#: src/admin-display.cls.php:257
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr ""
 
-#: src/admin-display.cls.php:259
+#: src/admin-display.cls.php:258
 msgid "Database"
 msgstr ""
 
-#: src/admin-display.cls.php:260
+#: src/admin-display.cls.php:259
 #: src/lang.cls.php:266
 msgid "Crawler"
 msgstr ""
 
-#: src/admin-display.cls.php:261
+#: src/admin-display.cls.php:260
 msgid "Toolbox"
 msgstr ""
 
-#: src/admin-display.cls.php:455
+#: src/admin-display.cls.php:451
 msgid "Cookie Name"
 msgstr ""
 
-#: src/admin-display.cls.php:456
+#: src/admin-display.cls.php:452
 #: tpl/crawler/settings.tpl.php:179
 msgid "Cookie Values"
 msgstr ""
 
-#: src/admin-display.cls.php:458
+#: src/admin-display.cls.php:454
 msgid "Remove cookie simulation"
 msgstr ""
 
-#: src/admin-display.cls.php:459
+#: src/admin-display.cls.php:455
 msgid "Add new cookie to simulate"
 msgstr ""
 
-#: src/admin-display.cls.php:482
+#: src/admin-display.cls.php:478
 #, php-format
 msgid "CDN URL to be used. For example, %s"
 msgstr ""
 
-#: src/admin-display.cls.php:484
+#: src/admin-display.cls.php:480
 msgid "Remove CDN URL"
 msgstr ""
 
-#: src/admin-display.cls.php:485
+#: src/admin-display.cls.php:481
 msgid "Add new CDN URL"
 msgstr ""
 
-#: src/admin-display.cls.php:486
-#: src/admin-display.cls.php:1167
-#: src/admin-display.cls.php:1197
-#: src/admin-display.cls.php:1284
+#: src/admin-display.cls.php:482
+#: src/admin-display.cls.php:1163
+#: src/admin-display.cls.php:1193
+#: src/admin-display.cls.php:1280
 #: src/doc.cls.php:41
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:91
@@ -191,10 +186,10 @@ msgstr ""
 msgid "ON"
 msgstr ""
 
-#: src/admin-display.cls.php:487
-#: src/admin-display.cls.php:1168
-#: src/admin-display.cls.php:1197
-#: src/admin-display.cls.php:1284
+#: src/admin-display.cls.php:483
+#: src/admin-display.cls.php:1164
+#: src/admin-display.cls.php:1193
+#: src/admin-display.cls.php:1280
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
@@ -206,104 +201,104 @@ msgstr ""
 msgid "OFF"
 msgstr ""
 
-#: src/admin-display.cls.php:548
+#: src/admin-display.cls.php:544
 #: src/gui.cls.php:880
 #: tpl/crawler/entry.tpl.php:17
 msgid "Settings"
 msgstr ""
 
-#: src/admin-display.cls.php:805
+#: src/admin-display.cls.php:801
 msgid "Dismiss"
 msgstr ""
 
-#: src/admin-display.cls.php:998
-#: src/admin-display.cls.php:1003
+#: src/admin-display.cls.php:994
+#: src/admin-display.cls.php:999
 msgid "Save Changes"
 msgstr ""
 
-#: src/admin-display.cls.php:1298
+#: src/admin-display.cls.php:1294
 #, php-format
 msgid "This value is overwritten by the %s variable."
 msgstr ""
 
-#: src/admin-display.cls.php:1302
-#: src/admin-display.cls.php:1315
+#: src/admin-display.cls.php:1298
+#: src/admin-display.cls.php:1311
 msgid "This value is overwritten by the filter."
 msgstr ""
 
-#: src/admin-display.cls.php:1305
+#: src/admin-display.cls.php:1301
 #, php-format
 msgid "This value is overwritten by the PHP constant %s."
 msgstr ""
 
-#: src/admin-display.cls.php:1309
+#: src/admin-display.cls.php:1305
 msgid "This value is overwritten by the primary site setting."
 msgstr ""
 
-#: src/admin-display.cls.php:1311
+#: src/admin-display.cls.php:1307
 msgid "This value is overwritten by the Network setting."
 msgstr ""
 
-#: src/admin-display.cls.php:1318
+#: src/admin-display.cls.php:1314
 #, php-format
 msgid "Currently set to %s"
 msgstr ""
 
-#: src/admin-display.cls.php:1331
+#: src/admin-display.cls.php:1327
 msgid "Value from filter applied"
 msgstr ""
 
-#: src/admin-display.cls.php:1345
+#: src/admin-display.cls.php:1341
 #: tpl/cache/settings_inc.object.tpl.php:162
 #: tpl/crawler/settings.tpl.php:43
 #: tpl/esi_widget_edit.php:78
 msgid "seconds"
 msgstr ""
 
-#: src/admin-display.cls.php:1371
-#: src/admin-display.cls.php:1390
+#: src/admin-display.cls.php:1367
+#: src/admin-display.cls.php:1386
 #: tpl/cdn/other.tpl.php:108
 msgid "Default value"
 msgstr ""
 
-#: src/admin-display.cls.php:1418
+#: src/admin-display.cls.php:1414
 msgid "Invalid rewrite rule"
 msgstr ""
 
-#: src/admin-display.cls.php:1438
+#: src/admin-display.cls.php:1434
 #, php-format
 msgid "Path must end with %s"
 msgstr ""
 
-#: src/admin-display.cls.php:1458
+#: src/admin-display.cls.php:1454
 msgid "Minimum value"
 msgstr ""
 
-#: src/admin-display.cls.php:1461
+#: src/admin-display.cls.php:1457
 msgid "Maximum value"
 msgstr ""
 
-#: src/admin-display.cls.php:1473
+#: src/admin-display.cls.php:1469
 msgid "Zero, or"
 msgstr ""
 
-#: src/admin-display.cls.php:1479
+#: src/admin-display.cls.php:1475
 msgid "Larger than"
 msgstr ""
 
-#: src/admin-display.cls.php:1481
+#: src/admin-display.cls.php:1477
 msgid "Smaller than"
 msgstr ""
 
-#: src/admin-display.cls.php:1484
+#: src/admin-display.cls.php:1480
 msgid "Value range"
 msgstr ""
 
-#: src/admin-display.cls.php:1512
+#: src/admin-display.cls.php:1508
 msgid "Invalid IP"
 msgstr ""
 
-#: src/admin-display.cls.php:1532
+#: src/admin-display.cls.php:1528
 #: tpl/cache/settings-esi.tpl.php:103
 #: tpl/page_optm/settings_css.tpl.php:87
 #: tpl/page_optm/settings_css.tpl.php:223
@@ -325,54 +320,54 @@ msgid "API"
 msgstr ""
 
 #. translators: %s: list of server variables in <code> tags
-#: src/admin-display.cls.php:1535
+#: src/admin-display.cls.php:1531
 #, php-format
 msgid "Server variable(s) %s available to override this setting."
 msgstr ""
 
-#: src/admin-display.cls.php:1551
+#: src/admin-display.cls.php:1547
 msgid "The URLs will be compared to the REQUEST_URI server variable."
 msgstr ""
 
 #. translators: 1: example URL, 2: pattern example
-#: src/admin-display.cls.php:1553
+#: src/admin-display.cls.php:1549
 #, php-format
 msgid "For example, for %1$s, %2$s can be used here."
 msgstr ""
 
 #. translators: %s: caret symbol
-#: src/admin-display.cls.php:1556
+#: src/admin-display.cls.php:1552
 #, php-format
 msgid "To match the beginning, add %s to the beginning of the item."
 msgstr ""
 
 #. translators: %s: dollar symbol
-#: src/admin-display.cls.php:1558
+#: src/admin-display.cls.php:1554
 #, php-format
 msgid "To do an exact match, add %s to the end of the URL."
 msgstr ""
 
-#: src/admin-display.cls.php:1559
+#: src/admin-display.cls.php:1555
 #: src/doc.cls.php:128
 msgid "One per line."
 msgstr ""
 
-#: src/admin-display.cls.php:1576
+#: src/admin-display.cls.php:1572
 #, php-format
 msgid "%s groups"
 msgstr ""
 
-#: src/admin-display.cls.php:1579
+#: src/admin-display.cls.php:1575
 #, php-format
 msgid "%s images"
 msgstr ""
 
-#: src/admin-display.cls.php:1588
+#: src/admin-display.cls.php:1584
 #, php-format
 msgid "%s group"
 msgstr ""
 
-#: src/admin-display.cls.php:1591
+#: src/admin-display.cls.php:1587
 #, php-format
 msgid "%s image"
 msgstr ""
@@ -1931,6 +1926,10 @@ msgstr ""
 
 #: src/lang.cls.php:284
 msgid "Revisions Max Age"
+msgstr ""
+
+#: src/lang.cls.php:286
+msgid "OptimaX"
 msgstr ""
 
 #: src/media.cls.php:297
@@ -4420,24 +4419,6 @@ msgstr ""
 #: tpl/inc/show_rule_conflict.php:16
 #, php-format
 msgid "Unexpected cache rule %2$s found in %1$s file. This rule may cause visitors to see old versions of pages due to the browser caching HTML pages. If you are sure that HTML pages are not being browser cached, this message can be dismissed. (%3$sLearn More%4$s)"
-msgstr ""
-
-#: tpl/optimax/entry.tpl.php:16
-msgid "OptimaX Summary"
-msgstr ""
-
-#: tpl/optimax/entry.tpl.php:17
-#: tpl/optimax/entry.tpl.php:22
-#: tpl/optimax/settings.tpl.php:19
-msgid "OptimaX Settings"
-msgstr ""
-
-#: tpl/optimax/entry.tpl.php:30
-msgid "Zinn® Cache Engine OptimaX"
-msgstr ""
-
-#: tpl/optimax/settings.tpl.php:34
-msgid "Turn on OptimaX. This will automatically request your pages OptimaX result via cron job."
 msgstr ""
 
 #: tpl/page_optm/entry.tpl.php:16

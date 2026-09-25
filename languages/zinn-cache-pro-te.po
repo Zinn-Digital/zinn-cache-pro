@@ -14,7 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: zinn/bootstrap.php:346
+#: zinn/bootstrap.php:350
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -93,87 +93,82 @@ msgid "Dashboard"
 msgstr "డాష్‌బోర్డ్"
 
 #: src/admin-display.cls.php:252
-#: src/lang.cls.php:286
-msgid "OptimaX"
-msgstr "ఆప్టిమాఎక్స్"
-
-#: src/admin-display.cls.php:253
 msgid "Presets"
 msgstr "ప్రీసెట్లు"
 
-#: src/admin-display.cls.php:254
+#: src/admin-display.cls.php:253
 msgid "General"
 msgstr "జనరల్"
 
-#: src/admin-display.cls.php:255
+#: src/admin-display.cls.php:254
 #: tpl/cache/entry.tpl.php:17
 #: tpl/cache/entry.tpl.php:66
 msgid "Cache"
 msgstr "కాష్"
 
-#: src/admin-display.cls.php:256
+#: src/admin-display.cls.php:255
 msgid "CDN"
 msgstr "CDN"
 
-#: src/admin-display.cls.php:257
+#: src/admin-display.cls.php:256
 #: src/gui.cls.php:891
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "చిత్ర ఆప్టిమైజేషన్"
 
-#: src/admin-display.cls.php:258
+#: src/admin-display.cls.php:257
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "పేజీ ఆప్టిమైజేషన్"
 
-#: src/admin-display.cls.php:259
+#: src/admin-display.cls.php:258
 msgid "Database"
 msgstr "డేటాబేస్"
 
-#: src/admin-display.cls.php:260
+#: src/admin-display.cls.php:259
 #: src/lang.cls.php:266
 msgid "Crawler"
 msgstr "క్రాలర్"
 
-#: src/admin-display.cls.php:261
+#: src/admin-display.cls.php:260
 msgid "Toolbox"
 msgstr "టూల్‌బాక్స్"
 
-#: src/admin-display.cls.php:455
+#: src/admin-display.cls.php:451
 msgid "Cookie Name"
 msgstr "కుకీ పేరు"
 
-#: src/admin-display.cls.php:456
+#: src/admin-display.cls.php:452
 #: tpl/crawler/settings.tpl.php:179
 msgid "Cookie Values"
 msgstr "కుకీ విలువలు"
 
-#: src/admin-display.cls.php:458
+#: src/admin-display.cls.php:454
 msgid "Remove cookie simulation"
 msgstr "కుకీ అనుకరణను తొలగించు"
 
-#: src/admin-display.cls.php:459
+#: src/admin-display.cls.php:455
 msgid "Add new cookie to simulate"
 msgstr "అనుకరించడానికి కొత్త కుకీని జోడించండి"
 
-#: src/admin-display.cls.php:482
+#: src/admin-display.cls.php:478
 #, php-format
 msgid "CDN URL to be used. For example, %s"
 msgstr "ఉపయోగించాల్సిన CDN URL. ఉదాహరణకు, %s"
 
-#: src/admin-display.cls.php:484
+#: src/admin-display.cls.php:480
 msgid "Remove CDN URL"
 msgstr "CDN URLని తీసివేయి"
 
-#: src/admin-display.cls.php:485
+#: src/admin-display.cls.php:481
 msgid "Add new CDN URL"
 msgstr "కొత్త CDN URLని జోడించు"
 
-#: src/admin-display.cls.php:486
-#: src/admin-display.cls.php:1167
-#: src/admin-display.cls.php:1197
-#: src/admin-display.cls.php:1284
+#: src/admin-display.cls.php:482
+#: src/admin-display.cls.php:1163
+#: src/admin-display.cls.php:1193
+#: src/admin-display.cls.php:1280
 #: src/doc.cls.php:41
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:91
@@ -186,10 +181,10 @@ msgstr "కొత్త CDN URLని జోడించు"
 msgid "ON"
 msgstr "ఆన్"
 
-#: src/admin-display.cls.php:487
-#: src/admin-display.cls.php:1168
-#: src/admin-display.cls.php:1197
-#: src/admin-display.cls.php:1284
+#: src/admin-display.cls.php:483
+#: src/admin-display.cls.php:1164
+#: src/admin-display.cls.php:1193
+#: src/admin-display.cls.php:1280
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
@@ -201,104 +196,104 @@ msgstr "ఆన్"
 msgid "OFF"
 msgstr "ఆఫ్"
 
-#: src/admin-display.cls.php:548
+#: src/admin-display.cls.php:544
 #: src/gui.cls.php:880
 #: tpl/crawler/entry.tpl.php:17
 msgid "Settings"
 msgstr "సెట్టింగ్‌లు"
 
-#: src/admin-display.cls.php:805
+#: src/admin-display.cls.php:801
 msgid "Dismiss"
 msgstr "తీసివేయి"
 
-#: src/admin-display.cls.php:998
-#: src/admin-display.cls.php:1003
+#: src/admin-display.cls.php:994
+#: src/admin-display.cls.php:999
 msgid "Save Changes"
 msgstr "మార్పులను సేవ్ చేయి"
 
-#: src/admin-display.cls.php:1298
+#: src/admin-display.cls.php:1294
 #, php-format
 msgid "This value is overwritten by the %s variable."
 msgstr "ఈ విలువ %s వేరియబుల్ ద్వారా భర్తీ చేయబడింది."
 
-#: src/admin-display.cls.php:1302
-#: src/admin-display.cls.php:1315
+#: src/admin-display.cls.php:1298
+#: src/admin-display.cls.php:1311
 msgid "This value is overwritten by the filter."
 msgstr "ఈ విలువ ఫిల్టర్ ద్వారా ఓవర్‌రైట్ చేయబడింది."
 
-#: src/admin-display.cls.php:1305
+#: src/admin-display.cls.php:1301
 #, php-format
 msgid "This value is overwritten by the PHP constant %s."
 msgstr "ఈ విలువ PHP స్థిరాంకం %s ద్వారా భర్తీ చేయబడింది."
 
-#: src/admin-display.cls.php:1309
+#: src/admin-display.cls.php:1305
 msgid "This value is overwritten by the primary site setting."
 msgstr "ఈ విలువ ప్రాథమిక సైట్ సెట్టింగ్ ద్వారా భర్తీ చేయబడింది."
 
-#: src/admin-display.cls.php:1311
+#: src/admin-display.cls.php:1307
 msgid "This value is overwritten by the Network setting."
 msgstr "ఈ విలువ నెట్‌వర్క్ సెట్టింగ్ ద్వారా భర్తీ చేయబడింది."
 
-#: src/admin-display.cls.php:1318
+#: src/admin-display.cls.php:1314
 #, php-format
 msgid "Currently set to %s"
 msgstr "ప్రస్తుతం %sకి సెట్ చేయబడింది"
 
-#: src/admin-display.cls.php:1331
+#: src/admin-display.cls.php:1327
 msgid "Value from filter applied"
 msgstr "ఫిల్టర్ నుండి వర్తింపజేసిన విలువ"
 
-#: src/admin-display.cls.php:1345
+#: src/admin-display.cls.php:1341
 #: tpl/cache/settings_inc.object.tpl.php:162
 #: tpl/crawler/settings.tpl.php:43
 #: tpl/esi_widget_edit.php:78
 msgid "seconds"
 msgstr "సెకన్లు"
 
-#: src/admin-display.cls.php:1371
-#: src/admin-display.cls.php:1390
+#: src/admin-display.cls.php:1367
+#: src/admin-display.cls.php:1386
 #: tpl/cdn/other.tpl.php:108
 msgid "Default value"
 msgstr "డిఫాల్ట్ విలువ"
 
-#: src/admin-display.cls.php:1418
+#: src/admin-display.cls.php:1414
 msgid "Invalid rewrite rule"
 msgstr "చెల్లని రీరైట్ రూల్"
 
-#: src/admin-display.cls.php:1438
+#: src/admin-display.cls.php:1434
 #, php-format
 msgid "Path must end with %s"
 msgstr "పాత్ %s తో ముగియాలి"
 
-#: src/admin-display.cls.php:1458
+#: src/admin-display.cls.php:1454
 msgid "Minimum value"
 msgstr "కనిష్ట విలువ"
 
-#: src/admin-display.cls.php:1461
+#: src/admin-display.cls.php:1457
 msgid "Maximum value"
 msgstr "గరిష్ట విలువ"
 
-#: src/admin-display.cls.php:1473
+#: src/admin-display.cls.php:1469
 msgid "Zero, or"
 msgstr "సున్నా, లేదా"
 
-#: src/admin-display.cls.php:1479
+#: src/admin-display.cls.php:1475
 msgid "Larger than"
 msgstr "దీనికంటే పెద్దది"
 
-#: src/admin-display.cls.php:1481
+#: src/admin-display.cls.php:1477
 msgid "Smaller than"
 msgstr "దీనికంటే చిన్నది"
 
-#: src/admin-display.cls.php:1484
+#: src/admin-display.cls.php:1480
 msgid "Value range"
 msgstr "విలువ పరిధి"
 
-#: src/admin-display.cls.php:1512
+#: src/admin-display.cls.php:1508
 msgid "Invalid IP"
 msgstr "చెల్లని IP"
 
-#: src/admin-display.cls.php:1532
+#: src/admin-display.cls.php:1528
 #: tpl/cache/settings-esi.tpl.php:103
 #: tpl/page_optm/settings_css.tpl.php:87
 #: tpl/page_optm/settings_css.tpl.php:223
@@ -320,54 +315,54 @@ msgid "API"
 msgstr "API"
 
 #. translators: %s: list of server variables in <code> tags
-#: src/admin-display.cls.php:1535
+#: src/admin-display.cls.php:1531
 #, php-format
 msgid "Server variable(s) %s available to override this setting."
 msgstr "ఈ సెట్టింగ్‌ను ఓవర్‌రైడ్ చేయడానికి సర్వర్ వేరియబుల్(లు) %s అందుబాటులో ఉన్నాయి."
 
-#: src/admin-display.cls.php:1551
+#: src/admin-display.cls.php:1547
 msgid "The URLs will be compared to the REQUEST_URI server variable."
 msgstr "URLలను REQUEST_URI సర్వర్ వేరియబుల్‌తో పోల్చబడతాయి."
 
 #. translators: 1: example URL, 2: pattern example
-#: src/admin-display.cls.php:1553
+#: src/admin-display.cls.php:1549
 #, php-format
 msgid "For example, for %1$s, %2$s can be used here."
 msgstr "ఉదాహరణకు, %1$s కోసం, ఇక్కడ %2$sని ఉపయోగించవచ్చు."
 
 #. translators: %s: caret symbol
-#: src/admin-display.cls.php:1556
+#: src/admin-display.cls.php:1552
 #, php-format
 msgid "To match the beginning, add %s to the beginning of the item."
 msgstr "ప్రారంభంతో సరిపోలడానికి, అంశం ప్రారంభానికి %s ని జోడించండి."
 
 #. translators: %s: dollar symbol
-#: src/admin-display.cls.php:1558
+#: src/admin-display.cls.php:1554
 #, php-format
 msgid "To do an exact match, add %s to the end of the URL."
 msgstr "ఖచ్చితమైన సరిపోలికను చేయడానికి, URL చివర %s ని జోడించండి."
 
-#: src/admin-display.cls.php:1559
+#: src/admin-display.cls.php:1555
 #: src/doc.cls.php:128
 msgid "One per line."
 msgstr "ప్రతి లైన్‌కు ఒకటి."
 
-#: src/admin-display.cls.php:1576
+#: src/admin-display.cls.php:1572
 #, php-format
 msgid "%s groups"
 msgstr "%s సమూహాలు"
 
-#: src/admin-display.cls.php:1579
+#: src/admin-display.cls.php:1575
 #, php-format
 msgid "%s images"
 msgstr "%s చిత్రాలు"
 
-#: src/admin-display.cls.php:1588
+#: src/admin-display.cls.php:1584
 #, php-format
 msgid "%s group"
 msgstr "%s సమూహం"
 
-#: src/admin-display.cls.php:1591
+#: src/admin-display.cls.php:1587
 #, php-format
 msgid "%s image"
 msgstr "%s చిత్రం"
@@ -1927,6 +1922,10 @@ msgstr "సవరణల గరిష్ట సంఖ్య"
 #: src/lang.cls.php:284
 msgid "Revisions Max Age"
 msgstr "సవరణల గరిష్ట వయస్సు"
+
+#: src/lang.cls.php:286
+msgid "OptimaX"
+msgstr "ఆప్టిమాఎక్స్"
 
 #: src/media.cls.php:297
 msgid "Batch rescale completed."
@@ -4059,7 +4058,7 @@ msgid "Redetect"
 msgstr "మళ్లీ గుర్తించు"
 
 #: tpl/img_optm/summary.tpl.php:58
-#: zinn/bootstrap.php:358
+#: zinn/bootstrap.php:362
 msgid "Image optimisation"
 msgstr "చిత్ర ఆప్టిమైజేషన్"
 
@@ -4416,24 +4415,6 @@ msgstr "OpenLiteSpeedను ఉపయోగిస్తుంటే, మార�
 #, php-format
 msgid "Unexpected cache rule %2$s found in %1$s file. This rule may cause visitors to see old versions of pages due to the browser caching HTML pages. If you are sure that HTML pages are not being browser cached, this message can be dismissed. (%3$sLearn More%4$s)"
 msgstr "%1$s ఫైల్‌లో ఊహించని క్యాష్ నియమం %2$s కనుగొనబడింది. బ్రౌజర్ HTML పేజీలను క్యాష్ చేయడం వల్ల సందర్శకులు పేజీల పాత వెర్షన్‌లను చూసేందుకు ఈ నియమం కారణం కావచ్చు. HTML పేజీలు బ్రౌజర్ ద్వారా క్యాష్ చేయబడటం లేదని మీకు ఖచ్చితంగా తెలిస్తే, ఈ సందేశాన్ని తీసివేయవచ్చు. (%3$sమరిన్ని తెలుసుకోండి%4$s)"
-
-#: tpl/optimax/entry.tpl.php:16
-msgid "OptimaX Summary"
-msgstr "ఆప్టిమాఎక్స్ సారాంశం"
-
-#: tpl/optimax/entry.tpl.php:17
-#: tpl/optimax/entry.tpl.php:22
-#: tpl/optimax/settings.tpl.php:19
-msgid "OptimaX Settings"
-msgstr "ఆప్టిమాఎక్స్ సెట్టింగ్‌లు"
-
-#: tpl/optimax/entry.tpl.php:30
-msgid "Zinn® Cache Engine OptimaX"
-msgstr "Zinn® క్యాష్ ఇంజిన్ ఆప్టిమాఎక్స్"
-
-#: tpl/optimax/settings.tpl.php:34
-msgid "Turn on OptimaX. This will automatically request your pages OptimaX result via cron job."
-msgstr "ఆప్టిమాఎక్స్ (OptimaX) ని ఆన్ చేయండి. ఇది క్రన్ జాబ్ (cron job) ద్వారా మీ పేజీల ఆప్టిమాఎక్స్ ఫలితాన్ని స్వయంచాలకంగా అభ్యర్థిస్తుంది."
 
 #: tpl/page_optm/entry.tpl.php:16
 #: tpl/page_optm/settings_css.tpl.php:31
@@ -5443,7 +5424,7 @@ msgid "Import Settings"
 msgstr "సెట్టింగ్‌లను దిగుమతి చేయి"
 
 #: tpl/toolbox/import_export.tpl.php:48
-#: zinn/class-zinn-cache-pro-admin-ui.php:912
+#: zinn/class-zinn-cache-pro-admin-ui.php:995
 msgid "Import"
 msgstr "దిగుమతి చేసుకోండి"
 
@@ -5745,47 +5726,47 @@ msgstr "కాష్ ఇంజిన్"
 
 #: zinn/bootstrap.php:269
 #: zinn/bootstrap.php:276
-#: zinn/class-zinn-cache-pro-admin-ui.php:279
+#: zinn/class-zinn-cache-pro-admin-ui.php:295
 msgid "Overview"
 msgstr "అవలోకనం"
 
-#: zinn/bootstrap.php:306
+#: zinn/bootstrap.php:310
 msgid "Web server"
 msgstr "వెబ్ సర్వర్"
 
-#: zinn/bootstrap.php:307
+#: zinn/bootstrap.php:311
 msgid "not reported"
 msgstr "నివేదించబడలేదు"
 
-#: zinn/bootstrap.php:310
+#: zinn/bootstrap.php:314
 msgid "Version"
 msgstr "వెర్షన్"
 
-#: zinn/bootstrap.php:318
+#: zinn/bootstrap.php:322
 msgid "This server is not running LiteSpeed."
 msgstr "ఈ సర్వర్ LiteSpeedని రన్ చేయడం లేదు."
 
-#: zinn/bootstrap.php:319
+#: zinn/bootstrap.php:323
 msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
 msgstr "ఇక్కడ మిగిలినవన్నీ పని చేస్తున్నాయి — ఇమేజ్ ఆప్టిమైజేషన్, డేటాబేస్ క్లీనర్, CDN — కానీ ఫుల్-పేజ్ క్యాచింగ్ కోసం వెబ్ సర్వర్‌లో LiteSpeed అవసరం, కాబట్టి పేజీలు క్యాచ్ కావడం లేదు. LiteSpeed అందుబాటులో ఉందో లేదో మీ హోస్ట్‌ని అడగండి, లేదా అది స్టాండర్డ్‌గా లభించే Zinn® హోస్టింగ్‌కి మారండి."
 
-#: zinn/bootstrap.php:321
+#: zinn/bootstrap.php:325
 msgid "See Zinn® hosting"
 msgstr "Zinn® హోస్టింగ్ చూడండి"
 
-#: zinn/bootstrap.php:330
+#: zinn/bootstrap.php:334
 msgid "LiteSpeed is running and full-page caching is available."
 msgstr "LiteSpeed నడుస్తోంది మరియు ఫుల్-పేజ్ క్యాచింగ్ అందుబాటులో ఉంది."
 
-#: zinn/bootstrap.php:348
+#: zinn/bootstrap.php:352
 msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
 msgstr "ఇంజన్ స్వంత సెట్టింగ్‌లు — కాషింగ్, ఇమేజ్ ఆప్టిమైజేషన్, డేటాబేస్ క్లీనర్, క్రాలర్ మరియు CDN — దాని స్వంత మెనూలో ఉంటాయి. ఈ స్క్రీన్ Zinn Digital® జోడించే అంశాలను కలిగి ఉంటుంది: పైన ఉన్న స్టేటస్, మీరు సపోర్ట్‌కి పంపగల రిపోర్ట్, మరియు షేర్డ్ ఇంపోర్ట్ మరియు ఎక్స్‌పోర్ట్."
 
-#: zinn/bootstrap.php:352
+#: zinn/bootstrap.php:356
 msgid "Open the cache engine settings"
 msgstr "కాష్ ఇంజిన్ సెట్టింగ్‌లను తెరిచండి"
 
-#: zinn/bootstrap.php:355
+#: zinn/bootstrap.php:359
 msgid "Cache settings"
 msgstr "కాష్ సెట్టింగ్‌లు"
 
@@ -5797,137 +5778,141 @@ msgstr "Zinn Digital® విడుదల గమనికలను చూడం�
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "డౌన్‌లోడ్ చేసిన అప్‌డేట్ సమగ్రతా తనిఖీలో విఫలమైంది మరియు ఇన్‌స్టాల్ చేయబడలేదు."
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:575
+#: zinn/class-zinn-cache-pro-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "నిల్వ చేయబడింది. దీన్ని భర్తీ చేయడానికి కొత్త విలువను టైప్ చేయండి."
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:635
+#: zinn/class-zinn-cache-pro-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "ఈ జాబితాను ఫిల్టర్ చేయండి…"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:636
+#: zinn/class-zinn-cache-pro-admin-fields.php:641
 msgid "Filter this list"
 msgstr "ఈ జాబితాను ఫిల్టర్ చేయండి"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:652
+#: zinn/class-zinn-cache-pro-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "ఆ ఫిల్టర్‌కు ఏదీ సరిపోలలేదు."
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:683
+#: zinn/class-zinn-cache-pro-admin-fields.php:688
 msgid "Add a row"
 msgstr "అడ్డు వరుసను జోడించండి"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:720
+#: zinn/class-zinn-cache-pro-admin-fields.php:725
 msgid "Remove this row"
 msgstr "ఈ అడ్డు వరుసను తీసివేయి"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:720
+#: zinn/class-zinn-cache-pro-admin-fields.php:725
 msgid "Remove"
 msgstr "తొలగించు"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:264
-#: zinn/class-zinn-cache-pro-admin-ui.php:265
-#: zinn/class-zinn-cache-pro-admin-ui.php:335
+#: zinn/class-zinn-cache-pro-admin-ui.php:280
+#: zinn/class-zinn-cache-pro-admin-ui.php:281
+#: zinn/class-zinn-cache-pro-admin-ui.php:421
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:278
+#: zinn/class-zinn-cache-pro-admin-ui.php:294
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — అవలోకనం"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:336
+#: zinn/class-zinn-cache-pro-admin-ui.php:383
+msgid "Copied"
+msgstr "కాపీ చేయబడింది"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "ఈ సైట్‌లోని ప్రతి Zinn® ప్లగిన్ మరియు అది పనిచేస్తుందా లేదా అనేది."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:352
+#: zinn/class-zinn-cache-pro-admin-ui.php:437
 msgid "No connection is needed for this plugin."
 msgstr "ఈ ప్లగ్-ఇన్‌కు ఎలాంటి కనెక్షన్ అవసరం లేదు."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:357
+#: zinn/class-zinn-cache-pro-admin-ui.php:442
 msgid "Open settings"
 msgstr "సెట్టింగ్‌లను తెరువు"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:685
-#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+#: zinn/class-zinn-cache-pro-admin-ui.php:770
+#: zinn/class-zinn-cache-pro-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
 msgstr "ఈ సెట్టింగ్‌లను మార్చడానికి మీకు అనుమతి లేదు."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:715
+#: zinn/class-zinn-cache-pro-admin-ui.php:799
 msgid "Settings sections"
 msgstr "సెట్టింగ్‌ల విభాగాలు"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:788
+#: zinn/class-zinn-cache-pro-admin-ui.php:871
 msgid "Support"
 msgstr "మద్దతు"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:846
+#: zinn/class-zinn-cache-pro-admin-ui.php:929
 msgid "Save changes"
 msgstr "మార్పులను సేవ్ చేయి"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:875
+#: zinn/class-zinn-cache-pro-admin-ui.php:958
 msgid "Tools"
 msgstr "పరికరాలు"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:890
+#: zinn/class-zinn-cache-pro-admin-ui.php:973
 msgid "Export settings"
 msgstr "నిCలను ఎగుమతి చేయి"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:893
+#: zinn/class-zinn-cache-pro-admin-ui.php:976
 msgid "Reset to defaults"
 msgstr "డిఫాల్ట్‌లకు రీసెట్ చేయి"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:894
+#: zinn/class-zinn-cache-pro-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "ఇది ఈ ప్లగిన్‌లోని ప్రతి సెట్టింగ్‌ను దాని డిఫాల్ట్‌కి మారుస్తుంది. కొనసాగించాలా?"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:901
+#: zinn/class-zinn-cache-pro-admin-ui.php:984
 msgid "Diagnostics for support"
 msgstr "మద్దతు కోసం డయాగ్నస్టిక్స్"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:910
+#: zinn/class-zinn-cache-pro-admin-ui.php:993
 msgid "Import a settings file"
 msgstr "అమరికల ఫైల్‌ను దిగుమతి చేయి"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:914
+#: zinn/class-zinn-cache-pro-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "ఎగుమతి చేసిన ఫైళ్లలో ఎప్పటికీ పాస్‌వర్డ్‌లు, టోకెన్‌లు లేదా API కీలు ఉండవు — మీరు కొత్త సైట్‌లో వాటిని మళ్లీ నమోదు చేయాల్సి ఉంటుంది."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+#: zinn/class-zinn-cache-pro-admin-ui.php:1096
 msgid "Settings saved."
 msgstr "అమరికలు సేవ్ చేయబడ్డాయి."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+#: zinn/class-zinn-cache-pro-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
 msgstr "ఈ ప్లగిన్‌లోని ప్రతి సెట్టింగ్ దాని డిఫాల్ట్‌కి తిరిగి వచ్చింది."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+#: zinn/class-zinn-cache-pro-admin-ui.php:1186
 msgid "Done."
 msgstr "పూర్తయింది."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+#: zinn/class-zinn-cache-pro-admin-ui.php:1190
 msgid "That action is not available."
 msgstr "ఆ చర్య అందుబాటులో లేదు."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+#: zinn/class-zinn-cache-pro-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "ఆ ఫైల్‌ను చదవలేకపోయింది. Zinn® ప్లగిన్ నుండి ఎగుమతి చేసిన సెట్టింగ్‌ల ఫైల్‌ను ఎంచుకోండి."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+#: zinn/class-zinn-cache-pro-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
 msgstr "ఆ ఫైల్ సెట్టింగ్‌ల ఎగుమతి కావడానికి చాలా పెద్దదిగా ఉంది."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+#: zinn/class-zinn-cache-pro-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
 msgstr "ఆ ఫైల్ Zinn® సెట్టింగ్‌ల ఎగుమతి కాదు."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#: zinn/class-zinn-cache-pro-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "ఆ ఫైల్ వేరే ప్లగ్-ఇన్ (%s) నుండి ఎగుమతి చేయబడింది, కాబట్టి దీన్ని ఇక్కడ దిగుమతి చేయడం వలన ఈ ప్లగ్-ఇన్‌కు అర్థం కాని సెట్టింగ్‌లు నిల్వ చేయబడతాయి."
 
 #. translators: %d: how many settings were imported.
-#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#: zinn/class-zinn-cache-pro-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -6000,36 +5985,32 @@ msgstr "ఈ నివేదికను Zinn® మద్దతుకు పం�
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "మేము మీ కోసం ఒక సపోర్ట్ టికెట్‌ను తెరుస్తాము మరియు ఇమెయిల్ ద్వారా సమాధానం ఇస్తాము. మీరు దీన్ని పంపడానికి ఇష్టపడకపోతే, పైన ఉన్న దాన్ని కాపీ చేసి, మీరే టికెట్‌లో అతికించండి."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:228
-msgid "Copied"
-msgstr "కాపీ చేయబడింది"
-
 #. translators: %s: the transport error reported by WordPress.
-#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#: zinn/class-zinn-cache-pro-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "ఈ సర్వర్ (%s) నుండి మేము Zinn Digital® ని చేరుకోలేకపోయాము. దయచేసి పైన ఉన్న నివేదికను కాపీ చేసి, దానికి బదులుగా ఒక టికెట్‌ని తెరవండి — మీ సెట్టింగ్‌లలో ఏదీ తప్పుగా లేదు."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:288
+#: zinn/class-zinn-cache-pro-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "Zinn® మద్దతు మీ నివేదికను స్వీకరించింది మరియు ఇమెయిల్ ద్వారా సమాధానం ఇస్తుంది."
 
 #. translators: %s: the support reference for the report just sent.
-#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#: zinn/class-zinn-cache-pro-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "Zinn® సపోర్ట్ మీ నివేదికను స్వీకరించింది — రిఫరెన్స్ %s — మరియు ఇమెయిల్ ద్వారా బదులిస్తుంది."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:300
+#: zinn/class-zinn-cache-pro-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "మీరు తక్కువ సమయంలో అనేక నివేదికలను పంపారు. కొద్దిసేపు వేచి ఉండి మళ్లీ ప్రయత్నించండి — మునుపటివి అందాయి."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:307
+#: zinn/class-zinn-cache-pro-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® నివేదికను ఇప్పుడే స్వీకరించలేకపోయింది — ఇది మీ వైపు నుండి కాదు, మా వైపు సమస్య. కొద్దిసేపటి తర్వాత మళ్లీ ప్రయత్నించండి లేదా పైన ఉన్న నివేదికను టికెట్‌లోకి కాపీ చేయండి."
 
 #. translators: %d: the HTTP status code the server returned.
-#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#: zinn/class-zinn-cache-pro-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "నివేదిక తిరస్కరించబడింది (HTTP %d). దాన్ని పైన కాపీ చేసి, ఆ సంఖ్యను సూచిస్తూ టికెట్‌ను తెరవండి."
@@ -6055,42 +6036,42 @@ msgstr "%s వినియోగదారు మార్గదర్శిన�
 msgid "Hide this"
 msgstr "దీన్ని దాచు"
 
-#: zinn/class-zinn-cache-pro-promo.php:374
+#: zinn/class-zinn-cache-pro-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress కోసం Zinn® హోస్టింగ్"
 
-#: zinn/class-zinn-cache-pro-promo.php:375
+#: zinn/class-zinn-cache-pro-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, రోజువారీ బ్యాకప్‌లు, ఉచిత మైగ్రేషన్ మరియు ఒకటి కంటే ఎక్కువ సైట్‌లను నిర్వహించే వ్యక్తుల కోసం రూపొందించబడిన కంట్రోల్ ప్యానెల్."
 
-#: zinn/class-zinn-cache-pro-promo.php:381
+#: zinn/class-zinn-cache-pro-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "Zinn® మార్కెట్ ప్లేస్"
 
-#: zinn/class-zinn-cache-pro-promo.php:382
+#: zinn/class-zinn-cache-pro-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "ఇరుపక్షాలు సంతృప్తి చెందే వరకు మీ డబ్బు సురక్షితంగా ఉంటూ, పాత వెబ్‌సైట్‌లు, డొమైన్‌లు మరియు లింక్ ప్లేస్‌మెంట్‌లను కొనండి మరియు అమ్మండి."
 
-#: zinn/class-zinn-cache-pro-promo.php:429
+#: zinn/class-zinn-cache-pro-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — దీన్ని వృత్తిగా చేసే వారిని నియమించుకోండి"
 
-#: zinn/class-zinn-cache-pro-promo.php:430
+#: zinn/class-zinn-cache-pro-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "మా గ్లోబల్ ఫ్రీలాన్స్ మార్కెట్‌ప్లేస్: రైటర్లు, డిజైనర్లు, డెవలపర్లు మరియు SEO నిపుణుల నుండి 10,000 కంటే ఎక్కువ సిద్ధంగా ఉన్న సేవలను బ్రౌజ్ చేయండి లేదా ప్రాజెక్ట్‌ను పోస్ట్ చేసి వారిని బిడ్ చేయనివ్వండి."
 
-#: zinn/class-zinn-cache-pro-style-presets.php:109
+#: zinn/class-zinn-cache-pro-style-presets.php:118
 msgid "Style preset"
 msgstr "శైలి ప్రీసెట్"
 
-#: zinn/class-zinn-cache-pro-style-presets.php:110
+#: zinn/class-zinn-cache-pro-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "ఒక ప్రారంభ బిందువు. దీని క్రింద ఉన్నదానిని భర్తీ చేస్తుంది."
 
-#: zinn/class-zinn-cache-pro-style-presets.php:117
+#: zinn/class-zinn-cache-pro-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "నా స్వంత రంగులు మరియు పరిమాణాలను ఉపయోగించు"
 
-#: zinn/class-zinn-cache-pro-style-presets.php:118
+#: zinn/class-zinn-cache-pro-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "దీన్ని ఆఫ్‌లో ఉంచితే ప్రీసెట్ ఉన్నది ఉన్నట్లుగా ఉపయోగించబడుతుంది."

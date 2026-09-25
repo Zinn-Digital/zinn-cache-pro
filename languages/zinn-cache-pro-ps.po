@@ -14,7 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: zinn/bootstrap.php:346
+#: zinn/bootstrap.php:350
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -93,87 +93,82 @@ msgid "Dashboard"
 msgstr "ډشبورډ"
 
 #: src/admin-display.cls.php:252
-#: src/lang.cls.php:286
-msgid "OptimaX"
-msgstr "OptimaX"
-
-#: src/admin-display.cls.php:253
 msgid "Presets"
 msgstr "مخکې ټاکل شوي ترتیبات"
 
-#: src/admin-display.cls.php:254
+#: src/admin-display.cls.php:253
 msgid "General"
 msgstr "عمومي"
 
-#: src/admin-display.cls.php:255
+#: src/admin-display.cls.php:254
 #: tpl/cache/entry.tpl.php:17
 #: tpl/cache/entry.tpl.php:66
 msgid "Cache"
 msgstr "کیش"
 
-#: src/admin-display.cls.php:256
+#: src/admin-display.cls.php:255
 msgid "CDN"
 msgstr "CDN"
 
-#: src/admin-display.cls.php:257
+#: src/admin-display.cls.php:256
 #: src/gui.cls.php:891
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "د انځور ښه کول"
 
-#: src/admin-display.cls.php:258
+#: src/admin-display.cls.php:257
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "د مخ مطالعې اصلاح کول"
 
-#: src/admin-display.cls.php:259
+#: src/admin-display.cls.php:258
 msgid "Database"
 msgstr "ډاټابېس"
 
-#: src/admin-display.cls.php:260
+#: src/admin-display.cls.php:259
 #: src/lang.cls.php:266
 msgid "Crawler"
 msgstr "کراولر"
 
-#: src/admin-display.cls.php:261
+#: src/admin-display.cls.php:260
 msgid "Toolbox"
 msgstr "آبزاردان"
 
-#: src/admin-display.cls.php:455
+#: src/admin-display.cls.php:451
 msgid "Cookie Name"
 msgstr "د ککي نوم"
 
-#: src/admin-display.cls.php:456
+#: src/admin-display.cls.php:452
 #: tpl/crawler/settings.tpl.php:179
 msgid "Cookie Values"
 msgstr "د کوکي ارزښتونه"
 
-#: src/admin-display.cls.php:458
+#: src/admin-display.cls.php:454
 msgid "Remove cookie simulation"
 msgstr "د کوکی سمولیشن لرې کول"
 
-#: src/admin-display.cls.php:459
+#: src/admin-display.cls.php:455
 msgid "Add new cookie to simulate"
 msgstr "د تقلید لپاره نوی کوکی اضافه کړئ"
 
-#: src/admin-display.cls.php:482
+#: src/admin-display.cls.php:478
 #, php-format
 msgid "CDN URL to be used. For example, %s"
 msgstr "د CDN URL چې باید وکارول شي. د بیلګې په توګه، %s"
 
-#: src/admin-display.cls.php:484
+#: src/admin-display.cls.php:480
 msgid "Remove CDN URL"
 msgstr "د CDN آي ډي آر لرې کړئ"
 
-#: src/admin-display.cls.php:485
+#: src/admin-display.cls.php:481
 msgid "Add new CDN URL"
 msgstr "نوی CDN URL اضافه کړئ"
 
-#: src/admin-display.cls.php:486
-#: src/admin-display.cls.php:1167
-#: src/admin-display.cls.php:1197
-#: src/admin-display.cls.php:1284
+#: src/admin-display.cls.php:482
+#: src/admin-display.cls.php:1163
+#: src/admin-display.cls.php:1193
+#: src/admin-display.cls.php:1280
 #: src/doc.cls.php:41
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:91
@@ -186,10 +181,10 @@ msgstr "نوی CDN URL اضافه کړئ"
 msgid "ON"
 msgstr "بند"
 
-#: src/admin-display.cls.php:487
-#: src/admin-display.cls.php:1168
-#: src/admin-display.cls.php:1197
-#: src/admin-display.cls.php:1284
+#: src/admin-display.cls.php:483
+#: src/admin-display.cls.php:1164
+#: src/admin-display.cls.php:1193
+#: src/admin-display.cls.php:1280
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
@@ -201,104 +196,104 @@ msgstr "بند"
 msgid "OFF"
 msgstr "بند"
 
-#: src/admin-display.cls.php:548
+#: src/admin-display.cls.php:544
 #: src/gui.cls.php:880
 #: tpl/crawler/entry.tpl.php:17
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: src/admin-display.cls.php:805
+#: src/admin-display.cls.php:801
 msgid "Dismiss"
 msgstr "لغوه کول"
 
-#: src/admin-display.cls.php:998
-#: src/admin-display.cls.php:1003
+#: src/admin-display.cls.php:994
+#: src/admin-display.cls.php:999
 msgid "Save Changes"
 msgstr "بدلونونه خوندي کړئ"
 
-#: src/admin-display.cls.php:1298
+#: src/admin-display.cls.php:1294
 #, php-format
 msgid "This value is overwritten by the %s variable."
 msgstr "دا ارزښت د %s متغیر لخوا لیکل شوی دی."
 
-#: src/admin-display.cls.php:1302
-#: src/admin-display.cls.php:1315
+#: src/admin-display.cls.php:1298
+#: src/admin-display.cls.php:1311
 msgid "This value is overwritten by the filter."
 msgstr "دا ارزښت د فلټر لخوا لیکل شوی دی."
 
-#: src/admin-display.cls.php:1305
+#: src/admin-display.cls.php:1301
 #, php-format
 msgid "This value is overwritten by the PHP constant %s."
 msgstr "دا ارزښت د PHP د ثابت %s لخوا تر لیکل کیږي."
 
-#: src/admin-display.cls.php:1309
+#: src/admin-display.cls.php:1305
 msgid "This value is overwritten by the primary site setting."
 msgstr "دا ارزښت د لومړني سایټ د ترتیباتو له خوا په سر لیکل کیږي."
 
-#: src/admin-display.cls.php:1311
+#: src/admin-display.cls.php:1307
 msgid "This value is overwritten by the Network setting."
 msgstr "دا ارزښت د شبکې د تنظیماتو له مخې سرلیکل کیږي."
 
-#: src/admin-display.cls.php:1318
+#: src/admin-display.cls.php:1314
 #, php-format
 msgid "Currently set to %s"
 msgstr "اوس مهال پر %s ټاکل شوی دی"
 
-#: src/admin-display.cls.php:1331
+#: src/admin-display.cls.php:1327
 msgid "Value from filter applied"
 msgstr "د فلټر ارزښت پلي شو"
 
-#: src/admin-display.cls.php:1345
+#: src/admin-display.cls.php:1341
 #: tpl/cache/settings_inc.object.tpl.php:162
 #: tpl/crawler/settings.tpl.php:43
 #: tpl/esi_widget_edit.php:78
 msgid "seconds"
 msgstr "ثانیې"
 
-#: src/admin-display.cls.php:1371
-#: src/admin-display.cls.php:1390
+#: src/admin-display.cls.php:1367
+#: src/admin-display.cls.php:1386
 #: tpl/cdn/other.tpl.php:108
 msgid "Default value"
 msgstr "تخلفي ارزښت"
 
-#: src/admin-display.cls.php:1418
+#: src/admin-display.cls.php:1414
 msgid "Invalid rewrite rule"
 msgstr "ناسم د بیا لیکلو قاعده"
 
-#: src/admin-display.cls.php:1438
+#: src/admin-display.cls.php:1434
 #, php-format
 msgid "Path must end with %s"
 msgstr "مسیر باید په %s پای ته ورسېږي"
 
-#: src/admin-display.cls.php:1458
+#: src/admin-display.cls.php:1454
 msgid "Minimum value"
 msgstr "لږ تر لږه ارزښت"
 
-#: src/admin-display.cls.php:1461
+#: src/admin-display.cls.php:1457
 msgid "Maximum value"
 msgstr "پورته ارزښت"
 
-#: src/admin-display.cls.php:1473
+#: src/admin-display.cls.php:1469
 msgid "Zero, or"
 msgstr "صفر، یا"
 
-#: src/admin-display.cls.php:1479
+#: src/admin-display.cls.php:1475
 msgid "Larger than"
 msgstr "له څخه لوی"
 
-#: src/admin-display.cls.php:1481
+#: src/admin-display.cls.php:1477
 msgid "Smaller than"
 msgstr "د دې څخه کوچنی"
 
-#: src/admin-display.cls.php:1484
+#: src/admin-display.cls.php:1480
 msgid "Value range"
 msgstr "د ارزښت حد"
 
-#: src/admin-display.cls.php:1512
+#: src/admin-display.cls.php:1508
 msgid "Invalid IP"
 msgstr "باطل IP"
 
-#: src/admin-display.cls.php:1532
+#: src/admin-display.cls.php:1528
 #: tpl/cache/settings-esi.tpl.php:103
 #: tpl/page_optm/settings_css.tpl.php:87
 #: tpl/page_optm/settings_css.tpl.php:223
@@ -320,54 +315,54 @@ msgid "API"
 msgstr "API"
 
 #. translators: %s: list of server variables in <code> tags
-#: src/admin-display.cls.php:1535
+#: src/admin-display.cls.php:1531
 #, php-format
 msgid "Server variable(s) %s available to override this setting."
 msgstr "د دې تنظیم د لغوه کولو لپاره د سرور متغیر(ونه) %s موجود دي."
 
-#: src/admin-display.cls.php:1551
+#: src/admin-display.cls.php:1547
 msgid "The URLs will be compared to the REQUEST_URI server variable."
 msgstr "URLs به د REQUEST_URI سرور متغیر سره پرتله شي."
 
 #. translators: 1: example URL, 2: pattern example
-#: src/admin-display.cls.php:1553
+#: src/admin-display.cls.php:1549
 #, php-format
 msgid "For example, for %1$s, %2$s can be used here."
 msgstr "د مثال په توګه، د %1$s لپاره، %2$s دلته کارول کیدی شي."
 
 #. translators: %s: caret symbol
-#: src/admin-display.cls.php:1556
+#: src/admin-display.cls.php:1552
 #, php-format
 msgid "To match the beginning, add %s to the beginning of the item."
 msgstr "د پیل سره د سمون لپاره، د توکي په پیل کې %s اضافه کړئ."
 
 #. translators: %s: dollar symbol
-#: src/admin-display.cls.php:1558
+#: src/admin-display.cls.php:1554
 #, php-format
 msgid "To do an exact match, add %s to the end of the URL."
 msgstr "د بشپړ مطابقت لپاره، د URL پای ته %s اضافه کړئ."
 
-#: src/admin-display.cls.php:1559
+#: src/admin-display.cls.php:1555
 #: src/doc.cls.php:128
 msgid "One per line."
 msgstr "په هره کرښه کې یو."
 
-#: src/admin-display.cls.php:1576
+#: src/admin-display.cls.php:1572
 #, php-format
 msgid "%s groups"
 msgstr "%s ډلې"
 
-#: src/admin-display.cls.php:1579
+#: src/admin-display.cls.php:1575
 #, php-format
 msgid "%s images"
 msgstr "%s انځورونه"
 
-#: src/admin-display.cls.php:1588
+#: src/admin-display.cls.php:1584
 #, php-format
 msgid "%s group"
 msgstr "%s ګروپ"
 
-#: src/admin-display.cls.php:1591
+#: src/admin-display.cls.php:1587
 #, php-format
 msgid "%s image"
 msgstr "%s عکس"
@@ -1927,6 +1922,10 @@ msgstr "د بیا کتنو اعظمي شمېر"
 #: src/lang.cls.php:284
 msgid "Revisions Max Age"
 msgstr "د بیاکتنو د ساتلو اعظمي موده"
+
+#: src/lang.cls.php:286
+msgid "OptimaX"
+msgstr "OptimaX"
 
 #: src/media.cls.php:297
 msgid "Batch rescale completed."
@@ -4059,7 +4058,7 @@ msgid "Redetect"
 msgstr "د بیا موندلو هڅه کول"
 
 #: tpl/img_optm/summary.tpl.php:58
-#: zinn/bootstrap.php:358
+#: zinn/bootstrap.php:362
 msgid "Image optimisation"
 msgstr "د عکسونو اصلاح کول"
 
@@ -4416,24 +4415,6 @@ msgstr "که چیرې تاسو OpenLiteSpeed کاروئ، نو د بدلونون
 #, php-format
 msgid "Unexpected cache rule %2$s found in %1$s file. This rule may cause visitors to see old versions of pages due to the browser caching HTML pages. If you are sure that HTML pages are not being browser cached, this message can be dismissed. (%3$sLearn More%4$s)"
 msgstr "په %1$s فایل کې ناڅاپه د کیش قاعده %2$s وموندل شوه. دا قاعده ممکن د دې لامل شي چې لیدونکي د براوزر له لارې د HTML پاڼو کیش کولو له امله د پاڼو زاړه نسخې وګوري. که تاسو ډاډه یاست چې د HTML پاڼې د براوزر لخوا نه کیش کیږي، دا پیغام له پامه غورځول کیدی شي. (%3$sنور زده کړئ%4$s)"
-
-#: tpl/optimax/entry.tpl.php:16
-msgid "OptimaX Summary"
-msgstr "د آپټیماکس لنډیز"
-
-#: tpl/optimax/entry.tpl.php:17
-#: tpl/optimax/entry.tpl.php:22
-#: tpl/optimax/settings.tpl.php:19
-msgid "OptimaX Settings"
-msgstr "د OptimaX امستنې"
-
-#: tpl/optimax/entry.tpl.php:30
-msgid "Zinn® Cache Engine OptimaX"
-msgstr "Zinn® کیش اینجین OptimaX"
-
-#: tpl/optimax/settings.tpl.php:34
-msgid "Turn on OptimaX. This will automatically request your pages OptimaX result via cron job."
-msgstr "OptimaX فعال کړئ. دا به په اوتومات ډول د کرون دندې (cron job) له لارې ستاسو د پاڼو د OptimaX پایله وغواړي."
 
 #: tpl/page_optm/entry.tpl.php:16
 #: tpl/page_optm/settings_css.tpl.php:31
@@ -5443,7 +5424,7 @@ msgid "Import Settings"
 msgstr "د تنظیمونو واردول"
 
 #: tpl/toolbox/import_export.tpl.php:48
-#: zinn/class-zinn-cache-pro-admin-ui.php:912
+#: zinn/class-zinn-cache-pro-admin-ui.php:995
 msgid "Import"
 msgstr "واردول"
 
@@ -5745,47 +5726,47 @@ msgstr "د کیش انجن"
 
 #: zinn/bootstrap.php:269
 #: zinn/bootstrap.php:276
-#: zinn/class-zinn-cache-pro-admin-ui.php:279
+#: zinn/class-zinn-cache-pro-admin-ui.php:295
 msgid "Overview"
 msgstr "عمومي کتنه"
 
-#: zinn/bootstrap.php:306
+#: zinn/bootstrap.php:310
 msgid "Web server"
 msgstr "ویب سرور"
 
-#: zinn/bootstrap.php:307
+#: zinn/bootstrap.php:311
 msgid "not reported"
 msgstr "راپور شوی نه دی"
 
-#: zinn/bootstrap.php:310
+#: zinn/bootstrap.php:314
 msgid "Version"
 msgstr "ورژن"
 
-#: zinn/bootstrap.php:318
+#: zinn/bootstrap.php:322
 msgid "This server is not running LiteSpeed."
 msgstr "دا سرور LiteSpeed نه چلوي."
 
-#: zinn/bootstrap.php:319
+#: zinn/bootstrap.php:323
 msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
 msgstr "دلته هر څه نور کار کوي — د انځورونوغوره کول، د ډیټابیس پاکوونکی، CDN — مګر د بشپړې پاڼې کش کولو لپاره د ویب سرور په کچه LiteSpeed ته اړتیا ده، نو پاڼې نه کش کېږي. له خپل هوسټ څخه پوښتنه وکړئ چې ایا LiteSpeed شته که نه، یا د Zinn® هوسټینګ ته لاړ شئ چې هلته دا د سټنډرډ په توګه موجود وي."
 
-#: zinn/bootstrap.php:321
+#: zinn/bootstrap.php:325
 msgid "See Zinn® hosting"
 msgstr "د Zinn® هوسټنګ وګورئ"
 
-#: zinn/bootstrap.php:330
+#: zinn/bootstrap.php:334
 msgid "LiteSpeed is running and full-page caching is available."
 msgstr "LiteSpeed روان دی او د ټول مخ کیش کول شتون لري."
 
-#: zinn/bootstrap.php:348
+#: zinn/bootstrap.php:352
 msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
 msgstr "د انګین خپل تنظیمات - کیش کول، د انځور غوره کول، د ډیټابیس پاکونکی، کراولر او CDN - د دې په خپل مینو کې ژوند کوي. دا سکرین هغه شیان لري چې Zinn Digital® اضافه کوي: پورتنی حالت، یو راپور چې تاسو یې ملاتړ ته لیږلی شئ، او شریک شوي واردات او صادرات."
 
-#: zinn/bootstrap.php:352
+#: zinn/bootstrap.php:356
 msgid "Open the cache engine settings"
 msgstr "د کیچ انجن تنظیمات خلاصې کړئ"
 
-#: zinn/bootstrap.php:355
+#: zinn/bootstrap.php:359
 msgid "Cache settings"
 msgstr "د کېش ترتیبات"
 
@@ -5797,137 +5778,141 @@ msgstr "د Zinn Digital® د خپرولو یادښتونه وګورئ۔"
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "د ډاونلوډ شوي تازه معلوماتو د روغتیا ازموینه ناکامه شوه او ونه لګول شو."
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:575
+#: zinn/class-zinn-cache-pro-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "خوندیتوب شو. د بدلولو لپاره یې یو نوی ارزښت ولیکئ."
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:635
+#: zinn/class-zinn-cache-pro-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "د دې لېست فلټر کول…"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:636
+#: zinn/class-zinn-cache-pro-admin-fields.php:641
 msgid "Filter this list"
 msgstr "دغه لړلید فلټر کړئ"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:652
+#: zinn/class-zinn-cache-pro-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "دې فلټر سره هېڅ شی سمون نه خوري."
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:683
+#: zinn/class-zinn-cache-pro-admin-fields.php:688
 msgid "Add a row"
 msgstr "یوه قطار اضافه کړئ"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:720
+#: zinn/class-zinn-cache-pro-admin-fields.php:725
 msgid "Remove this row"
 msgstr "دا قطار لرې کول"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:720
+#: zinn/class-zinn-cache-pro-admin-fields.php:725
 msgid "Remove"
 msgstr "لري کول"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:264
-#: zinn/class-zinn-cache-pro-admin-ui.php:265
-#: zinn/class-zinn-cache-pro-admin-ui.php:335
+#: zinn/class-zinn-cache-pro-admin-ui.php:280
+#: zinn/class-zinn-cache-pro-admin-ui.php:281
+#: zinn/class-zinn-cache-pro-admin-ui.php:421
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:278
+#: zinn/class-zinn-cache-pro-admin-ui.php:294
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — کتنه"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:336
+#: zinn/class-zinn-cache-pro-admin-ui.php:383
+msgid "Copied"
+msgstr "کاپي شو"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "په دې سایټ کې هر Zinn® پلگ ان، او ایا دا کار کوي."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:352
+#: zinn/class-zinn-cache-pro-admin-ui.php:437
 msgid "No connection is needed for this plugin."
 msgstr "دې پلگ ان لپاره هېڅ انټرنیټي پيوستون ته اړتیا نشته."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:357
+#: zinn/class-zinn-cache-pro-admin-ui.php:442
 msgid "Open settings"
 msgstr "تنظیمات پرانیته کړئ"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:685
-#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+#: zinn/class-zinn-cache-pro-admin-ui.php:770
+#: zinn/class-zinn-cache-pro-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
 msgstr "تاسو د دې امستنو د بدلولو اجازه نه لرئ."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:715
+#: zinn/class-zinn-cache-pro-admin-ui.php:799
 msgid "Settings sections"
 msgstr "د تنظیمونو برخې"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:788
+#: zinn/class-zinn-cache-pro-admin-ui.php:871
 msgid "Support"
 msgstr "ملاتړ"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:846
+#: zinn/class-zinn-cache-pro-admin-ui.php:929
 msgid "Save changes"
 msgstr "بدلونونه ساتل"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:875
+#: zinn/class-zinn-cache-pro-admin-ui.php:958
 msgid "Tools"
 msgstr "تیرلوبه"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:890
+#: zinn/class-zinn-cache-pro-admin-ui.php:973
 msgid "Export settings"
 msgstr "د غوښتنلیک تنظیمات صادرول"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:893
+#: zinn/class-zinn-cache-pro-admin-ui.php:976
 msgid "Reset to defaults"
 msgstr "اصلي حالت ته ورګرځول"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:894
+#: zinn/class-zinn-cache-pro-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "دا د دې پلگ ان ټول تنظیمات بیرته خپل اصلي حالت ته راوړي. دوام ورکړئ؟"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:901
+#: zinn/class-zinn-cache-pro-admin-ui.php:984
 msgid "Diagnostics for support"
 msgstr "د ملاتړ لپاره تشخیصونه"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:910
+#: zinn/class-zinn-cache-pro-admin-ui.php:993
 msgid "Import a settings file"
 msgstr "د تنظیمونو فایل وارد کړئ"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:914
+#: zinn/class-zinn-cache-pro-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "صادر شوي دوتنې هېڅکله پاسورډونه، ټوکنونه يا د API کيليګې نه لري - تاسو به اړ یاست چې په نوي سایټ کې هغې یو ځل بیا دننه کړئ."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+#: zinn/class-zinn-cache-pro-admin-ui.php:1096
 msgid "Settings saved."
 msgstr "تنظیمات وژغورل شوې."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+#: zinn/class-zinn-cache-pro-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
 msgstr "د دې پلگ ان هر یو تنظیم خپل پخواني حالت ته راګرځیدلی دی."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+#: zinn/class-zinn-cache-pro-admin-ui.php:1186
 msgid "Done."
 msgstr "پای ته ورسید."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+#: zinn/class-zinn-cache-pro-admin-ui.php:1190
 msgid "That action is not available."
 msgstr "دا کړنه نشته."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+#: zinn/class-zinn-cache-pro-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "دا دوتنه نه شي لوستل کېدلی. د Zinn® پلگ ان څخه صادر شوی د ترتیباتو دوتنه وټاکئ."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+#: zinn/class-zinn-cache-pro-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
 msgstr "دا د پېره (سیټنګ) د صادرولو لپاره ډېر لوی فایل دی."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+#: zinn/class-zinn-cache-pro-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
 msgstr "دا فایل د Zinn® د تنظیماتو صادرول نه دي."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#: zinn/class-zinn-cache-pro-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "دا فایل د بل پلګ ان (%s) څخه صادر شوی دی، نو دلته د هغې واردول به هغه تنظیمات وساتي چې دا پلګ ان یې نه پوهیږي."
 
 #. translators: %d: how many settings were imported.
-#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#: zinn/class-zinn-cache-pro-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -6000,36 +5985,32 @@ msgstr "دا راپور د Zinn® ملاتړ ته واستوئ"
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "موږ ستاسو لپاره د ملاتړ ټکټ پرانیزو او په برېښنالیک ځواب درکوو. که تاسو غواړئ چې هغه ونه لیږئ، پورته یې کاپي کړئ او پخپله یې په یوه ټکټ کې خپاره کړئ."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:228
-msgid "Copied"
-msgstr "کاپي شو"
-
 #. translators: %s: the transport error reported by WordPress.
-#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#: zinn/class-zinn-cache-pro-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "موږ نشو کولی له دې سرور (%s) څخه Zinn Digital® ته ورسېږو. پورتنی راپور کاپي کړئ او پرځای یې یو ټکټ پرانیزئ — ستاسو د ترتیباتو په اړه هیڅ شی غلط نه دی."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:288
+#: zinn/class-zinn-cache-pro-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "د Zinn® ملاتړ ستاسو راپور ترلاسه کړی او د برېښنالیک له لارې به ځواب درکړي।"
 
 #. translators: %s: the support reference for the report just sent.
-#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#: zinn/class-zinn-cache-pro-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "د Zinn® ملاتړ ستاسو راپور ترلاسه کړ — د مرجع شمیره %s — او د بریښنالیک له لارې به ځواب درکړي."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:300
+#: zinn/class-zinn-cache-pro-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "تاسو په لنډ وخت کې څو راپورونه لیږلي دي. څو دقیقې صبر وکړئ او بیا هڅه وکړئ — مخکیني راپورونه رسیدلي دي."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:307
+#: zinn/class-zinn-cache-pro-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® راپور په دې شیبه کې نشي منلی — دا زموږ له لوري ستونزه ده، ستاسو نه. لږ وروسته بیا هڅه وکړئ، یا پورته راپور په یو ټکټ کې کاپي کړئ."
 
 #. translators: %d: the HTTP status code the server returned.
-#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#: zinn/class-zinn-cache-pro-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "راپور رد شو (HTTP %d). هغه پورتنۍ برخه کې کاپي کړئ او ټکټ پرانیزئ، او دا شمېره پکې یاده کړئ."
@@ -6055,42 +6036,42 @@ msgstr "د %s کارن لارښود ولولئ"
 msgid "Hide this"
 msgstr "دا پټول"
 
-#: zinn/class-zinn-cache-pro-promo.php:374
+#: zinn/class-zinn-cache-pro-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "د WordPress لپاره Zinn® کوربه توب"
 
-#: zinn/class-zinn-cache-pro-promo.php:375
+#: zinn/class-zinn-cache-pro-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed، ورځنۍ بیک اپونه، وړیا مهاجرت او یو کنټرول پینل چې د هغو کسانو لپاره جوړ شوی چې له یو څخه ډېر سایټونه چلوي."
 
-#: zinn/class-zinn-cache-pro-promo.php:381
+#: zinn/class-zinn-cache-pro-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "د Zinn® پلورنځی"
 
-#: zinn/class-zinn-cache-pro-promo.php:382
+#: zinn/class-zinn-cache-pro-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "established سایټونه، ډومینونه او د لینک ځای پر ځای کولو وپېرئ او وپلورئ، او پیسې تر هغې خوندي ساتل کېږي تر څو چې دواړه لوري خوښ وي."
 
-#: zinn/class-zinn-cache-pro-promo.php:429
+#: zinn/class-zinn-cache-pro-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — هغه کسان وګمارئ چې دا کار د مسلک په توګه کوي"
 
-#: zinn/class-zinn-cache-pro-promo.php:430
+#: zinn/class-zinn-cache-pro-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "زموږ د آزاد کارانو نړیوال بازار: د لیکوالانو، ډیزاینرانو، پرمخ وړونکو او د SEO متخصصینو څخه له ۱۰،۰۰۰ څخه زیات چمتو شوي خدمتونه وپلټئ، یا یوه پروژه خپره کړئ او پرېږدئ چې دوی داوطلبي وکړي."
 
-#: zinn/class-zinn-cache-pro-style-presets.php:109
+#: zinn/class-zinn-cache-pro-style-presets.php:118
 msgid "Style preset"
 msgstr "د سټایل مخکې ټاکل شوی تڼی"
 
-#: zinn/class-zinn-cache-pro-style-presets.php:110
+#: zinn/class-zinn-cache-pro-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "یو پيل ځای. لاندې هرڅه پرې برلاسي کیږي."
 
-#: zinn/class-zinn-cache-pro-style-presets.php:117
+#: zinn/class-zinn-cache-pro-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "د خپلو رنګونو او اندازو کارول"
 
-#: zinn/class-zinn-cache-pro-style-presets.php:118
+#: zinn/class-zinn-cache-pro-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "دا بند پریږدئ او مخکینۍ ټاکنه (پریسیټ) همغسې کارول کیږي لکه څنګه چې ده."

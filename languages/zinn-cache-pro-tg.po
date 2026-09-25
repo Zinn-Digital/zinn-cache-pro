@@ -14,7 +14,7 @@ msgstr ""
 #: tpl/banner/new_version_dev.tpl.php:21
 #: tpl/cache/more_settings_tip.tpl.php:28
 #: tpl/esi_widget_edit.php:41
-#: zinn/bootstrap.php:346
+#: zinn/bootstrap.php:350
 msgid "Zinn® Cache Engine"
 msgstr "Zinn® Cache Engine"
 
@@ -93,87 +93,82 @@ msgid "Dashboard"
 msgstr "Пештахта"
 
 #: src/admin-display.cls.php:252
-#: src/lang.cls.php:286
-msgid "OptimaX"
-msgstr "OptimaX"
-
-#: src/admin-display.cls.php:253
 msgid "Presets"
 msgstr "Танзимоти пешфарз"
 
-#: src/admin-display.cls.php:254
+#: src/admin-display.cls.php:253
 msgid "General"
 msgstr "Умумӣ"
 
-#: src/admin-display.cls.php:255
+#: src/admin-display.cls.php:254
 #: tpl/cache/entry.tpl.php:17
 #: tpl/cache/entry.tpl.php:66
 msgid "Cache"
 msgstr "Кэш"
 
-#: src/admin-display.cls.php:256
+#: src/admin-display.cls.php:255
 msgid "CDN"
 msgstr "CDN"
 
-#: src/admin-display.cls.php:257
+#: src/admin-display.cls.php:256
 #: src/gui.cls.php:891
 #: tpl/dash/network_dash.tpl.php:36
 #: tpl/presets/standard.tpl.php:32
 msgid "Image Optimization"
 msgstr "Оptimizatsiyai tasvirҳо"
 
-#: src/admin-display.cls.php:258
+#: src/admin-display.cls.php:257
 #: tpl/dash/network_dash.tpl.php:37
 msgid "Page Optimization"
 msgstr "Оптимизатсияи саҳифа"
 
-#: src/admin-display.cls.php:259
+#: src/admin-display.cls.php:258
 msgid "Database"
 msgstr "Пойгоҳи додаҳо"
 
-#: src/admin-display.cls.php:260
+#: src/admin-display.cls.php:259
 #: src/lang.cls.php:266
 msgid "Crawler"
 msgstr "Хазанда"
 
-#: src/admin-display.cls.php:261
+#: src/admin-display.cls.php:260
 msgid "Toolbox"
 msgstr "Афзорҳо"
 
-#: src/admin-display.cls.php:455
+#: src/admin-display.cls.php:451
 msgid "Cookie Name"
 msgstr "Номи куки"
 
-#: src/admin-display.cls.php:456
+#: src/admin-display.cls.php:452
 #: tpl/crawler/settings.tpl.php:179
 msgid "Cookie Values"
 msgstr "Арзишҳои кукиҳо"
 
-#: src/admin-display.cls.php:458
+#: src/admin-display.cls.php:454
 msgid "Remove cookie simulation"
 msgstr "Тоза кардани симулятсияи кукиҳо"
 
-#: src/admin-display.cls.php:459
+#: src/admin-display.cls.php:455
 msgid "Add new cookie to simulate"
 msgstr "Илова кардани кукии нав барои эмуляция"
 
-#: src/admin-display.cls.php:482
+#: src/admin-display.cls.php:478
 #, php-format
 msgid "CDN URL to be used. For example, %s"
 msgstr "URL-и CDN барои истифода. Масалан, %s"
 
-#: src/admin-display.cls.php:484
+#: src/admin-display.cls.php:480
 msgid "Remove CDN URL"
 msgstr "Нест кардани URL-и CDN"
 
-#: src/admin-display.cls.php:485
+#: src/admin-display.cls.php:481
 msgid "Add new CDN URL"
 msgstr "Илова кардани URL-и нави CDN"
 
-#: src/admin-display.cls.php:486
-#: src/admin-display.cls.php:1167
-#: src/admin-display.cls.php:1197
-#: src/admin-display.cls.php:1284
+#: src/admin-display.cls.php:482
+#: src/admin-display.cls.php:1163
+#: src/admin-display.cls.php:1193
+#: src/admin-display.cls.php:1280
 #: src/doc.cls.php:41
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cache/settings_inc.cache_mobile.tpl.php:91
@@ -186,10 +181,10 @@ msgstr "Илова кардани URL-и нави CDN"
 msgid "ON"
 msgstr "ФАЪОЛ"
 
-#: src/admin-display.cls.php:487
-#: src/admin-display.cls.php:1168
-#: src/admin-display.cls.php:1197
-#: src/admin-display.cls.php:1284
+#: src/admin-display.cls.php:483
+#: src/admin-display.cls.php:1164
+#: src/admin-display.cls.php:1193
+#: src/admin-display.cls.php:1280
 #: tpl/cache/settings-cache.tpl.php:28
 #: tpl/cdn/other.tpl.php:53
 #: tpl/dash/dashboard.tpl.php:69
@@ -201,104 +196,104 @@ msgstr "ФАЪОЛ"
 msgid "OFF"
 msgstr "ХОМУШ"
 
-#: src/admin-display.cls.php:548
+#: src/admin-display.cls.php:544
 #: src/gui.cls.php:880
 #: tpl/crawler/entry.tpl.php:17
 msgid "Settings"
 msgstr "Танзимот"
 
-#: src/admin-display.cls.php:805
+#: src/admin-display.cls.php:801
 msgid "Dismiss"
 msgstr "Рад кардан"
 
-#: src/admin-display.cls.php:998
-#: src/admin-display.cls.php:1003
+#: src/admin-display.cls.php:994
+#: src/admin-display.cls.php:999
 msgid "Save Changes"
 msgstr "Тағйиротро захира кунед"
 
-#: src/admin-display.cls.php:1298
+#: src/admin-display.cls.php:1294
 #, php-format
 msgid "This value is overwritten by the %s variable."
 msgstr "Ин қимат бо тағйирёбандаи %s иваз карда мешавад."
 
-#: src/admin-display.cls.php:1302
-#: src/admin-display.cls.php:1315
+#: src/admin-display.cls.php:1298
+#: src/admin-display.cls.php:1311
 msgid "This value is overwritten by the filter."
 msgstr "Ин қимат аз ҷониби филтр иваз карда мешавад."
 
-#: src/admin-display.cls.php:1305
+#: src/admin-display.cls.php:1301
 #, php-format
 msgid "This value is overwritten by the PHP constant %s."
 msgstr "Ин қимат бо доимиёти PHP %s иваз карда мешавад."
 
-#: src/admin-display.cls.php:1309
+#: src/admin-display.cls.php:1305
 msgid "This value is overwritten by the primary site setting."
 msgstr "Ин қимат аз ҷониби танзимоти асосии сайт аз нав сабт мешавад."
 
-#: src/admin-display.cls.php:1311
+#: src/admin-display.cls.php:1307
 msgid "This value is overwritten by the Network setting."
 msgstr "Ин маблағ аз ҷониби танзимоти Шабака бознавишта мешавад."
 
-#: src/admin-display.cls.php:1318
+#: src/admin-display.cls.php:1314
 #, php-format
 msgid "Currently set to %s"
 msgstr "Дар ай ҳол ба %s гузошта шудааст"
 
-#: src/admin-display.cls.php:1331
+#: src/admin-display.cls.php:1327
 msgid "Value from filter applied"
 msgstr "Qiymati аз филтри татбиқшуда"
 
-#: src/admin-display.cls.php:1345
+#: src/admin-display.cls.php:1341
 #: tpl/cache/settings_inc.object.tpl.php:162
 #: tpl/crawler/settings.tpl.php:43
 #: tpl/esi_widget_edit.php:78
 msgid "seconds"
 msgstr "сонияҳо"
 
-#: src/admin-display.cls.php:1371
-#: src/admin-display.cls.php:1390
+#: src/admin-display.cls.php:1367
+#: src/admin-display.cls.php:1386
 #: tpl/cdn/other.tpl.php:108
 msgid "Default value"
 msgstr "Qiмəти пешфарз"
 
-#: src/admin-display.cls.php:1418
+#: src/admin-display.cls.php:1414
 msgid "Invalid rewrite rule"
 msgstr "Қоидаи бознависии нодуруст"
 
-#: src/admin-display.cls.php:1438
+#: src/admin-display.cls.php:1434
 #, php-format
 msgid "Path must end with %s"
 msgstr "Масир бояд бо %s анҷом ёбад"
 
-#: src/admin-display.cls.php:1458
+#: src/admin-display.cls.php:1454
 msgid "Minimum value"
 msgstr "Арзиши ҳадди ақал"
 
-#: src/admin-display.cls.php:1461
+#: src/admin-display.cls.php:1457
 msgid "Maximum value"
 msgstr "Қимати максималӣ"
 
-#: src/admin-display.cls.php:1473
+#: src/admin-display.cls.php:1469
 msgid "Zero, or"
 msgstr "Сифр, ё"
 
-#: src/admin-display.cls.php:1479
+#: src/admin-display.cls.php:1475
 msgid "Larger than"
 msgstr "Аз калонтар"
 
-#: src/admin-display.cls.php:1481
+#: src/admin-display.cls.php:1477
 msgid "Smaller than"
 msgstr "Хурдтар аз"
 
-#: src/admin-display.cls.php:1484
+#: src/admin-display.cls.php:1480
 msgid "Value range"
 msgstr "Доираи қиматҳо"
 
-#: src/admin-display.cls.php:1512
+#: src/admin-display.cls.php:1508
 msgid "Invalid IP"
 msgstr "IP-и нодуруст"
 
-#: src/admin-display.cls.php:1532
+#: src/admin-display.cls.php:1528
 #: tpl/cache/settings-esi.tpl.php:103
 #: tpl/page_optm/settings_css.tpl.php:87
 #: tpl/page_optm/settings_css.tpl.php:223
@@ -320,54 +315,54 @@ msgid "API"
 msgstr "API"
 
 #. translators: %s: list of server variables in <code> tags
-#: src/admin-display.cls.php:1535
+#: src/admin-display.cls.php:1531
 #, php-format
 msgid "Server variable(s) %s available to override this setting."
 msgstr "Тағйирёбанда(ҳо)-и сервер %s барои бекор кардани ин танзимот дастрас аст."
 
-#: src/admin-display.cls.php:1551
+#: src/admin-display.cls.php:1547
 msgid "The URLs will be compared to the REQUEST_URI server variable."
 msgstr "URL-ҳо бо тағйирёбандаи сервери REQUEST_URI муқоиса карда мешаванд."
 
 #. translators: 1: example URL, 2: pattern example
-#: src/admin-display.cls.php:1553
+#: src/admin-display.cls.php:1549
 #, php-format
 msgid "For example, for %1$s, %2$s can be used here."
 msgstr "Масалан, барои %1$s, %2$s-ро дар ин ҷо истифода бурдан мумкин аст."
 
 #. translators: %s: caret symbol
-#: src/admin-display.cls.php:1556
+#: src/admin-display.cls.php:1552
 #, php-format
 msgid "To match the beginning, add %s to the beginning of the item."
 msgstr "Барои мувофиқат кардан ба ибтидо, %s-ро ба ибтидои элемент илова кунед."
 
 #. translators: %s: dollar symbol
-#: src/admin-display.cls.php:1558
+#: src/admin-display.cls.php:1554
 #, php-format
 msgid "To do an exact match, add %s to the end of the URL."
 msgstr "Барои дарёфти мувофиқати дақиқ, %s-ро ба охири URL илова кунед."
 
-#: src/admin-display.cls.php:1559
+#: src/admin-display.cls.php:1555
 #: src/doc.cls.php:128
 msgid "One per line."
 msgstr "Дар як сатр."
 
-#: src/admin-display.cls.php:1576
+#: src/admin-display.cls.php:1572
 #, php-format
 msgid "%s groups"
 msgstr "%s гурӯҳҳо"
 
-#: src/admin-display.cls.php:1579
+#: src/admin-display.cls.php:1575
 #, php-format
 msgid "%s images"
 msgstr "%s тасвирҳо"
 
-#: src/admin-display.cls.php:1588
+#: src/admin-display.cls.php:1584
 #, php-format
 msgid "%s group"
 msgstr "гурӯҳи %s"
 
-#: src/admin-display.cls.php:1591
+#: src/admin-display.cls.php:1587
 #, php-format
 msgid "%s image"
 msgstr "Тасвири %s"
@@ -1927,6 +1922,10 @@ msgstr "Шумораи максималии таҳрирҳо"
 #: src/lang.cls.php:284
 msgid "Revisions Max Age"
 msgstr "Мӯҳлати ниҳоии таҳрирҳо"
+
+#: src/lang.cls.php:286
+msgid "OptimaX"
+msgstr "OptimaX"
 
 #: src/media.cls.php:297
 msgid "Batch rescale completed."
@@ -4059,7 +4058,7 @@ msgid "Redetect"
 msgstr "Азнавмуайнкунӣ"
 
 #: tpl/img_optm/summary.tpl.php:58
-#: zinn/bootstrap.php:358
+#: zinn/bootstrap.php:362
 msgid "Image optimisation"
 msgstr "Беҳсозии тасвирҳо"
 
@@ -4416,24 +4415,6 @@ msgstr "Агар OpenLiteSpeed истифода шавад, барои эъти�
 #, php-format
 msgid "Unexpected cache rule %2$s found in %1$s file. This rule may cause visitors to see old versions of pages due to the browser caching HTML pages. If you are sure that HTML pages are not being browser cached, this message can be dismissed. (%3$sLearn More%4$s)"
 msgstr "Қoidaи ғайриинтизори кэши %2$s дар файли %1$s ёфт шуд. Ин қоида метавонад боиси он гардад, ки меҳмонон аз сабаби дар браузер кэш шудани саҳифаҳои HTML, версияҳои кӯҳнаи саҳифаҳоро бибинанд. Агар шумо мутмаин бошед, ки саҳифаҳои HTML дар браузер кэш намешаванд, ин паёмро рад кардан мумкин аст. (%3$sМуфассалтар%4$s)"
-
-#: tpl/optimax/entry.tpl.php:16
-msgid "OptimaX Summary"
-msgstr "Хулосаи OptimaX"
-
-#: tpl/optimax/entry.tpl.php:17
-#: tpl/optimax/entry.tpl.php:22
-#: tpl/optimax/settings.tpl.php:19
-msgid "OptimaX Settings"
-msgstr "Танзимоти OptimaX"
-
-#: tpl/optimax/entry.tpl.php:30
-msgid "Zinn® Cache Engine OptimaX"
-msgstr "Мотори кэши Zinn® OptimaX"
-
-#: tpl/optimax/settings.tpl.php:34
-msgid "Turn on OptimaX. This will automatically request your pages OptimaX result via cron job."
-msgstr "OptimaX-ро фаъол кунед. Ин ба таври худкор тавассути вазифаи cron натиҷаи саҳифаҳои OptimaX-и шуморо дархост мекунад."
 
 #: tpl/page_optm/entry.tpl.php:16
 #: tpl/page_optm/settings_css.tpl.php:31
@@ -5443,7 +5424,7 @@ msgid "Import Settings"
 msgstr "Ворид кардани танзимот"
 
 #: tpl/toolbox/import_export.tpl.php:48
-#: zinn/class-zinn-cache-pro-admin-ui.php:912
+#: zinn/class-zinn-cache-pro-admin-ui.php:995
 msgid "Import"
 msgstr "Ворид кардан"
 
@@ -5745,47 +5726,47 @@ msgstr "Мотори кэш"
 
 #: zinn/bootstrap.php:269
 #: zinn/bootstrap.php:276
-#: zinn/class-zinn-cache-pro-admin-ui.php:279
+#: zinn/class-zinn-cache-pro-admin-ui.php:295
 msgid "Overview"
 msgstr "Шарҳи умумӣ"
 
-#: zinn/bootstrap.php:306
+#: zinn/bootstrap.php:310
 msgid "Web server"
 msgstr "Сервери веб"
 
-#: zinn/bootstrap.php:307
+#: zinn/bootstrap.php:311
 msgid "not reported"
 msgstr "гузориш нашудааст"
 
-#: zinn/bootstrap.php:310
+#: zinn/bootstrap.php:314
 msgid "Version"
 msgstr "Версия"
 
-#: zinn/bootstrap.php:318
+#: zinn/bootstrap.php:322
 msgid "This server is not running LiteSpeed."
 msgstr "Ин сервер LiteSpeed-ро иҷро намекунад."
 
-#: zinn/bootstrap.php:319
+#: zinn/bootstrap.php:323
 msgid "Everything else here works — image optimisation, the database cleaner, the CDN — but full-page caching needs LiteSpeed at the web server, so pages are not being cached. Ask your host whether LiteSpeed is available, or move to Zinn® hosting where it is standard."
 msgstr "Ҳама чиз дар ин ҷо кор мекунад — оптимизатсияи тасвирҳо, тозакунандаи пойгоҳи додаҳо, CDN — аммо кэшсозии саҳифаи пурра ба LiteSpeed дар сервери вебулӣ ниёз дорад, аз ин рӯ саҳифаҳо кэш намешаванд. Аз мизбони худ пурсед, ки оё LiteSpeed дастрас аст, ё ба мизбони Zinn® гузаред, ки дар он ҷо ин стандартӣ аст."
 
-#: zinn/bootstrap.php:321
+#: zinn/bootstrap.php:325
 msgid "See Zinn® hosting"
 msgstr "Нигоҳ кардани мизбонии Zinn®"
 
-#: zinn/bootstrap.php:330
+#: zinn/bootstrap.php:334
 msgid "LiteSpeed is running and full-page caching is available."
 msgstr "LiteSpeed кор карда истодааст ва кэшкунии саҳифаи пурра дастрас аст."
 
-#: zinn/bootstrap.php:348
+#: zinn/bootstrap.php:352
 msgid "The engine’s own settings — caching, image optimisation, the database cleaner, the crawler and the CDN — live on its own menu. This screen carries the things Zinn Digital® adds: the status above, a report you can send to support, and the shared import and export."
 msgstr "Танзимоти худи муҳаррик — кэшкунӣ, беҳсозии тасвирҳо, тозакунандаи пойгоҳи додаҳо, хзанда ва CDN — дар менюи худ ҷойгиранд. Ин экран чизҳои иловакардаи Zinn Digital®-ро дар бар мегирад: ҳолати боло, гузорише, ки метавонед ба дастгирӣ фиристед ва воридоту содироти муштарак."
 
-#: zinn/bootstrap.php:352
+#: zinn/bootstrap.php:356
 msgid "Open the cache engine settings"
 msgstr "Танзимоти муҳаррики кэшро кушоед"
 
-#: zinn/bootstrap.php:355
+#: zinn/bootstrap.php:359
 msgid "Cache settings"
 msgstr "Танзимоти кэш"
 
@@ -5797,137 +5778,141 @@ msgstr "Эъломияҳои нашри Zinn Digital®-ро бубинед."
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Навсозии зеркашидашув санҷиши яхлитсозиро гузашта натавонист ва насб нашуд."
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:575
+#: zinn/class-zinn-cache-pro-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "Захира шуд. Барои иваз кардани он қимати навиро ворид кунед."
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:635
+#: zinn/class-zinn-cache-pro-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "Филтри ин рӯйхат…"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:636
+#: zinn/class-zinn-cache-pro-admin-fields.php:641
 msgid "Filter this list"
 msgstr "Филтри ин рӯйхат"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:652
+#: zinn/class-zinn-cache-pro-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "Бо ин филтратор чизе мувофиқат намекунад."
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:683
+#: zinn/class-zinn-cache-pro-admin-fields.php:688
 msgid "Add a row"
 msgstr "Илова кардани сатр"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:720
+#: zinn/class-zinn-cache-pro-admin-fields.php:725
 msgid "Remove this row"
 msgstr "Ин сатрро нест кунед"
 
-#: zinn/class-zinn-cache-pro-admin-fields.php:720
+#: zinn/class-zinn-cache-pro-admin-fields.php:725
 msgid "Remove"
 msgstr "Нustefun"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:264
-#: zinn/class-zinn-cache-pro-admin-ui.php:265
-#: zinn/class-zinn-cache-pro-admin-ui.php:335
+#: zinn/class-zinn-cache-pro-admin-ui.php:280
+#: zinn/class-zinn-cache-pro-admin-ui.php:281
+#: zinn/class-zinn-cache-pro-admin-ui.php:421
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:278
+#: zinn/class-zinn-cache-pro-admin-ui.php:294
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — шарҳи умумӣ"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:336
+#: zinn/class-zinn-cache-pro-admin-ui.php:383
+msgid "Copied"
+msgstr "Нусхабардорӣ шуд"
+
+#: zinn/class-zinn-cache-pro-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "Ҳар як плагини Zinn® дар ин сайт ва кор карда истодани он."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:352
+#: zinn/class-zinn-cache-pro-admin-ui.php:437
 msgid "No connection is needed for this plugin."
 msgstr "Барои ин плагин ҳеҷ гуна пайвастшавӣ лозим нест."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:357
+#: zinn/class-zinn-cache-pro-admin-ui.php:442
 msgid "Open settings"
 msgstr "Кушодани танзимот"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:685
-#: zinn/class-zinn-cache-pro-admin-ui.php:1248
+#: zinn/class-zinn-cache-pro-admin-ui.php:770
+#: zinn/class-zinn-cache-pro-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
 msgstr "Шумо барои тағйири ин танзимот иҷозат надоред."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:715
+#: zinn/class-zinn-cache-pro-admin-ui.php:799
 msgid "Settings sections"
 msgstr "Бахшҳои танзимот"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:788
+#: zinn/class-zinn-cache-pro-admin-ui.php:871
 msgid "Support"
 msgstr "Дастгирӣ"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:846
+#: zinn/class-zinn-cache-pro-admin-ui.php:929
 msgid "Save changes"
 msgstr "Тағйиротро захира кунед"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:875
+#: zinn/class-zinn-cache-pro-admin-ui.php:958
 msgid "Tools"
 msgstr "Афзорҳо"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:890
+#: zinn/class-zinn-cache-pro-admin-ui.php:973
 msgid "Export settings"
 msgstr "Содироти танзимот"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:893
+#: zinn/class-zinn-cache-pro-admin-ui.php:976
 msgid "Reset to defaults"
 msgstr "Барқарорсозӣ ба ҳолати пешфарз"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:894
+#: zinn/class-zinn-cache-pro-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "Ин ҳамаи танзимоти ин плагинро ба ҳолати пешфарз бармегардонад. Идома медиҳед?"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:901
+#: zinn/class-zinn-cache-pro-admin-ui.php:984
 msgid "Diagnostics for support"
 msgstr "Ташхис барои дастгирӣ"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:910
+#: zinn/class-zinn-cache-pro-admin-ui.php:993
 msgid "Import a settings file"
 msgstr "Ворид кардани файли танзимотҳо"
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:914
+#: zinn/class-zinn-cache-pro-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "Файлҳои содиршуда ҳеҷ гоҳ паролҳо, токенҳо ё калитҳои API-ро дар бар намегиранд — шумо бояд онҳоро дар сайти нав аз нав ворид кунед."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1013
+#: zinn/class-zinn-cache-pro-admin-ui.php:1096
 msgid "Settings saved."
 msgstr "Танзимот захира шуд."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1060
+#: zinn/class-zinn-cache-pro-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
 msgstr "Ҳамаи танзимоти ин плагин ба ҳолати пешфарз баргаштанд."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1103
+#: zinn/class-zinn-cache-pro-admin-ui.php:1186
 msgid "Done."
 msgstr "Иҷро шуд."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1107
+#: zinn/class-zinn-cache-pro-admin-ui.php:1190
 msgid "That action is not available."
 msgstr "Ин амалиёт дастнорас аст."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1174
+#: zinn/class-zinn-cache-pro-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "Он файлро хонда намешавад. Файли танзимоти содиргардида аз плагини Zinn®-ро интихоб кунед."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1182
+#: zinn/class-zinn-cache-pro-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
 msgstr "Он файл барои содироти танзимот хеле калон аст."
 
-#: zinn/class-zinn-cache-pro-admin-ui.php:1195
+#: zinn/class-zinn-cache-pro-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
 msgstr "Он файл содироти танзимоти Zinn® нест."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: zinn/class-zinn-cache-pro-admin-ui.php:1203
+#: zinn/class-zinn-cache-pro-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "Он файл аз плагини дигар (%s) содир карда шудааст, аз ин рӯ ворид кардани он дар ин ҷо танзимотеро захира мекунад, ки ин плагин онҳоро намефаҳмад."
 
 #. translators: %d: how many settings were imported.
-#: zinn/class-zinn-cache-pro-admin-ui.php:1233
+#: zinn/class-zinn-cache-pro-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -5999,36 +5984,32 @@ msgstr "Ин ҳисоботро ба дастгирии Zinn® фиристед"
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "Мо барои шумо чиптаи дастгирӣ мекушоем ва тавассути почтаи электронӣ ҷавоб медиҳем. Агар шумо нахоҳед онро фиристед, онро аз боло нусхабардорӣ кунед ва худатон ба чипта часбонед."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:228
-msgid "Copied"
-msgstr "Нусхабардорӣ шуд"
-
 #. translators: %s: the transport error reported by WordPress.
-#: zinn/class-zinn-cache-pro-diagnostics.php:274
+#: zinn/class-zinn-cache-pro-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "Мо аз ин сервер (%s) ба Zinn Digital® дастрасӣ пайдо карда натавонистеҳам. Нусхаи гузориши болоро гиред ва ба ҷои он тикет кушоед — ягон чиз дар танзимоти шумо нодуруст нест."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:288
+#: zinn/class-zinn-cache-pro-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "Дастгирии Zinn® гузориши шуморо қабул кард ва тавассути почтаи электронӣ ҷавоб медиҳад."
 
 #. translators: %s: the support reference for the report just sent.
-#: zinn/class-zinn-cache-pro-diagnostics.php:291
+#: zinn/class-zinn-cache-pro-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "Дастгирии Zinn® гузориши шуморо қабул кард — рақами истинод %s — ва тавассути почтаи электронӣ ҷавоб медиҳад."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:300
+#: zinn/class-zinn-cache-pro-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "Шумо дар муддати кӯтоҳ чанд ҳисобот фиристодед. Чанд дақиқа интизор шавед ва дубора кӯшиш кунед — ҳисоботҳои қаблӣ расидаанд."
 
-#: zinn/class-zinn-cache-pro-diagnostics.php:307
+#: zinn/class-zinn-cache-pro-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® дар ин лаҳза гузоришро қабул карда натавонист — ин мушкили аз ҷониби мост, на аз шумо. Пас аз лаҳзае дубора кӯшиш кунед ё гузориши болоро ба чипта нусхабардорӣ кунед."
 
 #. translators: %d: the HTTP status code the server returned.
-#: zinn/class-zinn-cache-pro-diagnostics.php:315
+#: zinn/class-zinn-cache-pro-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "Ҳисобот рад карда шуд (HTTP %d). Онро аз боло нусхабардорӣ кунед ва бо зикри ҳамин рақам дархост кушоед."
@@ -6054,42 +6035,42 @@ msgstr "Дастури корбарии %s-ро хонед"
 msgid "Hide this"
 msgstr "Пинҳон кардани ин"
 
-#: zinn/class-zinn-cache-pro-promo.php:374
+#: zinn/class-zinn-cache-pro-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "Мизбонии Zinn® барои WordPress"
 
-#: zinn/class-zinn-cache-pro-promo.php:375
+#: zinn/class-zinn-cache-pro-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, нусхаҳои эҳтиётии ҳаррӯза, кӯчонидани ройгон ва панели идоракуние, ки барои шахсони дорои зиёда аз як сомона сохта шудааст."
 
-#: zinn/class-zinn-cache-pro-promo.php:381
+#: zinn/class-zinn-cache-pro-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "Бозори Zinn®"
 
-#: zinn/class-zinn-cache-pro-promo.php:382
+#: zinn/class-zinn-cache-pro-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Сайти тайёр, доменҳо ва ҷойгиркунии истинодҳоро харидед ва фурӯшед, бо нигоҳдории бехатари маблағ то он даме, ки ҳарду ҷониб рози шаванд."
 
-#: zinn/class-zinn-cache-pro-promo.php:429
+#: zinn/class-zinn-cache-pro-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — мутахассисонеро киро кунед, ки корхои онхо маҳз ҳамин аст"
 
-#: zinn/class-zinn-cache-pro-promo.php:430
+#: zinn/class-zinn-cache-pro-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Бозори ҷаҳонии фрилансерони мо: зиёда аз 10,000 хидмати омодаро аз нависандагон, тарроҳон, таҳиягарон ва мутахассисони SEO паймоиш кунед ё лоиҳаеро ҷойгир кунед ва бигузор онҳо дархост пешниҳод кунанд."
 
-#: zinn/class-zinn-cache-pro-style-presets.php:109
+#: zinn/class-zinn-cache-pro-style-presets.php:118
 msgid "Style preset"
 msgstr "Танзимоти пешфарзӣ"
 
-#: zinn/class-zinn-cache-pro-style-presets.php:110
+#: zinn/class-zinn-cache-pro-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "Нуқтаи оғоз. Ҳама чизе, ки дар поён аст, онро бекор мекунад."
 
-#: zinn/class-zinn-cache-pro-style-presets.php:117
+#: zinn/class-zinn-cache-pro-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "Рангҳо ва андозаҳои шахсии худро истифода баред"
 
-#: zinn/class-zinn-cache-pro-style-presets.php:118
+#: zinn/class-zinn-cache-pro-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Инро хомӯш гузоред ва пешфарз дақиқан ҳамон тавре ки ҳаст, истифода мешавад."

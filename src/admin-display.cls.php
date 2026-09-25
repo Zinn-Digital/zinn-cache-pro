@@ -249,7 +249,6 @@ class Admin_Display extends Base {
 		$this->_pages = [
 			// Site-level pages
 			'zinn-cache-pro'               => [ 'title' => __( 'Dashboard', 'zinn-cache-pro' ), 'tpl' => 'dash/entry.tpl.php' ],
-			'zinn-cache-pro-optimax'       => [ 'title' => __( 'OptimaX', 'zinn-cache-pro' ), 'tpl' => 'optimax/entry.tpl.php', 'scope' => 'site' ],
 			'zinn-cache-pro-presets'       => [ 'title' => __( 'Presets', 'zinn-cache-pro' ), 'tpl' => 'presets/entry.tpl.php', 'scope' => 'site' ],
 			'zinn-cache-pro-general'       => [ 'title' => __( 'General', 'zinn-cache-pro' ), 'tpl' => 'general/entry.tpl.php' ],
 			'zinn-cache-pro-cache'    => [ 'title' => __( 'Cache', 'zinn-cache-pro' ), 'tpl' => 'cache/entry.tpl.php' ],
@@ -370,9 +369,6 @@ class Admin_Display extends Base {
 		);
 
 		foreach ( $this->_pages as $slug => $meta ) {
-			if ( 'zinn-cache-pro-optimax' === $slug && !defined( 'ZINN_CACHE_PRO_OX' ) ) {
-				continue;
-			}
 			if ( ! empty( $meta['scope'] ) && $meta['scope'] !== $scope ) {
 				continue;
 			}

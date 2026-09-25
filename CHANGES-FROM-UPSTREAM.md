@@ -165,6 +165,12 @@ and a `Contributors:` account that are not ours), the stale bundled `.pot`, and 
 QUIC.cloud screens left unreachable by the excision. Since 1.1.0 the excision also covers every
 **rendered** QUIC.cloud surface — see §2a.
 
+Since 1.2.7 the **OptimaX** screen (`tpl/optimax/`) is removed too, with its menu entry. Upstream
+ships it unfinished, behind a developer constant nothing defines: its Summary tab is a heading
+reading "Coming soon" beside a box reading "Placeholder", and the service it would report on is a
+QUIC.cloud one this fork excises, so it could never show anything true. Its stored `optimax*`
+settings keys are kept, so no saved configuration changes shape.
+
 ---
 
 ## Reproducing this fork
