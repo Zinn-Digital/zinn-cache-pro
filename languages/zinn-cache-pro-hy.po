@@ -2355,7 +2355,7 @@ msgstr "Քեշի կառավարման կարգավորումներ"
 
 #: tpl/cache/network_settings-cache.tpl.php:24
 msgid "Network Enable Cache"
-msgstr "Ցﺎնցի քեշի միացում"
+msgstr "Ցանցային քեշի միացում"
 
 #: tpl/cache/network_settings-cache.tpl.php:28
 msgid "Enabling Zinn® Cache Engine for WordPress here enables the cache for the network."
@@ -6024,7 +6024,7 @@ msgstr "%s — ուղեցույցներ և ծառայություններ"
 
 #: zinn/class-zinn-cache-pro-promo.php:256
 msgid "User guides"
-msgstr "Օգտատེﺭի ուղեցույցներ"
+msgstr "Օգտատիրոջ ուղեցույցներ"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: zinn/class-zinn-cache-pro-promo.php:306

@@ -554,7 +554,7 @@ msgstr "QUIC.cloud серверээс ирсэн сайн мэдээ"
 #: src/cloud-request.trait.php:522
 #, php-format
 msgid "%1$s plugin version %2$s required for this action."
-msgstr "Эེ་ үйлдлийг гүйцэтгэхэд %1$s залгаасын %2$s хувилбар шаардлагатай."
+msgstr "Эene uildeld %1$s zalgastiin %2$s huvilbar shaardlagatai."
 
 #: src/cloud-request.trait.php:589
 msgid "Failed to communicate with QUIC.cloud server"
@@ -5068,7 +5068,7 @@ msgstr "Секторууд нь CSS дотор байх ёстой. HTML дот�
 #: tpl/page_optm/settings_tuning_css.tpl.php:167
 #, php-format
 msgid "Specify critical CSS rules for above-the-fold content when enabling %s."
-msgstr "%s-იიi идэвхжүүлэх үед дэлгэцийн эхэнд харагдах контентэд зориулж чухал CSS дүрэм тогтооно уу."
+msgstr "%s-ийг идэвхжүүлэх үед дэлгэцийн эхэнд харагдах агуулгад зориулж чухал CSS дүрэм тодорхойлно уу."
 
 #: tpl/page_optm/settings_vpi.tpl.php:37
 msgid "When you use Lazy Load, it will delay the loading of all images on a page."

@@ -4741,7 +4741,7 @@ msgstr "അപ്‌ഡേറ്റിനായി കാത്തിരിക�
 #: tpl/page_optm/settings_localization.tpl.php:81
 #: tpl/page_optm/settings_media.tpl.php:218
 msgid "Run Queue Manually"
-msgstr "ரன் ക്യൂ സ്വയം പ്രവർത്തിപ്പിക്കുക"
+msgstr "ക്യൂ സ്വയം പ്രവർത്തിപ്പിക്കുക"
 
 #: tpl/page_optm/settings_localization.tpl.php:98
 msgid "Specify how long, in seconds, Gravatar files are cached."
@@ -5959,7 +5959,7 @@ msgstr "%s മുമ്പ് അവസാനം പരിശോധിച്ച�
 
 #: zinn/class-zinn-cache-pro-connection.php:251
 msgid "(opens in a new tab)"
-msgstr "(새 ടാബിൽ തുറക്കും)"
+msgstr "(പുതിയ ടാബിൽ തുറക്കുന്നു)"
 
 #: zinn/class-zinn-cache-pro-diagnostics.php:199
 msgid "Send this to Zinn® support"

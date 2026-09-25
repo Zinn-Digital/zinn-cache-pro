@@ -646,7 +646,7 @@ msgstr "សម្អាតអត្ថបទ និងទំព័រក្ន�
 
 #: src/db-optm.cls.php:272
 msgid "Clean spam comments successfully."
-msgstr "បានសម្អាតមតិ სპမ် ដោយជោគជ័យ។"
+msgstr "បានលុបមតិឥតបានការដោយជោគជ័យ។"
 
 #: src/db-optm.cls.php:277
 msgid "Clean trashed comments successfully."
@@ -2713,7 +2713,7 @@ msgstr "URL ទាំងឡាយនៅទីនេះ (មួយក្នុង
 #: tpl/cache/settings-purge.tpl.php:107
 #, php-format
 msgid "Both %1$s and %2$s are acceptable."
-msgstr "ทั้ง %1$s និង %2$s សុទ្ធតែអាចទទួលយកបាន។"
+msgstr "ទាំង %1$s និង %2$s គឺសុទ្ធតែអាចទទួលយកបាន។"
 
 #: tpl/cache/settings-purge.tpl.php:116
 msgid "For URLs with wildcards, there may be a delay in initiating scheduled purge."
@@ -3010,7 +3010,7 @@ msgstr "សោ API សកល / តូខិន API"
 #: tpl/cdn/cf.tpl.php:38
 #, php-format
 msgid "Your API key / token is used to access %s APIs."
-msgstr "κey / token របស់ API របស់អ្នកត្រូវបានប្រើដើម្បីចូលប្រើ API របស់ %s។"
+msgstr "គ្រាប់ចុច / តូខិន API របស់អ្នកត្រូវបានប្រើដើម្បីចូលប្រើ API របស់ %s។"
 
 #: tpl/cdn/cf.tpl.php:39
 #, php-format
@@ -3117,7 +3117,7 @@ msgstr "ជម្រះអ្វីៗទាំងអស់ចេញ"
 
 #: tpl/cdn/entry.tpl.php:15
 msgid "Other Static CDN"
-msgstr "CDN 静 ផ្សេងទៀត"
+msgstr "CDN ថេរផ្សេងទៀត"
 
 #: tpl/cdn/entry.tpl.php:21
 msgid "Zinn® Cache Engine CDN"
@@ -3186,7 +3186,7 @@ msgstr "សូមប្រើទម្រង់ %1$s ឬ %2$s (ធាតុគ�
 #: tpl/cdn/other.tpl.php:161
 #, php-format
 msgid "Site URL to be served through the CDN. Beginning with %1$s. For example, %2$s."
-msgstr "כתּּURL របស់គេហទំព័រដែលត្រូវបម្រើតាមរយៈ CDN។ ចាប់ផ្តើមដោយ %1$s។ ឧទាហរណ៍ %2$s។"
+msgstr "URL របស់គេហទំព័រដែលត្រូវបម្រើតាមរយៈ CDN។ ចាប់ផ្តើមដោយ %1$s។ ឧទាហរណ៍៖ %2$s។"
 
 #: tpl/cdn/other.tpl.php:196
 msgid "Only files within these directories will be pointed to the CDN."
@@ -4875,7 +4875,7 @@ msgstr "បង្កើត LQIP ដោយស្វ័យប្រវត្តន
 #: tpl/page_optm/settings_media.tpl.php:175
 #, php-format
 msgid "If set to %1$s, before the placeholder is localized, the %2$s configuration will be used."
-msgstr "ប្រសិនបើបានកំណត់ជា %1$s មុនពេលកន្លែងដាក់អត្ថបទត្រូវបានធ្វើ εντοපි (localized) ការកំណត់រចនាសម្ព័ន្ធ %2$s នឹងត្រូវប្រើប្រាស់។"
+msgstr "ប្រសិនបើបានកំណត់ទៅ %1$s មុនពេលកន្លែងជំនួសត្រូវបានធ្វើក្នុងស្រុក ការកំណត់រចនាសម្ព័ន្ធ %2$s នឹងត្រូវបានប្រើប្រាស់។"
 
 #: tpl/page_optm/settings_media.tpl.php:180
 #, php-format

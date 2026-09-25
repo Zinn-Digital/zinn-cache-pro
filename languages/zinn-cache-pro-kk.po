@@ -3170,7 +3170,7 @@ msgstr "Жоғарыдағы параметрлердің кез келгені�
 
 #: tpl/cdn/other.tpl.php:136
 msgid "Specify which HTML element attributes will be replaced with CDN Mapping."
-msgstr "CDN 매핑 арқылы қай HTML элементінің атрибуттары алмастырылатынын көрсетіңіз."
+msgstr "CDN бейнелеуі арқылы HTML элементтерінің қай атрибуттары алмастырылатынын көрсетіңіз."
 
 #: tpl/cdn/other.tpl.php:137
 #: tpl/img_optm/settings.tpl.php:150

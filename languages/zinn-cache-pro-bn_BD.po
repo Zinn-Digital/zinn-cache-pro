@@ -1636,7 +1636,7 @@ msgstr "লেজি লোড ইউআরআই বাদ দেওয়াগ�
 
 #: src/lang.cls.php:208
 msgid "LQIP Excludes"
-msgstr "ಎಲ್‌কিউআইপি বাদ দেওয়া হয়েছে"
+msgstr "LQIP বাদ দেওয়া হয়েছে"
 
 #: src/lang.cls.php:209
 msgid "Basic Image Placeholder"

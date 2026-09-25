@@ -545,11 +545,11 @@ msgstr "သင့်၏ အွန်လိုင်း ဝန်ဆောင်�
 #: src/cloud-request.trait.php:497
 #: src/cloud-request.trait.php:505
 msgid "Message from QUIC.cloud server"
-msgstr "QUIC.cloud სerver မှ သတင်းစကား"
+msgstr "QUIC.cloud ဆာဗာထံမှ မက်ဆေ့ချ်"
 
 #: src/cloud-request.trait.php:513
 msgid "Good news from QUIC.cloud server"
-msgstr "QUIC.cloud სerver ၏ သတင်းကောင်း"
+msgstr "QUIC.cloud ဆာဗာမှ သတင်းကောင်း"
 
 #: src/cloud-request.trait.php:522
 #, php-format
@@ -1124,7 +1124,7 @@ msgstr "အရန်သိမ်းဆည်းမှုများကို �
 
 #: src/img-optm-manage.trait.php:520
 msgid "Removed backups successfully."
-msgstr "បម្រรอง လွှဲပြောင်းထားသော အရန်သိမ်းဆည်းမှုများကို အောင်မြင်စွာ ဖယ်ရှားပြီးပါပြီ။"
+msgstr "အရန်သင့်ကူးယူထားသည်များကို အောင်မြင်စွာ ဖယ်ရှားပြီးပါပြီ။"
 
 #: src/img-optm-manage.trait.php:682
 msgid "Switched images successfully."
@@ -4909,7 +4909,7 @@ msgstr "ကြီးမားသော ပုံများကို အရွ�
 
 #: tpl/page_optm/settings_media.tpl.php:290
 msgid "Scaled size threshold"
-msgstr "មាឌ ချဲ့ထွင်မှု ကန့်သတ်ချက်"
+msgstr "စကေးချဲ့သည့် အရွယ်အစား ကန့်သတ်ချက်"
 
 #: tpl/page_optm/settings_media.tpl.php:296
 #, php-format
@@ -5674,7 +5674,7 @@ msgstr "%s directory အတွင်းရှိ ဖိုင်တွဲမျ�
 
 #: tpl/toolbox/settings-debug.tpl.php:83
 msgid "To prevent filling up the disk, this setting should be OFF when everything is working."
-msgstr "ዲስክ မပြည့်စေရန် အားလုံးပုံမှန်အလုပ်လုပ်နေချိန်တွင် ဤဆက်တင်ကို ပိတ်ထားသင့်ပါသည်။"
+msgstr "ဒစ်ခ်ျနေရာအပြည့်မဖြစ်စေရန်အတွက် အရာအားလုံး ပုံမှန်အလုပ်လုပ်နေချိန်တွင် ဤဆက်တင်ကို ပိတ် (OFF) ထားသင့်ပါသည်။"
 
 #: tpl/toolbox/settings-debug.tpl.php:84
 msgid "The Admin IP option will only output log messages on requests from admin IPs listed below."
@@ -5958,7 +5958,7 @@ msgstr "နောက်ဆုံး စစ်ဆေးခဲ့သည်မှ�
 
 #: zinn/class-zinn-cache-pro-connection.php:251
 msgid "(opens in a new tab)"
-msgstr "(탭 အသစ်တွင် ဖွင့်မည်)"
+msgstr "(တက်ဘ်အသစ်တွင် ဖွင့်သည်)"
 
 #: zinn/class-zinn-cache-pro-diagnostics.php:199
 msgid "Send this to Zinn® support"
@@ -6033,7 +6033,7 @@ msgstr "%s အသုံးပြုသူ လမ်းညွှန်ကို �
 
 #: zinn/class-zinn-cache-pro-promo.php:314
 msgid "Hide this"
-msgstr "ይህንን ဝှက်ရန်"
+msgstr "ဒါကို ဝှက်ထားပါ"
 
 #: zinn/class-zinn-cache-pro-promo.php:424
 msgid "Zinn® hosting for WordPress"

@@ -704,7 +704,7 @@ msgstr "మరిన్ని వివరాల కోసం దయచేసి
 #: tpl/inc/check_cache_disabled.php:46
 #: tpl/page_optm/settings_media.tpl.php:301
 msgid "Learn More"
-msgstr "더 తెలుసుకోండి"
+msgstr "మరింత తెలుసుకోండి"
 
 #: src/doc.cls.php:145
 msgid "Both full and partial strings can be used."
@@ -1848,7 +1848,7 @@ msgstr "చేర్చబడిన డైరెక్టరీలు"
 
 #: src/lang.cls.php:262
 msgid "Exclude Path"
-msgstr "पाथ మినహాయించు"
+msgstr "మార్గం మినహాయించండి"
 
 #: src/lang.cls.php:263
 msgid "Cloudflare API"
@@ -3920,7 +3920,7 @@ msgstr "సమకాలీకరిస్తోంది"
 
 #: tpl/general/settings_inc.guest.tpl.php:46
 msgid "Guest Mode passed testing."
-msgstr "অতিഥി మోడ్ పరీక్షలో ఉత్తీర్ణత సాధించింది."
+msgstr "గెస్ట్ మోడ్ టెస్టింగ్‌లో విజయవంతమైంది."
 
 #: tpl/general/settings_inc.guest.tpl.php:49
 #: tpl/general/settings_inc.guest.tpl.php:52

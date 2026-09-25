@@ -532,7 +532,7 @@ msgstr "ਤੁਹਾਡਾ domain_key ਦੁਰਵਰਤੋਂ ਨੂੰ ਰੋ�
 
 #: src/cloud-request.trait.php:430
 msgid "Cloud server refused the current request due to rate limiting. Please try again later."
-msgstr "ਕਲਾਉਡ ਸਰਵਰ ਨੇ ਦਰ ਸੀਮਾ (ਰੇਟ ਲਿਮਿਟਿੰਗ) ਕਾਰਨ ਮੌਜੂਦਾ ਬੇਨਤੀ ਨੂੰ ਅਸਵੀਕਾਰ ਕਰ ਦਿੱਤਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ کوشش ਕਰੋ।"
+msgstr "ਰੇਟ ਸੀਮਾ ਦੇ ਕਾਰਨ ਕਲਾਉਡ ਸਰਵਰ ਨੇ ਮੌਜੂਦਾ ਬੇਨਤੀ ਤੋਂ ਇਨਕਾਰ ਕਰ ਦਿੱਤਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
 #: src/cloud-request.trait.php:438
 msgid "Redetected node"
@@ -753,7 +753,7 @@ msgstr "ਚਿੱਤਰ ਸੂਚੀ ਖਾਲੀ ਹੈ।"
 
 #: src/error.cls.php:108
 msgid "Not enough parameters. Please check if the QUIC.cloud connection is set correctly"
-msgstr "ਕਾਫ਼ੀ ਪੈਰਾਮੀਟਰ ਨਹੀਂ ਹਨ। ਕਿਰਪਾ ਕਰਕੇ ਜਾਂਚ ਕਰੋ કે ਕੀ QUIC.cloud ਕਨੈਕਸ਼ਨ ਸਹੀ ਢੰਗ ਨਾਲ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ"
+msgstr "ਕਾਫ਼ੀ ਪੈਰਾਮੀਟਰ ਨਹੀਂ ਹਨ। ਕਿਰਪਾ ਕਰਕੇ ਜਾਂਚ ਕਰੋ ਕਿ ਕੀ QUIC.cloud ਕਨੈਕਸ਼ਨ ਸਹੀ ਢੰਗ ਨਾਲ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ"
 
 #: src/error.cls.php:112
 msgid "There is proceeding queue not pulled yet."
@@ -835,7 +835,7 @@ msgstr "ਪਿਛਲੀ ਬੇਨਤੀ ਬਹੁਤ ਹਾਲੀਆ ਹੈ। �
 #: src/error.cls.php:192
 #, php-format
 msgid "Previous request too recent. Please try again after %s."
-msgstr "पिछલી ਬੇਨਤੀ ਬਹੁਤ ਤਾਜ਼ਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ %s ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+msgstr "ਪਿਛਲੀ ਬੇਨਤੀ ਬਹੁਤ ਹਾਲ ਹੀ ਵਿੱਚ ਕੀਤੀ ਗਈ ਸੀ। ਕਿਰਪਾ ਕਰਕੇ %s ਤੋਂ ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
 #: src/error.cls.php:198
 msgid "Your application is waiting for approval."
@@ -1133,7 +1133,7 @@ msgstr "ਚਿੱਤਰ ਸਫ਼ਲਤਾਪੂਰਵਕ ਬਦਲ ਦਿੱਤ
 #: src/img-optm-manage.trait.php:793
 #: src/img-optm-manage.trait.php:854
 msgid "Switched to optimized file successfully."
-msgstr "ਅਨੁਕੂਲਿਤ ਫ਼ਾਈਲ ਵਿੱਚ ਸਫਲਤਾਪୂਰਵਕ ਸਵਿੱਚ ਕੀਤਾ ਗਿਆ।"
+msgstr "ਅਨੁਕੂਲਿਤ ਫਾਈਲ 'ਤੇ ਸਫਲਤਾਪੂਰਵਕ ਸਵਿਚ ਕੀਤਾ ਗਿਆ।"
 
 #: src/img-optm-manage.trait.php:815
 msgid "Disabled WebP file successfully."
@@ -2571,7 +2571,7 @@ msgstr "ਇਹਨਾਂ ਸਤਰਾਂ ਵਾਲੇ ਮਾਰਗਾਂ ਨੂ�
 #: tpl/page_optm/settings_tuning_css.tpl.php:78
 #: tpl/page_optm/settings_tuning_css.tpl.php:153
 msgid "Predefined list will also be combined w/ the above settings"
-msgstr "ਪੂਰਵ-ਨਿਰਧਾਰਤ ਸੂਚੀ ਨੂੰ ਵੀ ਉਪਰੋਕਤ ਸੈਟਿੰਗਾਂ ਨਾਲ ਮਿਲਾ ਦਿੱਤਾ ਜਾਵੇ گا"
+msgstr "ਪਹਿਲਾਂ ਤੋਂ ਪਰਿਭਾਸ਼ਿਤ ਸੂਚੀ ਨੂੰ ਉਪਰੋਕਤ ਸੈਟਿੰਗਾਂ ਨਾਲ ਵੀ ਮਿਲਾਇਆ ਜਾਵੇਗਾ"
 
 #: tpl/cache/settings-excludes.tpl.php:45
 msgid "Query strings containing these parameters will not be cached."
@@ -2623,7 +2623,7 @@ msgstr "%1$s ਨੂੰ ਬਾਹਰ ਰੱਖਣ ਲਈ, %2$s ਸ਼ਾਮਲ �
 
 #: tpl/cache/settings-excludes.tpl.php:135
 msgid "Selected roles will be excluded from cache."
-msgstr "ਚੁਣੀਆਂ ਗਈਆਂ ਭੂਮਿਕਾਵਾਂ ਨੂੰ ਕੈਸ਼ ਵਿੱਚੋਂ ਬਾਹਰ ਰੱਖਿਆ ਜਾਵੇ گا।"
+msgstr "ਚੁਣੀਆਂ ਗਈਆਂ ਭੂਮਿਕਾਵਾਂ ਨੂੰ ਕੈਸ਼ ਵਿੱਚੋਂ ਬਾਹਰ ਰੱਖਿਆ ਜਾਵੇਗਾ।"
 
 #: tpl/cache/settings-purge.tpl.php:21
 msgid "All pages"
@@ -2687,7 +2687,7 @@ msgstr "ਜੇਕਰ ਹੋਮ ਜਾਂ ਮੁੱਖ ਪੰਨਿਆਂ ਤੋ�
 
 #: tpl/cache/settings-purge.tpl.php:56
 msgid "Other checkboxes will be ignored."
-msgstr "ਹੋਰ ਚੈੱਕਬਾਕਸਾਂ ਨੂੰ ਅਣਡਿੱਠ ਕੀਤਾ ਜਾਵੇ گا।"
+msgstr "ਹੋਰ ਚੈੱਕਬਾਕਸਾਂ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ।"
 
 #: tpl/cache/settings-purge.tpl.php:57
 msgid "Select only the archive types that are currently used, the others can be left unchecked."
@@ -3175,7 +3175,7 @@ msgstr "ਦੱਸੋ ਕਿ ਕਿਹੜੇ HTML ਐਲੀਮੈਂਟ ਐਟਰ
 #: tpl/cdn/other.tpl.php:137
 #: tpl/img_optm/settings.tpl.php:150
 msgid "Only attributes listed here will be replaced."
-msgstr "ਸਿਰਫ਼ ਇੱਥੇ ਸੂਚੀਬੱਧ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨੂੰ ਹੀ ਬਦਲਿਆ ਜਾਵੇ گا।"
+msgstr "ਕੇਵਲ ਇੱਥੇ ਸੂਚੀਬੱਧ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਹੀ ਬਦਲੀਆਂ ਜਾਣਗੀਆਂ।"
 
 #: tpl/cdn/other.tpl.php:141
 #: tpl/img_optm/settings.tpl.php:151
@@ -3884,7 +3884,7 @@ msgstr "ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਇੱਕ ਵਾਧੂ ਆਊਟਗ�
 
 #: tpl/general/settings.tpl.php:103
 msgid "Please make sure this IP is the correct one for visiting your site."
-msgstr "ਕਿਰਪਾ করে ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਇਹ IP ਤੁਹਾਡੀ ਸਾਈਟ 'ਤੇ ਜਾਣ ਲਈ ਸਹੀ ਹੈ।"
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਇਹ IP ਤੁਹਾਡੀ ਸਾਈਟ 'ਤੇ ਜਾਣ ਲਈ ਸਹੀ ਹੈ।"
 
 #: tpl/general/settings.tpl.php:118
 msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
@@ -3977,7 +3977,7 @@ msgstr "ਸੌਫਟ ਰੀਸੈੱਟ ਓਪਟੀਮਾਈਊਗੇਸ਼ਨ 
 
 #: tpl/img_optm/settings.tpl.php:34
 msgid "Automatically request optimization via cron job."
-msgstr "ਕ੍ਰਾਨ ਜੌਬ ਰਾਹੀਂ ਆਪਣੇ-आप ਓਪਟੀਮਾਈਊਜ਼ੇਸ਼ਨ ਲਈ ਬੇਨਤੀ ਕਰੋ।"
+msgstr "ਕ੍ਰੌਨ ਜੌਬ ਰਾਹੀਂ ਆਪਣੇ ਆਪ ਔਪਟੀਮਾਈਊਸ਼ਨ ਲਈ ਬੇਨਤੀ ਕਰੋ।"
 
 #: tpl/img_optm/settings.tpl.php:47
 msgid "Optimize images and save backups of the originals in the same folder."
@@ -4285,7 +4285,7 @@ msgstr "ਕੈਚਿੰਗ ਫੰਕਸ਼ਨਾਂ ਦੀ ਵਰਤੋਂ ਕ�
 
 #: tpl/inc/check_cache_disabled.php:25
 msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
-msgstr "ਕਿਰਪਾ করে ਸਰਵਰ ਪੱਧਰ 'ਤੇ LSCache ਮੋਡੀਊਲ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ, ਜਾਂ ਆਪਣੇ ਹੋਸਟਿੰਗ ਪ੍ਰਦਾਤਾ ਨੂੰ ਕਹੋ।"
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਸਰਵਰ ਪੱਧਰ 'ਤੇ LSCache ਮੋਡਿਊਲ ਨੂੰ ਸਕ੍ਰਿਯ ਕਰੋ, ਜਾਂ ਆਪਣੇ ਹੋਸਟਿੰਗ ਪ੍ਰਦਾਤਾ ਤੋਂ ਪੁੱਛੋ।"
 
 #: tpl/inc/check_cache_disabled.php:31
 msgid "Please enable Zinn® Cache Engine in the plugin settings."
@@ -4536,7 +4536,7 @@ msgstr "%s ਕਤਾਰ ਹੱਥੀਂ ਚਲਾਓ"
 #: tpl/page_optm/settings_css.tpl.php:178
 #, php-format
 msgid "Inline UCSS to reduce the extra CSS file loading. This option will not be automatically turned on for %1$s pages. To use it on %1$s pages, please set it to ON."
-msgstr "ਵਾਧੂ CSS ਫਾਈਲ ਲੋਡਿੰਗ ਨੂੰ ਘਟਾਉਣ ਲਈ UCSS ਨੂੰ ਇਨਲਾਈਨ ਕਰੋ। ਇਹ ਵਿਕਲਪ %1$s ਪੰਨਿਆਂ ਲਈ ਆਪਣੇ ਆਪ ਚਾਲੂ ਨਹੀਂ ਕੀਤਾ ਜਾਵੇਗਾ। ਇਸਨੂੰ %1$s ਪੰਨਿਆਂ 'ਤੇ ਵਰਤਣ ਲਈ, ਕਿਰਪਾ করে ਇਸਨੂੰ ON 'ਤੇ ਸੈੱਟ ਕਰੋ।"
+msgstr "ਵਾਧੂ CSS ਫਾਈਲ ਲੋਡਿੰਗ ਨੂੰ ਘਟਾਉਣ ਲਈ UCSS ਨੂੰ ਇਨਲਾਈਨ ਕਰੋ। ਇਹ ਵਿਕਲਪ %1$s ਪੰਨਿਆਂ ਲਈ ਸਵੈਚਲਿਤ ਤੌਰ 'ਤੇ ਚਾਲੂ ਨਹੀਂ ਕੀਤਾ ਜਾਵੇਗਾ। %1$s ਪੰਨਿਆਂ 'ਤੇ ਇਸਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ ਇਸਨੂੰ ਚਾਲੂ (ON) 'ਤੇ ਸੈੱਟ ਕਰੋ।"
 
 #: tpl/page_optm/settings_css.tpl.php:181
 #, php-format
@@ -4833,7 +4833,7 @@ msgstr "ਚਰ %s ਨੂੰ ਅਨੁਸਾਰੀ ਚਿੱਤਰ ਵਿਸ਼�
 #: tpl/page_optm/settings_media.tpl.php:93
 #, php-format
 msgid "Variables %s will be replaced with the configured background color."
-msgstr "ਚੱਲਣਯੋਗ (variables) %s ਨੂੰ ਕੌਂਫਿਗਰ ਕੀਤੇ ਪਿਛੋਕੜ ਰੰਗ (background color) ਨਾਲ ਬਦਲ ਦਿੱਤਾ ਜਾਵੇ گا।"
+msgstr "ਚੱਲ-ਅੰਕ %s ਨੂੰ ਕੌਂਫਿਗਰ ਕੀਤੇ ਪਿਛੋਕੜ ਰੰਗ ਨਾਲ ਬਦਲ ਦਿੱਤਾ ਜਾਵੇਗਾ।"
 
 #: tpl/page_optm/settings_media.tpl.php:107
 msgid "Specify the responsive placeholder SVG color."
@@ -4993,7 +4993,7 @@ msgstr "ਕੇਵਲ ਮਹਿਮਾਨ (ਲੌਗ ਇਨ ਨਾ ਹੋਏ) ਵ�
 
 #: tpl/page_optm/settings_tuning.tpl.php:156
 msgid "Selected roles will be excluded from all optimizations."
-msgstr "ਚੁਣੀਆਂ ਗਈਆਂ ਭੂਮਿਕਾਵਾਂ ਨੂੰ ਸਾਰੀਆਂ ਅਨੁਕੂਲਤਾਵਾਂ ਵਿੱਚੋਂ ਬਾਹਰ ਰੱਖਿਆ ਜਾਵੇ گا।"
+msgstr "ਚੁਣੀਆਂ ਗਈਆਂ ਭੂਮਿਕਾਵਾਂ ਨੂੰ ਸਾਰੀਆਂ ਅਨੁਕੂਲਤਾਵਾਂ ਤੋਂ ਬਾਹਰ ਰੱਖਿਆ ਜਾਵੇਗਾ।"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:17
 msgid "Tuning CSS Settings"
@@ -5239,7 +5239,7 @@ msgstr "ਇਸ ਪ੍ਰੀਸੈਟ ਲਈ ਲਗਭਗ ਯਕੀਨੀ ਤੌ�
 
 #: tpl/presets/standard.tpl.php:85
 msgid "Enables the maximum level of optimizations for improved page speed scores. Some of them need an online generation service, which is not included in this plugin, and those have no effect."
-msgstr "ਬﻬਤਰ ਪੇਜ ਸਪੀਡ ਸਕੋਰਾਂ ਲਈ ਆਪਟੀਮਾਈਜ਼ੇਸ਼ਨ ਦੇ ਵੱਧ ਤੋਂ ਵੱਧ ਪੱਧਰ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਂਦਾ ਹੈ। ਇਹਨਾਂ ਵਿੱਚੋਂ ਕੁਝ ਨੂੰ ਇੱਕ ਔਨਲਾਈਨ ਜਨਰੇਸ਼ਨ ਸੇਵਾ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ, ਜੋ ਕਿ ਇਸ ਪਲੱਗਇਨ ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ ਹੈ, ਅਤੇ ਉਹਨਾਂ ਦਾ ਕੋਈ ਪ੍ਰਭਾਵ ਨਹੀਂ ਹੁੰਦਾ ਹੈ।"
+msgstr "ਬਿਹਤਰ ਪੇਜ ਸਪੀਡ ਸਕੋਰਾਂ ਲਈ ਆਪਟੀਮਾਈਜ਼ੇਸ਼ਨ ਦੇ ਵੱਧ ਤੋਂ ਵੱਧ ਪੱਧਰ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਂਦਾ ਹੈ। ਇਹਨਾਂ ਵਿੱਚੋਂ ਕੁਝ ਨੂੰ ਇੱਕ ਔਨਲਾਈਨ ਜਨਰੇਸ਼ਨ ਸੇਵਾ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ, ਜੋ ਇਸ ਪਲੱਗਇਨ ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ ਹੈ, ਅਤੇ ਉਹਨਾਂ ਦਾ ਕੋਈ ਪ੍ਰਭਾਵ ਨਹੀਂ ਹੁੰਦਾ।"
 
 #: tpl/presets/standard.tpl.php:92
 msgid "Zinn® Cache Engine Standard Presets"
@@ -5446,7 +5446,7 @@ msgstr "ਇਹ ਸਾਰੀਆਂ ਸੈਟਿੰਗਾਂ ਨੂੰ ਮੂਲ �
 
 #: tpl/toolbox/import_export.tpl.php:70
 msgid "Are you sure you want to reset all settings back to the default settings?"
-msgstr "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਸਾਰੀਆਂ ਸੈਟਿੰਗਾਂ ਨੂੰ ਮੂଳ (ਡਿਫੌਲਟ) ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਰੀਸੈਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+msgstr "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਸਾਰੀਆਂ ਸੈਟਿੰਗਾਂ ਨੂੰ ਮੁੜ-ਮੂਲ ਸੈਟਿੰਗਾਂ 'ਤੇ ਰੀਸੈੱਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
 #: tpl/toolbox/import_export.tpl.php:71
 msgid "Reset Settings"
@@ -5903,7 +5903,7 @@ msgstr "ਉਹ ਫ਼ਾਈਲ ਸੈਟਿੰਗਜ਼ ਐਕਸਪੋਰਟ �
 
 #: zinn/class-zinn-cache-pro-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "वह ਫ਼ਾਈਲ Zinn® ਸੈਟਿੰਗਾਂ ਦੀ ਐਕਸਪੋਰਟ ਨਹੀਂ ਹੈ।"
+msgstr "ਉਹ ਫ਼ਾਈਲ Zinn® ਸੈਟਿੰਗਾਂ ਦਾ ਐਕਸਪੋਰਟ ਨਹੀਂ ਹੈ।"
 
 #. translators: %s: the plugin slug the file was exported from.
 #: zinn/class-zinn-cache-pro-admin-ui.php:1286

@@ -7,7 +7,7 @@ Tags: cache, page cache, object cache, performance, optimization
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.7
+Stable tag: 1.2.8
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -94,6 +94,9 @@ This plugin talks to Zinn Digital®'s API on your behalf.
 
 
 == Changelog ==
+
+= 1.2.8 =
+* Translations: a word written in the wrong alphabet (for example a Korean word inside a Malayalam sentence, or an Urdu word ending a Punjabi one) is corrected in every language that had one. Each affected string was translated again and checked.
 
 = 1.2.7 =
 * Removed the OptimaX screen. Upstream ships it unfinished, as a stub with nothing behind it, and it reported on a QUIC.cloud service this fork does not use.

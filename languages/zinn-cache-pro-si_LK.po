@@ -733,7 +733,7 @@ msgstr "අද දින සඳහා වූ ඔබගේ සියලු දෛ
 #: src/error.cls.php:75
 #: src/error.cls.php:88
 msgid "Learn more or purchase additional quota."
-msgstr "ተጨማሪ කෝටාවක් මිලදී ගන්න හෝ වැඩිදුර ඉගෙන ගන්න."
+msgstr "තවදුරටත් දැනගන්න හෝ අමතර ධාරිතාවක් (quota) මිලදී ගන්න."
 
 #: src/error.cls.php:83
 msgid "You have used all of your quota left for current service this month."
@@ -877,7 +877,7 @@ msgstr "ෆෝල්ඩරය නොපවතී: %s"
 #: src/file.cls.php:154
 #, php-format
 msgid "Can not create folder: %1$s. Error: %2$s"
-msgstr "תיור තැනීමට නොහැක: %1$s. දෝෂය: %2$s"
+msgstr "ගොනුව සෑදිය නොහැක: %1$s. දෝෂය: %2$s"
 
 #: src/file.cls.php:162
 #, php-format
@@ -2011,7 +2011,7 @@ msgstr "දැන් WebP ගොනුවේ ප්‍රශස්ත කරන 
 
 #: src/media.cls.php:606
 msgid "Currently using original (unoptimized) version of AVIF file."
-msgstr "현재 AVIF ගොනුවේ මුල් (ශෝධනය නොකළ) අනුවාදය භාවිත කෙරෙමින් පවතී."
+msgstr "දැනට AVIF ගොනුවේ මුල් (ප්‍රශස්ත නොකළ) අනුවාදය භාවිත කෙරේ."
 
 #: src/media.cls.php:607
 msgid "Currently using original (unoptimized) version of WebP file."
@@ -2068,7 +2068,7 @@ msgstr "මොබයිල්"
 #: src/object-cache.cls.php:708
 #, php-format
 msgid "Redis encountered a fatal error: %1$s (code: %2$d)"
-msgstr "Redis වෙත මාරාන්තික දෝෂයක් මුහුණ දී ඇත: %1$s (קוד: %2$d)"
+msgstr "Redis බරපතල දෝෂයකට මුහුණ දුන්නේය: %1$s (කේතය: %2$d)"
 
 #: src/placeholder.cls.php:169
 msgid "LQIP"
@@ -2173,7 +2173,7 @@ msgstr "QUIC.cloud සේවා පෝලිම් සියල්ල හිස�
 
 #: src/task.cls.php:268
 msgid "Every 15 Minutes"
-msgstr "हर මිනිස්සු 15 කට වරක්"
+msgstr "මිනිත්තු 15 කට වරක්"
 
 #: src/task.cls.php:289
 msgid "LiteSpeed Crawler Cron"
@@ -2550,7 +2550,7 @@ msgstr "ඉහත nonces ස්වයංක්‍රීයව ESI බවට ප�
 
 #: tpl/cache/settings-esi.tpl.php:110
 msgid "An optional second parameter may be used to specify cache control. Use a space to separate"
-msgstr "кеache පාලනය සඳහන් කිරීම සඳහා විකල්ප දෙවන පරාමිතියක් භාවිතා කළ හැකිය. වෙන් කිරීමට ඉඩක් භාවිතා කරන්න"
+msgstr "වැලක්වීම පාලනය සඳහන් කිරීම සඳහා විකල්ප දෙවන පරාමිතියක් භාවිතා කළ හැක. වෙන් කිරීමට අවකාශයක් භාවිතා කරන්න"
 
 #: tpl/cache/settings-esi.tpl.php:113
 #: tpl/cache/settings-purge.tpl.php:111
@@ -2623,7 +2623,7 @@ msgstr "%1$s බැහැර කිරීමට, %2$s ඇතුළත් කර�
 
 #: tpl/cache/settings-excludes.tpl.php:135
 msgid "Selected roles will be excluded from cache."
-msgstr "තෝරාගත් භූමිකාවන් කෑෂයෙන් বাদ කරනු ලැබේ."
+msgstr "තෝරාගත් භූමිකාවන් හැඹිලියෙන් (cache) ඉවත් කරනු ඇත."
 
 #: tpl/cache/settings-purge.tpl.php:21
 msgid "All pages"
@@ -3605,7 +3605,7 @@ msgstr "PAYG ශේෂය"
 #: tpl/dash/network_dash.tpl.php:109
 #, php-format
 msgid "This Month Usage: %s"
-msgstr "ഈ මාසයේ භාවිතය: %s"
+msgstr "මෙම මාසයේ භාවිතය: %s"
 
 #: tpl/dash/network_dash.tpl.php:111
 msgid "Pay as You Go Usage Statistics"
@@ -3803,7 +3803,7 @@ msgstr "විජට් හැඹිලි TTL"
 
 #: tpl/esi_widget_edit.php:81
 msgid "Recommended value: 28800 seconds (8 hours)."
-msgstr "सिਫ਼ارish අගය: තත්පර 28800 (පැය 8)."
+msgstr "නිර්දේශිත අගය: තත්පර 28800 (පැය 8)."
 
 #: tpl/esi_widget_edit.php:82
 msgid "A TTL of 0 indicates do not cache."
@@ -4065,7 +4065,7 @@ msgstr "පින්තූර ප්‍රශස්තකරණය"
 #: tpl/img_optm/summary.tpl.php:63
 #, php-format
 msgid "You can request a maximum of %s images at once."
-msgstr "आपको එකවර උපරිම %s ප්‍රතිරූප සංඛ්‍යාවක් ඉල්ලා සිටිය හැක."
+msgstr "ඔunට එකවර උපරිම %s ප්‍රතිරූප සංඛ්‍යාවක් ඉල්ලා සිටිය හැක."
 
 #: tpl/img_optm/summary.tpl.php:68
 msgid "To make sure our server can communicate with your server without any issues and everything works fine, for the few first requests the number of image groups allowed in a single request is limited."
@@ -4366,7 +4366,7 @@ msgstr "Zinn® Cache Engine ප්ලගිනය පිටු හැඹිල�
 
 #: tpl/inc/show_display_installed.php:29
 msgid "However, there is no way of knowing all the possible customizations that were implemented."
-msgstr "කෙසේ වෙතත්, ක්‍රියාත්මක කරන ලද සියලුම ممکن අභිරුචිකරණයන් දැන ගැනීමට ක්‍රමයක් නොමැත."
+msgstr "කෙසේ වෙතත්, ක්‍රියාත්මක කරන ලද සියලුම කළ හැකි අභිරුචිකරණයන් කුමන ඒවාදැයි දැන ගැනීමට ක්‍රමයක් නොමැත."
 
 #: tpl/inc/show_display_installed.php:30
 msgid "For that reason, please test the site to make sure everything still functions properly."
@@ -4569,7 +4569,7 @@ msgstr "විවේචනාත්මක CSS ස්වයංක්‍රීය�
 #: tpl/page_optm/settings_css.tpl.php:220
 #, php-format
 msgid "When this option is turned %s, it will also load Google Fonts asynchronously."
-msgstr "ഈ විකල්පය %s කර ඇති විට, එය Google Fonts අසමමුහුර්තව (asynchronously) පූරණය කරනු ඇත."
+msgstr "මෙම විකල්පය %s කර ඇති විට, එය Google Fonts අසමමුහුර්තව (asynchronously) පූරණය කරනු ඇත."
 
 #: tpl/page_optm/settings_css.tpl.php:224
 #, php-format
@@ -4858,7 +4858,7 @@ msgstr "විශාල අංකයක් මඟින් ඉහළ විභ�
 #: tpl/page_optm/settings_media.tpl.php:141
 #, php-format
 msgid "Changes to this setting do not apply to already-generated LQIPs. To regenerate existing LQIPs, please %s first from the admin bar menu."
-msgstr "ഈ සැකසුමේ වෙනස්කම් දැනටමත් ජනනය කර ඇති LQIP සඳහා අදාළ නොවේ. පවතින LQIP නැවත ජනනය කිරීමට, කරුණාකර පළමුව පරිපාලක තීරු මෙනුවෙන් %s කරන්න."
+msgstr "මෙම සැකසුමේ වෙනස්කම් දැනටමත් ජනනය කර ඇති LQIP සඳහා අදාළ නොවේ. පවතින LQIP නැවත ජනනය කිරීමට, කරුණාකර පළමුව පරිපාලක තීරු මෙනුවෙන් %s කරන්න."
 
 #: tpl/page_optm/settings_media.tpl.php:154
 msgid "pixels"
@@ -5113,7 +5113,7 @@ msgstr "වැඩි TTL"
 
 #: tpl/presets/standard.tpl.php:24
 msgid "This no-risk preset is appropriate for all websites. Good for new users, simple websites, or cache-oriented development."
-msgstr "ഈ අවදානම් රහිත පෙරසැකසුම සියලුම වෙබ් අඩවි සඳහා සුදුසු වේ. නව පරිශීලකයින්ට, සරල වෙබ් අඩවි සඳහා හෝ හැඹිලි-පාදක සංවර්ධනය සඳහා හොඳය."
+msgstr "මෙම අවදානම් රහිත පෙරසැකසුම සියලුම වෙබ් අඩවි සඳහා සුදුසු වේ. නව පරිශීලකයින්ට, සරල වෙබ් අඩවි සඳහා හෝ හැඹිලි (cache) මත පදනම් වූ සංවර්ධනය සඳහා හොඳය."
 
 #: tpl/presets/standard.tpl.php:25
 msgid "Only basic caching features are enabled. Every option in this preset works without any online service."
@@ -5899,7 +5899,7 @@ msgstr "එම ගොනුව කියවිය නොහැකි විය. 
 
 #: zinn/class-zinn-cache-pro-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "ആ ගොනුව සැකසුම් අපනයනයක් වීම සඳහා ඉතා විශාල වැඩි ය."
+msgstr "එම ගොනුව සැකසීම් අපනයනයක් වීමට නොහැකි තරම් විශාලය."
 
 #: zinn/class-zinn-cache-pro-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
@@ -5909,7 +5909,7 @@ msgstr "සංචිත ගොනුවක් Zinn® සැකසුම් අ�
 #: zinn/class-zinn-cache-pro-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "그 ගොනුව වෙනත් ප්ලගීනකින් (%s) අපනයනය කරන ලද්දක් වන බැවින්, එය මෙහි ආනයනය කිරීම මඟින් මෙම ප්ලගීනයට අවබෝධ නොවන සැකසුම් ගබඩා කරනු ඇත."
+msgstr "එම ගොනුව වෙනත් ප්ලගිනයකින් (%s) අපනයනය කර ඇති බැවින්, එය මෙතැනට ආනයනය කිරීමෙන් මෙම ප්ලගිනයට තේරුම් ගත නොහැකි සැකසීම් ගබඩා වනු ඇත."
 
 #. translators: %d: how many settings were imported.
 #: zinn/class-zinn-cache-pro-admin-ui.php:1316
@@ -5959,7 +5959,7 @@ msgstr "%sකට පෙර අවfian වරට පරීක්ෂා කරන 
 
 #: zinn/class-zinn-cache-pro-connection.php:251
 msgid "(opens in a new tab)"
-msgstr "(새 ටැබයක විවෘත වේ)"
+msgstr "(නව ටැබ් එකක විවෘත වේ)"
 
 #: zinn/class-zinn-cache-pro-diagnostics.php:199
 msgid "Send this to Zinn® support"

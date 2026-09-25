@@ -604,7 +604,7 @@ msgstr "क्रलर अक्षम गरिएको सूची खा�
 
 #: src/crawler.cls.php:324
 msgid "Started async crawling"
-msgstr "异步 क्रलिङ सुरु भयो"
+msgstr "असिंक क्रलिङ सुरु गरियो"
 
 #: src/crawler.cls.php:1310
 msgid "Guest"
@@ -5674,7 +5674,7 @@ msgstr "%s डाइरेक्टरीमा फाइलहरूको श�
 
 #: tpl/toolbox/settings-debug.tpl.php:83
 msgid "To prevent filling up the disk, this setting should be OFF when everything is working."
-msgstr "डिस्क भरिनबाट जोगाउन, सबै कुरा ठीकଠक चलिरहेको बेला यो सेटिङ बन्द (OFF) हुनुपर्छ।"
+msgstr "डिस्क भरिनबाट रोक्नको लागि, सबै कुराले सही रूपमा काम गरिरहेको बेला यो सेटिङ बन्द (OFF) हुनुपर्छ।"
 
 #: tpl/toolbox/settings-debug.tpl.php:84
 msgid "The Admin IP option will only output log messages on requests from admin IPs listed below."

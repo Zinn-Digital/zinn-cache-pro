@@ -2888,7 +2888,7 @@ msgstr "எச்சரிக்கை: .htaccess உள்நுழைவு �
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:102
 msgid "SYNTAX: alphanumeric and \"_\". No spaces and case sensitive."
-msgstr "구문: இலக்க-எழுத்து மற்றும் \"_\". இடைவெளிகள் இல்லை மற்றும் எழுத்து வழக்கு முக்கியமானது."
+msgstr "SYNTAX: எழுத்து-எண் மற்றும் \"_\". இடைவெளிகள் இல்லை மற்றும் எழுத்து வடிவம் முக்கியமானது."
 
 #: tpl/cache/settings_inc.login_cookie.tpl.php:104
 msgid "You can list the 3rd party vary cookies here."
@@ -2962,7 +2962,7 @@ msgstr "%1$s க்கான இயல்புநிலை போர்ட் %
 
 #: tpl/cache/settings_inc.object.tpl.php:164
 msgid "Default TTL for cached objects."
-msgstr "แคश செய்யப்பட்ட பொருட்களுக்கான இயல்புநிலை TTL."
+msgstr "சேமிக்கப்பட்ட பொருட்களுக்கான இயல்புநிலை TTL."
 
 #. translators: %s: SASL
 #: tpl/cache/settings_inc.object.tpl.php:180
@@ -4090,7 +4090,7 @@ msgstr "%d விநாடி(களில்) கிடைக்கும்"
 
 #: tpl/img_optm/summary.tpl.php:93
 msgid "Only press the button if the pull cron job is disabled."
-msgstr "পুল கிரான் வேலை முடக்கப்பட்டிருந்தால் மட்டுமே பொத்தானை அழுத்தவும்."
+msgstr "புல் கிரான் வேலை (pull cron job) முடக்கப்பட்டிருந்தால் மட்டுமே பொத்தானை அழுத்தவும்."
 
 #: tpl/img_optm/summary.tpl.php:93
 msgid "Images will be pulled automatically if the cron job is running."

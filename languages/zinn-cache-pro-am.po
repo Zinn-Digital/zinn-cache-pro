@@ -847,11 +847,11 @@ msgstr "ከሃሽ አለመጣጣም የተነፃተ የመመለሻ ማረጋ�
 
 #: src/error.cls.php:206
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
-msgstr "ወደ 域 (domain)ዎ የተደረገው የጥሪ መልስ (callback) ማረጋገጫ አልተሳካም። እባክዎ አገልጋዮቻችንን የሚያግድ ፋየርዎል (firewall) አለመኖሩን ያረጋግጡ።"
+msgstr "ወደ ጎራዎ የተደረገው የጥሪ መልስ (callback) ማረጋገጫ አልተሳካም። እባክዎ ሰርቨሮቻችንን የሚያግድ ፋየርዎል (firewall) አለመኖሩን ያረጋግጡ።"
 
 #: src/error.cls.php:211
 msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
-msgstr "ወደ 域 domain የተደረገው የጥሪ ማረጋገጫ (callback validation) አልተሳካም። እባክዎ አገልጋዮቻችንን የሚያግድ ፋየርዎል (firewall) አለመኖሩን ያረጋግጡ። የምላሽ ኮድ፡"
+msgstr "ወደ ጎራዎ የተደረገው የጥሪ መልስ (callback) ማረጋገጫ አልተሳካም። እባክዎ አገልጋዮቻችንን የሚያግድ ፋየርዎል (firewall) አለመኖሩን ያረጋግጡ። የምላሽ ኮድ፦"
 
 #: src/error.cls.php:216
 msgid "Your domain has been forbidden from using our services due to a previous policy violation."
@@ -877,12 +877,12 @@ msgstr "ፎልደሩ አይገኝም፦ %s"
 #: src/file.cls.php:154
 #, php-format
 msgid "Can not create folder: %1$s. Error: %2$s"
-msgstr "תי (መፍጠር) አልተቻለም: %1$s. ስህተት: %2$s"
+msgstr "ፎልደር መፍጠር አልተቻለም፦ %1$s። ስህተት፦ %2$s"
 
 #: src/file.cls.php:162
 #, php-format
 msgid "Folder is not writable: %s."
-msgstr "תיпкаФ  በመፃፍ  ላይ  አይደለም፡  %s."
+msgstr "ፎልደሩ ሊጻፍበት አይችልም፦ %s።"
 
 #: src/file.cls.php:168
 #: src/file.cls.php:172
@@ -1153,7 +1153,7 @@ msgstr "የAVIF ፋይል በተሳካ ሁኔታ ተነቅቷል።"
 
 #: src/img-optm-manage.trait.php:848
 msgid "Restored original file successfully."
-msgstr "मू::ድ:: ኦሪጅናል ፋይሉ በተሳካ ሁኔታ ተመልሷል።"
+msgstr "የመጀመሪያው ፋይል በስኬት ተመልሷል።"
 
 #: src/img-optm-manage.trait.php:913
 msgid "Reset the optimized data successfully."
@@ -1550,7 +1550,7 @@ msgstr "Google ፎንቶችን ባልተጣጣመ ጊዜያዊ ሂደት (Asynch
 
 #: src/lang.cls.php:184
 msgid "Remove Google Fonts"
-msgstr "Google 폰트 አስወግድ"
+msgstr "Google Fonts አስወግድ"
 
 #: src/lang.cls.php:185
 msgid "Critical CSS Rules"
@@ -1968,7 +1968,7 @@ msgstr "የተመቻቸውን ስሪት ለመቀየር እዚህ ጠቅ ያድ�
 #: src/media.cls.php:542
 #, php-format
 msgid "Original file reduced by %1$s (%2$s)"
-msgstr "मू_ሰነ_ደብዳቤው_በ%1$s (%2$s) ቀንሷል"
+msgstr "የመጀመሪያው ፋይል በ%1$s (%2$s) ቀንሷል"
 
 #: src/media.cls.php:552
 #, php-format
@@ -2224,7 +2224,7 @@ msgstr "ጋሪውን ለመፈተሽ %sየሚጠየቁ ጥያቄዎችን%s ይ�
 
 #: thirdparty/woocommerce.content.tpl.php:36
 msgid "By default, the My Account, Checkout, and Cart pages are automatically excluded from caching. Misconfiguration of page associations in WooCommerce settings may cause some pages to be erroneously excluded."
-msgstr "በነባሪነት፣ የእኔ መለያ (My Account)፣ ክፍያ መፈጸሚያ (Checkout) እና የዕቃ መጫኛ (Cart) ገጾች ከካሽንግ (caching) በራሳቸው የተገለሉ ናቸው። በWooCommerce መቼቶች ውስጥ የገጽ ተያያዥነቶች መሳሳት ചില ገጾች በስህተት እንዲገለሉ ሊያደርግ ይችላል።"
+msgstr "በነባሪነት የ«የእኔ መለያ» (My Account)፣ የ«መክፈያ» (Checkout) እና የ«ሰንጠረዥ» (Cart) ገጾች ከማሸግ (caching) በራስ-ሰር ይገለላሉ። በWooCommerce ቅንብሮች ውስጥ የገጽ ማህበሮች የተሳሳተ አወቃቀር አንዳንድ ገጾች በስህተት እንዲገለሉ ሊያደርግ ይችላል።"
 
 #: thirdparty/woocommerce.content.tpl.php:44
 msgid "Product Update Interval"
@@ -2776,7 +2776,7 @@ msgstr "ብጁ ራስጌዎችን በማዋቀር ላይ ላይ"
 
 #: tpl/cache/settings_inc.browser.tpl.php:41
 msgid "Browser caching stores static files locally in the user's browser. Turn on this setting to reduce repeated requests for static files."
-msgstr "የብራውዘር መሸጎጫ (캐시) የማይንቀሳቀሱ ፋይሎችን በተጠቃሚው ብራውዘር ውስጥ በአካባቢያዊ ያከማቻል። የማይንቀሳቀሱ ፋይሎችን በተደጋጋሚ የሚጠየቁ ጥያቄዎችን ለመቀነስ ይህንን ቅንብር ያብሩ።"
+msgstr "የአሰሳ ማህደረ ትውስታ ስታቲክ ፋይሎችን በተጠቃሚው አሳሽ ውስጥ በአካባቢው ያከማቻል። ለስታቲክ ፋይሎች የሚደረጉ ተደጋጋሚ ጥያቄዎችን ለመቀነስ ይህንን ቅንብር ያብሩ።"
 
 #. translators: %s: Link tags
 #: tpl/cache/settings_inc.browser.tpl.php:46
@@ -3996,7 +3996,7 @@ msgstr "ይህ የማይቀለበስ ነው።"
 #: tpl/img_optm/settings.tpl.php:66
 #: tpl/img_optm/summary.tpl.php:245
 msgid "You will be unable to Revert Optimization once the backups are deleted!"
-msgstr "បម្រรอง ማስቀመጫዎቹ ከተሰረዙ ማመቻቸትን መቀልበስ አይችሉም!"
+msgstr "ተኬክቦቹ አንዴ ከተሰረዙ በኋላ ማሻሻያውን መመለስ አይችሉም!"
 
 #: tpl/img_optm/settings.tpl.php:80
 msgid "Optimize images using lossless compression."
@@ -4313,7 +4313,7 @@ msgstr "የZinn® መሸጎጫ ሞተርን ያሰናክሉ"
 
 #: tpl/inc/modal.deactivation.php:22
 msgid "The deactivation is temporary"
-msgstr "غیر አባሪ መሠረዝ ጊዜያዊ ነው"
+msgstr "ማቦዘኑ ጊዜያዊ ነው"
 
 #: tpl/inc/modal.deactivation.php:28
 msgid "Site performance is worse"
@@ -5013,7 +5013,7 @@ msgstr "የተዘረዘሩት የCSS ፋይሎች ከUCSS ይገለላሉ እና
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:67
 msgid "List the CSS selectors whose styles should always be included in UCSS."
-msgstr "样式 በ UCSS ውስጥ ሁል ጊዜ መካተት ያለባቸውን የCSS መራጮች (selectors) ዘርዝር።"
+msgstr "styles ቸው ሁልጊዜ በ UCSS ውስጥ መካተት የሚገባቸውን የ CSS መራጮች (selectors) ዘርዝር።"
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:69
 #: tpl/page_optm/settings_tuning_css.tpl.php:144

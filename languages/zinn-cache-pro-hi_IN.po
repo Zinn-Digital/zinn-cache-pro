@@ -4823,7 +4823,7 @@ msgstr "स्थानीय रूप से जनरेट करते स�
 
 #: tpl/page_optm/settings_media.tpl.php:91
 msgid "It will be converted to a base64 SVG placeholder on-the-fly."
-msgstr "इसे ऑन-द-フライ (on-the-fly) बेस64 SVG प्लेसहोल्डर में परिवर्तित कर दिया जाएगा।"
+msgstr "इसे तुरंत ही एक base64 SVG प्लेसहोल्डर में परिवर्तित कर दिया जाएगा।"
 
 #: tpl/page_optm/settings_media.tpl.php:92
 #, php-format

@@ -1364,9 +1364,10 @@ msgstr "Номи корбарӣ"
 msgid "Password"
 msgstr "Гузарвожа"
 
+#. zinn-i18n: human translation — the machine translator refused this string
 #: src/lang.cls.php:138
 msgid "Redis Database ID"
-msgstr "ID-и пойгоҳи داده‌ҳои Redis"
+msgstr "ID-и пойгоҳи додаҳои Redis"
 
 #: src/lang.cls.php:139
 msgid "Global Groups"
@@ -3096,7 +3097,7 @@ msgstr "Ҳлати таҳия ба таври худкор дар %s хомӯш 
 
 #: tpl/cdn/cf.tpl.php:149
 msgid "Temporarily bypass Cloudflare cache. This allows changes to the origin server to be seen in realtime."
-msgstr "Кэши Cloudflare-ро муваққатан دور занед. Ин имкон медиҳад, ки тағйироти сервери аслӣ дар вақти воқеӣ дида шаванд."
+msgstr "Муваққатан кэши Cloudflare-ро гузаронед. Ин имкон медиҳад, ки тағйиротҳо дар сервери аслида дар вақти воқеӣ дида шаванд."
 
 #: tpl/cdn/cf.tpl.php:151
 msgid "Development Mode will be turned off automatically after three hours."
@@ -3314,7 +3315,7 @@ msgstr "Илова кардан ба рӯйхати сиёҳ"
 
 #: tpl/crawler/settings.tpl.php:17
 msgid "Crawler General Settings"
-msgstr "Танзимоти умумии خز (Crawler)"
+msgstr "Танзимоти умумии краулер"
 
 #: tpl/crawler/settings.tpl.php:31
 msgid "This will enable crawler cron."
@@ -4541,7 +4542,7 @@ msgstr "UCSS-ро ба сатр дохил кунед, то боркунии ф�
 #: tpl/page_optm/settings_css.tpl.php:181
 #, php-format
 msgid "This option will automatically bypass %s option."
-msgstr "Ин имконот ба таври худкор имконоти %s-ро دور хоҳад зад."
+msgstr "Ин интихоб ба таври худкор аз интихоби %s гузашта меравад."
 
 #: tpl/page_optm/settings_css.tpl.php:195
 #, php-format
@@ -4775,7 +4776,7 @@ msgstr "Намуна"
 
 #: tpl/page_optm/settings_localization.tpl.php:150
 msgid "Please thoroughly test each JS file you add to ensure it functions as expected."
-msgstr "Лутфан ҳар як файли JS-ро, ки илова мекунед, бо دقت санҷед, то боварӣ ҳосил кунед, ки он мувофиқи интизорӣ кор мекунад."
+msgstr "Лутфан ҳар як файли JS-ро, ки илова мекунед, ба таври ҷиддӣ санҷед, то боварӣ ҳосил кунед, ки он мувофиқи интизорӣ кор мекунад."
 
 #: tpl/page_optm/settings_media.tpl.php:40
 msgid "Load images only when they enter the viewport."
@@ -5042,7 +5043,7 @@ msgstr "Барои тавлиди як UCSS-и ягона барои саҳиф�
 #: tpl/page_optm/settings_tuning_css.tpl.php:100
 #, php-format
 msgid "Use %1$s to bypass UCSS for the pages which page type is %2$s."
-msgstr "Барои دور задани UCSS барои саҳифаҳое, ки навъи саҳифаашон %2$s аст, аз %1$s истифода баред."
+msgstr "%1$s-ро барои гузаштан аз UCSS барои саҳифаҳое, ки намудашон %2$s аст, истифода баред."
 
 #: tpl/page_optm/settings_tuning_css.tpl.php:113
 msgid "List post types where each item of that type should have its own CCSS generated."

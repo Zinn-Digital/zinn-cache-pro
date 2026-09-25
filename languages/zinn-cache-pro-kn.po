@@ -146,7 +146,7 @@ msgstr "ಕುಕಿ ಮೌಲ್ಯಗಳು"
 
 #: src/admin-display.cls.php:454
 msgid "Remove cookie simulation"
-msgstr "कुकी ಸಿಮ್ಯುಲೇಶನ್ ಅನ್ನು ತೆಗೆದುಹಾಕಿ"
+msgstr "ಕುಕೀ ಸಿಮ್ಯುಲೇಶನ್ ಅನ್ನು ತೆಗೆದುಹಾಕಿ"
 
 #: src/admin-display.cls.php:455
 msgid "Add new cookie to simulate"
@@ -2232,7 +2232,7 @@ msgstr "ಉತ್ಪತ್ತಿ ನವೀಕರಣ ಮಧ್ಯಂತರ"
 
 #: thirdparty/woocommerce.content.tpl.php:49
 msgid "Purge product on changes to the quantity or stock status."
-msgstr "량이 ಅಥವಾ ಸ್ಟಾಕ್ ಸ್ಥಿತಿಯಲ್ಲಿ ಬದಲಾವಣೆಗಳಾದಾಗ ಉತ್ಪನ್ನವನ್ನು ತೆರವುಗೊಳಿಸಿ."
+msgstr "ಪ್ರಮಾಣ ಅಥವಾ ಸ್ಟಾಕ್ ಸ್ಥಿತಿಯಲ್ಲಿ ಬದಲಾವಣೆಗಳಾದಾಗ ಉತ್ಪನ್ನವನ್ನು ತೆರವುಗೊಳಿಸಿ."
 
 #: thirdparty/woocommerce.content.tpl.php:49
 msgid "Purge categories only when stock status changes."
@@ -2438,7 +2438,7 @@ msgstr "ಬಾಕಿ ಇರುವ ಕಾಮೆಂಟ್‌ಗಳನ್ನು ಹ
 
 #: tpl/cache/settings-cache.tpl.php:86
 msgid "Cache requests made by WordPress REST API calls."
-msgstr "WordPress REST API ಕರೆಗಳಿಂದ ಮಾಡಲಾದ 캐시 ವಿನಂತಿಗಳು."
+msgstr "WordPress REST API ಕರೆಗಳಿಂದ ಮಾಡಲಾದ ಕ್ಯಾಶ್‌ ವಿನಂತಿಗಳು."
 
 #: tpl/cache/settings-cache.tpl.php:99
 msgid "Disabling this option may negatively affect performance."
@@ -2752,7 +2752,7 @@ msgstr "ಫೀಡ್‌ಗಳನ್ನು ಎಷ್ಟು ಸೆಕೆಂಡು�
 #: tpl/cache/settings-ttl.tpl.php:75
 #: tpl/cache/settings-ttl.tpl.php:90
 msgid "If this is set to a number less than 30, feeds will not be cached."
-msgstr "ಇದು 30 ಕ್ಕಿಂತ ಕಡಿಮೆ ಸಂಖ್ಯೆಗೆ ಹೊಂದಿಸಿದ್ದರೆ, ಫೀಡ್‌ಗಳನ್ನು 캐시 (cache) ಮಾಡಲಾಗುವುದಿಲ್ಲ."
+msgstr "ಇದು 30 ಕ್ಕಿಂತ ಕಡಿಮೆ ಸಂಖ್ಯೆಗೆ ಹೊಂದಿಸಿದ್ದರೆ, ಫೀಡ್‌ಗಳನ್ನು ಕ್ಯಾಶ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ."
 
 #: tpl/cache/settings-ttl.tpl.php:89
 msgid "Specify how long, in seconds, REST calls are cached."
@@ -3896,7 +3896,7 @@ msgstr "ಹೊಸ ಆವೃತ್ತಿಯು ಬಿಡುಗಡೆಯಾದಾ�
 
 #: tpl/general/settings_inc.guest.tpl.php:26
 msgid "Guest Mode provides an always cacheable landing page for an automated guest's first time visit, and then attempts to update cache varies via AJAX."
-msgstr "ಅತಿಥಿ ಮೋಡ್ ಸ್ವಯಂಚಾಲಿತ ಅತಿಥಿಯ ಮೊದಲ ಭೇಟಿಗಾಗಿ ಯಾವಾಗಲೂ 캐시 ಮಾಡಬಹುದಾದ ಲ್ಯಾಂಡಿಂಗ್ ಪುಟವನ್ನು ಒದಗಿಸುತ್ತದೆ, ಮತ್ತು ನಂತರ AJAX ಮೂಲಕ 캐시 ವ್ಯತ್ಯಾಸಗಳನ್ನು ನವೀಕರಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತದೆ."
+msgstr "ಅತಿಥಿ ಮೋಡ್ ಸ್ವಯಂಚಾಲಿತ ಅತಿಥಿಯ ಮೊದಲ ಭೇಟಿಗಾಗಿ ಯಾವಾಗಲೂ ಕ್ಯಾಶ್ ಮಾಡಬಹುದಾದ ಲ್ಯಾಂಡing ಪುಟವನ್ನು ಒದಗಿಸುತ್ತದೆ, ಮತ್ತು ನಂತರ AJAX ಮೂಲಕ ಕ್ಯಾಶ್ ಬದಲಾವಣೆಗಳನ್ನು ನವೀಕರಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತದೆ."
 
 #: tpl/general/settings_inc.guest.tpl.php:27
 msgid "This option can help to correct the cache vary for certain advanced mobile or tablet visitors."
@@ -4732,7 +4732,7 @@ msgstr "ಗ್ರಾವತಾರ್‌ಗಳನ್ನು (Globally Recognized Av
 
 #: tpl/page_optm/settings_localization.tpl.php:63
 msgid "Refresh Gravatar cache by cron."
-msgstr "ಕ್ರಾನ್ ಮೂಲಕ ಗ್ರಾವatar (Gravatar) 캐시 ಅನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ."
+msgstr "ಕ್ರಾನ್ ಮೂಲಕ ಗ್ರಾವೆತಾರ್ (Gravatar) ಸಂಗ್ರಹವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ."
 
 #: tpl/page_optm/settings_localization.tpl.php:76
 msgid "Avatar list in queue waiting for update"

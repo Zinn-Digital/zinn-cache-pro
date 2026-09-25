@@ -3135,7 +3135,7 @@ msgstr "જો તમે પારંપરિક કન્ટેન્ટ ડ�
 #: tpl/cdn/other.tpl.php:52
 #, php-format
 msgid "NOTE: Cloudflare does not use CDN Mapping. If you are only using Cloudflare, leave this setting %s."
-msgstr "નોંધ: Cloudflare CDN મેપિંગનો ઉપયોગ કરતું નથી. જો તમે ફક્ત Cloudflare નો ઉપયોગ કરી રહ્યાં છો, તો આ સેટિંગ %s रहने દો."
+msgstr "નોંધ: Cloudflare CDN મેપિંગનો ઉપયોગ કરતું નથી. જો તમે ફક્ત Cloudflare નો ઉપયોગ કરી રહ્યાં છો, તો આ સેટિંગ %s રાખો."
 
 #: tpl/cdn/other.tpl.php:80
 msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
@@ -3356,7 +3356,7 @@ msgstr "આ સુવિધાનો ઉપયોગ કરતા પહેલ�
 #: tpl/crawler/settings.tpl.php:144
 #: tpl/crawler/summary.tpl.php:218
 msgid "Click here to set."
-msgstr "सेट કરવા માટે અહીં ક્લિક કરો."
+msgstr "સેટ કરવા માટે અહીં ક્લિક કરો."
 
 #: tpl/crawler/settings.tpl.php:136
 #, php-format
@@ -3499,7 +3499,7 @@ msgstr "સફળતાપૂર્વક ક્રોલ કર્યું"
 
 #: tpl/crawler/summary.tpl.php:251
 msgid "Run frequency is set by the Interval Between Runs setting."
-msgstr "ரன் આવૃત્તિ રન વચ્ચેના અંતરાલ સેટિંગ દ્વારા સેટ કરવામાં આવે છે."
+msgstr "ચલાવવાની આવર્તન 'રન વચ્ચેનો અંતરાલ' સેટિંગ દ્વારા નક્કી કરવામાં આવે છે."
 
 #: tpl/crawler/summary.tpl.php:254
 msgid "Crawlers cannot run concurrently. If both the cron and a manual run start at similar times, the first to be started will take precedence."
@@ -4144,7 +4144,7 @@ msgstr "બેકઅપ ડિસ્ક સ્પેસની ગણતરી �
 
 #: tpl/img_optm/summary.tpl.php:224
 msgid "Image Thumbnail Group Sizes"
-msgstr "इमेज થંબનેલ જૂથ કદ"
+msgstr "છબી થંબનેલ જૂથ કદ"
 
 #: tpl/img_optm/summary.tpl.php:241
 msgid "Delete all backups of the original images"
@@ -4569,7 +4569,7 @@ msgstr "ક્રોન-આધારિત ક્યૂ દ્વારા પ�
 #: tpl/page_optm/settings_css.tpl.php:220
 #, php-format
 msgid "When this option is turned %s, it will also load Google Fonts asynchronously."
-msgstr "जब આ વિકલ્પ %s ચાલુ કરવામાં આવે છે, ત્યારે તે Google Fonts ને અસિંક્રનસ રીતે પણ લોડ કરશે."
+msgstr "જ્યારે આ વિકલ્પ %s ચાલુ હોય, ત્યારે તે Google Fonts ને અસિંક્રોનસ રીતે પણ લોડ કરશે."
 
 #: tpl/page_optm/settings_css.tpl.php:224
 #, php-format
@@ -4699,7 +4699,7 @@ msgstr "બ્રાઉઝર પર જમણું ક્લિક કરી �
 #: tpl/page_optm/settings_js.tpl.php:66
 #, php-format
 msgid "Include external JS and inline JS in combined file when %1$s is also enabled. This option helps maintain the priorities of JS execution, which should minimize potential errors caused by JS Combine."
-msgstr "जब %1$s પણ સક્ષમ હોય ત્યારે સંયુક્ત ફાઇલમાં બાહ્ય JS અને ઇનલાઇન JS શાામલ કરો. આ વિકલ્પ JS એક્ઝિક્યુશનની પ્રાથમિકતાઓ જાળવવામાં મદદ કરે છે, જે JS કમ્બાઈન દ્વારા થતી સંભવિત ભૂલોને ઘટાડી શકે છે."
+msgstr "જ્યારે %1$s પણ સક્ષમ હોય ત્યારે સંયુક્ત ફાઇલમાં બાહ્ય JS અને ઇનલાઇન JS નો સમાવેશ કરો. આ વિકલ્પ JS એક્ઝિક્યુશનની પ્રાથમિકતાઓને જાળવવામાં મદદ કરે છે, જે JS કમ્બાઇનને કારણે થતી સંભવિત ભૂલોને ન્યૂનતમ કરવામાં મદદ કરશે."
 
 #: tpl/page_optm/settings_js.tpl.php:77
 msgid "Deferred"
@@ -5628,7 +5628,7 @@ msgstr "સાપેક્ષ કે પૂર્ણ URL દ્વારા પ�
 #: tpl/toolbox/purge.tpl.php:224
 #, php-format
 msgid "e.g. Use %1$s or %2$s."
-msgstr "उदा. તરીકે %1$s અથવા %2$s નો ઉપયોગ કરો."
+msgstr "દા.ત. %1$s અથવા %2$s વાપરો."
 
 #: tpl/toolbox/purge.tpl.php:234
 msgid "Purge List"

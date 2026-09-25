@@ -510,7 +510,7 @@ msgstr "Нет доступных облачных узлов."
 
 #: src/cloud-request.trait.php:116
 msgid "In order to use QC services, need a real domain name, cannot use an IP."
-msgstr "Для использования сервисов QC требуется настоящий доменный اسم, использование IP-адреса невозможно."
+msgstr "Для использования услуг QC необходим реальный доменный имя, использование IP-адреса невозможно."
 
 #: src/cloud-request.trait.php:165
 #, php-format
